@@ -341,3 +341,24 @@ table.tb td:first-child{font-weight:700;min-width:6em}
 .qsj .clue{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:10px 13px;margin:7px 0;animation:tin .25s}
 .qsj .clue b{color:var(--purple)}
 @media print{.top,.nav,.tabs,.lh .row,.toasts{display:none!important}main{margin:0;padding:0}.card,.sec-h{box-shadow:none}}
+
+/* Vérifie-toi, lecture, le savais-tu */
+.co.fun{background:#fff7e6;border-color:#f2b400} .co.fun .cl{color:#8a5a00}
+[data-theme=dark] .co.fun,.dark .co.fun{background:#3a2e10;border-color:#c58b00} [data-theme=dark] .co.fun .cl,.dark .co.fun .cl{color:#ffd166}
+.chk{margin:14px 0;padding:12px 14px;border-radius:14px;background:var(--card);box-shadow:0 0 0 2px #7a4fe0 inset}
+.chk .cl{font-size:.72rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:#7a4fe0;margin-bottom:4px}
+.chk .cq{font-weight:700;margin-bottom:8px}
+.chk .copts{display:grid;gap:6px}
+.chk .copts.two{grid-template-columns:1fr 1fr}
+.chk .copt{text-align:left;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:var(--soft2);color:var(--ink);font:inherit;cursor:pointer}
+.chk .copts.two .copt{text-align:center;font-weight:800}
+.chk .copt.ok{background:#e6f6ec;border-color:#1f9d60;color:#0f5534}
+.chk .copt.ko{background:#fdeaea;border-color:#de3b3b;color:#7d1717}
+.chk.done .copt{cursor:default}
+.chk .cex{margin-top:8px;font-size:.92rem}
+.readbar{position:sticky;top:52px;z-index:6;display:flex;align-items:center;gap:8px;margin:0 0 10px;padding:6px 10px;border-radius:10px;background:var(--card);box-shadow:0 1px 6px rgba(0,0,0,.08);font-size:.78rem;font-weight:700}
+.readbar .trk{flex:1;height:6px;border-radius:6px;background:var(--line);overflow:hidden}
+.readbar .trk i{display:block;height:100%;width:0;background:linear-gradient(90deg,#1f9d60,#2f6fde);transition:width .4s}
+.readbar span{white-space:nowrap}
+.sec.read .sec-h .num{background:#1f9d60;color:#fff}
+.secend{height:1px}

@@ -25,7 +25,7 @@
   const fresh = () => ({
     v: 1, created: D.iso(new Date()), onboard: false,
     L: {}, T: {}, M: {}, X: [], days: {}, err: [], cards: {}, cardNew: {}, qs: {}, qa: {}, wrong: {}, cal: {},
-    ann: {}, notes: {}, xp: 0, xpd: {}, bdg: {}, cli: { n: 0, ok: 0, hot: 0, tries: 0 }, ecos: {}, game: { n: 0, pts: 0 },
+    ann: {}, notes: {}, rd: {}, ck: {}, xp: 0, xpd: {}, bdg: {}, cli: { n: 0, ok: 0, hot: 0, tries: 0 }, ecos: {}, game: { n: 0, pts: 0 },
     set: { theme: 'auto', sound: true, confetti: true, conf: true, newCards: 20, cap: 6 },
   });
   let storageOk = true;

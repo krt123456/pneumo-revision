@@ -20,7 +20,7 @@
   const clearTimers = () => { while (timers.length) clearInterval(timers.pop()); };
 
   /* ---------- rendu des fiches ---------- */
-  const CO = { ret: ['★', 'À retenir'], pie: ['✗', 'Piège classique'], pq: ['➜', 'Pourquoi ?'], ast: ['✎', 'Astuce mémo'], crs: ['!', 'Remarque sur le cours'], ex: ['✦', 'Exemple'] };
+  const CO = { ret: ['★', 'À retenir'], pie: ['✗', 'Piège classique'], pq: ['➜', 'Pourquoi ?'], ast: ['✎', 'Astuce mémo'], crs: ['!', 'Remarque sur le cours'], ex: ['✦', 'Exemple'], fun: ['💡', 'Le savais-tu ?'] };
   P.blocks = bs => (bs || []).map(b => {
     if (typeof b === 'string') return '<p>' + md(b) + '</p>';
     const [k, ...a] = b;
@@ -29,6 +29,7 @@
     if (k === 'tab') return '<div class="tbw"><table class="tb"><thead><tr>' + a[0].map(h => '<th>' + md(h) + '</th>').join('') + '</tr></thead><tbody>' +
       a.slice(1).map(r => '<tr>' + r.map(c => '<td>' + md(c) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     if (CO[k]) return '<div class="co ' + k + '"><div class="cl">' + CO[k][0] + ' ' + CO[k][1] + '</div>' + md(a[0]) + '</div>';
+    if (k === 'chk') return '<div class="chk" data-ans="' + esc(a[2]) + '"><div class="cl">⚡ Vérifie-toi</div><div class="cq">' + md(a[0]) + '</div><div class="copts">' + a[1].map((o, j) => '<button type="button" class="copt" data-act="chkopt" data-l="' + 'ABCDE'[j] + '"><b>' + 'ABCDE'[j] + '</b> ' + md(o) + '</button>').join('') + '</div><div class="cex" hidden>' + md(a[3] || '') + '</div></div>';
     if (k === 'fig') return U.fig(a[0], a[1]);
     if (k === 'svg') return U.svgfig(a[0], a[1]);
     if (k === 'calc') return U.calcHTML(a[0]);
@@ -39,8 +40,14 @@
   P.renderFiche = f => {
     let h = '';
     if (f.e) h += '<div class="ess"><h3>⚡ L\'essentiel en 30 secondes</h3><ul>' + f.e.map(x => '<li>' + md(x) + '</li>').join('') + '</ul></div>';
+    let vi = 0;
     (f.s || []).forEach((s, i) => {
-      h += '<section class="sec" style="--sc:' + (SC[s[1]] || SC.navy) + '"><div class="sec-h"><span class="num">' + (i + 1) + '</span><h2>' + md(s[0], true) + '</h2></div><div class="sec-b">' + P.blocks(s[2]) + '</div></section>';
+      h += '<section class="sec" data-si="' + i + '" style="--sc:' + (SC[s[1]] || SC.navy) + '"><div class="sec-h"><span class="num">' + (i + 1) + '</span><h2>' + md(s[0], true) + '</h2></div><div class="sec-b">' + P.blocks(s[2]) + '</div></section>';
+      const hasChk = (s[2] || []).some(b => Array.isArray(b) && b[0] === 'chk');
+      if (i % 2 === 1 && !hasChk && f.v && f.v[vi] && i < f.s.length - 1) {
+        const v = f.v[vi++];
+        h += '<div class="chk chkvf" data-ans="' + (v[1] ? 'V' : 'F') + '"><div class="cl">⚡ Vrai ou faux ?</div><div class="cq">' + md(v[0]) + '</div><div class="copts two"><button type="button" class="copt" data-act="chkopt" data-l="V">Vrai</button><button type="button" class="copt" data-act="chkopt" data-l="F">Faux</button></div><div class="cex" hidden>' + md(v[2] || '') + '</div></div>';
+      }
     });
     return h;
   };
@@ -105,6 +112,15 @@
   ACT.spread = () => { const n = P.spread(3); U.toast(n + ' tâches réparties sur 3 jours, les plus rentables d\'abord'); rerender(); };
   ACT.term = el => U.showTerm(el);
   ACT.unhide = el => el.classList.remove('hid');
+  ACT.chkopt = el => {
+    const box = el.closest('.chk'); if (!box || box.classList.contains('done')) return;
+    const ok = el.dataset.l === box.dataset.ans; box.classList.add('done');
+    el.classList.add(ok ? 'ok' : 'ko');
+    if (!ok) box.querySelectorAll('.copt').forEach(b => { if (b.dataset.l === box.dataset.ans) b.classList.add('ok'); });
+    const ex = box.querySelector('.cex'); ex.hidden = false;
+    ex.innerHTML = '<b>' + (ok ? '✓ Bien vu !' : '✗ Pas tout à fait.') + '</b> ' + ex.innerHTML;
+    if (ok) { P.addXP(2, 'Vérifie-toi'); if (S.set.sound) U.beep(2); }
+  };
   ACT.mk = el => {
     const fig = el.closest('.fig'), i = el.dataset.i;
     fig.querySelectorAll('.mk,.leg li').forEach(x => x.classList.toggle('on', x.dataset.i === i));
@@ -243,6 +259,22 @@
   ACT.lf = el => { lf[el.dataset.k] = el.dataset.v; V.cours(); };
 
   /* ---------- PAGE D'UN COURS ---------- */
+  function readTrack(id, box) {
+    const secs = [...box.querySelectorAll('.sec')]; if (!secs.length) return;
+    const rd = new Set(S.rd[id] || []);
+    const bar = document.createElement('div'); bar.className = 'readbar'; bar.innerHTML = '<b class="trk"><i></i></b><span></span>'; box.prepend(bar);
+    const upd = () => { const r = secs.filter((x, i) => rd.has(i)).length; bar.querySelector('i').style.width = Math.round(r / secs.length * 100) + '%'; bar.querySelector('span').textContent = r === secs.length ? '📗 Fiche lue en entier' : '📖 ' + r + ' / ' + secs.length + ' sections lues'; secs.forEach((x, i) => x.classList.toggle('read', rd.has(i))); };
+    upd();
+    if (!('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return;
+      const i = +e.target.dataset.si; io.unobserve(e.target);
+      if (rd.has(i)) return;
+      rd.add(i); S.rd[id] = [...rd]; P.save(); upd();
+      if (rd.size === secs.length) { U.toast('📗 Fiche lue en entier : +5 XP'); P.addXP(5, 'Fiche lue'); }
+    }), { threshold: 1 });
+    secs.forEach((x, i) => { const m = document.createElement('div'); m.className = 'secend'; m.dataset.si = i; x.appendChild(m); io.observe(m); });
+  }
   V.c = (id, tab) => {
     const l = P.lesson(id); if (!l) { location.hash = '#/cours'; return; }
     const f = P.F[id], st = P.isStudied(id), ls = P.ls(id), c = gc(l);
@@ -269,6 +301,7 @@
       box.innerHTML = f ? P.renderFiche(f) + '<div class="row wrap" style="margin:6px 0 20px">' + (f.p ? '<a class="btn" href="#/c/' + id + '/pieges">⚠️ Voir les pièges</a>' : '') + ((f.v || f.q) ? '<a class="btn purple" href="#/c/' + id + '/quiz">🧠 Me tester</a>' : '') + '</div>' :
         '<div class="card empty">📝 La fiche de ce cours est en préparation.' + (l.pdf ? '<br><br><a class="btn" href="#/c/' + id + '/pdf">Voir la fiche PDF</a>' : '') + '</div>';
       U.bindCalcs(box);
+      if (f) readTrack(id, box);
     } else if (tab === 'pieges') {
       const hide = !!S.set.hideRules;
       box.innerHTML = '<div class="banner info"><span class="bi">🙈</span><div class="grow"><b>Méthode active.</b> Cache les règles, lis le piège et corrige-le de tête, puis touche la règle floue pour vérifier.<div style="margin-top:8px"><button class="btn sm' + (hide ? ' green' : '') + '" data-act="hiderules" data-id="' + id + '">' + (hide ? 'Règles cachées ✓ (montrer)' : 'Cacher les règles') + '</button></div></div></div>' + pieges(f, hide);
