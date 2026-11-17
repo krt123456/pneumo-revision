@@ -1,0 +1,7 @@
+--------- beginning of main
+11-17 05:30:04.110 E/chromium( 3522): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+11-17 05:30:04.112 E/chromium( 3522): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:30:04.112 E/chromium( 3522): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:30:04.112 E/chromium( 3522): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:31:32.014 E/chromium( 6966): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:31:32.014 E/chromium( 6966): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
