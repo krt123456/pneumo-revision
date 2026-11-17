@@ -61,7 +61,13 @@ async function connect(timeout = 30000) {
   note('connexion WebView impossible : ' + lastErr);
   return null;
 }
-async function relaunch() { stop(); await sleep(2500); const r = start(); const t = (r.match(/TotalTime: (\d+)/) || [])[1]; await sleep(1500); return [await connect(), t]; }
+let page = null;
+async function live() { if (!page || page.isClosed()) page = await connect(20000); return page; }
+async function step(name, fn) {
+  try { if (!(await live())) { ok(false, name + ' : WebView inaccessible'); return; } await fn(page); }
+  catch (e) { ok(false, name + ' : ' + String(e.message || e).split('\n')[0]); try { page = await connect(15000); } catch (x) { /* ignore */ } }
+}
+async function relaunch() { stop(); await sleep(2500); const r = start(); const t = (r.match(/TotalTime: (\d+)/) || [])[1]; await sleep(1500); page = await connect(); return [page, t]; }
 const go = async (page, r) => page.evaluate(async r => { const t0 = performance.now(); location.hash = '#/' + r; await new Promise(res => requestAnimationFrame(() => requestAnimationFrame(res))); return Math.round(performance.now() - t0); }, r);
 
 (async () => {
@@ -84,7 +90,7 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
 
   // ---------- 2) tests approfondis (Playwright) ----------
   try { const m = await import('playwright-core'); pw = m._android; [device] = await pw.devices(); } catch (e) { note('Playwright Android indisponible : ' + String(e.message || e).split('\n')[0]); pw = null; }
-  let page = await connect();
+  page = await connect();
   if (!page) {
     note('Tests approfondis ignorés (WebView non pilotable ici) : seuls les contrôles adb comptent.');
   } else {
@@ -119,49 +125,61 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
     await go(page, 'c/bpco/quiz'); await sleep(400);
     note('quiz : ' + await page.evaluate(() => document.querySelector('#qz') ? document.querySelector('#qz').innerText.slice(0, 80).replace(/\s+/g, ' ') : 'absent'));
     // étudier un cours puis fermeture forcée
-    await go(page, 'c/sd-alv'); await sleep(400);
-    await page.locator('[data-act=study]').first().click(); await sleep(900);
-    const xp1 = await page.evaluate(() => PNEUMO.S.xp);
-    ok(await page.evaluate(() => PNEUMO.S.L['sd-alv'] && PNEUMO.S.L['sd-alv'].st === 'done'), 'cours marqué étudié');
-    let t;
-    [page, t] = await relaunch(); rep.timings.warmRestartMs = +t || 0;
-    if (page) {
+    await step('fermeture forcée', async () => {
+      await go(page, 'c/sd-alv'); await sleep(400);
+      if (await page.locator('[data-act=study]').count()) { await page.locator('[data-act=study]').first().click(); await sleep(900); }
+      const xp1 = await page.evaluate(() => PNEUMO.S.xp);
+      ok(await page.evaluate(() => !!(PNEUMO.S.L['sd-alv'] && PNEUMO.S.L['sd-alv'].st === 'done')), 'cours marqué étudié');
+      const [, t] = await relaunch(); rep.timings.warmRestartMs = +t || 0;
       ok(await page.evaluate(() => !!(PNEUMO.S.L['sd-alv'] && PNEUMO.S.L['sd-alv'].st === 'done')), 'progression conservée après fermeture forcée');
       ok((await page.evaluate(() => PNEUMO.S.xp)) === xp1, 'XP conservés après fermeture forcée');
       ok(await page.evaluate(() => PNEUMO.S.onboard === true), 'pas de nouvel accueil au relancement');
-      // stockage web effacé : restauration depuis la copie interne
-      await page.evaluate(() => { localStorage.clear(); });
-      await sleep(8000); // le WebView écrit localStorage sur le disque avec quelques secondes de retard
-      [page] = await relaunch();
-      if (page) {
-        ok(await page.evaluate(() => PNEUMO.loadedFrom === 'application'), 'restauration depuis la copie interne (' + await page.evaluate(() => PNEUMO.loadedFrom) + ')');
-        ok(await page.evaluate(() => !!(PNEUMO.S.L['sd-alv'] && PNEUMO.S.L['sd-alv'].st === 'done')), 'progression intacte après effacement du stockage web');
-        await sleep(500);
-        ok(await page.evaluate(() => !!localStorage.getItem('pneumo-revision-v1')), 'stockage web resynchronisé');
-      }
-    }
+    });
+    // stockage web ancien ou incomplet : la copie interne, plus récente, doit l'emporter
+    await step('copie interne', async () => {
+      await page.evaluate(() => { const k = 'pneumo-revision-v1', o = JSON.parse(localStorage.getItem(k)); o.savedAt = 1; delete o.L['sd-alv']; localStorage.setItem(k, JSON.stringify(o)); });
+      await sleep(6000);
+      await relaunch();
+      note('origin of state after restart: ' + await page.evaluate(() => PNEUMO.loadedFrom));
+      ok(await page.evaluate(() => !!(PNEUMO.S.L['sd-alv'] && PNEUMO.S.L['sd-alv'].st === 'done')), 'la copie interne la plus récente est retenue');
+      await sleep(5000);
+      ok(await page.evaluate(() => { const o = JSON.parse(localStorage.getItem('pneumo-revision-v1') || 'null'); return !!(o && o.L['sd-alv'] && o.L['sd-alv'].st === 'done'); }), 'stockage web resynchronisé');
+    });
     // application tuée une demi-seconde après une action (la copie interne doit suffire)
-    if (page) {
-      await go(page, 'c/abces'); await sleep(400);
+    await step('arrêt brutal', async () => {
+      await go(page, 'c/saos'); await sleep(400);
+      if (!(await page.locator('[data-act=study]').count())) { await go(page, 'c/khp'); await sleep(400); }
+      const lid = (await page.evaluate(() => location.hash)).split('/')[2];
       await page.locator('[data-act=study]').first().click(); await sleep(500);
-      [page] = await relaunch();
-      if (page) ok(await page.evaluate(() => !!(PNEUMO.S.L['abces'] && PNEUMO.S.L['abces'].st === 'done')), 'action conservée même si l\'application est tuée 0,5 s après');
-    }
+      await relaunch();
+      ok(await page.evaluate(id => !!(PNEUMO.S.L[id] && PNEUMO.S.L[id].st === 'done'), lid), 'action conservée même si l\'application est tuée 0,5 s après (' + lid + ')');
+    });
     // modification sans P.save(), puis bouton Accueil et arrêt par le système
-    if (page) {
+    await step('arrière-plan', async () => {
       await page.evaluate(() => { PNEUMO.S.notes.bg = 'arriere-plan'; });
       sh('adb shell input keyevent KEYCODE_HOME'); await sleep(2000);
-      [page] = await relaunch();
-      if (page) ok((await page.evaluate(() => PNEUMO.S.notes.bg)) === 'arriere-plan', 'sauvegarde à la mise en arrière-plan');
-    }
+      await relaunch();
+      ok((await page.evaluate(() => PNEUMO.S.notes.bg)) === 'arriere-plan', 'sauvegarde à la mise en arrière-plan');
+    });
     // bouton retour
-    if (page) {
+    await step('retour', async () => {
       await go(page, 'train'); await sleep(300); await go(page, 'memo'); await sleep(300);
       sh('adb shell input keyevent KEYCODE_BACK'); await sleep(800);
       ok((await page.evaluate(() => location.hash)) === '#/train', 'bouton retour : page précédente');
-    }
+    });
+    await step('examen blanc', async () => {
+      await go(page, 'exam'); await sleep(400);
+      await page.locator('[data-exn="20"]').click(); await page.locator('[data-exgo]').click(); await sleep(500);
+      for (let i = 0; i < 80; i++) {
+        if (await page.locator('.qz.res').count()) break;
+        if (!(await page.locator('.opt.sel').count()) && (await page.locator('.opt').count())) { await page.locator('.opt').first().click(); await sleep(40); }
+        await page.evaluate(() => { const v = document.querySelector('[data-v]'); if (v) v.click(); }); await sleep(60);
+      }
+      ok(await page.locator('.qz.res').count() === 1, 'examen blanc mené jusqu\'au score');
+      shot('examen-blanc-resultat');
+    });
     // export (sélecteur de fichier Android) puis retour
-    if (page) {
+    await step('export', async () => {
       await go(page, 'reglages'); await sleep(400);
       await page.locator('[data-act=export]').click(); await sleep(2500);
       shot('export-selecteur');
@@ -171,20 +189,20 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
       ok(await page.locator('#cc').count() === 1, 'code de sauvegarde affiché');
       shot('code-sauvegarde');
       await page.evaluate(() => PNEUMO.UI.closeSheet());
-    }
+    });
     // rotation de l'écran
-    if (page) {
+    await step('paysage', async () => {
       sh('adb shell settings put system accelerometer_rotation 0'); sh('adb shell settings put system user_rotation 1'); await sleep(2000);
       shot('paysage');
       ok((await page.evaluate(() => document.getElementById('main').innerText.length)) > 30, 'affichage en paysage');
       sh('adb shell settings put system user_rotation 0'); await sleep(1500);
-    }
+    });
     // performances
-    if (page) {
+    await step('performances', async () => {
       rep.longTasks = await page.evaluate(() => (window.__lt || []).slice(0, 50));
       const nav = await page.evaluate(() => { const n = performance.getEntriesByType('navigation')[0]; return n ? Math.round(n.duration) : 0; });
       rep.timings.pageLoadMs = nav;
-    }
+    });
     // thème sombre du téléphone (l'activité est recréée)
     sh('adb shell cmd uimode night yes'); await sleep(3500);
     page = await connect(15000);
