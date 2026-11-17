@@ -1,0 +1,7 @@
+--------- beginning of main
+11-17 05:37:12.114 E/chromium( 3234): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:37:12.115 E/chromium( 3234): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+11-17 05:37:12.115 E/chromium( 3234): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:38:47.322 E/chromium( 6861): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:38:47.323 E/chromium( 6861): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:38:47.342 E/chromium( 6861): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.

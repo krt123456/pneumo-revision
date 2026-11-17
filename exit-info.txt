@@ -1,0 +1,60 @@
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 1970-01-01 00:00:00.000
+  package: io.github.krt123456.pneumo
+    Historical Process Exit for uid=10192
+        ApplicationExitInfo #0:
+          timestamp=2026-11-17 05:40:03.479 pid=7761 realUid=99006 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=89MB rss=193MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-11-17 05:40:03.474 pid=7728 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=68MB rss=193MB description=stop io.github.krt123456.pneumo due to from pid 8521 state=empty trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-11-17 05:39:23.497 pid=7566 realUid=99005 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=0.00 description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-11-17 05:39:23.495 pid=7532 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=400 pss=0.00 rss=0.00 description=stop io.github.krt123456.pneumo due to from pid 7685 state=empty trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-11-17 05:39:15.799 pid=7339 realUid=99004 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=0.00 description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #5:
+          timestamp=2026-11-17 05:39:15.798 pid=7305 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop io.github.krt123456.pneumo due to from pid 7499 state=empty trace=null
+        ApplicationExitInfo #6:
+          timestamp=2026-11-17 05:39:03.034 pid=7052 realUid=99003 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=0.00 description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #7:
+          timestamp=2026-11-17 05:39:03.034 pid=7026 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop io.github.krt123456.pneumo due to from pid 7272 state=empty trace=null
+        ApplicationExitInfo #8:
+          timestamp=2026-11-17 05:38:51.434 pid=6888 realUid=99002 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=0.00 rss=0.00 description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #9:
+          timestamp=2026-11-17 05:38:51.432 pid=6861 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=0.00 rss=0.00 description=stop io.github.krt123456.pneumo due to from pid 6993 state=empty trace=null
+        ApplicationExitInfo #10:
+          timestamp=2026-11-17 05:37:56.254 pid=5581 realUid=99001 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=1 (EXIT_SELF) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=400 pss=0.00 rss=0.00 description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #11:
+          timestamp=2026-11-17 05:37:56.187 pid=5539 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=12 (DEPENDENCY DIED) subreason=0 (UNKNOWN) status=0
+          importance=100 pss=0.00 rss=0.00 description=depends on provider com.google.android.gms/.fonts.provider.FontsProvider in dying proc com.google.android.gms.persistent (adj -10000) state=empty trace=null
+        ApplicationExitInfo #12:
+          timestamp=2026-11-17 05:37:49.988 pid=3351 realUid=99000 packageUid=10192 definingUid=10134 user=0
+          process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+          importance=300 pss=95MB rss=193MB description=isolated not needed state=empty trace=null
+        ApplicationExitInfo #13:
+          timestamp=2026-11-17 05:37:49.987 pid=3234 realUid=10192 packageUid=10192 definingUid=10192 user=0
+          process=io.github.krt123456.pneumo reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+          importance=100 pss=75MB rss=207MB description=stop io.github.krt123456.pneumo due to from pid 5403 state=empty trace=null
