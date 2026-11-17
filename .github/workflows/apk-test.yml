@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        api: [30, 34, 35]
+        api: [26, 28, 30, 34, 35]
     steps:
       - uses: actions/checkout@v4
       - name: Activer KVM
