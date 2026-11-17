@@ -286,6 +286,24 @@
     }));
     return { acro, ast, nums };
   };
+  // faits déjà tombés aux annales (marqués 🎯 dans les fiches)
+  P.targetsOf = lid => {
+    const f = P.F[lid], out = [];
+    if (!f) return out;
+    const add = (t, sec) => { if (typeof t === 'string' && t.indexOf('🎯') >= 0) out.push([t, sec]); };
+    (f.e || []).forEach(x => add(x, 'L\'essentiel'));
+    (f.s || []).forEach(s => (s[2] || []).forEach(b => {
+      if (typeof b === 'string') return add(b, s[0]);
+      if (!Array.isArray(b)) return;
+      const k = b[0];
+      if (k === 'ul' || k === 'ol' || k === 'steps') b.slice(1).forEach(x => add(x, s[0]));
+      else if (k === 'tab') b.slice(2).forEach(r => { if (Array.isArray(r) && r.some(c => typeof c === 'string' && c.indexOf('🎯') >= 0)) add(r.join(' — '), s[0]); });
+      else if (k === 'nums') b.slice(1).forEach(n => { if (Array.isArray(n)) add(n[0] + ' : ' + n[1], s[0]); });
+      else if (k === 'cards') b.slice(1).forEach(c => { if (Array.isArray(c)) add(c[0] + ' : ' + c[1], s[0]); });
+      else if (typeof b[1] === 'string' && k !== 'chk' && k !== 'acro' && k !== 'fig' && k !== 'svg' && k !== 'calc' && k !== 'img') add(b[1], s[0]);
+    }));
+    return out;
+  };
   P.cardsOf = lid => {
     const f = P.F[lid]; if (!f) return [];
     const out = [], m = P.memoOf(lid);

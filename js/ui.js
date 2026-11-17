@@ -36,6 +36,7 @@
   })();
   let seen = null;
   U.resetTerms = () => { seen = new Set(); };
+  U.disableTerms = () => { seen = null; }; // pages très longues (astuces, chiffres) : pas de soulignement, rendu plus rapide
   U.md = (s, noTerms) => {
     let h = esc(s);
     if (gRe && seen && !noTerms) {

@@ -1,10 +1,13 @@
 package io.github.krt123456.pneumo;
 
+import android.Manifest;
 import android.app.Activity;
+import android.app.NotificationManager;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
@@ -164,6 +167,12 @@ public class MainActivity extends Activity {
         }
     }
 
+    private boolean notificationsAllowed() {
+        if (Build.VERSION.SDK_INT >= 33 && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) return false;
+        NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        return nm == null || nm.areNotificationsEnabled();
+    }
+
     private void applyBars(String status, String nav, boolean lightNav) {
         try {
             Window w = getWindow();
@@ -244,6 +253,26 @@ public class MainActivity extends Activity {
         @JavascriptInterface
         public void setBars(String status, String nav, boolean lightNav) {
             runOnUiThread(() -> applyBars(status, nav, lightNav));
+        }
+
+        /** Rappel quotidien : on = activé, h:m = heure ; ask = demander la permission de notifier si besoin. */
+        @JavascriptInterface
+        public void setReminder(boolean on, int h, int m, boolean ask) {
+            ReminderReceiver.save(MainActivity.this, on, h, m);
+            if (on && ask && Build.VERSION.SDK_INT >= 33
+                    && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                runOnUiThread(() -> requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, 51));
+            }
+        }
+
+        @JavascriptInterface
+        public String reminder() {
+            return ReminderReceiver.state(MainActivity.this) + "|" + notificationsAllowed();
+        }
+
+        @JavascriptInterface
+        public void testReminder() {
+            ReminderReceiver.notifyNow(MainActivity.this);
         }
 
         @JavascriptInterface

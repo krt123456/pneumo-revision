@@ -29,7 +29,7 @@
     if (k === 'tab') return '<div class="tbw"><table class="tb"><thead><tr>' + a[0].map(h => '<th>' + md(h) + '</th>').join('') + '</tr></thead><tbody>' +
       a.slice(1).map(r => '<tr>' + r.map(c => '<td>' + md(c) + '</td>').join('') + '</tr>').join('') + '</tbody></table></div>';
     if (CO[k]) return '<div class="co ' + k + '"><div class="cl">' + CO[k][0] + ' ' + CO[k][1] + '</div>' + md(a[0]) + '</div>';
-    if (k === 'chk') return '<div class="chk" data-ans="' + esc(a[2]) + '"><div class="cl">⚡ Vérifie-toi</div><div class="cq">' + md(a[0]) + '</div><div class="copts">' + a[1].map((o, j) => '<button type="button" class="copt" data-act="chkopt" data-l="' + 'ABCDE'[j] + '"><b>' + 'ABCDE'[j] + '</b> ' + md(o) + '</button>').join('') + '</div><div class="cex" hidden>' + md(a[3] || '') + '</div></div>';
+    if (k === 'chk') return '<div class="chk" data-ans="' + esc(a[2]) + '"><div class="cl">⚡ Vérifie-toi</div><div class="cq">' + md(a[0]) + '</div><div class="copts">' + a[1].map((o, j) => '<button type="button" class="copt" data-act="chkopt" data-l="' + 'ABCDE'[j] + '"><b>' + 'ABCDE'[j] + '</b> ' + md(o, true) + '</button>').join('') + '</div><div class="cex" hidden>' + md(a[3] || '') + '</div></div>';
     if (k === 'fig') return U.fig(a[0], a[1]);
     if (k === 'svg') return U.svgfig(a[0], a[1]);
     if (k === 'calc') return U.calcHTML(a[0]);
@@ -163,6 +163,7 @@
         (android ? 'Ouvre le site dans Chrome :<div style="margin-top:8px"><a class="btn sm" href="intent://' + esc(location.host + location.pathname) + '#Intent;scheme=https;package=com.android.chrome;end">🌐 Ouvrir dans Chrome</a> <a class="btn sm ghost" href="#/app">📱 Installer l\'application</a></div>'
           : 'Touche le menu <b>⋯</b> puis <b>Ouvrir dans le navigateur</b> (Safari ou Chrome).') + '</div></div>';
     }
+    if (P.isApp && P.native.setReminder && !S.set.rem) h += '<div class="banner info"><span class="bi">🔔</span><div class="grow"><b>Un rappel chaque soir pour réviser ?</b> Une petite notification à 20 h (heure modifiable dans Réglages).<div style="margin-top:8px"><button class="btn sm" data-act="remyes">Oui, activer</button> <button class="btn sm ghost" data-act="remno">Non merci</button></div></div></div>';
     if (P.isApp) h += '<div class="banner info" id="appupd"' + (P.appUpdate ? '' : ' hidden') + '><span class="bi">🆕</span><div class="grow"><b>Nouvelle version de l\'application disponible.</b> Ta progression est conservée.<div style="margin-top:8px"><button class="btn sm green" data-act="appdl">⬇️ Mettre à jour</button></div></div></div>';
     else if (/Android/i.test(UA) && !P.inAppBrowser && (!S.set.appHint || D.diff(today(), S.set.appHint) >= 7) && !(matchMedia && matchMedia('(display-mode: standalone)').matches)) {
       h += '<div class="banner info" id="apkban"' + (P.apkInfo ? '' : ' hidden') + '><span class="bi">📱</span><div class="grow"><b>L\'application Android est disponible</b> : sans Internet, en plein écran, progression en double copie.<div style="margin-top:8px"><a class="btn sm" href="#/app">📲 L\'installer</a> <button class="btn sm ghost" data-act="apphint">Plus tard</button></div></div></div>';
@@ -419,11 +420,12 @@
       tile('#/cartes', '🃏', 'Cartes (répétition espacée)', cardsN + ' carte' + (cardsN > 1 ? 's' : '') + ' aujourd\'hui') +
       tile('#/memo', '🧩', 'Astuces mémo', 'Tous les moyens mnémotechniques, pour se tester') +
       tile('#/chiffres', '🔢', 'Chiffres clés', 'Les seuils à savoir par cœur + jeu « Le juste chiffre »') +
+      tile('#/cible', '🎯', 'Déjà tombé à l\'examen', 'Tous les faits demandés aux annales, cours par cours') +
       tile('#/cliches', '🩻', 'Clichés au chrono', 'Trouve l\'anomalie en 3 minutes') +
       tile('#/ecos', '🎤', 'ECOS', 'Oral de 2 minutes sur chaque TD, avec grille') +
       tile('#/jeu', '🕵️', 'Qui suis-je ?', 'Devine la maladie avec le moins d\'indices') +
       tile('#/outils', '🧮', 'Calculateurs', 'Gazométrie, EFR, Light, Wells, CRB-65…') +
-      tile('#/exam', '⏱️', 'Examen blanc', 'Minuteur et score, comme le jour J') +
+      tile('#/exam', '🎓', 'Examen blanc', 'QCM et cas chronométrés, correction et bilan par cours') +
       tile('#/pomodoro', '🍅', 'Pomodoro', '25 min de concentration, 5 min de pause') +
       tile('#/glossaire', '📖', 'Glossaire', 'Les mots difficiles, en français et en arabe') +
       tile('#/veille', '🌙', 'À relire la veille', 'L\'essentiel de chaque cours étudié') +
@@ -469,6 +471,7 @@
   ACT.acrohide = el => { const a = el.closest('.acro'); if (!a) return; a.classList.toggle('atest'); a.querySelectorAll('.ar.shown').forEach(r => r.classList.remove('shown')); el.textContent = a.classList.contains('atest') ? '👀 Tout montrer' : '🙈 Me tester'; };
   ACT.arow = el => { const a = el.closest('.acro'); if (a && (a.classList.contains('atest') || el.closest('.memo'))) el.classList.toggle('shown'); };
   V.memo = () => {
+    U.disableTerms();
     const ls = P.lessons.filter(l => { const m = P.memoOf(l.id); return m.acro.length || m.ast.length; });
     const n = ls.reduce((s, l) => { const m = P.memoOf(l.id); return s + m.acro.length + m.ast.length; }, 0);
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🧩 Astuces mémo</h1><p class="small muted">' + n + ' moyens mnémotechniques tirés des fiches. La bonne méthode : lis le mot-clé, récite à voix haute ce qu\'il cache, puis vérifie (mode mémoire ou « Me tester »).</p>' +
@@ -479,10 +482,20 @@
     const pool = [];
     P.lessons.forEach(l => P.memoOf(l.id).nums.forEach(n => pool.push({ l, n })));
     if (mode === 'quiz') return numQuiz(pool);
+    U.disableTerms();
     const ls = P.lessons.filter(l => P.memoOf(l.id).nums.length);
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🔢 Chiffres clés</h1><p class="small muted">' + pool.length + ' chiffres et seuils à connaître par cœur, cours par cours. Active le mode mémoire, retrouve chaque chiffre de tête, puis touche la case pour vérifier.</p>' +
       '<div class="row wrap" style="margin-bottom:12px"><a class="btn sm purple" href="#/chiffres/quiz">🎲 Jouer au « Juste chiffre »</a>' + memoBtn() + '</div>' +
       '<div id="nm" data-memo-scope class="' + (S.set.memo ? 'memo' : '') + '">' + (ls.length ? ls.map(l => '<div class="card"><h3 style="margin-bottom:6px"><a href="#/c/' + l.id + '" style="color:' + gc(l)[0] + '">' + esc(lname(l)) + '</a></h3><div class="sec-b">' + P.blocks([['nums'].concat(P.memoOf(l.id).nums)]) + '</div></div>').join('') : '<div class="card empty">Les chiffres clés arrivent avec les fiches.</div>') + '</div>';
+  };
+  V.cible = () => {
+    U.disableTerms();
+    const ls = P.lessons.map(l => [l, P.targetsOf(l.id)]).filter(x => x[1].length);
+    const n = ls.reduce((a, x) => a + x[1].length, 0);
+    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🎯 Déjà tombé à l\'examen</h1><p class="small muted">' + n + ' faits marqués 🎯 dans les fiches : ils ont été demandés aux annales de l\'Externat. À relire en priorité, surtout la dernière semaine. Active le mode mémoire pour te tester.</p>' +
+      '<div class="row wrap" style="margin-bottom:12px">' + memoBtn() + '<a class="btn sm ghost" href="#/annales">📝 Annales par thème</a></div>' +
+      '<div id="cm" data-memo-scope class="' + (S.set.memo ? 'memo' : '') + '">' + ls.map(([l, ts]) => '<div class="card"><h3 style="margin-bottom:6px"><a href="#/c/' + l.id + '" style="color:' + gc(l)[0] + '">' + esc(lname(l)) + '</a> <span class="chip">' + ts.length + '</span></h3><div class="sec-b"><ul class="tgt">' +
+        ts.map(t => '<li>' + md(t[0]) + '</li>').join('') + '</ul></div></div>').join('') + '</div>';
   };
   function numQuiz(pool) {
     main.innerHTML = '<a href="#/chiffres" class="small">← Chiffres clés</a><h1 style="font-size:1.35rem;margin:6px 0">🎲 Le juste chiffre</h1><p class="small muted" style="margin-top:0">10 questions : retrouve le bon chiffre. Les cours que tu as étudiés passent en premier.</p><div id="nq"></div>';
@@ -609,13 +622,38 @@
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:12px">⚙️ Réglages</h1><div class="card"><label class="lb">Thème</label><div class="seg">' + [['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(t => '<button data-act="theme" data-v="' + t[0] + '" class="' + (s.theme === t[0] ? 'on' : '') + '">' + t[1] + '</button>').join('') + '</div>' +
       sw('sound', 'Sons et vibration à la fin des chronos') + sw('confetti', 'Confettis quand tu termines quelque chose') + sw('conf', 'Me demander ma confiance dans les quiz') +
       '<label class="cr" style="display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)"><span class="grow">Nouvelles cartes par jour</span><input class="input" type="number" min="0" max="200" data-set="newCards" value="' + s.newCards + '" style="max-width:90px"></label></div>' +
-      saveCard() +
+      saveCard() + remCard() +
       '<div class="card"><h3>📱 Application Android</h3><p class="small muted">' + (P.isApp ? 'Tu utilises l\'application (version ' + esc(appVersion().name) + ').' : 'Installe le site comme une application sur ton téléphone : il marche sans Internet et garde ta progression.') + '</p><a class="btn ghost" href="#/app">' + (P.isApp ? '🔄 Vérifier les mises à jour' : '📲 Installer l\'application') + '</a></div>' +
       '<div class="card"><h3>🧭 Divers</h3><div class="row wrap" style="margin-top:8px"><button class="btn ghost" data-act="onboard">Revoir l\'accueil</button><button class="btn red" data-act="reset">Tout effacer</button></div>' +
       '<p class="small muted" style="margin-top:12px">Les radiographies du site sont des schémas pédagogiques dessinés par ordinateur, pas de vraies images de patients. Les fiches résument les cours de 4e année : en cas de doute, ton cours et ton enseignant font foi.</p></div>';
     main.querySelectorAll('[data-set]').forEach(i => i.addEventListener('change', () => { s[i.dataset.set] = i.type === 'checkbox' ? i.checked : +i.value; P.save(); }));
-    bindSaveCard(main);
+    bindSaveCard(main); bindRem(main);
   };
+  /* ---------- rappel quotidien (application Android) ---------- */
+  const canRem = () => !!(P.isApp && P.native.setReminder);
+  const remOf = () => S.set.rem || { on: false, t: '20:00' };
+  const applyRem = ask => { if (!canRem()) return; const r = remOf(), [h, m] = String(r.t || '20:00').split(':').map(Number); try { P.native.setReminder(!!r.on, h || 0, m || 0, !!ask); } catch (e) { /* ignore */ } };
+  P.applyRem = applyRem;
+  function remCard() {
+    if (!canRem()) return '';
+    const r = remOf();
+    let allowed = true; try { allowed = String(P.native.reminder()).split('|')[3] !== 'false'; } catch (e) { /* ignore */ }
+    return '<div class="card"><h3>🔔 Rappel quotidien</h3><p class="small muted">Une notification par jour, à l\'heure choisie, pour garder le rythme jusqu\'à l\'examen.</p>' +
+      '<label class="cr" style="display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)"><span class="grow">Activer le rappel</span><input type="checkbox" id="remon"' + (r.on ? ' checked' : '') + ' style="width:22px;height:22px;accent-color:var(--blue)"></label>' +
+      '<label class="cr" style="display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)"><span class="grow">Heure du rappel</span><input class="input" type="time" id="remt" value="' + esc(r.t || '20:00') + '" style="max-width:130px"></label>' +
+      (r.on && !allowed ? '<p class="small" style="color:var(--red)">Les notifications sont bloquées pour l\'application : autorise-les dans les réglages Android (Applications → Pneumo Révision → Notifications).</p>' : '') +
+      '<button class="btn sm ghost" id="remtest">🔔 Essayer maintenant</button></div>';
+  }
+  function bindRem(root) {
+    const on = root.querySelector('#remon'), t = root.querySelector('#remt'), te = root.querySelector('#remtest');
+    if (!on) return;
+    const upd = ask => { S.set.rem = { on: on.checked, t: t.value || '20:00' }; P.save(); applyRem(ask); };
+    on.addEventListener('change', () => { upd(true); U.toast(on.checked ? '🔔 Rappel programmé chaque jour à ' + (t.value || '20:00') : 'Rappel désactivé'); });
+    t.addEventListener('change', () => { upd(false); if (on.checked) U.toast('🔔 Rappel à ' + t.value); });
+    te.addEventListener('click', () => { try { P.native.testReminder(); U.toast('Notification envoyée : regarde en haut de l\'écran'); } catch (e) { U.toast('Notifications indisponibles'); } });
+  }
+  ACT.remyes = () => { S.set.rem = { on: true, t: '20:00' }; P.save(); applyRem(true); U.toast('🔔 Rappel chaque jour à 20:00 (modifiable dans Réglages)'); rerender(); };
+  ACT.remno = () => { S.set.rem = { on: false, t: '20:00' }; P.save(); rerender(); };
   /* ---------- carte « Sauvegarde » (réglages) ---------- */
   const ago = t => { if (!t) return 'pas encore'; const s = Math.max(0, Math.round((Date.now() - t) / 1000)); return s < 5 ? 'à l\'instant' : s < 60 ? 'il y a ' + s + ' s' : s < 3600 ? 'il y a ' + Math.round(s / 60) + ' min' : 'il y a ' + Math.round(s / 3600) + ' h'; };
   function saveCard() {
@@ -739,7 +777,7 @@
 
   /* ---------- routeur ---------- */
   const NAV = [['', 'home', 'Aujourd\'hui'], ['cours', 'book', 'Cours'], ['train', 'target', 'S\'entraîner'], ['planning', 'cal', 'Planning'], ['moi', 'user', 'Moi']];
-  const NAVMAP = { c: 'cours', jour: 'planning', quiz: 'train', refaire: 'train', cartes: 'train', cliches: 'train', ecos: 'train', outils: 'train', jeu: 'train', exam: 'train', pomodoro: 'train', glossaire: 'train', veille: 'train', annales: 'train', memo: 'train', chiffres: 'train', erreurs: 'moi', reglages: 'moi', app: 'moi', recherche: '' };
+  const NAVMAP = { c: 'cours', jour: 'planning', quiz: 'train', refaire: 'train', cartes: 'train', cliches: 'train', ecos: 'train', outils: 'train', jeu: 'train', exam: 'train', pomodoro: 'train', glossaire: 'train', veille: 'train', annales: 'train', memo: 'train', chiffres: 'train', cible: 'train', erreurs: 'moi', reglages: 'moi', app: 'moi', recherche: '' };
   let last = '';
   function route(keepScroll) {
     const h = location.hash.replace(/^#\/?/, ''), parts = h.split('/').map(decodeURIComponent), r = parts[0] || '';
@@ -788,7 +826,7 @@
     route();
     P.checkBadges();
     onboard();
-    if (P.isApp) setTimeout(P.checkAppUpdate, 2500);
+    if (P.isApp) { setTimeout(P.checkAppUpdate, 2500); if (S.set.rem && S.set.rem.on) applyRem(false); }
     else if (/Android/i.test(UA) && !P.inAppBrowser) fetchRemoteVersion().then(r => { if (!r) return; P.apkInfo = r; const b = document.getElementById('apkban'); if (b) b.hidden = false; });
   };
 })();

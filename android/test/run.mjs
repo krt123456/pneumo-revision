@@ -179,6 +179,20 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
       shot('examen-blanc-resultat');
     });
     // export (sélecteur de fichier Android) puis retour
+    await step('rappel quotidien', async () => {
+      sh(`adb shell pm grant ${PKG} android.permission.POST_NOTIFICATIONS`);
+      await go(page, 'reglages'); await sleep(400);
+      ok(await page.locator('#remon').count() === 1, 'réglage du rappel présent');
+      await page.evaluate(() => PneumoNative.setReminder(true, 20, 0, false));
+      const st = await page.evaluate(() => PneumoNative.reminder());
+      ok(st.indexOf('true|20|0') === 0, 'rappel enregistré (' + st + ')');
+      ok(sh('adb shell dumpsys alarm').includes(PKG), 'alarme quotidienne programmée');
+      await page.evaluate(() => PneumoNative.testReminder()); await sleep(1500);
+      const nt = sh('adb shell dumpsys notification --noredact');
+      ok(nt.includes(PKG) && /avant l'examen|Pneumo Révision|Demain/.test(nt), 'notification affichée');
+      sh('adb shell cmd statusbar expand-notifications'); await sleep(1500); shot('notification'); sh('adb shell cmd statusbar collapse'); await sleep(600);
+      await page.evaluate(() => PneumoNative.setReminder(false, 20, 0, false));
+    });
     await step('export', async () => {
       await go(page, 'reglages'); await sleep(400);
       await page.locator('[data-act=export]').click(); await sleep(2500);

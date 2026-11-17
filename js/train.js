@@ -90,7 +90,7 @@
       if (it.cas) h += '<div class="case">🩺 ' + md(it.cas) + '</div>';
       h += '<div class="stem">' + (it.type === 'vf' ? '<span class="chip purple" style="margin-right:6px">Vrai ou faux ?</span>' : '') + md(it.s) + '</div>';
       if (it.type === 'vf') h += '<div class="vf">' + [['V', 'Vrai'], ['F', 'Faux']].map(([k, t]) => '<button class="opt" data-o="' + k + '">' + t + '</button>').join('') + '</div>';
-      else h += it.o.map((o, j) => '<button class="opt" data-o="' + L[j] + '"><span class="L">' + L[j] + '</span><span class="grow">' + md(o) + '</span></button>').join('') + '<p class="small muted" style="margin:4px 2px 0">' + (it.r.length > 1 ? 'Plusieurs réponses possibles.' : 'Une ou plusieurs réponses justes : coche tout ce qui est vrai.') + '</p>';
+      else h += it.o.map((o, j) => '<button class="opt" data-o="' + L[j] + '"><span class="L">' + L[j] + '</span><span class="grow">' + md(o, true) + '</span></button>').join('') + '<p class="small muted" style="margin:4px 2px 0">' + (it.r.length > 1 ? 'Plusieurs réponses possibles.' : 'Une ou plusieurs réponses justes : coche tout ce qui est vrai.') + '</p>';
       if (S.set.conf && !opt.compact) h += '<div class="conf"><span class="muted">Ma confiance :</span>' + [['sur', 'Sûr'], ['hesite', 'J\'hésite'], ['hasard', 'Au hasard']].map(([k, t]) => '<button data-c="' + k + '" class="' + (conf === k ? 'on' : '') + '">' + t + '</button>').join('') + '</div>';
       h += '<div class="fbx"></div><div class="row" style="margin-top:12px;justify-content:flex-end;gap:8px"><button class="btn" data-v="1"' + (it.type === 'vf' ? ' style="display:none"' : '') + ' disabled>Valider</button></div></div>';
       el.innerHTML = h;
@@ -112,6 +112,16 @@
       if (good) U.toast(['Bien joué !', 'Exact !', 'Parfait !', 'Bravo !'][Math.random() * 4 | 0]);
     }
     function next() { i++; sel = new Set(); conf = ''; answered = false; if (i < items.length) draw(); else finish(); }
+    // bilan par cours : où concentrer ses révisions
+    function byLesson() {
+      const by = {};
+      res.forEach(r => { const k = r.it.lid; if (!k) return; const x = by[k] || (by[k] = [0, 0]); x[1]++; if (r.good) x[0]++; });
+      const ks = Object.keys(by); if (ks.length < 2) return '';
+      ks.sort((a, b) => by[a][0] / by[a][1] - by[b][0] / by[b][1] || by[b][1] - by[a][1]);
+      return '<div class="h-sec"><h2>📊 Par cours</h2><span class="small muted">les plus faibles d\'abord</span></div><div class="card">' + ks.map(k => { const [g, t] = by[k], pc = Math.round(100 * g / t), l = P.lesson(k) || { t: k };
+        return '<a href="#/c/' + k + '" style="display:block;color:var(--ink);margin:7px 0"><div class="row small"><span class="grow">' + esc(l.s || l.t) + '</span><b>' + g + '/' + t + '</b></div><div class="bar' + (pc >= 70 ? ' green' : '') + '"><i style="width:' + pc + '%"></i></div></a>'; }).join('') +
+        '<p class="small muted" style="margin:8px 0 0">Touche un cours pour relire sa fiche : commence par ceux du haut.</p></div>';
+    }
     function finish() {
       if (tmr) clearInterval(tmr);
       const n = res.length || 1, pct = Math.round(100 * ok / n);
@@ -119,7 +129,7 @@
       P.addXP(5 * ok + 2 * (res.length - ok), 'quiz'); P.checkBadges(); P.save();
       const wrong = res.filter(r => !r.good);
       el.innerHTML = '<div class="qz res"><div class="big">' + pct + ' %</div><div class="muted">' + ok + ' bonne' + (ok > 1 ? 's' : '') + ' réponse' + (ok > 1 ? 's' : '') + ' sur ' + res.length + '</div><p>' + (pct >= 85 ? '🏆 Excellent : tu déjoues les pièges.' : pct >= 60 ? '👍 Bien. Relis les explications des questions ratées.' : '💪 Relis la fiche et les pièges, puis refais ce quiz dans 2 jours.') + '</p>' +
-        '<div class="row wrap" style="justify-content:center;gap:8px">' + (wrong.length ? '<button class="btn" data-again="w">Refaire mes ' + wrong.length + ' erreur' + (wrong.length > 1 ? 's' : '') + '</button>' : '') + '<button class="btn ghost" data-again="a">Recommencer</button></div></div>' +
+        '<div class="row wrap" style="justify-content:center;gap:8px">' + (wrong.length ? '<button class="btn" data-again="w">Refaire mes ' + wrong.length + ' erreur' + (wrong.length > 1 ? 's' : '') + '</button>' : '') + '<button class="btn ghost" data-again="a">Recommencer</button></div></div>' + byLesson() +
         (wrong.length ? '<div class="h-sec"><h2>À retenir</h2></div>' + wrong.map(r => '<div class="card"><div class="small muted">' + esc((P.lesson(r.it.lid) || {}).t || '') + '</div><b>' + md(r.it.s, true) + '</b><div class="fb ok" style="margin-top:8px">' + (r.it.type === 'vf' ? (r.it.a ? 'VRAI' : 'FAUX') : 'Réponse ' + r.it.r.split('').join(', ') + ' : ' + r.it.r.split('').map(c => md(r.it.o[L.indexOf(c)], true)).join(' · ')) + (r.it.e ? '<br>' + md(r.it.e, true) : '') + '</div><button class="btn xs ghost" style="margin-top:8px" data-jq="' + r.it.qid + '">+ Journal d\'erreurs</button></div>').join('') : '');
       if (opt.onEnd) opt.onEnd(pct);
     }
@@ -290,8 +300,31 @@
   /* ---------- EXAMEN BLANC, POMODORO ---------- */
   P.T = {
     exam(el) {
-      el.innerHTML = '<div class="card"><p class="small muted">Fais une série d\'annales au chrono, en conditions réelles (sans fiche, sans téléphone). Compte environ 1 minute par question.</p><label class="lb">Durée</label><div class="seg">' + [30, 45, 60, 90, 120].map(m => '<button data-m="' + m + '">' + m + ' min</button>').join('') + '</div><div id="xt"></div><div id="xs"></div></div>';
+      const withQ = P.lessons.filter(l => P.Q.all(l.id).length), st = { n: 40, scope: 'all' };
+      const drawEx = () => {
+        const lids = (st.scope === 'studied' ? withQ.filter(l => P.isStudied(l.id)) : withQ).map(l => l.id);
+        const avail = P.Q.build(lids, { types: ['qcm', 'cas'] }).length;
+        return '<div class="card" id="exs"><h3>🎓 Examen blanc sur le site</h3><p class="small muted">Comme le jour J : QCM et cas cliniques mélangés, <b>1 minute par question</b>, une réponse est juste seulement si <b>toutes</b> les bonnes propositions sont cochées, correction à la fin avec ton bilan par cours.</p>' +
+          '<label class="lb">Nombre de questions</label><div class="seg">' + [20, 40, 60].map(n => '<button data-exn="' + n + '" class="' + (st.n === n ? 'on' : '') + '">' + n + '</button>').join('') + '</div>' +
+          '<label class="lb">Programme</label><div class="seg"><button data-exs="all" class="' + (st.scope === 'all' ? 'on' : '') + '">Tout le programme</button><button data-exs="studied" class="' + (st.scope === 'studied' ? 'on' : '') + '">Mes cours étudiés</button></div>' +
+          '<button class="btn block red" style="margin-top:12px" data-exgo="1"' + (avail ? '' : ' disabled') + '>⏱️ Commencer (' + Math.min(st.n, avail) + ' questions, ' + Math.min(st.n, avail) + ' min)</button></div>';
+      };
+      const paper = '<div class="card"><h3>📝 Annales sur papier, au chrono</h3><p class="small muted">Fais une série d\'annales au chrono, en conditions réelles (sans fiche, sans téléphone). Compte environ 1 minute par question.</p><label class="lb">Durée</label><div class="seg">' + [30, 45, 60, 90, 120].map(m => '<button data-m="' + m + '">' + m + ' min</button>').join('') + '</div><div id="xt"></div><div id="xs"></div></div>';
+      el.innerHTML = drawEx() + paper;
       el.onclick = e => {
+        const x = e.target.closest('[data-exn],[data-exs],[data-exgo]');
+        if (x) {
+          if (x.dataset.exn) st.n = +x.dataset.exn;
+          else if (x.dataset.exs) st.scope = x.dataset.exs;
+          else if (x.dataset.exgo) {
+            const lids = (st.scope === 'studied' ? withQ.filter(l => P.isStudied(l.id)) : withQ).map(l => l.id);
+            el.onclick = null; window.scrollTo(0, 0);
+            Q.run(el, Q.build(lids, { types: ['qcm', 'cas'], n: st.n }), { exam: true, onEnd: pct => { const d = P.day(P.today()); d.qcm = pct; P.save(); } });
+            return;
+          }
+          el.querySelector('#exs').outerHTML = drawEx();
+          return;
+        }
         const b = e.target.closest('[data-m]'); if (!b) return;
         el.querySelectorAll('[data-m]').forEach(x => x.classList.toggle('on', x === b));
         P.timer(el.querySelector('#xt'), +b.dataset.m * 60, { color: '#de3b3b', onEnd: () => U.toast('⏰ Temps écoulé : pose ton stylo') });
