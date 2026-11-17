@@ -22,6 +22,26 @@
     return { start, stop, left: () => left, used: () => secs - left };
   };
 
+  /* ---------- POMODORO : continue pendant la navigation ---------- */
+  P.POMO = { focus: 1500, pause: 300 };
+  P.pomoLeft = () => { const p = S.pomo; if (!p) return P.POMO.focus; return p.run ? Math.max(0, Math.round((p.end - Date.now()) / 1000)) : (p.left != null ? p.left : P.POMO[p.mode]); };
+  P.pomoTick = () => {
+    const p = S.pomo, pill = document.getElementById('pomoPill');
+    if (p && p.run && Date.now() >= p.end) {
+      p.run = false; p.end = 0;
+      if (p.mode === 'focus') { const d = P.day(P.today()); d.min = (d.min || 0) + 25; p.mode = 'pause'; P.addXP(15, 'pomodoro'); U.toast('🍅 Séance terminée : 5 minutes de pause'); }
+      else { p.mode = 'focus'; U.toast('☕ Pause finie : on reprend'); }
+      p.left = P.POMO[p.mode]; P.save(); if (S.set.sound) U.beep();
+      if (location.hash.indexOf('#/pomodoro') === 0 && P.pomoRedraw) P.pomoRedraw();
+    }
+    if (pill) {
+      const on = !!(p && p.run);
+      pill.hidden = !on || location.hash.indexOf('#/pomodoro') === 0;
+      if (on) { const l = P.pomoLeft(); pill.textContent = (p.mode === 'focus' ? '🍅 ' : '☕ ') + Math.floor(l / 60) + ':' + String(l % 60).padStart(2, '0'); }
+    }
+  };
+  setInterval(P.pomoTick, 1000);
+
   /* ---------- QUIZ ---------- */
   const Q = P.Q = {};
   Q.all = lid => {
@@ -78,6 +98,7 @@
     const res = [];
     let tmr = null, tleft = items.length * 60;
     if (opt.exam) {
+      P.leaveGuard = () => confirm('Quitter l\'examen blanc en cours ? Il ne sera pas noté.');
       const end = Date.now() + tleft * 1000;
       tmr = setInterval(() => { tleft = Math.max(0, Math.round((end - Date.now()) / 1000)); const b = el.querySelector('.qtime'); if (b) b.textContent = '⏱ ' + Math.floor(tleft / 60) + ':' + String(tleft % 60).padStart(2, '0'); if (!tleft) { clearInterval(tmr); U.beep(); finish(); } }, 500);
       P.addTimer(tmr);
@@ -89,9 +110,9 @@
       let h = '<div class="qz"><div class="qn"><span>Question ' + (i + 1) + '/' + items.length + (l ? ' · ' + esc(l.s || l.t) : '') + '</span><span class="qtime">' + (opt.exam ? '' : '✓ ' + ok) + '</span></div><div class="bar" style="margin-bottom:10px"><i style="width:' + (100 * i / items.length) + '%"></i></div>';
       if (it.cas) h += '<div class="case">🩺 ' + md(it.cas) + '</div>';
       h += '<div class="stem">' + (it.type === 'vf' ? '<span class="chip purple" style="margin-right:6px">Vrai ou faux ?</span>' : '') + md(it.s) + '</div>';
-      if (it.type === 'vf') h += '<div class="vf">' + [['V', 'Vrai'], ['F', 'Faux']].map(([k, t]) => '<button class="opt" data-o="' + k + '">' + t + '</button>').join('') + '</div>';
-      else h += it.o.map((o, j) => '<button class="opt" data-o="' + L[j] + '"><span class="L">' + L[j] + '</span><span class="grow">' + md(o, true) + '</span></button>').join('') + '<p class="small muted" style="margin:4px 2px 0">' + (it.r.length > 1 ? 'Plusieurs réponses possibles.' : 'Une ou plusieurs réponses justes : coche tout ce qui est vrai.') + '</p>';
-      if (S.set.conf && !opt.compact) h += '<div class="conf"><span class="muted">Ma confiance :</span>' + [['sur', 'Sûr'], ['hesite', 'J\'hésite'], ['hasard', 'Au hasard']].map(([k, t]) => '<button data-c="' + k + '" class="' + (conf === k ? 'on' : '') + '">' + t + '</button>').join('') + '</div>';
+      const confH = S.set.conf && !opt.compact ? '<div class="conf"><span class="muted">Ma confiance' + (it.type === 'vf' ? ' (avant de répondre)' : '') + ' :</span>' + [['sur', 'Sûr'], ['hesite', 'J\'hésite'], ['hasard', 'Au hasard']].map(([k, t]) => '<button data-c="' + k + '" class="' + (conf === k ? 'on' : '') + '">' + t + '</button>').join('') + '</div>' : '';
+      if (it.type === 'vf') h += confH + '<div class="vf">' + [['V', 'Vrai'], ['F', 'Faux']].map(([k, t]) => '<button class="opt" data-o="' + k + '">' + t + '</button>').join('') + '</div>';
+      else h += it.o.map((o, j) => '<button class="opt" data-o="' + L[j] + '"><span class="L">' + L[j] + '</span><span class="grow">' + md(o, true) + '</span></button>').join('') + '<p class="small muted" style="margin:4px 2px 0">Une ou plusieurs réponses justes : coche tout ce qui est vrai.</p>' + confH;
       h += '<div class="fbx"></div><div class="row" style="margin-top:12px;justify-content:flex-end;gap:8px"><button class="btn" data-v="1"' + (it.type === 'vf' ? ' style="display:none"' : '') + ' disabled>Valider</button></div></div>';
       el.innerHTML = h;
       paintSel();
@@ -109,7 +130,6 @@
       el.querySelector('.fbx').innerHTML = '<div class="fb ' + (good ? 'ok' : 'ko') + '"><b class="v">' + (good ? '✓ Bonne réponse' : '✗ ' + (it.type === 'vf' ? 'C\'était ' + (it.a ? 'VRAI' : 'FAUX') : 'Réponse : ' + it.r.split('').join(', '))) + '</b>' + (it.e ? '<div style="margin-top:4px">' + md(it.e) + '</div>' : '') +
         (!good ? '<div style="margin-top:8px"><button class="btn xs ghost" data-j="1">+ Journal d\'erreurs</button></div>' : '') + '</div>';
       const v = el.querySelector('[data-v]'); v.style.display = ''; v.disabled = false; v.textContent = i + 1 < items.length ? 'Suivant →' : 'Voir mon score';
-      if (good) U.toast(['Bien joué !', 'Exact !', 'Parfait !', 'Bravo !'][Math.random() * 4 | 0]);
     }
     function next() { i++; sel = new Set(); conf = ''; answered = false; if (i < items.length) draw(); else finish(); }
     // bilan par cours : où concentrer ses révisions
@@ -124,6 +144,7 @@
     }
     function finish() {
       if (tmr) clearInterval(tmr);
+      P.leaveGuard = null;
       const n = res.length || 1, pct = Math.round(100 * ok / n);
       if (pct === 100 && res.length >= 8) { S.bdgFlags = S.bdgFlags || {}; S.bdgFlags.perfect = 1; }
       P.addXP(5 * ok + 2 * (res.length - ok), 'quiz'); P.checkBadges(); P.save();
@@ -333,17 +354,28 @@
       };
     },
     pomo(el) {
-      let mode = 'focus';
+      const PM = P.POMO, st = () => S.pomo || (S.pomo = { mode: 'focus', run: false, end: 0, left: PM.focus });
+      const fmt = x => Math.floor(x / 60) + ':' + String(Math.floor(x % 60)).padStart(2, '0');
+      const paint = () => { const p = st(), tot = PM[p.mode], left = P.pomoLeft(), tv = el.querySelector('.tv'), tr = el.querySelector('.tr'); if (!tv) return; tv.textContent = fmt(left); tr.setAttribute('stroke-dashoffset', (465 * (1 - left / tot)).toFixed(1)); };
       const draw = () => {
-        el.innerHTML = '<div class="card" style="text-align:center"><div class="seg" style="justify-content:center"><button data-p="focus" class="' + (mode === 'focus' ? 'on' : '') + '">🍅 Concentration 25 min</button><button data-p="pause" class="' + (mode === 'pause' ? 'on' : '') + '">☕ Pause 5 min</button></div><div id="pt"></div><p class="small muted">Téléphone loin, une seule tâche. Garde cette page ouverte. Chaque séance terminée ajoute 25 minutes à ton bilan du jour.</p></div>';
-        P.timer(el.querySelector('#pt'), mode === 'focus' ? 1500 : 300, { color: mode === 'focus' ? '#de3b3b' : '#1f9d60', onEnd: () => {
-          if (mode === 'focus') { const d = P.day(P.today()); d.min = (d.min || 0) + 25; P.save(); P.addXP(15, 'pomodoro'); mode = 'pause'; U.toast('Séance terminée : 5 minutes de pause'); }
-          else { mode = 'focus'; U.toast('Pause finie : on reprend'); }
-          setTimeout(draw, 1200);
-        } });
+        const p = st(), tot = PM[p.mode], left = P.pomoLeft();
+        el.innerHTML = '<div class="card" style="text-align:center"><div class="seg" style="justify-content:center"><button data-p="focus" class="' + (p.mode === 'focus' ? 'on' : '') + '">🍅 Concentration 25 min</button><button data-p="pause" class="' + (p.mode === 'pause' ? 'on' : '') + '">☕ Pause 5 min</button></div>' +
+          '<div class="timer"><svg viewBox="0 0 170 170"><circle cx="85" cy="85" r="74" fill="none" stroke="var(--soft)" stroke-width="12"/><circle class="tr" cx="85" cy="85" r="74" fill="none" stroke="' + (p.mode === 'focus' ? '#de3b3b' : '#1f9d60') + '" stroke-width="12" stroke-linecap="round" stroke-dasharray="465" transform="rotate(-90 85 85)"/><text class="tv" x="85" y="95" text-anchor="middle" fill="currentColor" font-size="34" font-weight="900"></text></svg></div>' +
+          '<div class="row" style="justify-content:center;gap:8px"><button class="btn" data-pg="1">' + (p.run ? '⏸ Pause' : left < tot ? '▶ Reprendre' : '▶ Démarrer') + '</button><button class="btn ghost" data-pr="1">↺ Recommencer</button></div>' +
+          '<p class="small muted" style="margin-top:12px">Le minuteur continue quand tu ouvres une fiche ou un quiz : il reste visible en haut de l\'écran (🍅), et tu es prévenu à la fin.</p></div>';
+        paint();
       };
-      el.onclick = e => { const b = e.target.closest('[data-p]'); if (b) { mode = b.dataset.p; draw(); } };
+      el.onclick = e => {
+        const p = st(), b = e.target.closest('button'); if (!b) return;
+        if (b.dataset.p) { p.mode = b.dataset.p; p.run = false; p.end = 0; p.left = PM[p.mode]; }
+        else if (b.dataset.pg) { if (p.run) { p.left = P.pomoLeft(); p.run = false; p.end = 0; } else { const l = P.pomoLeft() > 0 ? P.pomoLeft() : PM[p.mode]; p.left = l; p.end = Date.now() + l * 1000; p.run = true; } }
+        else if (b.dataset.pr) { p.run = false; p.end = 0; p.left = PM[p.mode]; }
+        else return;
+        P.save(); draw(); P.pomoTick();
+      };
+      P.pomoRedraw = draw;
       draw();
+      P.addTimer(setInterval(paint, 500));
     },
   };
 })();

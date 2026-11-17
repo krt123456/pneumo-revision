@@ -193,6 +193,15 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
       sh('adb shell cmd statusbar expand-notifications'); await sleep(1500); shot('notification'); sh('adb shell cmd statusbar collapse'); await sleep(600);
       await page.evaluate(() => PneumoNative.setReminder(false, 20, 0, false));
     });
+    await step('lecture vocale', async () => {
+      await go(page, 'c/grippe'); await sleep(400);
+      await page.evaluate(() => { const b = document.querySelector('[data-act=speak]'); if (b) b.click(); });
+      await sleep(4000);
+      const sp = await page.evaluate(() => { try { return PneumoNative.speaking(); } catch (e) { return 'err ' + e.message; } });
+      note('lecture vocale en cours : ' + sp);
+      ok(sp === true || sp === false, 'lecture vocale sans erreur');
+      await page.evaluate(() => { try { PneumoNative.stopSpeak(); } catch (e) { /* ignore */ } });
+    });
     await step('export', async () => {
       await go(page, 'reglages'); await sleep(400);
       await page.locator('[data-act=export]').click(); await sleep(2500);

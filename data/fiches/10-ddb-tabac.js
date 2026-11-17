@@ -5,7 +5,7 @@ PNEUMO.fiche("ddb", {
     "Signe cardinal : **toux productive chronique, surtout matinale** (toilette bronchique), **non saisonnière**, calmée par les antibiotiques mais **récidivant à l'arrêt** ; avec des **infections respiratoires à répétition depuis l'enfance** 🎯.",
     "Confirmation au **scanner haute résolution** 🎯 : bronche **plus large que l'artère voisine** (rapport > **1** ; > **0,8** pour l'ERS) et qui **ne s'affine plus** vers la périphérie ; formes **cylindrique, variqueuse, kystique**.",
     "Causes : DDB **localisées → acquises** (**tuberculose** +++, **obstruction**) ; DDB **diffuses → congénitales** (mémo **MIDAS**). Complications (mémo **HAIE**) : **H**émoptysies, **A**mylose rénale, **I**nsuffisance respiratoire chronique, **E**xacerbations.",
-    "Traitement : **kinésithérapie de drainage** quotidienne 🎯 ; exacerbation : **amoxicilline-acide clavulanique 14 jours** ; **azithromycine** au long cours seulement si **≥ 3 exacerbations/an** ; vaccins, **zéro tabac** ; **lobectomie** en dernier recours."
+    "Traitement : **kinésithérapie de drainage** quotidienne 🎯 ; exacerbation : **amoxicilline-acide clavulanique 14 jours** ; **azithromycine** au long cours seulement si **≥ 3 exacerbations/an** (ou plus d'une exacerbation hospitalisée) ; vaccins, **zéro tabac** ; **lobectomie** en dernier recours."
   ],
   s: [
     ["Définition, intérêt, mécanisme", "navy", [
@@ -122,7 +122,7 @@ PNEUMO.fiche("ddb", {
     ["Les bronchodilatateurs", "Tout patient avec DDB doit recevoir des bronchodilatateurs.", "**Pas d'indication** sauf hyperréactivité bronchique prouvée ; risque accru d'**hémoptysie**.", "", ""],
     ["Les corticoïdes inhalés", "Les CSI calment l'inflammation : on les donne à toutes les DDB.", "**Seulement si asthme associé** ; sinon, plus d'hospitalisations pour infection.", "", ""],
     ["La durée des antibiotiques", "Exacerbation de DDB : 5 à 7 jours d'antibiotique suffisent.", "**14 jours**, quel que soit le germe.", "", ""],
-    ["L'antibiotique au long cours", "En prévention, tout patient DDB doit prendre un antibiotique au long cours.", "Prévention = **vaccins**, **kiné quotidienne**, **éviction des irritants** 🎯 ; le macrolide au long cours est réservé aux **≥ 3 exacerbations/an** malgré un traitement maximal.", "Un antibiotique permanent sans indication sélectionne des **résistances**.", ""],
+    ["L'antibiotique au long cours", "En prévention, tout patient DDB doit prendre un antibiotique au long cours.", "Prévention = **vaccins**, **kiné quotidienne**, **éviction des irritants** 🎯 ; le macrolide au long cours est réservé aux **≥ 3 exacerbations/an** malgré un traitement maximal (ou plus d'une exacerbation hospitalisée).", "Un antibiotique permanent sans indication sélectionne des **résistances**.", ""],
   ],
   v: [
     ["La DDB est une dilatation permanente, le plus souvent irréversible, des bronches.", true, ""],
@@ -145,7 +145,7 @@ PNEUMO.fiche("ddb", {
     ["Bilan à faire chez tous les patients avec DDB :", ["NFS et électrophorèse des protéines", "Dosage pondéral des immunoglobulines", "ECBC si le patient crache", "EFR", "Étude génétique CFTR systématique"], "ABCD", "La génétique CFTR se fait selon l'orientation."],
     ["Signes TDM d'une DDB :", ["Diamètre interne de la bronche supérieur à celui de l'artère adjacente", "Absence de diminution progressive du calibre bronchique vers la périphérie", "Aspect cylindrique, variqueux ou kystique", "Verre dépoli en mosaïque", "Rapport bronche/artère < 0,5"], "ABC", "🎯 Annale : bronche > artère et calibre qui ne diminue plus en s'éloignant des hiles."],
     ["Complications des DDB :", ["Hémoptysies", "Exacerbations", "Insuffisance respiratoire chronique", "Amylose rénale", "Pneumoconiose"], "ABCD", "Mémo HAIE."],
-    ["Mesures de prévention de cette maladie :", ["Vaccination antigrippale annuelle", "Vaccination antipneumococcique", "Kinésithérapie respiratoire quotidienne", "Éviction des irritants bronchiques et du tabac", "Antibiothérapie systématique au long cours"], "ABCD", "🎯 L'antibiotique au long cours n'est pas une mesure systématique (azithromycine seulement si ≥ 3 exacerbations/an)."],
+    ["Mesures de prévention de cette maladie :", ["Vaccination antigrippale annuelle", "Vaccination antipneumococcique", "Kinésithérapie respiratoire quotidienne", "Éviction des irritants bronchiques et du tabac", "Antibiothérapie systématique au long cours"], "ABCD", "🎯 L'antibiotique au long cours n'est pas une mesure systématique (azithromycine seulement si ≥ 3 exacerbations/an ou plus d'une exacerbation hospitalisée)."],
     ["Azithromycine au long cours dans la DDB :", ["Indiquée si ≥ 3 exacerbations par an malgré un traitement maximal", "250 mg par jour ou 500 mg 3 fois par semaine", "Durée maximale d'un an", "Peut allonger le QT et altérer l'audition", "Indiquée chez tous les patients dès le diagnostic"], "ABCD", ""],
   ],
   c: [

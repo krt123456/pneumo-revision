@@ -241,7 +241,7 @@ PNEUMO.fiche("td-tnm", {
         ["2 cm envahissant la bronche principale, sans la carène", "**T2a**"],
         ["3 cm + autre nodule tumoral distinct dans le même lobe", "**T3**"],
         ["4 cm + carène envahie", "**T4**"]],
-      ["crs", "Le diaporama de diagnostic 2025 range encore le **diaphragme** en T3 et suit la **8e édition** ; le TD (octobre 2026) suit la **9e édition** : diaphragme = **T4**, azygos, racines T1-T2 et ganglion stellaire = **T3**, N2a/N2b, M1c1/M1c2. À l'examen, suis le TD."],
+      ["crs", "Le diaporama de diagnostic 2025 range encore le **diaphragme** en T3 et suit la **8e édition** ; le TD (octobre 2026) suit la **9e édition** : diaphragme = **T4**, azygos, racines T1-T2 et ganglion stellaire = **T3**, N2a/N2b, M1c1/M1c2. À l'examen, suis le TD. Attention aussi aux **bornes** : le diaporama écrit « T1b ≥ 1 cm », « T1c ≥ 2 cm », « T2b ≥ 4 cm » ; en 8e comme en 9e édition (et dans le TD : 4 cm → T2a), chaque borne haute est **incluse** : **1 cm = T1a**, **2 cm = T1b**, **3 cm = T1c**, **4 cm = T2a**, **5 cm = T2b**, **7 cm = T3**."],
       ["chk", "Tumeur de 2,5 cm qui envahit la plèvre viscérale. T ?", ["T1c", "T2a", "T3"], "B", "Un critère d'invasion **reclasse** la petite tumeur."],
     ]],
     ["N : les ganglions", "teal", [

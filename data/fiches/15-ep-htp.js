@@ -19,7 +19,7 @@ PNEUMO.fiche("ep", {
       ["ast", "Pensez à un **tuyau d'arrosage** : l'eau **stagne** (stase), le tuyau est **abîmé** à l'intérieur (endothélium), l'eau **coagule trop vite** (hypercoagulabilité). Chacun des trois favorise le caillot ; plus il y en a, plus le risque monte."],
       ["steps", "Un thrombus de **TVP** se détache, en tout ou en partie.",
         "Il remonte vers les **cavités droites**, puis les **artères pulmonaires**.",
-        "L'arbre circulatoire pulmonaire est **amputé** : des alvéoles **ventilées** ne sont plus **perfusées** → échanges gazeux réduits (**hypoxémie**, **hypocapnie** : effet shunt).",
+        "L'arbre circulatoire pulmonaire est **amputé** : des alvéoles **ventilées** ne sont plus **perfusées** (espace mort, complément) → échanges gazeux réduits ; le sang dévié vers le reste du poumon crée un **effet shunt** (complément) : **hypoxémie**, **hypocapnie** (cours).",
         "Les **pressions artérielles pulmonaires** montent → le **VD** peut défaillir (**insuffisance cardiaque droite**, **collapsus**) selon l'importance de l'amputation vasculaire."],
       ["pq", "Pourquoi le **VD** lâche-t-il ? C'est une pompe à **paroi fine**, faite pour la **basse pression** (cours HTP). Un gros caillot lui impose brutalement un obstacle : il se **dilate**, son **septum** bombe vers le VG, le **débit cardiaque** chute → **choc** (complément). C'est ce qui tue dans l'EP grave."],
       ["fun", "C'est le pathologiste allemand **Rudolf Virchow** qui, au XIXe siècle, a forgé le mot « **embolie** », du grec *embolos* : le bouchon, ce qu'on enfonce."],
@@ -212,7 +212,7 @@ PNEUMO.fiche("ep", {
   p: [
     ["D-dimères et probabilité forte", "Probabilité clinique forte, D-dimères négatifs : EP exclue.", "Les D-dimères ne servent qu'en probabilité **faible ou intermédiaire** ; si la probabilité est **forte** : **angioscanner d'emblée**.", "Un test sensible mais imparfait ne suffit pas à rassurer quand la suspicion est forte.", ""],
     ["D-dimères positifs", "D-dimères à 1 200 µg/L : l'EP est confirmée.", "Des D-dimères **positifs** ne prouvent **rien** : ils imposent l'**imagerie** (angioscanner).", "Ils montent aussi avec l'âge, le cancer, l'infection, la grossesse, la chirurgie (complément).", ""],
-    ["Le seuil des D-dimères après 50 ans", "70 ans, D-dimères à 620 µg/L : angioscanner obligatoire.", "Après 50 ans, seuil = **âge × 10** : 700 µg/L à 70 ans, donc 620 est **négatif**.", "", ""],
+    ["Le seuil des D-dimères après 50 ans", "70 ans, D-dimères à 620 µg/L : angioscanner obligatoire.", "Après 50 ans, seuil = **âge × 10** : 700 µg/L à 70 ans, donc 620 est **négatif** (EP écartée si la probabilité clinique est **faible ou intermédiaire**).", "", ""],
     ["Le doppler normal", "Écho-doppler veineux normal : pas d'EP.", "Un doppler normal **n'exclut pas** l'EP.", "Le caillot a pu migrer en totalité, ou venir de veines mal explorées comme celles du bassin (complément).", ""],
     ["Le doppler positif", "TVP fémorale au doppler chez un patient suspect d'EP : on attend l'angioscanner pour traiter.", "Une **TVP proximale** prouvée suffit pour commencer l'**anticoagulation curative**, qui est le même traitement (complément).", "", ""],
     ["La radio normale", "Radio normale chez un dyspnéique : l'EP est peu probable.", "La radio est **souvent normale** dans l'EP : une **dyspnée aiguë avec radio normale** doit au contraire **faire penser** à l'EP.", "", ""],
@@ -256,12 +256,12 @@ PNEUMO.fiche("ep", {
     ["Indications du filtre cave :", ["Récidive d'EP prouvée sous traitement bien conduit", "EP avec contre-indication formelle aux anticoagulants", "Toute EP du sujet âgé", "EP à faible risque", "Prévention après chirurgie"], "AB", ""],
   ],
   c: [
-    ["Femme de 34 ans, **sous pilule**, **plâtrée** de la jambe droite depuis 3 semaines. **Dyspnée brutale** et **douleur thoracique** droite. FC 112/min, PA 125/75 mmHg, SpO2 91 %.", [
+    ["Femme de 34 ans, **sous pilule**, **plâtrée** de la jambe droite depuis 3 semaines. **Dyspnée brutale** et **douleur thoracique** droite. FC 105/min, PA 125/75 mmHg, SpO2 91 %.", [
       ["Score de Wells (immobilisation, FC > 100, et l'EP est le diagnostic le plus probable) :", ["6 : probabilité moyenne", "1,5 : faible", "9 : forte", "3 : faible", "12 : forte"], "A", "1,5 + 1,5 + 3 = 6 → probabilité moyenne (2–6)."],
       ["Examen suivant :", ["D-dimères", "Angiographie pulmonaire", "Scanner cérébral", "Fibroscopie bronchique", "Spirométrie"], "A", "Probabilité moyenne : D-dimères d'abord."],
       ["D-dimères à 2 400 µg/L. Ensuite :", ["Angioscanner thoracique", "EP exclue", "Refaire les D-dimères demain", "Thrombolyse immédiate", "Retour à domicile"], "A", ""],
       ["EP bilatérale ; pas de choc, sPESI = 0. Prise en charge :", ["AOD (rivaroxaban ou apixaban)", "Hospitalisation courte", "Lever 1 h après le début de l'anticoagulation", "Thrombolyse", "Filtre cave"], "ABC", ""],
-      ["Et la pilule ?", ["L'arrêter (facteur de risque)", "Anticoagulation de 3 à 6 mois", "Contraception sans œstrogène", "La poursuivre sans changement", "Doubler la dose"], "ABC", ""],
+      ["La pilule et la suite du traitement :", ["L'arrêter (facteur de risque)", "Anticoagulation de 3 à 6 mois", "Contraception sans œstrogène", "La poursuivre sans changement", "Doubler la dose"], "ABC", ""],
     ]],
     ["Femme de 30 ans, **IMC 35**, **accouchée il y a 3 semaines** : **douleur basithoracique droite** et dyspnée. FR 28/min, FC 120/min, PA 120/65 mmHg, SaO2 95 %. Matité de la base droite. Radio : **opacité triangulaire basale droite à sommet hilaire et base pariétale** (cas d'annales 🎯).", [
       ["Examens à demander :", ["ECG", "Gaz du sang artériels", "D-dimères", "Spirométrie", "Fibroscopie bronchique"], "ABC", "Examens de débrouillage."],
@@ -328,7 +328,7 @@ PNEUMO.fiche("htp", {
         ["Le cœur qui souffre", "**Douleurs thoraciques** (angor fonctionnel), **syncopes ou présyncopes à l'effort**"],
         ["Rare", "**Hémoptysies**"],
         ["L'auscultation", "**Éclat de B2** au foyer pulmonaire 🎯, souffle d'**insuffisance tricuspide**"],
-        ["Le ventricule droit", "**Signe de Harzer** (choc de pointe droit, perçu sous l'appendice xiphoïde) 🎯"],
+        ["Le ventricule droit", "**Signe de Harzer** (choc de pointe droit, perçu sous l'appendice xiphoïde)"],
         ["La congestion droite", "**Turgescence jugulaire**, **reflux hépato-jugulaire**, **hépatomégalie**, **ascite**, **œdèmes des membres inférieurs**"]],
       ["tab", ["Classe OMS (NYHA modifiée)", "Retentissement"],
         ["**I**", "Activité physique **normale**, sans symptôme"],

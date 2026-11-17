@@ -301,7 +301,7 @@ PNEUMO.fiche("pac", {
         ["**CRB-65**", "Traitement **ambulatoire**", "**≥ 1** critère → **évaluation à l'hôpital**"],
         ["**CURB-65**", "Traitement **ambulatoire**", "**≥ 2** critères → **évaluation à l'hôpital**"]],
       ["calc", "crb65"],
-      ["crs", "Le cours ne dit rien d'un **CURB-65 à 1**. Dans le score original de la BTS : **0–1** = risque faible (domicile possible), **2** = hospitalisation courte ou surveillance, **≥ 3** = PAC sévère (≥ 4 : réanimation à discuter) ; c'est ce qu'affiche le calculateur. L'urée à 7 mmol/L vaut **≈ 0,42 g/L**."],
+      ["crs", "Le cours ne dit rien d'un **CURB-65 à 1**. Dans le score original de la BTS : **0–1** = risque faible (domicile possible), **2** = hospitalisation courte ou surveillance, **≥ 3** = PAC sévère (≥ 4 : réanimation à discuter) ; c'est ce qu'affiche le calculateur. L'urée à 7 mmol/L vaut **≈ 0,42 g/L** ; le « 19 mg/dL » du cours est la même valeur exprimée en **azote uréique** (BUN, convention américaine), pas en urée (complément)."],
       ["pq", "Pourquoi ces critères ? Chacun mesure une **défaillance** : le **cerveau** (confusion), le **rein** (urée), le **poumon** (FR), la **circulation** (pression artérielle). L'**âge** réduit les réserves pour encaisser l'infection."],
       "**Score de Fine** (*Pneumonia Severity Index*) : score **complexe**, aux nombreux paramètres, qu'on calcule avec des **applications mobiles**. Il s'utilise en deux temps :",
       ["steps", "**Étape 1** : le patient a-t-il **moins de 50 ans**, **sans maladie associée** et **sans signe d'examen anormal** ? Si oui → **classe I** → **antibiotiques oraux à domicile**, sans calcul.",
@@ -360,7 +360,8 @@ PNEUMO.fiche("pac", {
         ["**Pneumonie grave**", "Pneumocoque **et** légionelle", "**C3G + fluoroquinolone ou macrolide**", "—"],
         ["**Légionelle**, forme légère ou modérée", "Légionelle", "**Fluoroquinolone 15 jours**", "Évolution vers la gravité : **ajouter un macrolide**"]],
       ["ast", "Échec à 48 h : « **pneumo → macro, doute → fluoro, atypique → amox** ». Durées : **amox 8–10**, **Augmentin 7**, **macrolide 15**, **fluoroquinolone (légionelle) 15**."],
-      ["ex", "🎯 Annales : sujet sain, PFLA → **amoxicilline 3 g/j en 3 prises** ; homme de 65 ans, diabétique et fumeur → **amoxicilline-acide clavulanique** pendant **7 jours**."],
+      ["ex", "🎯 Annales : sujet sain, PFLA → **amoxicilline 3 g/j en 3 prises** (avec de **nombreuses caries dentaires**, une version retient **amoxicilline 3 g/j + métronidazole 2 g/j** quand cette option est proposée : anaérobies) ; homme de 65 ans, diabétique et fumeur → **amoxicilline-acide clavulanique** pendant **7 jours**."],
+      ["crs", "🎯 Même cas des annales (65 ans, diabétique, fumeur, céphalées et douleurs abdominales les jours précédents), deux clés selon la version : **sans résultats d'examens** → **amoxicilline-acide clavulanique**, **7 jours** ; quand la radio montre des **opacités infiltratives multifocales médio-thoraciques bilatérales** → **fluoroquinolone IV** (durée retenue : **7 jours** dans une version, **21 jours** dans une autre). Le cours, lui, donne la fluoroquinolone **15 jours** pour une légionelle suspectée : lis bien les résultats fournis par l'énoncé."],
       ["pq", "Pourquoi « échec = autre famille » ? Si l'amoxicilline échoue à 48 h, le germe n'est probablement **pas** un pneumocoque sensible : on bascule vers une famille qui couvre ce qu'on a manqué (atypiques, légionelle)."],
       ["steps", "**48–72 h** : réévaluer. L'efficacité se juge sur la **clinique**, d'abord la **disparition de la fièvre** 🎯.",
         "**Amélioration** (apyrexie, ou fébricule avec un état général et des crachats en mieux) → **poursuivre le même traitement** 🎯, sans l'arrêter ni réduire les doses.",
@@ -498,7 +499,7 @@ PNEUMO.fiche("pac", {
     ["Homme de 68 ans, diabétique, fumeur à 40 paquets-années, fébrile à 39,5 °C depuis 2 jours. PA 115/60 mmHg, FR 26/min, conscient. Urée 0,50 g/L. Radio : opacité alvéolaire systématisée du lobe inférieur droit.", [
       ["Son CRB-65 vaut :", ["0", "1", "2", "3", "4"], "C", "PAD ≤ 60 (1) + âge ≥ 65 (1) = 2."],
       ["Son CURB-65 vaut :", ["1", "2", "3", "4", "5"], "C", "Urée 0,50 g/L ≈ 8,3 mmol/L > 7 : +1 → 3."],
-      ["Conduite thérapeutique :", ["Hospitalisation", "Amoxicilline-acide clavulanique (sujet âgé, comorbidité)", "Hémocultures et antigénuries", "Réévaluation à 48–72 h", "Traitement ambulatoire par amoxicilline seule"], "ABCD", ""],
+      ["Conduite thérapeutique :", ["Hospitalisation", "Amoxicilline-acide clavulanique (sujet âgé, comorbidité)", "Hémocultures et antigénuries", "Réévaluation à 48–72 h", "Traitement ambulatoire par amoxicilline seule"], "ABCD", "Le CRB-65 (2) décide du **lieu de soins** (hôpital). L'antibiotique suit le tableau du cours : aucun signe de gravité de la liste (PAS ≥ 90, FR < 30, conscient, T < 40 °C) chez un sujet âgé et comorbide → **amoxicilline-acide clavulanique**."],
       ["À J3 : 37,9 °C, il mange de nouveau, crache moins. Conduite :", ["Poursuivre le même traitement", "Ajouter un macrolide", "Passer à une C3G", "Arrêter l'antibiotique", "Demander une fibroscopie en urgence"], "A", "🎯 Amélioration nette : on maintient."],
       ["Guéri cliniquement, que prévoir ?", ["Radiographie de contrôle à J10", "Fibroscopie bronchique à distance", "Scanner thoracique à distance", "Antibiothérapie prolongée 3 mois", "Sevrage tabagique"], "ABCE", "Fumeur : rechercher un cancer sous-jacent, à distance de l'épisode aigu."],
     ]],
@@ -626,8 +627,8 @@ PNEUMO.fiche("pleuresie", {
         ["**Anaérobies**", "*Bacteroïdes*, *Fusobacterium*, *Peptostreptococcus*, etc.", "Fréquence **élevée**, **isolement délicat** ; **inhalation** de la flore **oropharyngée**, surtout chez l'**éthylique au mauvais état dentaire** ; **pouvoir nécrosant** important ; **peu de douleurs**, épanchement et crachats **fétides** ; sensibles à la **pénicilline**, la **clindamycine**, le **métronidazole**, certaines **céphalosporines**"],
         ["**Parasite**", "**Amibe** (pleurésie amibienne)", "Associée à une **atteinte hépatique**, plus souvent **à droite** ; **pus chocolat sans germe** mais contenant des **amibes** ; **sérologie positive** ; **métronidazole** (Flagyl®)"]],
       ["acro", "BFP", [["B", "*Bacteroïdes*"], ["F", "*Fusobacterium*"], ["P", "*Peptostreptococcus*"]], "« **B**ouche **F**étide, **P**ourrie » : les anaérobies viennent de la bouche (dents abîmées, alcool) et donnent un pus qui sent mauvais."],
-      ["ex", "🎯 Annales : homme de 57 ans, **alcoolique**, fumeur, **caries multiples** ; liquide **épais, fétide**, riche en PNN altérés, sans germe à l'examen direct → **anaérobies**. Le germe est évoqué grâce à l'**alcoolisme**, à l'**état dentaire** et à l'**aspect fétide du liquide**."],
-      ["crs", "🎯 Annales : chez un **nourrisson** atteint de pleurésie purulente, le germe retenu était le **pneumocoque**. Le cours cite aussi *Haemophilus* chez l'enfant, et le cours des suppurations décrit le **staphylocoque** comme « dramatique » chez le nourrisson."],
+      ["ex", "🎯 Annales : homme de 57 ans, **alcoolique**, fumeur, **caries multiples** ; liquide **épais** ou **fétide** selon la version, riche en PNN altérés, sans germe à l'examen direct → **anaérobies**. Éléments retenus (2 par clé, combinaisons imposées) : version 2021–2023, liquide « épais » → **alcoolisme + état dentaire** ; version 2024–2026, liquide **fétide** → **état dentaire + aspect du liquide**. L'**état dentaire** est retenu les deux fois ; le cours cite l'« **éthylique au mauvais état dentaire** » et la **fétidité**."],
+      ["crs", "🎯 Annales : chez un **nourrisson** atteint de pleurésie purulente, le germe retenu était le **pneumocoque** ; dans ce même cas, le traitement retenu était pourtant **oxacilline + gentamicine** (schéma antistaphylococcique). Le cours cite aussi *Haemophilus* chez l'enfant, et le cours des suppurations décrit le **staphylocoque** comme « dramatique » chez le nourrisson."],
     ]],
     ["Diagnostic différentiel", "amber", [
       ["tab", ["Liquide trouble, mais…", "Ce qui fait la différence"],
@@ -652,7 +653,7 @@ PNEUMO.fiche("pleuresie", {
         ["+ **Métronidazole** (Flagyl®) **2 g/j**", "Si suspicion d'**anaérobies** ou d'**amibiase**"],
         ["+ **Aminoside** (Gentalline® = gentamicine, ou amikacine ; adapté à la fonction rénale) **ou quinolone**", "Si le tableau évoque une **entérobactérie**"],
         ["Durée", "**4 à 6 semaines au minimum**"]],
-      ["crs", "🎯 Annales, même cas d'empyème à **anaérobies** (alcoolique, caries, pus fétide) : réponse attendue « **amoxicilline + métronidazole** » (2021–2023), puis « **céfotaxime + métronidazole + gentamicine** » (2024–2026). Point commun : **métronidazole** + **bêta-lactamine**. Durée attendue : **4 semaines** (le cours dit 4 à 6)."],
+      ["crs", "🎯 Annales, même cas d'empyème à **anaérobies** (alcoolique, caries ; liquide épais ou fétide selon la version) : réponse attendue « **amoxicilline + métronidazole** » (2021–2023), puis « **céfotaxime + métronidazole + gentamicine** » (2024–2026). Point commun : **métronidazole** + **bêta-lactamine**. Durée attendue : **4 semaines** (le cours dit 4 à 6)."],
       ["tab", ["Surveiller", "Comment"],
         ["La clinique", "**Courbe de température**, examen physique"],
         ["Le liquide", "**Quantité** et **aspect** du liquide évacué"],
@@ -731,7 +732,7 @@ PNEUMO.fiche("pleuresie", {
     ["Au stade de collection, le traitement comporte :", ["Une antibiothérapie parentérale de 4 à 6 semaines", "Un drainage thoracique", "Une kinésithérapie respiratoire précoce", "Une décortication d'emblée", "Une corticothérapie systématique"], "ABC", "La décortication ne vient qu'après échec d'une rééducation suffisante."],
     ["Pleurésie purulente fétide chez un éthylique au mauvais état dentaire. Quelles propositions sont exactes ?", ["Les anaérobies sont probables", "Le métronidazole est indiqué", "Une mycobactérie atypique est la cause la plus probable", "L'amoxicilline-acide clavulanique est un bon choix probabiliste", "Un aminoside seul suffit"], "ABD", "Inhalation de la flore buccale : anaérobies, fétidité ; traiter aussi les dents."],
     ["Les phases anatomopathologiques de la pleurésie purulente :", ["Phase exsudative de diffusion (J1–J3)", "Phase purulente de collection", "Phase d'enkystement", "La phase de collection est toujours irréversible", "L'enkystement est souvent irréversible"], "ABCE", "La collection reste réversible ; c'est l'enkystement qui laisse des séquelles."],
-    ["Le diagnostic d'une infection à anaérobies est évoqué devant :", ["Le mauvais état dentaire", "L'aspect fétide du liquide", "L'alcoolisme", "Le tabagisme", "La situation sociale"], "ABC", "🎯 Annales : alcoolisme, état dentaire, aspect fétide."],
+    ["Le diagnostic d'une infection à anaérobies est évoqué devant :", ["Le mauvais état dentaire", "L'aspect fétide du liquide", "L'alcoolisme", "Le tabagisme", "La situation sociale"], "ABC", "Cours : inhalation de la flore buccale chez l'**éthylique au mauvais état dentaire**, liquide **fétide**. 🎯 Clés officielles (2 réponses imposées) : liquide « épais » → alcoolisme + état dentaire ; liquide **fétide** → état dentaire + aspect du liquide. Tabagisme et situation sociale ne sont retenus dans aucune des deux clés."],
     ["Plèvre normale et physiopathologie :", ["L'espace pleural contient 10 à 15 mL de liquide", "Le liquide est produit par la plèvre pariétale", "Les protéines sont réabsorbées par les pores de Wang", "Le drainage peut atteindre 300 mL/jour par côté", "L'exsudat initial est trouble et riche en lymphocytes"], "ABCD", "L'exsudat initial est **clair** et riche en **polynucléaires**."],
   ],
   c: [
@@ -745,7 +746,7 @@ PNEUMO.fiche("pleuresie", {
     ["Homme de 57 ans, fumeur, consommateur régulier d'alcool. Douleur basithoracique droite depuis 5 jours, 39,5 °C, PA 90/60 mmHg, FR 26/min. Nombreuses caries dentaires. Trépied pleurétique de la moitié inférieure droite ; radio : opacité dense, homogène, à limite supérieure concave en haut et en dedans.", [
       ["Examens prioritaires :", ["NFS + hémocultures", "Ponction pleurale exploratrice", "IDR à la tuberculine", "Recherche de BK dans les crachats seule", "IRM thoracique"], "AB", "🎯 Annales."],
       ["Liquide épais, fétide, protides 50 g/L, PNN altérés, pas de germe à l'examen direct. Germe le plus probable :", ["Anaérobies", "Staphylocoque doré", "Pneumocoque", "Klebsiella", "Mycobacterium tuberculosis"], "A", "🎯 Annales."],
-      ["Ce qui oriente vers ce germe :", ["L'alcoolisme", "L'état dentaire", "L'aspect fétide du liquide", "Le tabagisme", "La pression artérielle basse"], "ABC", "« Bouche Fétide, Pourrie »."],
+      ["Selon la clé officielle de ce cas (liquide fétide), ce qui a fait évoquer le germe :", ["L'alcoolisme", "L'état dentaire", "L'aspect fétide du liquide", "Le tabagisme", "La pression artérielle basse"], "BC", "🎯 Clé 2024–2026 : **état dentaire + aspect du liquide**. L'alcoolisme reste un terrain favorisant (cours : « éthylique au mauvais état dentaire ») et il était retenu, avec l'état dentaire, dans la version 2021–2023 où le liquide était seulement « épais »."],
       ["Antibiothérapie :", ["Métronidazole associé à une bêta-lactamine (amoxicilline ou C3G)", "Aminoside seul", "Oxacilline + gentamicine", "Macrolide seul", "Antituberculeux"], "A", "Le métronidazole couvre les anaérobies ; aminoside ajouté si entérobactérie."],
       ["En plus des antibiotiques :", ["Drainage pleural", "Kinésithérapie respiratoire précoce", "Lavages pleuraux", "Corticothérapie précoce", "Soins dentaires"], "ABCE", "🎯 Annales : drainage + kiné + lavage ; puis traiter la porte d'entrée dentaire."],
     ]],
@@ -1162,7 +1163,7 @@ PNEUMO.fiche("td-ponction", {
       ["fun", "Le **chyle** est blanc comme du **lait** parce qu'il transporte les **graisses** absorbées par l'intestin ; son nom vient du grec *khylos*, « suc »."],
     ]],
     ["Analyse du liquide (2) : biochimie et critères de Light", "orange", [
-      "Protides pleuraux à **30 g/L** : transsudat ou exsudat ? Le TD répond « zone grise » : place aux **critères de Light**.",
+      "Protides pleuraux à **30 g/L** : transsudat ou exsudat ? Entre 25 et 35 g/L, le TD ne conclut pas (zone grise) : place aux **critères de Light** (complément, tombés aux annales 🎯).",
       "En 1re intention, on dose les **protides pleuraux** (**protidopleurie**) et les **LDH** (**lactico-déshydrogénase**) : ils **caractérisent** l'épanchement.",
       ["tab", ["Protides pleuraux (protides sériques normaux)", "Conclusion"],
         ["**< 25 g/L**", "**Transsudat**"],
@@ -1180,7 +1181,7 @@ PNEUMO.fiche("td-ponction", {
         ["**Glucose pleural**", "**Bas** dans les pleurésies **purulentes** (annales : 0,2 g/L) ; aussi tuberculose, polyarthrite rhumatoïde, cancer (complément)"],
         ["**Triglycérides**", "Liquide laiteux : **chylothorax**"],
         ["**Autres marqueurs**", "Ex. **amylase** (pancréatite), **anticorps antinucléaires**, **facteur rhumatoïde** (lupus, polyarthrite) : cours de pleurésie purulente"]],
-      ["chk", "Protides pleuraux à **30 g/L**, protides sériques normaux. Selon le TD :", ["Transsudat", "Exsudat", "Zone grise : on applique les critères de Light"], "C", "Entre **25 et 35 g/L**, le TD ne conclut pas : ce sont les **critères de Light** qui tranchent (un seul critère = exsudat)."],
+      ["chk", "Protides pleuraux à **30 g/L**, protides sériques normaux. Avec les seuils du TD :", ["Transsudat", "Exsudat", "Zone grise : on applique les critères de Light"], "C", "Entre **25 et 35 g/L**, le TD ne conclut pas : ce sont les **critères de Light** qui tranchent (un seul critère = exsudat)."],
     ]],
     ["Analyse du liquide (3) : cellules et microbes", "pink", [
       "La cytologie est **rarement discriminante**, mais elle **oriente** souvent l'étiologie.",
@@ -1193,6 +1194,7 @@ PNEUMO.fiche("td-ponction", {
         ["**Cellules tumorales**", "Affirment la nature **néoplasique** **seulement si un cancer est déjà connu** ; sinon → **biopsies pleurales**"]],
       ["acro", "Tu Lis Ces Romans Noirs", [["T", "**T**uberculose"], ["L", "**L**ymphomes"], ["C", "**C**hylothorax"], ["R", "pleurésies **R**humatoïdes"], ["N", "pleurésies **N**éoplasiques"]], "Le **lymphocyte** est un lecteur tranquille de romans noirs : liquide **lymphocytaire** = ces 5 causes."],
       ["ast", "**Neutrophiles = les 4 P** : **P**arapneumonique, foyer sous-**P**hrénique, **P**ancréatite aiguë, embolie **P**ulmonaire aiguë. **Éosinophiles** = de l'**air** ou du **sang** dans la plèvre (pneumothorax, hémorragie), ou une plèvre **irritée depuis longtemps** (médicaments, parasites, amiante, cancer)."],
+      ["crs", "🎯 Clés officielles des annales, à connaître en plus du TD : **neutrophiles** → pleurésie **parapneumonique** et pleurésie **lupique** (tuberculose, pleurésie rhumatoïde et lymphome non retenus) ; **éosinophiles > 10 %** dans une pleurésie à **liquide clair** → **parasitose** et **embolie pulmonaire** (hémothorax, lupus et parapneumonique non retenus). Le TD range l'embolie aiguë parmi les **neutrophiles** : en QCM, l'embolie peut donc être attendue dans les deux listes."],
       ["ret", "**Bactériologie** : **germes banals** et **BK**, à l'examen direct et en culture. Devant un **exsudat lymphocytaire** du sujet jeune, penser **tuberculose** : la **preuve** vient de la **biopsie pleurale** (follicule **giganto-épithélioïde** avec **nécrose caséeuse**) ou de la **culture** du BK 🎯. Lymphocytose, IDR ou dosage de l'ADA ne sont que des **arguments**."],
       ["pq", "Pourquoi des cellules tumorales **ne suffisent pas** sans cancer connu ? Des cellules **mésothéliales réactionnelles** peuvent leur ressembler, et il faut savoir **de quel cancer** il s'agit (mésothéliome ? métastase de quoi ?) : seule la **biopsie** répond."],
       ["chk", "Liquide exsudatif à **85 % de polynucléaires neutrophiles altérés**, chez un patient traité pour une pneumonie. Tu penses d'abord à :", ["Une tuberculose pleurale", "Une pleurésie parapneumonique devenue purulente", "Une cirrhose"], "B", "**Neutrophiles = infection** (parapneumonique) ; les polynucléaires **altérés** signent la purulence (cours de pleurésie purulente). La tuberculose donne des **lymphocytes**, la cirrhose un **transsudat**."],
@@ -1277,7 +1279,7 @@ PNEUMO.fiche("td-ponction", {
     ["Concernant la technique de la ponction pleurale :", ["Le patient est assis, dos à l'opérateur", "On pique au ras du bord supérieur de la côte inférieure", "On arrête la progression dès l'arrivée du liquide dans la seringue", "On retire le trocart lentement, en inspiration profonde", "Une radiographie de contrôle est faite après"], "ABCE", "Le retrait se fait **rapidement, en apnée**."],
     ["Un liquide pleural exsudatif à prédominance lymphocytaire évoque :", ["Une tuberculose pleurale", "Une pleurésie néoplasique", "Une insuffisance cardiaque gauche", "Un lymphome", "Une cirrhose"], "ABD", "Insuffisance cardiaque et cirrhose donnent des **transsudats**."],
     ["Critères de Light (exsudat si au moins un est présent) :", ["Protides pleuraux / sériques > 0,5", "Glycopleurie < 0,6 g/L", "LDH pleurales / sériques > 0,6", "LDH pleurales > 2/3 de la limite supérieure normale des LDH sériques", "Acide hyaluronique augmenté"], "ACD", "Le glucose et l'acide hyaluronique ne font pas partie des critères de Light."],
-    ["Une cytologie pleurale riche en éosinophiles (> 10 %) oriente vers :", ["Une pleurésie parasitaire", "Un hémothorax ou une pleurésie hémorragique", "Un pneumothorax", "Une pleurésie médicamenteuse", "Un transsudat d'insuffisance cardiaque"], "ABCD", "Air, sang, médicaments, parasites, amiante, cancer : en pratique, tout épanchement **chronique**."],
+    ["Une cytologie pleurale riche en éosinophiles (> 10 %) oriente vers :", ["Une pleurésie parasitaire", "Une pleurésie hémorragique", "Un pneumothorax", "Une pleurésie médicamenteuse", "Un transsudat d'insuffisance cardiaque"], "ABCD", "Air, sang, médicaments, parasites, amiante, cancer : en pratique, tout épanchement **chronique** (TD). 🎯 Annales (liquide clair) : **parasitose + embolie** ; l'**hémothorax** n'y était pas retenu."],
     ["Une cytologie pleurale à prédominance neutrophile se voit dans :", ["Une pleurésie parapneumonique", "Une pancréatite aiguë", "Une embolie pulmonaire aiguë", "Une tuberculose pleurale", "Un lymphome"], "ABC", "Tuberculose et lymphome : **lymphocytes**."],
     ["Sont des transsudats (selon le TD) :", ["Insuffisance cardiaque gauche", "Syndrome néphrotique", "Cirrhose", "Pleurésie tuberculeuse", "Métastases pleurales d'un cancer du sein"], "ABC", "« À NICE » : atélectasie, néphrotique, insuffisance cardiaque gauche, cirrhose, embolie (20 %)."],
     ["Mécanismes des épanchements pleuraux liquidiens : cochez les propositions FAUSSES", ["Diminution de la pression hydrostatique dans les capillaires", "Diminution de la pression oncotique", "Augmentation de la perméabilité capillaire", "Augmentation de la pression pleurale", "Altération du drainage lymphatique"], "AD", "C'est l'**augmentation** de la pression hydrostatique et la **baisse** de la pression pleurale (atélectasie) qui créent un épanchement."],
@@ -1328,7 +1330,8 @@ PNEUMO.fiche("td-drainage", {
       ["ast", "**Tous les « -thorax » se drainent** : **pyo**-, **hémo**-, **chylo**-, **pneumo**thorax… et leurs **mélanges** ; plus les suites de **chirurgie** thoracique ou cardiaque."],
       ["ret", "**Les 3 grandes indications** (conclusion du TD) : **pneumothorax spontané**, **hémopneumothorax traumatique**, **pleurésie d'origine infectieuse**. Une situation **fréquente**, parfois **vitale**, des services d'**urgences**."],
       ["tab", ["En pratique (autres cours, annales)", "Conduite"],
-        ["**Pneumothorax compressif** (suffocant)", "**Exsufflation** immédiate à l'aiguille, **puis pleurotomie a minima** 🎯"],
+        ["**Pneumothorax compressif**, TA conservée (même à 90/65 aux annales)", "**Oxygène + pleurotomie a minima d'emblée** 🎯"],
+        ["**Pneumothorax compressif avec collapsus** (TA imprenable, jugulaires turgescentes)", "**Exsufflation** immédiate à l'aiguille, **puis pleurotomie a minima** 🎯"],
         ["**Pneumothorax secondaire** (BPCO…)", "**Drainage** le plus souvent d'emblée"],
         ["**Pleurésie purulente** au stade de **collection**", "**Drainage** en milieu spécialisé (il permet aussi les **lavages**) + antibiotiques **4 à 6 semaines** + **kinésithérapie** 🎯"],
         ["Pleurésie parapneumonique sous antibiotique : liquide **trouble**, **pH < 7,20**, glucose bas", "**Changer l'antibiotique + drainage** (pleurotomie a minima) 🎯"]],
@@ -1367,7 +1370,7 @@ PNEUMO.fiche("td-drainage", {
         ["**Liquide**", "**4e ou 5e espace intercostal**, ligne **axillaire moyenne**"]],
       ["ast", "**L'air monte, l'eau descend** : patient couché, l'air se collecte **en haut et en avant** → site **haut et antérieur** ; le liquide tombe **en bas et sur les côtés** → site **plus bas, axillaire**."],
       ["pq", "Pourquoi **pas plus bas que le 5e espace** pour le liquide ? À l'expiration, le **diaphragme remonte** haut : en dessous, on risque le **foie** à droite ou la **rate** à gauche. La **ligne axillaire moyenne** offre une paroi **peu musclée**, loin du **cœur** et des gros vaisseaux (complément)."],
-      ["crs", "Le schéma n'affiche que le **2e espace** pour le PNO : le TD dit **2e ou 3e**. Il montre aussi le **triangle de sécurité** des recommandations internationales (bord du **grand pectoral**, bord du **grand dorsal**, ligne horizontale du **mamelon**) : c'est un **complément**. Le site « liquide » du TD (4e–5e EIC, ligne axillaire moyenne) s'y trouve ; un pneumothorax peut aussi y être drainé (voir la fiche pneumothorax)."],
+      ["crs", "Sur le schéma, le site du PNO est un seul point : le TD dit **2e ou 3e** espace. Le schéma cite aussi le **triangle de sécurité** des recommandations internationales (bord du **grand pectoral**, bord du **grand dorsal**, ligne horizontale du **mamelon**) : c'est un **complément**. Le site « liquide » du TD (4e–5e EIC, ligne axillaire moyenne) s'y trouve ; un pneumothorax peut aussi y être drainé (voir la fiche pneumothorax)."],
       ["pie", "**Ne confonds pas avec la ponction** : ponction = patient **assis, dos à l'opérateur** ; drain = patient **couché sur le dos, bras derrière la tête**."],
       ["chk", "Pneumothorax complet chez un sujet jeune : où poses-tu le drain selon le TD ?", ["4e–5e EIC, ligne axillaire moyenne", "2e–3e EIC, ligne médio-claviculaire", "7e–8e EIC, 1 à 2 espaces sous la pointe de l'omoplate"], "B", "C'est le site du **pneumothorax** dans le TD. Le 4e–5e EIC axillaire est le site du **liquide** ; le 7e–8e EIC est celui de la **ponction pleurale**."],
     ]],
@@ -1446,7 +1449,7 @@ PNEUMO.fiche("td-drainage", {
     ["Le pansement", "Après le drain, un pansement simple suffit, comme après une ponction.", "Drain **suturé** à la peau + **pansement hermétique**.", "Il faut empêcher l'air d'entrer dans la plèvre ou de fuser sous la peau (emphysème).", ""],
     ["L'anesthésie", "Quelques millilitres de xylocaïne en intradermique suffisent pour poser un drain.", "**20 mL** (un flacon de xylocaïne 1 %), **voire plus**, en **sous-cutané et en intramusculaire**.", "Le drain traverse peau, muscles et plèvre pariétale, très sensible.", ""],
     ["L'antibiotique suffit", "Une pleurésie purulente guérit avec les seuls antibiotiques.", "Liquide **purulent**, **pH < 7,20**, stade de **collection** : **antibiotiques + drainage** (± lavages) + kinésithérapie.", "Le pus enfermé est mal atteint par les antibiotiques : il faut le sortir.", "Annales : liquide trouble, pH 7,10, glucose 0,2 g/L sous amoxicilline → **changer l'antibiotique + drainage**."],
-    ["Le PNO compressif", "Devant un pneumothorax compressif, on prépare d'abord le drain.", "**Exsufflation immédiate** à l'aiguille, **puis** pleurotomie a minima.", "Chaque minute compte : le cœur et les gros vaisseaux sont comprimés.", ""],
+    ["Le PNO compressif", "Devant tout pneumothorax compressif, on commence par une exsufflation à l'aiguille.", "TA conservée : **oxygène + pleurotomie a minima d'emblée** 🎯. **Collapsus** (TA imprenable, jugulaires turgescentes) : **exsufflation immédiate** à l'aiguille, **puis** pleurotomie a minima 🎯.", "Quand le cœur et les gros vaisseaux sont comprimés, chaque minute compte : l'aiguille décomprime tout de suite. Sinon, le drain traite d'emblée un poumon (souvent de BPCO) qui continue de fuir.", "Annales : PNO compressif d'un BPCO, TA 90/65 → pleurotomie a minima ; TA imprenable → exsufflation puis pleurotomie."],
   ],
   v: [
     ["Le pneumothorax se draine au 2e ou 3e espace intercostal, sur la ligne médio-claviculaire.", true, ""],
@@ -1480,8 +1483,8 @@ PNEUMO.fiche("td-drainage", {
       ["Après la pose, vous surveillez :", ["Une radio de contrôle au lit", "La quantité et l'aspect du liquide drainé", "La température", "La SpO2, la FR, la TA et le pouls", "Rien : le drain est autonome"], "ABCD", ""],
       ["Le lendemain, la paroi autour du drain crépite sous les doigts, comme de la neige. Il s'agit :", ["D'un emphysème sous-cutané", "D'une infection tardive", "D'une complication connue du drainage", "D'un OAP a vacuo", "D'une perforation de la rate"], "AC", "L'**A** de **VAMPIRE** : de l'air sous la peau."],
     ]],
-    ["Homme de 58 ans, BPCO, fumeur. Douleur thoracique droite brutale, détresse respiratoire, cyanose, TA 85/50 mmHg, FC 125/min, turgescence jugulaire. Hémithorax droit hypersonore, murmure vésiculaire aboli. La radio, faite après stabilisation, montre une hyperclarté avasculaire droite et un médiastin refoulé à gauche.", [
-      ["Conduite immédiate :", ["Exsufflation à l'aiguille", "Attendre le scanner thoracique", "Pleurotomie a minima après l'exsufflation", "Ponction pleurale au 7e EIC sous l'omoplate", "Oxygénothérapie"], "ACE", "PNO **compressif** : **exsufflation** sans attendre, oxygène, puis **drain**."],
+    ["Homme de 58 ans, BPCO, fumeur. Douleur thoracique droite brutale, détresse respiratoire, cyanose, TA imprenable, FC 125/min, turgescence jugulaire. Hémithorax droit hypersonore, murmure vésiculaire aboli. La radio, faite après stabilisation, montre une hyperclarté avasculaire droite et un médiastin refoulé à gauche.", [
+      ["Conduite immédiate :", ["Exsufflation à l'aiguille", "Attendre le scanner thoracique", "Pleurotomie a minima après l'exsufflation", "Ponction pleurale au 7e EIC sous l'omoplate", "Oxygénothérapie"], "ACE", "PNO **compressif avec collapsus** : **exsufflation** sans attendre, oxygène, puis **drain** 🎯. Si la TA tenait, la réponse des annales serait **oxygène + pleurotomie a minima d'emblée**."],
       ["Site et position du drain selon le TD :", ["2e ou 3e EIC, ligne médio-claviculaire", "Patient en décubitus dorsal", "Bras du côté drainé maintenu derrière la tête (installation du TD)", "7e–8e EIC postérieur", "Patient assis, dos à l'opérateur"], "ABC", ""],
       ["Calibre du drain :", ["16–18", "36", "28", "Le plus gros possible", "Sans importance"], "A", "Air : **petit calibre**."],
       ["Après la pose, l'aspiration montre un bullage. Cela signifie :", ["L'air de la plèvre s'évacue par le drain", "Le drain est forcément mal placé", "Il faut clamper le drain", "Il faut suivre l'évolution du bullage et la radio", "Une hémorragie"], "AD", "Le bullage, c'est l'air qui sort ; s'il **persiste**, avis chirurgical ; on ne clampe pas un drain qui bulle (complément)."],
@@ -1615,6 +1618,7 @@ PNEUMO.fiche("sd-cav", {
         ["Sidoummou, Moussaoui", "Image mixte **arrondie de 8 cm**, moitié inférieure **droite** : opacité dense surmontée d'un **croissant gazeux**, paroi épaisse, limites supérieure et inférieure **convexes et nettes** ; angles aigus", "**Kyste hydatique inférieur droit fissuré**"],
         ["Dr Firane", "Image mixte de **6 à 7 cm**, tiers moyen **gauche** : limite inférieure convexe vers le bas, limite supérieure **nette et ondulée** surmontée d'une clarté, paroi épaisse ; angles aigus ; **n'efface pas le bord gauche du cœur** → **postérieure**", "Classique **image en nénuphar** → **kyste hydatique rompu avec membrane flottante**"]],
       ["crs", "**Paroi du kyste** : le tableau de sémiologie range le « kyste » parmi les parois **fines** (≤ 2 mm), ce qui vaut surtout pour les **kystes aériens** ; dans les cas du cours, le kyste hydatique **fissuré** ou **rompu** a une paroi **épaisse** (le périkyste), et le kyste **vidé** une paroi **fine** (2 mm). Décris ce que tu vois."],
+      ["crs", "**Croissant gazeux aux annales** : en 2021, « opacité arrondie de la base droite **surmontée d'un croissant gazeux** » chez un boucher, sans proposition « kyste fissuré » → clé officielle « **kyste hydatique rompu** » (et non aspergillome, tuberculome ou cancer). Le cours appelle cette image **kyste fissuré** (pneumokyste, stade du kyste malade) : si « fissuré » n'est pas proposé, pense **kyste hydatique**."],
       ["pie", "**Ne jamais ponctionner** un kyste hydatique : la ponction transpariétale est **formellement rejetée** (risque de **choc anaphylactique**). Demander une **échographie abdominale systématique** (kyste du foie) : cours du kyste hydatique."],
     ]],
     ["L'image en grelot", "amber", [
@@ -1625,7 +1629,7 @@ PNEUMO.fiche("sd-cav", {
         ["**Aspergillome** (greffe aspergillaire)", "Le plus fréquent ; cavité **préexistante**, poumon **emphysémateux** ; **hémoptysies**, parfois **graves** 🎯"],
         ["**Kyste hydatique vidé** (vomiqué, **stade V**) avec **rétention de membranes**", "Cavité à **paroi fine** sur poumon sain ; zone d'élevage, notion de **vomique**"],
         ["**Hématome** (hémorragie) **intracavitaire**", "Saignement dans une cavité : 3e hypothèse"]],
-      ["crs", "L'**ordre** change selon le terrain (Dr Firane) : grelot sur **emphysème**, paroi de **3 mm** → **aspergillome** > kyste hydatique stade V > hématome ; grelot sur **poumon sain**, paroi **fine de 2 mm** → **kyste hydatique vomiqué** > aspergillome > hématome. Le Dr Sidoummou et le TD citent l'aspergillome en premier."],
+      ["crs", "L'**ordre** change selon le terrain (Dr Firane) : grelot sur **emphysème**, paroi de **3 mm** → **aspergillome** > kyste hydatique stade V > hématome ; grelot sur **poumon sain**, paroi **fine de 2 mm** → **kyste hydatique vomiqué** > aspergillome > hématome. Le TD et le cas commenté du Dr Sidoummou (1/3 inférieur droit) citent l'aspergillome en premier ; une autre diapositive du Dr Sidoummou liste d'abord le kyste vomiqué (vidé)."],
       ["tab", ["Cas du cours", "Description résumée", "Conclusion"],
         ["Sidoummou, Moussaoui", "Clarté arrondie de **6 cm** du 1/3 inférieur droit, **opacité dense homogène à son pôle inférieur**, paroi épaisse ; angles aigus avec le médiastin et la paroi", "**Aspergillome** ; kyste hydatique vidé avec rétention de membranes ; hémorragie intracavitaire"],
         ["Dr Firane", "Droite, sous-claviculaire : clarté de **4 cm**, paroi de **3 mm**, opacité **ovalaire de 1,5 × 1 cm** au pôle inférieur, à **cornes effilées** ; + **distension** (thorax quadrangulaire, côtes horizontales, espaces intercostaux élargis, coupoles aplaties) et **destruction** (trame raréfiée)", "Grelot droit **sur emphysème** → **aspergillome** > KH stade V > hématome"],
@@ -1787,7 +1791,8 @@ PNEUMO.fiche("tb-commune", {
         ["Autour", "**Cellules épithélioïdes** (macrophages activés) et **cellules géantes de Langhans**, nées de la **fusion de cellules épithélioïdes** et non de lymphocytes (complément)"],
         ["Périphérie", "**Couronne de lymphocytes**"]],
       ["ret", "Granulome **avec** nécrose caséeuse = **tuberculose** ; granulome **sans** nécrose caséeuse = penser **sarcoïdose** 🎯. Parce que sa lésion signe le germe, la tuberculose est une pneumopathie dite « **spécifique** »."],
-      ["acro", "CÉDER", [["C", "**Calcification**"], ["É", "**Enkystement**"], ["D", "**Disparition** : résorption (sous antituberculeux)"], ["E", "**Élimination** par un conduit de drainage (bronche) → **caverne**"], ["R", "**Ramollissement** : liquéfaction"]], "Les 5 destins du caséum 🎯 : il finit toujours par **CÉDER**. S'il se ramollit et s'évacue par une bronche, il laisse un trou : la **caverne**."],
+      ["acro", "CRÉE", [["C", "**Calcification**"], ["R", "**Ramollissement** : liquéfaction (lors d'une poussée exsudative)"], ["É", "**Élimination** par un conduit de drainage (bronche) → **caverne**"], ["E", "**Enkystement**"]], "Les 4 destins du caséum 🎯 : quand il se ramollit puis s'évacue par une bronche, il **CRÉE** un trou : la **caverne**. Piège des annales : le caséum **ne se résorbe pas**."],
+      ["crs", "Le poly « Jour 1 » écrit que le caséum peut aussi « se **résorber** ». Les clés officielles disent le contraire : « peut se résorber » = **faux** (Externat 2023, réponse **ABDE**) ; « résorption sous l'effet des antituberculeux » = **faux** (Externat 2026, réponse **BCDE**). À l'examen, ne coche pas la résorption."],
       ["fun", "**Caséeux** vient du latin *caseus*, « **fromage** » : la nécrose tuberculeuse est blanc-jaunâtre et grumeleuse comme du fromage frais."],
     ]],
     ["Clinique : les signes d'orientation", "blue", [
@@ -1836,6 +1841,7 @@ PNEUMO.fiche("tb-commune", {
         ["**TPM+**", "Tuberculose pulmonaire à **microscopie positive**", "BK **vu** au direct : la forme **la plus contagieuse**"],
         ["**TPM− C+**", "**Microscopie négative**, **culture positive**", "Trop peu de BK pour être vus, mais ils **poussent** en culture"]],
       ["pie", "L'**IDR** et l'**IGRA** ne prouvent **pas** la tuberculose-maladie : ils montrent une **infection** (utile pour l'ITL). Le **scanner** précise les lésions (raquette) mais **ne remplace pas** la preuve bactériologique."],
+      ["crs", "Annales, même situation (BK **négatif** au direct, PCR négative, IDR à 15 mm ; scanner : caverne avec bronche de drainage **en raquette** + nodules des deux sommets) : **Externat 2023** → clé « **commencer le traitement antituberculeux** » ; **Externat 2022** → clé « **faire une autre série de 3 BK** ». Les deux réponses existent : lis bien les propositions."],
       ["ul", "**Dès le diagnostic** : masque pour le malade, aération, **déclaration** du cas, **dépistage des personnes vivant sous le même toit**, traitement **2 RHZE/4 RH** (voir la fiche Traitement)."],
       ["chk", "Un patient ne crache pas. Le tubage gastrique se fait :", ["Le soir, après le dîner", "Le matin à jeun, avant le lever", "À n'importe quelle heure"], "B", "Les sécrétions avalées la nuit attendent dans l'estomac : on les recueille **avant la vidange gastrique**, donc le **matin à jeun, avant le lever**."],
     ]],
@@ -1877,14 +1883,14 @@ PNEUMO.fiche("tb-commune", {
     ["L'auramine est une technique plus rapide que le Ziehl.", true, "Bacilles jaunes fluorescents."],
     ["Une TPM− C+ a une microscopie négative et une culture positive.", true, ""],
     ["Le diagnostic de certitude de la tuberculose commune est radiologique.", false, "Il est **bactériologique**."],
-    ["Le caséum peut se calcifier ou s'enkyster.", true, "Ses 5 destins : **CÉDER**."],
+    ["Le caséum peut se calcifier ou s'enkyster.", true, "Ses 4 destins : **CRÉE** (calcification, ramollissement, élimination, enkystement) ; il **ne se résorbe pas**."],
     ["Un patient gastrectomisé a un risque accru de tuberculose.", true, ""],
   ],
   q: [
     ["Concernant le diagnostic de la tuberculose pulmonaire commune :", ["Les crachats sont recueillis le matin, 3 jours de suite", "Le tubage gastrique se fait le matin à jeun", "Un ECBC standard recherche automatiquement les BAAR", "La culture se fait sur Löwenstein-Jensen", "La certitude est bactériologique"], "ABDE", "Il faut demander **spécifiquement** la recherche de BAAR."],
     ["Facteurs de risque de tuberculose cités par le cours :", ["Diabète", "Infection VIH", "Gastrectomie", "Personnel soignant", "Hypertension artérielle"], "ABCD", "Moyen mémo : **DÉPISTAGE**."],
     ["Aspects radiologiques de la tuberculose commune :", ["Nodules des sommets", "Infiltrat non systématisé", "Caverne avec bronche de drainage", "Opacité systématisée avec bronchogramme du lobe moyen", "Tuberculome calcifié en séquelle"], "ABCE", "D décrit une pneumonie."],
-    ["Le caséum peut :", ["Se liquéfier (se ramollir)", "Se calcifier", "Se résorber", "S'enkyster", "S'éliminer par un conduit de drainage naturel"], "ABCDE", "Les 5 destins : **CÉDER**."],
+    ["Le caséum peut :", ["Se liquéfier (se ramollir)", "Se calcifier", "Se résorber", "S'enkyster", "S'éliminer par un conduit de drainage naturel"], "ABDE", "Externat 2023 : réponse officielle **ABDE** : le caséum **ne se résorbe pas**. Ses 4 destins : **CRÉE**."],
     ["Le diagnostic de certitude **histologique** de la tuberculose repose sur la présence de :", ["Cellules épithélioïdes", "Cellules géantes de Langhans", "Couronne lymphocytaire", "Nécrose caséeuse", "Polynucléaires neutrophiles"], "D", "Cellules épithélioïdes, cellules géantes et lymphocytes existent aussi dans la sarcoïdose ; seule la **nécrose caséeuse** est spécifique."],
     ["La tuberculose pulmonaire commune peut résulter de :", ["Une complication précoce d'une primo-infection", "Une réinfection exogène par un apport massif de BK", "Une réactivation endogène de BK quiescents", "Une contamination digestive habituelle", "Une transmission par contact cutané"], "ABC", "Les **3 R**."],
     ["Modes de révélation de la tuberculose commune :", ["Début insidieux, le plus fréquent", "Début bruyant pseudo-pneumonique avec laryngite", "Hémoptysie, pleurésie ou pneumothorax", "Découverte fortuite sur une radio d'embauche", "Début toujours brutal avec herpès labial"], "ABCD", ""],
@@ -1959,10 +1965,10 @@ PNEUMO.fiche("tb-extra", {
       ["ast", "Le reste est **commun**… **sauf le rachis** : l'os est une forme commune, mais la **vertèbre** (Pott) passe chez les **sévères**."],
       ["ret", "L'intérêt de ce classement est surtout **thérapeutique** : le traitement **diffère selon la forme**."],
       ["tab", ["Forme", "Régime (voir la fiche Traitement)", "Durée"],
-        ["**TEP simple** (formes communes)", "**2 RHZ/4 RH**", "6 mois"],
+        ["**TEP simple** (formes communes)", "**2 RHZ/4 RH** (Révision totale) ; **pleurésie** aux annales : **2 RHZE/4 RH + corticothérapie** 🎯", "6 mois"],
         ["**Miliaire**", "**2 RHZE/4 RH** (annales 🎯)", "6 mois"],
         ["**Méningée** ou **vertébrale** (Pott)", "**2 RHZE/10 RH**", "**12 mois**"]],
-      ["crs", "Le cours de TEP ne détaille pas les régimes. La Révision totale et les annales donnent **12 mois** pour les formes **méningée et vertébrale** ; d'autres références (OMS 2010) proposent **9 à 12 mois** pour la méningite et **9 mois** pour les os et articulations. En cas de doute, suis ton enseignant."],
+      ["crs", "Le cours de TEP ne détaille pas les régimes. La Révision totale donne **12 mois** pour les formes **méningée et vertébrale** (annales 2021 : miliaire avec atteinte méningée → **antituberculeux 12 mois + corticothérapie**) ; d'autres références (OMS 2010) proposent **9 à 12 mois** pour la méningite et **9 mois** pour les os et articulations. Pour la **pleurésie tuberculeuse** prouvée, la Révision totale range la TEP simple sous **2 RHZ/4 RH**, mais les clés officielles (Externat **2022** et **2023**) retiennent « **quadrithérapie 2 RHZE/4 RH avec corticothérapie** » ; la trithérapie 2 RHZ/4 RH y était une proposition **fausse**. En cas de doute, suis ton enseignant."],
       ["chk", "Un **mal de Pott** est classé :", ["Forme commune (osseuse)", "Forme sévère", "Forme non tuberculeuse"], "B", "Les formes osseuses sont communes **sauf le rachis** : la tuberculose **vertébrale** est **sévère** (**PRUNE**)."],
     ]],
     ["Les formes à connaître", "orange", [
@@ -1971,8 +1977,8 @@ PNEUMO.fiche("tb-extra", {
       ["ret", "Micronodules diffus « en grains de mil » : penser **d'abord** à la **miliaire tuberculeuse** (urgence : chercher la méningite) ; autres causes à discuter : miliaire **carcinomateuse**, **sarcoïdose**, **pneumoconiose** (complément)."],
       ["cards",
         ["Miliaire 🎯", "**Dissémination par le sang** : fièvre, altération de l'état général, dyspnée ; **micronodules** diffus en « **grains de mil** » ; **tubercules choroïdiens** au fond d'œil (complément) ; chercher une **méningite** (ponction lombaire) et le **VIH** ; mesures : **isolement respiratoire** et **masque** (le poumon est atteint), surveillance **efficacité, tolérance, observance**.", "red"],
-        ["Méningite tuberculeuse", "LCR **clair**, **lymphocytaire**, **protéines > 1 g/L**, **glucose < 0,4 g/L** ; forme **sévère** : **12 mois** ; corticoïdes associés (complément OMS).", "purple"],
-        ["Pleurésie tuberculeuse 🎯", "Sujet **jeune**, souvent **non vacciné**, **contage**, fièvre, altération de l'état général ; liquide **citrin**, **exsudat** (protides > 30 g/L) **lymphocytaire** ; IDR positive, parfois **virage** récent ; preuve : **biopsie pleurale** (follicule caséeux) ou **culture** du liquide ou du fragment.", "blue"],
+        ["Méningite tuberculeuse", "LCR **clair**, **lymphocytaire**, **protéines > 1 g/L**, **glucose < 0,4 g/L** ; forme **sévère** : **12 mois** ; corticoïdes associés (complément OMS). Ces chiffres sont **typiques, pas obligatoires** : aux annales 2021 (miliaire), un LCR à **30 lymphocytes/mm³**, protéines **0,50 g/L**, glucose **0,40 g/L** a conduit à « **corticothérapie + antituberculeux 12 mois** ».", "purple"],
+        ["Pleurésie tuberculeuse 🎯", "Sujet **jeune**, souvent **non vacciné**, **contage**, fièvre, altération de l'état général ; liquide **citrin**, **exsudat** (protides > 30 g/L) **lymphocytaire** ; IDR positive, parfois **virage** récent ; preuve : **biopsie pleurale** (follicule caséeux) ou **culture** du liquide ou du fragment. Traitement retenu aux annales (2022, 2023) : **2 RHZE/4 RH + corticothérapie** ; mesures associées (2023) : **ponctions évacuatrices** jusqu'à assèchement et **kinésithérapie** 🎯.", "blue"],
         ["Ganglionnaire (la plus fréquente)", "Adénopathies souvent **cervicales**, qui peuvent se **fistuliser** (« écrouelles ») ; **ponction-aspiration** ou **biopsie-exérèse** ; régression parfois lente sous traitement (complément).", "teal"],
         ["Mal de Pott", "**Spondylodiscite** tuberculeuse ; **abcès froid** ; risque de **compression médullaire** (complément) ; forme **sévère** : **12 mois**.", "orange"],
         ["Rénale", "Leucocyturie **sans germe banal** (« pyurie stérile », complément) → BK sur **3 culots urinaires** ; forme **sévère**.", "amber"]],
@@ -1992,7 +1998,7 @@ PNEUMO.fiche("tb-extra", {
         ["> 1 g/L", "Méningite tuberculeuse : protéines du LCR"],
         ["< 0,4 g/L", "Méningite tuberculeuse : glucose du LCR"],
         ["> 30 g/L", "Pleurésie tuberculeuse : protides du liquide (exsudat)"],
-        ["6 mois", "Tuberculose extra-pulmonaire simple : 2 RHZ/4 RH"],
+        ["6 mois", "Tuberculose extra-pulmonaire simple : 2 RHZ/4 RH selon la Révision totale (pleurésie aux annales : 2 RHZE/4 RH + corticothérapie)"],
         ["12 mois", "Tuberculose méningée ou vertébrale : 2 RHZE/10 RH"]],
     ]],
   ],
@@ -2040,7 +2046,7 @@ PNEUMO.fiche("tb-extra", {
       ["Examen clé pour analyser l'épanchement :", ["Ponction pleurale exploratrice", "Spirométrie", "Scintigraphie", "IRM", "Électrocardiogramme"], "A", ""],
       ["Liquide **citrin**, protides **48 g/L**, **85 % de lymphocytes**, BAAR absents au direct ; IDR à **18 mm**. Arguments de **présomption** :", ["Exsudat à prédominance lymphocytaire", "Contage familial", "Sujet jeune non vacciné", "IDR supérieure à 10 mm", "BAAR absents au direct"], "ABCD", "Un direct négatif n'élimine rien : le liquide est pauvre en BK."],
       ["Examen(s) qui apporte(nt) la **preuve** :", ["Biopsie pleurale : follicule caséeux", "Culture positive du liquide ou du fragment", "IDR fortement positive", "Lymphocytose pleurale", "ADA pleurale élevée"], "AB", "IDR, lymphocytose et ADA orientent sans prouver."],
-      ["Cette forme :", ["Est une forme commune", "N'est pas contagieuse (pas d'atteinte pulmonaire)", "Est une forme sévère traitée 12 mois", "Se traite par 2 RHZ/4 RH (TEP simple)", "Impose de vacciner le malade par le BCG"], "ABD", ""],
+      ["Cette forme :", ["Est une forme commune", "N'est pas contagieuse (pas d'atteinte pulmonaire)", "Est une forme sévère traitée 12 mois", "Se traite par 2 RHZE/4 RH avec corticothérapie (réponse des annales)", "Impose de vacciner le malade par le BCG"], "ABD", "Externat 2022 et 2023 (pleurésie prouvée par un follicule caséeux) : clé « **2 RHZE/4 RH avec corticothérapie** » ; la trithérapie **2 RHZ/4 RH** (TEP simple de la Révision totale) y était **fausse**."],
     ]],
   ],
 });
@@ -2048,7 +2054,7 @@ PNEUMO.fiche("tb-extra", {
 PNEUMO.fiche("tb-traitement", {
   e: [
     "Antituberculeux de 1re ligne (**RHZE** + S) : **R** rifampicine **10 mg/kg**, **H** isoniazide **5 mg/kg**, **Z** pyrazinamide **25 mg/kg**, **E** éthambutol **15 mg/kg**, **S** streptomycine **15 mg/kg IM** ; prise **quotidienne, le matin à jeun**, en **comprimés combinés** selon le **poids**.",
-    "**Nouveau cas : 2 RHZE/4 RH = 6 mois** 🎯. TEP simple : **2 RHZ/4 RH**. **Retraitement** (rechute, échec, reprise après interruption) : **2 SRHZE/1 RHZE/5 RHE = 8 mois**. Méningée ou vertébrale : **2 RHZE/10 RH = 12 mois**.",
+    "**Nouveau cas : 2 RHZE/4 RH = 6 mois** 🎯. TEP simple : **2 RHZ/4 RH** selon la Révision totale (mais **pleurésie** aux annales : **2 RHZE/4 RH + corticothérapie**). **Retraitement** (rechute, échec, reprise après interruption) : **2 SRHZE/1 RHZE/5 RHE = 8 mois** (nuances des annales dans la section des régimes). Méningée ou vertébrale : **2 RHZE/10 RH = 12 mois**.",
     "Effets **majeurs** : **hépatite (H, R, Z)**, **névrite optique (E)**, **surdité (S)** ; **mineurs** : paresthésies (**H → vitamine B6**), arthralgies (**Z**), troubles digestifs (**R**). Rifampicine : urines **orange**, **interactions** (pilule, AVK, antidiabétiques oraux, corticoïdes).",
     "Avant : **poids** et **chimie des urines** (± bilan hépatique, rénal, glycémie, uricémie, VIH). Pendant : **prise supervisée** des **2 premiers mois**, crachats à **M2, M5, M6**, observance, tolérance.",
     "Résultats : **guéri** (BK négatif en fin de traitement), **traitement achevé** (sans preuve bactériologique finale), **échec** (BK+ au **5e mois** ou plus), **perdu de vue** (interruption **≥ 2 mois**), décédé, non évalué."
@@ -2066,7 +2072,7 @@ PNEUMO.fiche("tb-traitement", {
         ["Bilan **hépatique** (transaminases)", "Point de départ avant des médicaments **hépatotoxiques** (H, R, Z)"],
         ["Bilan **rénal**, **glycémie**, **uricémie**", "Selon le terrain : rein, diabète, acide urique (pyrazinamide)"],
         ["**Sérologie VIH**", "Terrain, interactions, prise en charge adaptée"]],
-      ["crs", "Ce bilan est reconstitué à partir des cas des annales, où « **poids et chimie des urines** » est la réponse attendue ; la liste exacte peut varier selon ton service."],
+      ["crs", "Ce bilan est reconstitué à partir des cas des annales, qui ne disent pas tous la même chose : **2022 et 2023** → « **poids et chimie des urines** » (en 2023, les **sérologies VIH, VHC, VHB** et l'**albuminémie** étaient les propositions à **ne pas** demander) ; **2025** (miliaire) → « **bilan hépatique + bilan rénal** ». Retiens les quatre et lis bien les combinaisons proposées ; la liste exacte peut varier selon ton service."],
     ]],
     ["Les médicaments", "purple", [
       ["acro", "RHZES", [["R", "**Rifampicine** : 10 mg/kg/j"], ["H", "**Isoniazide** (H pour *hydrazide*, INH) : 5 mg/kg/j"], ["Z", "**Pyrazinamide** : 25 mg/kg/j"], ["E", "**Éthambutol** : 15 mg/kg/j"], ["S", "**Streptomycine** : 15 mg/kg/j en **IM** (retraitement)"]], "Les 5 antituberculeux de **1re ligne**. Le « H » vient du nom chimique de l'isoniazide : *isonicotinic acid hydrazide* (INH)."],
@@ -2086,7 +2092,7 @@ PNEUMO.fiche("tb-traitement", {
         ["55–70 kg", "**4** cp", "**4** cp"],
         ["≥ 71 kg", "**5** cp", "**5** cp"]],
       ["crs", "Ces tranches sont celles des recommandations OMS (2010) ; ce sont les mêmes que dans le tableau RH 150/75 du cours de prévention, et les annales les appliquent : **56 kg → 4 comprimés de RHZE**, **60 kg → 4 comprimés par jour** 🎯. Vérifie-les avec ton cours de traitement."],
-      ["chk", "Patient de **56 kg**, nouveau cas TPM+. Combien de comprimés de RHZE par jour ?", ["3", "4", "5"], "B", "Tranche **55–70 kg** → **4 comprimés**, comme dans les annales."],,
+      ["chk", "Patient de **56 kg**, nouveau cas TPM+. Combien de comprimés de RHZE par jour ?", ["3", "4", "5"], "B", "Tranche **55–70 kg** → **4 comprimés**, comme dans les annales."],
         ["calc","tbcp"]
     ]],
     ["Les régimes et les catégories de malades", "green", [
@@ -2094,7 +2100,7 @@ PNEUMO.fiche("tb-traitement", {
       ["svg", "tbtl", "Nouveau cas : 2 mois de phase intensive (RHZE), puis 4 mois de continuation (RH) ; contrôles des crachats à M2, M5 et M6."],
       ["tab", ["Situation", "Régime", "Durée"],
         ["**Nouveau cas** de tuberculose pulmonaire 🎯", "**2 RHZE/4 RH**", "**6 mois**"],
-        ["**TEP simple** (formes communes)", "**2 RHZ/4 RH**", "6 mois"],
+        ["**TEP simple** (formes communes)", "**2 RHZ/4 RH** (Révision totale) ; **pleurésie** aux annales 2022 et 2023 : **2 RHZE/4 RH + corticothérapie**", "6 mois"],
         ["**Méningée** ou **vertébrale**", "**2 RHZE/10 RH**", "**12 mois**"],
         ["**Retraitement** : rechute, échec, reprise évolutive après interruption 🎯", "**2 SRHZE/1 RHZE/5 RHE**", "**8 mois**"],
         ["Cas **chronique**, **multirésistance** (complément)", "Médicaments de **2e ligne**, en **centre de référence**, guidés par l'antibiogramme", "Prolongée"]],
@@ -2111,8 +2117,8 @@ PNEUMO.fiche("tb-traitement", {
         ["Durée", "**6 mois**", "**8 mois**", "2 mois de plus"],
         ["Contrôles des crachats", "**M2, M5, M6**", "M3, M5, M8 (complément)", "Fin de phase intensive, 5e mois, fin"],
         ["Bactériologie de départ", "Direct + culture", "Direct + culture + **antibiogramme** (complément)", "Chercher une **résistance**"]],
-      ["crs", "Depuis 2017, l'OMS ne recommande plus le régime de retraitement avec streptomycine : elle préfère un traitement guidé par la recherche de résistances. Les annales et la Révision totale attendent encore **2 SRHZE/1 RHZE/5 RHE** : c'est la réponse à donner à l'examen."],
-      ["chk", "Un patient a arrêté son traitement **plus de 2 mois**, après 1 mois de prise ; il revient **BK+**. Régime ?", ["2 RHZE/4 RH", "2 SRHZE/1 RHZE/5 RHE", "2 RHZ/4 RH"], "B", "**Reprise évolutive après interruption** = **retraitement**, réponse attendue dans les annales."],
+      ["crs", "Depuis 2017, l'OMS ne recommande plus le régime de retraitement avec streptomycine : elle préfère un traitement guidé par la recherche de résistances. La Révision totale et l'**Externat 2023** attendent **2 SRHZE/1 RHZE/5 RHE** (« traitement de 2e ligne ») : c'est la réponse de base. Mais les clés officielles varient : **2022** : interruption de plus de 2 mois après **seulement 30 jours** de traitement → « reprise évolutive », clé **2 RHZE/4 RH** (le même cas a reçu en **2023** la clé « échec » → 2 SRHZE/1 RHZE/5 RHE) ; **2023** : pris en charge depuis 5 mois, traitement irrégulier, perdu de vue depuis 3 mois → « probable rechute », **2 SRHZE/1 RHZE/5 RHE** ; **2024** : traité 6 mois il y a un an, de nouveau BAAR+ → « rechute », clé « **2 SRHZE/1 RHZE/5 RH** » alors que « …/5 RHE » était proposé. Lis bien les propositions."],
+      ["chk", "Un patient **pris en charge depuis 5 mois** pour une TPM+, traitement **irrégulier**, **perdu de vue depuis 3 mois**, revient **BK+**. Régime ?", ["2 RHZE/4 RH", "2 SRHZE/1 RHZE/5 RHE", "2 RHZ/4 RH"], "B", "Malade **déjà traité** qui revient BK+ → **retraitement** (Externat 2023 : « traitement de 2e ligne : 2 SRHZE/1 RHZE/5 RHE »). Exception des annales 2022 : interruption après **seulement 30 jours** de traitement → clé **2 RHZE/4 RH**."],
     ]],
     ["Surveillance et effets indésirables", "teal", [
       "Au 15e jour, ses pieds **fourmillent** ; à la 3e semaine, ses yeux **jaunissent**… Savoir **qui** est coupable et **quoi faire** rapporte des points.",
@@ -2165,7 +2171,7 @@ PNEUMO.fiche("tb-traitement", {
         ["25 mg/kg", "Pyrazinamide (Z) : dose quotidienne"],
         ["15 mg/kg", "Éthambutol (E) et streptomycine (S, IM) : dose quotidienne"],
         ["2 RHZE/4 RH", "Tuberculose : régime du nouveau cas, 6 mois"],
-        ["2 RHZ/4 RH", "Tuberculose extra-pulmonaire simple, 6 mois"],
+        ["2 RHZ/4 RH", "Tuberculose extra-pulmonaire simple, 6 mois, selon la Révision totale (pleurésie aux annales : 2 RHZE/4 RH + corticothérapie)"],
         ["8 mois", "Retraitement de la tuberculose : 2 SRHZE/1 RHZE/5 RHE"],
         ["12 mois", "Tuberculose méningée ou vertébrale : 2 RHZE/10 RH"],
         ["2 / 3 / 4 / 5 cp", "RHZE ou RH 150/75 selon le poids : 30–37 / 38–54 / 55–70 / ≥ 71 kg"],
@@ -2184,7 +2190,7 @@ PNEUMO.fiche("tb-traitement", {
     ["Les paresthésies", "Les paresthésies sous traitement imposent l'arrêt de l'isoniazide.", "Effet **mineur** : on continue, avec de la **vitamine B6**.", "", ""],
     ["Les formes graves", "Une méningite tuberculeuse se traite 6 mois comme une TPM+.", "Méningée et vertébrale : **12 mois** (2 RHZE/10 RH).", "", ""],
     ["Les urines orange", "Des urines orange sous traitement signent une hépatite.", "C'est la **coloration normale** due à la rifampicine : prévenir le patient.", "", ""],
-    ["La reprise après interruption", "Un malade qui revient BK+ après plus de 2 mois d'interruption reprend 2 RHZE/4 RH.", "C'est un **retraitement** : **2 SRHZE/1 RHZE/5 RHE** (8 mois).", "Un traitement irrégulier expose aux résistances.", ""],
+    ["La reprise après interruption", "Un malade déjà traité plusieurs mois qui revient BK+ après plus de 2 mois d'interruption reprend simplement 2 RHZE/4 RH.", "C'est un **retraitement** : **2 SRHZE/1 RHZE/5 RHE** (8 mois).", "Un traitement irrégulier expose aux résistances.", "Externat 2023 : pris en charge depuis 5 mois, traitement irrégulier, perdu de vue depuis 3 mois → 2 SRHZE/1 RHZE/5 RHE. Exception de 2022 : interruption après **seulement 30 jours** de traitement → clé **2 RHZE/4 RH**."],
     ["Guéri ou traitement achevé", "Un malade qui a pris ses 6 mois est forcément guéri.", "Sans crachats négatifs prouvés en fin de traitement, il est classé **traitement achevé**.", "« Guéri » exige une **preuve bactériologique**.", ""],
     ["Les doses", "Le nombre de comprimés dépend de la taille du patient.", "Il dépend du **poids** : 30–37, 38–54, 55–70, ≥ 71 kg → **2, 3, 4, 5** comprimés.", "", "56 kg → 4 comprimés de RHZE."],
     ["L'hépatite", "Devant une hépatite médicamenteuse, on baisse simplement les doses.", "On **arrête** les antituberculeux, puis on les **réintroduit un par un** après normalisation.", "", ""],
@@ -2207,7 +2213,7 @@ PNEUMO.fiche("tb-traitement", {
   q: [
     ["Effets indésirables et médicaments correspondants :", ["Névrite optique : éthambutol", "Surdité : streptomycine", "Arthralgies : pyrazinamide", "Paresthésies : isoniazide", "Urines orange : éthambutol"], "ABCD", "Urines orange : rifampicine."],
     ["Interactions de la rifampicine :", ["Contraceptifs oraux", "AVK", "Antidiabétiques oraux", "Corticoïdes", "Vitamine B6"], "ABCD", ""],
-    ["Régime de retraitement :", ["S'écrit 2 SRHZE/1 RHZE/5 RHE", "Indiqué en cas de rechute", "Indiqué après un échec", "Indiqué après une interruption de 2 mois ou plus", "Dure 6 mois"], "ABCD", "Il dure **8 mois**."],
+    ["Régime de retraitement :", ["S'écrit 2 SRHZE/1 RHZE/5 RHE", "Indiqué en cas de rechute", "Indiqué après un échec", "Indiqué après une interruption de 2 mois ou plus chez un malade déjà traité plus d'1 mois", "Dure 6 mois"], "ABCD", "Il dure **8 mois**. Annales 2022 : après **seulement 30 jours** de traitement puis interruption, la clé était **2 RHZE/4 RH** ; en 2024, la clé de la rechute était « 2 SRHZE/1 RHZE/5 **RH** » (voir l'encadré des régimes)."],
     ["Surveillance d'un nouveau cas sous traitement :", ["Crachats à la fin du 2e mois", "Crachats au 5e mois", "Crachats en fin de traitement", "Pesée à chaque visite", "Audiogramme mensuel systématique"], "ABCD", "L'audiogramme concerne la **streptomycine** (retraitement)."],
     ["Résultats du traitement :", ["Guéri : BK négatif au dernier mois et au moins une fois avant", "Traitement achevé : traitement terminé sans preuve bactériologique finale", "Échec : BK positif au 5e mois ou plus tard", "Perdu de vue : interruption de 2 mois consécutifs ou plus", "Échec : BK positif à la fin du 1er mois"], "ABCD", ""],
     ["Bilan avant un traitement antituberculeux :", ["Poids", "Chimie des urines", "Bilan hépatique", "Scintigraphie osseuse", "Glycémie"], "ABCE", ""],
@@ -2253,7 +2259,7 @@ PNEUMO.fiche("tb-prevention", {
     ]],
     ["Primo-infection patente et passage à la maladie", "pink", [
       "La primo-infection passe le plus souvent inaperçue. Parfois, elle se voit : elle est dite **patente**.",
-      ["acro", "CAGE", [["C", "Kérato-**conjonctivite** phlycténulaire"], ["A", "**Altération de l'état général**"], ["G", "**Ganglions** : adénopathies cervicales"], ["E", "**Érythème noueux**"]], "Primo-infection **patente** : le BK fait du bruit en sortant de sa **CAGE** 🎯. Radio : **adénopathies médiastinales**, avec ou sans lésion parenchymateuse = le foyer primaire (**chancre d'inoculation**)."],
+      ["acro", "CAGE", [["C", "Kérato-**conjonctivite** phlycténulaire"], ["A", "**Altération de l'état général**"], ["G", "**Ganglions** : adénopathies cervicales"], ["E", "**Érythème noueux**"]], "Primo-infection **patente** : le BK fait du bruit en sortant de sa **CAGE** 🎯. Radio : **adénopathies médiastinales**, avec ou sans lésion parenchymateuse = le foyer primaire (**chancre d'inoculation**). Annales 2026 : chez l'enfant, un **fébricule prolongé** et une **arthrite aiguë** font aussi évoquer une PIT (réponse ACDE)."],
       ["tab", ["Critère", "Primo-infection", "Tuberculose pulmonaire commune", "Ce qui fait la différence"],
         ["Quand ?", "**Premier contact** avec le BK", "Complication précoce d'une PIT, réinfection ou **réactivation**", "Premier contact ou non"],
         ["Clinique", "Le plus souvent **aucune** (ITL) ; patente : **CAGE**", "**Toux > 15 jours**, fébricule vespéral, sueurs, amaigrissement", "Des signes **respiratoires** prolongés"],
@@ -2301,6 +2307,7 @@ PNEUMO.fiche("tb-prevention", {
       ["ast", "**La visite de la maison**, pièce par pièce : à l'entrée, on **élimine une TB active** chez tous ; dans la chambre des **petits (< 5 ans)** et chez le **VIH** : on traite **sans tester** (les plus fragiles n'attendent pas) ; chez les **grands enfants et ados** : on **teste**, on traite si positif ; au salon des **adultes** : **signes ou radio** → **3 à 6 BK**, rien → **rendez-vous dans 2 mois**."],
       ["ret", "Toujours **éliminer une tuberculose active** avant de traiter une ITL : sinon on donnerait **2 médicaments** à une maladie qui en demande **4**."],
       ["ul", "**Mère TPM+ qui allaite** (complément OMS, cas des annales) : on **traite la mère** sans la séparer de son bébé, l'**allaitement continue**, et l'enfant de moins de 5 ans reçoit un **traitement préventif** une fois la TB active éliminée."],
+      ["crs", "Les annales ont suivi des schémas plus anciens que le cours ITL 2025 : **2022 et 2023** : fillette de 2 ans → **isoniazide 5 mg/kg/j pendant 6 mois** ; garçon de 7 ans à IDR 12 mm → **isoniazide 6 mois** en 2022, mais « **le revoir en cas de symptômes** » en 2023 ; **2024** : enfant de 1 an à IDR 6 mm → **isoniazide 6 mois** ; fille de 12 ans à IDR 15 mm → « **la revoir chaque mois pendant 6 mois** » + « **en cas de symptômes** », sans chimioprophylaxie ; **2025** : priorité = **examiner les enfants et faire une IDR**, puis **RH 3 mois** (5 mois et 2 ans ½, IDR ≥ 15 mm) ; après une hépatite sous RH → **isoniazide seul 6 mois**. Le cours ITL dit : < 5 ans → traiter sans test ; > 5 ans → tester, traiter si positif."],
       ["chk", "Enfant de **3 ans**, contact d'un TPM+, asymptomatique, radio normale. Conduite ?", ["IDR d'abord, traiter si elle est positive", "Traitement préventif sans test", "Le revoir à 2 mois"], "B", "**< 5 ans** : traitement préventif **systématique**, test non indispensable."],
     ]],
     ["L'infection tuberculeuse latente (ITL)", "purple", [
@@ -2336,7 +2343,7 @@ PNEUMO.fiche("tb-prevention", {
         ["**5 à 14 mm**", "Douteuse", "**IGRA** pour confirmer ou écarter l'ITL"],
         ["**< 5 mm** (négative)", "**ITL écartée**", "Sauf antécédent de **corticoïdes** ou d'**immunosuppresseurs** → **IGRA** pour l'écarter définitivement"]],
       ["ast", "Le **feu tricolore** de l'IDR : **vert < 5 mm** (on passe : pas d'ITL), **orange 5 à 14 mm** (on ralentit : IGRA), **rouge ≥ 15 mm** (stop : ITL, on traite)."],
-      ["crs", "Trois seuils dans tes sources : le **cours ITL** (2025) utilise **< 5 / 5–14 / ≥ 15 mm** ; le **cours de TEP** retient **IDR > 10 mm** comme argument de **présomption** de maladie ; la **Révision totale** dit « positive **≥ 10 mm**, forte positivité **≥ 15 mm** ». Pour **dépister une ITL**, applique le schéma du cours ITL."],
+      ["crs", "Trois seuils dans tes sources : le **cours ITL** (2025) utilise **< 5 / 5–14 / ≥ 15 mm** ; le **cours de TEP** retient **IDR > 10 mm** comme argument de **présomption** de maladie ; la **Révision totale** dit « positive **≥ 10 mm**, forte positivité **≥ 15 mm** ». Pour **dépister une ITL**, applique le schéma du cours ITL. Aux annales 2026 (question sans proposition IGRA), « IDR à **8 mm** » → clé « **refaire l'IDR à la recherche d'un virage tuberculinique** »."],
       ["ul", "**Virage tuberculinique** (complément) : une IDR auparavant **négative** devient **positive** → infection **récente**.", "IDR **phlycténulaire** (avec vésicules) : réaction **très fortement positive** (complément)."],
       ["chk", "Adulte contact, IDR à **8 mm**. Conduite ?", ["Traitement préventif d'emblée", "Faire un IGRA", "ITL écartée"], "B", "**5 à 14 mm** → **IGRA** pour confirmer ou écarter l'ITL."],
     ]],
@@ -2395,7 +2402,7 @@ PNEUMO.fiche("tb-prevention", {
     ["La lecture de l'IDR", "On mesure la rougeur à 48 h.", "On mesure l'**induration** (diamètre transversal) **à 72 h**.", "La rougeur n'est qu'une vasodilatation.", ""],
     ["L'IGRA et le BCG", "Le QuantiFERON est faussement positif après BCG.", "L'IGRA **ne croise pas** avec le BCG ni avec les mycobactéries atypiques.", "", ""],
     ["Le régime de l'ITL", "Une ITL se traite par 2 RHZE/4 RH.", "**RH 3 mois** en 1re intention ; **H 6 mois** si hépatite ou VIH sous antirétroviraux.", "L'ITL contient peu de bacilles : pas besoin de quadrithérapie.", ""],
-    ["La dose chez l'enfant", "L'isoniazide seul se donne à 5 mg/kg chez l'enfant.", "**10 mg/kg chez l'enfant**, **5 mg/kg chez l'adulte**.", "", "Annales : « isoniazide 5 mg/kg/j pendant 6 mois » chez un enfant = piège."],
+    ["La dose chez l'enfant", "Selon le cours ITL, l'isoniazide seul se donne à 5 mg/kg chez l'enfant.", "Cours ITL (2025) : **10 mg/kg chez l'enfant**, **5 mg/kg chez l'adulte**.", "", "Attention, les annales suivaient l'ancien schéma : la clé officielle était « **chimioprophylaxie à l'isoniazide 5 mg/kg/j pendant 6 mois** » pour une fillette contact de 2 ans (2022 et 2023) et pour un garçon de 7 ans (2022). Si c'est la seule chimioprophylaxie proposée, coche-la."],
     ["La radio de la primo-infection", "Au cours de la primo-infection, la radio est toujours normale.", "Elle peut montrer des **adénopathies médiastinales** ± le **chancre d'inoculation** (PIT patente).", "", ""],
     ["Le contact adulte sans signe", "Un adulte contact sans aucun signe reçoit d'emblée un traitement préventif.", "Contact **> 14 ans sans signe, radio normale** : **revoir à 2 mois** (ou avant si des signes apparaissent).", "", ""],
     ["L'IDR négative", "Une IDR < 5 mm écarte toujours l'ITL.", "Sauf antécédent de **corticoïdes** ou d'**immunosuppresseurs** : faire un **IGRA**.", "Ces traitements peuvent éteindre la réaction cutanée.", ""],
@@ -2498,6 +2505,7 @@ PNEUMO.fiche("td-gds", {
       "Les intervalles varient selon le **laboratoire**, l'**âge**, l'**altitude** et les **conditions de prélèvement**.",
       ["crs", "**Deux jeux de normes** dans tes cours. TD gazométrie : pH **7,35–7,45**, HCO3⁻ **22–26 mmol/L**, SaO2 **95–100 %**. TD EFR : pH **7,38–7,42**, HCO3⁻ **22–28 mmol/L**, SaO2 **94–99 %** (PaCO2 35–45 et PaO2 80–100 identiques). La correction du cas 1 du TD gazométrie écrit d'ailleurs « pH < 7,38 : acidose ». Au QCM, utilise les normes de l'énoncé ; à défaut, 7,35–7,45."],
       "**Henderson-Hasselbalch** 🎯 : pH ≈ 6,1 + log [HCO3⁻ / (0,03 × PaCO2)], soit **pH = constante + log (HCO3⁻ / PaCO2)**. Le pH dépend donc du **rapport** entre la composante **métabolique** (HCO3⁻, gérée par le **rein**) et la composante **respiratoire** (PaCO2, gérée par le **poumon**).",
+      ["crs", "Annales 2026 : la proposition « Le pH = pKa log HCO3⁻/PaCO2 mmHg » a été comptée **fausse** (réponse officielle AC). La formule complète s'écrit pH = pKa (**6,1**) **+** log [HCO3⁻ / (**0,03** × PaCO2)] ; la forme « constante + log (HCO3⁻/PaCO2) » du TD n'est qu'un raccourci."],
       ["ex", "Imagine une **balançoire** : les HCO3⁻ (le rein) d'un côté, la PaCO2 (le poumon) de l'autre ; le pH, c'est l'**inclinaison**. Si un côté s'alourdit, on alourdit l'autre pour remettre la balançoire à plat : c'est la **compensation**, et les deux valeurs bougent **dans le même sens**."],
       ["cards", ["Poumons → PaCO2 (rapide)", "La ventilation règle le CO2 **rapidement**. **Hypoventilation** (obstruction, gêne) → CO2 ↑ → H⁺ ↑ → **pH ↓ (acidose)**. **Hyperventilation** → CO2 ↓ → H⁺ ↓ → **pH ↑ (alcalose)**. Selon le TD, leur capacité vaut **2 fois** celle des tampons chimiques.", "blue"], ["Reins → HCO3⁻ (lent)", "Ils **réabsorbent ou fabriquent** des bicarbonates, ou les **excrètent**, et éliminent les **ions H⁺**. Leur compensation est **plus lente**.", "green"]],
       ["pq", "**Pourquoi le CO2 acidifie ?** (complément) Dans le sang, CO2 + H2O ⇄ H2CO3 ⇄ **H⁺** + HCO3⁻. Plus de CO2 retenu = plus d'ions H⁺ = pH plus bas. Tout ce qui perturbe la respiration donne donc une acidose ou une alcalose **respiratoire**."],
@@ -2558,7 +2566,7 @@ PNEUMO.fiche("td-gds", {
         ["< 30 mmHg", "**Hyperventilation** alvéolaire (alcalose respiratoire)"],
         ["30 – 50 mmHg", "Ventilation alvéolaire **acceptable**"],
         ["> 50 mmHg", "**Hypoventilation** alvéolaire (acidose respiratoire)"]],
-      ["crs", "Le TD EFR gradue l'hypoxémie (< 80 modérée, < 60 moyenne, < 40 sévère) et juge la ventilation « acceptable » entre **30 et 50 mmHg**, alors que la norme de PaCO2 est **35–45**. Définitions classiques (complément) : **insuffisance respiratoire aiguë** = PaO2 **< 60 mmHg** en air ambiant, **hypercapnique** si PaCO2 **> 45 mmHg** ; **insuffisance respiratoire chronique** = PaO2 **< 70 mmHg** à l'état stable 🎯 (voir la fiche BPCO)."],
+      ["crs", "Le TD EFR gradue l'hypoxémie (< 80 modérée, < 60 moyenne, < 40 sévère) et juge la ventilation « acceptable » entre **30 et 50 mmHg**, alors que la norme de PaCO2 est **35–45**. Définitions classiques (complément) : **insuffisance respiratoire aiguë** = PaO2 **< 60 mmHg** en air ambiant, **hypercapnique** si PaCO2 **> 45 mmHg** ; **insuffisance respiratoire chronique** = PaO2 **< 70 mmHg** à l'état stable 🎯 (voir la fiche BPCO). Aux annales, l'IRC d'un BPCO stable a été confirmée par « **PaO2 < 70 mmHg** » (2026) ou, quand cette proposition manquait, par « **PaO2 < 60 mmHg** » (2025, deux fois)."],
       ["pq", "**Pourquoi une SpO2 correcte n'exclut pas une hypercapnie ?** L'oxygène remonte la saturation, mais **seule la ventilation** chasse le CO2. Un BPCO sous oxygène peut afficher 94 % et pourtant **retenir son CO2** jusqu'à la somnolence."],
       ["cards", ["Hypoxémie + hypocapnie", "Le patient **hyperventile** : **embolie pulmonaire**, pneumonie, OAP, début de crise d'asthme.", "orange"], ["Hypoxémie + hypercapnie", "Le patient **hypoventile** : BPCO décompensée, asthme **épuisé**, médicaments dépresseurs, atteinte neuromusculaire.", "red"]],
       ["ret", "Sous oxygène, **toujours noter le dispositif et le débit/FiO2** au moment du prélèvement : sans cette information, une PaO2 ne veut rien dire."],
@@ -2573,6 +2581,7 @@ PNEUMO.fiche("td-gds", {
         ["**4** · Homme, 47 ans, **diarrhées profuses**", "pH **7,28** · PaCO2 **30** · HCO3⁻ **10** · PaO2 **90**", "**Acidose métabolique décompensée** par **perte digestive de HCO3⁻** (PaCO2 basse = compensation respiratoire partielle)"],
         ["**5** · Femme, 39 ans, **vomissements répétés** depuis 3 jours, asthénie (gastro-entérite)", "pH **7,50** · PaCO2 **48** · HCO3⁻ **36** · PaO2 **95**", "**Alcalose métabolique décompensée** par **perte digestive (gastrique) d'H⁺** (PaCO2 ↑ = compensation respiratoire)"]],
       ["pq", "**Comment savoir que la PaCO2 du cas 2 est « trop haute » ?** (complément) Formule de **Winter** : PaCO2 attendue = 1,5 × HCO3⁻ + 8 ± 2 = 1,5 × 14 + 8 = **29 ± 2**. Observée : **36**. Le poumon ne compense pas assez (épuisement, pneumonie) → **acidose respiratoire associée**. Le calculateur de la fiche fait ce calcul pour toi."],
+      ["crs", "**Cas 4 et calcul** (complément) : la même formule de Winter donne une PaCO2 attendue de 1,5 × 10 + 8 = **23 ± 2** ; la PaCO2 observée (**30**) est donc, elle aussi, insuffisamment abaissée, et le calculateur signalera une **acidose respiratoire associée**. Avec ces chiffres, Henderson-Hasselbalch donnerait d'ailleurs un pH ≈ **7,15** et non 7,28 : les valeurs du cas sont approximatives. La réponse attendue reste celle du TD : **acidose métabolique décompensée** par **perte digestive de HCO3⁻**."],
       ["ex", "Le **cas 3** est l'exacerbation hypercapnique grave de la **BPCO** : PaCO2 à 104 mmHg, conscience altérée. Réflexe : **urgence ventilatoire** (voir la fiche BPCO, « COBRA »)."],
     ]],
     ["Erreurs à éviter et chiffres à connaître", "pink", [
@@ -2830,7 +2839,7 @@ PNEUMO.fiche("td-efr", {
       ["chk", "Même calcul pour une **femme** de 175 cm, 75 ans, 85 kg. Distance attendue ?", ["Environ 617 m", "Environ 566 m", "Environ 668 m"], "B", "Sexe = 0 : on retire les **51,31 m** du terme masculin : 616,8 − 51,3 ≈ **566 m**."],
       ["cards", ["Complications", "**Désaturation < 80 %**, **douleurs thoraciques**, **tachycardie**. **Pas de complication à long terme**.", "orange"], ["Arrêter le test si…", "**Dyspnée**, **désaturation < 80 % mal tolérée**, **pâleur**, **vertiges**, **crampes musculaires**.", "red"]],
       ["acro", "DD-PVC", [["D", "**Dyspnée**"], ["D", "**Désaturation < 80 %** mal tolérée"], ["P", "**Pâleur**"], ["V", "**Vertiges**"], ["C", "**Crampes** musculaires"]], "Les 5 signaux d'arrêt du TM6 : le patient devient aussi blanc qu'un tuyau en **PVC**."],
-      ["pq", "**Pourquoi relever la SpO2 pendant la marche ?** Au repos, la saturation peut être normale ; c'est l'**effort** qui démasque une **désaturation**, et c'est elle qui justifie une **oxygénothérapie de déambulation**. Aux annales, le TM6 fait partie du **bilan de suivi d'un BPCO** 🎯."],,
+      ["pq", "**Pourquoi relever la SpO2 pendant la marche ?** Au repos, la saturation peut être normale ; c'est l'**effort** qui démasque une **désaturation**, et c'est elle qui justifie une **oxygénothérapie de déambulation**. Aux annales, le TM6 fait partie du **bilan de suivi d'un BPCO** 🎯."],
         ["calc","tm6"]
     ]],
     ["Les chiffres à connaître", "amber", [
@@ -3019,7 +3028,7 @@ PNEUMO.fiche("bpco", {
         ["Trithérapie", "Fluticasone/uméclidinium/vilantérol (Trelegy Ellipta®) ; béclométasone/formotérol/glycopyrronium (Trimbow®)", "5–15 min", "24 h ou 12 h"]],
       ["pie", "Le message du cours : **fini la trithérapie « quasi systématique »**. Sans exacerbations fréquentes ni asthme associé, les **CSI** n'ont pas leur place : la **bronchodilatation** retrouve la place centrale."],
       "**Mesures non médicamenteuses** (complément GOLD, retrouvées aux annales 🎯) :",
-      ["cards", ["Sevrage tabagique", "**Arrêt total et définitif** : la mesure la plus efficace, elle ralentit le déclin du VEMS.", "green"], ["Vaccinations", "**Grippe** chaque année, **pneumocoque**.", "blue"], ["Réhabilitation respiratoire", "Réentraînement à l'effort, éducation : moins de dyspnée, meilleure qualité de vie.", "teal"], ["Expositions", "Éviction des **poussières professionnelles** et des fumées.", "amber"]],,
+      ["cards", ["Sevrage tabagique", "**Arrêt total et définitif** : la mesure la plus efficace, elle ralentit le déclin du VEMS.", "green"], ["Vaccinations", "**Grippe** chaque année, **pneumocoque**.", "blue"], ["Réhabilitation respiratoire", "Réentraînement à l'effort, éducation : moins de dyspnée, meilleure qualité de vie.", "teal"], ["Expositions", "Éviction des **poussières professionnelles** et des fumées.", "amber"]],
         ["calc","gold"]
     ]],
     ["Insuffisance respiratoire chronique et oxygène", "red", [
@@ -3035,9 +3044,9 @@ PNEUMO.fiche("bpco", {
       ["pq", "**Pourquoi polyglobulie et HTP ?** (complément 🎯) L'hypoxémie chronique pousse le rein à sécréter de l'**EPO** : plus de globules rouges, c'est la **polyglobulie**. Dans le poumon, l'hypoxie alvéolaire **contracte les artérioles** (vasoconstriction hypoxique, et **non** vasodilatation) → **HTP** → le ventricule droit force puis se dilate : **cœur pulmonaire chronique**."],
       ["cards", ["IRC obstructive 🎯", "**BPCO** (bronchite chronique, **emphysème**, y compris panlobulaire), **asthme** vieilli, **DDB**.", "orange"], ["IRC restrictive 🎯", "**Séquelles étendues de tuberculose**, **cyphoscoliose**, **pneumonectomie**, **PID** (y compris fibroses médicamenteuses ou post-radiques), **neuromusculaires**, **obésité**, **spondylarthrite ankylosante**, thoracoplastie, **pneumoconioses**.", "blue"]],
       ["pie", "Aux annales, **sarcoïdose** et **pneumoconiose** sont rangées du côté **restrictif** (atteinte interstitielle) : ce ne sont pas des causes d'IRC obstructive."],
-      ["crs", "**Quelle SpO2 viser ?** La Révision totale règle le débit d'OLD pour une **PaO2 > 60 mmHg ou une SpO2 > 90 %**. Dans l'**exacerbation** et chez l'hypercapnique, on vise **88–92 %** (GOLD) ; les annales proposent aussi « OLD avec objectif SpO2 88–92 % » 🎯. Dans les deux cas 2025 d'IRC sur BPCO (PaO2 **56 mmHg**, sans polyglobulie ni HTP signalées), les réponses officielles étaient « **arrêt du tabac et OLD** » et un objectif de « SpO2 **entre 90 et 92 %** » pour éviter l'hypercapnie 🎯 (88–92 % n'était pas proposé). L'idée est la même : assez d'oxygène pour corriger l'hypoxémie, pas trop pour ne pas aggraver l'hypercapnie."],
+      ["crs", "**Quelle SpO2 viser ?** La Révision totale règle le débit d'OLD pour une **PaO2 > 60 mmHg ou une SpO2 > 90 %**. Dans l'**exacerbation** et chez l'hypercapnique, on vise **88–92 %** (GOLD) ; les annales proposent aussi « OLD avec objectif SpO2 88–92 % » 🎯. Dans les deux cas 2025 d'IRC sur BPCO (PaO2 **56 mmHg**, sans polyglobulie ni HTP signalées), les réponses officielles étaient « **arrêt du tabac et OLD** » (les autres propositions, ventilation invasive, antibiotiques systématiques, diurétiques ou drainage, étaient fausses) et un objectif de « SpO2 **entre 90 et 92 %** » pour éviter l'hypercapnie 🎯 (88–92 % n'était pas proposé). L'idée est la même : assez d'oxygène pour corriger l'hypoxémie, pas trop pour ne pas aggraver l'hypercapnie."],
       ["pie", "Dans l'IRC, on **proscrit** ce qui déprime la ventilation ou bloque les sécrétions : **sédatifs** (benzodiazépines, hypnotiques, antihistaminiques sédatifs) et **antitussifs** 🎯. Les bronchodilatateurs, l'activité physique encadrée et les anticoagulants ne sont pas interdits."],
-      ["chk", "BPCO à l'état stable : PaO2 57 mmHg, hématocrite 58 %. OLD ?", ["Non, la PaO2 dépasse 55 mmHg", "Oui : PaO2 entre 55 et 60 avec polyglobulie", "Seulement la nuit"], "B", "55–60 mmHg + **P**olyglobulie (Ht > 55 %) = critère « PHI » rempli : OLD au moins 15 h/jour."],,
+      ["chk", "BPCO à l'état stable : PaO2 57 mmHg, hématocrite 58 %. OLD ?", ["Non, la PaO2 dépasse 55 mmHg", "Oui : PaO2 entre 55 et 60 avec polyglobulie", "Seulement la nuit"], "B", "55–60 mmHg + **P**olyglobulie (Ht > 55 %) = critère « PHI » rempli : OLD au moins 15 h/jour."],
         ["calc","old"]
     ]],
     ["Exacerbation : la conduite à tenir (complément GOLD)", "pink", [
@@ -3136,7 +3145,8 @@ PNEUMO.fiche("asthme", {
       "L'asthme est un **désordre inflammatoire chronique** des voies aériennes, où **de nombreuses cellules et éléments cellulaires** jouent un rôle. Cette inflammation entraîne une **hyperréactivité bronchique (HRB)** et des épisodes récurrents de **respiration sifflante**, de **dyspnée**, d'**oppression thoracique** et/ou de **toux**, surtout **la nuit ou au petit matin**. L'obstruction est **variable**, souvent intense, **généralement réversible**, spontanément ou sous traitement. Maladie **fréquente** : prévalence variable selon les pays, tendance globale à l'**augmentation**, environ **300 millions** de malades.",
       ["cards", ["Inflammation", "**Œdème** muqueux (infiltrat cellulaire, **éosinophile** la plupart du temps, ou simple extravasation) ; **hypersécrétion** de mucus et de médiateurs (**PAF**, **histamine**, **leucotriènes**, **prostaglandines**) et de neuromédiateurs peptidiques (**substance P**, **neurokinine A**, peptide lié au gène de la calcitonine ou CGRP) ; **lésion et desquamation** de l'épithélium.", "red"], ["Bronchospasme", "Spasme du muscle lisse péribronchique, **réversible sous β2**.", "blue"], ["Hyperréactivité bronchique", "Aptitude des bronches à se **fermer anormalement** face à des stimulus physiques, chimiques ou pharmacologiques (**acétylcholine**).", "purple"], ["Remodelage", "À la longue, l'ensemble de ces phénomènes **transforme la paroi** : l'obstruction peut devenir **fixée**.", "orange"]],
       ["ex", "L'hyperréactivité bronchique, c'est une **alarme incendie trop sensible** : une simple bougie (air froid, effort, parfum) déclenche la sirène et les gicleurs (spasme, mucus, œdème)."],
-      "L'**allergie** est fréquente mais **pas constante** ; l'**inflammation**, elle, est **toujours** présente, et l'hyperréactivité bronchique est **non spécifique** : elle réagit à des stimulus très variés 🎯.",
+      "L'**allergie** est fréquente mais **pas constante**, et l'hyperréactivité bronchique est **non spécifique** : elle réagit à des stimulus très variés 🎯.",
+      ["crs", "Le cours définit l'asthme comme un **désordre inflammatoire chronique**. Pourtant, à l'annale 2026 (« indiquez la proposition exacte », une seule réponse), la clé officielle est « on retrouve en général une **hyperréactivité bronchique non spécifique** » (D) : « on trouve **toujours** un élément allergique » et « il existe **toujours** une inflammation de la muqueuse associée au bronchospasme » n'ont **pas** été retenues."],
       ["ul", "Système nerveux autonome : **adrénergique** (α → bronchoconstriction, β → bronchodilatation) ; **cholinergique** (acétylcholine → bronchoconstriction) ; **NANC** (une composante bronchorelaxante, une bronchoconstrictrice)."],
       ["crs", "Le cours écrit « **ACTH** » pour le système cholinergique : il s'agit en fait de l'**acétylcholine** (ACh), le médiateur parasympathique bronchoconstricteur."],
       "**Immunologie de l'asthme allergique** (complément, très présente aux annales 🎯) :",
@@ -3178,7 +3188,8 @@ PNEUMO.fiche("asthme", {
         "Sinon, **variabilité du DEP** sur **15 jours** : (DEP max − DEP min) ÷ [(DEP max + DEP min) ÷ 2] × 100 **> 10 %**.",
         "Sinon, **test de provocation** : inhalation d'un bronchoconstricteur (**acétylcholine**) à doses **progressives**, en mesurant VEMS ou DEP. Une chute **d'au moins 20 %** signe une « **composante spastique** » (hyperréactivité). Le test peut **déclencher une crise** (sibilants, toux) qui impose de l'arrêter. On peut classer l'asthme selon la dose qui fait réagir : un sujet normal tolère jusqu'à **3000 γ** (µg). Le test **spécifique** met le malade en contact avec l'**allergène** responsable, s'il est connu."],
       ["crs", "Le cours d'asthme écrit « gain > 12 % **ou** > 200 mL » ; le TD EFR exige **les deux** (≥ 12 % **et** ≥ 200 mL), comme GINA. Retiens **« et »**. Pour la variabilité du DEP, le cours dit **> 10 %** et la Révision totale « **> 10–20 %** ». Le test de provocation utilise l'**acétylcholine** (cours d'asthme) ou la **métacholine** (TD EFR) : même principe."],
-      ["ret", "**Entre les crises, la spirométrie peut être normale** (VEMS et VEMS/CV normaux) 🎯 : ce n'est pas un argument contre l'asthme. C'est alors la **variabilité du DEP** ou le **test de provocation** qui tranche."],
+      ["ret", "**Entre les crises, la spirométrie peut être normale** (VEMS et VEMS/CV normaux, complément GINA) : ce n'est pas un argument contre l'asthme. C'est alors la **variabilité du DEP** ou le **test de provocation** qui tranche."],
+      ["crs", "Annale 2022 (« l'EFR au cours d'un asthme peut montrer ») : clé officielle **D seule** = « une **diminution du VEMS qui s'améliore après inhalation de bronchodilatateurs** » 🎯. La proposition « un VEMS et un VEMS/CVF normaux » n'a **pas** été retenue : à l'examen, coche la **réversibilité**."],
       "Compléments (GINA) : le test de réversibilité utilise **200 à 400 µg** de salbutamol selon les protocoles (400 µg dans le TD EFR) ; un gain de VEMS **> 12 % et > 200 mL après 4 semaines de corticoïde inhalé** confirme aussi l'obstruction variable 🎯.",
       ["ex", "**Variabilité** : DEP max 450, DEP min 360 → (450 − 360) ÷ 405 × 100 = **22 %** (> 10 %) : en faveur d'un asthme."],
       ["calc", "dep"],
@@ -3219,7 +3230,7 @@ PNEUMO.fiche("asthme", {
         "Ajustement par paliers : « **step up** » à **2 semaines**, « **step down** » à **3 mois**.",
         "Objectifs : **bon contrôle des symptômes**, **moins d'exacerbations**, éviter l'évolution vers une **obstruction fixée**, en limitant les **effets secondaires**.",
         "Suivi : **tous les mois** (sévère), **tous les 3 mois** (modéré), **tous les 6 mois** (léger), **tous les 6 mois à 1 an** (intermittent)."],
-      ["chk", "Symptômes diurnes 3 fois/semaine, aucun réveil, secours 3 fois/semaine, aucune limitation. Contrôle ?", ["Contrôlé", "Partiellement contrôlé", "Non contrôlé"], "B", "Deux critères anormaux (symptômes diurnes et secours > 2/semaine) = **partiellement contrôlé**."],,
+      ["chk", "Symptômes diurnes 3 fois/semaine, aucun réveil, secours 3 fois/semaine, aucune limitation. Contrôle ?", ["Contrôlé", "Partiellement contrôlé", "Non contrôlé"], "B", "Deux critères anormaux (symptômes diurnes et secours > 2/semaine) = **partiellement contrôlé**."],
         ["calc","asthctl"]
     ]],
     ["Traitement de fond", "green", [
@@ -3231,7 +3242,7 @@ PNEUMO.fiche("asthme", {
         ["Corticoïdes", "**Inhalés** en traitement de fond ; **per os** en cas d'exacerbation"],
         ["Associations", "**CSI + bronchodilatateur** (LABA) inhalés"],
         ["Autres", "**Antileucotriènes**, **immunothérapie spécifique**, traitement de la **rhinite** et des **facteurs déclenchants**"]],
-      ["cards", ["β2-mimétiques", "**Bronchodilatateurs** : relâchent le muscle lisse en quelques minutes. Le **salbutamol** a une action bronchodilatatrice **immédiate** 🎯.", "blue"], ["Corticoïdes inhalés", "**Anti-inflammatoires**, pas bronchodilatateurs (complément 🎯) : moins de cellules inflammatoires et de **médiateurs néoformés** (leucotriènes, prostaglandines), **synergie** avec les β2 ; effet en **jours ou semaines**.", "green"], ["Antileucotriènes", "Bloquent l'action des **leucotriènes** bronchoconstricteurs (complément).", "purple"], ["Théophylline", "Dérivé **xanthique**, inhibiteur de la **phosphodiestérase** (complément).", "amber"]],
+      ["cards", ["β2-mimétiques", "**Bronchodilatateurs** : relâchent le muscle lisse en quelques minutes. Le **salbutamol** a une action bronchodilatatrice **immédiate** 🎯.", "blue"], ["Corticoïdes inhalés", "**Anti-inflammatoires**, pas bronchodilatateurs (complément 🎯) : moins de cellules inflammatoires et de **médiateurs néoformés** (leucotriènes, prostaglandines), **synergie** avec les β2 ; effet en **jours ou semaines**.", "green"], ["Antileucotriènes", "Bloquent l'action des **leucotriènes** bronchoconstricteurs (complément).", "purple"], ["Théophylline", "Dérivé **xanthique**, inhibiteur de la **phosphodiestérase** (complément). Bronchodilatateur : à l'annale 2026, elle est comptée avec le **salbutamol** parmi les médicaments à action bronchodilatatrice **immédiate**, et c'est la réponse « logique en urgence » face au bêtabloquant, au cromoglycate, à la béclométasone et à la désensibilisation 🎯.", "amber"]],
       ["svg", "gina", "Les paliers de GINA (voie 1, préférée chez l'adulte et l'adolescent) : le CSI-formotérol sert aussi de traitement de secours. Les schémas GINA 2021 et 2025 du cours sont projetés en images."],
       ["crs", "Paliers selon les sources : le schéma ci-dessus (voie 1) met le **CSI-formotérol à la demande** aux paliers 1 et 2. La Révision totale (GINA 2022) écrit : palier 1 = CSI-formotérol à la demande, **palier 2 = CSI à faible dose**, paliers 3 à 5 = CSI-LABA ± autres ; c'est la **voie 2**, avec un SABA comme secours. Les deux voies existent dans GINA."],
       ["tab", ["Corticoïde inhalé (µg/jour)", "Dose faible", "Moyenne", "Forte"],
@@ -3273,8 +3284,8 @@ PNEUMO.fiche("asthme", {
         "**Réévaluer** l'efficacité sur le **DEP** et la **fréquence respiratoire** 🎯, avec SpO2, parole et signes de lutte.",
         "À la sortie (complément) : amélioration **nette et durable** ; **β2 à la demande**, **corticoïde oral en cure courte**, traitement de fond par **CSI** repris ou renforcé, **plan d'action écrit** ; contrôle rapproché avec **éducation**, **éviction**, traitement de la **rhinite**, vérification de la **technique d'inhalation** 🎯."],
       ["pie", "Pendant une crise, la PaCO2 devrait être **basse** (hyperventilation) : une PaCO2 **normale ou haute** signe l'**épuisement**. Le **silence auscultatoire** n'est pas une amélioration : c'est une **menace vitale**."],
-      "**Complications de la crise** (complément, annales 🎯) : **pneumothorax** et pneumomédiastin, **atélectasie** par bouchon muqueux, **insuffisance ventriculaire droite passagère**, arrêt respiratoire. Ne sont **pas** des complications de la crise : l'OAP par insuffisance ventriculaire gauche, la pleurésie purulente.",
-      ["chk", "Aux urgences : parle par mots, FR 34/min, pouls 128/min, DEP à 35 % de la théorique, SpO2 86 %, sibilants bruyants. Gravité ?", ["Crise modérée", "Crise sévère (asthme aigu grave)", "Crise légère"], "B", "FR > 30, pouls > 120, DEP < 60 %, SaO2 < 90 % : **sévère**. Pas encore de signe BASS."],
+      "**Complications de la crise** (complément, annales 🎯) : **pneumothorax** et pneumomédiastin, **atélectasie** par bouchon muqueux, **insuffisance ventriculaire droite passagère**, arrêt respiratoire. Ne sont **pas** des complications de la crise (clé officielle 2026) : les **hémoptysies**, l'OAP par insuffisance ventriculaire gauche, la pleurésie purulente.",
+      ["chk", "Aux urgences : parle par mots, FR 34/min, pouls 128/min, DEP à 35 % de la théorique, SpO2 86 %, sibilants bruyants. Gravité ?", ["Crise modérée", "Crise sévère", "Crise légère"], "B", "FR > 30, pouls > 120, DEP < 60 %, SaO2 < 90 % : **sévère**. Pas encore de signe BASS. Aux annales 2025 et 2026, ce tableau est une « **exacerbation sévère d'asthme** » (clé officielle) ; en 2025, « asthme aigu grave » était proposé et n'était **pas** la réponse 🎯."],
     ]],
     ["Les chiffres à connaître", "amber", [
       ["nums", ["300 millions", "Asthme : malades dans le monde"], ["< 70 %", "Asthme : VEMS/CV du trouble obstructif"], ["≥ 12 % et ≥ 200 mL", "Asthme : réversibilité du VEMS après β2"], ["> 10 %", "Asthme : variabilité du DEP sur 15 jours (cours)"], ["≥ 20 %", "Asthme : chute du VEMS au test de provocation"], ["3000 γ", "Provocation : dose tolérée par un sujet normal"], ["4 semaines", "Asthme : période d'évaluation du contrôle"], ["2-0-2-0", "Asthme contrôlé : symptômes, réveils, secours, limitation / semaine"], ["≥ 3 critères", "Asthme non contrôlé (1–2 = partiellement)"], ["2 sem. / 3 mois", "Asthme : step up / step down"], ["1 / 3 / 6 / 6–12", "Suivi (mois) : sévère / modéré / léger / intermittent"], ["< 1 jour", "Crise d'asthme : durée"], ["> 30 % · 2 jours", "Exacerbation d'asthme grave : chute du DEP"], ["FR > 30/min", "Crise d'asthme sévère"], ["Pouls > 120/min", "Crise d'asthme sévère"], ["DEP < 60 %", "Crise d'asthme sévère (après bronchodilatateur)"], ["SaO2 < 90 %", "Crise d'asthme sévère"], ["PaCO2 > 45 mmHg", "Crise d'asthme : signe d'épuisement"], ["200–500 µg/j", "Béclométasone inhalée : dose faible"], ["93–95 %", "Crise d'asthme : SpO2 visée sous O2 (GINA)"], ["toutes les 20 min", "Salbutamol nébulisé, 1re heure de la crise sévère"]],
@@ -3290,7 +3301,7 @@ PNEUMO.fiche("asthme", {
     ["Contrôle et sévérité", "Contrôle et sévérité, c'est la même chose.", "La **sévérité** (GINA 2004) classe la maladie **avant traitement** ; le **contrôle** (4 dernières semaines) guide l'**ajustement**.", "", ""],
     ["L'anxiolytique", "Patient anxieux en crise : on lui donne un anxiolytique.", "**Sédatifs interdits** pendant la crise : ils dépriment la ventilation.", "", ""],
     ["L'œdème et le spasme", "L'œdème inflammatoire apparaît avant le bronchospasme et disparaît plus vite.", "C'est l'inverse : le **bronchospasme** est immédiat et cède vite aux β2 ; l'**œdème** vient **plus tard** et **dure plus longtemps**.", "", ""],
-    ["Le corticoïde inhalé « bronchodilatateur »", "Le corticoïde inhalé ouvre les bronches en quelques minutes.", "Le CSI est un **anti-inflammatoire** : son effet se construit en **jours ou semaines** ; le bronchodilatateur **immédiat**, c'est le **salbutamol**.", "", ""],
+    ["Le corticoïde inhalé « bronchodilatateur »", "Le corticoïde inhalé ouvre les bronches en quelques minutes.", "Le CSI est un **anti-inflammatoire** : son effet se construit en **jours ou semaines** ; le bronchodilatateur **immédiat**, c'est le **salbutamol** (l'annale 2026 y ajoute la **théophylline**).", "", ""],
   ],
   v: [
     ["L'asthme touche environ 300 millions de personnes dans le monde.", true, ""],
@@ -3499,7 +3510,7 @@ PNEUMO.fiche("ddb", {
     "Signe cardinal : **toux productive chronique, surtout matinale** (toilette bronchique), **non saisonnière**, calmée par les antibiotiques mais **récidivant à l'arrêt** ; avec des **infections respiratoires à répétition depuis l'enfance** 🎯.",
     "Confirmation au **scanner haute résolution** 🎯 : bronche **plus large que l'artère voisine** (rapport > **1** ; > **0,8** pour l'ERS) et qui **ne s'affine plus** vers la périphérie ; formes **cylindrique, variqueuse, kystique**.",
     "Causes : DDB **localisées → acquises** (**tuberculose** +++, **obstruction**) ; DDB **diffuses → congénitales** (mémo **MIDAS**). Complications (mémo **HAIE**) : **H**émoptysies, **A**mylose rénale, **I**nsuffisance respiratoire chronique, **E**xacerbations.",
-    "Traitement : **kinésithérapie de drainage** quotidienne 🎯 ; exacerbation : **amoxicilline-acide clavulanique 14 jours** ; **azithromycine** au long cours seulement si **≥ 3 exacerbations/an** ; vaccins, **zéro tabac** ; **lobectomie** en dernier recours."
+    "Traitement : **kinésithérapie de drainage** quotidienne 🎯 ; exacerbation : **amoxicilline-acide clavulanique 14 jours** ; **azithromycine** au long cours seulement si **≥ 3 exacerbations/an** (ou plus d'une exacerbation hospitalisée) ; vaccins, **zéro tabac** ; **lobectomie** en dernier recours."
   ],
   s: [
     ["Définition, intérêt, mécanisme", "navy", [
@@ -3616,7 +3627,7 @@ PNEUMO.fiche("ddb", {
     ["Les bronchodilatateurs", "Tout patient avec DDB doit recevoir des bronchodilatateurs.", "**Pas d'indication** sauf hyperréactivité bronchique prouvée ; risque accru d'**hémoptysie**.", "", ""],
     ["Les corticoïdes inhalés", "Les CSI calment l'inflammation : on les donne à toutes les DDB.", "**Seulement si asthme associé** ; sinon, plus d'hospitalisations pour infection.", "", ""],
     ["La durée des antibiotiques", "Exacerbation de DDB : 5 à 7 jours d'antibiotique suffisent.", "**14 jours**, quel que soit le germe.", "", ""],
-    ["L'antibiotique au long cours", "En prévention, tout patient DDB doit prendre un antibiotique au long cours.", "Prévention = **vaccins**, **kiné quotidienne**, **éviction des irritants** 🎯 ; le macrolide au long cours est réservé aux **≥ 3 exacerbations/an** malgré un traitement maximal.", "Un antibiotique permanent sans indication sélectionne des **résistances**.", ""],
+    ["L'antibiotique au long cours", "En prévention, tout patient DDB doit prendre un antibiotique au long cours.", "Prévention = **vaccins**, **kiné quotidienne**, **éviction des irritants** 🎯 ; le macrolide au long cours est réservé aux **≥ 3 exacerbations/an** malgré un traitement maximal (ou plus d'une exacerbation hospitalisée).", "Un antibiotique permanent sans indication sélectionne des **résistances**.", ""],
   ],
   v: [
     ["La DDB est une dilatation permanente, le plus souvent irréversible, des bronches.", true, ""],
@@ -3639,7 +3650,7 @@ PNEUMO.fiche("ddb", {
     ["Bilan à faire chez tous les patients avec DDB :", ["NFS et électrophorèse des protéines", "Dosage pondéral des immunoglobulines", "ECBC si le patient crache", "EFR", "Étude génétique CFTR systématique"], "ABCD", "La génétique CFTR se fait selon l'orientation."],
     ["Signes TDM d'une DDB :", ["Diamètre interne de la bronche supérieur à celui de l'artère adjacente", "Absence de diminution progressive du calibre bronchique vers la périphérie", "Aspect cylindrique, variqueux ou kystique", "Verre dépoli en mosaïque", "Rapport bronche/artère < 0,5"], "ABC", "🎯 Annale : bronche > artère et calibre qui ne diminue plus en s'éloignant des hiles."],
     ["Complications des DDB :", ["Hémoptysies", "Exacerbations", "Insuffisance respiratoire chronique", "Amylose rénale", "Pneumoconiose"], "ABCD", "Mémo HAIE."],
-    ["Mesures de prévention de cette maladie :", ["Vaccination antigrippale annuelle", "Vaccination antipneumococcique", "Kinésithérapie respiratoire quotidienne", "Éviction des irritants bronchiques et du tabac", "Antibiothérapie systématique au long cours"], "ABCD", "🎯 L'antibiotique au long cours n'est pas une mesure systématique (azithromycine seulement si ≥ 3 exacerbations/an)."],
+    ["Mesures de prévention de cette maladie :", ["Vaccination antigrippale annuelle", "Vaccination antipneumococcique", "Kinésithérapie respiratoire quotidienne", "Éviction des irritants bronchiques et du tabac", "Antibiothérapie systématique au long cours"], "ABCD", "🎯 L'antibiotique au long cours n'est pas une mesure systématique (azithromycine seulement si ≥ 3 exacerbations/an ou plus d'une exacerbation hospitalisée)."],
     ["Azithromycine au long cours dans la DDB :", ["Indiquée si ≥ 3 exacerbations par an malgré un traitement maximal", "250 mg par jour ou 500 mg 3 fois par semaine", "Durée maximale d'un an", "Peut allonger le QT et altérer l'audition", "Indiquée chez tous les patients dès le diagnostic"], "ABCD", ""],
   ],
   c: [
@@ -4143,7 +4154,7 @@ PNEUMO.fiche("pid", {
       ["Prise en charge :", ["Antifibrosant (pirfénidone ou nintédanib)", "Réhabilitation respiratoire", "OLD si PaO2 < 60 mmHg", "Corticoïdes à forte dose", "Discuter une greffe pulmonaire"], "ABCE", "La FPI ne répond pas aux corticoïdes."],
     ]],
     ["Homme de 45 ans, **éleveur de pigeons**, non-fumeur. Depuis 3 mois : **toux sèche**, dyspnée et **fièvre** quelques heures après le nettoyage du pigeonnier ; il va mieux le week-end, loin des oiseaux. Radio : discrète atteinte interstitielle avec quelques micronodules.", [
-      ["Hypothèse diagnostique :", ["Pneumopathie d'hypersensibilité", "Miliaire tuberculeuse", "Sarcoïdose de type 3", "Connectivite", "Pneumopathie virale"], "A", "🎯 Annale (éleveur, rythme des symptômes)."],
+      ["Hypothèse diagnostique :", ["Pneumopathie d'hypersensibilité", "Miliaire tuberculeuse", "Sarcoïdose de type 3", "Connectivite", "Pneumopathie virale"], "A", "🎯 Annale 2022 : PHS (le patient de l'annale était **fromager**). Ici, le métier d'éleveur et le rythme des symptômes orientent."],
       ["Examens les plus utiles pour confirmer :", ["TDM thoracique", "Fibroscopie avec LBA", "Précipitines sériques", "Coronarographie", "Biopsie hépatique"], "ABC", ""],
       ["TDM : verre dépoli, aspect en mosaïque, micronodules centrolobulaires ; LBA : 85 % de lymphocytes, CD4/CD8 = 0,4. Conduite :", ["Éviction antigénique", "Corticothérapie systémique", "Traitement antituberculeux", "Céphalosporine de 3e génération", "Bronchodilatateurs de longue durée seuls"], "AB", "🎯"],
       ["Sans éviction ni traitement, l'évolution se fera vers :", ["Une pneumopathie interstitielle fibrosante", "Une sarcoïdose de type 4", "Une guérison spontanée", "Une tuberculose multifocale", "Un cancer bronchique"], "A", "🎯 Annale."],
@@ -4154,7 +4165,7 @@ PNEUMO.fiche("pid", {
 PNEUMO.fiche("sarcoidose", {
   e: [
     "**Sarcoïdose** = maladie **inflammatoire granulomateuse systémique** de cause **inconnue** : **granulomes épithélioïdes et gigantocellulaires sans nécrose caséeuse** 🎯, surtout dans le **poumon** et les **ganglions**.",
-    "Terrain : adulte de **40–55 ans**, femmes un peu plus touchées, sujets d'origine **africaine** ; incidence 3–10/100 000/an ; plus fréquente chez les **non-fumeurs** (paradoxe).",
+    "Terrain : adulte de **40–55 ans**, femmes un peu plus touchées, sujets d'origine **subsaharienne**, **antillaise** ou **afro-américaine** (moins chez les Maghrébins) ; incidence 3–10/100 000/an ; plus fréquente chez les **non-fumeurs** (paradoxe).",
     "Radio = **5 stades** : **0** normale · **I** ADP hilaires bilatérales 🎯 · **II** ADP + parenchyme 🎯 · **III** parenchyme seul · **IV** fibrose. ADP **bilatérales, symétriques, non compressives** (95 %) ; **auscultation normale** malgré une radio très anormale.",
     "**Löfgren** = **érythème noueux + ADP hilaires bilatérales** (± fièvre, arthrites des chevilles) → guérit seul dans **> 90 %** des cas ; **Heerfordt** = uvéo-parotidite fébrile + paralysie faciale + méningite lymphocytaire.",
     "Diagnostic = **3 piliers** : tableau **compatible** + **granulome sans nécrose** (biopsies étagées des **éperons** 🎯) + **élimination** des autres granulomatoses (**tuberculose** !) ; biologie mémo **GLACE** ; **ECA ↑ dans ≈ 60 %** seulement.",
@@ -4242,6 +4253,7 @@ PNEUMO.fiche("sarcoidose", {
         "**Œil** : uvéite **antérieure** aiguë = **œil rouge** et/ou **baisse de vision**, diagnostic à la **lampe à fente** ; uvéite **postérieure** souvent **latente**, menace la vue et s'associe souvent à une atteinte **neurologique centrale** → **consultation ophtalmologique systématique**.",
         "**Cœur** : **2e cause de mortalité** de la sarcoïdose (insuffisance cardiaque, **mort subite** par trouble de conduction de haut grade ou trouble du rythme ventriculaire).",
         "**Signes généraux** : **asthénie** très fréquente, parfois au premier plan même dans les formes limitées ; **fièvre rare** sauf Löfgren, uvéo-parotidite fébrile (± paralysie faciale), atteinte hépatique ou rénale ; **amaigrissement** possible (Löfgren, formes multiviscérales)."],
+      ["crs", "Le cours : biopsie de l'érythème noueux **inutile** (lésion non spécifique, pas de granulome). Mais à l'annale 2023 (nodules violacés et douloureux des jambes + opacité hilaire droite), la clé « pour confirmer le diagnostic » était **biopsie des nodules cutanés + fibroscopie bronchique** (CD). La biopsie a montré une hypodermite septale non spécifique et le diagnostic final était une **tuberculose** (IDR à 20 mm)."],
       ["ast", "**Löfgren** : « **jambes rouges, hiles gonflés, chevilles douloureuses** » — un tableau bruyant… qui **guérit tout seul**. **Heerfordt** : « l'**œil**, la **joue**, la **bouche de travers** et les **méninges** » — uvéite, parotidite, paralysie faciale, méningite."],
     ]],
     ["Biologie et démarche diagnostique", "green", [
@@ -4269,6 +4281,7 @@ PNEUMO.fiche("sarcoidose", {
       ["ret", "Traitement **seulement** en cas de risque de **mortalité**, de **perte de fonction d'un organe** ou d'**altération de la qualité de vie** : **prednisone 20 à 40 mg/jour** au départ, puis **dose dégressive** jusqu'à l'arrêt à **12 mois** (deux tiers des cas traités), ou plus si nécessaire. D'autres traitements en cas de **non-réponse**, d'**effets secondaires** ou pour **épargner les corticoïdes**."],
       ["tab", ["Traiter (indications classiques, complément)", "Ne pas traiter sur ce seul argument"],
         ["Atteinte **cardiaque**, **neurologique**, **oculaire postérieure** ; **hypercalcémie / hypercalciurie** importantes, atteinte **rénale** ; atteinte **pulmonaire** symptomatique ou qui s'aggrave (stades II–III avec EFR altérées, fibrose évolutive)", "**Alvéolite lymphocytaire au LBA** 🎯 ; **ECA élevée** isolée ; **stade I** asymptomatique ; **Löfgren** (guérit seul)"]],
+      ["crs", "Annales, deux clés à connaître 🎯 : en 2022 (« tous ces critères indiquent un traitement systémique, sauf un »), **seule l'alvéolite lymphocytaire au LBA** n'était pas une indication ; le **stade II**, l'uvéite postérieure, la neurosarcoïdose et l'**hypercalciurie** étaient comptés comme indications. En 2025, une sarcoïdose **stade II** avec **EFR, calcémie et examen ophtalmologique normaux** a été corrigée « **abstention thérapeutique avec surveillance** »."],
       ["ul", "**Suivi** : revoir le patient **tous les 3 à 6 mois** jusqu'à la guérison ; à chaque visite : signes respiratoires et extrarespiratoires + examens orientés : **radiographie** + **EFR** (éléments clés), **ECA**, NFS, fonction **rénale**, **calcémie**, enzymes **hépatiques**, **ECG**. Les annales retiennent une surveillance **clinique, radiologique, biologique et fonctionnelle** 🎯.",
         "**Rechutes** : surtout dans les **2 à 6 mois** après l'arrêt du traitement ; **exceptionnelles** après **3 ans** de recul sans traitement.",
         "**Guérison** = rémission **stable**, **sans traitement**, pendant **3 ans**."],
@@ -4307,7 +4320,7 @@ PNEUMO.fiche("sarcoidose", {
   ],
   q: [
     ["Syndrome de Löfgren :", ["Érythème noueux", "Adénopathies hilaires bilatérales", "Souvent fébrile", "Biopsie de l'érythème noueux indispensable", "Évolution habituellement défavorable"], "ABC", ""],
-    ["Devant des ADP hilaires et médiastinales bilatérales volumineuses chez une femme jeune, diagnostics à évoquer :", ["Tuberculose", "Infection bactérienne banale", "Métastases", "Sarcoïdose", "Lymphome"], "ADE", "🎯 Dans l'annale (combinaisons), la réponse attendue était tuberculose + sarcoïdose ; le lymphome reste à éliminer."],
+    ["Devant des ADP hilaires et médiastinales bilatérales volumineuses chez une femme jeune, étiologies les plus probables :", ["Tuberculose", "Infection bactérienne banale", "Métastases", "Sarcoïdose", "Lymphome"], "AD", "🎯 Clé officielle des annales (2021 à 2024) : **tuberculose + sarcoïdose** (AD), même quand la combinaison tuberculose + lymphome était proposée (2024). Le lymphome reste un diagnostic à **éliminer** (ADP asymétriques ou compressives)."],
     ["Granulomatoses à éliminer avant de retenir une sarcoïdose :", ["Tuberculose", "Brucellose", "Lymphome (réaction granulomateuse)", "Maladie de Crohn", "Asthme"], "ABCD", ""],
     ["Biologie de la sarcoïdose (mémo GLACE) :", ["Hypergammaglobulinémie polyclonale", "Lymphopénie", "IDR négative", "Hypercalciurie", "Hyperéosinophilie"], "ABCD", ""],
     ["Bilan initial systématique d'une sarcoïdose :", ["ECG", "Examen ophtalmologique", "Calcémie et calciurie des 24 h", "EFR avec DLCO", "Coronarographie"], "ABCD", ""],
@@ -4323,7 +4336,7 @@ PNEUMO.fiche("sarcoidose", {
     ["Femme de 43 ans, non-fumeuse : **toux sèche** et fatigue ; son frère est traité pour **tuberculose**. Examen normal. Radio : **ADP hilaires et médiastinales volumineuses, bilatérales**.", [
       ["Étiologies les plus probables :", ["Tuberculose", "Infection bactérienne", "Métastases", "Sarcoïdose", "Silicose"], "AD", "🎯 Annale."],
       ["Examens pour étayer le diagnostic :", ["Fibroscopie bronchique", "Échographie abdominale", "TDM thoracique", "Coronarographie", "Scintigraphie osseuse"], "AC", "🎯 Fibroscopie + TDM."],
-      ["IDR négative ; TDM : ADP hilaires bilatérales, loge de Barety et fenêtre aorto-pulmonaire, parenchyme normal. Pour confirmer le diagnostic :", ["Biopsies étagées des éperons", "Thoracotomie exploratrice", "Médiastinoscopie d'emblée", "LBA seul", "Biopsie scannoguidée"], "A", "🎯"],
+      ["IDR négative ; TDM : ADP hilaires bilatérales, loge de Barety et fenêtre aorto-pulmonaire, parenchyme normal. Pour confirmer le diagnostic :", ["Biopsies étagées des éperons", "Thoracotomie exploratrice", "Médiastinoscopie d'emblée", "LBA seul", "Biopsie scannoguidée"], "A", "🎯 Clé officielle 2021, 2023 et 2024 : **biopsie des éperons**. En 2022, la biopsie des éperons n'était pas proposée (fibroscopie déjà faite, d'aspect normal) : la réponse était alors la **médiastinoscopie**."],
       ["Granulomes épithélioïdes et gigantocellulaires sans nécrose ; LBA : 25 % de lymphocytes ; BK négatifs. Classement :", ["Sarcoïdose stade I", "Sarcoïdose stade II", "Tuberculose ganglionnaire prouvée", "Lymphome", "Sarcoïdose stade III"], "A", "🎯 Pas d'atteinte du parenchyme."],
       ["EFR, calcémie, ECA, examen ophtalmologique et ECG normaux. Conduite :", ["Abstention thérapeutique et surveillance", "Traitement antituberculeux", "Corticothérapie + antituberculeux", "Chimiothérapie", "Prednisone 40 mg/j"], "A", "🎯 Annale."],
     ]],
@@ -4360,7 +4373,7 @@ PNEUMO.fiche("pneumoconioses", {
         ["**Creuser la roche**", "**Mines** et travaux souterrains (travaux sur roche, travaux publics : percement de **tunnels**, construction de **barrages**) ; **carrières** (risque important au **broyage** et au **concassage**)"],
         ["**Fondre le métal**", "**Fonderies** : **décochage**, **ébarbage**, **meulage**, **sablage** (silicose possible après **quelques années**) ; entretien, réparation, démolition des **hauts fourneaux**"],
         ["**Travailler le minéral**", "Industrie de la **céramique** et du **verre** ; **broyage du sable** (broyage, tamisage, ensachage) ; **taille et polissage des pierres** riches en silice **+++**"]],
-      ["ex", "**La silicose en Algérie** : la plus fréquente des pneumoconioses 🎯 ; après le secteur **minier**, le métier de **tailleur de pierre** est le plus grand pourvoyeur de cas ; problème majeur de **santé publique** dans les régions rurales de **Kabylie** et des **Aurès**. À **Tkout (Batna)** : 1er cas diagnostiqué en **2000**, tailleurs de pierre (**quartz**) +++, **près de 200 morts**, des malades **jeunes** (**31 ans** en moyenne), travail **informel**."],
+      ["ex", "**La silicose en Algérie** : la plus fréquente des pneumoconioses ; après le secteur **minier**, le métier de **tailleur de pierre** est le plus grand pourvoyeur de cas ; problème majeur de **santé publique** dans les régions rurales de **Kabylie** et des **Aurès**. À **Tkout (Batna)** : 1er cas diagnostiqué en **2000**, tailleurs de pierre (**quartz**) +++, **près de 200 morts**, des malades **jeunes** (**31 ans** en moyenne), travail **informel**."],
       ["fun", "La silice cristalline est classée **cancérogène certain** pour l'homme (groupe 1 du CIRC, complément) : cela explique que le **cancer bronchique** soit la complication la plus grave retenue aux annales."],
     ]],
     ["Silicose : lésions, clinique, imagerie, EFR", "orange", [
@@ -4973,7 +4986,7 @@ PNEUMO.fiche("khp", {
     ]],
     ["Homme de 28 ans, **originaire de Djelfa**, non fumeur : **toux sèche** et **douleur basithoracique droite**, sans fièvre ni amaigrissement. Radio de face : **opacité arrondie bien limitée de 8 cm** à la **base droite** (ce cas est tombé **4 fois** aux annales 🎯).", [
       ["Diagnostic le plus probable :", ["Foyer d'infarctus pulmonaire rond", "Tuberculome", "Kyste hydatique", "Cancer bronchique", "Hamartome"], "C", "Sujet jeune, région d'élevage, grosse opacité ronde très nette."],
-      ["Examen pouvant poser le diagnostic précis :", ["IDR à la tuberculine", "Sérologie ELISA", "Fibroscopie bronchique", "TDM thoracique", "D-dimères"], "D", "Réponse des annales : la TDM (imagerie plus précise : contenu liquidien, membranes, ménisque). L'ELISA est la sérologie la plus sensible et la plus spécifique, mais une sérologie peut être négative."],
+      ["Examen pouvant poser le diagnostic précis :", ["IDR à la tuberculine", "Sérologie ELISA", "Fibroscopie bronchique", "TDM thoracique", "D-dimères"], "D", "Réponse des annales 2023 et 2025 : la TDM (imagerie plus précise : contenu liquidien, membranes, ménisque). Attention : en 2022, la clé officielle de la même question était B (sérologie **ELISA**, la plus sensible et la plus spécifique) ; une sérologie peut toutefois être négative."],
       ["Examen à faire avant la décision thérapeutique :", ["Échographie abdominale", "Test Quantiféron", "Ponction-biopsie transpariétale", "Angiographie pulmonaire", "Marqueurs tumoraux"], "A", "Recherche de kystes du foie."],
       ["Traitement à proposer :", ["Énoxaparine 0,7 mL deux fois par jour", "Antituberculeux 2RHZE/4RH", "Mébendazole pendant un an", "Kystectomie avec capitonnage chirurgical", "Corticothérapie 1 mg/kg/j"], "D", ""],
       ["Sans traitement, la complication la plus fréquente :", ["Fistulisation dans la plèvre", "Compression des organes de voisinage", "Rupture dans les bronches", "Surinfection bactérienne", "Dissémination hématogène"], "C", "Complément : la rupture dans les bronches est la plus fréquente."],
@@ -5008,7 +5021,7 @@ PNEUMO.fiche("ep", {
       ["ast", "Pensez à un **tuyau d'arrosage** : l'eau **stagne** (stase), le tuyau est **abîmé** à l'intérieur (endothélium), l'eau **coagule trop vite** (hypercoagulabilité). Chacun des trois favorise le caillot ; plus il y en a, plus le risque monte."],
       ["steps", "Un thrombus de **TVP** se détache, en tout ou en partie.",
         "Il remonte vers les **cavités droites**, puis les **artères pulmonaires**.",
-        "L'arbre circulatoire pulmonaire est **amputé** : des alvéoles **ventilées** ne sont plus **perfusées** → échanges gazeux réduits (**hypoxémie**, **hypocapnie** : effet shunt).",
+        "L'arbre circulatoire pulmonaire est **amputé** : des alvéoles **ventilées** ne sont plus **perfusées** (espace mort, complément) → échanges gazeux réduits ; le sang dévié vers le reste du poumon crée un **effet shunt** (complément) : **hypoxémie**, **hypocapnie** (cours).",
         "Les **pressions artérielles pulmonaires** montent → le **VD** peut défaillir (**insuffisance cardiaque droite**, **collapsus**) selon l'importance de l'amputation vasculaire."],
       ["pq", "Pourquoi le **VD** lâche-t-il ? C'est une pompe à **paroi fine**, faite pour la **basse pression** (cours HTP). Un gros caillot lui impose brutalement un obstacle : il se **dilate**, son **septum** bombe vers le VG, le **débit cardiaque** chute → **choc** (complément). C'est ce qui tue dans l'EP grave."],
       ["fun", "C'est le pathologiste allemand **Rudolf Virchow** qui, au XIXe siècle, a forgé le mot « **embolie** », du grec *embolos* : le bouchon, ce qu'on enfonce."],
@@ -5201,7 +5214,7 @@ PNEUMO.fiche("ep", {
   p: [
     ["D-dimères et probabilité forte", "Probabilité clinique forte, D-dimères négatifs : EP exclue.", "Les D-dimères ne servent qu'en probabilité **faible ou intermédiaire** ; si la probabilité est **forte** : **angioscanner d'emblée**.", "Un test sensible mais imparfait ne suffit pas à rassurer quand la suspicion est forte.", ""],
     ["D-dimères positifs", "D-dimères à 1 200 µg/L : l'EP est confirmée.", "Des D-dimères **positifs** ne prouvent **rien** : ils imposent l'**imagerie** (angioscanner).", "Ils montent aussi avec l'âge, le cancer, l'infection, la grossesse, la chirurgie (complément).", ""],
-    ["Le seuil des D-dimères après 50 ans", "70 ans, D-dimères à 620 µg/L : angioscanner obligatoire.", "Après 50 ans, seuil = **âge × 10** : 700 µg/L à 70 ans, donc 620 est **négatif**.", "", ""],
+    ["Le seuil des D-dimères après 50 ans", "70 ans, D-dimères à 620 µg/L : angioscanner obligatoire.", "Après 50 ans, seuil = **âge × 10** : 700 µg/L à 70 ans, donc 620 est **négatif** (EP écartée si la probabilité clinique est **faible ou intermédiaire**).", "", ""],
     ["Le doppler normal", "Écho-doppler veineux normal : pas d'EP.", "Un doppler normal **n'exclut pas** l'EP.", "Le caillot a pu migrer en totalité, ou venir de veines mal explorées comme celles du bassin (complément).", ""],
     ["Le doppler positif", "TVP fémorale au doppler chez un patient suspect d'EP : on attend l'angioscanner pour traiter.", "Une **TVP proximale** prouvée suffit pour commencer l'**anticoagulation curative**, qui est le même traitement (complément).", "", ""],
     ["La radio normale", "Radio normale chez un dyspnéique : l'EP est peu probable.", "La radio est **souvent normale** dans l'EP : une **dyspnée aiguë avec radio normale** doit au contraire **faire penser** à l'EP.", "", ""],
@@ -5245,12 +5258,12 @@ PNEUMO.fiche("ep", {
     ["Indications du filtre cave :", ["Récidive d'EP prouvée sous traitement bien conduit", "EP avec contre-indication formelle aux anticoagulants", "Toute EP du sujet âgé", "EP à faible risque", "Prévention après chirurgie"], "AB", ""],
   ],
   c: [
-    ["Femme de 34 ans, **sous pilule**, **plâtrée** de la jambe droite depuis 3 semaines. **Dyspnée brutale** et **douleur thoracique** droite. FC 112/min, PA 125/75 mmHg, SpO2 91 %.", [
+    ["Femme de 34 ans, **sous pilule**, **plâtrée** de la jambe droite depuis 3 semaines. **Dyspnée brutale** et **douleur thoracique** droite. FC 105/min, PA 125/75 mmHg, SpO2 91 %.", [
       ["Score de Wells (immobilisation, FC > 100, et l'EP est le diagnostic le plus probable) :", ["6 : probabilité moyenne", "1,5 : faible", "9 : forte", "3 : faible", "12 : forte"], "A", "1,5 + 1,5 + 3 = 6 → probabilité moyenne (2–6)."],
       ["Examen suivant :", ["D-dimères", "Angiographie pulmonaire", "Scanner cérébral", "Fibroscopie bronchique", "Spirométrie"], "A", "Probabilité moyenne : D-dimères d'abord."],
       ["D-dimères à 2 400 µg/L. Ensuite :", ["Angioscanner thoracique", "EP exclue", "Refaire les D-dimères demain", "Thrombolyse immédiate", "Retour à domicile"], "A", ""],
       ["EP bilatérale ; pas de choc, sPESI = 0. Prise en charge :", ["AOD (rivaroxaban ou apixaban)", "Hospitalisation courte", "Lever 1 h après le début de l'anticoagulation", "Thrombolyse", "Filtre cave"], "ABC", ""],
-      ["Et la pilule ?", ["L'arrêter (facteur de risque)", "Anticoagulation de 3 à 6 mois", "Contraception sans œstrogène", "La poursuivre sans changement", "Doubler la dose"], "ABC", ""],
+      ["La pilule et la suite du traitement :", ["L'arrêter (facteur de risque)", "Anticoagulation de 3 à 6 mois", "Contraception sans œstrogène", "La poursuivre sans changement", "Doubler la dose"], "ABC", ""],
     ]],
     ["Femme de 30 ans, **IMC 35**, **accouchée il y a 3 semaines** : **douleur basithoracique droite** et dyspnée. FR 28/min, FC 120/min, PA 120/65 mmHg, SaO2 95 %. Matité de la base droite. Radio : **opacité triangulaire basale droite à sommet hilaire et base pariétale** (cas d'annales 🎯).", [
       ["Examens à demander :", ["ECG", "Gaz du sang artériels", "D-dimères", "Spirométrie", "Fibroscopie bronchique"], "ABC", "Examens de débrouillage."],
@@ -5317,7 +5330,7 @@ PNEUMO.fiche("htp", {
         ["Le cœur qui souffre", "**Douleurs thoraciques** (angor fonctionnel), **syncopes ou présyncopes à l'effort**"],
         ["Rare", "**Hémoptysies**"],
         ["L'auscultation", "**Éclat de B2** au foyer pulmonaire 🎯, souffle d'**insuffisance tricuspide**"],
-        ["Le ventricule droit", "**Signe de Harzer** (choc de pointe droit, perçu sous l'appendice xiphoïde) 🎯"],
+        ["Le ventricule droit", "**Signe de Harzer** (choc de pointe droit, perçu sous l'appendice xiphoïde)"],
         ["La congestion droite", "**Turgescence jugulaire**, **reflux hépato-jugulaire**, **hépatomégalie**, **ascite**, **œdèmes des membres inférieurs**"]],
       ["tab", ["Classe OMS (NYHA modifiée)", "Retentissement"],
         ["**I**", "Activité physique **normale**, sans symptôme"],
@@ -5477,7 +5490,7 @@ PNEUMO.fiche("htp", {
 PNEUMO.fiche("sd-med", {
   e: [
     "**Opacité médiastinale** : **limite interne noyée** dans le médiastin, **limite externe nette et convexe** vers le poumon, raccordement en **pente douce (angle obtus)**.",
-    "**Localiser** l'**étage** (supérieur, moyen, inférieur) et le **compartiment** : elle **efface** le bord du cœur ou de l'aorte → **antérieure** ; elle le laisse visible → **postérieure** ; elle **s'arrête à la clavicule** → **antérieure** 🎯 ; elle reste **visible au-dessus** → **postérieure**.",
+    "**Localiser** l'**étage** (supérieur, moyen, inférieur) et le **compartiment** : elle **efface** le bord du cœur ou de l'aorte ascendante → **antérieure** ; elle le laisse visible → **postérieure** ; elle **s'arrête à la clavicule** → **antérieure** 🎯 ; elle reste **visible au-dessus** → **postérieure**.",
     "**Devant** (les « **4 T** ») : **thymome**, **thyroïde** (goitre plongeant), **tératome** et autres **tumeurs germinales**, **lymphome** et autres adénopathies (métastases, tuberculose, sarcoïdose). **Angle cardiophrénique** : kystes pleuropéricardique et bronchogénique, tumeur germinale, **hernie de Larrey**.",
     "**Derrière** : **tumeurs nerveuses**, **œsophage**, **rachis**, **goitre plongeant postérieur**. **Hiles** bilatéraux, symétriques, polycycliques : **sarcoïdose type 1**. Clarté **rétrocardiaque** + **poche à air gastrique absente** : **hernie hiatale**.",
     "**Syndrome cave supérieur** (œdème en pèlerine, circulation collatérale, jugulaires turgescentes) = **veine cave supérieure** comprimée 🎯. Démarche : **radio** d'abord, puis **TDM** 🎯, marqueurs (**AFP** 🎯), puis **preuve histologique**."
@@ -5496,7 +5509,7 @@ PNEUMO.fiche("sd-med", {
     ]],
     ["La localiser : étage et compartiment", "purple", [
       ["tab", ["Indice (radio de face)", "Interprétation"],
-        ["**Efface** le contour du cœur ou de l'aorte (signe de la **silhouette**)", "Opacité **antérieure** (au contact)"],
+        ["**Efface** le contour du cœur ou de l'aorte **ascendante** (signe de la **silhouette**)", "Opacité **antérieure** (au contact) ; complément : une masse qui efface l'aorte **descendante** est, elle, **postérieure**"],
         ["**N'efface pas** ces contours", "Opacité **postérieure** (séparée d'eux par du poumon)"],
         ["**S'arrête** dans la région rétro-claviculaire : elle « disparaît » au-dessus de la clavicule", "**Antérieure** 🎯 (signe cervico-thoracique)"],
         ["Reste **visible au-dessus** de la clavicule", "**Postérieure** : elle reste entourée de poumon"],
@@ -5524,7 +5537,7 @@ PNEUMO.fiche("sd-med", {
     ["Les masses du médiastin antérieur en pratique (annales)", "teal", [
       "Jeune femme, toux, douleur parasternale, **tuméfaction antéro-supérieure** ; opacité latéro-trachéale qui **disparaît au-dessus de la clavicule** : par où commencer ?",
       ["steps", "**Radiographie thoracique** de face (et profil) **en premier** 🎯.",
-        "**TDM thoracique** : siège, densité (graisse, calcifications, kyste), envahissement 🎯. L'IRM apporte peu de plus.",
+        "**TDM thoracique** : siège, densité (graisse, calcifications, kyste), envahissement 🎯. L'IRM n'apporte en général rien de plus.",
         "Examens d'**orientation** : **AFP** (± β-HCG) 🎯, **bilan immunologique** 🎯 (anticorps anti-récepteurs de l'acétylcholine si myasthénie), **échographie cervicale + hormones thyroïdiennes** si goitre 🎯.",
         "**Preuve histologique** par la voie la plus simple : **ganglion cervical** accessible (cytoponction ou biopsie) 🎯, sinon **médiastinoscopie** 🎯 ou **biopsie transpariétale scannoguidée** d'une masse plaquée contre la paroi 🎯."],
       ["tab", ["Masse", "Indices", "Conduite"],
@@ -6486,7 +6499,7 @@ PNEUMO.fiche("td-tnm", {
         ["2 cm envahissant la bronche principale, sans la carène", "**T2a**"],
         ["3 cm + autre nodule tumoral distinct dans le même lobe", "**T3**"],
         ["4 cm + carène envahie", "**T4**"]],
-      ["crs", "Le diaporama de diagnostic 2025 range encore le **diaphragme** en T3 et suit la **8e édition** ; le TD (octobre 2026) suit la **9e édition** : diaphragme = **T4**, azygos, racines T1-T2 et ganglion stellaire = **T3**, N2a/N2b, M1c1/M1c2. À l'examen, suis le TD."],
+      ["crs", "Le diaporama de diagnostic 2025 range encore le **diaphragme** en T3 et suit la **8e édition** ; le TD (octobre 2026) suit la **9e édition** : diaphragme = **T4**, azygos, racines T1-T2 et ganglion stellaire = **T3**, N2a/N2b, M1c1/M1c2. À l'examen, suis le TD. Attention aussi aux **bornes** : le diaporama écrit « T1b ≥ 1 cm », « T1c ≥ 2 cm », « T2b ≥ 4 cm » ; en 8e comme en 9e édition (et dans le TD : 4 cm → T2a), chaque borne haute est **incluse** : **1 cm = T1a**, **2 cm = T1b**, **3 cm = T1c**, **4 cm = T2a**, **5 cm = T2b**, **7 cm = T3**."],
       ["chk", "Tumeur de 2,5 cm qui envahit la plèvre viscérale. T ?", ["T1c", "T2a", "T3"], "B", "Un critère d'invasion **reclasse** la petite tumeur."],
     ]],
     ["N : les ganglions", "teal", [
@@ -6708,7 +6721,7 @@ PNEUMO.fiche("pno", {
         "**Activité physique** : **aucune** raison de la limiter 🎯.",
         "**Symphyse pleurale** (pleurodèse : talcage ou abrasion, le plus souvent par **thoracoscopie**, ± résection des bulles) : en cas de **récidive**, de PNO **bilatéral** ou **controlatéral** 🎯, de PNO qui **persiste après 3 à 5 jours** de drainage, ou de **métier à risque** (pilote, plongeur).",
         "**BPCO** : à distance, la spirométrie montre un **trouble ventilatoire obstructif irréversible** 🎯 ; traiter la maladie de fond."],
-      ["crs", "Aux annales, après un 1er PNO chez un BPCO, la combinaison attendue était « **sevrage tabagique + contre-indication définitive de la plongée** » ; dans un cas de PNO des **deux côtés**, c'était « **sevrage tabagique + pleurodèse** ». Retiens : tabac **toujours**, plongée **jamais**, pleurodèse si **récidive ou bilatéral**."],
+      ["crs", "Aux annales, après un 1er PNO chez un BPCO, la combinaison attendue était « **sevrage tabagique + contre-indication définitive de la plongée** » ; dans un cas de PNO des **deux côtés**, c'était « **sevrage tabagique + pleurodèse** » ; pour « la mesure de **prévention secondaire** la plus efficace » chez un BPCO (2026), c'était « **sevrage tabagique + vaccination antigrippale** ». Retiens : tabac **toujours**, plongée **jamais**, pleurodèse si **récidive ou bilatéral**, et chez le BPCO le **vaccin antigrippal**."],
       ["fun", "En avion, la cabine est pressurisée comme à **2 400 m** d'altitude : un PNO non guéri y gonfle d'environ **30 %** (loi de **Boyle-Mariotte**). En plongée, c'est pire : à la **remontée**, l'air piégé se dilate brutalement."],
       ["nums", ["< 30 %", "Récidive après un 1er PNO spontané primitif (référentiel 2023)"], ["> 50 %", "Récidive après un 1er PNO spontané secondaire (référentiel 2023)"], ["≥ 2 cm", "PNO : décollement au hile définissant un grand PNO (sur toute la hauteur)"], ["PAS ≤ 90 mmHg", "PNO : signe de gravité (avec désaturation, jugulaires turgescentes, médiastin dévié)"], ["2e–3e EIC", "PNO : site de l'exsufflation et du drain (ligne médio-claviculaire)"], ["16–18", "PNO : calibre du drain (TD drainage)"], ["≈ 50 %", "PNO : succès de l'exsufflation (référentiel 2023 ; 60–80 % selon la fiche Révision totale)"], ["3 sur 4", "PNO spontané primitif : part des fumeurs (référentiel 2023 ; > 90 % selon la fiche Révision totale)"], ["70 %", "PNO spontané secondaire : part due à la BPCO (fiche Révision totale)"], ["−5 à −20 cmH2O", "PNO drainé : aspiration douce si le poumon ne revient pas à la paroi"], ["≈ 2 semaines", "PNO : délai théorique avant de reprendre l'avion (référentiel 2023)"]],
     ]],
@@ -6750,7 +6763,7 @@ PNEUMO.fiche("pno", {
     ["Homme de 68 ans, **BPCO** (30 PA) : **dyspnée brutale** et douleur thoracique gauche. FR 35/min, FC 108/min, TA 130/70 mmHg, SpO2 87 %, cyanose. **Hypersonorité**, vibrations vocales et murmure vésiculaire **abolis à gauche**. Radio : **hyperclarté avasculaire** de tout l'hémithorax gauche, **opacité ovalaire para-cardiaque gauche**, médiastin et trachée **refoulés à droite**.", [
       ["Diagnostic :", ["Pneumothorax gauche compressif", "Bulle d'emphysème géante compressive", "Embolie pulmonaire massive", "Cancer bronchique", "Pneumonie gauche"], "A", "🎯"],
       ["L'opacité ovalaire para-cardiaque correspond :", ["Au poumon rétracté vers le hile", "À une tumeur", "À un épanchement liquidien", "Au cœur déplacé", "À une bulle"], "A", ""],
-      ["Conduite immédiate (TA conservée) :", ["Pleurotomie à minima d'emblée", "Oxygène", "Exsufflation seule puis sortie", "Anticoagulant", "Bêta-lactamine"], "AB", "🎯"],
+      ["Conduite immédiate (TA conservée) :", ["Pleurotomie à minima d'emblée", "Oxygène", "Exsufflation seule puis sortie", "Anticoagulant", "Bêta-lactamine"], "AB", "🎯 Aux annales 2025 et 2026 : oxygène + drainage. Dans ce cas (2023), seule la pleurotomie à minima était cochée : la proposition était « oxygénothérapie **à fort débit** », à éviter chez ce BPCO (risque d'hypercapnie)."],
       ["Avant la pose du drain : SpO2 80 %, jugulaires turgescentes, **TA imprenable**. Geste immédiat :", ["Exsufflation à l'aiguille, puis pleurotomie à minima", "Remplissage par macromolécules seul", "Anticoagulant à dose curative", "Attendre le scanner", "Oxygène seul"], "A", "🎯"],
       ["Radio de contrôle après drainage : clartés arrondies apicales cerclées d'un fin liseré, raréfaction vasculaire :", ["Emphysème bulleux", "Pneumothorax partiel", "Staphylococcie pulmonaire", "Dilatation des bronches", "Tuberculose"], "A", "La cause du PNO 🎯."],
     ]],

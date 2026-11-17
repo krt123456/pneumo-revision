@@ -1,7 +1,7 @@
 PNEUMO.fiche("sd-med", {
   e: [
     "**Opacité médiastinale** : **limite interne noyée** dans le médiastin, **limite externe nette et convexe** vers le poumon, raccordement en **pente douce (angle obtus)**.",
-    "**Localiser** l'**étage** (supérieur, moyen, inférieur) et le **compartiment** : elle **efface** le bord du cœur ou de l'aorte → **antérieure** ; elle le laisse visible → **postérieure** ; elle **s'arrête à la clavicule** → **antérieure** 🎯 ; elle reste **visible au-dessus** → **postérieure**.",
+    "**Localiser** l'**étage** (supérieur, moyen, inférieur) et le **compartiment** : elle **efface** le bord du cœur ou de l'aorte ascendante → **antérieure** ; elle le laisse visible → **postérieure** ; elle **s'arrête à la clavicule** → **antérieure** 🎯 ; elle reste **visible au-dessus** → **postérieure**.",
     "**Devant** (les « **4 T** ») : **thymome**, **thyroïde** (goitre plongeant), **tératome** et autres **tumeurs germinales**, **lymphome** et autres adénopathies (métastases, tuberculose, sarcoïdose). **Angle cardiophrénique** : kystes pleuropéricardique et bronchogénique, tumeur germinale, **hernie de Larrey**.",
     "**Derrière** : **tumeurs nerveuses**, **œsophage**, **rachis**, **goitre plongeant postérieur**. **Hiles** bilatéraux, symétriques, polycycliques : **sarcoïdose type 1**. Clarté **rétrocardiaque** + **poche à air gastrique absente** : **hernie hiatale**.",
     "**Syndrome cave supérieur** (œdème en pèlerine, circulation collatérale, jugulaires turgescentes) = **veine cave supérieure** comprimée 🎯. Démarche : **radio** d'abord, puis **TDM** 🎯, marqueurs (**AFP** 🎯), puis **preuve histologique**."
@@ -20,7 +20,7 @@ PNEUMO.fiche("sd-med", {
     ]],
     ["La localiser : étage et compartiment", "purple", [
       ["tab", ["Indice (radio de face)", "Interprétation"],
-        ["**Efface** le contour du cœur ou de l'aorte (signe de la **silhouette**)", "Opacité **antérieure** (au contact)"],
+        ["**Efface** le contour du cœur ou de l'aorte **ascendante** (signe de la **silhouette**)", "Opacité **antérieure** (au contact) ; complément : une masse qui efface l'aorte **descendante** est, elle, **postérieure**"],
         ["**N'efface pas** ces contours", "Opacité **postérieure** (séparée d'eux par du poumon)"],
         ["**S'arrête** dans la région rétro-claviculaire : elle « disparaît » au-dessus de la clavicule", "**Antérieure** 🎯 (signe cervico-thoracique)"],
         ["Reste **visible au-dessus** de la clavicule", "**Postérieure** : elle reste entourée de poumon"],
@@ -48,7 +48,7 @@ PNEUMO.fiche("sd-med", {
     ["Les masses du médiastin antérieur en pratique (annales)", "teal", [
       "Jeune femme, toux, douleur parasternale, **tuméfaction antéro-supérieure** ; opacité latéro-trachéale qui **disparaît au-dessus de la clavicule** : par où commencer ?",
       ["steps", "**Radiographie thoracique** de face (et profil) **en premier** 🎯.",
-        "**TDM thoracique** : siège, densité (graisse, calcifications, kyste), envahissement 🎯. L'IRM apporte peu de plus.",
+        "**TDM thoracique** : siège, densité (graisse, calcifications, kyste), envahissement 🎯. L'IRM n'apporte en général rien de plus.",
         "Examens d'**orientation** : **AFP** (± β-HCG) 🎯, **bilan immunologique** 🎯 (anticorps anti-récepteurs de l'acétylcholine si myasthénie), **échographie cervicale + hormones thyroïdiennes** si goitre 🎯.",
         "**Preuve histologique** par la voie la plus simple : **ganglion cervical** accessible (cytoponction ou biopsie) 🎯, sinon **médiastinoscopie** 🎯 ou **biopsie transpariétale scannoguidée** d'une masse plaquée contre la paroi 🎯."],
       ["tab", ["Masse", "Indices", "Conduite"],

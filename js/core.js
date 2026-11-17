@@ -57,7 +57,8 @@
   if (P.loadedFrom !== 'nouveau' && lsGet(KEY + '-snapd') !== realDay && lsSet(KEY + '-snap', JSON.stringify(S))) lsSet(KEY + '-snapd', realDay);
   P.snapshot = () => { const d = lsGet(KEY + '-snapd'), o = parse(lsGet(KEY + '-snap')); return o && d ? { d, o } : null; };
   if (P.loadedFrom === 'application' || P.loadedFrom === 'copie de secours') setTimeout(() => P.flush(), 0); // resynchronise les deux copies
-  let saveT = 0, lastJs = '', lastSaved = 0;
+  let saveT = 0, lastJs = '', lastSaved = 0, warnedFull = false;
+  try { lastJs = JSON.stringify(S); } catch (e) { lastJs = ''; }
   const flush = P.flush = () => {
     clearTimeout(saveT); saveT = 0;
     S.savedAt = Date.now();
@@ -67,8 +68,23 @@
     if (NAT) { try { nok = NAT.store(js) !== false; } catch (e) { nok = false; } }
     storageOk = ok || nok;
     if (storageOk) { lastJs = js; lastSaved = S.savedAt; try { document.dispatchEvent(new Event('pneumo:saved')); } catch (e) { /* ignore */ } }
+    if (!ok && !warnedFull && P.UI) { warnedFull = true; P.UI.toast(nok ? '⚠️ Mémoire du navigateur pleine : la copie de l\'application reste à jour' : '⚠️ Sauvegarde impossible (mémoire pleine ou navigation privée) : exporte ta progression dans Réglages'); }
     return storageOk;
   };
+  // plusieurs onglets ou fenêtres ouverts : chacun suit la copie la plus récente au lieu de l'écraser
+  window.addEventListener('storage', e => {
+    if (e.key !== KEY || !e.newValue) return;
+    const o = parse(e.newValue);
+    if (!o || (o.savedAt || 0) <= (S.savedAt || 0)) return;
+    clearTimeout(saveT); saveT = 0;
+    Object.keys(S).forEach(k => delete S[k]);
+    Object.assign(S, fresh(), o);
+    S.set = Object.assign(fresh().set, o.set || {});
+    try { lastJs = JSON.stringify(S); } catch (x) { lastJs = ''; }
+    lastSaved = o.savedAt || Date.now();
+    if (P.rerender) { try { P.rerender(); } catch (x) { /* ignore */ } }
+    if (P.UI) P.UI.toast('🔄 Progression mise à jour depuis un autre onglet');
+  });
   const save = P.save = () => { clearTimeout(saveT); saveT = setTimeout(flush, 120); };
   const flushIfChanged = () => { try { if (saveT || JSON.stringify(S) !== lastJs) flush(); } catch (e) { /* ignore */ } };
   ['pagehide', 'beforeunload', 'blur'].forEach(ev => window.addEventListener(ev, flushIfChanged));
@@ -83,9 +99,19 @@
   } catch (e) { /* ignore */ }
   P.S = S;
   P.exportData = () => JSON.stringify(Object.assign({ app: 'pneumo-revision', exported: new Date().toISOString() }, S));
+  const SHAPE = { L: 'o', T: 'o', M: 'o', X: 'a', days: 'o', err: 'a', cards: 'o', cardNew: 'o', qs: 'o', qa: 'o', wrong: 'o', cal: 'o', ann: 'o', notes: 'o', rd: 'o', ck: 'o', xpd: 'o', bdg: 'o', cli: 'o', ecos: 'o', game: 'o', set: 'o', xp: 'n' };
+  P.checkState = o => {
+    if (!o || typeof o !== 'object' || Array.isArray(o) || !o.L) throw new Error('Fichier non reconnu');
+    Object.keys(SHAPE).forEach(k => {
+      if (o[k] === undefined || o[k] === null) return;
+      const v = o[k], t = SHAPE[k];
+      const good = t === 'a' ? Array.isArray(v) : t === 'n' ? typeof v === 'number' && isFinite(v) : typeof v === 'object' && !Array.isArray(v);
+      if (!good) throw new Error('Fichier non reconnu (' + k + ')');
+    });
+    return o;
+  };
   P.importData = txt => {
-    const o = JSON.parse(txt);
-    if (!o || typeof o !== 'object' || !o.L) throw new Error('Fichier non reconnu');
+    const o = P.checkState(JSON.parse(txt));
     try { lsSet(KEY + '-preimport', JSON.stringify(S)); } catch (e) { /* ignore */ }
     Object.keys(S).forEach(k => delete S[k]);
     Object.assign(S, fresh(), o);
@@ -103,15 +129,20 @@
       return new Response(cs).arrayBuffer().then(ab => 'PNEUMO1:' + b64(new Uint8Array(ab))).catch(() => js);
     } catch (e) { return Promise.resolve(js); }
   };
-  P.importAny = txt => {
-    txt = String(txt || '').trim();
-    if (txt.indexOf('PNEUMO1:') !== 0) { P.importData(txt); return Promise.resolve(); }
-    const bin = atob(txt.slice(8).replace(/\s+/g, '')), buf = new Uint8Array(bin.length);
-    for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
-    if (!window.DecompressionStream) return Promise.reject(new Error('Navigateur trop ancien pour ce code'));
-    const ds = new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'));
-    return new Response(ds).text().then(t => P.importData(t));
+  // lit un fichier exporté ou un code PNEUMO1:… et vérifie qu'il s'agit bien d'une sauvegarde (sans rien modifier)
+  P.parseImport = txt => {
+    try {
+      txt = String(txt || '').trim();
+      if (txt.indexOf('PNEUMO1:') !== 0) return Promise.resolve(JSON.stringify(P.checkState(JSON.parse(txt))));
+      const bin = atob(txt.slice(8).replace(/\s+/g, '')), buf = new Uint8Array(bin.length);
+      for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+      if (!window.DecompressionStream) return Promise.reject(new Error('Navigateur trop ancien pour ce code'));
+      const ds = new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'));
+      return new Response(ds).text().then(t => JSON.stringify(P.checkState(JSON.parse(t))));
+    } catch (e) { return Promise.reject(e); }
   };
+  P.importAny = txt => P.parseImport(txt).then(js => P.importData(js));
+  P.preImport = () => { const o = parse(lsGet(KEY + '-preimport')); return o ? JSON.stringify(o) : null; };
   P.resetAll = () => { Object.keys(S).forEach(k => delete S[k]); Object.assign(S, fresh()); flush(); };
 
   /* ---------- cours ---------- */
@@ -126,7 +157,7 @@
     const l = LS(id);
     if (l.st === 'done') return false;
     l.st = 'done'; l.on = on || today(); l.step = 0; l.due = D.add(l.on, GAPS[0]); l.hist = l.hist || [];
-    if (!on) P.addXP(50, 'cours étudié');
+    if (!on && !l.xp) { l.xp = 1; P.addXP(50, 'cours étudié'); }
     P.checkBadges(); save();
     return true;
   };
@@ -142,7 +173,7 @@
     l.lastRev = t;
     P.addXP(20 + 5 * rating, 'révision'); P.checkBadges(); save();
   };
-  P.revLabel = id => { const n = (P.ls(id).hist || []).length; return n === 0 ? '1re révision (J+1)' : n === 1 ? '2e révision (J+3)' : n === 2 ? '3e révision (J+7)' : n === 3 ? '4e révision (J+14)' : (n + 1) + 'e révision (entretien)'; };
+  P.revLabel = id => { const l = P.ls(id), h = l.hist || [], n = h.length; if (n && h[n - 1][1] === 0) return 'Révision de rattrapage (après « Difficile »)'; return n === 0 ? '1re révision (J+1)' : n === 1 ? '2e révision (J+3)' : n === 2 ? '3e révision (J+7)' : n === 3 ? '4e révision (J+14)' : (n + 1) + 'e révision (entretien)'; };
 
   /* ---------- planning et tâches ---------- */
   P.days = P.plan.map(r => ({ d: r[0], ph: r[1], les: r[2], ann: r[3], cli: r[4], ecos: r[5], h: r[6], lab: r[7] }));
@@ -167,9 +198,10 @@
   P.setDone = (t, on) => {
     if (on) {
       S.T[t.id] = { d: today() };
+      const xg = S.xpTask || (S.xpTask = {}), first = !xg[t.id]; xg[t.id] = 1;
       if (t.k === 'lesson' || (t.k === 'extra' && t.lid)) {
-        if (!P.study(t.lid)) P.addXP(15, 'tâche faite');
-      } else P.addXP(t.k === 'annales' ? 25 : 15, 'tâche faite');
+        if (!P.study(t.lid) && first) P.addXP(15, 'tâche faite');
+      } else if (first) P.addXP(t.k === 'annales' ? 25 : 15, 'tâche faite');
     } else {
       delete S.T[t.id];
       if (t.k === 'lesson' && P.isStudied(t.lid)) P.unstudy(t.lid);
@@ -188,14 +220,18 @@
     return t.k === 'annales' ? 40 : t.k === 'ecos' ? 12 : 8;
   };
   // Plan de rattrapage : répartit les tâches en retard sur aujourd'hui et les 2 jours suivants, les plus rentables d'abord
-  P.spread = (n = 3) => {
-    const t0 = today(), load = {};
-    for (let i = 0; i < n; i++) { const d = D.add(t0, i); if (d < P.EXAM) load[d] = P.dayTasks(d).filter(t => !P.isDone(t)).length; }
-    const days = Object.keys(load);
-    if (!days.length) return 0;
+  P.spread = () => {
+    const t0 = today(), last = D.add(P.EXAM, -1), cap = Math.max(3, S.set.cap || 6);
+    if (t0 > last) return { n: 0, days: 0 };
     const od = P.overdue().sort((a, b) => P.taskWeight(b) - P.taskWeight(a));
-    od.forEach(t => { const best = days.slice().sort((a, b) => load[a] - load[b] || (a < b ? -1 : 1))[0]; S.M[t.id] = best; load[best]++; });
-    save(); return od.length;
+    const load = {}, used = new Set();
+    const loadOf = d => (load[d] != null ? load[d] : (load[d] = P.dayTasks(d).filter(t => !P.isDone(t) && !P.isSkip(t)).length));
+    let d = t0;
+    od.forEach(t => {
+      while (d < last && loadOf(d) >= cap) d = D.add(d, 1);
+      S.M[t.id] = d; load[d] = loadOf(d) + 1; used.add(d);
+    });
+    save(); return { n: od.length, days: used.size, last: d };
   };
   P.phaseOf = d => { const x = P.dayOf(d); return x ? x.ph : d < P.START ? 0 : d >= P.EXAM ? 4 : 3; };
   P.PH = { 0: ['Avant le planning', 'gray'], 1: ['1 · Apprendre', 'blue'], 2: ["2 · S'entraîner", 'orange'], 3: ['3 · Consolider', 'green'], 4: ['Examen', 'red'] };
@@ -216,11 +252,11 @@
     while (x >= acc + need && L < P.LEVELS.length) { acc += need; L++; need = 100 * L; }
     return { L, title: P.LEVELS[L - 1], from: acc, to: acc + need, pct: Math.min(100, Math.round(100 * (x - acc) / need)) };
   };
-  P.addXP = (n, why) => {
+  P.addXP = (n, why, quiet) => {
     const before = P.level().L;
     S.xp += n; const t = today(); S.xpd[t] = (S.xpd[t] || 0) + n; save();
     if (P.UI) {
-      P.UI.toast('+' + n + ' XP · ' + why, 'xp');
+      if (!quiet) P.UI.toast('+' + n + ' XP · ' + why, 'xp');
       const L = P.level();
       if (L.L > before) { P.UI.toast('Niveau ' + L.L + ' : ' + L.title + ' !', 'xp'); P.UI.confetti(); }
       P.UI.refreshTop();
@@ -318,15 +354,17 @@
     const t = today(), due = [], fresh = [];
     const pool = P.lessons.filter(l => P.isStudied(l.id)).flatMap(l => P.cardsOf(l.id));
     pool.forEach(c => { const s = S.cards[c.id]; if (s) { if (s.due <= t) due.push(c); } else fresh.push(c); });
-    const used = S.cardNew[t] || 0;
-    return due.concat(fresh.slice(0, Math.max(0, S.set.newCards - used)));
+    const used = S.cardNew[t] || 0, left = Math.max(1, D.diff(P.EXAM, t) - 2);
+    const budget = Math.min(60, Math.max(S.set.newCards, Math.ceil(fresh.length / left)));
+    return due.concat(fresh.slice(0, Math.max(0, budget - used)));
   };
   P.rateCard = (c, ok) => {
     const s = S.cards[c.id] || (S.cards[c.id] = { b: 0, r: 0 });
     if (!s.r && !s.b) S.cardNew[today()] = (S.cardNew[today()] || 0) + 1;
     s.r = (s.r || 0) + 1;
-    s.b = ok ? Math.min(5, (s.b || 0) + 1) : 1;
+    const isNew = s.r === 1;
+    s.b = ok ? Math.min(5, (s.b || 0) + (isNew ? 2 : 1)) : 1;
     s.due = D.add(today(), BOX[s.b]);
-    P.addXP(2, 'carte'); P.checkBadges(); save();
+    P.addXP(2, 'carte', true); P.checkBadges(); save();
   };
 })();

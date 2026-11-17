@@ -10,11 +10,12 @@
     vasc: ['#de3b3b', '#7d1717'], sym: ['#c58b00', '#6b4b00'], env: ['#6b7280', '#374151'], radio: ['#4f46e5', '#25207a'], td: ['#1f9d60', '#0f5534'], som: ['#334e9e', '#1b2a57'] };
   const gc = l => (P.GC[l.g] || P.GC.inf);
   const CAT = { cours: 'Cours', td: 'TD · ECOS', radio: 'Radiologie' };
-  const SC = { navy: '#1e3a62', blue: '#2f6fde', teal: '#0d9488', green: '#1f9d60', orange: '#e2761b', red: '#de3b3b', purple: '#7a4fe0', pink: '#d23a7a', amber: '#c58b00' };
+  const SC = { navy: '#1e3a62', blue: '#2f6fde', teal: '#0d9488', green: '#1f9d60', orange: '#c2560c', red: '#d32f2f', purple: '#7a4fe0', pink: '#c2185b', amber: '#9a6700' };
   P.planned = {};
   P.days.forEach(d => d.les.forEach(id => { if (!P.planned[id]) P.planned[id] = d.d; }));
   const lname = l => (l.n ? l.n + ' · ' : '') + l.t;
   const daysLeft = () => D.diff(P.EXAM, today());
+  const fold = x => String(x || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const timers = [];
   P.addTimer = id => timers.push(id);
   const clearTimers = () => { while (timers.length) clearInterval(timers.pop()); };
@@ -113,7 +114,7 @@
   ACT.tskip = el => { P.skip(P.findTask(el.dataset.id)); U.closeSheet(); rerender(); };
   ACT.tunskip = el => { delete S.T[el.dataset.id]; P.save(); U.closeSheet(); rerender(); };
   ACT.tdel = el => { P.removeExtra(el.dataset.id); U.closeSheet(); rerender(); };
-  ACT.spread = () => { const n = P.spread(3); U.toast(n + ' tâches réparties sur 3 jours, les plus rentables d\'abord'); rerender(); };
+  ACT.spread = () => { const r = P.spread(); U.toast(r.n ? r.n + ' tâche' + (r.n > 1 ? 's' : '') + ' réparties sur ' + r.days + ' jour' + (r.days > 1 ? 's' : '') + ' (les plus rentables d\'abord, ' + Math.max(3, S.set.cap || 6) + ' par jour au plus)' : 'Rien à répartir'); rerender(); };
   ACT.term = el => U.showTerm(el);
   ACT.unhide = el => el.classList.remove('hid');
   ACT.chkopt = el => {
@@ -123,7 +124,7 @@
     if (!ok) box.querySelectorAll('.copt').forEach(b => { if (b.dataset.l === box.dataset.ans) b.classList.add('ok'); });
     const ex = box.querySelector('.cex'); ex.hidden = false;
     ex.innerHTML = '<b>' + (ok ? '✓ Bien vu !' : '✗ Pas tout à fait.') + '</b> ' + ex.innerHTML;
-    if (ok) { P.addXP(2, 'Vérifie-toi'); if (S.set.sound) U.beep(2); }
+    if (ok) { P.addXP(2, 'Vérifie-toi', true); if (S.set.sound) U.beep(2); }
   };
   ACT.mk = el => {
     const fig = el.closest('.fig'), i = el.dataset.i;
@@ -184,7 +185,7 @@
     h += envBanners();
     if (od.length) {
       h += '<div class="banner warn"><span class="bi">⏭️</span><div class="grow"><b>' + od.length + ' tâche' + (od.length > 1 ? 's' : '') + ' non cochée' + (od.length > 1 ? 's' : '') + ' des jours précédents</b> : elles sont reportées automatiquement ici.' +
-        (od.length >= 3 ? '<div style="margin-top:8px"><button class="btn sm" data-act="spread">🛟 Plan de rattrapage : répartir sur 3 jours</button></div><div class="small muted" style="margin-top:6px">Les cours qui rapportent le plus de questions passent en premier.</div>' : '') + '</div></div>';
+        (od.length >= 3 && t < P.EXAM ? '<div style="margin-top:8px"><button class="btn sm" data-act="spread">🛟 Plan de rattrapage : au plus ' + Math.max(3, S.set.cap || 6) + ' tâches par jour</button></div><div class="small muted" style="margin-top:6px">Les cours qui rapportent le plus de questions passent en premier.</div>' : '') + '</div></div>';
     }
     h += '<div class="h-sec"><h2>📋 Au programme aujourd\'hui</h2><button class="btn xs ghost" data-act="pick">+ Ajouter un cours</button></div>';
     h += tasks.length ? tasks.map(x => taskRow(x, false)).join('') : '<div class="card empty">' + (t < P.START ? 'Aucune tâche avant le début du planning. Ajoute un cours si tu veux prendre de l\'avance.' : 'Rien de prévu aujourd\'hui. Profites-en pour les révisions et les cartes ci-dessous.') + '</div>';
@@ -209,15 +210,14 @@
       '<label class="lb">Note du jour (ce qui a bloqué, ce qu\'il faut revoir)</label><textarea class="input" data-day="note" placeholder="Ex. je confonds encore exsudat et transsudat…">' + esc(dl2.note || '') + '</textarea></div>';
     h += '<div class="banner ok"><span class="bi">💡</span><div><b>Astuce du jour.</b> ' + esc(TIPS[D.diff(t, '2026-01-01') % TIPS.length]) + '</div></div>';
     main.innerHTML = h;
-    main.querySelectorAll('[data-day]').forEach(inp => inp.addEventListener('change', () => {
-      const d = P.day(today()), k = inp.dataset.day;
-      d[k] = k === 'note' ? inp.value : (inp.value === '' ? null : Math.max(0, +inp.value));
-      if (k === 'qcm' && inp.value !== '') P.addXP(5, 'score noté');
-      P.save();
-    }));
+    main.querySelectorAll('[data-day]').forEach(inp => {
+      const put = () => { const d = P.day(today()), k = inp.dataset.day; d[k] = k === 'note' ? inp.value : (inp.value === '' ? null : Math.max(0, +inp.value)); return d; };
+      inp.addEventListener('input', () => { put(); P.save(); }); // enregistré pendant la frappe
+      inp.addEventListener('change', () => { const d = put(); if (inp.dataset.day === 'qcm' && inp.value !== '' && !d.qcmXp) { d.qcmXp = 1; P.addXP(5, 'score noté'); } P.save(); });
+    });
   };
   const tile = (href, ic, t, p) => '<a class="tile" href="' + href + '"><span class="ti">' + ic + '</span><span class="grow"><h3>' + t + '</h3><p>' + p + '</p></span></a>';
-  ACT.addmin = el => { const d = P.day(today()); d.min = (d.min || 0) + +el.dataset.n; P.save(); P.addXP(5, 'temps d\'étude noté'); rerender(); };
+  ACT.addmin = el => { const d = P.day(today()); d.min = (d.min || 0) + +el.dataset.n; if (!d.minXp) { d.minXp = 1; P.addXP(5, 'temps d\'étude noté'); } P.save(); rerender(); };
 
   /* ---------- révision express (rappel actif + mini-quiz + auto-évaluation) ---------- */
   ACT.rev = el => {
@@ -268,7 +268,7 @@
       if (lf.st === 'todo' && st) return;
       if (lf.st === 'late' && !late) return;
       const m = P.mastery(l.id), ls = P.ls(l.id);
-      h += '<a class="lc" href="#/c/' + l.id + '" style="--c:' + gc(l)[0] + '" data-q="' + esc((l.t + ' ' + (l.s || '') + ' ' + (l.kw || '')).toLowerCase()) + '"><h3><span class="n">' + esc(l.n || '•') + '</span><span class="grow">' + esc(l.t) + '</span></h3><div class="meta">' +
+      h += '<a class="lc" href="#/c/' + l.id + '" style="--c:' + gc(l)[0] + '" data-q="' + esc(fold(l.t + ' ' + (l.s || '') + ' ' + (l.kw || ''))) + '"><h3><span class="n">' + esc(l.n || '•') + '</span><span class="grow">' + esc(l.t) + '</span></h3><div class="meta">' +
         (st ? '<span class="chip green">✓ Étudié le ' + D.short(ls.on) + '</span>' : late ? '<span class="chip red">En retard (' + D.short(pl) + ')</span>' : pl ? '<span class="chip blue">Prévu le ' + D.short(pl) + '</span>' : '<span class="chip gray">Hors planning</span>') +
         '<span class="chip gray">' + CAT[l.cat] + '</span>' + (l.ann && P.annCount(l.ann) ? '<span class="chip orange">' + P.annCount(l.ann) + ' Q d\'annales</span>' : '') +
         (st && ls.due ? '<span class="chip purple">Révision ' + (ls.due <= t ? 'aujourd\'hui' : 'le ' + D.short(ls.due)) + '</span>' : '') + (P.F[l.id] ? '' : '<span class="chip gray">Fiche à venir</span>') + '</div>' +
@@ -277,7 +277,7 @@
     h += '</div>';
     main.innerHTML = h;
     const q = main.querySelector('#lq');
-    const filt = () => { lf.q = q.value; const s = q.value.toLowerCase().trim(); main.querySelectorAll('#lgrid .lc').forEach(c => { c.style.display = !s || c.dataset.q.includes(s) ? '' : 'none'; }); };
+    const filt = () => { lf.q = q.value; const s = fold(q.value).trim(); main.querySelectorAll('#lgrid .lc').forEach(c => { c.style.display = !s || c.dataset.q.includes(s) ? '' : 'none'; }); };
     q.addEventListener('input', filt); filt();
   };
   ACT.lf = el => { lf[el.dataset.k] = el.dataset.v; V.cours(); };
@@ -359,9 +359,9 @@
   ACT.hiderules = el => { S.set.hideRules = !S.set.hideRules; P.save(); V.c(el.dataset.id, 'pieges'); };
   ACT.speak = el => {
     const f = P.F[el.dataset.id]; if (!f) return;
-    if (speechSynthesis && speechSynthesis.speaking) { U.stopSpeak(); U.toast('Lecture arrêtée'); return; }
+    if (U.speaking()) { U.stopSpeak(); U.toast('Lecture arrêtée'); return; }
     const txt = (f.e || []).join('. ') + '. ' + (f.s || []).map(s => s[0] + '. ' + s[2].map(b => typeof b === 'string' ? b : (['ret', 'pie', 'pq', 'ast', 'crs', 'ex'].includes(b[0]) ? b[1] : (b[0] === 'ul' || b[0] === 'ol' || b[0] === 'steps') ? b.slice(1).join('. ') : '')).join('. ')).join('. ');
-    U.speak(txt); U.toast('🔊 Lecture de la fiche (touche encore pour arrêter)');
+    if (U.speak(txt)) U.toast('🔊 Lecture de la fiche (touche encore pour arrêter)');
   };
 
   /* ---------- annales ---------- */
@@ -521,7 +521,7 @@
         const right = b.dataset.v === good;
         b.classList.add(right ? 'ok' : 'ko');
         box.querySelectorAll('.copt').forEach(x => { if (x.dataset.v === good) x.classList.add('ok'); });
-        if (right) { ok++; P.addXP(1, 'chiffre retrouvé'); }
+        if (right) { ok++; P.addXP(1, 'chiffre retrouvé', true); }
         const ex = box.querySelector('.cex'); ex.hidden = false;
         ex.innerHTML = (right ? '✓ <b>Exact !</b> ' : '✗ <b>C\'était ' + md(q.n[0], true) + '.</b> ') + '<a href="#/c/' + q.l.id + '">Revoir la fiche</a><div style="margin-top:10px"><button class="btn sm" id="nqn">' + (i + 1 < qs.length ? 'Suivant →' : 'Voir mon score') + '</button></div>';
         box.querySelector('#nqn').onclick = () => { i++; show(); };
@@ -535,8 +535,8 @@
     const g = (P.gloss || []).slice().sort((a, b) => a.t.localeCompare(b.t, 'fr'));
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">📖 Glossaire</h1><p class="small muted">' + g.length + ' mots difficiles. Dans les fiches, ils sont soulignés en pointillés : touche-les pour voir l\'explication. <a href="#/cartes/vocab">Les réviser en cartes →</a></p>' +
       '<div class="srch" style="margin:10px 0">' + U.ic.search + '<input class="input" id="gq" placeholder="Chercher un mot…"></div><div id="gl">' +
-      g.map(x => '<div class="card flat" data-q="' + esc((x.t + ' ' + x.d + ' ' + (x.ar || '')).toLowerCase()) + '" style="margin-bottom:8px;padding:12px 14px"><b style="color:var(--purple)">' + esc(x.t) + '</b><div style="margin-top:3px">' + md(x.d, true) + '</div>' + (x.ar ? '<div lang="ar" style="direction:rtl;text-align:right;margin-top:5px;color:var(--ink2)">' + esc(x.ar) + '</div>' : '') + '</div>').join('') + '</div>';
-    main.querySelector('#gq').addEventListener('input', e => { const s = e.target.value.toLowerCase(); main.querySelectorAll('#gl>div').forEach(c => { c.style.display = c.dataset.q.includes(s) ? '' : 'none'; }); });
+      g.map(x => '<div class="card flat" data-q="' + esc(fold(x.t + ' ' + x.d) + ' ' + (x.ar || '')) + '" style="margin-bottom:8px;padding:12px 14px"><b style="color:var(--purple)">' + esc(x.t) + '</b><div style="margin-top:3px">' + md(x.d, true) + '</div>' + (x.ar ? '<div lang="ar" style="direction:rtl;text-align:right;margin-top:5px;color:var(--ink2)">' + esc(x.ar) + '</div>' : '') + '</div>').join('') + '</div>';
+    main.querySelector('#gq').addEventListener('input', e => { const s = fold(e.target.value).trim(); main.querySelectorAll('#gl>div').forEach(c => { c.style.display = c.dataset.q.includes(s) ? '' : 'none'; }); });
   };
   V.veille = () => {
     const ls = P.lessons.filter(l => P.F[l.id]);
@@ -557,15 +557,17 @@
       (f.p || []).forEach(p => idx.push([l.t + ' › ' + p[0], '#/c/' + l.id + '/pieges', p[1] + ' → ' + p[2], 'Piège']));
     });
     (P.gloss || []).forEach(g => idx.push([g.t, '#/glossaire', g.d, 'Glossaire']));
-    const norm = s => U.plain(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    const norm = s => U.plain(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const nidx = idx.map(r => norm(r[2] + ' ' + r[0]));
     const run = () => {
       const s = norm(inp.value.trim());
       if (s.length < 2) { out.innerHTML = '<p class="muted small">Tape au moins 2 lettres.</p>'; return; }
-      const res = idx.filter(r => norm(r[2] + ' ' + r[0]).includes(s)).slice(0, 60);
+      history.replaceState(null, '', '#/recherche/' + encodeURIComponent(inp.value.trim()));
+      const res = idx.filter((r, i) => nidx[i].includes(s)).slice(0, 60);
       out.innerHTML = res.length ? res.map(r => { const tx = U.plain(r[2]); const i = norm(tx).indexOf(s); const snip = i < 0 ? tx.slice(0, 140) : (i > 50 ? '…' : '') + tx.slice(Math.max(0, i - 50), i) + '<span class="hl">' + esc(tx.slice(i, i + s.length)) + '</span>' + tx.slice(i + s.length, i + s.length + 90) + '…';
         return '<a class="res-it" href="' + r[1] + '"><small>' + esc(r[3]) + ' · ' + esc(r[0]) + '</small><div>' + (i < 0 ? esc(snip) : esc(snip.split('<span class="hl">')[0]) + '<span class="hl">' + esc(tx.slice(i, i + s.length)) + '</span>' + esc(tx.slice(i + s.length, i + s.length + 90)) + '…') + '</div></a>'; }).join('') : '<div class="card empty">Rien trouvé.</div>';
     };
-    inp.addEventListener('input', run); if (q) run(); inp.focus();
+    let rt = 0; inp.addEventListener('input', () => { clearTimeout(rt); rt = setTimeout(run, 160); }); if (q) run(); inp.focus();
   };
 
   /* ---------- MOI : progression, badges, erreurs, réglages ---------- */
@@ -573,7 +575,7 @@
     const L = P.level(), studied = P.lessons.filter(l => P.isStudied(l.id)).length;
     const qn = Object.values(S.qs).reduce((a, b) => a + b.n, 0), qok = Object.values(S.qs).reduce((a, b) => a + b.ok, 0);
     const revN = Object.values(S.L).reduce((a, l) => a + ((l.hist || []).length), 0);
-    let h = '<div class="card"><div class="lvl"><div class="av">🩺</div><div class="grow"><div class="small muted" style="font-weight:800">NIVEAU ' + L.L + '</div><h2>' + esc(L.title) + '</h2><div class="bar" style="margin-top:8px"><i style="width:' + L.pct + '%"></i></div><div class="small muted" style="margin-top:4px">' + S.xp + ' / ' + L.to + ' XP pour le niveau suivant</div></div></div></div>';
+    let h = '<div class="card"><div class="lvl"><div class="av">🩺</div><div class="grow"><div class="small muted" style="font-weight:800">NIVEAU ' + L.L + '</div><h2>' + esc(L.title) + '</h2><div class="bar" style="margin-top:8px"><i style="width:' + L.pct + '%"></i></div><div class="small muted" style="margin-top:4px">' + (L.L >= P.LEVELS.length ? S.xp + ' XP · niveau maximal atteint 🏆' : S.xp + ' / ' + L.to + ' XP pour le niveau suivant') + '</div></div></div></div>';
     h += '<div class="kpi"><div><b>🔥 ' + P.streak() + '</b><span>jours de suite</span></div><div><b>' + studied + '/' + P.lessons.length + '</b><span>cours étudiés</span></div><div><b>' + revN + '</b><span>révisions faites</span></div><div><b>' + qn + '</b><span>questions</span></div><div><b>' + (qn ? Math.round(100 * qok / qn) + ' %' : '—') + '</b><span>bonnes réponses</span></div><div><b>' + (S.cli.n || 0) + '</b><span>clichés lus</span></div></div>';
     h += '<div class="h-sec"><h2>📈 XP des 14 derniers jours</h2></div><div class="card">' + barChart(Array.from({ length: 14 }, (_, i) => { const d = D.add(today(), i - 13); return [D.short(d), S.xpd[d] || 0]; })) + '</div>';
     const sc = Object.keys(S.days).sort().filter(d => S.days[d].qcm != null).slice(-20);
@@ -587,15 +589,15 @@
     main.innerHTML = h;
   };
   function barChart(data) {
-    const W = 640, H = 170, mx = Math.max(10, ...data.map(d => d[1])), bw = W / data.length;
-    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '">' + data.map((d, i) => { const h = (H - 34) * d[1] / mx; return '<rect x="' + (i * bw + 5) + '" y="' + (H - 22 - h) + '" width="' + (bw - 10) + '" height="' + Math.max(h, 1) + '" rx="5" fill="url(#gb)"/>' + (d[1] ? '<text x="' + (i * bw + bw / 2) + '" y="' + (H - 27 - h) + '" font-size="11" text-anchor="middle" fill="currentColor">' + d[1] + '</text>' : '') + '<text x="' + (i * bw + bw / 2) + '" y="' + (H - 6) + '" font-size="10" text-anchor="middle" fill="var(--muted)">' + d[0] + '</text>'; }).join('') +
+    const W = 640, H = 190, mx = Math.max(10, ...data.map(d => d[1])), bw = W / data.length;
+    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '">' + data.map((d, i) => { const h = (H - 34) * d[1] / mx; return '<rect x="' + (i * bw + 5) + '" y="' + (H - 22 - h) + '" width="' + (bw - 10) + '" height="' + Math.max(h, 1) + '" rx="5" fill="url(#gb)"/>' + (d[1] ? '<text x="' + (i * bw + bw / 2) + '" y="' + Math.max(16, H - 27 - h) + '" font-size="17" font-weight="700" text-anchor="middle" fill="currentColor">' + d[1] + '</text>' : '') + (i % 2 === data.length % 2 ? '' : '<text x="' + (i * bw + bw / 2) + '" y="' + (H - 4) + '" font-size="16" text-anchor="middle" fill="var(--muted)">' + d[0] + '</text>'); }).join('') +
       '<defs><linearGradient id="gb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a4fe0"/><stop offset="1" stop-color="#2f6fde"/></linearGradient></defs></svg>';
   }
   function lineChart(data) {
     const W = 640, H = 180, pad = 30, x = i => pad + i * (W - 2 * pad) / Math.max(1, data.length - 1), y = v => H - 24 - (H - 44) * v / 100;
     const pts = data.map((d, i) => x(i) + ',' + y(d[1])).join(' ');
-    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '">' + [0, 50, 100].map(v => '<line x1="' + pad + '" x2="' + (W - pad) + '" y1="' + y(v) + '" y2="' + y(v) + '" stroke="var(--line)"/><text x="4" y="' + (y(v) + 4) + '" font-size="10" fill="var(--muted)">' + v + '%</text>').join('') +
-      '<polyline points="' + pts + '" fill="none" stroke="#2f6fde" stroke-width="3" stroke-linejoin="round"/>' + data.map((d, i) => '<circle cx="' + x(i) + '" cy="' + y(d[1]) + '" r="4.5" fill="#7a4fe0"/><text x="' + x(i) + '" y="' + (H - 6) + '" font-size="10" text-anchor="middle" fill="var(--muted)">' + d[0] + '</text>').join('') + '</svg>';
+    return '<svg class="chart" viewBox="0 0 ' + W + ' ' + H + '">' + [0, 50, 100].map(v => '<line x1="' + pad + '" x2="' + (W - pad) + '" y1="' + y(v) + '" y2="' + y(v) + '" stroke="var(--line)"/><text x="2" y="' + (y(v) + 5) + '" font-size="15" fill="var(--muted)">' + v + '%</text>').join('') +
+      '<polyline points="' + pts + '" fill="none" stroke="#2f6fde" stroke-width="3" stroke-linejoin="round"/>' + data.map((d, i) => '<circle cx="' + x(i) + '" cy="' + y(d[1]) + '" r="4.5" fill="#7a4fe0"/><text x="' + x(i) + '" y="' + (H - 4) + '" font-size="15" text-anchor="middle" fill="var(--muted)">' + d[0] + '</text>').join('') + '</svg>';
   }
   V.erreurs = () => {
     const t = today();
@@ -666,13 +668,15 @@
       '<div class="small" style="font-weight:800;margin:12px 0 6px">Changer de téléphone ou garder une copie</div>' +
       '<div class="row wrap"><button class="btn sm" data-act="export">⬇️ Exporter (fichier)</button><button class="btn sm ghost" data-act="copycode">📋 Mon code de sauvegarde</button>' +
       '<label class="btn sm ghost">⬆️ Importer un fichier<input type="file" accept=".json,application/json,text/plain,*/*" id="imp" class="sr"></label><button class="btn sm ghost" data-act="pastecode">📥 Coller un code</button></div>' +
-      (sn ? '<p class="small muted" style="margin:12px 0 0">Copie de secours automatique du ' + D.short(sn.d) + ' (état au début de ce jour-là) : <button class="btn sm ghost" data-act="restoresnap">↩️ Restaurer</button></p>' : '') + '</div>';
+      (sn ? '<p class="small muted" style="margin:12px 0 0">Copie de secours automatique du ' + D.short(sn.d) + ' (état au début de ce jour-là) : <button class="btn sm ghost" data-act="restoresnap">↩️ Restaurer</button></p>' : '') +
+      (P.preImport() ? '<p class="small muted" style="margin:8px 0 0">Tu as importé une sauvegarde : <button class="btn sm ghost" data-act="undoimport">↩️ Annuler le dernier import</button></p>' : '') + '</div>';
   }
   function bindSaveCard(root) {
     const inp = root.querySelector('#imp');
     if (inp) inp.addEventListener('change', e => {
       const f = e.target.files[0]; if (!f) return;
-      f.text().then(txt => { if (!confirm('Remplacer ta progression actuelle par celle de ce fichier ?')) return; P.importAny(txt).then(() => { U.toast('Progression importée ✅'); applyTheme(); route(); }).catch(() => U.toast('Fichier invalide')); });
+      f.text().then(txt => P.parseImport(txt)).then(js => { if (!confirm('Remplacer ta progression actuelle par celle de ce fichier ?')) return; P.importData(js); U.toast('Progression importée ✅ (Réglages → « Annuler le dernier import » si besoin)'); applyTheme(); route(); })
+        .catch(() => U.toast('❌ Ce fichier n\'est pas une sauvegarde Pneumo Révision : rien n\'a été changé')).then(() => { e.target.value = ''; });
     });
     const el = root.querySelector('#svago');
     if (el) P.addTimer(setInterval(() => { if (document.body.contains(el)) el.textContent = ago(P.lastSaved()); }, 2000));
@@ -705,9 +709,14 @@
     U.sheet('📥 Coller un code de sauvegarde', '<p class="small">Colle ici le code (il commence par <b>PNEUMO1:</b>) ou le contenu d\'un fichier exporté. <b>Ta progression actuelle sur cet appareil sera remplacée.</b></p><textarea class="input" id="pc" style="min-height:120px;font-size:.75rem" placeholder="PNEUMO1:…"></textarea><button class="btn block" style="margin-top:10px" id="pcgo">Importer</button>', r => {
       r.querySelector('#pcgo').onclick = () => {
         const v = r.querySelector('#pc').value.trim(); if (!v) { U.toast('Colle d\'abord ton code'); return; }
-        P.importAny(v).then(() => { U.closeSheet(); U.toast('Progression importée ✅'); applyTheme(); route(); }).catch(() => U.toast('Code invalide ou incomplet'));
+        P.parseImport(v).then(js => { if (!confirm('Remplacer ta progression actuelle par celle de ce code ?')) return; P.importData(js); U.closeSheet(); U.toast('Progression importée ✅'); applyTheme(); route(); }).catch(() => U.toast('❌ Code invalide ou incomplet : rien n\'a été changé'));
       };
     });
+  };
+  ACT.undoimport = () => {
+    const js = P.preImport(); if (!js) return;
+    if (!confirm('Revenir à ta progression d\'avant le dernier import ?')) return;
+    try { P.importData(js); U.toast('Import annulé ✅'); applyTheme(); route(); } catch (e) { U.toast('Impossible d\'annuler'); }
   };
   ACT.restoresnap = () => {
     const sn = P.snapshot(); if (!sn) return;
@@ -781,7 +790,8 @@
   let last = '';
   function route(keepScroll) {
     const h = location.hash.replace(/^#\/?/, ''), parts = h.split('/').map(decodeURIComponent), r = parts[0] || '';
-    clearTimers(); U.closePop(); U.stopSpeak(); U.resetTerms();
+    clearTimers(); U.closePop(); U.closeSheet(true); U.stopSpeak(); U.resetTerms();
+    P.leaveGuard = null;
     const view = r === '' ? V.today : V[r];
     if (!view) { location.hash = '#/'; return; }
     view(...parts.slice(1));
@@ -790,12 +800,23 @@
     if (!keepScroll && h !== last) window.scrollTo(0, 0);
     last = h;
     U.refreshTop();
+    syncSticky();
+    if (P.pomoTick) P.pomoTick();
   }
+  // hauteur réelle de la barre du haut et des onglets (évite que les éléments collants se recouvrent)
+  function syncSticky() {
+    const r = document.documentElement.style, t = document.querySelector('.top'), tb = document.querySelector('.tabs');
+    if (t) r.setProperty('--toph', t.offsetHeight + 'px');
+    if (tb) r.setProperty('--tabsh', tb.offsetHeight + 'px');
+  }
+  P.syncSticky = syncSticky;
   P.route = route;
-  function rerender() { const y = scrollY; route(true); window.scrollTo(0, y); }
+  function rerender() { if (P.leaveGuard) return; const y = scrollY; route(true); window.scrollTo(0, y); }
   P.rerender = rerender;
   function applyTheme() {
-    const t = S.set.theme === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : S.set.theme;
+    let sysDark = matchMedia('(prefers-color-scheme: dark)').matches;
+    if (P.native && P.native.isNight) { try { sysDark = !!P.native.isNight(); } catch (e) { /* ignore */ } }
+    const t = S.set.theme === 'auto' ? (sysDark ? 'dark' : 'light') : S.set.theme;
     document.documentElement.dataset.theme = t;
     const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = t === 'dark' ? '#0e1420' : '#1e3a62';
     if (P.native && P.native.setBars) { try { P.native.setBars(t === 'dark' ? '#0e1420' : '#1e3a62', t === 'dark' ? '#172131' : '#ffffff', t !== 'dark'); } catch (e) { /* ignore */ } }
@@ -804,7 +825,7 @@
     applyTheme();
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
     document.getElementById('app').innerHTML = '<header class="top"><a class="logo" href="#/"><span class="lg">🫁</span><span>Pneumo<span class="lt2"> Révision</span></span></a><span class="sp"></span>' +
-      '<a class="svd" id="svd" href="#/reglages" title="Progression sauvegardée automatiquement" aria-label="Sauvegarde automatique">💾</a><a class="pill" id="stPill" href="#/moi"></a><a class="pill" id="xpPill" href="#/moi"></a><a class="ib" href="#/recherche" aria-label="Rechercher">' + U.ic.search + '</a></header><main id="main"></main>' +
+      '<a class="svd" id="svd" href="#/reglages" title="Progression sauvegardée automatiquement" aria-label="Sauvegarde automatique">💾</a><a class="pill pomo" id="pomoPill" href="#/pomodoro" hidden></a><a class="pill" id="stPill" href="#/moi"></a><a class="pill" id="xpPill" href="#/moi"></a><a class="ib" href="#/recherche" aria-label="Rechercher">' + U.ic.search + '</a></header><main id="main"></main>' +
       '<nav class="nav">' + NAV.map(n => '<a href="#/' + n[0] + '" data-r="' + n[0] + '">' + U.ic[n[1]] + '<span>' + n[2] + '</span></a>').join('') + '</nav>';
     main = document.getElementById('main');
     // mode mémoire : toucher un mot-clé caché le révèle (avant tout autre clic : glossaire, liens…)
@@ -822,7 +843,13 @@
       const f = ACT[el.dataset.act];
       if (f) { if (el.tagName !== 'INPUT') e.preventDefault(); f(el, e); }
     });
-    window.addEventListener('hashchange', () => route());
+    let ignoreHash = false;
+    window.addEventListener('hashchange', () => {
+      if (ignoreHash) { ignoreHash = false; return; }
+      if (P.leaveGuard) { if (!P.leaveGuard()) { ignoreHash = true; location.hash = '#/' + last; return; } P.leaveGuard = null; }
+      route();
+    });
+    window.addEventListener('resize', syncSticky);
     route();
     P.checkBadges();
     onboard();

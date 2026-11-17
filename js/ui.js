@@ -81,19 +81,25 @@
     const t = document.createElement('div'); t.className = 'toast ' + (cls || ''); t.textContent = msg; box.appendChild(t);
     setTimeout(() => { t.style.transition = 'opacity .3s'; t.style.opacity = '0'; setTimeout(() => t.remove(), 320); }, 2400);
   };
-  let sheetEl = null;
+  let sheetEl = null, sheetHist = false;
+  window.addEventListener('popstate', () => { if (sheetEl) { sheetEl.remove(); sheetEl = null; } sheetHist = false; });
   U.sheet = (title, html, mount) => {
-    U.closeSheet();
+    const had = sheetHist;
+    if (sheetEl) { sheetEl.remove(); sheetEl = null; }
     sheetEl = document.createElement('div'); sheetEl.className = 'ov';
     sheetEl.innerHTML = '<div class="sheet" role="dialog" aria-modal="true"><div class="sh"><h2>' + esc(title) + '</h2><button class="xbtn" aria-label="Fermer">×</button></div><div class="sb">' + html + '</div></div>';
     document.body.appendChild(sheetEl);
     sheetEl.addEventListener('click', e => { if (e.target === sheetEl) U.closeSheet(); });
-    sheetEl.querySelector('.xbtn').onclick = U.closeSheet;
+    sheetEl.querySelector('.xbtn').onclick = () => U.closeSheet();
+    if (!had) { try { history.pushState({ pneumoSheet: 1 }, ''); sheetHist = true; } catch (e) { sheetHist = false; } }
     U.resetTerms();
     if (mount) mount(sheetEl.querySelector('.sb'));
     return sheetEl.querySelector('.sb');
   };
-  U.closeSheet = () => { if (sheetEl) { sheetEl.remove(); sheetEl = null; } };
+  U.closeSheet = noHist => {
+    if (sheetEl) { sheetEl.remove(); sheetEl = null; }
+    if (sheetHist) { sheetHist = false; if (noHist !== true) { try { history.back(); } catch (e) { /* ignore */ } } }
+  };
   U.confetti = () => {
     if (!S.set.confetti || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const c = document.createElement('canvas'); c.id = 'confetti'; c.width = innerWidth; c.height = innerHeight; document.body.appendChild(c);
@@ -120,14 +126,20 @@
     } catch (e) { /* ignore */ }
     if (navigator.vibrate) navigator.vibrate([180, 80, 180]);
   };
+  const NAT = () => (P.isApp && P.native && P.native.speak ? P.native : null);
+  const webTTS = () => 'speechSynthesis' in window && typeof window.SpeechSynthesisUtterance === 'function';
   U.speak = text => {
-    if (!('speechSynthesis' in window)) { U.toast('Lecture vocale non disponible sur cet appareil'); return; }
+    const plain = U.plain(text).replace(/🎯/g, '');
+    if (NAT()) { try { NAT().speak(plain); return true; } catch (e) { /* repli */ } }
+    if (!webTTS()) { U.toast('Lecture vocale non disponible sur cet appareil'); return false; }
     speechSynthesis.cancel();
-    const chunks = U.plain(text).match(/[^.!?;\n]+[.!?;\n]*/g) || [];
+    const chunks = plain.match(/[^.!?;\n]+[.!?;\n]*/g) || [];
     const voice = speechSynthesis.getVoices().find(v => /^fr/i.test(v.lang));
     chunks.forEach(ch => { const u = new SpeechSynthesisUtterance(ch.trim()); u.lang = 'fr-FR'; if (voice) u.voice = voice; u.rate = 1.02; speechSynthesis.speak(u); });
+    return true;
   };
-  U.stopSpeak = () => { if ('speechSynthesis' in window) speechSynthesis.cancel(); };
+  U.stopSpeak = () => { try { if (NAT()) NAT().stopSpeak(); if (webTTS()) speechSynthesis.cancel(); } catch (e) { /* ignore */ } };
+  U.speaking = () => { try { return (NAT() ? !!NAT().speaking() : false) || (webTTS() && speechSynthesis.speaking); } catch (e) { return false; } };
 
   /* ---------- anneau de progression ---------- */
   U.ring = (pct, size = 76, sw = 8, col = '#fff', lab) => {
@@ -142,7 +154,7 @@
     const f = P.figs[key]; if (!f) return '';
     const lab = f.lab || [];
     const mk = lab.map((l, i) => '<button class="mk" data-act="mk" data-i="' + i + '" style="left:' + l[0] + '%;top:' + l[1] + '%" aria-label="Repère ' + (i + 1) + '">' + (i + 1) + '</button>').join('');
-    return '<figure class="fig' + (opt.hide ? ' hidelab' : '') + '" data-fig="' + key + '"><div class="stage"><img src="' + f.img + '" width="' + f.w + '" height="' + f.h + '" loading="lazy" alt="' + esc(f.t) + ' (schéma)">' +
+    return '<figure class="fig' + (opt.hide ? ' hidelab' : '') + '" data-fig="' + key + '"><div class="stage"><img src="' + f.img + '" width="' + f.w + '" height="' + f.h + '" loading="lazy" alt="' + (opt.hide ? 'Radiographie à interpréter' : esc(f.t) + ' (schéma)') + '">' +
       '<div class="dmark">D</div>' + (opt.noMarks ? '' : mk) + (opt.noTools ? '' : '<div class="tools"><button type="button" data-act="figtoggle">' + (opt.hide ? 'Afficher les repères' : 'Cacher les repères') + '</button></div>') + '</div>' +
       (opt.noCap ? '' : '<figcaption><div class="ft">' + esc(f.t) + '</div><ol class="leg">' + lab.map((l, i) => '<li data-act="mk" data-i="' + i + '">' + U.md(l[2]) + '</li>').join('') + '</ol>' +
         (cap ? '<div>' + U.md(cap) + '</div>' : '') + '<div class="cap">' + esc(P.figCaption) + '</div></figcaption>') + '</figure>';
@@ -188,7 +200,7 @@
       '<ellipse cx="170" cy="70" rx="120" ry="34" fill="#e9d7b5" stroke="#b08d57" stroke-width="2"/>' + T(170, 75, 'Côte supérieure', { fs: 12 }) +
       '<ellipse cx="170" cy="200" rx="120" ry="34" fill="#e9d7b5" stroke="#b08d57" stroke-width="2"/>' + T(170, 205, 'Côte inférieure', { fs: 12 }) +
       '<circle cx="120" cy="112" r="9" fill="#de3b3b"/><circle cx="150" cy="114" r="9" fill="#2f6fde"/><circle cx="180" cy="112" r="7" fill="#f2b400"/>' +
-      T(300, 108, '← paquet vasculo-nerveux (V-A-N) sous le bord INFÉRIEUR de la côte du dessus', { a: 'start', fs: 11, c: '#de3b3b' }) +
+      T(300, 100, '← paquet vasculo-nerveux (V-A-N)', { a: 'start', fs: 11, c: '#de3b3b', w: 700 }) + T(300, 116, 'sous le bord INFÉRIEUR de la côte du dessus', { a: 'start', fs: 11, c: '#de3b3b' }) +
       '<path d="M560 160 L215 160" stroke="#1f9d60" stroke-width="5" stroke-linecap="round"/><path d="M215 160 l18 -8 v16z" fill="#1f9d60"/>' +
       T(390, 150, 'Aiguille : au RAS du bord SUPÉRIEUR de la côte inférieure', { fs: 12, c: '#1f9d60', w: 800 }) +
       T(390, 234, 'Patient assis, penché en avant · en pleine matité, ponction déclive', { fs: 11, w: 500 }) + T(390, 252, '7e–8e espace intercostal = 1 à 2 espaces sous la pointe de l\'omoplate', { fs: 11, w: 700 })),
@@ -288,11 +300,11 @@
         return c.join('<br>') + '<br>→ **' + (ex ? 'EXSUDAT' : 'TRANSSUDAT') + '** (' + (ex ? 'au moins 1 critère' : 'aucun critère') + ')' + simple;
       } },
     wells: { t: 'Score de Wells (embolie pulmonaire)', h: () => chk('a', 'Signes cliniques de TVP', 3) + chk('b', 'Autre diagnostic moins probable que l\'EP', 3) + chk('c', 'FC > 100/min', 1.5) + chk('d', 'Immobilisation ≥ 3 j ou chirurgie < 4 semaines', 1.5) + chk('e', 'Antécédent de TVP ou d\'EP', 1.5) + chk('f', 'Hémoptysie', 1) + chk('g', 'Cancer actif', 1),
-      f: el => { const s = sumChecks(el); return 'Score = **' + fr(s) + '** → probabilité **' + (s >= 7 ? 'forte (≥ 7)' : s >= 2 ? 'moyenne (2–6)' : 'faible (0–1)') + '**<br>' + (s >= 7 ? 'Forte : **angioscanner thoracique** d\'emblée (scintigraphie si insuffisance rénale ou grossesse)' : 'Faible ou moyenne : **D-dimères** d\'abord ; < 500 µg/L (après 50 ans : < âge × 10) = EP écartée ; sinon angioscanner'); } },
+      f: el => { const s = sumChecks(el); return 'Score = **' + fr(s) + '** → probabilité **' + (s > 6 ? 'forte (> 6 ; « ≥ 7 » dans le cours)' : s >= 2 ? 'moyenne (2–6)' : 'faible (< 2)') + '**<br>' + (s > 6 ? 'Forte : **angioscanner thoracique** d\'emblée (scintigraphie si insuffisance rénale ou grossesse)' : 'Faible ou moyenne : **D-dimères** d\'abord ; < 500 µg/L (après 50 ans : < âge × 10) = EP écartée ; sinon angioscanner'); } },
     geneve: { t: 'Score de Genève simplifié (embolie pulmonaire)', h: () => chk('a', 'Âge > 65 ans') + chk('b', 'Antécédent de TVP ou d\'EP') + chk('c', 'Chirurgie ou immobilisation récente') + chk('d', 'Cancer actif') + chk('e', 'Douleur spontanée d\'un mollet') + chk('f', 'Hémoptysie') + chk('g', 'Signes de TVP (œdème, douleur provoquée)') + '<label class="cr"><span class="grow">Fréquence cardiaque</span><select class="input" name="fc" style="max-width:150px"><option value="0">< 75/min</option><option value="1">75 à 94/min (+1)</option><option value="2">≥ 95/min (+2)</option></select></label>',
       f: el => { const s = sumChecks(el) + +el.querySelector('[name=fc]').value; return 'Score = **' + s + '** → probabilité **' + (s >= 5 ? 'forte (≥ 5)' : s >= 2 ? 'intermédiaire (2–4)' : 'faible (0–1)') + '**' + (s >= 5 ? ' : angioscanner d\'emblée' : ' : D-dimères d\'abord'); } },
     spesi: { t: 'PESI simplifié (gravité de l\'EP)', h: () => chk('a', 'Âge > 80 ans') + chk('b', 'Cancer') + chk('c', 'Insuffisance cardiaque ou respiratoire chronique') + chk('d', 'Fréquence cardiaque ≥ 110/min') + chk('e', 'PA systolique < 100 mmHg') + chk('f', 'SaO2 < 90 %') + chk('choc', 'État de choc (PAS < 90 mmHg ou chute > 40 mmHg pendant > 15 min)', 0),
-      f: el => { if (el.querySelector('[name=choc]').checked) return '**EP à haut risque** (mortalité > 25 %) : réanimation, HNF IV, **thrombolyse** d\'emblée'; const s = sumChecks(el); return 'sPESI = **' + s + '** → ' + (s === 0 ? '**risque faible** (mortalité à 30 j ≈ 1 %) : hospitalisation courte, AOD ou HBPM' : '**risque intermédiaire** (mortalité ≈ 10,9 %) : chercher une **dysfonction du VD** (VD/VG > 1 au scanner, > 0,9 en échographie) et des **biomarqueurs** (troponine, BNP) : les deux = intermédiaire **élevé** (soins intensifs) ; un seul ou aucun = intermédiaire **faible**'); } },
+      f: el => { if (el.querySelector('[name=choc]').checked) return '**EP à haut risque** (mortalité > 25 %) : réanimation, HNF IV, **thrombolyse** d\'emblée'; const s = sumChecks(el); return 'sPESI = **' + s + '** → ' + (s === 0 ? '**risque faible** (mortalité à 30 j ≈ 1 %) : hospitalisation courte, AOD ou HBPM' : 'sPESI ≥ 1 (mortalité à 30 j ≈ 10,9 %) → **risque intermédiaire** (3–25 % selon le cours) : chercher une **dysfonction du VD** (VD/VG > 1 au scanner, > 0,9 en échographie) et des **biomarqueurs** (troponine, BNP) : les deux = intermédiaire **élevé** (soins intensifs) ; un seul ou aucun = intermédiaire **faible**'); } },
     gds: { t: 'Interpréter une gazométrie', h: () => num('ph', 'pH', '7,40') + num('co2', 'PaCO2 (mmHg)', '40') + num('hco3', 'HCO3⁻ (mmol/L)', '24') + num('o2', 'PaO2 (mmHg)', '90') + '<label class="cr"><span class="grow">Installation</span><select class="input" name="tps" style="max-width:150px"><option value="a">aiguë</option><option value="c">chronique</option></select></label>',
       f: el => {
         const ph = val(el, 'ph'), co2 = val(el, 'co2'), h = val(el, 'hco3'), o2 = val(el, 'o2'), chr = el.querySelector('[name=tps]').value === 'c';
@@ -306,7 +318,11 @@
         if (prim === 'mixte') out.push('PaCO2 et HCO3⁻ vont tous deux dans le sens du pH → **trouble mixte** (' + (acid ? 'acidose respiratoire + métabolique' : 'alcalose respiratoire + métabolique') + ')');
         if (prim === 'meta' && acid) { const e = 1.5 * h + 8; out.push('Acidose **métabolique**. PaCO2 attendue (Winter) = 1,5 × HCO3⁻ + 8 = ' + fr(e) + ' ± 2'); out.push(co2 > e + 2 ? '→ PaCO2 trop haute : **acidose respiratoire associée**' : co2 < e - 2 ? '→ PaCO2 trop basse : **alcalose respiratoire associée**' : '→ compensation respiratoire adaptée'); }
         if (prim === 'meta' && !acid) { const e = 0.7 * h + 21; out.push('Alcalose **métabolique**. PaCO2 attendue ≈ 0,7 × HCO3⁻ + 21 = ' + fr(e) + ' ± 2'); out.push(co2 > e + 2 ? '→ acidose respiratoire associée' : co2 < e - 2 ? '→ alcalose respiratoire associée' : '→ compensation adaptée'); }
-        if (prim === 'resp') { const d = co2 - 40, e = 24 + (acid ? (chr ? .35 : .1) : (chr ? .5 : .2)) * d; out.push((acid ? 'Acidose' : 'Alcalose') + ' **respiratoire** ' + (chr ? 'chronique' : 'aiguë') + '. HCO3⁻ attendus ≈ ' + fr(e)); out.push(Math.abs(h - e) <= 2.5 ? '→ compensation rénale adaptée' : h > e ? '→ HCO3⁻ trop hauts : alcalose métabolique associée' : '→ HCO3⁻ trop bas : acidose métabolique associée'); }
+        if (prim === 'resp') {
+          const d = co2 - 40, ea = 24 + (acid ? .1 : .2) * d, ec = 24 + (acid ? .35 : .5) * d, e = chr ? ec : ea, lo = Math.min(ea, ec) - 2.5, hi = Math.max(ea, ec) + 2.5;
+          out.push((acid ? 'Acidose' : 'Alcalose') + ' **respiratoire** ' + (chr ? 'chronique' : 'aiguë') + '. HCO3⁻ attendus ≈ ' + fr(e) + ' (aigu ≈ ' + fr(ea) + ', chronique ≈ ' + fr(ec) + ')');
+          out.push(Math.abs(h - e) <= 2.5 ? '→ compensation rénale adaptée' : h >= lo && h <= hi ? '→ entre l\'aigu et le chronique : **compensation rénale en cours** (ou aggravation aiguë d\'une hypercapnie chronique, ex. BPCO décompensée)' : h > hi ? '→ HCO3⁻ trop hauts : **alcalose métabolique associée**' : '→ HCO3⁻ trop bas : **acidose métabolique associée**');
+        }
         if (prim === '?') out.push('PaCO2 et HCO3⁻ ne vont pas dans le sens du pH : vérifie les valeurs');
         if (o2 != null) out.push(o2 < 60 ? 'PaO2 ' + fr(o2) + ' < 60 → **insuffisance respiratoire**' + (co2 > 45 ? ' hypercapnique (type 2)' : ' hypoxémique (type 1)') : o2 < 80 ? 'PaO2 ' + fr(o2) + ' < 80 → **hypoxémie**' : 'PaO2 normale');
         return out.join('<br>');
@@ -333,7 +349,7 @@
     pa: { t: 'Paquets-années (tabac)', h: () => num('c', 'Cigarettes par jour', '20') + num('y', 'Nombre d\'années', '15'),
       f: el => { const c = val(el, 'c'), y = val(el, 'y'); if (c == null || y == null) return 'Paquets-années = (cigarettes par jour ÷ 20) × années'; const pa = c / 20 * y; return '**' + fr(pa) + ' paquets-années**' + (pa >= 10 ? ' · seuil de risque de BPCO et de cancer bien franchi' : ''); } },
     iah: { t: 'SAOS : sévérité (IAH)', h: () => num('i', 'Index d\'apnées-hypopnées (événements/heure)', '22'),
-      f: el => { const i = val(el, 'i'); if (i == null) return 'IAH = nombre d\'apnées + hypopnées par heure de sommeil'; return 'IAH ' + fr(i) + ' → **' + (i < 5 ? 'normal' : i < 15 ? 'SAOS léger (5–14)' : i < 30 ? 'SAOS modéré (15–29)' : 'SAOS sévère (≥ 30)') + '**' + (i >= 5 ? (i >= 30 ? '<br>Polygraphie suffisante (IAH ≥ 30) ; **PPC** en 1re intention' : '<br>IAH < 30 : polysomnographie si le diagnostic repose sur une polygraphie' + (i >= 15 ? '<br>Traitement : **orthèse d\'avancée mandibulaire** en 1re intention, ou **PPC** si maladie cardiovasculaire grave (HTA résistante, FA, AVC…)' : '')) : ''); } },
+      f: el => { const i = val(el, 'i'); if (i == null) return 'IAH = nombre d\'apnées + hypopnées par heure de sommeil'; return 'IAH ' + fr(i) + ' → **' + (i < 5 ? 'normal' : i < 15 ? 'SAOS léger (5–14)' : i < 30 ? 'SAOS modéré (15–29)' : 'SAOS sévère (≥ 30)') + '**' + (i >= 5 ? (i >= 30 ? '<br>Polygraphie suffisante (IAH ≥ 30) ; **PPC** en 1re intention' : '<br>IAH < 30 : polysomnographie si le diagnostic repose sur une polygraphie' + (i >= 15 ? '<br>Traitement : **orthèse d\'avancée mandibulaire** en 1re intention, ou **PPC** si maladie cardiovasculaire grave (HTA résistante, FA récidivante, AVC…)' : '')) : ''); } },
     epworth: { t: 'Échelle de somnolence d\'Epworth', h: () => ['Assis en lisant', 'Devant la télévision', 'Assis, inactif, dans un lieu public', 'Passager d\'une voiture 1 h sans arrêt', 'Allongé l\'après-midi', 'Assis en parlant à quelqu\'un', 'Assis au calme après un repas sans alcool', 'Au volant, arrêté quelques minutes'].map((s, i) => '<label class="cr"><span class="grow">' + s + '</span><select class="input" name="e' + i + '" style="max-width:110px"><option value="0">0 jamais</option><option value="1">1 faible</option><option value="2">2 moyenne</option><option value="3">3 forte</option></select></label>').join(''),
       f: el => { let s = 0; for (let i = 0; i < 8; i++) s += +el.querySelector('[name=e' + i + ']').value; return 'Score = **' + s + '/24** → ' + (s >= 11 ? '**somnolence diurne excessive** ' + (s <= 15 ? '(modérée : 11–15)' : '(sévère : > 15)') : 'pas de somnolence excessive (pathologique si ≥ 11)'); } },
     tnmstage: { t: 'TNM 9e édition : quel stade ?', h: () => [['t', 'T', ['Tis', 'T1a', 'T1b', 'T1c', 'T2a', 'T2b', 'T3', 'T4']], ['n', 'N', ['N0', 'N1', 'N2a', 'N2b', 'N3']], ['m', 'M', ['M0', 'M1a', 'M1b', 'M1c1', 'M1c2']]].map(x => '<label class="cr"><span class="grow">' + x[1] + '</span><select class="input" name="' + x[0] + '" style="max-width:120px">' + x[2].map(o => '<option>' + o + '</option>').join('') + '</select></label>').join(''),

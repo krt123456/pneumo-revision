@@ -8,10 +8,12 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,6 +40,9 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * Pneumo Révision : le site de révision, embarqué dans l'application (fonctionne sans Internet).
@@ -59,6 +64,9 @@ public class MainActivity extends Activity {
     private ValueCallback<Uri[]> fileCallback;
     private String pendingSave;
     private final Object lock = new Object();
+    private TextToSpeech tts;
+    private boolean ttsReady;
+    private String ttsPending;
 
     @Override
     protected void onCreate(Bundle saved) {
@@ -167,6 +175,41 @@ public class MainActivity extends Activity {
         }
     }
 
+    /* ---------- lecture vocale des fiches (voix française d'Android) ---------- */
+    private void speakNow(String text) {
+        if (text == null || text.trim().isEmpty()) return;
+        if (tts == null) {
+            ttsPending = text;
+            tts = new TextToSpeech(this, status -> runOnUiThread(() -> {
+                if (status == TextToSpeech.SUCCESS) {
+                    int r = tts.setLanguage(Locale.FRENCH);
+                    ttsReady = r != TextToSpeech.LANG_MISSING_DATA && r != TextToSpeech.LANG_NOT_SUPPORTED;
+                }
+                if (!ttsReady) {
+                    toast("Voix française indisponible : installe-la dans Paramètres → Synthèse vocale");
+                    ttsPending = null;
+                    return;
+                }
+                String t = ttsPending;
+                ttsPending = null;
+                speakNow(t);
+            }));
+            return;
+        }
+        if (!ttsReady) { ttsPending = text; return; }
+        tts.stop();
+        int max = Math.max(200, TextToSpeech.getMaxSpeechInputLength() - 50);
+        List<String> parts = new ArrayList<>();
+        StringBuilder cur = new StringBuilder();
+        for (String sentence : text.split("(?<=[.!?;:])\\s+")) {
+            if (cur.length() + sentence.length() + 1 > max && cur.length() > 0) { parts.add(cur.toString()); cur.setLength(0); }
+            if (sentence.length() > max) { for (int i = 0; i < sentence.length(); i += max) parts.add(sentence.substring(i, Math.min(sentence.length(), i + max))); }
+            else cur.append(sentence).append(' ');
+        }
+        if (cur.length() > 0) parts.add(cur.toString());
+        for (int i = 0; i < parts.size(); i++) tts.speak(parts.get(i), TextToSpeech.QUEUE_ADD, null, "fiche" + i);
+    }
+
     private boolean notificationsAllowed() {
         if (Build.VERSION.SDK_INT >= 33 && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) return false;
         NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
@@ -268,6 +311,27 @@ public class MainActivity extends Activity {
         @JavascriptInterface
         public String reminder() {
             return ReminderReceiver.state(MainActivity.this) + "|" + notificationsAllowed();
+        }
+
+        /** Thème sombre du téléphone (pour le thème « Automatique » du site). */
+        @JavascriptInterface
+        public boolean isNight() {
+            return (getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES;
+        }
+
+        @JavascriptInterface
+        public void speak(String text) {
+            runOnUiThread(() -> speakNow(text));
+        }
+
+        @JavascriptInterface
+        public void stopSpeak() {
+            runOnUiThread(() -> { ttsPending = null; if (tts != null) tts.stop(); });
+        }
+
+        @JavascriptInterface
+        public boolean speaking() {
+            return ttsPending != null || (tts != null && tts.isSpeaking());
         }
 
         @JavascriptInterface
@@ -428,6 +492,11 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onDestroy() {
+        if (tts != null) {
+            tts.stop();
+            tts.shutdown();
+            tts = null;
+        }
         if (web != null) {
             web.destroy();
             web = null;
