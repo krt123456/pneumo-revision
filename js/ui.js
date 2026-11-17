@@ -248,7 +248,7 @@
         if (pp != null && ps) { n++; const r = pp / ps; if (r > .5) ex++; c.push('Protides pl/sér = ' + fr(r) + (r > .5 ? ' > 0,5 ✓' : ' ≤ 0,5')); }
         if (lp != null && ls) { n++; const r = lp / ls; if (r > .6) ex++; c.push('LDH pl/sér = ' + fr(r) + (r > .6 ? ' > 0,6 ✓' : ' ≤ 0,6')); }
         if (lp != null && lsn) { n++; const r = lp > 2 / 3 * lsn; if (r) ex++; c.push('LDH pl ' + (r ? '> 2/3 de la normale ✓' : '≤ 2/3 de la normale')); }
-        const simple = pp != null ? '<br>Règle simple : protides ' + fr(pp) + ' g/L → ' + (pp > 30 ? '**exsudat** (> 30 g/L)' : '**transsudat** (< 30 g/L)') : '';
+        const simple = pp != null ? '<br>Règle du TD : protides ' + fr(pp) + ' g/L → ' + (pp > 35 ? '**exsudat** (> 35 g/L)' : pp < 25 ? '**transsudat** (< 25 g/L)' : 'zone grise (25–35 g/L) : ce sont les critères de Light qui tranchent') : '';
         if (!n) return 'Entre au moins les protides pleuraux et sériques.' + simple;
         return c.join('<br>') + '<br><b class="big">' + (ex ? 'EXSUDAT' : 'TRANSSUDAT') + '</b> (' + (ex ? 'au moins 1 critère' : 'aucun critère') + ')' + simple;
       } },

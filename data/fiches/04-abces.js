@@ -28,11 +28,12 @@ PNEUMO.fiche("abces", {
     ]],
     ["Examens complémentaires", "teal", [
       ["fig", "abces", "Après la vomique : clarté au-dessus d'un niveau liquide horizontal."],
-      ["ul", "**Radio** : opacité non systématisée (phase 1), puis **image hydro-aérique à niveau horizontal**, à **contours réguliers**, paroi peu épaisse ; puis cavité à paroi fine.",
+      ["ul", "**Radio** : opacité non systématisée (phase 1), puis **image hydro-aérique à niveau horizontal**, à **contours réguliers** ; après évacuation, cavité à paroi fine.",
         "**Sang** : hyperleucocytose à polynucléaires (une **leucopénie est un facteur de gravité**), CRP et VS élevées.",
         "**BK négatifs** (à chercher systématiquement : une caverne tuberculeuse peut ressembler).",
         "**Fibroscopie bronchique systématique** : cause locale (cancer, corps étranger) et prélèvements.",
         "**Bactériologie** des sécrétions bronchiques (ponction transtrachéale, lavage bronchoalvéolaire), hémocultures."],
+      ["crs", "Les deux cours ne disent pas la même chose sur la paroi : le cours des suppurations parle de limites régulières « peu épaisses », celui du syndrome cavitaire classe l'abcès parmi les cavités à **paroi épaisse (> 2 mm)**, à limite interne régulière. Retiens : **épaisse et régulière** = abcès ; **épaisse et irrégulière** = cancer excavé ; **fine** = kyste, bulle."],
       ["tab", ["Cavité avec niveau ou non", "Pour la reconnaître"],
         ["Abcès", "Fièvre, vomique, contours **réguliers**, BK négatifs"],
         ["Caverne tuberculeuse", "Sommet, nodules autour, **BAAR positifs**, souvent pas de niveau"],
