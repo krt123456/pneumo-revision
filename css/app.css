@@ -180,7 +180,7 @@ table.tb{border-collapse:collapse;width:100%;font-size:.88rem;background:var(--c
 table.tb th{background:var(--navy);color:#fff;text-align:left;padding:8px 10px;font-size:.8rem;vertical-align:bottom}
 table.tb td{padding:8px 10px;border-top:1px solid var(--line);vertical-align:top;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:anywhere}
 table.tb tr:nth-child(even) td{background:var(--soft2)}
-table.tb td:first-child{font-weight:700}
+table.tb td:first-child{font-weight:700;min-width:6em}
 .steps{counter-reset:st;list-style:none;padding:0!important;margin:10px 0}
 .steps li{counter-increment:st;position:relative;padding:9px 12px 9px 48px;margin:7px 0!important;background:var(--card);border-radius:12px;box-shadow:0 0 0 1px var(--line)}
 .steps li:before{content:counter(st);position:absolute;left:10px;top:8px;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800;font-size:.85rem}

@@ -46,7 +46,7 @@
         return pre + '<button type="button" class="term" data-act="term" data-k="' + k + '">' + w + '</button>';
       });
     }
-    return h.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/==(.+?)==/g, '<mark>$1</mark>')
+    return h.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[\s(«'’\/])\*(?!\s)([^*<>]+?)\*(?=$|[\s).,;:»!?'’\/])/g, '$1<i>$2</i>').replace(/==(.+?)==/g, '<mark>$1</mark>')
       .replace(/!!(.+?)!!/g, '<em class="red">$1</em>').replace(/\n/g, '<br>');
   };
   U.plain = s => String(s || '').replace(/\*\*|==|!!/g, '');
@@ -249,6 +249,7 @@
   const sumChecks = el => [...el.querySelectorAll('input[type=checkbox]:checked')].reduce((a, i) => a + +i.dataset.p, 0);
   const val = (el, n) => { const v = el.querySelector('[name=' + n + ']').value; return v === '' ? null : +String(v).replace(',', '.'); };
   const fr = x => String(Math.round(x * 100) / 100).replace('.', ',');
+  const FQ = [['Première cigarette après le réveil', [['après 60 min', 0], ['31 à 60 min', 1], ['6 à 30 min', 2], ['dans les 5 min', 3]]], ['Difficile de ne pas fumer là où c\'est interdit ?', [['non', 0], ['oui', 1]]], ['Cigarette la plus dure à abandonner', [['une autre', 0], ['la première du matin', 1]]], ['Cigarettes par jour', [['10 ou moins', 0], ['11 à 20', 1], ['21 à 30', 2], ['31 ou plus', 3]]], ['Fume davantage le matin ?', [['non', 0], ['oui', 1]]], ['Fume même malade, alité ?', [['non', 0], ['oui', 1]]]];
   P.calcs = {
     crb65: { t: 'Score CRB-65 / CURB-65 (PAC)', h: () => chk('c', '**C**onfusion (désorientation)') + chk('u', '**U**rée > 7 mmol/L (≈ 0,42 g/L) — CURB-65 seulement') + chk('r', '**R**espiration : FR ≥ 30/min') + chk('b', '**B**lood pressure : PAS < 90 ou PAD ≤ 60 mmHg') + chk('a', '**65** : âge ≥ 65 ans'),
       f: el => {
@@ -305,6 +306,8 @@
         if (m != null && b) { const pc = m / b * 100; out.push('DEP = **' + Math.round(pc) + ' %** de la meilleure valeur → ' + (pc > 80 ? 'crise **légère** (> 80 %)' : pc >= 60 ? 'crise **modérée** (60–80 %)' : '**crise sévère** (< 60 %) : asthme aigu grave possible')); }
         return out.length ? out.join('<br>') : 'Entre le DEP le plus haut et le plus bas.';
       } },
+    fager: { t: 'Test de Fagerström (dépendance à la nicotine)', h: () => FQ.map((q, i) => '<label class="cr"><span class="grow">' + q[0] + '</span><select class="input" name="f' + i + '" style="max-width:160px">' + q[1].map(o => '<option value="' + o[1] + '">' + o[0] + '</option>').join('') + '</select></label>').join(''),
+      f: el => { let s = 0; for (let i = 0; i < FQ.length; i++) s += +el.querySelector('[name=f' + i + ']').value; return 'Score = **' + s + '/10** → ' + (s <= 2 ? 'pas de dépendance' : s <= 4 ? 'dépendance **faible**' : s <= 6 ? 'dépendance **moyenne**' : 'dépendance **forte**') + (s >= 5 ? ' : une aide au sevrage (substituts nicotiniques…) est utile' : ''); } },
     pa: { t: 'Paquets-années (tabac)', h: () => num('c', 'Cigarettes par jour', '20') + num('y', 'Nombre d\'années', '15'),
       f: el => { const c = val(el, 'c'), y = val(el, 'y'); if (c == null || y == null) return 'Paquets-années = (cigarettes par jour ÷ 20) × années'; const pa = c / 20 * y; return '**' + fr(pa) + ' paquets-années**' + (pa >= 10 ? ' · seuil de risque de BPCO et de cancer bien franchi' : ''); } },
     iah: { t: 'SAOS : sévérité (IAH)', h: () => num('i', 'Index d\'apnées-hypopnées (événements/heure)', '22'),
@@ -317,7 +320,7 @@
   U.calcHTML = key => { const c = P.calcs[key]; if (!c) return ''; return '<div class="calc" data-calc="' + key + '"><h4>🧮 ' + esc(c.t) + '</h4>' + c.h().replace(/\*\*(.+?)\*\*/g, '<b>$1</b>') + '<div class="out"></div></div>'; };
   U.bindCalcs = root => root.querySelectorAll('.calc[data-calc]').forEach(el => {
     const c = P.calcs[el.dataset.calc]; const out = el.querySelector('.out');
-    const run = () => { try { out.innerHTML = U.md(c.f(el), true); } catch (e) { out.textContent = ''; } };
+    const run = () => { try { out.innerHTML = U.md(String(c.f(el)).replace(/<br>/g, '\n'), true); } catch (e) { out.textContent = ''; } };
     el.addEventListener('input', run); el.addEventListener('change', run); run();
   });
 
