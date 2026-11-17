@@ -252,9 +252,10 @@
         T(200, 262, 'Durée de l\'anticoagulation : 3 à 6 mois', { fs: 12, w: 700 }));
     },
     hemo: () => {
-      const seg = [['#f2b400', 'Minime', '< 50 mL/j'], ['#e2761b', 'Moyenne', '50 à 200 mL/j'], ['#de3b3b', 'Grande (massive)', '> 200 mL/j ou mal tolérée']];
-      return SV(620, 130, seg.map((s, i) => '<rect x="' + (10 + i * 202) + '" y="20" width="196" height="54" rx="10" fill="' + s[0] + '"/>' + T(108 + i * 202, 43, s[1], { c: '#fff', w: 800 }) + T(108 + i * 202, 62, s[2], { c: '#fff', fs: 11, w: 500 })).join('') +
-        T(310, 108, 'La gravité vient surtout de l\'asphyxie (inondation bronchique), pas de l\'anémie', { fs: 12 }) + T(310, 125, 'Seuils variables selon les cours : vérifie ceux de ton enseignant', { fs: 10.5, w: 500 }));
+      const seg = [['#f2b400', 'Faible', '< 50 mL/24 h'], ['#e2761b', 'Moyenne', '50 à 300 mL/24 h'], ['#de3b3b', 'Grande', '> 200 mL d\'un coup', 'ou > 300 mL/24 h']];
+      return SV(400, 196, seg.map((x, i) => '<rect x="' + (8 + i * 130) + '" y="10" width="124" height="74" rx="10" fill="' + x[0] + '"/>' + T(70 + i * 130, 36, x[1], { c: '#fff', w: 800, fs: 14 }) + T(70 + i * 130, 56, x[2], { c: '#fff', fs: 11.5, w: 600 }) + (x[3] ? T(70 + i * 130, 72, x[3], { c: '#fff', fs: 11.5, w: 600 }) : '')).join('') +
+        '<rect x="8" y="96" width="384" height="52" rx="10" fill="#1e3a62"/>' + T(200, 118, 'Le danger : l\'asphyxie, pas le choc', { c: '#fff', w: 800, fs: 13.5 }) + T(200, 137, '150 mL suffisent à remplir l\'espace mort', { c: '#fff', fs: 12, w: 500 }) +
+        T(200, 170, 'Détresse respiratoire ou gaz du sang altérés = grave,', { fs: 11.5, w: 600 }) + T(200, 187, 'quelle que soit l\'abondance', { fs: 11.5, w: 600 }));
     },
   };
   U.svgfig = (key, cap) => P.svg[key] ? '<figure class="svgfig">' + P.svg[key]() + (cap ? '<figcaption>' + U.md(cap) + '</figcaption>' : '') + '</figure>' : '';
