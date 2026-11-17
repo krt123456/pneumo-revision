@@ -61,7 +61,11 @@
     let units = shuffle(Object.values(groups));
     // priorité aux questions jamais vues ou ratées
     units.sort((a, b) => score(a[0]) - score(b[0]));
-    if (opt.n) { const out = []; for (const u of units) { if (out.length >= opt.n) break; out.push(...u); } units = [out]; }
+    if (opt.n) { // exactement n questions quand c'est possible : un cas clinique n'est jamais coupé, mais on évite de dépasser
+      const out = [], rest = [];
+      for (const u of units) { if (out.length >= opt.n) break; if (out.length + u.length <= opt.n) out.push(...u); else rest.push(u); }
+      for (const u of rest) { if (out.length >= opt.n) break; out.push(...u); }
+      units = [out]; }
     return shuffle(units.length > 1 ? units : [units[0] || []]).flat();
     function score(x) { const a = S.qa[x.qid]; return !a ? Math.random() : a[0] ? 2 + Math.random() : 1 + Math.random() * .5; }
   };
@@ -204,8 +208,20 @@
 
   /* ---------- CLICHÉS AU CHRONO ---------- */
   P.X = {
+    // distribue les clichés comme un paquet de cartes : on voit tous les clichés avant d'en revoir un
+    deal() {
+      const all = Object.keys(P.figs), n = Math.min(5, all.length);
+      let d = (this.deck || []).filter(x => P.figs[x]);
+      if (d.length < n) {
+        const have = new Set(d), last = new Set(this.last || []);
+        d = d.concat(shuffle(all.filter(x => !have.has(x) && !last.has(x))));
+        if (d.length < n) { const h2 = new Set(d); d = d.concat(shuffle(all.filter(x => !h2.has(x)))); }
+      }
+      this.last = d.slice(0, n); this.deck = d.slice(n);
+      return this.last.slice();
+    },
     run(el) {
-      const keys = shuffle(Object.keys(P.figs)).slice(0, 5);
+      let keys = P.X.deal();
       let k = 0, tm = null, guess = null, revealed = false, hits = 0, okn = 0;
       const intro = () => {
         el.innerHTML = '<div class="card"><h3>La méthode en 3 minutes, à voix haute</h3><ol class="steps"><li><b>Vérifier (30 s)</b> : face ou profil, inspiration, pénétration, rotation. Repère « D » : le côté droit du patient est à gauche de l\'image.</li>' +
@@ -245,7 +261,7 @@
       };
       el.onclick = e => {
         const b = e.target.closest('button'); if (!b) return;
-        if (b.dataset.go) { k = 0; hits = 0; okn = 0; draw(); }
+        if (b.dataset.go) { if (k >= keys.length) keys = P.X.deal(); k = 0; hits = 0; okn = 0; draw(); }
         else if (b.dataset.rev) reveal();
         else if (b.dataset.ok != null) { if (b.dataset.ok === '1') okn++; k++; draw(); }
       };
