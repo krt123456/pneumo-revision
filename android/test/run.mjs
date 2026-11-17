@@ -12,11 +12,13 @@ fs.mkdirSync(OUT, { recursive: true });
 const rep = { api: API, pass: [], fail: [], notes: [], timings: {}, longTasks: [], pageErrors: [] };
 const ok = (c, m) => { (c ? rep.pass : rep.fail).push(m); console.log((c ? 'PASS ' : 'FAIL ') + m); };
 const note = m => { rep.notes.push(m); console.log('NOTE ' + m); };
-const sh = c => { try { return execSync(c, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20 }); } catch (e) { return String(e.stdout || '') + String(e.stderr || ''); } };
+const sh = (c, ms = 120000) => { try { return execSync(c, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20, timeout: ms }); } catch (e) { return String(e.stdout || '') + String(e.stderr || '') + (e.code === 'ETIMEDOUT' || e.signal ? ' [délai dépassé]' : ''); } };
+const within = (ms, p) => Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('délai dépassé (' + ms + ' ms)')), ms))]);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let shotN = 0;
 const shot = name => { const f = `${OUT}/${String(++shotN).padStart(2, '0')}-${name}.png`; try { execSync(`adb exec-out screencap -p > "${f}"`); } catch (e) { note('capture impossible ' + name); } return f; };
-const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devtools true`);
+const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devtools true`, 60000);
+const crashLog = () => sh('adb logcat -d -b crash').split('\n').slice(-40).join('\n');
 const stop = () => sh(`adb shell am force-stop ${PKG}`);
 
 let pw = null, device = null, cdpBrowser = null;
@@ -33,9 +35,9 @@ async function connectCDP(timeout) {
       try {
         const { chromium } = await import('playwright-core');
         if (cdpBrowser) { try { await cdpBrowser.close(); } catch (e) { /* ignore */ } }
-        cdpBrowser = await chromium.connectOverCDP('http://127.0.0.1:9333', { timeout: 10000 });
+        cdpBrowser = await within(15000, chromium.connectOverCDP('http://127.0.0.1:9333', { timeout: 10000 }));
         const ctx = cdpBrowser.contexts()[0], page = ctx && ctx.pages()[0];
-        if (page) return await ready(page);
+        if (page) return await within(20000, ready(page));
       } catch (e) { /* on réessaie */ }
     }
     await sleep(1500);
@@ -49,9 +51,9 @@ async function connect(timeout = 30000) {
     const pid = pidOf();
     if (pid) {
       try {
-        await device.webView({ pkg: PKG }, { timeout: 1500 }).catch(() => null);
+        await within(4000, device.webView({ pkg: PKG }, { timeout: 1500 })).catch(() => null);
         const wv = device.webViews().find(w => w.pkg() === PKG && w.pid() === pid);
-        if (wv) return await ready(await wv.page());
+        if (wv) return await within(25000, (async () => ready(await wv.page()))());
       } catch (e) { lastErr = String(e.message || e).split('\n')[0]; }
     }
     await sleep(700);
@@ -62,12 +64,25 @@ async function connect(timeout = 30000) {
   return null;
 }
 let page = null;
-async function live() { if (!page || page.isClosed()) page = await connect(20000); return page; }
+async function ensureRunning(why) {
+  if (pidOf()) return true;
+  note('application absente (' + why + ') ; journal des plantages : ' + (crashLog().trim().slice(-600) || 'vide'));
+  const r = start(); await sleep(3000);
+  if (!pidOf()) { note('nouvel essai de démarrage : ' + r.trim().slice(0, 300)); start(); await sleep(4000); }
+  return !!pidOf();
+}
+async function live() { if (!page || page.isClosed()) { await ensureRunning('avant une étape'); page = await connect(20000); } return page; }
 async function step(name, fn) {
   try { if (!(await live())) { ok(false, name + ' : WebView inaccessible'); return; } await fn(page); }
   catch (e) { ok(false, name + ' : ' + String(e.message || e).split('\n')[0]); try { page = await connect(15000); } catch (x) { /* ignore */ } }
 }
-async function relaunch() { stop(); await sleep(2500); const r = start(); const t = (r.match(/TotalTime: (\d+)/) || [])[1]; await sleep(1500); page = await connect(); return [page, t]; }
+async function relaunch() {
+  stop(); await sleep(2500);
+  const r = start(); const t = (r.match(/TotalTime: (\d+)/) || [])[1];
+  for (let i = 0; i < 10 && !pidOf(); i++) await sleep(1000);
+  if (!pidOf()) { ok(false, 'redémarrage de l\'application (sortie de am start : ' + r.trim().slice(0, 200) + ')'); await ensureRunning('après redémarrage'); }
+  await sleep(1500); page = await connect(); return [page, t];
+}
 // ---------- WebView ancienne (Android 8-9 des émulateurs) : pilotage par UI Automator, sans Playwright ----------
 const ENT = { '&apos;': "'", '&#39;': "'", '&quot;': '"', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&#10;': ' ' };
 const dec = t => t.replace(/&(apos|quot|amp|lt|gt|#39|#10);/g, m => ENT[m]);
@@ -299,7 +314,8 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
   fs.writeFileSync(`${OUT}/logcat.txt`, log);
   const jsErr = log.split('\n').filter(l => /Uncaught|TypeError|ReferenceError|SyntaxError/.test(l));
   ok(jsErr.length === 0, 'aucune erreur JavaScript dans le journal' + (jsErr.length ? ' : ' + jsErr.slice(0, 3).join(' | ') : ''));
-  ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'aucun plantage pendant les tests');
+  const crash = sh('adb logcat -d -b crash'); fs.writeFileSync(`${OUT}/crash.txt`, crash);
+  ok(!/FATAL EXCEPTION/.test(crash), 'aucun plantage pendant les tests');
   ok(rep.pageErrors.length === 0, 'aucune erreur de page' + (rep.pageErrors.length ? ' : ' + rep.pageErrors.slice(0, 3).join(' | ') : ''));
   fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rep, null, 1));
   console.log(`\n${rep.pass.length} réussis, ${rep.fail.length} échoués`);
