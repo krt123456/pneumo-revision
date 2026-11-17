@@ -256,7 +256,7 @@
     if (l.ann) tabs.push(['annales', '📝 Annales']);
     tabs.push(['notes', '✍️ Mes mots']);
     if (!tabs.some(t => t[0] === tab)) tab = 'fiche';
-    let h = '<div class="lh" style="--c1:' + c[0] + ';--c2:' + c[1] + '"><div class="kick">' + CAT[l.cat] + (l.n ? ' n° ' + esc(l.n) : '') + ' · Pneumologie</div><h1>' + esc(l.t) + '</h1>' +
+    let h = '<div class="lh" style="--c1:' + c[0] + ';--c2:' + c[1] + '"><div class="kick">' + CAT[l.cat] + (l.n && l.cat === 'cours' && l.n !== 'PNO' ? ' n° ' + esc(l.n) : '') + ' · Pneumologie</div><h1>' + esc(l.t) + '</h1>' +
       '<div class="row">' + (st ? '<button class="btn sm done" data-act="unstudy" data-id="' + id + '">✓ Étudié le ' + D.short(ls.on) + '</button>' : '<button class="btn sm" data-act="study" data-id="' + id + '">✓ J\'ai étudié ce cours</button>') +
       '<button class="btn sm" data-act="pick1" data-id="' + id + '">+ Aujourd\'hui</button>' + (f ? '<button class="btn sm" data-act="speak" data-id="' + id + '" aria-label="Écouter">🔊 Écouter</button>' : '') + '</div>' +
       '<div class="row small" style="margin-top:10px;opacity:.92;gap:12px;flex-wrap:wrap">' + (P.planned[id] ? '<span>📅 Prévu le ' + D.short(P.planned[id]) + '</span>' : '') + (st && ls.due ? '<span>🔁 Prochaine révision : ' + D.short(ls.due) + '</span>' : '') +
