@@ -335,6 +335,25 @@
       f: el => { const i = val(el, 'i'); if (i == null) return 'IAH = nombre d\'apnées + hypopnées par heure de sommeil'; return 'IAH ' + fr(i) + ' → **' + (i < 5 ? 'normal' : i < 15 ? 'SAOS léger (5–14)' : i < 30 ? 'SAOS modéré (15–29)' : 'SAOS sévère (≥ 30)') + '**' + (i >= 5 ? (i >= 30 ? '<br>Polygraphie suffisante (IAH ≥ 30) ; **PPC** en 1re intention' : '<br>IAH < 30 : polysomnographie si le diagnostic repose sur une polygraphie' + (i >= 15 ? '<br>Traitement : **orthèse d\'avancée mandibulaire** en 1re intention, ou **PPC** si maladie cardiovasculaire grave (HTA résistante, FA, AVC…)' : '')) : ''); } },
     epworth: { t: 'Échelle de somnolence d\'Epworth', h: () => ['Assis en lisant', 'Devant la télévision', 'Assis, inactif, dans un lieu public', 'Passager d\'une voiture 1 h sans arrêt', 'Allongé l\'après-midi', 'Assis en parlant à quelqu\'un', 'Assis au calme après un repas sans alcool', 'Au volant, arrêté quelques minutes'].map((s, i) => '<label class="cr"><span class="grow">' + s + '</span><select class="input" name="e' + i + '" style="max-width:110px"><option value="0">0 jamais</option><option value="1">1 faible</option><option value="2">2 moyenne</option><option value="3">3 forte</option></select></label>').join(''),
       f: el => { let s = 0; for (let i = 0; i < 8; i++) s += +el.querySelector('[name=e' + i + ']').value; return 'Score = **' + s + '/24** → ' + (s >= 11 ? '**somnolence diurne excessive** ' + (s <= 15 ? '(modérée : 11–15)' : '(sévère : > 15)') : 'pas de somnolence excessive (pathologique si ≥ 11)'); } },
+    tnmstage: { t: 'TNM 9e édition : quel stade ?', h: () => [['t', 'T', ['Tis', 'T1a', 'T1b', 'T1c', 'T2a', 'T2b', 'T3', 'T4']], ['n', 'N', ['N0', 'N1', 'N2a', 'N2b', 'N3']], ['m', 'M', ['M0', 'M1a', 'M1b', 'M1c1', 'M1c2']]].map(x => '<label class="cr"><span class="grow">' + x[1] + '</span><select class="input" name="' + x[0] + '" style="max-width:120px">' + x[2].map(o => '<option>' + o + '</option>').join('') + '</select></label>').join(''),
+      f: el => {
+        const T = el.querySelector('[name=t]').value, N = el.querySelector('[name=n]').value, M = el.querySelector('[name=m]').value;
+        let st;
+        if (M === 'M1a' || M === 'M1b') st = 'IVA';
+        else if (M !== 'M0') st = 'IVB';
+        else if (T === 'Tis') st = N === 'N0' ? '0 (carcinome in situ)' : null;
+        else {
+          const t = T[1] === '1' ? 1 : T[1] === '2' ? 2 : T === 'T3' ? 3 : 4;
+          st = N === 'N0' ? { T1a: 'IA1', T1b: 'IA2', T1c: 'IA3', T2a: 'IB', T2b: 'IIA', T3: 'IIB', T4: 'IIIA' }[T]
+            : N === 'N1' ? (t === 1 ? 'IIA' : t === 2 ? 'IIB' : 'IIIA')
+            : N === 'N2a' ? (t === 1 ? 'IIB' : t <= 3 ? 'IIIA' : 'IIIB')
+            : N === 'N2b' ? (t === 1 ? 'IIIA' : 'IIIB')
+            : (t <= 2 ? 'IIIB' : 'IIIC');
+        }
+        if (!st) return 'Combinaison inhabituelle : un Tis n\'a pas d\'atteinte ganglionnaire.';
+        const g = st.indexOf('IV') === 0 ? 'stade métastatique : traitement systémique (thérapie ciblée si mutation)' : (st.indexOf('III') === 0 || N[1] === '2' || N === 'N3') ? 'atteinte médiastinale ou stade III : décision en RCP (chirurgie, radio-chimiothérapie, traitement systémique)' : st[0] === 'I' ? 'stades I–II : chirurgie de référence si le patient est opérable (décision en RCP)' : '';
+        return T + ' ' + N + ' ' + M + ' → **stade ' + st + '**' + (g ? '<br>' + g : '');
+      } },
     tsize: { t: 'TNM : quel T selon la taille ?', h: () => num('s', 'Plus grand axe de la tumeur (cm)', '3,5'),
       f: el => { const s = val(el, 's'); if (s == null) return 'Le T dépend aussi de l\'extension (plèvre, médiastin, nodules…).'; const t = s <= 1 ? 'T1a' : s <= 2 ? 'T1b' : s <= 3 ? 'T1c' : s <= 4 ? 'T2a' : s <= 5 ? 'T2b' : s <= 7 ? 'T3' : 'T4'; return 'Taille ' + fr(s) + ' cm → **' + t + '** (sur la taille seule ; l\'extension peut faire monter le T)'; } },
   };
