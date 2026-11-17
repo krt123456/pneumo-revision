@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+11-17 05:37:58.139 E/chromium( 3681): [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Crashpad: No such file or directory (2)
+11-17 05:38:19.723 I/PneumoJS( 3681): An <img> element was lazyloaded with loading=lazy, but had no dimensions specified. Specifying dimensions improves performance. See https://crbug.com/954323 (https://appassets.androidplatform.net/assets/www/index.html#/c/pac/pdf:0)
+11-17 05:39:05.314 I/PneumoJS( 6519): An <img> element was lazyloaded with loading=lazy, but had no dimensions specified. Specifying dimensions improves performance. See https://crbug.com/954323 (https://appassets.androidplatform.net/assets/www/index.html#/c/pleuresie:0)
