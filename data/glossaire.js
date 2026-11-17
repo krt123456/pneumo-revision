@@ -173,4 +173,12 @@ PNEUMO.gloss = [
   { k: 'tuberculome', t: 'Tuberculome', m: ['tuberculome'], d: 'Nodule tuberculeux enkysté, souvent calcifié : séquelle de tuberculose qui peut simuler une tumeur.', ar: 'الورم السلي' },
   { k: 'grelot', t: 'Image en grelot', m: ['grelot'], d: 'Masse ronde posée dans une cavité et coiffée d\'un croissant d\'air : kyste hydatique vomiqué ou aspergillome.', ar: 'صورة الجرس' },
   { k: 'spicule', t: 'Opacité spiculée', m: ['spiculée', 'spiculés', 'spiculé', 'spiculées'], d: 'Contours hérissés de fines pointes, en étoile : très suspect de cancer bronchique.', ar: 'كتلة ذات حواف شوكية' },
+  { k: 'virchow', t: 'Triade de Virchow', m: ['triade de Virchow', 'Virchow'], d: 'Les trois conditions qui favorisent un caillot : paroi du vaisseau abîmée, sang qui stagne (stase), sang qui coagule trop (hypercoagulabilité).', ar: 'ثالوث فيرشو' },
+  { k: 's1q3', t: 'Aspect S1Q3', m: ['S1Q3'], d: 'À l\'ECG : onde S profonde en D1 et onde Q en D3 ; signe de surcharge du cœur droit, évocateur (mais peu sensible) d\'embolie pulmonaire.', ar: 'نمط S1Q3 في تخطيط القلب' },
+  { k: 'aod', t: 'AOD (anticoagulants oraux directs)', m: ['anticoagulants oraux directs', 'anticoagulant oral direct', 'AOD'], d: 'Anticoagulants en comprimés à dose fixe, sans prise de sang de contrôle (rivaroxaban, apixaban) : 1re intention dans l\'EP ; contre-indiqués si insuffisance rénale sévère.', ar: 'مضادات التخثر الفموية المباشرة' },
+  { k: 'inr', t: 'INR', m: ['INR'], d: 'Mesure de l\'effet des AVK (antivitamines K) ; dans l\'EP, la cible est entre 2 et 3.', ar: 'النسبة الدولية المعيارية' },
+  { k: 'thrombophilie', t: 'Thrombophilie', m: ['thrombophilie'], d: 'Tendance, souvent héréditaire, à faire des caillots ; on la cherche chez le sujet jeune avec thromboses récidivantes ou antécédents familiaux.', ar: 'أهبة التخثر' },
+  { k: 'papo', t: 'PAPO', m: ['PAPO'], d: 'Pression artérielle pulmonaire d\'occlusion, mesurée au cathétérisme droit : reflète la pression du cœur gauche. ≤ 15 mmHg = HTP précapillaire ; > 15 = post-capillaire.', ar: 'ضغط الإسفين الرئوي' },
+  { k: 'harzer', t: 'Signe de Harzer', m: ['signe de Harzer', 'Harzer'], d: 'Battement du ventricule droit perçu sous l\'appendice xiphoïde : le VD est gros (HTP, cœur pulmonaire).', ar: 'علامة هارزر' },
+  { k: 'eclatb2', t: 'Éclat de B2', m: ['éclat de B2', 'B2 éclaté'], d: 'Deuxième bruit du cœur claqué au foyer pulmonaire : la valve pulmonaire se ferme fort car la pression pulmonaire est haute.', ar: 'اشتداد الصوت القلبي الثاني' },
 ];

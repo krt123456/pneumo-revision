@@ -235,6 +235,22 @@
         T(200, 290, '↑ Non contrôlé : monter (après avoir vérifié technique et observance)', { fs: 10.5, w: 600 }) +
         T(200, 307, '↓ Contrôlé depuis 3 mois : descendre · secours = CSI-formotérol', { fs: 10.5, w: 500 }));
     },
+    epdiag: () => {
+      const B = (x, y, w, h, c, l1, l2, fs) => '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="10" fill="' + c + '"/>' + T(x + w / 2, y + (l2 ? h / 2 - 3 : h / 2 + 5), l1, { c: '#fff', w: 800, fs: fs || 12.5 }) + (l2 ? T(x + w / 2, y + h / 2 + 13, l2, { c: '#fff', w: 500, fs: 11 }) : '');
+      const L = (x1, y1, x2, y2) => '<path d="M' + x1 + ' ' + y1 + ' L' + x2 + ' ' + y2 + '" stroke="var(--muted)" stroke-width="2"/>';
+      return SV(400, 274, L(101, 48, 101, 66) + L(299, 48, 299, 66) + L(101, 110, 101, 128) + L(299, 110, 299, 128) + L(53, 172, 53, 190) + L(149, 172, 149, 190) +
+        B(8, 8, 384, 40, '#1e3a62', 'Suspicion d\'EP : probabilité clinique', 'scores de Wells ou de Genève') +
+        B(8, 66, 186, 44, '#2f6fde', 'Faible ou intermédiaire') + B(206, 66, 186, 44, '#de3b3b', 'Forte') +
+        B(8, 128, 186, 44, '#0d9488', 'D-dimères') + B(206, 128, 186, 44, '#e2761b', 'Angioscanner d\'emblée') +
+        B(8, 190, 90, 56, '#1f9d60', 'Négatifs', 'EP écartée', 12) + B(104, 190, 90, 56, '#e2761b', 'Positifs', 'angioscanner', 12) +
+        B(206, 190, 186, 56, '#6b7280', 'Insuffisance rénale,', 'grossesse : scintigraphie V/Q', 12) +
+        T(200, 266, 'D-dimères négatifs : < 500 µg/L (après 50 ans : < âge × 10)', { fs: 11, w: 600 }));
+    },
+    eprisk: () => {
+      const r = [['#de3b3b', 'Haut risque : état de choc', 'Réanimation · HNF IV · thrombolyse d\'emblée'], ['#e2761b', 'Intermédiaire élevé : VD dilaté + biomarqueurs', 'Soins intensifs · HBPM ou HNF 48–72 h · thrombolyse si choc'], ['#c58b00', 'Intermédiaire faible : sPESI ≥ 1', 'Médecine 5–10 jours · AOD, ou HBPM + AVK'], ['#1f9d60', 'Faible : sPESI = 0', 'Hospitalisation courte · AOD, ou HBPM + AVK · lever à 1 h']];
+      return SV(400, 268, r.map((x, i) => { const y = 8 + i * 60; return '<rect x="8" y="' + y + '" width="384" height="52" rx="10" fill="' + x[0] + '"/>' + T(20, y + 22, x[1], { c: '#fff', w: 800, fs: 13, a: 'start' }) + T(20, y + 41, x[2], { c: '#fff', w: 500, fs: 11.5, a: 'start' }); }).join('') +
+        T(200, 262, 'Durée de l\'anticoagulation : 3 à 6 mois', { fs: 12, w: 700 }));
+    },
     hemo: () => {
       const seg = [['#f2b400', 'Minime', '< 50 mL/j'], ['#e2761b', 'Moyenne', '50 à 200 mL/j'], ['#de3b3b', 'Grande (massive)', '> 200 mL/j ou mal tolérée']];
       return SV(620, 130, seg.map((s, i) => '<rect x="' + (10 + i * 202) + '" y="20" width="196" height="54" rx="10" fill="' + s[0] + '"/>' + T(108 + i * 202, 43, s[1], { c: '#fff', w: 800 }) + T(108 + i * 202, 62, s[2], { c: '#fff', fs: 11, w: 500 })).join('') +
@@ -270,7 +286,11 @@
         return c.join('<br>') + '<br><b class="big">' + (ex ? 'EXSUDAT' : 'TRANSSUDAT') + '</b> (' + (ex ? 'au moins 1 critère' : 'aucun critère') + ')' + simple;
       } },
     wells: { t: 'Score de Wells (embolie pulmonaire)', h: () => chk('a', 'Signes cliniques de TVP', 3) + chk('b', 'Autre diagnostic moins probable que l\'EP', 3) + chk('c', 'FC > 100/min', 1.5) + chk('d', 'Immobilisation ≥ 3 j ou chirurgie < 4 semaines', 1.5) + chk('e', 'Antécédent de TVP ou d\'EP', 1.5) + chk('f', 'Hémoptysie', 1) + chk('g', 'Cancer actif', 1),
-      f: el => { const s = sumChecks(el); return 'Score = **' + fr(s) + '** → ' + (s > 4 ? '**EP probable** → angioscanner thoracique d\'emblée' : '**EP peu probable** → D-dimères : négatifs = EP exclue ; positifs = angioscanner'); } },
+      f: el => { const s = sumChecks(el); return 'Score = **' + fr(s) + '** → probabilité **' + (s >= 7 ? 'forte (≥ 7)' : s >= 2 ? 'moyenne (2–6)' : 'faible (0–1)') + '**<br>' + (s >= 7 ? 'Forte : **angioscanner thoracique** d\'emblée (scintigraphie si insuffisance rénale ou grossesse)' : 'Faible ou moyenne : **D-dimères** d\'abord ; < 500 µg/L (après 50 ans : < âge × 10) = EP écartée ; sinon angioscanner'); } },
+    geneve: { t: 'Score de Genève simplifié (embolie pulmonaire)', h: () => chk('a', 'Âge > 65 ans') + chk('b', 'Antécédent de TVP ou d\'EP') + chk('c', 'Chirurgie ou immobilisation récente') + chk('d', 'Cancer actif') + chk('e', 'Douleur spontanée d\'un mollet') + chk('f', 'Hémoptysie') + chk('g', 'Signes de TVP (œdème, douleur provoquée)') + '<label class="cr"><span class="grow">Fréquence cardiaque</span><select class="input" name="fc" style="max-width:150px"><option value="0">< 75/min</option><option value="1">75 à 94/min (+1)</option><option value="2">≥ 95/min (+2)</option></select></label>',
+      f: el => { const s = sumChecks(el) + +el.querySelector('[name=fc]').value; return 'Score = **' + s + '** → probabilité **' + (s >= 5 ? 'forte (≥ 5)' : s >= 2 ? 'intermédiaire (2–4)' : 'faible (0–1)') + '**' + (s >= 5 ? ' : angioscanner d\'emblée' : ' : D-dimères d\'abord'); } },
+    spesi: { t: 'PESI simplifié (gravité de l\'EP)', h: () => chk('a', 'Âge > 80 ans') + chk('b', 'Cancer') + chk('c', 'Insuffisance cardiaque ou respiratoire chronique') + chk('d', 'Fréquence cardiaque ≥ 110/min') + chk('e', 'PA systolique < 100 mmHg') + chk('f', 'SaO2 < 90 %') + chk('choc', 'État de choc (PAS < 90 mmHg ou chute > 40 mmHg pendant > 15 min)', 0),
+      f: el => { if (el.querySelector('[name=choc]').checked) return '**EP à haut risque** (mortalité > 25 %) : réanimation, HNF IV, **thrombolyse** d\'emblée'; const s = sumChecks(el); return 'sPESI = **' + s + '** → ' + (s === 0 ? '**risque faible** (mortalité à 30 j ≈ 1 %) : hospitalisation courte, AOD ou HBPM' : '**risque intermédiaire** (mortalité ≈ 10,9 %) : chercher une **dysfonction du VD** (VD/VG > 1 au scanner, > 0,9 en échographie) et des **biomarqueurs** (troponine, BNP) : les deux = intermédiaire **élevé** (soins intensifs) ; un seul ou aucun = intermédiaire **faible**'); } },
     gds: { t: 'Interpréter une gazométrie', h: () => num('ph', 'pH', '7,40') + num('co2', 'PaCO2 (mmHg)', '40') + num('hco3', 'HCO3⁻ (mmol/L)', '24') + num('o2', 'PaO2 (mmHg)', '90') + '<label class="cr"><span class="grow">Installation</span><select class="input" name="tps" style="max-width:150px"><option value="a">aiguë</option><option value="c">chronique</option></select></label>',
       f: el => {
         const ph = val(el, 'ph'), co2 = val(el, 'co2'), h = val(el, 'hco3'), o2 = val(el, 'o2'), chr = el.querySelector('[name=tps]').value === 'c';
