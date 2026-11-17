@@ -657,7 +657,7 @@
   ACT.remyes = () => { S.set.rem = { on: true, t: '20:00' }; P.save(); applyRem(true); U.toast('🔔 Rappel chaque jour à 20:00 (modifiable dans Réglages)'); rerender(); };
   ACT.remno = () => { S.set.rem = { on: false, t: '20:00' }; P.save(); rerender(); };
   /* ---------- carte « Sauvegarde » (réglages) ---------- */
-  const ago = t => { if (!t) return 'pas encore'; const s = Math.max(0, Math.round((Date.now() - t) / 1000)); return s < 5 ? 'à l\'instant' : s < 60 ? 'il y a ' + s + ' s' : s < 3600 ? 'il y a ' + Math.round(s / 60) + ' min' : 'il y a ' + Math.round(s / 3600) + ' h'; };
+  const ago = t => { if (!t) return 'pas encore'; const s = Math.max(0, Math.round((Date.now() - t) / 1000)); return s < 5 ? 'à l\'instant' : s < 60 ? 'il y a ' + s + ' s' : s < 3600 ? 'il y a ' + Math.round(s / 60) + ' min' : s < 86400 ? 'il y a ' + Math.round(s / 3600) + ' h' : 'il y a ' + Math.round(s / 86400) + ' j'; };
   function saveCard() {
     const sn = P.snapshot();
     return '<div class="card" id="savecard"><h3>💾 Sauvegarde automatique</h3>' +

@@ -204,8 +204,11 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
     });
     await step('export', async () => {
       await go(page, 'reglages'); await sleep(400);
-      await page.locator('[data-act=export]').click(); await sleep(2500);
-      shot('export-selecteur');
+      await page.locator('[data-act=export]').click();
+      let picker = false;
+      for (let i = 0; i < 16 && !picker; i++) { await sleep(500); picker = /documentsui/i.test(sh('adb shell dumpsys window | grep -E "mCurrentFocus|mFocusedApp"')); }
+      ok(picker, 'sélecteur de fichier Android ouvert pour l\'export');
+      await sleep(800); shot('export-selecteur');
       sh('adb shell input keyevent KEYCODE_BACK'); await sleep(1200);
       ok((await page.evaluate(() => 1 + 1)) === 2, 'application réactive après l\'export');
       await page.locator('[data-act=copycode]').click(); await sleep(800);
@@ -226,11 +229,22 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
       const nav = await page.evaluate(() => { const n = performance.getEntriesByType('navigation')[0]; return n ? Math.round(n.duration) : 0; });
       rep.timings.pageLoadMs = nav;
     });
-    // thème sombre du téléphone (l'activité est recréée)
-    sh('adb shell cmd uimode night yes'); await sleep(3500);
-    page = await connect(15000);
+    // thème sombre du téléphone (l'activité est recréée) : la progression doit survivre, le thème doit suivre
+    let xpBefore = null;
+    try { await live(); xpBefore = await page.evaluate(() => PNEUMO.S.xp); } catch (e) { /* ignore */ }
+    sh('adb shell cmd uimode night yes'); await sleep(4000);
+    note('processus après changement de thème : ' + (pidOf() || 'aucun'));
+    ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'pas de plantage au changement de thème du téléphone');
     shot('theme-sombre');
-    if (page) ok((await page.evaluate(() => document.documentElement.dataset.theme)) === 'dark', 'thème sombre suivi');
+    await relaunch();
+    if (page) {
+      ok((await page.evaluate(() => document.documentElement.dataset.theme)) === 'dark', 'thème sombre du téléphone suivi');
+      if (xpBefore != null) ok((await page.evaluate(() => PNEUMO.S.xp)) === xpBefore, 'progression intacte après le changement de thème (' + xpBefore + ' XP)');
+      await go(page, 'reglages'); await sleep(500);
+      const ago = await page.evaluate(() => (document.getElementById('svago') || {}).textContent || '');
+      ok(ago && ago !== 'pas encore', 'heure de la dernière sauvegarde affichée après relance (' + ago + ')');
+      shot('theme-sombre-reglages');
+    } else ok(false, 'thème sombre : WebView inaccessible après relance');
     sh('adb shell cmd uimode night no'); await sleep(2500);
   }
 

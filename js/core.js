@@ -57,7 +57,7 @@
   if (P.loadedFrom !== 'nouveau' && lsGet(KEY + '-snapd') !== realDay && lsSet(KEY + '-snap', JSON.stringify(S))) lsSet(KEY + '-snapd', realDay);
   P.snapshot = () => { const d = lsGet(KEY + '-snapd'), o = parse(lsGet(KEY + '-snap')); return o && d ? { d, o } : null; };
   if (P.loadedFrom === 'application' || P.loadedFrom === 'copie de secours') setTimeout(() => P.flush(), 0); // resynchronise les deux copies
-  let saveT = 0, lastJs = '', lastSaved = 0, warnedFull = false;
+  let saveT = 0, lastJs = '', lastSaved = S.savedAt || 0, warnedFull = false; // heure de la dernière sauvegarde, même faite lors d'une visite précédente
   try { lastJs = JSON.stringify(S); } catch (e) { lastJs = ''; }
   const flush = P.flush = () => {
     clearTimeout(saveT); saveT = 0;
