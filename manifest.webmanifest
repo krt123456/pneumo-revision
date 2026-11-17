@@ -1,0 +1,29 @@
+{
+ "name": "Pneumo Révision · Examen du 17/12/2026",
+ "short_name": "Pneumo",
+ "lang": "fr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f4f6fb",
+ "theme_color": "#1e3a62",
+ "description": "Révision de pneumologie : planning, fiches, pièges, quiz, cartes, clichés.",
+ "icons": [
+  {
+   "src": "img/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "img/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "img/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

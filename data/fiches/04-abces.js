@@ -1,0 +1,89 @@
+PNEUMO.fiche("abces", {
+  e: [
+    "Abcès = **cavité néoformée** dans le poumon par une infection bactérienne **non tuberculeuse** (suppuration primitive) ; secondaire si elle se greffe sur un infarctus, un cancer, une sténose bronchique, un kyste.",
+    "Terrain : **éthylisme**, mauvais état dentaire, troubles de conscience (AVC, anesthésie), immunodépression. **Inhalation** → siège **postérieur**.",
+    "3 phases : **foyer fermé** (pneumonie) → **vomique** (le malade devient cracheur de pus) → **foyer ouvert**.",
+    "Radio : opacité, puis **image hydro-aérique à niveau horizontal**, contours réguliers. **BK négatifs** ; **fibroscopie systématique** (cause locale, prélèvements).",
+    "Antibiotiques **4 à 6 semaines** (probabiliste : C3G + aminoside ; anaérobies : pénicilline G + **métronidazole**), **drainage postural et kiné** ; chirurgie si chronicité."
+  ],
+  s: [
+    ["Définition", "navy", [
+      "Les **suppurations pulmonaires** sont des **nécroses du parenchyme** dues à des germes **pyogènes**.",
+      ["cards", ["Primitive : l'abcès", "Cavité **néoformée** par une infection bactérienne **non tuberculeuse**. Favorisée par la débilité du terrain : éthylisme, tabac, immunodépression.", "blue"],
+        ["Secondaire", "Sur un **infarctus** pulmonaire nécrosé, un **cancer**, une **sténose bronchique**, un **kyste**…", "orange"]],
+    ]],
+    ["Comment le germe arrive au poumon", "purple", [
+      ["tab", ["Voie", "Contexte", "Conséquence"],
+        ["**Aérogène (inhalation)**, la plus fréquente", "AVC, éthylisme, anesthésie générale, troubles de déglutition, dents en mauvais état", "Siège **postérieur** (segments déclives en décubitus), germes **anaérobies** de la bouche"],
+        ["**Hématogène**", "Embole septique, septicopyohémie (**staphylocoque**)", "Abcès **multiples**"],
+        ["**Contiguïté**", "DDB, foyer de voisinage", ""]],
+      ["pq", "Allongé, le liquide inhalé descend dans les segments **postérieurs** : c'est pour cela que l'abcès d'inhalation siège souvent à droite et en arrière."],
+    ]],
+    ["Clinique : les 3 phases", "blue", [
+      ["steps", "**Présuppuration (foyer fermé)** : tableau de **pneumopathie bactérienne** type PFLA (fièvre, frissons, condensation), ou simple syndrome pseudo-grippal qui traîne ou récidive.",
+        "**Vomique** : rejet **brutal** d'une expectoration purulente plus ou moins abondante ; la collection s'est ouverte dans une bronche : « du jour au lendemain, le malade devient **cracheur de pus** ».",
+        "**Foyer ouvert** : alternance de rétention purulente (fièvre) et d'expectoration (la fièvre baisse)."],
+      ["ul", "**Interrogatoire** : facteur favorisant (alcool, immunodépression, anesthésie générale).", "**Examen** : chercher un **foyer infectieux à distance** (dents, ORL). L'examen pulmonaire est **peu contributif** (fièvre, signes en foyer)."],
+      ["ret", "Une **haleine et une expectoration fétides** signent les **anaérobies**."],
+    ]],
+    ["Examens complémentaires", "teal", [
+      ["fig", "abces", "Après la vomique : clarté au-dessus d'un niveau liquide horizontal."],
+      ["ul", "**Radio** : opacité non systématisée (phase 1), puis **image hydro-aérique à niveau horizontal**, à **contours réguliers**, paroi peu épaisse ; puis cavité à paroi fine.",
+        "**Sang** : hyperleucocytose à polynucléaires (une **leucopénie est un facteur de gravité**), CRP et VS élevées.",
+        "**BK négatifs** (à chercher systématiquement : une caverne tuberculeuse peut ressembler).",
+        "**Fibroscopie bronchique systématique** : cause locale (cancer, corps étranger) et prélèvements.",
+        "**Bactériologie** des sécrétions bronchiques (ponction transtrachéale, lavage bronchoalvéolaire), hémocultures."],
+      ["tab", ["Cavité avec niveau ou non", "Pour la reconnaître"],
+        ["Abcès", "Fièvre, vomique, contours **réguliers**, BK négatifs"],
+        ["Caverne tuberculeuse", "Sommet, nodules autour, **BAAR positifs**, souvent pas de niveau"],
+        ["Cancer excavé", "Fumeur, paroi **épaisse et irrégulière**, bourgeonnante"],
+        ["Kyste hydatique rompu", "Vomique **« eau de roche »**, **membrane flottante**"]],
+    ]],
+    ["Formes selon le germe", "orange", [
+      ["cards", ["Anaérobies", "**Fétidité** de l'haleine et de l'expectoration.", "purple"], ["Bacilles Gram négatifs", "Infections **hospitalières**.", "orange"], ["Staphylocoque doré", "Dramatique chez le nourrisson, grave chez l'adulte ; **abcès multiples** = septicopyohémie.", "red"],
+        ["Pneumocystis", "Surtout chez le patient **VIH**.", "teal"], ["Aspergillus", "Abcès multiples sous **chimiothérapie** avec leucopénie prolongée.", "amber"], ["Amibien", "Toujours **secondaire à une atteinte du foie** ; pus **brun chocolat**.", "pink"]],
+    ]],
+    ["Évolution", "red", [
+      ["ul", "**Favorable dans 80 à 90 %** des cas si le traitement est **précoce et suffisant** : fièvre et leucocytes normaux en **2 à 3 semaines**, radio en **3 à 6 semaines** (image normale, cicatrice stellaire ou cavité résiduelle).",
+        "**Grave** : germe résistant et virulent, traitement tardif ou insuffisant, terrain débilité (VIH, âge, cancer), septicémie.",
+        "**Chronicité** : cavité qui persiste, dilatations des bronches autour qui entretiennent la suppuration → **seule la chirurgie** guérit et évite l'**amylose**."],
+    ]],
+    ["Traitement", "green", [
+      ["steps", "**Traitement général** : corriger les tares (diabète, déshydratation, dénutrition).",
+        "**Antibiothérapie 4 à 6 semaines**, adaptée et suffisante ; **probabiliste** au début : **C3G + aminoside**.",
+        "**Adapter au germe** : anaérobies → **pénicilline G + métronidazole** ; amibes → **métronidazole** ; Pneumocystis → **cotrimoxazole (Bactrim)** ; Aspergillus → antifongiques.",
+        "**Évacuer le pus** : drainage postural et **kinésithérapie**.",
+        "**Chirurgie** en cas de chronicité (cavité persistante)."],
+      ["ast", "« **4–6 / 2–3 / 3–6** » : 4 à 6 semaines d'antibiotiques ; clinique et biologie normales en 2 à 3 semaines ; radio normale en 3 à 6 semaines."],
+    ]],
+  ],
+  p: [
+    ["Abcès ou caverne", "Une cavité pulmonaire fébrile est un abcès.", "Toujours chercher le **BK** : une **caverne tuberculeuse** peut ressembler ; l'abcès a des **BK négatifs**.", "En Algérie, la tuberculose reste fréquente.", "Bilan d'une cavité : BK dans les crachats, fibroscopie."],
+    ["La vomique", "La vomique est un vomissement de pus d'origine digestive.", "La **vomique** est le rejet **par la toux** d'une grande quantité de pus : la collection s'est ouverte dans une **bronche**.", "", ""],
+    ["La fibroscopie", "La fibroscopie n'est utile qu'en cas d'échec du traitement.", "La **fibroscopie bronchique est systématique** : chercher une cause locale (tumeur, corps étranger) et prélever.", "Un abcès peut être secondaire à un cancer qui bouche la bronche.", ""],
+    ["Le siège", "L'abcès d'inhalation siège surtout aux sommets.", "Il siège dans les segments **postérieurs** (déclives en décubitus), plus souvent **à droite**.", "La bronche souche droite est plus verticale.", ""],
+    ["La leucopénie", "Une leucopénie est rassurante dans un abcès.", "Une **leucopénie est un facteur de gravité**.", "", ""],
+    ["La durée", "Une semaine d'antibiotiques suffit.", "**4 à 6 semaines.**", "", ""],
+  ],
+  v: [
+    ["L'abcès du poumon est une cavité néoformée par une infection non tuberculeuse.", true, ""],
+    ["La voie hématogène est la plus fréquente.", false, "C'est la voie **aérogène** (inhalation)."],
+    ["La fétidité de l'expectoration évoque des germes anaérobies.", true, ""],
+    ["Des abcès multiples évoquent une septicopyohémie à staphylocoque.", true, ""],
+    ["L'abcès amibien est primitivement pulmonaire.", false, "Il est **toujours secondaire à une atteinte hépatique** (pus chocolat)."],
+    ["La guérison radiologique demande 3 à 6 semaines.", true, ""],
+    ["En cas de cavité persistante avec DDB, la chirurgie est le seul traitement curatif.", true, "Elle évite aussi l'amylose."],
+  ],
+  q: [
+    ["Facteurs favorisant l'abcès du poumon :", ["Éthylisme", "Mauvais état dentaire", "Anesthésie générale", "Immunodépression", "Vaccination antigrippale"], "ABCD", ""],
+    ["Phases cliniques de l'abcès :", ["Présuppuration à foyer fermé", "Vomique", "Foyer ouvert", "Phase d'enkystement pleural", "Phase miliaire"], "ABC", ""],
+    ["Antibiothérapie de l'abcès :", ["Probabiliste : C3G + aminoside", "Anaérobies : pénicilline G + métronidazole", "Durée de 4 à 6 semaines", "Amibes : métronidazole", "Durée de 5 jours"], "ABCD", ""],
+  ],
+  c: [
+    ["Homme de 52 ans, éthylique, dents délabrées. Fièvre à 39 °C depuis 10 jours ; ce matin, il a rejeté en toussant une grande quantité de pus nauséabond.", [
+      ["Cet épisode s'appelle :", ["Une vomique", "Une hémoptysie", "Une hématémèse", "Une bronchorrhée", "Une pituite"], "A", ""],
+      ["La radio montre une image hydro-aérique postérieure du lobe inférieur droit. Quels examens ?", ["Recherche de BK dans les crachats", "Fibroscopie bronchique", "Hémocultures", "Numération formule sanguine, CRP", "IRM cérébrale systématique"], "ABCD", ""],
+      ["Le germe le plus probable et le traitement :", ["Anaérobies", "Pénicilline G + métronidazole", "Durée 4 à 6 semaines", "Kinésithérapie et drainage postural", "Traiter les foyers dentaires"], "ABCDE", "Tout est juste : fétidité = anaérobies ; traiter aussi la porte d'entrée."],
+    ]],
+  ],
+});

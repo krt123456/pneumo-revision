@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pneumo Révision · Examen de pneumologie du 17/12/2026</title>
+<meta name="description" content="Réviser la pneumologie (4e année, Blida) : planning jour par jour avec report automatique, fiches en couleurs, pièges, quiz, cartes, clichés au chrono, ECOS.">
+<meta name="theme-color" content="#1e3a62">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app"><p style="padding:24px;font-family:system-ui,sans-serif;color:#6a7789">Chargement de Pneumo Révision…</p></div>
+<noscript><p style="padding:24px;font-family:system-ui,sans-serif">Active JavaScript pour utiliser ce site.</p></noscript>
+<script>window.PNEUMO = { F: {}, fiche: function (id, d) { this.F[id] = d; } };</script>
+<script src="data/lessons.js"></script>
+<script src="data/plan.js"></script>
+<script src="data/annales.js"></script>
+<script src="data/glossaire.js"></script>
+<script src="data/qsj.js"></script>
+<script src="data/figs.js"></script>
+<script src="data/fiches.js"></script>
+<script src="js/core.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/views.js"></script>
+<script src="js/train.js"></script>
+<script>
+  PNEUMO.start();
+  if ('serviceWorker' in navigator && location.protocol === 'https:') { navigator.serviceWorker.register('sw.js').catch(function () {}); }
+</script>
+</body>
+</html>
