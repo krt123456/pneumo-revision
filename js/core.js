@@ -20,40 +20,99 @@
   P.EXAM = '2026-12-17';
   P.START = '2026-11-17';
 
-  /* ---------- sauvegarde locale ---------- */
+  /* ---------- sauvegarde automatique ----------
+     - à chaque action (P.save, 120 ms plus tard), à la fermeture / mise en arrière-plan, et toutes les 4 s si quelque chose a changé ;
+     - dans l'application Android : copie en double dans un fichier interne (pont PneumoNative), relue si le stockage du navigateur est vide ;
+     - copie de secours quotidienne (état de la veille) et copie avant chaque import. */
   const KEY = 'pneumo-revision-v1';
+  const NAT = (() => { try { const n = window.PneumoNative; return n && typeof n.store === 'function' && typeof n.restore === 'function' ? n : null; } catch (e) { return null; } })();
+  P.isApp = !!NAT;
+  P.native = NAT;
   const fresh = () => ({
     v: 1, created: D.iso(new Date()), onboard: false,
     L: {}, T: {}, M: {}, X: [], days: {}, err: [], cards: {}, cardNew: {}, qs: {}, qa: {}, wrong: {}, cal: {},
     ann: {}, notes: {}, rd: {}, ck: {}, xp: 0, xpd: {}, bdg: {}, cli: { n: 0, ok: 0, hot: 0, tries: 0 }, ecos: {}, game: { n: 0, pts: 0 },
-    set: { theme: 'auto', sound: true, confetti: true, conf: true, newCards: 20, cap: 6 },
+    set: { theme: 'auto', sound: true, confetti: true, conf: true, newCards: 20, cap: 6, memo: false },
   });
   let storageOk = true;
+  const parse = s => { try { const o = s ? JSON.parse(s) : null; return o && typeof o === 'object' && o.L ? o : null; } catch (e) { return null; } };
+  const lsGet = k => { try { return localStorage.getItem(k); } catch (e) { storageOk = false; return null; } };
+  const lsSet = (k, v) => { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } };
   function load() {
-    try { const s = localStorage.getItem(KEY); return s ? JSON.parse(s) : null; } catch (e) { storageOk = false; return null; }
+    let o = parse(lsGet(KEY)), src = o ? 'navigateur' : '';
+    if (NAT) {
+      let n = null; try { n = parse(NAT.restore()); } catch (e) { n = null; }
+      if (n && (!o || (n.savedAt || 0) > (o.savedAt || 0))) { o = n; src = 'application'; }
+    }
+    if (!o) { const b = parse(lsGet(KEY + '-snap')); if (b) { o = b; src = 'copie de secours'; } }
+    P.loadedFrom = src || 'nouveau';
+    return o;
   }
   const S = Object.assign(fresh(), load() || {});
   S.set = Object.assign(fresh().set, S.set || {});
-  try { localStorage.setItem(KEY + '-t', '1'); localStorage.removeItem(KEY + '-t'); } catch (e) { storageOk = false; }
+  if (!lsSet(KEY + '-t', '1')) storageOk = !!NAT; else { try { localStorage.removeItem(KEY + '-t'); } catch (e) { /* ignore */ } }
   P.storageOk = () => storageOk;
-  let saveT = 0;
-  const save = P.save = () => {
-    clearTimeout(saveT);
-    saveT = setTimeout(() => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { storageOk = false; } }, 100);
+  // copie de secours : l'état tel qu'il était à la première ouverture du jour
+  const realDay = D.iso(new Date());
+  if (P.loadedFrom !== 'nouveau' && lsGet(KEY + '-snapd') !== realDay && lsSet(KEY + '-snap', JSON.stringify(S))) lsSet(KEY + '-snapd', realDay);
+  P.snapshot = () => { const d = lsGet(KEY + '-snapd'), o = parse(lsGet(KEY + '-snap')); return o && d ? { d, o } : null; };
+  if (P.loadedFrom === 'application' || P.loadedFrom === 'copie de secours') setTimeout(() => P.flush(), 0); // resynchronise les deux copies
+  let saveT = 0, lastJs = '', lastSaved = 0;
+  const flush = P.flush = () => {
+    clearTimeout(saveT); saveT = 0;
+    S.savedAt = Date.now();
+    let js; try { js = JSON.stringify(S); } catch (e) { return false; }
+    const ok = lsSet(KEY, js);
+    let nok = false;
+    if (NAT) { try { nok = NAT.store(js) !== false; } catch (e) { nok = false; } }
+    storageOk = ok || nok;
+    if (storageOk) { lastJs = js; lastSaved = S.savedAt; try { document.dispatchEvent(new Event('pneumo:saved')); } catch (e) { /* ignore */ } }
+    return storageOk;
   };
-  window.addEventListener('pagehide', () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* ignore */ } });
+  const save = P.save = () => { clearTimeout(saveT); saveT = setTimeout(flush, 120); };
+  const flushIfChanged = () => { try { if (saveT || JSON.stringify(S) !== lastJs) flush(); } catch (e) { /* ignore */ } };
+  ['pagehide', 'beforeunload', 'blur'].forEach(ev => window.addEventListener(ev, flushIfChanged));
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushIfChanged(); });
+  document.addEventListener('freeze', flushIfChanged);
+  setInterval(flushIfChanged, 4000); // filet : rattrape toute modification qui n'aurait pas appelé P.save()
+  P.lastSaved = () => lastSaved;
+  // demande au navigateur de ne jamais effacer ces données pour libérer de la place
+  P.persisted = NAT ? true : null;
+  try {
+    if (!NAT && navigator.storage && navigator.storage.persisted) navigator.storage.persisted().then(p => { P.persisted = p; if (!p && navigator.storage.persist) return navigator.storage.persist().then(r => { P.persisted = r; }); }).catch(() => { /* ignore */ });
+  } catch (e) { /* ignore */ }
   P.S = S;
   P.exportData = () => JSON.stringify(Object.assign({ app: 'pneumo-revision', exported: new Date().toISOString() }, S));
   P.importData = txt => {
     const o = JSON.parse(txt);
     if (!o || typeof o !== 'object' || !o.L) throw new Error('Fichier non reconnu');
+    try { lsSet(KEY + '-preimport', JSON.stringify(S)); } catch (e) { /* ignore */ }
     Object.keys(S).forEach(k => delete S[k]);
     Object.assign(S, fresh(), o);
     S.set = Object.assign(fresh().set, o.set || {});
     delete S.app; delete S.exported;
-    save();
+    flush();
   };
-  P.resetAll = () => { Object.keys(S).forEach(k => delete S[k]); Object.assign(S, fresh()); save(); };
+  // code de sauvegarde à copier-coller (compressé quand le navigateur le permet)
+  const b64 = buf => { let bin = ''; for (let i = 0; i < buf.length; i += 0x8000) bin += String.fromCharCode.apply(null, buf.subarray(i, i + 0x8000)); return btoa(bin); };
+  P.exportCode = () => {
+    const js = P.exportData();
+    if (!window.CompressionStream) return Promise.resolve(js);
+    try {
+      const cs = new Blob([js]).stream().pipeThrough(new CompressionStream('gzip'));
+      return new Response(cs).arrayBuffer().then(ab => 'PNEUMO1:' + b64(new Uint8Array(ab))).catch(() => js);
+    } catch (e) { return Promise.resolve(js); }
+  };
+  P.importAny = txt => {
+    txt = String(txt || '').trim();
+    if (txt.indexOf('PNEUMO1:') !== 0) { P.importData(txt); return Promise.resolve(); }
+    const bin = atob(txt.slice(8).replace(/\s+/g, '')), buf = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+    if (!window.DecompressionStream) return Promise.reject(new Error('Navigateur trop ancien pour ce code'));
+    const ds = new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'));
+    return new Response(ds).text().then(t => P.importData(t));
+  };
+  P.resetAll = () => { Object.keys(S).forEach(k => delete S[k]); Object.assign(S, fresh()); flush(); };
 
   /* ---------- cours ---------- */
   P.byId = {};
@@ -218,11 +277,22 @@
 
   /* ---------- cartes (Leitner) ---------- */
   const BOX = [0, 1, 2, 4, 7, 14];
+  // moyens mnémotechniques (acro, ast) et chiffres clés (nums) d'une fiche
+  P.memoOf = lid => {
+    const f = P.F[lid], acro = [], ast = [], nums = [];
+    if (f) (f.s || []).forEach(s => (s[2] || []).forEach(b => {
+      if (!Array.isArray(b)) return;
+      if (b[0] === 'acro') acro.push(b); else if (b[0] === 'ast') ast.push(b); else if (b[0] === 'nums') b.slice(1).forEach(n => { if (Array.isArray(n)) nums.push(n); });
+    }));
+    return { acro, ast, nums };
+  };
   P.cardsOf = lid => {
     const f = P.F[lid]; if (!f) return [];
-    const out = [];
+    const out = [], m = P.memoOf(lid);
     (f.p || []).forEach((p, i) => out.push({ id: lid + '|p' + i, lid, k: 'Piège à corriger', f: '« ' + p[1] + ' »', b: p[2] + (p[3] ? '\n\nPourquoi : ' + p[3] : '') }));
     (f.v || []).forEach((v, i) => out.push({ id: lid + '|v' + i, lid, k: 'Vrai ou faux ?', f: v[0], b: (v[1] ? 'VRAI. ' : 'FAUX. ') + (v[2] || '') }));
+    m.acro.forEach((a, i) => out.push({ id: lid + '|a' + i, lid, k: 'Moyen mnémotechnique', f: 'Que cache « **' + a[1] + '** » ?', b: (a[2] || []).map(p => '**' + p[0] + '** → ' + p[1]).join('\n') + (a[3] ? '\n\n' + a[3] : '') }));
+    m.nums.forEach((n, i) => out.push({ id: lid + '|n' + i, lid, k: 'Chiffre clé', f: n[1] + ' : **quel chiffre ?**', b: '**' + n[0] + '**\n' + n[1] }));
     return out;
   };
   P.glossCards = () => (P.gloss || []).map(g => ({ id: 'g|' + g.k, lid: null, k: 'Vocabulaire', f: g.t, b: g.d, ar: g.ar }));

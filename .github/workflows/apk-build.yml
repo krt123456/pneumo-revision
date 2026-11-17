@@ -3,8 +3,7 @@ name: Android APK - construction
 # La signature est faite hors de GitHub, pour que la clé ne soit jamais publique.
 on:
   push:
-    branches: [main]
-    paths: ['android/**', '.github/workflows/apk-build.yml', 'app-build.txt']
+    branches: [apk-src]
   workflow_dispatch:
 permissions:
   contents: write

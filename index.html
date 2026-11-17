@@ -14,7 +14,12 @@
 <body>
 <div id="app"><p style="padding:24px;font-family:system-ui,sans-serif;color:#6a7789">Chargement de Pneumo Révision…</p></div>
 <noscript><p style="padding:24px;font-family:system-ui,sans-serif">Active JavaScript pour utiliser ce site.</p></noscript>
-<script>window.PNEUMO = { F: {}, fiche: function (id, d) { this.F[id] = d; } };</script>
+<script>
+  /* compatibilité avec les anciens navigateurs / WebView Android */
+  if (!Array.prototype.flat) Object.defineProperty(Array.prototype, 'flat', { configurable: true, writable: true, value: function (d) { d = d === undefined ? 1 : Math.floor(d); return d < 1 ? Array.prototype.slice.call(this) : Array.prototype.reduce.call(this, function (a, v) { return a.concat(Array.isArray(v) ? v.flat(d - 1) : v); }, []); } });
+  if (!Array.prototype.flatMap) Object.defineProperty(Array.prototype, 'flatMap', { configurable: true, writable: true, value: function (f, t) { return Array.prototype.map.call(this, f, t).flat(1); } });
+  window.PNEUMO = { F: {}, fiche: function (id, d) { this.F[id] = d; } };
+</script>
 <script src="data/lessons.js"></script>
 <script src="data/plan.js"></script>
 <script src="data/annales.js"></script>
@@ -28,7 +33,7 @@
 <script src="js/train.js"></script>
 <script>
   PNEUMO.start();
-  if ('serviceWorker' in navigator && location.protocol === 'https:') { navigator.serviceWorker.register('sw.js').catch(function () {}); }
+  if ('serviceWorker' in navigator && location.protocol === 'https:' && !window.PneumoNative) { navigator.serviceWorker.register('sw.js').catch(function () {}); }
 </script>
 </body>
 </html>

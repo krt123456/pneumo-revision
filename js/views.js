@@ -35,8 +35,12 @@
     if (k === 'calc') return U.calcHTML(a[0]);
     if (k === 'img') return '<figure class="svgfig"><img src="' + esc(a[0]) + '" alt="" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px">' + (a[1] ? '<figcaption>' + md(a[1]) + '</figcaption>' : '') + '</figure>';
     if (k === 'cards') return '<div class="cards">' + a.map(c => '<div style="--cc:' + (SC[c[2]] || SC.blue) + '"><h4>' + md(c[0]) + '</h4><p>' + md(c[1]) + '</p></div>').join('') + '</div>';
+    if (k === 'acro') return '<div class="acro"><div class="cl">🧩 Moyen mnémotechnique <button type="button" class="ahide" data-act="acrohide" aria-label="Cacher les sens pour me tester">🙈 Me tester</button></div><div class="aw">' + md(a[0], true) + '</div><div class="al">' +
+      (a[1] || []).map((p, j) => '<div class="ar" data-act="arow" style="--ac:' + ACOL[j % ACOL.length] + '"><b>' + esc(p[0]) + '</b><span>' + md(p[1]) + '</span></div>').join('') + '</div>' + (a[2] ? '<div class="an">' + md(a[2]) + '</div>' : '') + '</div>';
+    if (k === 'nums') return '<div class="knum"><div class="cl">🔢 Les chiffres à connaître</div><div class="ng">' + a.map(p => '<div class="nt"><b>' + md(p[0], true) + '</b><span>' + md(p[1]) + '</span></div>').join('') + '</div></div>';
     return '';
   }).join('');
+  const ACOL = [SC.blue, SC.teal, SC.orange, SC.purple, SC.pink, SC.green, SC.red, SC.amber, SC.navy];
   P.renderFiche = f => {
     let h = '';
     if (f.e) h += '<div class="ess"><h3>⚡ L\'essentiel en 30 secondes</h3><ul>' + f.e.map(x => '<li>' + md(x) + '</li>').join('') + '</ul></div>';
@@ -148,6 +152,24 @@
     'Le sommeil consolide ce que tu as appris dans la journée : ne sacrifie pas tes nuits.',
     'Explique un cours à voix haute comme à un camarade : les trous apparaissent tout de suite.',
   ];
+  // bandeaux liés à l'environnement : navigateur intégré (Facebook…), application à installer, mise à jour de l'application
+  const UA = navigator.userAgent || '';
+  P.inAppBrowser = /FBAN|FBAV|FB_IAB|FBIOS|Instagram|Messenger|Line\/|MicroMessenger|Snapchat|musical_ly|TikTok|BytedanceWebview|Twitter|Telegram/i.test(UA) && !P.isApp;
+  function envBanners() {
+    let h = '';
+    if (P.inAppBrowser) {
+      const android = /Android/i.test(UA);
+      h += '<div class="banner warn"><span class="bi">⚠️</span><div class="grow"><b>Tu es dans le navigateur d\'une autre application</b> (Facebook, Messenger, Instagram, Telegram…) : il peut effacer ta progression quand tu le fermes. ' +
+        (android ? 'Ouvre le site dans Chrome :<div style="margin-top:8px"><a class="btn sm" href="intent://' + esc(location.host + location.pathname) + '#Intent;scheme=https;package=com.android.chrome;end">🌐 Ouvrir dans Chrome</a> <a class="btn sm ghost" href="#/app">📱 Installer l\'application</a></div>'
+          : 'Touche le menu <b>⋯</b> puis <b>Ouvrir dans le navigateur</b> (Safari ou Chrome).') + '</div></div>';
+    }
+    if (P.isApp) h += '<div class="banner info" id="appupd"' + (P.appUpdate ? '' : ' hidden') + '><span class="bi">🆕</span><div class="grow"><b>Nouvelle version de l\'application disponible.</b> Ta progression est conservée.<div style="margin-top:8px"><button class="btn sm green" data-act="appdl">⬇️ Mettre à jour</button></div></div></div>';
+    else if (/Android/i.test(UA) && !P.inAppBrowser && (!S.set.appHint || D.diff(today(), S.set.appHint) >= 7) && !(matchMedia && matchMedia('(display-mode: standalone)').matches)) {
+      h += '<div class="banner info"><span class="bi">📱</span><div class="grow"><b>L\'application Android est disponible</b> : sans Internet, en plein écran, progression en double copie.<div style="margin-top:8px"><a class="btn sm" href="#/app">📲 L\'installer</a> <button class="btn sm ghost" data-act="apphint">Plus tard</button></div></div></div>';
+    }
+    return h;
+  }
+  ACT.apphint = () => { S.set.appHint = today(); P.save(); rerender(); };
   V.today = () => {
     const t = today(), dl = daysLeft(), day = P.dayOf(t), ph = P.PH[P.phaseOf(t)];
     const tasks = P.dayTasks(t), od = P.overdue(), revs = P.reviewsDue(), cardsN = P.cardsDue().length, wrongN = P.wrongDue().length;
@@ -157,7 +179,8 @@
       '<div class="cd"><b>' + (dl > 0 ? dl : dl === 0 ? 'Jour J' : '—') + '</b>' + (dl > 0 ? 'jours avant l\'examen' : '') + '</div>' +
       '<div class="chips"><span class="chip">' + ph[0] + '</span><span class="chip">🔥 ' + P.streak() + ' j de suite</span><span class="chip">⭐ ' + S.xp + ' XP</span></div></div>' +
       U.ring(pct, 78, 8, '#fff', doneN + '/' + tasks.length) + '</div>';
-    if (!P.storageOk()) h += '<div class="banner warn"><span class="bi">💾</span><div>La sauvegarde n\'est pas disponible dans ce navigateur (mode privé ?). Ta progression sera perdue en fermant la page. Utilise <b>Réglages → Exporter</b>.</div></div>';
+    if (!P.storageOk()) h += '<div class="banner warn"><span class="bi">💾</span><div>La sauvegarde n\'est pas disponible dans ce navigateur (mode privé ?). Ta progression sera perdue en fermant la page. Ouvre le site dans Chrome normal ou installe l\'application, sinon utilise <b>Réglages → Exporter</b>.</div></div>';
+    h += envBanners();
     if (od.length) {
       h += '<div class="banner warn"><span class="bi">⏭️</span><div class="grow"><b>' + od.length + ' tâche' + (od.length > 1 ? 's' : '') + ' non cochée' + (od.length > 1 ? 's' : '') + ' des jours précédents</b> : elles sont reportées automatiquement ici.' +
         (od.length >= 3 ? '<div style="margin-top:8px"><button class="btn sm" data-act="spread">🛟 Plan de rattrapage : répartir sur 3 jours</button></div><div class="small muted" style="margin-top:6px">Les cours qui rapportent le plus de questions passent en premier.</div>' : '') + '</div></div>';
@@ -180,7 +203,7 @@
     if (weak) h += '<div class="banner info" style="margin-top:12px"><span class="bi">🎯</span><div class="grow"><b>Ton point faible : ' + esc(weak.t) + '</b> (' + P.mastery(weak.id) + ' % de bonnes réponses). Relis les pièges puis refais le quiz.<div class="ta" style="margin-top:7px;display:flex;gap:6px"><a class="btn xs" href="#/c/' + weak.id + '/pieges">Pièges</a><a class="btn xs ghost" href="#/c/' + weak.id + '/quiz">Quiz</a></div></div></div>';
     const dl2 = P.day(t);
     h += '<div class="h-sec"><h2>📝 Bilan du jour</h2></div><div class="card"><div class="row wrap">' +
-      '<div class="grow" style="min-width:140px"><label class="lb">Score QCM du jour (%)</label><input class="input" type="number" min="0" max="100" inputmode="numeric" data-day="qcm" value="' + (dl2.qcm ?? '') + '" placeholder="ex. 72"></div>' +
+      '<div class="grow" style="min-width:140px"><label class="lb">Score QCM du jour (%)</label><input class="input" type="number" min="0" max="100" inputmode="numeric" data-day="qcm" value="' + (dl2.qcm != null ? dl2.qcm : '') + '" placeholder="ex. 72"></div>' +
       '<div class="grow" style="min-width:140px"><label class="lb">Temps d\'étude (minutes)</label><div class="row"><input class="input" type="number" min="0" inputmode="numeric" data-day="min" value="' + (dl2.min || '') + '" placeholder="0"><button class="btn sm ghost" data-act="addmin" data-n="30">+30</button></div></div></div>' +
       '<label class="lb">Note du jour (ce qui a bloqué, ce qu\'il faut revoir)</label><textarea class="input" data-day="note" placeholder="Ex. je confonds encore exsudat et transsudat…">' + esc(dl2.note || '') + '</textarea></div>';
     h += '<div class="banner ok"><span class="bi">💡</span><div><b>Astuce du jour.</b> ' + esc(TIPS[D.diff(t, '2026-01-01') % TIPS.length]) + '</div></div>';
@@ -262,7 +285,7 @@
   function readTrack(id, box) {
     const secs = [...box.querySelectorAll('.sec')]; if (!secs.length) return;
     const rd = new Set(S.rd[id] || []);
-    const bar = document.createElement('div'); bar.className = 'readbar'; bar.innerHTML = '<b class="trk"><i></i></b><span></span>'; box.prepend(bar);
+    const bar = document.createElement('div'); bar.className = 'readbar'; bar.innerHTML = '<b class="trk"><i></i></b><span></span><button type="button" class="mbtn' + (S.set.memo ? ' on' : '') + '" data-act="memo" aria-pressed="' + !!S.set.memo + '" title="Mode mémoire : cache les mots-clés en gras, touche une case pour la révéler">' + (S.set.memo ? '🙈 Mémoire' : '🙈 Mémoire') + '</button>'; box.prepend(bar);
     const upd = () => { const r = secs.filter((x, i) => rd.has(i)).length; bar.querySelector('i').style.width = Math.round(r / secs.length * 100) + '%'; bar.querySelector('span').textContent = r === secs.length ? '📗 Fiche lue en entier' : '📖 ' + r + ' / ' + secs.length + ' sections lues'; secs.forEach((x, i) => x.classList.toggle('read', rd.has(i))); };
     upd();
     if (!('IntersectionObserver' in window)) return;
@@ -301,6 +324,7 @@
       box.innerHTML = f ? P.renderFiche(f) + '<div class="row wrap" style="margin:6px 0 20px">' + (f.p ? '<a class="btn" href="#/c/' + id + '/pieges">⚠️ Voir les pièges</a>' : '') + ((f.v || f.q) ? '<a class="btn purple" href="#/c/' + id + '/quiz">🧠 Me tester</a>' : '') + '</div>' :
         '<div class="card empty">📝 La fiche de ce cours est en préparation.' + (l.pdf ? '<br><br><a class="btn" href="#/c/' + id + '/pdf">Voir la fiche PDF</a>' : '') + '</div>';
       U.bindCalcs(box);
+      if (f) { box.setAttribute('data-memo-scope', ''); box.classList.toggle('memo', !!S.set.memo); }
       if (f) readTrack(id, box);
     } else if (tab === 'pieges') {
       const hide = !!S.set.hideRules;
@@ -393,6 +417,8 @@
       tile('#/quiz', '🧠', 'Quiz mélangé', 'V/F, QCM et cas cliniques de tes cours, mélangés') +
       tile('#/refaire', '🔁', 'Refaire mes erreurs', wrongN + ' question' + (wrongN > 1 ? 's' : '') + ' à retenter') +
       tile('#/cartes', '🃏', 'Cartes (répétition espacée)', cardsN + ' carte' + (cardsN > 1 ? 's' : '') + ' aujourd\'hui') +
+      tile('#/memo', '🧩', 'Astuces mémo', 'Tous les moyens mnémotechniques, pour se tester') +
+      tile('#/chiffres', '🔢', 'Chiffres clés', 'Les seuils à savoir par cœur + jeu « Le juste chiffre »') +
       tile('#/cliches', '🩻', 'Clichés au chrono', 'Trouve l\'anomalie en 3 minutes') +
       tile('#/ecos', '🎤', 'ECOS', 'Oral de 2 minutes sur chaque TD, avec grille') +
       tile('#/jeu', '🕵️', 'Qui suis-je ?', 'Devine la maladie avec le moins d\'indices') +
@@ -430,6 +456,66 @@
   V.jeu = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🕵️ Qui suis-je ?</h1><div id="gz"></div>'; P.G.run(main.querySelector('#gz')); };
   V.exam = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">⏱️ Examen blanc</h1><div id="tz"></div>'; P.T.exam(main.querySelector('#tz')); };
   V.pomodoro = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🍅 Pomodoro</h1><div id="tz"></div>'; P.T.pomo(main.querySelector('#tz')); };
+
+  /* ---------- mémoire : astuces mnémotechniques, chiffres clés, « Le juste chiffre » ---------- */
+  const shuffle = a => a.map(x => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map(p => p[1]);
+  const memoBtn = () => '<button type="button" class="btn sm mbtn' + (S.set.memo ? ' on' : '') + '" data-act="memo" aria-pressed="' + !!S.set.memo + '">🙈 Mode mémoire</button>';
+  ACT.memo = () => {
+    S.set.memo = !S.set.memo; P.save();
+    document.querySelectorAll('[data-memo-scope]').forEach(x => { x.classList.toggle('memo', S.set.memo); x.querySelectorAll('.shown').forEach(y => y.classList.remove('shown')); });
+    document.querySelectorAll('[data-act=memo]').forEach(b => { b.classList.toggle('on', S.set.memo); b.setAttribute('aria-pressed', String(S.set.memo)); });
+    U.toast(S.set.memo ? '🙈 Mode mémoire : retrouve chaque mot caché de tête, puis touche la case pour vérifier' : 'Mode mémoire désactivé');
+  };
+  ACT.acrohide = el => { const a = el.closest('.acro'); if (!a) return; a.classList.toggle('atest'); a.querySelectorAll('.ar.shown').forEach(r => r.classList.remove('shown')); el.textContent = a.classList.contains('atest') ? '👀 Tout montrer' : '🙈 Me tester'; };
+  ACT.arow = el => { const a = el.closest('.acro'); if (a && (a.classList.contains('atest') || el.closest('.memo'))) el.classList.toggle('shown'); };
+  V.memo = () => {
+    const ls = P.lessons.filter(l => { const m = P.memoOf(l.id); return m.acro.length || m.ast.length; });
+    const n = ls.reduce((s, l) => { const m = P.memoOf(l.id); return s + m.acro.length + m.ast.length; }, 0);
+    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🧩 Astuces mémo</h1><p class="small muted">' + n + ' moyens mnémotechniques tirés des fiches. La bonne méthode : lis le mot-clé, récite à voix haute ce qu\'il cache, puis vérifie (mode mémoire ou « Me tester »).</p>' +
+      '<div class="row wrap" style="margin-bottom:12px">' + memoBtn() + '<a class="btn sm ghost" href="#/chiffres">🔢 Chiffres clés</a></div>' +
+      '<div id="mm" data-memo-scope class="' + (S.set.memo ? 'memo' : '') + '">' + (ls.length ? ls.map(l => { const m = P.memoOf(l.id); return '<div class="card"><h3 style="margin-bottom:6px"><a href="#/c/' + l.id + '" style="color:' + gc(l)[0] + '">' + esc(lname(l)) + '</a></h3><div class="sec-b">' + P.blocks(m.acro.concat(m.ast)) + '</div></div>'; }).join('') : '<div class="card empty">Les astuces arrivent avec les fiches.</div>') + '</div>';
+  };
+  V.chiffres = mode => {
+    const pool = [];
+    P.lessons.forEach(l => P.memoOf(l.id).nums.forEach(n => pool.push({ l, n })));
+    if (mode === 'quiz') return numQuiz(pool);
+    const ls = P.lessons.filter(l => P.memoOf(l.id).nums.length);
+    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🔢 Chiffres clés</h1><p class="small muted">' + pool.length + ' chiffres et seuils à connaître par cœur, cours par cours. Active le mode mémoire, retrouve chaque chiffre de tête, puis touche la case pour vérifier.</p>' +
+      '<div class="row wrap" style="margin-bottom:12px"><a class="btn sm purple" href="#/chiffres/quiz">🎲 Jouer au « Juste chiffre »</a>' + memoBtn() + '</div>' +
+      '<div id="nm" data-memo-scope class="' + (S.set.memo ? 'memo' : '') + '">' + (ls.length ? ls.map(l => '<div class="card"><h3 style="margin-bottom:6px"><a href="#/c/' + l.id + '" style="color:' + gc(l)[0] + '">' + esc(lname(l)) + '</a></h3><div class="sec-b">' + P.blocks([['nums'].concat(P.memoOf(l.id).nums)]) + '</div></div>').join('') : '<div class="card empty">Les chiffres clés arrivent avec les fiches.</div>') + '</div>';
+  };
+  function numQuiz(pool) {
+    main.innerHTML = '<a href="#/chiffres" class="small">← Chiffres clés</a><h1 style="font-size:1.35rem;margin:6px 0">🎲 Le juste chiffre</h1><p class="small muted" style="margin-top:0">10 questions : retrouve le bon chiffre. Les cours que tu as étudiés passent en premier.</p><div id="nq"></div>';
+    const box = main.querySelector('#nq'), pl = s => U.plain(s).replace(/\s+/g, ' ').trim();
+    if (pool.length < 4) { box.innerHTML = '<div class="card empty">Pas encore assez de chiffres dans les fiches.</div>'; return; }
+    const st = pool.filter(x => P.isStudied(x.l.id)), qs = shuffle(st.length >= 10 ? st : pool).slice(0, 10);
+    let i = 0, ok = 0;
+    const show = () => {
+      if (i >= qs.length) {
+        box.innerHTML = '<div class="card" style="text-align:center"><div style="font-size:2.6rem">' + (ok >= 8 ? '🏆' : ok >= 5 ? '👍' : '💪') + '</div><h2 style="margin:6px 0">' + ok + ' / ' + qs.length + '</h2><p class="muted">' + (ok >= 8 ? 'Excellent : ces chiffres sont bien ancrés.' : ok >= 5 ? 'Bien ! Rejoue demain pour ancrer ceux qui manquent.' : 'Relis les chiffres clés puis rejoue : c\'est en se testant qu\'on retient.') + '</p><div class="row" style="justify-content:center;gap:8px;flex-wrap:wrap"><button class="btn" id="nqr">🔄 Rejouer</button><a class="btn ghost" href="#/chiffres">Revoir les chiffres</a></div></div>';
+        box.querySelector('#nqr').onclick = () => numQuiz(pool);
+        if (ok === qs.length) U.confetti();
+        return;
+      }
+      const q = qs[i], good = pl(q.n[0]);
+      const others = shuffle(pool.filter(x => x.l.id === q.l.id)).concat(shuffle(pool.filter(x => x.l.id !== q.l.id)));
+      const opts = [];
+      others.forEach(x => { const v = pl(x.n[0]); if (opts.length < 3 && v !== good && !opts.some(o => pl(o) === v)) opts.push(x.n[0]); });
+      const all = shuffle(opts.concat([q.n[0]]));
+      box.innerHTML = '<div class="chk"><div class="cl">Question ' + (i + 1) + ' / ' + qs.length + ' · ' + esc(q.l.t) + '</div><div class="cq">' + md(q.n[1], true) + '</div><div class="copts">' + all.map(o => '<button type="button" class="copt" data-v="' + esc(pl(o)) + '">' + md(o, true) + '</button>').join('') + '</div><div class="cex" hidden></div></div>';
+      box.querySelectorAll('.copt').forEach(b => { b.onclick = () => {
+        if (box.querySelector('.copt.ok,.copt.ko')) return;
+        const right = b.dataset.v === good;
+        b.classList.add(right ? 'ok' : 'ko');
+        box.querySelectorAll('.copt').forEach(x => { if (x.dataset.v === good) x.classList.add('ok'); });
+        if (right) { ok++; P.addXP(1, 'chiffre retrouvé'); }
+        const ex = box.querySelector('.cex'); ex.hidden = false;
+        ex.innerHTML = (right ? '✓ <b>Exact !</b> ' : '✗ <b>C\'était ' + md(q.n[0], true) + '.</b> ') + '<a href="#/c/' + q.l.id + '">Revoir la fiche</a><div style="margin-top:10px"><button class="btn sm" id="nqn">' + (i + 1 < qs.length ? 'Suivant →' : 'Voir mon score') + '</button></div>';
+        box.querySelector('#nqn').onclick = () => { i++; show(); };
+      }; });
+    };
+    show();
+  }
 
   /* ---------- glossaire, veille, recherche ---------- */
   V.glossaire = () => {
@@ -523,22 +609,107 @@
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:12px">⚙️ Réglages</h1><div class="card"><label class="lb">Thème</label><div class="seg">' + [['auto', 'Automatique'], ['light', 'Clair'], ['dark', 'Sombre']].map(t => '<button data-act="theme" data-v="' + t[0] + '" class="' + (s.theme === t[0] ? 'on' : '') + '">' + t[1] + '</button>').join('') + '</div>' +
       sw('sound', 'Sons et vibration à la fin des chronos') + sw('confetti', 'Confettis quand tu termines quelque chose') + sw('conf', 'Me demander ma confiance dans les quiz') +
       '<label class="cr" style="display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)"><span class="grow">Nouvelles cartes par jour</span><input class="input" type="number" min="0" max="200" data-set="newCards" value="' + s.newCards + '" style="max-width:90px"></label></div>' +
-      '<div class="card"><h3>💾 Sauvegarde</h3><p class="small muted">Ta progression est enregistrée dans ce navigateur, sur cet appareil. Pour la retrouver sur un autre appareil, exporte-la puis importe-la là-bas.</p><div class="row wrap"><button class="btn" data-act="export">⬇️ Exporter ma progression</button><label class="btn ghost">⬆️ Importer<input type="file" accept=".json,application/json" id="imp" class="sr"></label></div>' +
-      (P.storageOk() ? '' : '<p class="small" style="color:var(--red)">La sauvegarde automatique ne marche pas dans ce navigateur : exporte régulièrement.</p>') + '</div>' +
+      saveCard() +
+      '<div class="card"><h3>📱 Application Android</h3><p class="small muted">' + (P.isApp ? 'Tu utilises l\'application (version ' + esc(appVersion().name) + ').' : 'Installe le site comme une application sur ton téléphone : il marche sans Internet et garde ta progression.') + '</p><a class="btn ghost" href="#/app">' + (P.isApp ? '🔄 Vérifier les mises à jour' : '📲 Installer l\'application') + '</a></div>' +
       '<div class="card"><h3>🧭 Divers</h3><div class="row wrap" style="margin-top:8px"><button class="btn ghost" data-act="onboard">Revoir l\'accueil</button><button class="btn red" data-act="reset">Tout effacer</button></div>' +
       '<p class="small muted" style="margin-top:12px">Les radiographies du site sont des schémas pédagogiques dessinés par ordinateur, pas de vraies images de patients. Les fiches résument les cours de 4e année : en cas de doute, ton cours et ton enseignant font foi.</p></div>';
     main.querySelectorAll('[data-set]').forEach(i => i.addEventListener('change', () => { s[i.dataset.set] = i.type === 'checkbox' ? i.checked : +i.value; P.save(); }));
-    main.querySelector('#imp').addEventListener('change', e => {
-      const f = e.target.files[0]; if (!f) return;
-      f.text().then(txt => { try { P.importData(txt); U.toast('Progression importée ✅'); applyTheme(); route(); } catch (err) { U.toast('Fichier invalide'); } });
-    });
+    bindSaveCard(main);
   };
+  /* ---------- carte « Sauvegarde » (réglages) ---------- */
+  const ago = t => { if (!t) return 'pas encore'; const s = Math.max(0, Math.round((Date.now() - t) / 1000)); return s < 5 ? 'à l\'instant' : s < 60 ? 'il y a ' + s + ' s' : s < 3600 ? 'il y a ' + Math.round(s / 60) + ' min' : 'il y a ' + Math.round(s / 3600) + ' h'; };
+  function saveCard() {
+    const sn = P.snapshot();
+    return '<div class="card" id="savecard"><h3>💾 Sauvegarde automatique</h3>' +
+      (P.storageOk() ? '<p class="small" style="margin:6px 0">✅ <b>Ta progression s\'enregistre toute seule</b> sur cet appareil : à chaque action, quand tu quittes ou fermes ' + (P.isApp ? 'l\'application (en double copie dans l\'application)' : 'la page') + '. Tu peux fermer et revenir quand tu veux.</p>'
+        : '<p class="small" style="color:var(--red);margin:6px 0"><b>⚠️ Ce navigateur bloque la sauvegarde</b> (navigation privée ?). Ouvre le site dans Chrome normal ou installe l\'application, sinon exporte ta progression avant de fermer.</p>') +
+      '<p class="small muted" style="margin:4px 0">Dernière sauvegarde : <b id="svago">' + ago(P.lastSaved()) + '</b>' + (P.isApp ? '' : P.persisted === true ? ' · 🛡️ stockage protégé' : '') + '</p>' +
+      (P.isApp || P.persisted === true ? '' : '<p class="small muted" style="margin:4px 0">Pour une protection maximale : installe l\'application, n\'utilise pas la navigation privée et n\'efface pas les « données de navigation » de ce site.</p>') +
+      '<div class="small" style="font-weight:800;margin:12px 0 6px">Changer de téléphone ou garder une copie</div>' +
+      '<div class="row wrap"><button class="btn sm" data-act="export">⬇️ Exporter (fichier)</button><button class="btn sm ghost" data-act="copycode">📋 Mon code de sauvegarde</button>' +
+      '<label class="btn sm ghost">⬆️ Importer un fichier<input type="file" accept=".json,application/json,text/plain,*/*" id="imp" class="sr"></label><button class="btn sm ghost" data-act="pastecode">📥 Coller un code</button></div>' +
+      (sn ? '<p class="small muted" style="margin:12px 0 0">Copie de secours automatique du ' + D.short(sn.d) + ' (état au début de ce jour-là) : <button class="btn sm ghost" data-act="restoresnap">↩️ Restaurer</button></p>' : '') + '</div>';
+  }
+  function bindSaveCard(root) {
+    const inp = root.querySelector('#imp');
+    if (inp) inp.addEventListener('change', e => {
+      const f = e.target.files[0]; if (!f) return;
+      f.text().then(txt => { if (!confirm('Remplacer ta progression actuelle par celle de ce fichier ?')) return; P.importAny(txt).then(() => { U.toast('Progression importée ✅'); applyTheme(); route(); }).catch(() => U.toast('Fichier invalide')); });
+    });
+    const el = root.querySelector('#svago');
+    if (el) P.addTimer(setInterval(() => { if (document.body.contains(el)) el.textContent = ago(P.lastSaved()); }, 2000));
+  }
   ACT.theme = el => { S.set.theme = el.dataset.v; P.save(); applyTheme(); V.reglages(); };
   ACT.export = () => {
-    const blob = new Blob([P.exportData()], { type: 'application/json' }), a = document.createElement('a');
-    a.href = URL.createObjectURL(blob); a.download = 'pneumo-revision-' + today() + '.json'; document.body.appendChild(a); a.click(); a.remove();
-    U.toast('Fichier téléchargé');
+    P.flush();
+    const name = 'pneumo-revision-' + today() + '.json', data = P.exportData();
+    if (P.native && P.native.saveFile) { try { P.native.saveFile(name, 'application/json', data); return; } catch (e) { /* repli navigateur */ } }
+    const blob = new Blob([data], { type: 'application/json' }), a = document.createElement('a');
+    a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    U.toast('Fichier téléchargé : garde-le (Drive, WhatsApp…)');
   };
+  const copyText = txt => {
+    const fallback = () => { const t = document.createElement('textarea'); t.value = txt; t.setAttribute('readonly', ''); t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); let ok = false; try { ok = document.execCommand('copy'); } catch (e) { ok = false; } t.remove(); return ok; };
+    if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(txt).then(() => true, () => fallback());
+    return Promise.resolve(fallback());
+  };
+  ACT.copycode = () => {
+    P.flush();
+    P.exportCode().then(code => {
+      U.sheet('📋 Mon code de sauvegarde', '<p class="small">Ce code contient toute ta progression. Copie-le et garde-le (envoie-le-toi sur WhatsApp, dans tes notes…). Sur un autre téléphone : Réglages → <b>Coller un code</b>.</p><textarea class="input" readonly id="cc" style="min-height:120px;font-size:.75rem">' + esc(code) + '</textarea>' +
+        '<div class="row wrap" style="margin-top:10px"><button class="btn" id="ccc">📋 Copier</button>' + (P.native && P.native.shareText ? '<button class="btn ghost" id="ccs">📤 Partager</button>' : '') + '</div><p class="small muted">' + Math.round(code.length / 1024 * 10) / 10 + ' Ko</p>', r => {
+        r.querySelector('#ccc').onclick = () => copyText(code).then(ok => { U.toast(ok ? 'Code copié ✅' : 'Sélectionne le texte et copie-le'); if (!ok) { const t = r.querySelector('#cc'); t.focus(); t.select(); } });
+        const s = r.querySelector('#ccs'); if (s) s.onclick = () => { try { P.native.shareText('Ma progression Pneumo Révision', code); } catch (e) { /* ignore */ } };
+      });
+    });
+  };
+  ACT.pastecode = () => {
+    U.sheet('📥 Coller un code de sauvegarde', '<p class="small">Colle ici le code (il commence par <b>PNEUMO1:</b>) ou le contenu d\'un fichier exporté. <b>Ta progression actuelle sur cet appareil sera remplacée.</b></p><textarea class="input" id="pc" style="min-height:120px;font-size:.75rem" placeholder="PNEUMO1:…"></textarea><button class="btn block" style="margin-top:10px" id="pcgo">Importer</button>', r => {
+      r.querySelector('#pcgo').onclick = () => {
+        const v = r.querySelector('#pc').value.trim(); if (!v) { U.toast('Colle d\'abord ton code'); return; }
+        P.importAny(v).then(() => { U.closeSheet(); U.toast('Progression importée ✅'); applyTheme(); route(); }).catch(() => U.toast('Code invalide ou incomplet'));
+      };
+    });
+  };
+  ACT.restoresnap = () => {
+    const sn = P.snapshot(); if (!sn) return;
+    if (!confirm('Revenir à ta progression du ' + D.short(sn.d) + ' (début de journée) ? Ce que tu as fait depuis sera perdu.')) return;
+    try { P.importData(JSON.stringify(sn.o)); U.toast('Copie du ' + D.short(sn.d) + ' restaurée ✅'); applyTheme(); route(); } catch (e) { U.toast('Restauration impossible'); }
+  };
+
+  /* ---------- application Android ---------- */
+  const SITE = 'https://krt123456.github.io/pneumo-revision/';
+  const appVersion = () => { try { const v = String(P.native.version()).split('|'); return { name: v[0], code: +v[1] || 0 }; } catch (e) { return { name: '?', code: 0 }; } };
+  const fetchRemoteVersion = () => fetch((P.isApp ? SITE : '') + 'app/version.json?t=' + Date.now(), { cache: 'no-store' }).then(r => (r.ok ? r.json() : null)).catch(() => null);
+  P.checkAppUpdate = () => {
+    if (!P.isApp || !navigator.onLine) return;
+    fetchRemoteVersion().then(v => { if (v && v.code > appVersion().code) { P.appUpdate = v; const b = document.getElementById('appupd'); if (b) b.hidden = false; } });
+  };
+  V.app = () => {
+    const ua = navigator.userAgent || '', android = /Android/i.test(ua), ios = /iPhone|iPad|iPod/i.test(ua);
+    let h = '<h1 style="font-size:1.35rem;margin-bottom:6px">📱 Application</h1>';
+    if (P.isApp) {
+      const v = appVersion();
+      h += '<div class="card"><p>✅ Tu utilises l\'application <b>Pneumo Révision</b>, version <b>' + esc(v.name) + '</b>.</p><p class="small muted">Elle marche sans Internet. Ta progression est enregistrée automatiquement, en double copie sur le téléphone.</p><div id="appv" class="small muted">Recherche d\'une mise à jour…</div></div>';
+      main.innerHTML = h;
+      const out = main.querySelector('#appv');
+      if (!navigator.onLine) { out.textContent = 'Hors ligne : connecte-toi à Internet pour vérifier les mises à jour.'; return; }
+      fetchRemoteVersion().then(r => {
+        if (!r) { out.textContent = 'Impossible de vérifier pour le moment.'; return; }
+        out.innerHTML = r.code > v.code ? '<b style="color:var(--green)">Nouvelle version ' + esc(r.name) + ' disponible.</b> Ta progression est conservée lors de la mise à jour.<div style="margin-top:8px"><button class="btn green" data-act="appdl">⬇️ Télécharger la mise à jour</button></div>' : '👍 Tu as la dernière version.';
+      });
+      return;
+    }
+    h += '<div class="card"><h3>🤖 Android : l\'application (fichier APK)</h3><p class="small">Elle marche <b>sans Internet</b>, s\'ouvre comme une vraie application et garde ta progression en double copie.</p><div id="apkinfo" class="small muted">…</div>' +
+      '<a class="btn green block" style="margin:10px 0" href="app/pneumo-revision.apk" download>⬇️ Télécharger l\'application</a>' +
+      '<ol class="small" style="padding-left:18px;margin:6px 0"><li>Touche <b>Télécharger</b>. Si Chrome avertit sur ce type de fichier, choisis <b>Télécharger quand même</b>.</li><li>Ouvre le fichier téléchargé (notification ou dossier Téléchargements).</li><li>Si Android le demande, autorise <b>« Installer des applications inconnues »</b> pour Chrome, puis reviens et touche <b>Installer</b>.</li><li>Si Play Protect affiche un message, touche <b>Plus de détails → Installer quand même</b> : l\'application n\'est simplement pas publiée sur le Play Store.</li></ol>' +
+      '<p class="small muted">Tu as déjà commencé ici, dans le navigateur ? Avant d\'installer : Réglages → <b>Mon code de sauvegarde</b> → Copier. Dans l\'application : Réglages → <b>Coller un code</b>.</p></div>' +
+      '<div class="card"><h3>' + (ios ? '🍏 iPhone' : '🌐 Autre méthode') + ' : installer depuis le navigateur</h3><p class="small">' + (ios ? 'Dans Safari : bouton <b>Partager</b> → <b>Sur l\'écran d\'accueil</b>.' : 'Dans Chrome : menu <b>⋮</b> → <b>Installer l\'application</b> (ou « Ajouter à l\'écran d\'accueil »). Le site s\'ouvre alors en plein écran et marche aussi hors ligne.') + '</p></div>';
+    main.innerHTML = h;
+    if (!android && !ios) main.querySelector('#apkinfo').textContent = 'Le fichier APK s\'installe sur un téléphone Android : ouvre cette page sur ton téléphone.';
+    fetchRemoteVersion().then(r => { const el = main.querySelector('#apkinfo'); if (el && r) el.innerHTML = 'Version ' + esc(r.name) + ' · ' + (Math.round(r.size / 1048576 * 10) / 10) + ' Mo · Android 7 ou plus récent' + (android || ios ? '' : '<br>Le fichier APK s\'installe sur un téléphone Android : ouvre cette page sur ton téléphone.'); });
+  };
+  ACT.appdl = () => { const url = SITE + 'app/pneumo-revision.apk'; try { P.native.openExternal(url); } catch (e) { location.href = url; } };
   ACT.reset = () => { if (confirm('Effacer TOUTE ta progression sur cet appareil ? (Pense à exporter avant.)') && confirm('Vraiment tout effacer ?')) { P.resetAll(); applyTheme(); location.hash = '#/'; onboard(); } };
   ACT.onboard = () => onboard(true);
 
@@ -563,7 +734,7 @@
 
   /* ---------- routeur ---------- */
   const NAV = [['', 'home', 'Aujourd\'hui'], ['cours', 'book', 'Cours'], ['train', 'target', 'S\'entraîner'], ['planning', 'cal', 'Planning'], ['moi', 'user', 'Moi']];
-  const NAVMAP = { c: 'cours', jour: 'planning', quiz: 'train', refaire: 'train', cartes: 'train', cliches: 'train', ecos: 'train', outils: 'train', jeu: 'train', exam: 'train', pomodoro: 'train', glossaire: 'train', veille: 'train', annales: 'train', erreurs: 'moi', reglages: 'moi', recherche: '' };
+  const NAVMAP = { c: 'cours', jour: 'planning', quiz: 'train', refaire: 'train', cartes: 'train', cliches: 'train', ecos: 'train', outils: 'train', jeu: 'train', exam: 'train', pomodoro: 'train', glossaire: 'train', veille: 'train', annales: 'train', memo: 'train', chiffres: 'train', erreurs: 'moi', reglages: 'moi', app: 'moi', recherche: '' };
   let last = '';
   function route(keepScroll) {
     const h = location.hash.replace(/^#\/?/, ''), parts = h.split('/').map(decodeURIComponent), r = parts[0] || '';
@@ -584,14 +755,24 @@
     const t = S.set.theme === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : S.set.theme;
     document.documentElement.dataset.theme = t;
     const m = document.querySelector('meta[name=theme-color]'); if (m) m.content = t === 'dark' ? '#0e1420' : '#1e3a62';
+    if (P.native && P.native.setBars) { try { P.native.setBars(t === 'dark' ? '#0e1420' : '#1e3a62', t === 'dark' ? '#172131' : '#ffffff', t !== 'dark'); } catch (e) { /* ignore */ } }
   }
   P.start = () => {
     applyTheme();
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
     document.getElementById('app').innerHTML = '<header class="top"><a class="logo" href="#/"><span class="lg">🫁</span><span>Pneumo<span class="lt2"> Révision</span></span></a><span class="sp"></span>' +
-      '<a class="pill" id="stPill" href="#/moi"></a><a class="pill" id="xpPill" href="#/moi"></a><a class="ib" href="#/recherche" aria-label="Rechercher">' + U.ic.search + '</a></header><main id="main"></main>' +
+      '<a class="svd" id="svd" href="#/reglages" title="Progression sauvegardée automatiquement" aria-label="Sauvegarde automatique">💾</a><a class="pill" id="stPill" href="#/moi"></a><a class="pill" id="xpPill" href="#/moi"></a><a class="ib" href="#/recherche" aria-label="Rechercher">' + U.ic.search + '</a></header><main id="main"></main>' +
       '<nav class="nav">' + NAV.map(n => '<a href="#/' + n[0] + '" data-r="' + n[0] + '">' + U.ic[n[1]] + '<span>' + n[2] + '</span></a>').join('') + '</nav>';
     main = document.getElementById('main');
+    // mode mémoire : toucher un mot-clé caché le révèle (avant tout autre clic : glossaire, liens…)
+    document.addEventListener('click', e => {
+      const b = e.target.closest && e.target.closest('b');
+      if (!b || b.classList.contains('shown') || !b.closest('.memo') || b.closest('.chk,.acro,.copt,.readbar,.mbtn')) return;
+      b.classList.add('shown'); e.preventDefault(); e.stopPropagation();
+    }, true);
+    // témoin de sauvegarde dans la barre du haut
+    let svT = 0; const svd = document.getElementById('svd');
+    document.addEventListener('pneumo:saved', () => { if (!svd) return; svd.classList.add('on'); clearTimeout(svT); svT = setTimeout(() => svd.classList.remove('on'), 900); });
     document.addEventListener('click', e => {
       const el = e.target.closest('[data-act]');
       if (!el) return;
@@ -602,5 +783,6 @@
     route();
     P.checkBadges();
     onboard();
+    if (P.isApp) setTimeout(P.checkAppUpdate, 2500);
   };
 })();
