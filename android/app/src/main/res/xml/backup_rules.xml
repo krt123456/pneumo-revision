@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sauvegarde Google (Android 6 à 11) : seulement la copie de la progression. -->
+<full-backup-content>
+    <include domain="file" path="pneumo-state.json" />
+</full-backup-content>
