@@ -165,7 +165,7 @@
     }
     if (P.isApp) h += '<div class="banner info" id="appupd"' + (P.appUpdate ? '' : ' hidden') + '><span class="bi">🆕</span><div class="grow"><b>Nouvelle version de l\'application disponible.</b> Ta progression est conservée.<div style="margin-top:8px"><button class="btn sm green" data-act="appdl">⬇️ Mettre à jour</button></div></div></div>';
     else if (/Android/i.test(UA) && !P.inAppBrowser && (!S.set.appHint || D.diff(today(), S.set.appHint) >= 7) && !(matchMedia && matchMedia('(display-mode: standalone)').matches)) {
-      h += '<div class="banner info"><span class="bi">📱</span><div class="grow"><b>L\'application Android est disponible</b> : sans Internet, en plein écran, progression en double copie.<div style="margin-top:8px"><a class="btn sm" href="#/app">📲 L\'installer</a> <button class="btn sm ghost" data-act="apphint">Plus tard</button></div></div></div>';
+      h += '<div class="banner info" id="apkban"' + (P.apkInfo ? '' : ' hidden') + '><span class="bi">📱</span><div class="grow"><b>L\'application Android est disponible</b> : sans Internet, en plein écran, progression en double copie.<div style="margin-top:8px"><a class="btn sm" href="#/app">📲 L\'installer</a> <button class="btn sm ghost" data-act="apphint">Plus tard</button></div></div></div>';
     }
     return h;
   }
@@ -700,14 +700,19 @@
       });
       return;
     }
-    h += '<div class="card"><h3>🤖 Android : l\'application (fichier APK)</h3><p class="small">Elle marche <b>sans Internet</b>, s\'ouvre comme une vraie application et garde ta progression en double copie.</p><div id="apkinfo" class="small muted">…</div>' +
-      '<a class="btn green block" style="margin:10px 0" href="app/pneumo-revision.apk" download>⬇️ Télécharger l\'application</a>' +
+    h += '<div class="card"><h3>🤖 Android : l\'application (fichier APK)</h3><p class="small">Elle marche <b>sans Internet</b>, s\'ouvre comme une vraie application et garde ta progression en double copie.</p><div id="apkinfo" class="small muted">Recherche du fichier…</div>' +
+      '<a class="btn green block" id="apkdl" hidden style="margin:10px 0" href="app/pneumo-revision.apk" download>⬇️ Télécharger l\'application</a>' +
       '<ol class="small" style="padding-left:18px;margin:6px 0"><li>Touche <b>Télécharger</b>. Si Chrome avertit sur ce type de fichier, choisis <b>Télécharger quand même</b>.</li><li>Ouvre le fichier téléchargé (notification ou dossier Téléchargements).</li><li>Si Android le demande, autorise <b>« Installer des applications inconnues »</b> pour Chrome, puis reviens et touche <b>Installer</b>.</li><li>Si Play Protect affiche un message, touche <b>Plus de détails → Installer quand même</b> : l\'application n\'est simplement pas publiée sur le Play Store.</li></ol>' +
       '<p class="small muted">Tu as déjà commencé ici, dans le navigateur ? Avant d\'installer : Réglages → <b>Mon code de sauvegarde</b> → Copier. Dans l\'application : Réglages → <b>Coller un code</b>.</p></div>' +
       '<div class="card"><h3>' + (ios ? '🍏 iPhone' : '🌐 Autre méthode') + ' : installer depuis le navigateur</h3><p class="small">' + (ios ? 'Dans Safari : bouton <b>Partager</b> → <b>Sur l\'écran d\'accueil</b>.' : 'Dans Chrome : menu <b>⋮</b> → <b>Installer l\'application</b> (ou « Ajouter à l\'écran d\'accueil »). Le site s\'ouvre alors en plein écran et marche aussi hors ligne.') + '</p></div>';
     main.innerHTML = h;
     if (!android && !ios) main.querySelector('#apkinfo').textContent = 'Le fichier APK s\'installe sur un téléphone Android : ouvre cette page sur ton téléphone.';
-    fetchRemoteVersion().then(r => { const el = main.querySelector('#apkinfo'); if (el && r) el.innerHTML = 'Version ' + esc(r.name) + ' · ' + (Math.round(r.size / 1048576 * 10) / 10) + ' Mo · Android 7 ou plus récent' + (android || ios ? '' : '<br>Le fichier APK s\'installe sur un téléphone Android : ouvre cette page sur ton téléphone.'); });
+    fetchRemoteVersion().then(r => {
+      const el = main.querySelector('#apkinfo'), dl = main.querySelector('#apkdl'); if (!el) return;
+      if (!r) { el.innerHTML = 'Le fichier de l\'application arrive très bientôt. En attendant, installe le site depuis le navigateur (ci-dessous) : il marche aussi sans Internet.'; return; }
+      P.apkInfo = r; if (dl) dl.hidden = false;
+      el.innerHTML = 'Version ' + esc(r.name) + ' · ' + (Math.round(r.size / 1048576 * 10) / 10) + ' Mo · Android 7 ou plus récent' + (android || ios ? '' : '<br>Le fichier APK s\'installe sur un téléphone Android : ouvre cette page sur ton téléphone.');
+    });
   };
   ACT.appdl = () => { const url = SITE + 'app/pneumo-revision.apk'; try { P.native.openExternal(url); } catch (e) { location.href = url; } };
   ACT.reset = () => { if (confirm('Effacer TOUTE ta progression sur cet appareil ? (Pense à exporter avant.)') && confirm('Vraiment tout effacer ?')) { P.resetAll(); applyTheme(); location.hash = '#/'; onboard(); } };
@@ -784,5 +789,6 @@
     P.checkBadges();
     onboard();
     if (P.isApp) setTimeout(P.checkAppUpdate, 2500);
+    else if (/Android/i.test(UA) && !P.inAppBrowser) fetchRemoteVersion().then(r => { if (!r) return; P.apkInfo = r; const b = document.getElementById('apkban'); if (b) b.hidden = false; });
   };
 })();

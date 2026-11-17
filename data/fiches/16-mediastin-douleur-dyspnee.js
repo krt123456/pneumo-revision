@@ -328,7 +328,7 @@ PNEUMO.fiche("dyspnee", {
         ["II", "Pour les efforts **intenses**"],
         ["III", "Pour les efforts **modérés**"],
         ["IV", "Au **moindre effort**, de **repos**"]],
-      ["fun", "La respiration de **Cheyne-Stokes** porte le nom de deux médecins irlandais : **John Cheyne** (1818) et **William Stokes** (1854). **Adolf Kussmaul**, médecin allemand, décrivit en 1874 la respiration profonde du coma diabétique."],
+      ["fun", "La respiration de **Cheyne-Stokes** porte le nom de deux médecins de Dublin : l'Écossais **John Cheyne** (1818) et l'Irlandais **William Stokes** (1854). **Adolf Kussmaul**, médecin allemand, décrivit en 1874 la respiration profonde du coma diabétique."],
       ["chk", "Un tirage sus-sternal traduit une gêne :", ["Inspiratoire", "Expiratoire", "Psychologique"], "A", "Obstacle des voies aériennes **hautes**."],
     ]],
     ["Les causes cardiaques et l'embolie pulmonaire", "red", [

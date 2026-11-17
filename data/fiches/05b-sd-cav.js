@@ -1,7 +1,7 @@
 PNEUMO.fiche("sd-cav", {
   e: [
     "**Cavité** = **hyperclarté** parenchymateuse **circonscrite** par une **paroi** ; **syndrome cavitaire** = une ou plusieurs **cavités néoformées**, ± **niveau liquidien** (aspect **hydro-aérique**). Mécanisme : **nécrose** → **évacuation dans une bronche** → l'**air** entre.",
-    "Décrire avant de conclure : **nombre, taille, contenu, paroi** (fine **≤ 2 mm** / épaisse **> 2 mm**), **limites, niveau**, puis le **siège** : « **Nous Trouvons Cette Petite Lésion Noire** ».",
+    "Décrire avant de conclure : **nombre, taille, contenu, paroi** (fine **≤ 2 mm** / épaisse **> 2 mm**), **limites, niveau**, puis le **siège** : « **Nous Trouvons Cette Petite Lésion Noire… Où ?** ».",
     "**Niveau horizontal** → **A**bcès, **C**ancer excavé, **K**yste hydatique rompu (**ACK**) ; **niveau ondulé** = **nénuphar** → **kyste hydatique rompu** ; **croissant gazeux** → kyste **fissuré** ; **grelot** → **aspergillome**, kyste vidé, hématome.",
     "**Caverne tuberculeuse** : **sommet**, paroi **relativement épaisse**, **nodules satellites**, **image en raquette** (bronche de drainage). **Cancer excavé** : paroi **épaisse**, limite interne **anfractueuse**, contours **déchiquetés**.",
     "**Pseudo-cavités** : **bulle d'emphysème** (> 1 cm, **fin liseré**), **rayon de miel** (sous-pleural, 1 à 2 rangées : fibrose), **bronchectasies** (clartés en **grappe**, ± bas-fond liquidien). Ne pas confondre la bulle avec un **pneumatocèle**.",
@@ -31,7 +31,7 @@ PNEUMO.fiche("sd-cav", {
         ["**Limite externe**", "**Nette** ou **floue**", "Floue : cavité **au sein d'un infiltrat** ou d'une **pneumopathie**"],
         ["**Niveau** (déclive)", "**Horizontal** ou **ondulé**", "Horizontal : **abcès** ; ondulé : **kyste hydatique**"],
         ["**Siège**", "Côté, territoire, région", "**Apical, sous-claviculaire** : **caverne** ; basal ou moyen : plusieurs causes"]],
-      ["acro", "Nous Trouvons Cette Petite Lésion Noire", [["N", "**N**ombre"], ["T", "**T**aille"], ["C", "**C**ontenu"], ["P", "**P**aroi"], ["L", "**L**imites (interne et externe)"], ["N", "**N**iveau"]], "Les **6 points** du TD, puis **OÙ ?** (le siège). « Noire » : une cavité est une **clarté**, donc **noire** sur la radio."],
+      ["acro", "Nous Trouvons Cette Petite Lésion Noire… Où ?", [["N", "**N**ombre"], ["T", "**T**aille"], ["C", "**C**ontenu"], ["P", "**P**aroi"], ["L", "**L**imites (interne et externe)"], ["N", "**N**iveau"], ["O", "**O**ù ? le **siège** (côté, territoire, région)"]], "Les **6 points** du TD, puis le **siège**. « Noire » : une cavité est une **clarté**, donc **noire** sur la radio."],
       ["steps", "**Décrire** : nombre • siège • taille.",
         "**Caractériser** : contenu • paroi • limites • niveau.",
         "**Comparer** : cavité **vraie** ou **pseudo-cavité** ?",
@@ -184,7 +184,7 @@ PNEUMO.fiche("sd-cav", {
     ["Le niveau ondulé", "Un niveau hydro-aérique est toujours horizontal.", "Il est **ondulé** dans le **kyste hydatique rompu** : membrane flottante, signe du **nénuphar**.", "La membrane décollée flotte sur le liquide restant.", ""],
     ["Le grelot", "L'image en grelot est spécifique du kyste hydatique.", "Le grelot a **3 causes** : **aspergillome** (souvent en premier), **kyste hydatique vidé** avec rétention de membranes, **hématome** intracavitaire.", "L'ordre dépend du terrain (emphysème ou poumon sain).", "Grelot sur poumon emphysémateux → aspergillome d'abord."],
     ["Le croissant et le grelot", "Croissant gazeux et grelot, c'est la même image.", "**Croissant gazeux** = air **au-dessus d'une opacité pleine** (kyste **fissuré**) ; **grelot** = masse **au fond d'une cavité**, entourée d'air (kyste **vidé**, aspergillome).", "Dans le premier, le kyste est encore plein ; dans le second, il est vidé.", ""],
-    ["Paroi fine ou épaisse", "Toute cavité à paroi fine est une caverne tuberculeuse.", "Paroi **fine ≤ 2 mm** : bulle, kyste ; **épaisse > 2 mm** : abcès, tumeur nécrosée ; la caverne a une paroi **relativement épaisse**.", "", ""],
+    ["Paroi fine ou épaisse", "Une caverne tuberculeuse a une paroi fine, comme une bulle.", "Paroi **fine ≤ 2 mm** : bulle, kyste ; **épaisse > 2 mm** : abcès, tumeur nécrosée ; la caverne a une paroi **relativement épaisse**.", "", ""],
     ["La caverne isolée", "Une caverne tuberculeuse est habituellement isolée.", "Elle est **presque toujours accompagnée** d'autres lésions (nodules, infiltrats), homo- ou controlatérales.", "La tuberculose se dissémine par les bronches.", ""],
     ["La raquette", "L'image en raquette est celle d'un abcès.", "La **raquette** = caverne + **bronche de drainage** → **tuberculose**.", "La bronche de drainage relie la caverne au hile.", ""],
     ["L'image mixte", "Toute image hydro-aérique à niveau horizontal est un abcès.", "On discute **toujours** : **abcès**, **cancer excavé**, **kyste hydatique rompu** (ACK).", "La morphologie oriente mais ne suffit pas : contexte et examens tranchent.", ""],

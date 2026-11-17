@@ -35,6 +35,7 @@ em.red{font-style:normal;color:var(--red);font-weight:700}
 .muted{color:var(--muted)}
 .small{font-size:.85rem}
 .hide{display:none!important}
+[hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 /* ---------- layout ---------- */

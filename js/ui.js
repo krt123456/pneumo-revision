@@ -190,15 +190,15 @@
       T(300, 108, '← paquet vasculo-nerveux (V-A-N) sous le bord INFÉRIEUR de la côte du dessus', { a: 'start', fs: 11, c: '#de3b3b' }) +
       '<path d="M560 160 L215 160" stroke="#1f9d60" stroke-width="5" stroke-linecap="round"/><path d="M215 160 l18 -8 v16z" fill="#1f9d60"/>' +
       T(390, 150, 'Aiguille : au RAS du bord SUPÉRIEUR de la côte inférieure', { fs: 12, c: '#1f9d60', w: 800 }) +
-      T(390, 250, 'Patient assis, penché en avant · sous la matité · 1 à 2 espaces sous la limite supérieure', { fs: 11, w: 500 })),
+      T(390, 234, 'Patient assis, penché en avant · en pleine matité, ponction déclive', { fs: 11, w: 500 }) + T(390, 252, '7e–8e espace intercostal = 1 à 2 espaces sous la pointe de l\'omoplate', { fs: 11, w: 700 })),
     drainage: () => SV(600, 330,
       '<path d="M200 30 Q300 10 400 30 L440 300 Q300 320 160 300 Z" fill="var(--soft)" stroke="var(--muted)" stroke-width="2"/>' +
       [70, 105, 140, 175, 210, 245].map(y => '<path d="M190 ' + y + ' Q300 ' + (y - 14) + ' 410 ' + y + '" stroke="var(--line)" stroke-width="5" fill="none"/>').join('') +
       '<path d="M300 22 V300" stroke="var(--muted)" stroke-dasharray="4 4"/>' +
-      '<circle cx="245" cy="92" r="11" fill="#2f6fde"/>' + T(150, 80, 'PNO : 2e espace', { a: 'end', fs: 12, c: '#2f6fde', w: 800 }) + T(150, 96, 'intercostal, ligne', { a: 'end', fs: 12, c: '#2f6fde', w: 500 }) + T(150, 112, 'médio-claviculaire', { a: 'end', fs: 12, c: '#2f6fde', w: 500 }) +
+      '<circle cx="245" cy="92" r="11" fill="#2f6fde"/>' + T(150, 80, 'PNO : 2e–3e espace', { a: 'end', fs: 12, c: '#2f6fde', w: 800 }) + T(150, 96, 'intercostal, ligne', { a: 'end', fs: 12, c: '#2f6fde', w: 500 }) + T(150, 112, 'médio-claviculaire', { a: 'end', fs: 12, c: '#2f6fde', w: 500 }) +
       '<path d="M157 95 L232 92" stroke="#2f6fde" stroke-width="2"/>' +
-      '<circle cx="420" cy="200" r="11" fill="#1f9d60"/>' + T(455, 180, 'Liquide (ou PNO) :', { a: 'start', fs: 12, c: '#1f9d60', w: 800 }) + T(455, 196, '4e–5e espace,', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) + T(455, 212, 'ligne axillaire', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) + T(455, 228, 'moyenne', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) +
-      T(300, 325, 'Triangle de sécurité : bord du grand pectoral, bord du grand dorsal, ligne du mamelon', { fs: 11, w: 500 })),
+      '<circle cx="420" cy="200" r="11" fill="#1f9d60"/>' + T(455, 180, 'Liquide :', { a: 'start', fs: 12, c: '#1f9d60', w: 800 }) + T(455, 196, '4e–5e espace,', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) + T(455, 212, 'ligne axillaire', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) + T(455, 228, 'moyenne', { a: 'start', fs: 12, c: '#1f9d60', w: 500 }) +
+      T(300, 325, 'Complément : triangle de sécurité (grand pectoral, grand dorsal, ligne du mamelon)', { fs: 11, w: 500 })),
     tnm: () => {
       const cats = [['T1a', 1, '≤ 1 cm'], ['T1b', 2, '> 1 à 2'], ['T1c', 3, '> 2 à 3'], ['T2a', 4, '> 3 à 4'], ['T2b', 5, '> 4 à 5'], ['T3', 7, '> 5 à 7'], ['T4', 8.5, '> 7 cm']];
       const cols = ['#9cc3ff', '#6fa6ff', '#2f6fde', '#f2b400', '#e2761b', '#de3b3b', '#9b1c1c'];
@@ -262,9 +262,9 @@
 
   /* ---------- calculateurs interactifs ---------- */
   const chk = (n, lab, pts) => '<label class="cr"><input type="checkbox" name="' + n + '" data-p="' + (pts || 1) + '"><span class="grow">' + lab + '</span>' + (pts && pts !== 1 ? '<span class="chip">' + String(pts).replace('.', ',') + '</span>' : '') + '</label>';
-  const num = (n, lab, ph) => '<label class="cr"><span class="grow">' + lab + '</span><input class="input" type="number" step="any" inputmode="decimal" name="' + n + '" placeholder="' + (ph || '') + '"></label>';
+  const num = (n, lab, ph) => '<label class="cr"><span class="grow">' + lab + '</span><input class="input" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" name="' + n + '" placeholder="' + (ph || '') + '"></label>';
   const sumChecks = el => [...el.querySelectorAll('input[type=checkbox]:checked')].reduce((a, i) => a + +i.dataset.p, 0);
-  const val = (el, n) => { const v = el.querySelector('[name=' + n + ']').value; return v === '' ? null : +String(v).replace(',', '.'); };
+  const val = (el, n) => { const v = String(el.querySelector('[name=' + n + ']').value).trim().replace(/\s/g, '').replace(',', '.'); if (v === '' || isNaN(+v)) return null; return +v; };
   const fr = x => String(Math.round(x * 100) / 100).replace('.', ',');
   const FQ = [['Première cigarette après le réveil', [['après 60 min', 0], ['31 à 60 min', 1], ['6 à 30 min', 2], ['dans les 5 min', 3]]], ['Difficile de ne pas fumer là où c\'est interdit ?', [['non', 0], ['oui', 1]]], ['Cigarette la plus dure à abandonner', [['une autre', 0], ['la première du matin', 1]]], ['Cigarettes par jour', [['10 ou moins', 0], ['11 à 20', 1], ['21 à 30', 2], ['31 ou plus', 3]]], ['Fume davantage le matin ?', [['non', 0], ['oui', 1]]], ['Fume même malade, alité ?', [['non', 0], ['oui', 1]]]];
   P.calcs = {
@@ -284,7 +284,7 @@
         if (lp != null && lsn) { n++; const r = lp > 2 / 3 * lsn; if (r) ex++; c.push('LDH pl ' + (r ? '> 2/3 de la normale ✓' : '≤ 2/3 de la normale')); }
         const simple = pp != null ? '<br>Règle du TD : protides ' + fr(pp) + ' g/L → ' + (pp > 35 ? '**exsudat** (> 35 g/L)' : pp < 25 ? '**transsudat** (< 25 g/L)' : 'zone grise (25–35 g/L) : ce sont les critères de Light qui tranchent') : '';
         if (!n) return 'Entre au moins les protides pleuraux et sériques.' + simple;
-        return c.join('<br>') + '<br><b class="big">' + (ex ? 'EXSUDAT' : 'TRANSSUDAT') + '</b> (' + (ex ? 'au moins 1 critère' : 'aucun critère') + ')' + simple;
+        return c.join('<br>') + '<br>→ **' + (ex ? 'EXSUDAT' : 'TRANSSUDAT') + '** (' + (ex ? 'au moins 1 critère' : 'aucun critère') + ')' + simple;
       } },
     wells: { t: 'Score de Wells (embolie pulmonaire)', h: () => chk('a', 'Signes cliniques de TVP', 3) + chk('b', 'Autre diagnostic moins probable que l\'EP', 3) + chk('c', 'FC > 100/min', 1.5) + chk('d', 'Immobilisation ≥ 3 j ou chirurgie < 4 semaines', 1.5) + chk('e', 'Antécédent de TVP ou d\'EP', 1.5) + chk('f', 'Hémoptysie', 1) + chk('g', 'Cancer actif', 1),
       f: el => { const s = sumChecks(el); return 'Score = **' + fr(s) + '** → probabilité **' + (s >= 7 ? 'forte (≥ 7)' : s >= 2 ? 'moyenne (2–6)' : 'faible (0–1)') + '**<br>' + (s >= 7 ? 'Forte : **angioscanner thoracique** d\'emblée (scintigraphie si insuffisance rénale ou grossesse)' : 'Faible ou moyenne : **D-dimères** d\'abord ; < 500 µg/L (après 50 ans : < âge × 10) = EP écartée ; sinon angioscanner'); } },
@@ -354,6 +354,57 @@
         const g = st.indexOf('IV') === 0 ? 'stade métastatique : traitement systémique (thérapie ciblée si mutation)' : (st.indexOf('III') === 0 || N[1] === '2' || N === 'N3') ? 'atteinte médiastinale ou stade III : décision en RCP (chirurgie, radio-chimiothérapie, traitement systémique)' : st[0] === 'I' ? 'stades I–II : chirurgie de référence si le patient est opérable (décision en RCP)' : '';
         return T + ' ' + N + ' ' + M + ' → **stade ' + st + '**' + (g ? '<br>' + g : '');
       } },
+    tm6: { t: 'Test de marche de 6 minutes : distance théorique', h: () => num('ta', 'Taille (cm)', '175') + num('ag', 'Âge (ans)', '75') + num('po', 'Poids (kg)', '85') + '<label class="cr"><span class="grow">Sexe</span><select class="input" name="sx" style="max-width:170px"><option value="1">homme</option><option value="0">femme</option></select></label>' + num('di', 'Distance parcourue (m), facultatif', '480') + num('sp', 'SpO2 la plus basse pendant le test (%), facultatif', '91'),
+      f: el => {
+        const ta = val(el, 'ta'), ag = val(el, 'ag'), po = val(el, 'po'), sx = +el.querySelector('[name=sx]').value, di = val(el, 'di'), sp = val(el, 'sp');
+        if (ta == null || ag == null || po == null) return 'Entre la taille, l\'âge et le poids.';
+        const th = 218 + 5.14 * ta - 5.32 * ag - 1.8 * po + 51.31 * sx;
+        let o = 'Distance théorique = 218 + 5,14 × ' + fr(ta) + ' − 5,32 × ' + fr(ag) + ' − 1,8 × ' + fr(po) + ' + 51,31 × ' + sx + ' = **' + Math.round(th) + ' m**';
+        if (di != null && th > 0) o += '<br>Distance parcourue : ' + fr(di) + ' m, soit **' + Math.round(100 * di / th) + ' %** de la distance théorique';
+        if (sp != null) o += '<br>' + (sp < 80 ? 'SpO2 ' + fr(sp) + ' % : **désaturation < 80 %** → arrêter le test si elle est mal tolérée' : 'SpO2 la plus basse : ' + fr(sp) + ' %');
+        return o;
+      } },
+    tbcp: { t: 'Antituberculeux : comprimés selon le poids', h: () => num('kg', 'Poids (kg)', '60') + '<label class="cr"><span class="grow">Situation</span><select class="input" name="md" style="max-width:170px"><option value="t">tuberculose maladie</option><option value="i">infection latente (RH 3 mois)</option></select></label>',
+      f: el => {
+        const kg = val(el, 'kg'), itl = el.querySelector('[name=md]').value === 'i';
+        if (kg == null) return 'Entre le poids.';
+        if (itl) {
+          if (kg < 4) return 'Poids trop faible pour le tableau : avis spécialisé.';
+          if (kg < 25) { const n = kg < 8 ? 1 : kg < 12 ? 2 : kg < 16 ? 3 : 4; return fr(kg) + ' kg → **' + n + ' comprimé' + (n > 1 ? 's' : '') + ' de RH enfant (75/50) par jour**, pendant 3 mois.<br>Tableau enfant : 4–7 kg → 1 · 8–11 → 2 · 12–15 → 3 · 16–24 → 4 · ≥ 25 kg → forme adulte.'; }
+          const n = kg < 38 ? 2 : kg < 55 ? 3 : kg < 71 ? 4 : 5;
+          return fr(kg) + ' kg → **' + n + ' comprimés de RH adulte (150/75) par jour**, pendant 3 mois.<br>Tableau adulte : 25–37 kg → 2 · 38–54 → 3 · 55–70 → 4 · ≥ 71 kg → 5.';
+        }
+        if (kg < 30) return 'Moins de 30 kg : formes pédiatriques, dose calculée en mg/kg par le médecin.';
+        const n = kg < 38 ? 2 : kg < 55 ? 3 : kg < 71 ? 4 : 5;
+        return fr(kg) + ' kg → **' + n + ' comprimés par jour** de RHZE (150/75/400/275) pendant la phase intensive, puis **' + n + ' comprimés de RH (150/75)** pendant la phase d\'entretien, le matin à jeun.<br>Bandes de poids : 30–37 kg → 2 · 38–54 → 3 · 55–70 → 4 · ≥ 71 kg → 5.';
+      } },
+    gold: { t: 'BPCO : stade GOLD et groupe A, B ou E', h: () => num('ti', 'VEMS/CVF après bronchodilatateur', '0,62') + num('v', 'VEMS (% de la valeur théorique)', '45') + num('m', 'Dyspnée mMRC (0 à 4)', '2') + num('cat', 'Score CAT (0 à 40), facultatif', '') + num('ex', 'Exacerbations modérées en 1 an', '1') + chk('h', 'Au moins 1 exacerbation hospitalisée', 0),
+      f: el => {
+        const ti = val(el, 'ti'), v = val(el, 'v'), m = val(el, 'm'), cat = val(el, 'cat'), ex = val(el, 'ex'), h = el.querySelector('[name=h]').checked;
+        if (ti != null && ti >= 0.7) return 'VEMS/CVF = ' + fr(ti) + ' ≥ 0,70 : **pas de trouble ventilatoire obstructif**, donc pas de BPCO (il faut VEMS/CVF < 0,70 après bronchodilatateur).';
+        const out = [];
+        if (ti != null) out.push('VEMS/CVF = ' + fr(ti) + ' < 0,70 : **obstruction** confirmée');
+        if (v != null) out.push('VEMS ' + fr(v) + ' % → **GOLD ' + (v >= 80 ? '1 (léger, ≥ 80 %)' : v >= 50 ? '2 (modéré, 50–79 %)' : v >= 30 ? '3 (sévère, 30–49 %)' : '4 (très sévère, < 30 %)') + '**');
+        if (m != null || cat != null || ex != null || h) {
+          const E = (ex != null && ex >= 2) || h, sy = (m != null && m >= 2) || (cat != null && cat >= 10);
+          out.push('Groupe **' + (E ? 'E' : sy ? 'B' : 'A') + '** : ' + (E ? '≥ 2 exacerbations modérées ou ≥ 1 hospitalisée' : sy ? 'peu d\'exacerbations, symptômes importants (mMRC ≥ 2 ou CAT ≥ 10)' : 'peu d\'exacerbations et peu de symptômes'));
+          out.push('Traitement de départ : ' + (E ? '**LAMA + LABA** (ajouter un CSI si éosinophiles ≥ 300/µL)' : sy ? '**LAMA + LABA**' : '**un bronchodilatateur**'));
+        }
+        return out.join('<br>') || 'Entre le rapport VEMS/CVF, le VEMS et les symptômes.';
+      } },
+    old: { t: 'Oxygénothérapie de longue durée (OLD) : indiquée ?', h: () => num('o2', 'PaO2 à l\'état stable, en air ambiant (mmHg)', '57') + '<label class="cr"><span class="grow">Maladie</span><select class="input" name="ty" style="max-width:170px"><option value="b">BPCO</option><option value="r">insuffisance respiratoire restrictive</option></select></label>' + chk('p', '**P**olyglobulie (hématocrite > 55 %)', 0) + chk('hh', '**H**ypertension pulmonaire', 0) + chk('i', '**I**nsuffisance cardiaque droite', 0),
+      f: el => {
+        const o2 = val(el, 'o2'), r = el.querySelector('[name=ty]').value === 'r', phi = ['p', 'hh', 'i'].some(k => el.querySelector('[name=' + k + ']').checked);
+        if (o2 == null) return 'Entre la PaO2 mesurée à l\'état stable (à distance d\'une exacerbation).';
+        let yes, why;
+        if (r) { yes = o2 < 60; why = 'maladie restrictive : seuil PaO2 < 60 mmHg'; }
+        else if (o2 < 55) { yes = true; why = 'PaO2 < 55 mmHg'; }
+        else if (o2 <= 60) { yes = phi; why = 'PaO2 entre 55 et 60 mmHg : il faut au moins un critère « PHI »' + (phi ? ' (présent)' : ' (absent)'); }
+        else { yes = false; why = 'PaO2 > 60 mmHg'; }
+        return (yes ? '**OLD indiquée**' : '**OLD non indiquée**') + ' : ' + why + '.' + (yes ? '<br>Au moins **15 h par jour**, débit réglé pour une PaO2 > 60 mmHg (SpO2 > 90 %), et arrêt du tabac.' : '') + (o2 < 70 ? '<br>PaO2 < 70 mmHg à l\'état stable : insuffisance respiratoire chronique.' : '');
+      } },
+    asthctl: { t: 'Asthme : contrôlé ? (4 dernières semaines)', h: () => chk('a', 'Symptômes dans la journée plus de 2 fois par semaine', 1) + chk('b', 'Au moins un réveil nocturne dû à l\'asthme', 1) + chk('c', 'Bronchodilatateur de secours plus de 2 fois par semaine', 1) + chk('d', 'Limitation des activités due à l\'asthme', 1),
+      f: el => { const s = sumChecks(el); return s === 0 ? '**Asthme contrôlé** (code 2-0-2-0 respecté) → garder le traitement, puis envisager de le diminuer' : s <= 2 ? '**Partiellement contrôlé** (' + s + ' critère' + (s > 1 ? 's' : '') + ') → vérifier observance, technique d\'inhalation et exposition, puis augmenter si besoin' : '**Non contrôlé** (' + s + ' critères) → vérifier observance, technique et exposition, puis augmenter le traitement'; } },
     tsize: { t: 'TNM : quel T selon la taille ?', h: () => num('s', 'Plus grand axe de la tumeur (cm)', '3,5'),
       f: el => { const s = val(el, 's'); if (s == null) return 'Le T dépend aussi de l\'extension (plèvre, médiastin, nodules…).'; const t = s <= 1 ? 'T1a' : s <= 2 ? 'T1b' : s <= 3 ? 'T1c' : s <= 4 ? 'T2a' : s <= 5 ? 'T2b' : s <= 7 ? 'T3' : 'T4'; return 'Taille ' + fr(s) + ' cm → **' + t + '** (sur la taille seule ; l\'extension peut faire monter le T)'; } },
   };

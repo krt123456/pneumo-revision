@@ -96,7 +96,7 @@ PNEUMO.fiche("saos", {
         "Sous OAM : **polygraphie à 3 mois** ; objectif : IAH **réduit d'au moins 50 %**."],
       ["crs", "Le cours écrit « IAH **> 30/h** » pour la PPC et « entre 15 et 30 » pour l'OAM, mais « **≥ 30** » pour la forme sévère et pour la polygraphie : ne vous laissez pas piéger par la valeur frontière, retenez **sévère = PPC**. Le cours ne donne pas d'indication de PPC ni d'OAM pour un IAH **< 15** : les **mesures générales** valent pour tous."],
       ["pie", "**Benzodiazépines**, **morphiniques** et **alcool du soir** **aggravent** les apnées : jamais de « somnifère » pour un apnéique qui dort mal."],
-      ["fun", "La PPC a été inventée en **1981** par l'Australien **Colin Sullivan**, dont le premier prototype soufflait l'air grâce à un **moteur d'aspirateur** (complément)."],
+      ["fun", "La PPC a été décrite en **1981** par l'Australien **Colin Sullivan**, dont le premier prototype soufflait l'air grâce à un **moteur d'aspirateur** (complément)."],
       ["chk", "IAH = **24/h**, pas de maladie cardiovasculaire grave, dents saines. Quel traitement en **1re intention** ?", ["La PPC", "L'orthèse d'avancée mandibulaire", "Une benzodiazépine le soir"], "B", "IAH 15–30 **sans** maladie CV grave : **OAM** en 1re intention (plus efficiente que la PPC dans ce cas)."],
     ]],
     ["Les chiffres à connaître", "pink", [
