@@ -112,7 +112,7 @@
       const it = items[i], l = P.lesson(it.lid);
       U.resetTerms();
       let h = '<div class="qz"><div class="qn"><span>Question ' + (i + 1) + '/' + items.length + (l ? ' · ' + esc(l.s || l.t) : '') + '</span><span class="qtime">' + (opt.exam ? '' : '✓ ' + ok) + '</span></div><div class="bar" style="margin-bottom:10px"><i style="width:' + (100 * i / items.length) + '%"></i></div>';
-      if (it.cas) h += '<div class="case">🩺 ' + md(it.cas) + '</div>';
+      if (it.cas) h += '<div class="case">🏥 ' + md(it.cas) + '</div>';
       h += '<div class="stem">' + (it.type === 'vf' ? '<span class="chip purple" style="margin-right:6px">Vrai ou faux ?</span>' : '') + md(it.s) + '</div>';
       const confH = S.set.conf && !opt.compact ? '<div class="conf"><span class="muted">Ma confiance' + (it.type === 'vf' ? ' (avant de répondre)' : '') + ' :</span>' + [['sur', 'Sûr'], ['hesite', 'J\'hésite'], ['hasard', 'Au hasard']].map(([k, t]) => '<button data-c="' + k + '" class="' + (conf === k ? 'on' : '') + '">' + t + '</button>').join('') + '</div>' : '';
       if (it.type === 'vf') h += confH + '<div class="vf">' + [['V', 'Vrai'], ['F', 'Faux']].map(([k, t]) => '<button class="opt" data-o="' + k + '">' + t + '</button>').join('') + '</div>';

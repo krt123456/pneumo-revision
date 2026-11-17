@@ -36,7 +36,7 @@
     if (k === 'calc') return U.calcHTML(a[0]);
     if (k === 'img') return '<figure class="svgfig"><img src="' + esc(a[0]) + '" alt="" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px">' + (a[1] ? '<figcaption>' + md(a[1]) + '</figcaption>' : '') + '</figure>';
     if (k === 'cards') return '<div class="cards">' + a.map(c => '<div style="--cc:' + (SC[c[2]] || SC.blue) + '"><h4>' + md(c[0]) + '</h4><p>' + md(c[1]) + '</p></div>').join('') + '</div>';
-    if (k === 'acro') return '<div class="acro"><div class="cl">🧩 Moyen mnémotechnique <button type="button" class="ahide" data-act="acrohide" aria-label="Cacher les sens pour me tester">🙈 Me tester</button></div><div class="aw">' + md(a[0], true) + '</div><div class="al">' +
+    if (k === 'acro') return '<div class="acro"><div class="cl">🔑 Moyen mnémotechnique <button type="button" class="ahide" data-act="acrohide" aria-label="Cacher les sens pour me tester">🙈 Me tester</button></div><div class="aw">' + md(a[0], true) + '</div><div class="al">' +
       (a[1] || []).map((p, j) => '<div class="ar" data-act="arow" style="--ac:' + ACOL[j % ACOL.length] + '"><b>' + esc(p[0]) + '</b><span>' + md(p[1]) + '</span></div>').join('') + '</div>' + (a[2] ? '<div class="an">' + md(a[2]) + '</div>' : '') + '</div>';
     if (k === 'nums') return '<div class="knum"><div class="cl">🔢 Les chiffres à connaître</div><div class="ng">' + a.map(p => '<div class="nt"><b>' + md(p[0], true) + '</b><span>' + md(p[1]) + '</span></div>').join('') + '</div></div>';
     return '';
@@ -63,7 +63,7 @@
     (p[4] ? '<div class="ln l4"><span class="ic">✎ Exemple</span><div class="tx' + (hide ? ' hid" data-act="unhide' : '') + '">' + md(p[4]) + '</div></div>' : '') + '</div>').join('');
 
   /* ---------- tâches ---------- */
-  const TK = { lesson: ['📘', 'Étudier'], annales: ['📝', 'Annales et QCM'], cliches: ['🩻', 'Clichés (3 min chacun)'], ecos: ['🎤', 'ECOS (oral)'], extra: ['📌', 'Ajouté par toi'] };
+  const TK = { lesson: ['📘', 'Étudier'], annales: ['📝', 'Annales et QCM'], cliches: ['🖼️', 'Clichés (3 min chacun)'], ecos: ['🎤', 'ECOS (oral)'], extra: ['📌', 'Ajouté par toi'] };
   function taskRow(t, late) {
     const done = P.isDone(t), l = t.lid && P.lesson(t.lid), k = TK[t.k];
     let title, desc = '', acts = '';
@@ -200,7 +200,7 @@
       tile('#/cartes', '🃏', 'Cartes du jour', cardsN ? cardsN + ' carte' + (cardsN > 1 ? 's' : '') + ' à réviser' : 'Rien à réviser pour l\'instant') +
       tile('#/refaire', '🔁', 'Refaire mes erreurs', wrongN ? wrongN + ' question' + (wrongN > 1 ? 's' : '') + ' ratée' + (wrongN > 1 ? 's' : '') + ' à retenter' : 'Aucune erreur en attente') +
       tile('#/quiz', '🧠', 'Quiz mélangé', 'Questions de tous tes cours étudiés') +
-      tile('#/cliches', '🩻', 'Clichés au chrono', '3 minutes par radio, comme à l\'examen') + '</div>';
+      tile('#/cliches', '🖼️', 'Clichés au chrono', '3 minutes par radio, comme à l\'examen') + '</div>';
     const weak = P.lessons.filter(l => P.isStudied(l.id) && S.qs[l.id] && S.qs[l.id].n >= 4 && P.mastery(l.id) < 70).sort((a, b) => P.mastery(a.id) - P.mastery(b.id))[0];
     if (weak) h += '<div class="banner info" style="margin-top:12px"><span class="bi">🎯</span><div class="grow"><b>Ton point faible : ' + esc(weak.t) + '</b> (' + P.mastery(weak.id) + ' % de bonnes réponses). Relis les pièges puis refais le quiz.<div class="ta" style="margin-top:7px;display:flex;gap:6px"><a class="btn xs" href="#/c/' + weak.id + '/pieges">Pièges</a><a class="btn xs ghost" href="#/c/' + weak.id + '/quiz">Quiz</a></div></div></div>';
     const dl2 = P.day(t);
@@ -418,13 +418,13 @@
       tile('#/quiz', '🧠', 'Quiz mélangé', 'V/F, QCM et cas cliniques de tes cours, mélangés') +
       tile('#/refaire', '🔁', 'Refaire mes erreurs', wrongN + ' question' + (wrongN > 1 ? 's' : '') + ' à retenter') +
       tile('#/cartes', '🃏', 'Cartes (répétition espacée)', cardsN + ' carte' + (cardsN > 1 ? 's' : '') + ' aujourd\'hui') +
-      tile('#/memo', '🧩', 'Astuces mémo', 'Tous les moyens mnémotechniques, pour se tester') +
+      tile('#/memo', '🔑', 'Astuces mémo', 'Tous les moyens mnémotechniques, pour se tester') +
       tile('#/chiffres', '🔢', 'Chiffres clés', 'Les seuils à savoir par cœur + jeu « Le juste chiffre »') +
       tile('#/cible', '🎯', 'Déjà tombé à l\'examen', 'Tous les faits demandés aux annales, cours par cours') +
-      tile('#/cliches', '🩻', 'Clichés au chrono', 'Trouve l\'anomalie en 3 minutes') +
+      tile('#/cliches', '🖼️', 'Clichés au chrono', 'Trouve l\'anomalie en 3 minutes') +
       tile('#/ecos', '🎤', 'ECOS', 'Oral de 2 minutes sur chaque TD, avec grille') +
       tile('#/jeu', '🕵️', 'Qui suis-je ?', 'Devine la maladie avec le moins d\'indices') +
-      tile('#/outils', '🧮', 'Calculateurs', 'Gazométrie, EFR, Light, Wells, CRB-65…') +
+      tile('#/outils', '🔢', 'Calculateurs', 'Gazométrie, EFR, Light, Wells, CRB-65…') +
       tile('#/exam', '🎓', 'Examen blanc', 'QCM et cas chronométrés, correction et bilan par cours') +
       tile('#/pomodoro', '🍅', 'Pomodoro', '25 min de concentration, 5 min de pause') +
       tile('#/glossaire', '📖', 'Glossaire', 'Les mots difficiles, en français et en arabe') +
@@ -443,7 +443,7 @@
     main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🃏 ' + (vocab ? 'Cartes de vocabulaire' : 'Cartes du jour') + '</h1><p class="small muted">' + (vocab ? 'Les mots difficiles du glossaire.' : 'Les pièges et les vrai/faux des cours que tu as étudiés, à intervalles croissants (boîtes de Leitner).') + ' <a href="#/cartes' + (vocab ? '' : '/vocab') + '">' + (vocab ? 'Cartes du jour' : 'Cartes de vocabulaire') + ' →</a></p><div id="cz"></div>';
     P.C.run(main.querySelector('#cz'), vocab ? P.glossCards().sort(() => Math.random() - .5) : P.cardsDue(), { free: vocab });
   };
-  V.cliches = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🩻 Clichés au chrono</h1><div id="xz"></div>'; P.X.run(main.querySelector('#xz')); };
+  V.cliches = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🖼️ Clichés au chrono</h1><div id="xz"></div>'; P.X.run(main.querySelector('#xz')); };
   V.ecos = id => {
     const tds = P.lessons.filter(l => P.F[l.id] && P.F[l.id].k);
     if (id) { main.innerHTML = '<a href="#/ecos" class="small">← ECOS</a><div id="ez" style="margin-top:8px"></div>'; P.E.run(main.querySelector('#ez'), id); return; }
@@ -452,7 +452,7 @@
       (tds.length ? '' : '<div class="card empty">Les grilles ECOS arrivent avec les fiches des TD.</div>');
   };
   V.outils = () => {
-    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🧮 Calculateurs</h1><p class="small muted">Entre les valeurs d\'un cas clinique : le calculateur explique le raisonnement étape par étape.</p>' + Object.keys(P.calcs).map(k => U.calcHTML(k)).join('');
+    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">📐 Calculateurs</h1><p class="small muted">Entre les valeurs d\'un cas clinique : le calculateur explique le raisonnement étape par étape.</p>' + Object.keys(P.calcs).map(k => U.calcHTML(k)).join('');
     U.bindCalcs(main);
   };
   V.jeu = () => { main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🕵️ Qui suis-je ?</h1><div id="gz"></div>'; P.G.run(main.querySelector('#gz')); };
@@ -474,7 +474,7 @@
     U.disableTerms();
     const ls = P.lessons.filter(l => { const m = P.memoOf(l.id); return m.acro.length || m.ast.length; });
     const n = ls.reduce((s, l) => { const m = P.memoOf(l.id); return s + m.acro.length + m.ast.length; }, 0);
-    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🧩 Astuces mémo</h1><p class="small muted">' + n + ' moyens mnémotechniques tirés des fiches. La bonne méthode : lis le mot-clé, récite à voix haute ce qu\'il cache, puis vérifie (mode mémoire ou « Me tester »).</p>' +
+    main.innerHTML = '<h1 style="font-size:1.35rem;margin-bottom:6px">🔑 Astuces mémo</h1><p class="small muted">' + n + ' moyens mnémotechniques tirés des fiches. La bonne méthode : lis le mot-clé, récite à voix haute ce qu\'il cache, puis vérifie (mode mémoire ou « Me tester »).</p>' +
       '<div class="row wrap" style="margin-bottom:12px">' + memoBtn() + '<a class="btn sm ghost" href="#/chiffres">🔢 Chiffres clés</a></div>' +
       '<div id="mm" data-memo-scope class="' + (S.set.memo ? 'memo' : '') + '">' + (ls.length ? ls.map(l => { const m = P.memoOf(l.id); return '<div class="card"><h3 style="margin-bottom:6px"><a href="#/c/' + l.id + '" style="color:' + gc(l)[0] + '">' + esc(lname(l)) + '</a></h3><div class="sec-b">' + P.blocks(m.acro.concat(m.ast)) + '</div></div>'; }).join('') : '<div class="card empty">Les astuces arrivent avec les fiches.</div>') + '</div>';
   };
@@ -575,15 +575,15 @@
     const L = P.level(), studied = P.lessons.filter(l => P.isStudied(l.id)).length;
     const qn = Object.values(S.qs).reduce((a, b) => a + b.n, 0), qok = Object.values(S.qs).reduce((a, b) => a + b.ok, 0);
     const revN = Object.values(S.L).reduce((a, l) => a + ((l.hist || []).length), 0);
-    let h = '<div class="card"><div class="lvl"><div class="av">🩺</div><div class="grow"><div class="small muted" style="font-weight:800">NIVEAU ' + L.L + '</div><h2>' + esc(L.title) + '</h2><div class="bar" style="margin-top:8px"><i style="width:' + L.pct + '%"></i></div><div class="small muted" style="margin-top:4px">' + (L.L >= P.LEVELS.length ? S.xp + ' XP · niveau maximal atteint 🏆' : S.xp + ' / ' + L.to + ' XP pour le niveau suivant') + '</div></div></div></div>';
+    let h = '<div class="card"><div class="lvl"><div class="av">🎓</div><div class="grow"><div class="small muted" style="font-weight:800">NIVEAU ' + L.L + '</div><h2>' + esc(L.title) + '</h2><div class="bar" style="margin-top:8px"><i style="width:' + L.pct + '%"></i></div><div class="small muted" style="margin-top:4px">' + (L.L >= P.LEVELS.length ? S.xp + ' XP · niveau maximal atteint 🏆' : S.xp + ' / ' + L.to + ' XP pour le niveau suivant') + '</div></div></div></div>';
     h += '<div class="kpi"><div><b>🔥 ' + P.streak() + '</b><span>jours de suite</span></div><div><b>' + studied + '/' + P.lessons.length + '</b><span>cours étudiés</span></div><div><b>' + revN + '</b><span>révisions faites</span></div><div><b>' + qn + '</b><span>questions</span></div><div><b>' + (qn ? Math.round(100 * qok / qn) + ' %' : '—') + '</b><span>bonnes réponses</span></div><div><b>' + (S.cli.n || 0) + '</b><span>clichés lus</span></div></div>';
     h += '<div class="h-sec"><h2>📈 XP des 14 derniers jours</h2></div><div class="card">' + barChart(Array.from({ length: 14 }, (_, i) => { const d = D.add(today(), i - 13); return [D.short(d), S.xpd[d] || 0]; })) + '</div>';
     const sc = Object.keys(S.days).sort().filter(d => S.days[d].qcm != null).slice(-20);
     if (sc.length >= 2) h += '<div class="h-sec"><h2>🎯 Score QCM par jour</h2></div><div class="card">' + lineChart(sc.map(d => [D.short(d), S.days[d].qcm])) + '</div>';
     const ml = P.lessons.filter(l => S.qs[l.id] && S.qs[l.id].n >= 3).sort((a, b) => P.mastery(a.id) - P.mastery(b.id));
-    if (ml.length) h += '<div class="h-sec"><h2>🧩 Maîtrise par cours</h2></div><div class="card">' + ml.map(l => '<a href="#/c/' + l.id + '/quiz" style="display:block;color:var(--ink);margin:7px 0"><div class="row small"><span class="grow">' + esc(l.t) + '</span><b>' + P.mastery(l.id) + ' %</b></div><div class="bar' + (P.mastery(l.id) >= 70 ? ' green' : '') + '"><i style="width:' + P.mastery(l.id) + '%"></i></div></a>').join('') + '</div>';
+    if (ml.length) h += '<div class="h-sec"><h2>🔑 Maîtrise par cours</h2></div><div class="card">' + ml.map(l => '<a href="#/c/' + l.id + '/quiz" style="display:block;color:var(--ink);margin:7px 0"><div class="row small"><span class="grow">' + esc(l.t) + '</span><b>' + P.mastery(l.id) + ' %</b></div><div class="bar' + (P.mastery(l.id) >= 70 ? ' green' : '') + '"><i style="width:' + P.mastery(l.id) + '%"></i></div></a>').join('') + '</div>';
     const cal = S.cal || {};
-    if (Object.keys(cal).length) h += '<div class="h-sec"><h2>🧭 Ta confiance est-elle juste ?</h2></div><div class="card small">' + [['sur', 'Sûr de moi'], ['hesite', 'J\'hésitais'], ['hasard', 'Au hasard']].map(([k, n]) => cal[k] ? '<div class="row" style="margin:5px 0"><span class="grow">' + n + '</span><b>' + Math.round(100 * cal[k][1] / cal[k][0]) + ' % justes</b><span class="muted">(' + cal[k][0] + ')</span></div>' : '').join('') + '<p class="muted" style="margin:6px 0 0">Si « Sûr de moi » est sous 85 %, tu te fais piéger par des certitudes : relis les pièges.</p></div>';
+    if (Object.keys(cal).length) h += '<div class="h-sec"><h2>⚖️ Ta confiance est-elle juste ?</h2></div><div class="card small">' + [['sur', 'Sûr de moi'], ['hesite', 'J\'hésitais'], ['hasard', 'Au hasard']].map(([k, n]) => cal[k] ? '<div class="row" style="margin:5px 0"><span class="grow">' + n + '</span><b>' + Math.round(100 * cal[k][1] / cal[k][0]) + ' % justes</b><span class="muted">(' + cal[k][0] + ')</span></div>' : '').join('') + '<p class="muted" style="margin:6px 0 0">Si « Sûr de moi » est sous 85 %, tu te fais piéger par des certitudes : relis les pièges.</p></div>';
     h += '<div class="h-sec"><h2>🏅 Badges</h2><span class="small muted">' + Object.keys(S.bdg).length + '/' + P.BADGES.length + '</span></div><div class="bdg">' + P.BADGES.map(b => '<div class="' + (S.bdg[b[0]] ? '' : 'off') + '" title="' + esc(b[3]) + '"><span class="e">' + b[1] + '</span>' + esc(b[2]) + '<div class="muted" style="font-weight:500;margin-top:2px">' + esc(b[3]) + '</div></div>').join('') + '</div>';
     h += '<div class="grid2" style="margin-top:16px">' + tile('#/erreurs', '🧠', 'Journal d\'erreurs', S.err.length + ' erreur' + (S.err.length > 1 ? 's' : '') + ' notée' + (S.err.length > 1 ? 's' : '')) + tile('#/reglages', '⚙️', 'Réglages et sauvegarde', 'Thème, sons, exporter ma progression') + '</div>';
     main.innerHTML = h;
@@ -626,7 +626,7 @@
       '<label class="cr" style="display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)"><span class="grow">Nouvelles cartes par jour</span><input class="input" type="number" min="0" max="200" data-set="newCards" value="' + s.newCards + '" style="max-width:90px"></label></div>' +
       saveCard() + remCard() +
       '<div class="card"><h3>📱 Application Android</h3><p class="small muted">' + (P.isApp ? 'Tu utilises l\'application (version ' + esc(appVersion().name) + ').' : 'Installe le site comme une application sur ton téléphone : il marche sans Internet et garde ta progression.') + '</p><a class="btn ghost" href="#/app">' + (P.isApp ? '🔄 Vérifier les mises à jour' : '📲 Installer l\'application') + '</a></div>' +
-      '<div class="card"><h3>🧭 Divers</h3><div class="row wrap" style="margin-top:8px"><button class="btn ghost" data-act="onboard">Revoir l\'accueil</button><button class="btn red" data-act="reset">Tout effacer</button></div>' +
+      '<div class="card"><h3>⚖️ Divers</h3><div class="row wrap" style="margin-top:8px"><button class="btn ghost" data-act="onboard">Revoir l\'accueil</button><button class="btn red" data-act="reset">Tout effacer</button></div>' +
       '<p class="small muted" style="margin-top:12px">Les radiographies du site sont des schémas pédagogiques dessinés par ordinateur, pas de vraies images de patients. Les fiches résument les cours de 4e année : en cas de doute, ton cours et ton enseignant font foi.</p></div>';
     main.querySelectorAll('[data-set]').forEach(i => i.addEventListener('change', () => { s[i.dataset.set] = i.type === 'checkbox' ? i.checked : +i.value; P.save(); }));
     bindSaveCard(main); bindRem(main);
@@ -824,7 +824,7 @@
   P.start = () => {
     applyTheme();
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTheme);
-    document.getElementById('app').innerHTML = '<header class="top"><a class="logo" href="#/"><span class="lg">🫁</span><span>Pneumo<span class="lt2"> Révision</span></span></a><span class="sp"></span>' +
+    document.getElementById('app').innerHTML = '<header class="top"><a class="logo" href="#/"><span class="lg"><img src="img/icon-192.png" alt=""></span><span>Pneumo<span class="lt2"> Révision</span></span></a><span class="sp"></span>' +
       '<a class="svd" id="svd" href="#/reglages" title="Progression sauvegardée automatiquement" aria-label="Sauvegarde automatique">💾</a><a class="pill pomo" id="pomoPill" href="#/pomodoro" hidden></a><a class="pill" id="stPill" href="#/moi"></a><a class="pill" id="xpPill" href="#/moi"></a><a class="ib" href="#/recherche" aria-label="Rechercher">' + U.ic.search + '</a></header><main id="main"></main>' +
       '<nav class="nav">' + NAV.map(n => '<a href="#/' + n[0] + '" data-r="' + n[0] + '">' + U.ic[n[1]] + '<span>' + n[2] + '</span></a>').join('') + '</nav>';
     main = document.getElementById('main');

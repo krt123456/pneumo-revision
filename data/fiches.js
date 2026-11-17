@@ -3541,7 +3541,7 @@ PNEUMO.fiche("ddb", {
       ["chk", "Quelle lésion histologique est la plus caractéristique d'une DDB ?", ["Une atrophie des glandes bronchiques", "La disparition de la charpente musculo-élastique de la paroi", "Un granulome épithélioïde sans nécrose"], "B", "Les glandes sont au contraire **hypertrophiées** ; le granulome sans nécrose évoque la sarcoïdose."],
     ]],
     ["Quand y penser ? La clinique", "teal", [
-      "🩺 Un homme de 38 ans crache **une tasse de crachats chaque matin** depuis des années ; enfant, il était **sans cesse hospitalisé** pour des « bronchites ». Avant même la radio, pensez DDB.",
+      "🏥 Un homme de 38 ans crache **une tasse de crachats chaque matin** depuis des années ; enfant, il était **sans cesse hospitalisé** pour des « bronchites ». Avant même la radio, pensez DDB.",
       ["tab", ["Élément", "Ce qui évoque une DDB"],
         ["**Toux productive chronique** (symptôme cardinal)", "**Diurne**, surtout **matinale au réveil** (« toilette bronchique »), parfois nocturne ; **sans caractère saisonnier** ; **sensible aux antibiotiques** mais **récidivante à l'arrêt** ; expectoration abondante (**bronchorrhée**)"],
         ["**Bronchite bactérienne prolongée** (peut précéder la DDB)", "Les **3 critères ERS** : toux grasse **> 4 semaines** + guérison après **≥ 14 jours** d'antibiotique adapté + pas d'autre cause et/ou prélèvement positif (ECBC, LBA). Germes : *Haemophilus influenzae*, **pneumocoque** (*Streptococcus pneumoniae*), *Moraxella catarrhalis*, parfois co-infection **virale**. Évolution souvent favorable (**guérison complète**) ; vers la DDB dans **≈ 10 %** des cas"],
@@ -4014,7 +4014,7 @@ PNEUMO.fiche("pid", {
   ],
   s: [
     ["Définition et conséquences", "navy", [
-      "🫁 Imaginez que la paroi des alvéoles — normalement fine comme du **papier de soie** — s'épaississe en **carton** : l'oxygène passe mal et le poumon devient **raide**, comme une éponge sèche qui se gonfle mal. C'est la PID.",
+      "🌬️ Imaginez que la paroi des alvéoles — normalement fine comme du **papier de soie** — s'épaississe en **carton** : l'oxygène passe mal et le poumon devient **raide**, comme une éponge sèche qui se gonfle mal. C'est la PID.",
       "Les **pneumopathies infiltrantes (ou infiltratives) diffuses** forment un groupe **hétérogène de plus de 200 affections** : début aigu, subaigu ou chronique ; atteinte pulmonaire isolée ou systémique ; cause **connue ou inconnue**. Point commun : à l'imagerie, des opacités parenchymateuses **diffuses, non systématisées, bilatérales et symétriques**.",
       ["ul", "**Lésion** : infiltration diffuse du **tissu conjonctif** pulmonaire par des **cellules inflammatoires** et/ou de la **fibrose** ; elle épaissit les **parois alvéolaires** (interstitium : axes bronchovasculaires, cloisons interlobulaires et inter-alvéolaires, tissu sous-pleural).",
         "Dans certaines PID, l'infiltration gagne aussi les **espaces alvéolaires**, les **voies aériennes** et les **vaisseaux** : on préfère donc dire **« infiltrantes »** plutôt qu'« interstitielles »."],

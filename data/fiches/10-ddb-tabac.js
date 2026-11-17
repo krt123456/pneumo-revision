@@ -36,7 +36,7 @@ PNEUMO.fiche("ddb", {
       ["chk", "Quelle lésion histologique est la plus caractéristique d'une DDB ?", ["Une atrophie des glandes bronchiques", "La disparition de la charpente musculo-élastique de la paroi", "Un granulome épithélioïde sans nécrose"], "B", "Les glandes sont au contraire **hypertrophiées** ; le granulome sans nécrose évoque la sarcoïdose."],
     ]],
     ["Quand y penser ? La clinique", "teal", [
-      "🩺 Un homme de 38 ans crache **une tasse de crachats chaque matin** depuis des années ; enfant, il était **sans cesse hospitalisé** pour des « bronchites ». Avant même la radio, pensez DDB.",
+      "🏥 Un homme de 38 ans crache **une tasse de crachats chaque matin** depuis des années ; enfant, il était **sans cesse hospitalisé** pour des « bronchites ». Avant même la radio, pensez DDB.",
       ["tab", ["Élément", "Ce qui évoque une DDB"],
         ["**Toux productive chronique** (symptôme cardinal)", "**Diurne**, surtout **matinale au réveil** (« toilette bronchique »), parfois nocturne ; **sans caractère saisonnier** ; **sensible aux antibiotiques** mais **récidivante à l'arrêt** ; expectoration abondante (**bronchorrhée**)"],
         ["**Bronchite bactérienne prolongée** (peut précéder la DDB)", "Les **3 critères ERS** : toux grasse **> 4 semaines** + guérison après **≥ 14 jours** d'antibiotique adapté + pas d'autre cause et/ou prélèvement positif (ECBC, LBA). Germes : *Haemophilus influenzae*, **pneumocoque** (*Streptococcus pneumoniae*), *Moraxella catarrhalis*, parfois co-infection **virale**. Évolution souvent favorable (**guérison complète**) ; vers la DDB dans **≈ 10 %** des cas"],

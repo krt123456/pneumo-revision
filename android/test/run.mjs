@@ -68,6 +68,48 @@ async function step(name, fn) {
   catch (e) { ok(false, name + ' : ' + String(e.message || e).split('\n')[0]); try { page = await connect(15000); } catch (x) { /* ignore */ } }
 }
 async function relaunch() { stop(); await sleep(2500); const r = start(); const t = (r.match(/TotalTime: (\d+)/) || [])[1]; await sleep(1500); page = await connect(); return [page, t]; }
+// ---------- WebView ancienne (Android 8-9 des émulateurs) : pilotage par UI Automator, sans Playwright ----------
+const ENT = { '&apos;': "'", '&#39;': "'", '&quot;': '"', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&#10;': ' ' };
+const dec = t => t.replace(/&(apos|quot|amp|lt|gt|#39|#10);/g, m => ENT[m]);
+const uiDump = () => { for (let i = 0; i < 3; i++) { sh('adb shell rm -f /sdcard/ui.xml'); sh('adb shell uiautomator dump /sdcard/ui.xml'); const x = sh('adb shell cat /sdcard/ui.xml'); if (x.includes('<hierarchy')) return x; } return ''; };
+const uiNodes = xml => (xml.match(/<node [^>]*>/g) || []).map(n => ({ t: dec(((n.match(/ text="([^"]*)"/) || [])[1] || '') + ' ' + ((n.match(/ content-desc="([^"]*)"/) || [])[1] || '')).trim(), b: (n.match(/bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || []).slice(1).map(Number) })).filter(n => n.t);
+const uiText = xml => uiNodes(xml).map(n => n.t).join(' | ');
+const uiTap = (xml, re, last) => { const ns = uiNodes(xml).filter(n => re.test(n.t) && n.b.length === 4); const n = last ? ns[ns.length - 1] : ns[0]; if (!n) return false; sh(`adb shell input tap ${(n.b[0] + n.b[2]) >> 1} ${(n.b[1] + n.b[3]) >> 1}`); return true; };
+const waitUi = async (re, ms = 15000) => { const end = Date.now() + ms; while (Date.now() < end) { const x = uiDump(); if (re.test(uiText(x))) return x; await sleep(1200); } return ''; };
+async function oldDeviceTests() {
+  note('WebView ancienne : tests par UI Automator (Playwright ne sait pas piloter cette version)');
+  let x = await waitUi(/Bienvenue|C'est parti/, 40000);
+  ok(!!x, 'accueil affiché (lecture de l\'écran)');
+  if (!x) { note('écran lu : ' + uiText(uiDump()).slice(0, 400)); return; }
+  shot('accueil-bienvenue');
+  uiTap(x, /C'est parti/);
+  x = await waitUi(/jours avant l'examen|Au programme/, 15000);
+  ok(!!x, 'page « Aujourd\'hui » affichée');
+  shot('aujourdhui');
+  uiTap(x || uiDump(), /^Cours$/, true);
+  x = await waitUi(/Pleurésie purulente/, 15000);
+  ok(!!x, 'liste des cours affichée'); shot('cours');
+  if (!x) return;
+  uiTap(x, /Pleurésie purulente/);
+  x = await waitUi(/J'ai étudié ce cours/, 15000);
+  ok(!!x, 'fiche de cours affichée'); shot('fiche');
+  if (!x) return;
+  uiTap(x, /J'ai étudié ce cours/);
+  x = await waitUi(/Étudié le/, 8000);
+  ok(!!x, 'cours marqué étudié');
+  await sleep(1500); stop(); await sleep(2500); start();
+  x = await waitUi(/jours avant l'examen|Au programme|Bienvenue/, 40000);
+  ok(!!x && !/Bienvenue/.test(uiText(x)), 'progression conservée après fermeture forcée (pas de nouvel accueil)');
+  shot('relance');
+  uiTap(x || uiDump(), /^Cours$/, true);
+  x = await waitUi(/Pleurésie purulente/, 15000);
+  const ns = uiNodes(x), i = ns.findIndex(n => /Pleurésie purulente/.test(n.t));
+  ok(i >= 0 && ns.slice(i, i + 4).some(n => /Étudié le/.test(n.t)), 'cours étudié toujours coché après relance');
+  shot('cours-apres-relance');
+  sh('adb shell settings put system accelerometer_rotation 0'); sh('adb shell settings put system user_rotation 1'); await sleep(2500);
+  ok(/Pleurésie|Cours/.test(uiText(uiDump())), 'affichage en paysage'); shot('paysage');
+  sh('adb shell settings put system user_rotation 0'); await sleep(1500);
+}
 const go = async (page, r) => page.evaluate(async r => { const t0 = performance.now(); location.hash = '#/' + r; await new Promise(res => requestAnimationFrame(() => requestAnimationFrame(res))); return Math.round(performance.now() - t0); }, r);
 
 (async () => {
@@ -88,10 +130,14 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
   ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'pas de plantage au démarrage');
   ok(sh(`adb shell pidof ${PKG}`).trim().length > 0, 'application en cours d\'exécution');
 
-  // ---------- 2) tests approfondis (Playwright) ----------
-  try { const m = await import('playwright-core'); pw = m._android; [device] = await pw.devices(); } catch (e) { note('Playwright Android indisponible : ' + String(e.message || e).split('\n')[0]); pw = null; }
-  page = await connect();
-  if (!page) {
+  // ---------- 2) tests approfondis (Playwright ; UI Automator pour les WebView anciennes) ----------
+  const OLD = +API < 29;
+  if (OLD) { await oldDeviceTests(); page = null; }
+  else {
+    try { const m = await import('playwright-core'); pw = m._android; [device] = await pw.devices(); } catch (e) { note('Playwright Android indisponible : ' + String(e.message || e).split('\n')[0]); pw = null; }
+    page = await Promise.race([connect(), sleep(90000).then(() => null)]);
+  }
+  if (OLD) { /* déjà testé ci-dessus */ } else if (!page) {
     note('Tests approfondis ignorés (WebView non pilotable ici) : seuls les contrôles adb comptent.');
   } else {
     ok(await page.evaluate(() => !!(window.PNEUMO && PNEUMO.isApp && window.PneumoNative)), 'pont natif présent (PNEUMO.isApp)');

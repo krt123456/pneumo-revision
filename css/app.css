@@ -424,3 +424,5 @@ ul.tgt{margin:0;padding-left:18px} ul.tgt li{margin:6px 0;line-height:1.45}
 .btn.green{background:#16804d}.btn.teal{background:#0f766e}.btn.orange{background:#c2560c}
 [data-theme=dark] [data-memo-scope] .card h3 a{color:#a9c1ff!important}
 .lh .row span{overflow-wrap:anywhere;min-width:0}
+
+.top .logo .lg img{width:100%;height:100%;border-radius:9px;display:block}

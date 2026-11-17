@@ -425,7 +425,7 @@
     tsize: { t: 'TNM : quel T selon la taille ?', h: () => num('s', 'Plus grand axe de la tumeur (cm)', '3,5'),
       f: el => { const s = val(el, 's'); if (s == null) return 'Le T dépend aussi de l\'extension (plèvre, médiastin, nodules…).'; const t = s <= 1 ? 'T1a' : s <= 2 ? 'T1b' : s <= 3 ? 'T1c' : s <= 4 ? 'T2a' : s <= 5 ? 'T2b' : s <= 7 ? 'T3' : 'T4'; return 'Taille ' + fr(s) + ' cm → **' + t + '** (sur la taille seule ; l\'extension peut faire monter le T)'; } },
   };
-  U.calcHTML = key => { const c = P.calcs[key]; if (!c) return ''; return '<div class="calc" data-calc="' + key + '"><h4>🧮 ' + esc(c.t) + '</h4>' + c.h().replace(/\*\*(.+?)\*\*/g, '<b>$1</b>') + '<div class="out"></div></div>'; };
+  U.calcHTML = key => { const c = P.calcs[key]; if (!c) return ''; return '<div class="calc" data-calc="' + key + '"><h4>📐 ' + esc(c.t) + '</h4>' + c.h().replace(/\*\*(.+?)\*\*/g, '<b>$1</b>') + '<div class="out"></div></div>'; };
   U.bindCalcs = root => root.querySelectorAll('.calc[data-calc]').forEach(el => {
     const c = P.calcs[el.dataset.calc]; const out = el.querySelector('.out');
     const run = () => { try { out.innerHTML = U.md(String(c.f(el)).replace(/<br>/g, '\n'), true); } catch (e) { out.textContent = ''; } };
