@@ -1,5 +1,5 @@
-/* Service worker : fonctionne hors ligne. Version c6c881bf2b */
-const CACHE = 'pneumo-c6c881bf2b';
+/* Service worker : fonctionne hors ligne. Version 49c07e0d54 */
+const CACHE = 'pneumo-49c07e0d54';
 const CORE = ["./", "css/app.css", "data/annales.js", "data/fiches.js", "data/figs.js", "data/glossaire.js", "data/lessons.js", "data/plan.js", "data/qsj.js", "img/cxr/abces.webp", "img/cxr/bpco.webp", "img/cxr/bronchopneumonie.webp", "img/cxr/cancer-atelectasie.webp", "img/cxr/ddb.webp", "img/cxr/embolie.webp", "img/cxr/fibrose.webp", "img/cxr/htp.webp", "img/cxr/interstitiel.webp", "img/cxr/khp-rompu.webp", "img/cxr/khp.webp", "img/cxr/mediastin.webp", "img/cxr/metastases.webp", "img/cxr/miliaire.webp", "img/cxr/nodule-spicule.webp", "img/cxr/normal.webp", "img/cxr/pfla.webp", "img/cxr/pleuresie-enkystee.webp", "img/cxr/pleuresie.webp", "img/cxr/pno.webp", "img/cxr/sarcoidose.webp", "img/cxr/silicose.webp", "img/cxr/tb-caverne.webp", "img/icon-192.png", "img/icon-512.png", "img/icon-maskable-512.png", "img/pac/bronchopneumonie.webp", "img/pac/interstitielle.webp", "img/pac/pfla.webp", "img/pac/trepied.webp", "index.html", "js/core.js", "js/train.js", "js/ui.js", "js/views.js", "manifest.webmanifest"];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

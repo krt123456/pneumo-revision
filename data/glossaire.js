@@ -168,4 +168,9 @@ PNEUMO.gloss = [
   { k: 'asbestosiques', t: 'Corps asbestosiques', m: ['corps asbestosiques'], d: 'Fibres d\'amiante enrobées d\'une gaine protéino-ferrique jaune, vues au microscope : preuve d\'une exposition à l\'amiante.', ar: 'أجسام الأسبستوس' },
   { k: 'coquille', t: 'Coquille d\'œuf', m: ['coquille d\'œuf', 'coquilles d\'œuf'], d: 'Ganglion dont seul le pourtour est calcifié, en anneau : très évocateur de silicose, mais inconstant.', ar: 'تكلس قشرة البيضة' },
   { k: 'aspergillome', t: 'Aspergillome', m: ['aspergillome'], d: 'Boule de champignons (Aspergillus) qui se développe dans une cavité préexistante (tuberculose, sarcoïdose, silicose) : risque d\'hémoptysie.', ar: 'الورم الرشاشي' },
+  { k: 'pneumokyste', t: 'Pneumokyste', m: ['pneumokyste'], d: 'Kyste hydatique fissuré : de l\'air s\'est glissé entre ses membranes et forme un croissant clair (ménisque gazeux) au-dessus du kyste.', ar: 'الكيس العداري المتشقق (هلال هوائي)' },
+  { k: 'hamarto', t: 'Hamartochondrome', m: ['hamartochondrome', 'hamartochondromes'], d: 'Tumeur bénigne du poumon faite de cartilage et de tissus normaux mal organisés ; calcifications « en pop-corn » typiques.', ar: 'ورم عابي غضروفي حميد' },
+  { k: 'tuberculome', t: 'Tuberculome', m: ['tuberculome'], d: 'Nodule tuberculeux enkysté, souvent calcifié : séquelle de tuberculose qui peut simuler une tumeur.', ar: 'الورم السلي' },
+  { k: 'grelot', t: 'Image en grelot', m: ['grelot'], d: 'Masse ronde posée dans une cavité et coiffée d\'un croissant d\'air : kyste hydatique vomiqué ou aspergillome.', ar: 'صورة الجرس' },
+  { k: 'spicule', t: 'Opacité spiculée', m: ['spiculée', 'spiculés', 'spiculé', 'spiculées'], d: 'Contours hérissés de fines pointes, en étoile : très suspect de cancer bronchique.', ar: 'كتلة ذات حواف شوكية' },
 ];
