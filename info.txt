@@ -1,0 +1,6 @@
+build_tools=/usr/local/lib/android/sdk/build-tools/37.0.0
+versionCode=108
+versionName=1.0.108
+commit=d5ce4fdeb85b3afae83ff32bbe899d2a34ffe643
+run=8
+status=success
