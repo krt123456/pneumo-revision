@@ -181,4 +181,12 @@ PNEUMO.gloss = [
   { k: 'papo', t: 'PAPO', m: ['PAPO'], d: 'Pression artérielle pulmonaire d\'occlusion, mesurée au cathétérisme droit : reflète la pression du cœur gauche. ≤ 15 mmHg = HTP précapillaire ; > 15 = post-capillaire.', ar: 'ضغط الإسفين الرئوي' },
   { k: 'harzer', t: 'Signe de Harzer', m: ['signe de Harzer', 'Harzer'], d: 'Battement du ventricule droit perçu sous l\'appendice xiphoïde : le VD est gros (HTP, cœur pulmonaire).', ar: 'علامة هارزر' },
   { k: 'eclatb2', t: 'Éclat de B2', m: ['éclat de B2', 'B2 éclaté'], d: 'Deuxième bruit du cœur claqué au foyer pulmonaire : la valve pulmonaire se ferme fort car la pression pulmonaire est haute.', ar: 'اشتداد الصوت القلبي الثاني' },
+  { k: 'cheyne', t: 'Respiration de Cheyne-Stokes', m: ['Cheyne-Stokes'], d: 'Respiration qui s\'accélère puis ralentit, puis s\'arrête (apnée), en cycles : insuffisance cardiaque sévère, atteinte du tronc cérébral.', ar: 'تنفس تشين ستوكس' },
+  { k: 'kussmaul', t: 'Respiration de Kussmaul', m: ['Kussmaul'], d: 'Respiration ample, profonde et rapide pour éliminer du CO2 : réponse à une acidose métabolique (acidocétose…).', ar: 'تنفس كوسماول' },
+  { k: 'heimlich', t: 'Manœuvre de Heimlich', m: ['Heimlich'], d: 'Compressions brusques sous le sternum, debout derrière la victime, pour expulser un corps étranger qui bloque le larynx.', ar: 'مناورة هيمليك' },
+  { k: 'tamponnade', t: 'Tamponnade', m: ['tamponnade'], d: 'Épanchement péricardique sous pression qui comprime le cœur : choc, turgescence jugulaire, pouls paradoxal. Urgence (ponction).', ar: 'السطام القلبي' },
+  { k: 'larrey', t: 'Hernie de la fente de Larrey', m: ['Larrey'], d: 'Passage de viscères abdominaux par un orifice antérieur du diaphragme, derrière le sternum : opacité de l\'angle cardiophrénique droit.', ar: 'فتق لاري (فتق الحجاب الحاجز الأمامي)' },
+  { k: 'hiatale', t: 'Hernie hiatale', m: ['hernie hiatale'], d: 'Remontée d\'une partie de l\'estomac dans le thorax par l\'orifice de l\'œsophage : image aérique ou hydro-aérique derrière le cœur.', ar: 'فتق الحجاب الحاجز (الفتق الفرجوي)' },
+  { k: 'thymome', t: 'Tumeur thymique (thymome)', m: ['tumeur thymique', 'thymome'], d: 'Tumeur du thymus, dans le médiastin antérieur et supérieur ; peut s\'associer à une myasthénie.', ar: 'ورم التوتة (الغدة الصعترية)' },
+  { k: 'eva', t: 'EVA (échelle visuelle analogique)', m: ['EVA'], d: 'Réglette de 10 cm sur laquelle le patient place un curseur entre « aucune douleur » et « douleur maximale » : mesure l\'intensité de la douleur.', ar: 'مقياس الألم البصري' },
 ];
