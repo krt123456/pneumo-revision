@@ -1,0 +1,20 @@
+--------- beginning of main
+--------- beginning of kernel
+--------- beginning of system
+11-17 05:30:03.024 E/chromium( 3872): [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Crashpad: No such file or directory (2)
+11-17 05:30:26.179 I/PneumoJS( 3872): An <img> element was lazyloaded with loading=lazy, but had no dimensions specified. Specifying dimensions improves performance. See https://crbug.com/954323 (https://appassets.androidplatform.net/assets/www/index.html#/c/pac/pdf:0)
+11-17 05:31:35.587 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:38.295 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:39.885 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:41.677 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:42.698 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:44.983 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:46.085 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:47.253 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:51.900 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:52.936 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:31:59.701 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:32:03.544 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:32:07.985 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:32:09.782 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
+11-17 05:32:12.381 E/chromium( 7321): [ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.775 s for first_image_paint 0.735 s
