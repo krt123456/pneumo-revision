@@ -149,7 +149,7 @@
 
   /* ---------- schémas SVG ---------- */
   const T = (x, y, s, o = {}) => '<text x="' + x + '" y="' + y + '" font-size="' + (o.fs || 13) + '" fill="' + (o.c || 'currentColor') + '" text-anchor="' + (o.a || 'middle') + '" font-weight="' + (o.w || 600) + '">' + esc(s) + '</text>';
-  const SV = (w, h, inner) => '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,sans-serif" style="color:var(--ink)">' + inner + '</svg>';
+  const SV = (w, h, inner) => '<svg viewBox="0 0 ' + w + ' ' + h + '"' + (w > 480 ? ' class="wide"' : '') + ' xmlns="http://www.w3.org/2000/svg" font-family="system-ui,sans-serif" style="color:var(--ink)">' + inner + '</svg>';
   P.svg = {
     efr: () => {
       const ax = (ox) => '<path d="M' + ox + ' 20v170h170" stroke="currentColor" fill="none" stroke-width="1.5"/>';
@@ -211,7 +211,7 @@
       '<rect x="20" y="40" width="190" height="46" rx="10" fill="#de3b3b"/>' + T(115, 60, '2 mois : RHZE', { c: '#fff', w: 800 }) + T(115, 77, 'phase intensive (4 antibiotiques)', { c: '#fff', fs: 11, w: 500 }) +
       '<rect x="214" y="40" width="386" height="46" rx="10" fill="#2f6fde"/>' + T(407, 60, '4 mois : RH', { c: '#fff', w: 800 }) + T(407, 77, 'phase de continuation (2 antibiotiques)', { c: '#fff', fs: 11, w: 500 }) +
       [[20, 'J0'], [210, 'M2'], [340, 'M5'], [600, 'M6']].map(([x, l]) => '<path d="M' + x + ' 90v14" stroke="currentColor"/>' + T(x, 120, l, { fs: 12 })).join('') +
-      T(210, 145, 'Contrôles bacilloscopiques', { fs: 11, w: 500 }) + T(310, 162, 'Total : 6 mois (2RHZE / 4RH) — à vérifier dans ton cours de traitement', { fs: 11, w: 500 })),
+      T(210, 145, 'Contrôles bacilloscopiques', { fs: 11, w: 500 }) + T(310, 162, 'Total : 6 mois (2 RHZE / 4 RH) : tuberculose pulmonaire commune', { fs: 11, w: 500 })),
     saos: () => SV(620, 220,
       '<path d="M40 40 C120 10 200 10 240 60 L240 200 L40 200 Z" fill="var(--soft)" stroke="var(--muted)" stroke-width="2"/>' +
       '<path d="M150 70 C175 70 185 95 185 120 L185 200" stroke="#2f6fde" stroke-width="16" fill="none" opacity=".35"/>' + T(140, 215, 'Éveil : voies aériennes ouvertes', { fs: 12, c: '#2f6fde' }) +
@@ -219,6 +219,22 @@
       '<path d="M490 70 C515 70 525 95 525 112 M525 130 L525 200" stroke="#de3b3b" stroke-width="16" fill="none" opacity=".35"/>' +
       '<path d="M505 121 h40" stroke="#de3b3b" stroke-width="5"/>' + T(480, 215, 'Sommeil : collapsus pharyngé → apnée', { fs: 12, c: '#de3b3b' }) +
       T(310, 120, '→', { fs: 40, c: 'var(--muted)' })),
+    inhal: () => {
+      const seg = [['#e2761b', '> 5 µm', 'bouche et gorge', 'enrouement, dysphonie, candidose', 6], ['#1f9d60', '1 à 5 µm', 'bronches', 'la zone utile du traitement', 4], ['#6b7280', '< 1 µm', 'ressortent', 'à l\'expiration', 2]];
+      return SV(400, 228, seg.map((s, i) => { const y = 8 + i * 62;
+        return '<rect x="8" y="' + y + '" width="384" height="54" rx="12" fill="' + s[0] + '"/>' +
+          [0, 1, 2, 3].map(k => '<circle cx="' + (26 + (k % 2) * 16 + (k > 1 ? 8 : 0)) + '" cy="' + (y + 17 + (k > 1 ? 18 : 0)) + '" r="' + s[4] + '" fill="#fff" opacity=".9"/>').join('') +
+          T(76, y + 23, s[1] + ' → ' + s[2], { c: '#fff', w: 800, fs: 15, a: 'start' }) + T(76, y + 43, s[3], { c: '#fff', fs: 12.5, w: 500, a: 'start' }); }).join('') +
+        T(200, 214, 'Mauvaise technique = médicament perdu dans la gorge', { fs: 12.5, w: 600 }));
+    },
+    gina: () => {
+      const st = ['CSI-formotérol à la demande', 'CSI-formotérol à la demande', 'CSI-formotérol faible dose, fond + secours', 'CSI-formotérol dose moyenne, fond + secours', '+ LAMA, phénotypage, biothérapie, avis spécialisé'];
+      const col = ['#5b8def', '#2f6fde', '#7a4fe0', '#d23a7a', '#de3b3b'];
+      return SV(400, 314, st.map((l, i) => { const y = 230 - i * 46, w = 230 + i * 40;
+        return '<rect x="8" y="' + y + '" width="' + w + '" height="40" rx="10" fill="' + col[i] + '"/>' + T(20, y + 17, 'Palier ' + (i + 1), { c: '#fff', w: 800, fs: 13, a: 'start' }) + T(20, y + 33, l, { c: '#fff', fs: 11.5, w: 500, a: 'start' }); }).join('') +
+        T(200, 290, '↑ Non contrôlé : monter (après avoir vérifié technique et observance)', { fs: 10.5, w: 600 }) +
+        T(200, 307, '↓ Contrôlé depuis 3 mois : descendre · secours = CSI-formotérol', { fs: 10.5, w: 500 }));
+    },
     hemo: () => {
       const seg = [['#f2b400', 'Minime', '< 50 mL/j'], ['#e2761b', 'Moyenne', '50 à 200 mL/j'], ['#de3b3b', 'Grande (massive)', '> 200 mL/j ou mal tolérée']];
       return SV(620, 130, seg.map((s, i) => '<rect x="' + (10 + i * 202) + '" y="20" width="196" height="54" rx="10" fill="' + s[0] + '"/>' + T(108 + i * 202, 43, s[1], { c: '#fff', w: 800 }) + T(108 + i * 202, 62, s[2], { c: '#fff', fs: 11, w: 500 })).join('') +
@@ -281,6 +297,13 @@
         if (cpt != null) out.push(cpt < 80 ? 'CPT ' + cpt + ' % < 80 % → **trouble ventilatoire restrictif**' : cpt > 120 ? 'CPT ' + cpt + ' % > 120 % → **distension**' : 'CPT normale');
         if (g != null || gml != null) { const sig = (g != null ? g >= 12 : true) && (gml != null ? gml >= 200 : true) && (g != null || gml != null); out.push('Réversibilité ' + (sig ? '**significative** (≥ 12 % ET ≥ 200 mL) : en faveur d\'un asthme' : 'non significative : en faveur d\'une BPCO si le TVO persiste')); }
         return out.length ? out.join('<br>') : 'Entre au moins le rapport VEMS/CV.';
+      } },
+    dep: { t: 'Débit expiratoire de pointe (DEP)', h: () => num('mx', 'DEP le plus haut sur 15 jours (L/min)', '450') + num('mn', 'DEP le plus bas sur 15 jours (L/min)', '360') + num('m', 'DEP mesuré pendant la crise (L/min), si besoin', '') + num('b', 'Meilleure valeur personnelle ou théorique (L/min)', ''),
+      f: el => {
+        const mx = val(el, 'mx'), mn = val(el, 'mn'), m = val(el, 'm'), b = val(el, 'b'); const out = [];
+        if (mx != null && mn != null && mx + mn > 0) { const v = (mx - mn) / ((mx + mn) / 2) * 100; out.push('Variabilité = (max − min) ÷ moyenne = **' + fr(Math.round(v * 10) / 10) + ' %** → ' + (v > 10 ? '**> 10 %** : en faveur d\'un asthme (seuil du cours)' : '≤ 10 % : pas de variabilité significative') + '<br>Ancienne classification GINA : ' + (v < 20 ? '< 20 % (intermittent)' : v <= 30 ? '20–30 % (persistant léger)' : '> 30 % (persistant modéré ou sévère)')); }
+        if (m != null && b) { const pc = m / b * 100; out.push('DEP = **' + Math.round(pc) + ' %** de la meilleure valeur → ' + (pc > 80 ? 'crise **légère** (> 80 %)' : pc >= 60 ? 'crise **modérée** (60–80 %)' : '**crise sévère** (< 60 %) : asthme aigu grave possible')); }
+        return out.length ? out.join('<br>') : 'Entre le DEP le plus haut et le plus bas.';
       } },
     pa: { t: 'Paquets-années (tabac)', h: () => num('c', 'Cigarettes par jour', '20') + num('y', 'Nombre d\'années', '15'),
       f: el => { const c = val(el, 'c'), y = val(el, 'y'); if (c == null || y == null) return 'Paquets-années = (cigarettes par jour ÷ 20) × années'; const pa = c / 20 * y; return '**' + fr(pa) + ' paquets-années**' + (pa >= 10 ? ' · seuil de risque de BPCO et de cancer bien franchi' : ''); } },
