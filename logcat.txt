@@ -1,0 +1,49 @@
+--------- beginning of main
+11-17 05:37:19.194 E/chromium( 2062): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:37:19.195 E/chromium( 2062): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:37:22.998 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.001 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.002 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.012 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.013 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.014 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.024 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.026 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.030 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.031 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.033 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.035 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.037 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.043 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.043 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.045 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.046 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.048 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.049 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.051 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.053 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.084 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:37:23.092 E/chromium( 2149): [ERROR:font_unique_name_lookup_android.cc(223)] Received platform font handle invalid, fd: -1
+11-17 05:38:19.357 E/chromium( 4184): [ERROR:variations_seed_loader.cc(37)] Seed missing signature.
+11-17 05:38:35.931 E/chromium( 4515): [1117/053835.919789:ERROR:variations_seed_loader.cc(37)] Seed missing signature.
+11-17 05:38:36.195 E/chromium( 4515): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:38:36.196 E/chromium( 4515): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:38:56.947 E/chromium( 5129): [1117/053856.947127:ERROR:variations_seed_loader.cc(37)] Seed missing signature.
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/0c8cf6029062491d_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/29bcf98f257e6b08_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/3c0636b38855ae01_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/92cb777670088914_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/37a014cbc4b0f6de_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/a4944ac984e6342a_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(58)] Could not get file info for /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js/5a50c1fe24cd67e1_0
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_file_enumerator.cc(43)] readdir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:38:57.083 E/chromium( 5129): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:39:08.980 E/chromium( 5470): [1117/053908.976323:ERROR:variations_seed_loader.cc(37)] Seed missing signature.
+11-17 05:39:09.143 E/chromium( 5470): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:39:09.143 E/chromium( 5470): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:39:09.143 E/chromium( 5470): [ERROR:simple_version_upgrade.cc(152)] Failed to write a new fake index.
+11-17 05:40:04.714 E/chromium( 6615): [1117/054004.711244:ERROR:variations_seed_loader.cc(37)] Seed missing signature.
+11-17 05:40:04.771 E/chromium( 6615): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-17 05:40:04.771 E/chromium( 6615): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-17 05:40:04.771 E/chromium( 6615): [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.pneumo/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+11-17 05:40:04.771 E/chromium( 6615): [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
