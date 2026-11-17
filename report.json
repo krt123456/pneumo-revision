@@ -1,0 +1,32 @@
+{
+ "api": "28",
+ "pass": [
+  "installation de l'APK",
+  "pas de plantage au démarrage",
+  "application en cours d'exécution",
+  "accueil affiché (lecture de l'écran)",
+  "page « Aujourd'hui » affichée",
+  "liste des cours affichée",
+  "fiche de cours affichée",
+  "cours marqué étudié",
+  "progression conservée après fermeture forcée (pas de nouvel accueil)",
+  "cours étudié toujours coché après relance",
+  "affichage en paysage",
+  "aucune erreur JavaScript dans le journal",
+  "aucun plantage pendant les tests",
+  "aucune erreur de page"
+ ],
+ "fail": [],
+ "notes": [
+  "versionName=1.0.108 versionCode=108",
+  "WebView : com.android.chrome, 69.0.3497.100",
+  "Android : 9 (API 28)",
+  "WebView ancienne : tests par UI Automator (Playwright ne sait pas piloter cette version)"
+ ],
+ "timings": {
+  "coldStartMs": 961
+ },
+ "longTasks": [],
+ "pageErrors": [],
+ "systemKillsTotal": 0
+}
