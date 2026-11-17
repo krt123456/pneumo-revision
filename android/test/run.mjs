@@ -10,7 +10,10 @@ const PKG = 'io.github.krt123456.pneumo';
 const OUT = `results-${API}`;
 fs.mkdirSync(OUT, { recursive: true });
 const rep = { api: API, pass: [], fail: [], notes: [], timings: {}, longTasks: [], pageErrors: [] };
-const ok = (c, m) => { (c ? rep.pass : rep.fail).push(m); console.log((c ? 'PASS ' : 'FAIL ') + m); };
+const rec = (c, m) => { (c ? rep.pass : rep.fail).push(m); console.log((c ? 'PASS ' : 'FAIL ') + m); };
+let buf = null; // résultats d'une étape en cours : validés à la fin de l'étape (une étape refaite ne compte qu'une fois)
+const ok = (c, m) => { if (buf) buf.push([c, m]); else rec(c, m); };
+const flushBuf = () => { const b = buf || []; buf = null; b.forEach(([c, m]) => rec(c, m)); };
 const note = m => { rep.notes.push(m); console.log('NOTE ' + m); };
 const sh = (c, ms = 120000) => { try { return execSync(c, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20, timeout: ms }); } catch (e) { return String(e.stdout || '') + String(e.stderr || '') + (e.code === 'ETIMEDOUT' || e.signal ? ' [délai dépassé]' : ''); } };
 const within = (ms, p) => Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('délai dépassé (' + ms + ' ms)')), ms))]);
@@ -19,6 +22,10 @@ let shotN = 0;
 const shot = name => { const f = `${OUT}/${String(++shotN).padStart(2, '0')}-${name}.png`; try { execSync(`adb exec-out screencap -p > "${f}"`); } catch (e) { note('capture impossible ' + name); } return f; };
 const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devtools true`, 60000);
 const crashLog = () => sh('adb logcat -d -b crash').split('\n').slice(-40).join('\n');
+const exitInfo = () => sh(`adb shell dumpsys activity exit-info ${PKG}`);
+// arrêts de l'application décidés par Android parce qu'un service dont dépend la WebView (polices des services Google Play) a redémarré
+const sysKills = () => exitInfo().split(/(?=ApplicationExitInfo #\d+:)/).filter(r => /process=io\.github\.krt123456\.pneumo\s/.test(r) && /DEPENDENCY DIED/.test(r)).length;
+const lastExit = () => { const x = exitInfo(); const m = x.match(/ApplicationExitInfo #0:[\s\S]*?(?=ApplicationExitInfo #1:|$)/); return (m ? m[0] : x).replace(/\s+/g, ' ').slice(0, 700); };
 const stop = () => sh(`adb shell am force-stop ${PKG}`);
 
 let pw = null, device = null, cdpBrowser = null;
@@ -60,21 +67,38 @@ async function connect(timeout = 30000) {
   }
   const p2 = await connectCDP(20000);
   if (p2) { note('connexion par CDP (repli)'); return p2; }
-  note('connexion WebView impossible : ' + lastErr);
+  const pid = pidOf();
+  const socks = (sh('adb shell cat /proc/net/unix').match(/webview_devtools_remote_\d+/g) || []).join(',');
+  const focus = (sh('adb shell dumpsys window').match(/mCurrentFocus=[^\n]*/) || [''])[0].trim();
+  note('connexion WebView impossible : ' + lastErr + ' | pid=' + pid + ' | sockets=' + (socks || 'aucune') + ' | ' + focus + (pid ? '' : ' | dernière sortie : ' + lastExit()));
   return null;
 }
 let page = null;
 async function ensureRunning(why) {
   if (pidOf()) return true;
-  note('application absente (' + why + ') ; journal des plantages : ' + (crashLog().trim().slice(-600) || 'vide'));
+  note('application absente (' + why + ') ; journal des plantages : ' + (crashLog().trim().slice(-600) || 'vide') + ' ; dernière sortie : ' + lastExit());
   const r = start(); await sleep(3000);
   if (!pidOf()) { note('nouvel essai de démarrage : ' + r.trim().slice(0, 300)); start(); await sleep(4000); }
   return !!pidOf();
 }
 async function live() { if (!page || page.isClosed()) { await ensureRunning('avant une étape'); page = await connect(20000); } return page; }
-async function step(name, fn) {
-  try { if (!(await live())) { ok(false, name + ' : WebView inaccessible'); return; } await fn(page); }
-  catch (e) { ok(false, name + ' : ' + String(e.message || e).split('\n')[0]); try { page = await connect(15000); } catch (x) { /* ignore */ } }
+async function step(name, fn, again = true) {
+  const k0 = sysKills(); buf = [];
+  try {
+    if (!(await live())) throw new Error('WebView inaccessible');
+    await fn(page);
+    flushBuf();
+  } catch (e) {
+    const msg = String(e.message || e).split('\n')[0];
+    if (again && sysKills() > k0) {
+      buf = null; rep.systemKills = (rep.systemKills || 0) + 1;
+      note(`« ${name} » : application arrêtée par Android (services Google Play redémarrés : ${msg}) ; étape refaite`);
+      await ensureRunning('après arrêt par le système'); page = await connect(20000);
+      return step(name, fn, false);
+    }
+    flushBuf(); ok(false, name + ' : ' + msg);
+    try { await ensureRunning('après échec'); page = await connect(15000); } catch (x) { /* ignore */ }
+  }
 }
 async function relaunch() {
   stop(); await sleep(2500);
@@ -135,7 +159,7 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
   note((dump.match(/versionName=\S+/) || ['versionName=?'])[0] + ' ' + (dump.match(/versionCode=\d+/) || [''])[0]);
   note('WebView : ' + ((sh('adb shell dumpsys webviewupdate').match(/Current WebView package \(name, version\): \(([^)]*)\)/) || [])[1] || '?'));
   note('Android : ' + sh('adb shell getprop ro.build.version.release').trim() + ' (API ' + sh('adb shell getprop ro.build.version.sdk').trim() + ')');
-  sh('adb logcat -c');
+  sh('adb logcat -G 16M'); sh('adb logcat -c');
 
   // ---------- 1) premier lancement ----------
   const r0 = start();
@@ -160,31 +184,37 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
     note('version vue par le site : ' + await page.evaluate(() => PneumoNative.version()));
     await page.evaluate(() => { window.__lt = []; try { new PerformanceObserver(l => l.getEntries().forEach(e => window.__lt.push(Math.round(e.duration)))).observe({ entryTypes: ['longtask'] }); } catch (e) { /* ignore */ } });
     // accueil
-    if (await page.locator('#obgo').count()) { shot('accueil-bienvenue'); await page.locator('#obgo').click(); await sleep(600); }
-    ok(await page.evaluate(() => PNEUMO.S.onboard === true), 'accueil validé');
-    shot('aujourdhui');
+    await step('accueil', async () => {
+      if (await page.locator('#obgo').count()) { shot('accueil-bienvenue'); await page.locator('#obgo').click(); await sleep(600); }
+      ok(await page.evaluate(() => PNEUMO.S.onboard === true), 'accueil validé');
+      shot('aujourdhui');
+    });
     // toutes les pages
     const routes = ['', 'cours', 'c/bpco', 'c/bpco/pieges', 'c/bpco/quiz', 'c/bpco/cartes', 'c/td-efr/ecos', 'c/pac/pdf', 'c/pleuresie/notes', 'train', 'quiz', 'refaire', 'cartes', 'memo', 'chiffres', 'chiffres/quiz',
       'cliches', 'ecos', 'outils', 'jeu', 'exam', 'pomodoro', 'glossaire', 'veille', 'annales', 'planning', 'moi', 'erreurs', 'reglages', 'app', 'recherche/BAAR'];
     const SHOTS = new Set(['cours', 'c/bpco', 'c/bpco/quiz', 'train', 'chiffres/quiz', 'cliches', 'outils', 'planning', 'moi', 'reglages', 'app']);
-    for (const r of routes) {
-      const t = await go(page, r); await sleep(250);
-      rep.timings['#/' + r] = t;
-      const n = await page.evaluate(() => document.getElementById('main').innerText.trim().length);
-      ok(n > 30, `page #/${r} affichée (${t} ms)`);
-      if (SHOTS.has(r)) shot(r.replace(/\//g, '_') || 'accueil');
-    }
+    await step('pages', async () => {
+      for (const r of routes) {
+        const t = await go(page, r); await sleep(250);
+        rep.timings['#/' + r] = t;
+        const n = await page.evaluate(() => document.getElementById('main').innerText.trim().length);
+        ok(n > 30, `page #/${r} affichée (${t} ms)`);
+        if (SHOTS.has(r)) shot(r.replace(/\//g, '_') || 'accueil');
+      }
+    });
     // mode mémoire sur une fiche
-    await go(page, 'c/bpco'); await sleep(300);
-    if (await page.locator('.readbar .mbtn').count()) {
-      await page.locator('.readbar .mbtn').click(); await sleep(300);
-      ok(await page.evaluate(() => !!document.querySelector('#ltab.memo')), 'mode mémoire activé');
-      shot('mode-memoire');
-      await page.locator('.readbar .mbtn').click(); await sleep(200);
-    } else ok(false, 'bouton du mode mémoire présent');
-    // quiz : répondre à une question
-    await go(page, 'c/bpco/quiz'); await sleep(400);
-    note('quiz : ' + await page.evaluate(() => document.querySelector('#qz') ? document.querySelector('#qz').innerText.slice(0, 80).replace(/\s+/g, ' ') : 'absent'));
+    await step('mode mémoire', async () => {
+      await go(page, 'c/bpco'); await sleep(300);
+      if (await page.locator('.readbar .mbtn').count()) {
+        await page.locator('.readbar .mbtn').click(); await sleep(300);
+        ok(await page.evaluate(() => !!document.querySelector('#ltab.memo')), 'mode mémoire activé');
+        shot('mode-memoire');
+        await page.locator('.readbar .mbtn').click(); await sleep(200);
+      } else ok(false, 'bouton du mode mémoire présent');
+      // quiz : répondre à une question
+      await go(page, 'c/bpco/quiz'); await sleep(400);
+      note('quiz : ' + await page.evaluate(() => document.querySelector('#qz') ? document.querySelector('#qz').innerText.slice(0, 80).replace(/\s+/g, ' ') : 'absent'));
+    });
     // étudier un cours puis fermeture forcée
     await step('fermeture forcée', async () => {
       await go(page, 'c/sd-alv'); await sleep(400);
@@ -208,9 +238,8 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
     });
     // application tuée une demi-seconde après une action (la copie interne doit suffire)
     await step('arrêt brutal', async () => {
-      await go(page, 'c/saos'); await sleep(400);
-      if (!(await page.locator('[data-act=study]').count())) { await go(page, 'c/khp'); await sleep(400); }
-      const lid = (await page.evaluate(() => location.hash)).split('/')[2];
+      const lid = await page.evaluate(() => (PNEUMO.lessons.find(l => !PNEUMO.isStudied(l.id) && l.id !== 'sd-alv') || {}).id);
+      await go(page, 'c/' + lid); await sleep(400);
       await page.locator('[data-act=study]').first().click(); await sleep(500);
       await relaunch();
       ok(await page.evaluate(id => !!(PNEUMO.S.L[id] && PNEUMO.S.L[id].st === 'done'), lid), 'action conservée même si l\'application est tuée 0,5 s après (' + lid + ')');
@@ -291,22 +320,23 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
       rep.timings.pageLoadMs = nav;
     });
     // thème sombre du téléphone (l'activité est recréée) : la progression doit survivre, le thème doit suivre
-    let xpBefore = null;
-    try { await live(); xpBefore = await page.evaluate(() => PNEUMO.S.xp); } catch (e) { /* ignore */ }
-    sh('adb shell cmd uimode night yes'); await sleep(4000);
-    note('processus après changement de thème : ' + (pidOf() || 'aucun'));
-    ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'pas de plantage au changement de thème du téléphone');
-    shot('theme-sombre');
-    await relaunch();
-    if (page) {
-      ok((await page.evaluate(() => document.documentElement.dataset.theme)) === 'dark', 'thème sombre du téléphone suivi');
-      if (xpBefore != null) ok((await page.evaluate(() => PNEUMO.S.xp)) === xpBefore, 'progression intacte après le changement de thème (' + xpBefore + ' XP)');
-      await go(page, 'reglages'); await sleep(500);
-      const ago = await page.evaluate(() => (document.getElementById('svago') || {}).textContent || '');
-      ok(ago && ago !== 'pas encore', 'heure de la dernière sauvegarde affichée après relance (' + ago + ')');
-      shot('theme-sombre-reglages');
-    } else ok(false, 'thème sombre : WebView inaccessible après relance');
-    sh('adb shell cmd uimode night no'); await sleep(2500);
+    await step('thème sombre', async () => {
+      try {
+        const xpBefore = await page.evaluate(() => PNEUMO.S.xp);
+        sh('adb shell cmd uimode night yes'); await sleep(4000);
+        note('processus après changement de thème : ' + (pidOf() || 'aucun'));
+        ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'pas de plantage au changement de thème du téléphone');
+        shot('theme-sombre');
+        await relaunch();
+        if (!page) throw new Error('WebView inaccessible après relance');
+        ok((await page.evaluate(() => document.documentElement.dataset.theme)) === 'dark', 'thème sombre du téléphone suivi');
+        ok((await page.evaluate(() => PNEUMO.S.xp)) === xpBefore, 'progression intacte après le changement de thème (' + xpBefore + ' XP)');
+        await go(page, 'reglages'); await sleep(500);
+        const ago = await page.evaluate(() => (document.getElementById('svago') || {}).textContent || '');
+        ok(ago && ago !== 'pas encore', 'heure de la dernière sauvegarde affichée après relance (' + ago + ')');
+        shot('theme-sombre-reglages');
+      } finally { sh('adb shell cmd uimode night no'); await sleep(2500); }
+    });
   }
 
   // ---------- 3) journal ----------
@@ -315,6 +345,9 @@ const go = async (page, r) => page.evaluate(async r => { const t0 = performance.
   const jsErr = log.split('\n').filter(l => /Uncaught|TypeError|ReferenceError|SyntaxError/.test(l));
   ok(jsErr.length === 0, 'aucune erreur JavaScript dans le journal' + (jsErr.length ? ' : ' + jsErr.slice(0, 3).join(' | ') : ''));
   const crash = sh('adb logcat -d -b crash'); fs.writeFileSync(`${OUT}/crash.txt`, crash);
+  fs.writeFileSync(`${OUT}/exit-info.txt`, exitInfo());
+  rep.systemKillsTotal = sysKills();
+  fs.writeFileSync(`${OUT}/logcat-complet.txt`, sh('adb logcat -d -v time -b main,system'));
   ok(!/FATAL EXCEPTION/.test(crash), 'aucun plantage pendant les tests');
   ok(rep.pageErrors.length === 0, 'aucune erreur de page' + (rep.pageErrors.length ? ' : ' + rep.pageErrors.slice(0, 3).join(' | ') : ''));
   fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rep, null, 1));
