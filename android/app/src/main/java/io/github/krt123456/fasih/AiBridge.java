@@ -14,6 +14,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
 import android.net.Uri;
+import android.os.Build;
 import android.provider.MediaStore;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyProperties;
@@ -340,10 +341,21 @@ final class AiBridge {
     void pickImage(String src) {
         try {
             if ("gallery".equals(src)) {
-                Intent i = new Intent(Intent.ACTION_GET_CONTENT);
-                i.addCategory(Intent.CATEGORY_OPENABLE);
-                i.setType("image/*");
-                act.startActivityForResult(Intent.createChooser(i, "اختر صورة"), REQ_PICK);
+                // Android 13+: the system photo picker (no permission needed). Older: the system file picker.
+                Intent get = new Intent(Intent.ACTION_GET_CONTENT);
+                get.addCategory(Intent.CATEGORY_OPENABLE);
+                get.setType("image/*");
+                if (Build.VERSION.SDK_INT >= 33) {
+                    Intent pick = new Intent(MediaStore.ACTION_PICK_IMAGES);
+                    pick.setType("image/*");
+                    try {
+                        act.startActivityForResult(pick, REQ_PICK);
+                        return;
+                    } catch (ActivityNotFoundException e) {
+                        Log.w(TAG, "no photo picker, using the file picker");
+                    }
+                }
+                act.startActivityForResult(get, REQ_PICK);
             } else {
                 File cap = new File(shotsDir(), CAP_NAME);
                 if (cap.exists()) cap.delete();
