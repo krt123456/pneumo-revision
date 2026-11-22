@@ -16,28 +16,32 @@ const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devto
 const pidOf = () => sh(`adb shell pidof ${PKG}`).trim().split(/\s+/)[0] || '';
 const save = () => { fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rep, null, 1)); };
 
-let browser = null;
+let pw = null, device = null, browser = null;
+const uiXml = () => { sh('adb shell rm -f /sdcard/ui.xml'); sh('adb shell uiautomator dump /sdcard/ui.xml'); return sh('adb shell cat /sdcard/ui.xml'); };
+// the emulator's own launcher sometimes shows "isn't responding": tap Wait so that it does not cover the app
+const dismissAnr = () => { for (let i = 0; i < 3; i++) { const x = uiXml(); if (!/isn(&apos;|')t responding/.test(x)) return; const m = x.match(/text="Wait"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/); if (m) sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); else sh('adb shell input keyevent 4'); note('dismissed a system "not responding" dialog'); } };
 async function connect(timeout = 90000) {
-  const { chromium } = await import('playwright-core');
   const end = Date.now() + timeout; let last = '';
+  if (!pw) { try { const m = await import('playwright-core'); pw = m._android; [device] = await pw.devices(); } catch (e) { note('Playwright Android unavailable: ' + String(e.message || e).split('\n')[0]); return null; } }
   while (Date.now() < end) {
-    const pid = pidOf();
+    const pid = +pidOf();
     if (pid) {
-      sh('adb forward --remove-all'); sh(`adb forward tcp:9333 localabstract:webview_devtools_remote_${pid}`);
       try {
-        if (browser) { try { await browser.close(); } catch (e) { /* ignore */ } browser = null; }
-        browser = await chromium.connectOverCDP('http://127.0.0.1:9333', { timeout: 10000 });
-        const ctx = browser.contexts()[0], page = ctx && ctx.pages()[0];
-        if (page) {
-          await page.waitForFunction(() => window.Fasih && window.Fasih.S && window.Fasih.DB && window.Fasih.DB.vocab, null, { timeout: 25000 });
-          page.on('pageerror', e => rep.pageErrors.push(String(e).slice(0, 300)));
-          return page;
+        await Promise.race([device.webView({ pkg: PKG }, { timeout: 3000 }), sleep(5000)]).catch(() => null);
+        const wv = device.webViews().find(w => w.pkg() === PKG && w.pid() === pid);
+        if (wv) {
+          const page = await Promise.race([wv.page(), sleep(25000).then(() => null)]);
+          if (page) {
+            await page.waitForFunction(() => window.Fasih && window.Fasih.S && window.Fasih.DB && window.Fasih.DB.vocab, null, { timeout: 25000 });
+            page.on('pageerror', e => rep.pageErrors.push(String(e).slice(0, 300)));
+            return page;
+          }
         }
       } catch (e) { last = String(e.message || e).split('\n')[0]; }
     }
-    await sleep(1500);
+    await sleep(1000);
   }
-  note('WebView connection failed: ' + last + ' | sockets: ' + (sh('adb shell cat /proc/net/unix').match(/webview_devtools_remote_\d+/g) || []).join(','));
+  note('WebView connection failed: ' + last + ' | sockets: ' + [...new Set(sh('adb shell cat /proc/net/unix').match(/webview_devtools_remote_\d+/g) || [])].join(','));
   return null;
 }
 const step = async (name, fn) => { try { await fn(); } catch (e) { ok(false, name + ': ' + String(e.message || e).split('\n')[0]); } save(); };
@@ -66,7 +70,7 @@ async function play(page, label, limit = 1500) {
   sh('adb logcat -G 16M'); sh('adb logcat -c');
 
   const r0 = start(); note('cold start ms: ' + ((r0.match(/TotalTime: (\d+)/) || [])[1] || '?'));
-  await sleep(7000); shot('first-launch');
+  await sleep(7000); dismissAnr(); shot('first-launch');
   ok(!/FATAL EXCEPTION/.test(sh('adb logcat -d -b crash')), 'no crash at start');
   ok(!!pidOf(), 'app is running');
   save();
@@ -139,7 +143,7 @@ async function play(page, label, limit = 1500) {
     await step('restart', async () => {
       const native = await page.evaluate(() => { try { const o = JSON.parse(window.FasihNative.restore()); return o.onboard === true && Object.keys(o.cards).length; } catch (e) { return -1; } });
       ok(native === cards, 'progress stored in the native file (' + native + ' cards)');
-      sh(`adb shell am force-stop ${PKG}`); await sleep(2500); start(); await sleep(3000);
+      sh(`adb shell am force-stop ${PKG}`); await sleep(2500); start(); await sleep(3000); dismissAnr();
       page = await connect(60000);
       ok(!!page && await page.evaluate(() => window.Fasih.S.onboard === true && Object.keys(window.Fasih.S.cards).length) === cards, 'progress kept after force stop');
       shot('after-restart');
@@ -159,6 +163,6 @@ async function play(page, label, limit = 1500) {
   if (rep.pageErrors.length) ok(false, 'JavaScript errors: ' + rep.pageErrors.slice(0, 3).join(' | '));
   console.log(`\n${rep.pass.length} passed, ${rep.fail.length} failed`);
   save();
-  if (browser) { try { await browser.close(); } catch (e) { /* ignore */ } }
+  if (device) { try { await device.close(); } catch (e) { /* ignore */ } }
   process.exit(0);
 })();
