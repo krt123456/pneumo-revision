@@ -1,0 +1,59 @@
+name: Fasih APK - build
+# Builds the unsigned release APK with the web app embedded and publishes it on the branch "fasih-build".
+# Signing is done outside GitHub so that the key never becomes public.
+on:
+  push:
+    branches: [fasih-src]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fasih-build
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+      - name: Copy the web app into the Android assets
+        shell: bash
+        run: |
+          W=android/app/src/main/assets/www
+          rm -rf "$W"; mkdir -p "$W"
+          cp -r www/. "$W"/
+          du -sh "$W"; find "$W" -type f | wc -l
+      - name: Build
+        shell: bash
+        working-directory: android
+        run: |
+          VC=$((100 + ${{ github.run_number }}))
+          echo "VC=$VC" >> "$GITHUB_ENV"
+          gradle --no-daemon --stacktrace assembleRelease -PversionCode=$VC -PversionName=1.0.$VC 2>&1 | tee ../build.log
+      - name: Collect
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p out
+          tail -c 300000 build.log > out/build.log || true
+          cp android/app/build/outputs/apk/release/app-release-unsigned.apk out/ || true
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          cp "$BT/lib/apksigner.jar" out/ || true
+          { echo "build_tools=$BT"; echo "versionCode=${VC:-?}"; echo "versionName=1.0.${VC:-?}"; echo "commit=${{ github.sha }}"; echo "run=${{ github.run_number }}"; echo "status=${{ job.status }}"; } > out/info.txt
+          ls -la out
+      - name: Publish on the branch fasih-build
+        if: always()
+        shell: bash
+        run: |
+          cd out
+          git init -q -b fasih-build
+          git add -A
+          git -c user.name=ci -c user.email=ci@users.noreply.github.com commit -qm "build ${{ github.run_number }}: ${{ job.status }}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" fasih-build

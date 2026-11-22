@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+// versionCode / versionName passed by CI: -PversionCode=12 -PversionName=1.0.12
+def vCode = (project.findProperty('versionCode') ?: '1').toString().toInteger()
+def vName = (project.findProperty('versionName') ?: '1.0.' + vCode).toString()
+
+android {
+    namespace 'io.github.krt123456.fasih'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'io.github.krt123456.fasih'
+        minSdk 24
+        targetSdk 34
+        versionCode vCode
+        versionName vName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+}

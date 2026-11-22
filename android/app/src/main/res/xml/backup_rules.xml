@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Google backup (Android 6 to 11): only the copy of the learning state. -->
+<full-backup-content>
+    <include domain="file" path="fasih-state.json" />
+</full-backup-content>
