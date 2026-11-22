@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- cache/shots: scaled copies of photos the learner attaches to a tutor request -->
+<paths>
+    <cache-path name="shots" path="shots/" />
+</paths>

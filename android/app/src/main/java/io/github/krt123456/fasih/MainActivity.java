@@ -64,7 +64,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Fasih: offline English-learning app. The web app is embedded and served from assets by
+ * Fasih: English-learning app that works offline. The web app is embedded and served from assets by
  * WebViewAssetLoader on a stable https address (so localStorage persists). Progress is also copied
  * to an internal file (bridge FasihNative) and read back when web storage is empty.
  */
@@ -101,6 +101,7 @@ public class MainActivity extends Activity {
     private String pendingSttLang = "en-US";
 
     private String launchFrom = "";
+    AiBridge ai;
 
     @Override
     protected void onCreate(Bundle saved) {
@@ -111,9 +112,12 @@ public class MainActivity extends Activity {
             WebView.setWebContentsDebuggingEnabled(true);
         }
         readLaunch(it);
+        ai = new AiBridge(this);
+        ai.readIntent(it, saved == null);
         loader = new WebViewAssetLoader.Builder()
                 .setDomain(HOST)
                 .addPathHandler("/assets/", new WebViewAssetLoader.AssetsPathHandler(this))
+                .addPathHandler("/shots/", new WebViewAssetLoader.InternalStoragePathHandler(this, ai.shotsDir()))
                 .build();
 
         web = new WebView(this);
@@ -158,6 +162,7 @@ public class MainActivity extends Activity {
         setIntent(intent);
         readLaunch(intent);
         if ("notif".equals(launchFrom)) emit("launch", obj("from", "notif"));
+        if (ai != null && ai.readIntent(intent, true)) emit("shared", obj("n", 1));
     }
 
     private void readLaunch(Intent it) {
@@ -182,7 +187,7 @@ public class MainActivity extends Activity {
     }
 
     /* ---------- events to JavaScript ---------- */
-    private static JSONObject obj(Object... kv) {
+    static JSONObject obj(Object... kv) {
         JSONObject o = new JSONObject();
         try {
             for (int i = 0; i + 1 < kv.length; i += 2) o.put((String) kv[i], kv[i + 1]);
@@ -192,8 +197,10 @@ public class MainActivity extends Activity {
         return o;
     }
 
-    private void emit(String type, JSONObject data) {
-        final String js = "window.Fasih&&Fasih.onNative&&Fasih.onNative(" + JSONObject.quote(type) + "," + data.toString() + ")";
+    void emit(String type, JSONObject data) {
+        // U+2028 / U+2029 are legal in JSON but break JavaScript source on old WebViews
+        final String json = data.toString().replace("\u2028", "\\u2028").replace("\u2029", "\\u2029");
+        final String js = "window.Fasih&&Fasih.onNative&&Fasih.onNative(" + JSONObject.quote(type) + "," + json + ")";
         runOnUiThread(() -> {
             if (web != null) web.evaluateJavascript(js, null);
         });
@@ -912,6 +919,57 @@ public class MainActivity extends Activity {
             runOnUiThread(() -> applyBars(statusColor, navColor, lightStatus, lightNav));
         }
 
+        /* --- AI tutor: hand-off to the learner's AI app, photos, optional API mode (see AiBridge) --- */
+        @JavascriptInterface
+        public String aiApps() {
+            return ai.apps();
+        }
+
+        @JavascriptInterface
+        public String aiSend(String key, String text, String img) {
+            return ai.send(key, text, img);
+        }
+
+        @JavascriptInterface
+        public boolean copyText(String text) {
+            return ai.copy(text);
+        }
+
+        @JavascriptInterface
+        public String pasteText() {
+            return ai.paste();
+        }
+
+        @JavascriptInterface
+        public String takeShared() {
+            return ai.takeShared();
+        }
+
+        @JavascriptInterface
+        public void pickImage(String src) {
+            runOnUiThread(() -> ai.pickImage(src));
+        }
+
+        @JavascriptInterface
+        public String aiKeys() {
+            return ai.keys();
+        }
+
+        @JavascriptInterface
+        public void askAiKey(String provider) {
+            runOnUiThread(() -> ai.askKey(provider));
+        }
+
+        @JavascriptInterface
+        public void aiHttp(String json) {
+            ai.http(json);
+        }
+
+        @JavascriptInterface
+        public void aiHttpCancel(String id) {
+            ai.cancel(id);
+        }
+
         /** {"from":"notif"} if the activity was opened from a notification (consumed once). */
         @JavascriptInterface
         public String launchInfo() {
@@ -925,7 +983,13 @@ public class MainActivity extends Activity {
     private class Client extends WebViewClient {
         @Override
         public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
-            return loader.shouldInterceptRequest(request.getUrl());
+            // The page is served from the app itself and may never reach the network:
+            // only the native AI transport (AiBridge) talks to the internet.
+            Uri u = request.getUrl();
+            WebResourceResponse r = HOST.equals(u.getHost()) ? loader.shouldInterceptRequest(u) : null;
+            if (r != null) return r;
+            return new WebResourceResponse("text/plain", "utf-8", 403, "Blocked",
+                    new java.util.HashMap<String, String>(), new java.io.ByteArrayInputStream(new byte[0]));
         }
 
         @Override
@@ -1013,6 +1077,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (ai != null && ai.onResult(requestCode, resultCode, data)) return;
         if (requestCode == REQ_OPEN) {
             Uri[] r = null;
             if (resultCode == RESULT_OK && data != null && data.getData() != null) r = new Uri[]{data.getData()};
@@ -1069,6 +1134,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onDestroy() {
+        if (ai != null) ai.shutdown();
         releasePlayer();
         releaseRecorder();
         if (recognizer != null) {
