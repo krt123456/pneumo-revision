@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.ClipData;
 import android.content.ClipboardManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -224,6 +225,13 @@ final class AiBridge {
         return i;
     }
 
+    /** Android share sheet without Fasih itself in the list. */
+    private Intent chooser(Intent target) {
+        Intent c = Intent.createChooser(target, "أرسل إلى");
+        c.putExtra(Intent.EXTRA_EXCLUDE_COMPONENTS, new ComponentName[]{new ComponentName(act, MainActivity.class)});
+        return c;
+    }
+
     /** {"claude":{"inst":true,"send":true,"img":true},...} */
     String apps() {
         JSONObject o = new JSONObject();
@@ -266,13 +274,13 @@ final class AiBridge {
         String how;
         try {
             if (app == null) {
-                go = Intent.createChooser(uri != null ? imageIntent(null, uri, text) : textIntent(null, text), "أرسل إلى");
+                go = chooser(uri != null ? imageIntent(null, uri, text) : textIntent(null, text));
                 how = "chooser";
             } else {
                 Intent launch = pm.getLaunchIntentForPackage(app[1]);
                 if (launch == null) {
                     if (uri != null) {
-                        go = Intent.createChooser(imageIntent(null, uri, text), "أرسل إلى");
+                        go = chooser(imageIntent(null, uri, text));
                         how = "chooser";
                     } else {
                         go = new Intent(Intent.ACTION_VIEW, Uri.parse(app[2]));
@@ -284,7 +292,7 @@ final class AiBridge {
                         go = si;
                         how = "sendimg";
                     } else {
-                        go = Intent.createChooser(imageIntent(null, uri, text), "أرسل إلى");
+                        go = chooser(imageIntent(null, uri, text));
                         how = "chooser";
                     }
                 } else {
@@ -383,7 +391,11 @@ final class AiBridge {
             emitImg("cancel", null);
             return true;
         }
-        final Uri src = req == REQ_PICK && data != null ? data.getData() : null;
+        Uri picked = req == REQ_PICK && data != null ? data.getData() : null;
+        if (picked == null && req == REQ_PICK && data != null && data.getClipData() != null && data.getClipData().getItemCount() > 0) {
+            picked = data.getClipData().getItemAt(0).getUri();
+        }
+        final Uri src = picked;
         final File cap = req == REQ_CAM ? new File(shotsDir(), CAP_NAME) : null;
         if (src == null && (cap == null || !cap.isFile())) {
             emitImg("error", "no photo");

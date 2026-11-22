@@ -297,6 +297,8 @@ async function play(page, label, limit = 1500) {
       if (!page) throw new Error('no page');
       // gallery: push a picture and choose it in the system picker (best effort: the picker differs between Android versions)
       sh('adb push test/sample.jpg /sdcard/Download/fasihtest.jpg'); sh('adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Download/fasihtest.jpg'); await sleep(1500);
+      sh('adb logcat -c'); const t0 = Date.now(); const stamp = m => note('gallery +' + Math.round((Date.now() - t0) / 1000) + 's: ' + m);
+      const glog = () => sh('adb logcat -d -v time').split('\n').filter(l => /FasihAI|ActivityTaskManager: START|PhotoPicker|photopicker|Force finishing|Permission Denial/.test(l)).map(l => l.slice(6, 250)).slice(-40).join('\n');
       const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 150000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
       let tapped = false;
       for (let i = 0; i < 8 && !tapped; i++) {
@@ -304,12 +306,12 @@ async function play(page, label, limit = 1500) {
         const tap = re => { const m = x.match(re); if (!m) return false; sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); return true; };
         if (i === 0) { shot('picker'); fs.writeFileSync(`${OUT}/ui-picker-1.xml`, x); }
         if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="[^"]*fasihtest[^"]*"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)
-          || tap(/resource-id="[^"]*id\/(icon_thumbnail|icon_thumb|item_root|thumbnail)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; fs.writeFileSync(`${OUT}/ui-picker-2.xml`, x); await sleep(2500); const y = uiXml(); const m2 = y.match(/text="(Add|ADD|Done|DONE|Select|SELECT|Open|OPEN)[^"]*"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/); if (m2 && !/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh(`adb shell input tap ${(+m2[2] + +m2[4]) >> 1} ${(+m2[3] + +m2[5]) >> 1}`); } break; }
+          || tap(/resource-id="[^"]*id\/(icon_thumbnail|icon_thumb|item_root|thumbnail)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; stamp('picture tapped; app log so far: ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).length + ' photo lines'); fs.writeFileSync(`${OUT}/ui-picker-2.xml`, x); await sleep(2500); shot('picker-after-tap'); const y = uiXml(); fs.writeFileSync(`${OUT}/ui-picker-after.xml`, y); const m2 = y.match(/text="(Add|ADD|Done|DONE|Select|SELECT|Open|OPEN)[^"]*"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/); if (m2 && !/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh(`adb shell input tap ${(+m2[2] + +m2[4]) >> 1} ${(+m2[3] + +m2[5]) >> 1}`); } break; }
         // open the drawer / the Downloads root when the file is not on the first screen
         if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
       }
       if (!tapped) { shot('picker-not-automated'); fs.writeFileSync(`${OUT}/ui-picker-3.xml`, uiXml()); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } }
-      const gal = await Promise.race([wait2, sleep(45000).then(() => 'no answer')]); note('gallery log: ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
+      const gal = await Promise.race([wait2, sleep(45000).then(() => 'no answer')]); stamp('result ' + gal); fs.writeFileSync(`${OUT}/gallery-log.txt`, glog()); note('gallery log: ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
       await backToApp(); note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
       if (/^ok /.test(gal) && page) {
         const id = gal.split(' ')[1]; globalThis.__photo = id;

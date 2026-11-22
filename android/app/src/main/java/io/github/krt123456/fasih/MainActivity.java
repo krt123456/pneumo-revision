@@ -849,7 +849,9 @@ public class MainActivity extends Activity {
                 i.putExtra(Intent.EXTRA_SUBJECT, title);
                 i.putExtra(Intent.EXTRA_TEXT, text);
                 try {
-                    startActivity(Intent.createChooser(i, title));
+                    Intent ch = Intent.createChooser(i, title);
+                    ch.putExtra(Intent.EXTRA_EXCLUDE_COMPONENTS, new android.content.ComponentName[]{getComponentName()});
+                    startActivity(ch);
                 } catch (Exception e) {
                     MainActivity.this.toast("تعذّرت المشاركة");
                 }
