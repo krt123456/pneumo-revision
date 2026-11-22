@@ -38,7 +38,7 @@ jobs:
           profile: pixel_4
           disable-animations: true
           emulator-boot-timeout: 900
-          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -no-snapshot
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back emulated -camera-front emulated -no-snapshot
           script: node test/run.mjs ${{ matrix.api }} fasih.apk
       - name: Publish results
         if: always()
