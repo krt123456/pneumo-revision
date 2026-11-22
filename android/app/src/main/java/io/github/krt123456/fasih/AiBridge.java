@@ -344,6 +344,7 @@ final class AiBridge {
     /** Called from the activity. Returns true if the result belonged to a photo request. */
     boolean onResult(int req, int res, Intent data) {
         if (req != REQ_CAM && req != REQ_PICK) return false;
+        Log.i(TAG, "photo result: " + (req == REQ_CAM ? "camera" : "gallery") + (res == Activity.RESULT_OK ? " ok" : " cancelled"));
         if (res != Activity.RESULT_OK) {
             emitImg("cancel", null);
             return true;
@@ -366,6 +367,7 @@ final class AiBridge {
 
     /** Scaled, upright JPEG copy in cache/shots/<id>.jpg. */
     private void processImage(Uri src, File cap) {
+        long t0 = System.currentTimeMillis();
         try {
             BitmapFactory.Options bounds = new BitmapFactory.Options();
             bounds.inJustDecodeBounds = true;
@@ -408,6 +410,7 @@ final class AiBridge {
             int w = bm.getWidth(), h = bm.getHeight();
             bm.recycle();
             if (cap != null) cap.delete();
+            Log.i(TAG, "photo ready: " + bounds.outWidth + "x" + bounds.outHeight + " -> " + w + "x" + h + ", " + (out.length() / 1024) + " KB, " + (System.currentTimeMillis() - t0) + " ms");
             act.emit("img", MainActivity.obj("ev", "ok", "id", id, "w", w, "h", h));
         } catch (Throwable e) {
             Log.w(TAG, "processImage", e);
