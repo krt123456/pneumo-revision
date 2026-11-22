@@ -1,0 +1,6 @@
+build_tools=/usr/local/lib/android/sdk/build-tools/37.0.0
+versionCode=114
+versionName=1.0.114
+commit=ad1fc0cf89e66c3b9587534a8f396639a556abd2
+run=14
+status=success
