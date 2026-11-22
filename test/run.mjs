@@ -17,6 +17,9 @@ const shot = name => { const f = `${OUT}/${String(++shotN).padStart(2, '0')}-${n
 const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devtools true`, 60000);
 const pidOf = () => sh(`adb shell pidof ${PKG}`).trim().split(/\s+/)[0] || '';
 const save = () => { fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rep, null, 1)); };
+process.on('unhandledRejection', e => { note('unhandled rejection: ' + String((e && e.message) || e).split('\n')[0]); save(); });
+let crashSeen = false;
+const crashCheck = where => { const c = sh('adb logcat -d -b crash'); if (!crashSeen && /FATAL EXCEPTION/.test(c)) { crashSeen = true; note('CRASH during ' + where + ': ' + c.split('\n').filter(l => /FATAL|Exception|Error|at io\.github|Caused by/.test(l)).slice(0, 12).join(' | ').slice(0, 900)); fs.writeFileSync(`${OUT}/crash.txt`, c.split('\n').slice(-120).join('\n')); } };
 
 let pw = null, device = null, browser = null;
 const uiXml = () => { sh('adb shell rm -f /sdcard/ui.xml'); sh('adb shell uiautomator dump /sdcard/ui.xml'); return sh('adb shell cat /sdcard/ui.xml'); };
@@ -46,7 +49,7 @@ async function connect(timeout = 90000) {
   note('WebView connection failed: ' + last + ' | sockets: ' + [...new Set(sh('adb shell cat /proc/net/unix').match(/webview_devtools_remote_\d+/g) || [])].join(','));
   return null;
 }
-const step = async (name, fn) => { try { await fn(); } catch (e) { ok(false, name + ': ' + String(e.message || e).split('\n')[0]); } save(); };
+const step = async (name, fn) => { try { await fn(); } catch (e) { ok(false, name + ': ' + String(e.message || e).split('\n')[0]); } crashCheck(name); save(); };
 const AUTO = fs.readFileSync(new URL('./auto.js', import.meta.url), 'utf8');
 async function play(page, label, limit = 1500) {
   let idle = 0, n = 0;
@@ -165,44 +168,18 @@ async function play(page, label, limit = 1500) {
       // hand-off: no AI app on the emulator, so the website route is expected
       const how = await page.evaluate(() => window.FasihNative.aiSend('claude', 'Fasih test request', '')); await sleep(2500); shot('handoff');
       ok(how === 'web' || how === 'send' || how === 'copy', 'hand-off to the AI app answers (' + how + ')');
-      start(); await sleep(2500); dismissAnr();
+      start(); await sleep(1500); sh('adb shell am force-stop com.android.chrome'); await sleep(1000); dismissAnr();
       ok(await page.evaluate(() => window.FasihNative.aiKeys()).then(() => true, () => false), 'app still answers after the hand-off');
-    });
-    await step('camera and gallery', async () => {
-      const wait = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 25000); window.Fasih.img.pick('camera', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); }));
-      await sleep(4000); shot('camera-app'); sh('adb shell input keyevent 4'); await sleep(1500);
-      if (!/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh('adb shell input keyevent 4'); await sleep(1200); }
-      const cam = await wait; note('camera request result: ' + cam);
-      ok(/cancel|ok|error no app/.test(cam), 'camera request returns to the app without a crash (' + cam + ')');
-      start(); await sleep(1500);
-      // gallery: push a picture and choose it in the system picker (best effort: the picker differs between Android versions)
-      sh('adb push test/sample.jpg /sdcard/Download/fasihtest.jpg'); sh('adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Download/fasihtest.jpg'); await sleep(1500);
-      const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 40000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); }));
-      let tapped = false;
-      for (let i = 0; i < 8 && !tapped; i++) {
-        await sleep(2500); const x = uiXml();
-        const tap = re => { const m = x.match(re); if (!m) return false; sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); return true; };
-        if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; break; }
-        if (i === 0) shot('picker');
-        // open the drawer / the Downloads root when the file is not on the first screen
-        if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
-      }
-      if (!tapped) { shot('picker-not-automated'); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } start(); await sleep(1500); }
-      const gal = await wait2; note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
-      if (/^ok /.test(gal)) {
-        const id = gal.split(' ')[1];
-        const img = await page.evaluate(i => fetch(window.Fasih.img.url(i)).then(r => r.status + ' ' + r.headers.get('content-type'), e => 'fail ' + e), id);
-        ok(/^200 image\/jpeg/.test(img), 'the picked photo is scaled and shown inside the app (' + gal + ' → ' + img + ')');
-      } else note('photo pipeline not verified on this emulator');
     });
     await step('api keys and transport', async () => {
       const keys0 = JSON.parse(await page.evaluate(() => window.FasihNative.aiKeys()));
       ok(Object.values(keys0).every(v => v === false), 'no API key saved at first');
-      const call = (p, path) => page.evaluate(([p, path]) => new Promise(res => {
+      const call = (p, path, body) => page.evaluate(([p, path, body]) => new Promise(res => {
         const out = { ev: [], text: '' }, id = 't' + Math.random().toString(36).slice(2), t = setTimeout(() => res(Object.assign(out, { timeout: true })), 40000);
         window.Fasih.on('http', d => { if (d.id !== id) return; out.ev.push(d.ev); if (d.ev === 'data') out.text += d.text; if (d.ev === 'error') { out.status = d.status; out.body = d.body; } if (d.ev === 'error' || d.ev === 'done') { clearTimeout(t); out.text = out.text.slice(0, 300); res(out); } });
-        window.FasihNative.aiHttp(JSON.stringify({ id, p, method: 'GET', path, stream: false }));
-      }), [p, path]);
+        window.FasihNative.aiHttp(JSON.stringify(body ? { id, p, method: 'POST', path, body, stream: true } : { id, p, method: 'GET', path, stream: false }));
+      }), [p, path, body || '']);
+      globalThis.__call = call;
       const r0 = await call('claude', '/v1/models');
       ok(r0.status === 401 && /no usable key/.test(r0.body || ''), 'without a key the transport refuses locally (' + JSON.stringify(r0).slice(0, 120) + ')');
       const bad = await call('claude', '/v1/../x');
@@ -225,13 +202,61 @@ async function play(page, label, limit = 1500) {
         const r = await call(prov, path);
         note(prov + ' with a dummy key → ' + JSON.stringify({ ev: r.ev, status: r.status, body: String(r.body || r.text || '').slice(0, 220), timeout: r.timeout }));
         ok(r.status >= 400 && r.status < 500, prov + ': its API is reached over HTTPS and refuses the dummy key (HTTP ' + r.status + ')');
+        // the chat request exactly as the app builds it: the endpoint must exist (an authentication refusal, not "not found")
+        const req = await page.evaluate(p => { try { const a = window.Fasih.chat.providers[p].chat.build(p === 'gemini' ? 'gemini-2.5-flash' : 'test-model', 'You are a tutor.', [{ role: 'user', text: 'Hello' }]); return a; } catch (e) { return { err: String(e) }; } }, prov);
+        if (req && req.path) {
+          const c = await call(prov, req.path, req.body);
+          note(prov + ' chat endpoint ' + req.path + ' → ' + JSON.stringify({ ev: c.ev, status: c.status, body: String(c.body || c.text || '').slice(0, 200), timeout: c.timeout }));
+          ok([400, 401, 403].includes(c.status), prov + ': chat endpoint exists and refuses the dummy key (HTTP ' + c.status + ')');
+        } else note(prov + ': chat request not built: ' + JSON.stringify(req));
       }
       shot('after-keys');
       await page.evaluate(() => { setTimeout(() => location.reload(), 50); }).catch(() => null); await sleep(3000);
       page = await connect(60000);
       ok(!!page, 'app page reloads after the transport checks');
     });
+    await step('camera and gallery', async () => {
+      if (!page) throw new Error('no page');
+      sh('adb logcat -c');
+      const wait = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 25000); window.Fasih.img.pick('camera', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      await sleep(4000); shot('camera-app');
+      note('after camera request: top=' + sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"').trim().replace(/\s+/g, ' ').slice(0, 200) + ' | app pid=' + pidOf());
+      fs.writeFileSync(`${OUT}/camera-log.txt`, sh('adb logcat -d').split('\n').filter(l => /Fasih|fasih|AndroidRuntime|FileProvider|ActivityTaskManager|chromium|WebView|lowmemory|lmkd|am_kill|Process .* has died/i.test(l)).slice(-160).join('\n'));
+      sh('adb shell input keyevent 4'); await sleep(1500);
+      if (!/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh('adb shell input keyevent 4'); await sleep(1200); }
+      const cam = await wait; note('camera request result: ' + cam);
+      ok(/cancel|ok|error no app/.test(cam), 'camera request returns to the app without a crash (' + cam + ')');
+      start(); await sleep(1500);
+      if (/evaluate failed/.test(cam)) { page = await connect(60000); if (!page) throw new Error('page lost after the camera request'); }
+      // gallery: push a picture and choose it in the system picker (best effort: the picker differs between Android versions)
+      sh('adb push test/sample.jpg /sdcard/Download/fasihtest.jpg'); sh('adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Download/fasihtest.jpg'); await sleep(1500);
+      const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 40000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      let tapped = false;
+      for (let i = 0; i < 8 && !tapped; i++) {
+        await sleep(2500); const x = uiXml();
+        const tap = re => { const m = x.match(re); if (!m) return false; sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); return true; };
+        if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; break; }
+        if (i === 0) shot('picker');
+        // open the drawer / the Downloads root when the file is not on the first screen
+        if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
+      }
+      if (!tapped) { shot('picker-not-automated'); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } start(); await sleep(1500); }
+      const gal = await wait2; note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
+      if (/^ok /.test(gal)) {
+        const id = gal.split(' ')[1];
+        const img = await page.evaluate(i => fetch(window.Fasih.img.url(i)).then(r => r.status + ' ' + r.headers.get('content-type'), e => 'fail ' + e), id);
+        ok(/^200 image\/jpeg/.test(img), 'the picked photo is scaled and shown inside the app (' + gal + ' → ' + img + ')');
+        if (globalThis.__call) {
+          const body = JSON.stringify({ model: 'test-model', max_tokens: 16, messages: [{ role: 'user', content: [{ type: 'text', text: 'What is in this photo?' }, { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: '@@IMG:' + id + '@@' } }] }] });
+          const c = await globalThis.__call('claude', '/v1/messages', body);
+          note('request with the photo attached → ' + JSON.stringify({ ev: c.ev, status: c.status, body: String(c.body || '').slice(0, 160) }));
+          ok(c.status === 401, 'a request carrying the photo is sent (refused only because the key is a dummy, HTTP ' + c.status + ')');
+        }
+      } else note('photo pipeline not verified on this emulator');
+      if (/evaluate failed/.test(gal)) page = await connect(60000);
+    });
     await step('restart', async () => {
+      if (!page) page = await connect(60000);
       const native = await page.evaluate(() => { try { const o = JSON.parse(window.FasihNative.restore()); return o.onboard === true && Object.keys(o.cards).length; } catch (e) { return -1; } });
       ok(native === cards, 'progress stored in the native file (' + native + ' cards)');
       sh(`adb shell am force-stop ${PKG}`); await sleep(2500); start(); await sleep(3000); dismissAnr();
