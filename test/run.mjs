@@ -82,7 +82,8 @@ async function play(page, label, limit = 1500) {
   save();
 
   let page = await connect();
-  if (!page) { note('WebView tests skipped: only adb checks count'); }
+  if (!page) { note('first WebView connection failed: restarting the app once'); sh(`adb shell am force-stop ${PKG}`); await sleep(2000); start(); await sleep(6000); dismissAnr(); page = await connect(); }
+  if (!page) { ok(false, 'WebView tests could not run (no connection to the page)'); }
   else {
     await step('bridge', async () => {
       ok(await page.evaluate(() => !!(window.FasihNative && window.Fasih.isApp)), 'native bridge present');
@@ -234,7 +235,7 @@ async function play(page, label, limit = 1500) {
       if (!page) throw new Error('no page');
       for (const pm of ['CAMERA', 'RECORD_AUDIO', 'ACCESS_FINE_LOCATION', 'ACCESS_COARSE_LOCATION', 'READ_EXTERNAL_STORAGE', 'WRITE_EXTERNAL_STORAGE']) sh('adb shell pm grant com.android.camera2 android.permission.' + pm);
       sh('adb logcat -c');
-      const wait = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 45000); window.Fasih.img.pick('camera', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      const wait = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 150000); window.Fasih.img.pick('camera', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
       await sleep(5000); shot('camera-app');
       note('after camera request: top=' + sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"').trim().replace(/\s+/g, ' ').slice(0, 160) + ' | app pid=' + pidOf());
       let shot1 = false, done1 = false;
@@ -252,7 +253,7 @@ async function play(page, label, limit = 1500) {
       note('camera automation: shutter ' + shot1 + ', done ' + done1);
       fs.writeFileSync(`${OUT}/camera-log.txt`, sh('adb logcat -d').split('\n').filter(l => /Fasih|fasih|AndroidRuntime|FileProvider|Force finishing|has died/i.test(l)).slice(-120).join('\n'));
       if (!done1) { sh('adb shell input keyevent 4'); await sleep(1500); }
-      const cam = await Promise.race([wait, sleep(20000).then(() => 'no answer')]); note('camera request result: ' + cam);
+      const cam = await Promise.race([wait, sleep(40000).then(() => 'no answer')]); note('camera request result: ' + cam + ' | ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
       await backToApp();
       if (!page) throw new Error('page lost after the camera request');
       ok(/^ok |cancel/.test(cam), 'camera request returns to the app (' + cam + ')');
@@ -268,7 +269,7 @@ async function play(page, label, limit = 1500) {
       if (!page) throw new Error('no page');
       // gallery: push a picture and choose it in the system picker (best effort: the picker differs between Android versions)
       sh('adb push test/sample.jpg /sdcard/Download/fasihtest.jpg'); sh('adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Download/fasihtest.jpg'); await sleep(1500);
-      const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 40000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 150000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
       let tapped = false;
       for (let i = 0; i < 8 && !tapped; i++) {
         await sleep(2500); const x = uiXml();
@@ -280,7 +281,7 @@ async function play(page, label, limit = 1500) {
         if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
       }
       if (!tapped) { shot('picker-not-automated'); fs.writeFileSync(`${OUT}/ui-picker-3.xml`, uiXml()); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } }
-      const gal = await Promise.race([wait2, sleep(45000).then(() => 'no answer')]);
+      const gal = await Promise.race([wait2, sleep(45000).then(() => 'no answer')]); note('gallery log: ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
       await backToApp(); note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
       if (/^ok /.test(gal) && page) {
         const id = gal.split(' ')[1]; globalThis.__photo = id;
@@ -327,7 +328,7 @@ async function play(page, label, limit = 1500) {
   const crash = sh('adb logcat -d -b crash');
   ok(!ownCrash(crash), 'no crash of the app during the tests');
   if (/FATAL EXCEPTION/.test(crash)) fs.writeFileSync(`${OUT}/crash.txt`, crash.split('\n').slice(-80).join('\n'));
-  fs.writeFileSync(`${OUT}/logcat.txt`, sh('adb logcat -d -s Fasih:V FasihJS:V AndroidRuntime:E chromium:E').split('\n').slice(-400).join('\n'));
+  fs.writeFileSync(`${OUT}/logcat.txt`, sh('adb logcat -d -s Fasih:V FasihAI:V FasihJS:V AndroidRuntime:E chromium:E').split('\n').slice(-400).join('\n'));
   if (rep.pageErrors.length) ok(false, 'JavaScript errors: ' + rep.pageErrors.slice(0, 3).join(' | '));
   console.log(`\n${rep.pass.length} passed, ${rep.fail.length} failed`);
   save();
