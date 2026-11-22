@@ -1,0 +1,434 @@
+[
+ {
+  "id": "r-b1-21",
+  "l": "B1",
+  "title": "City Life and Country Life",
+  "topic": "city",
+  "paras": [
+   "People have argued for a long time about where it is better to live. Some love the energy of a big city, while others dream of a quiet house in the countryside. In fact, both ways of life have strong points and weak points, and the best choice depends on the person.",
+   "Cities offer many opportunities. There are more jobs, more universities and more hospitals, and public transport can take you almost anywhere. You can meet people from different cultures and enjoy libraries, cinemas and restaurants at any hour. On the other hand, cities are crowded and noisy. Rent is expensive, traffic is heavy and the air is often dirty. Many city workers spend hours every day travelling to the office.",
+   "Life in the country is slower and calmer. The air is cleaner, houses are cheaper and people usually know their neighbours. Children can play outside in safe places, and nature is always close. However, there are fewer jobs, and young people often have to leave to study. Villages may have only a small clinic, and the nearest hospital can be far away. Without a car, it can be difficult to shop or visit friends.",
+   "Today, technology is changing this old choice. Fast internet allows some people to work from a village for a company in a distant city. Online lessons bring education to places without a university. At the same time, many cities are building parks and cycle paths to make life healthier. Perhaps the future will bring the best parts of both worlds closer together. Before you decide, think about what matters most to you, such as a career, family, quiet or low costs, and then choose the place that fits your life."
+  ],
+  "gloss": [
+   {
+    "w": "countryside",
+    "ar": "الريف"
+   },
+   {
+    "w": "opportunity",
+    "ar": "فرصة"
+   },
+   {
+    "w": "crowded",
+    "ar": "مزدحم"
+   },
+   {
+    "w": "rent",
+    "ar": "إيجار"
+   },
+   {
+    "w": "neighbour",
+    "ar": "جار"
+   },
+   {
+    "w": "distant",
+    "ar": "بعيد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Which is a strong point of city life?",
+    "o": [
+     "Cheaper houses",
+     "More jobs and universities",
+     "Cleaner air"
+    ],
+    "a": 1,
+    "why": "الفقرة الثانية: وظائف وجامعات ومستشفيات أكثر."
+   },
+   {
+    "k": "mc",
+    "q": "What is a problem of life in the country?",
+    "o": [
+     "The hospital can be far away.",
+     "The traffic is heavy.",
+     "Rent is very high."
+    ],
+    "a": 0,
+    "why": "الفقرة الثالثة: قد يكون أقرب مستشفى بعيداً."
+   },
+   {
+    "k": "mc",
+    "q": "How does fast internet change the choice?",
+    "o": [
+     "It closes villages.",
+     "It makes cities smaller.",
+     "It lets some people work from a village."
+    ],
+    "a": 2,
+    "why": "الفقرة الرابعة: العمل من قرية لشركة بعيدة."
+   },
+   {
+    "k": "tfng",
+    "q": "In the countryside, people usually know their neighbours.",
+    "a": "T",
+    "why": "الفقرة الثالثة: الناس يعرفون جيرانهم عادة."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer says that everybody should live in a city.",
+    "a": "F",
+    "why": "الفقرة الأولى: الاختيار الأفضل يعتمد على الشخص."
+   },
+   {
+    "k": "tfng",
+    "q": "More than half of the world's people live in cities.",
+    "a": "NG",
+    "why": "النص لا يذكر نسبة سكان المدن."
+   },
+   {
+    "k": "gap",
+    "q": "Many cities are building parks and ___ paths to make life healthier.",
+    "a": [
+     "cycle"
+    ],
+    "why": "الفقرة الرابعة: حدائق ومسارات للدراجات."
+   },
+   {
+    "k": "gap",
+    "q": "Without a ___, it can be difficult to shop or visit friends in the country.",
+    "a": [
+     "car"
+    ],
+    "why": "الفقرة الثالثة: دون سيارة يصعب التسوق وزيارة الأصدقاء."
+   }
+  ],
+  "sumAr": "للمدينة فرص وخدمات لكنها مزدحمة ومكلفة، وللريف هدوء وهواء نقي لكن فرصه أقل. التكنولوجيا تقرّب بين العالمين، والاختيار الأفضل يعتمد على أولويات كل شخص."
+ },
+ {
+  "id": "r-b1-22",
+  "l": "B1",
+  "title": "Saving Water",
+  "topic": "environment",
+  "paras": [
+   "Water seems to be everywhere, but only a small part of it is fresh and ready to drink. The rest is salty seawater or frozen at the poles. In many countries, rivers and wells are getting lower every year, because more people need water and the weather is becoming drier. Saving water is therefore a task for everyone.",
+   "At home, small changes bring big results. A tap that drips can waste thousands of litres in a year, so repairing it quickly is a good idea. Turning off the tap while you brush your teeth saves several litres each time. A short shower uses much less water than a bath. Families can also wash fruit in a bowl and then use that water for the plants, and they can run the washing machine only when it is full.",
+   "Farms use most of the world's fresh water, so smart farming is very important. In traditional systems, much water evaporates in the sun before the plants can drink it. Drip irrigation sends small amounts directly to the roots, and farmers can water at night or early in the morning when it is cooler. Some choose crops that need less water, which is wise in dry regions.",
+   "Governments and cities also have a role. They must repair old pipes, because in some places a large part of the water is lost through leaks before it reaches homes. They can collect rainwater, clean used water for a second use and teach children about saving it. Prices can also encourage careful use. Water is not just a resource for today. If we use it wisely, our children will still have enough clean water to drink, to grow food and to live healthy lives."
+  ],
+  "gloss": [
+   {
+    "w": "fresh water",
+    "ar": "مياه عذبة"
+   },
+   {
+    "w": "drip",
+    "ar": "يتقطّر"
+   },
+   {
+    "w": "evaporate",
+    "ar": "يتبخّر"
+   },
+   {
+    "w": "irrigation",
+    "ar": "ري"
+   },
+   {
+    "w": "leak",
+    "ar": "تسرّب"
+   },
+   {
+    "w": "resource",
+    "ar": "مورد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why is saving water a task for everyone?",
+    "o": [
+     "Because seawater is free",
+     "Because more people need water and the weather is drier",
+     "Because rivers are always full"
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: الحاجة تزداد والطقس أكثر جفافاً."
+   },
+   {
+    "k": "mc",
+    "q": "What does drip irrigation do?",
+    "o": [
+     "It sends small amounts of water to the roots.",
+     "It collects rainwater.",
+     "It cleans the pipes."
+    ],
+    "a": 0,
+    "why": "الفقرة الثالثة: يوصل كميات صغيرة إلى الجذور."
+   },
+   {
+    "k": "mc",
+    "q": "What is a problem with old pipes?",
+    "o": [
+     "They make water salty.",
+     "They make water too hot.",
+     "Water is lost through leaks."
+    ],
+    "a": 2,
+    "why": "الفقرة الرابعة: يضيع جزء كبير بالتسرب."
+   },
+   {
+    "k": "tfng",
+    "q": "A short shower uses less water than a bath.",
+    "a": "T",
+    "why": "الفقرة الثانية: الاستحمام السريع أقل استهلاكاً."
+   },
+   {
+    "k": "tfng",
+    "q": "Most of the world's fresh water is used in homes.",
+    "a": "F",
+    "why": "الفقرة الثالثة: المزارع تستهلك معظم المياه العذبة."
+   },
+   {
+    "k": "tfng",
+    "q": "Desalination plants are the cheapest way to get water.",
+    "a": "NG",
+    "why": "النص لا يتحدث عن تحلية المياه."
+   },
+   {
+    "k": "gap",
+    "q": "A tap that ___ can waste thousands of litres in a year.",
+    "a": [
+     "drips"
+    ],
+    "why": "الفقرة الثانية: الصنبور المتقطّر يهدر آلاف اللترات."
+   },
+   {
+    "k": "gap",
+    "q": "Farmers can water at night or early in the morning when it is ___.",
+    "a": [
+     "cooler"
+    ],
+    "why": "الفقرة الثالثة: الري في وقت أبرد."
+   }
+  ],
+  "sumAr": "قلة المياه العذبة تجعل توفيرها واجباً على الجميع: في البيت بإصلاح التسرب وترشيد الاستعمال، وفي الزراعة بالري بالتنقيط، وعلى الحكومات بإصلاح الأنابيب وإعادة استعمال المياه."
+ },
+ {
+  "id": "r-b1-23",
+  "l": "B1",
+  "title": "The Invention of the Telephone",
+  "topic": "technology",
+  "paras": [
+   "Before the telephone, a message could travel only as fast as a person, a horse or a train. In the nineteenth century, the telegraph made communication quicker, because it sent short electric signals along wires. However, it needed trained operators and could send only coded dots and dashes, not a human voice.",
+   "In the 1870s, inventors in several places tried to send speech through wires. The idea was to change sound into an electric signal and then change it back into sound at the other end. After many experiments, a Scottish-born teacher of the deaf named Alexander Graham Bell built a working device. In 1876 he made the first successful call, and the words he spoke to his assistant in the next room were clearly heard.",
+   "The new invention spread quickly. At first, only wealthy people and businesses had telephones, and every call had to pass through an operator who connected the wires by hand. Later, automatic exchanges replaced these operators, and telephone lines were laid across countries and under the sea. Doctors could call for help, shops could take orders, and families could hear each other's voices over long distances.",
+   "The telephone kept changing during the twentieth century. Phones became smaller, cheaper and available in nearly every home. Then mobile phones appeared, so people could talk while walking in the street. Today, a smartphone is a camera, a map, a bank and a computer as well as a telephone. Yet its main purpose is still the one that Bell imagined, which is to carry the human voice across a distance. A small experiment in a workshop therefore changed the way the whole world communicates. Today, we hardly notice this miracle, because it has become part of everyday life."
+  ],
+  "gloss": [
+   {
+    "w": "telegraph",
+    "ar": "التلغراف"
+   },
+   {
+    "w": "signal",
+    "ar": "إشارة"
+   },
+   {
+    "w": "operator",
+    "ar": "عامل مقسم"
+   },
+   {
+    "w": "device",
+    "ar": "جهاز"
+   },
+   {
+    "w": "exchange",
+    "ar": "مقسم هاتفي"
+   },
+   {
+    "w": "distance",
+    "ar": "مسافة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What was a limit of the telegraph?",
+    "o": [
+     "It could not use electricity.",
+     "It could only send coded dots and dashes, not a voice.",
+     "It was cheaper than a telephone."
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: يرسل رموزاً مشفّرة فقط لا صوتاً."
+   },
+   {
+    "k": "mc",
+    "q": "What was the basic idea of the telephone?",
+    "o": [
+     "To turn sound into an electric signal and back into sound",
+     "To send letters faster",
+     "To record voices on paper"
+    ],
+    "a": 0,
+    "why": "الفقرة الثانية: تحويل الصوت إلى إشارة ثم إلى صوت."
+   },
+   {
+    "k": "mc",
+    "q": "Who replaced the telephone operators?",
+    "o": [
+     "Doctors",
+     "Shop owners",
+     "Automatic exchanges"
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة: المقاسم الآلية حلّت محلهم."
+   },
+   {
+    "k": "tfng",
+    "q": "Bell made the first successful call in 1876.",
+    "a": "T",
+    "why": "الفقرة الثانية: أول مكالمة ناجحة عام 1876."
+   },
+   {
+    "k": "tfng",
+    "q": "At first, nearly every home had a telephone.",
+    "a": "F",
+    "why": "الفقرة الثالثة: في البداية الأغنياء والشركات فقط."
+   },
+   {
+    "k": "tfng",
+    "q": "Bell was married with three children.",
+    "a": "NG",
+    "why": "النص لا يذكر حياة بيل العائلية."
+   },
+   {
+    "k": "gap",
+    "q": "The telegraph sent short electric signals along ___.",
+    "a": [
+     "wires"
+    ],
+    "why": "الفقرة الأولى: عبر الأسلاك."
+   },
+   {
+    "k": "gap",
+    "q": "Later, ___ phones appeared, so people could talk while walking in the street.",
+    "a": [
+     "mobile"
+    ],
+    "why": "الفقرة الرابعة: ظهرت الهواتف المحمولة."
+   }
+  ],
+  "sumAr": "قبل الهاتف كان التلغراف يرسل رموزاً فقط. في عام 1876 نجح بيل في نقل الصوت عبر الأسلاك، ثم انتشر الهاتف وتطور حتى صار الهاتف الذكي الذي ما زال يحمل الصوت عبر المسافات."
+ },
+ {
+  "id": "r-b1-24",
+  "l": "B1",
+  "title": "How Courts Use Evidence",
+  "topic": "law",
+  "paras": [
+   "In a court case, a judge cannot simply guess who is right. Decisions must be based on evidence, which means facts and objects that help to show what really happened. A trial is like putting together a puzzle. Each piece of evidence is small, but together the pieces can show a clear picture.",
+   "There are several kinds of evidence. Witness evidence comes from people who saw or heard something and who answer questions in court. Documents, such as contracts, bank records or emails, can show what was agreed. Physical evidence includes objects, for example a tool, a photograph or a fingerprint. Experts, such as doctors or accountants, can also explain technical matters that ordinary people do not understand.",
+   "Not everything can be used. Courts ask whether evidence is relevant and reliable. Relevant means that it is connected to the question that the court must decide. Reliable means that it can be trusted. A witness who was far away in the dark may remember wrongly. Evidence that was collected illegally, for example by breaking the rules during a search, may be rejected by the judge. Both sides have the right to challenge what the other side presents.",
+   "Finally, the court must decide how much weight to give each piece of evidence. In a criminal case, the prosecution must prove its claim beyond reasonable doubt. This is a high standard, because a mistake may send an innocent person to prison. In a civil case, such as a dispute about money, the judge usually asks which story is more likely to be true. Careful rules about evidence protect fairness, and they help the public to trust the decisions of the courts. In this way, justice depends not only on judges, but also on careful and honest work with facts."
+  ],
+  "gloss": [
+   {
+    "w": "evidence",
+    "ar": "أدلة، بيّنات"
+   },
+   {
+    "w": "fingerprint",
+    "ar": "بصمة إصبع"
+   },
+   {
+    "w": "relevant",
+    "ar": "ذو صلة"
+   },
+   {
+    "w": "challenge",
+    "ar": "يطعن في، يعترض على"
+   },
+   {
+    "w": "prosecution",
+    "ar": "النيابة، الادعاء"
+   },
+   {
+    "w": "dispute",
+    "ar": "نزاع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does the writer compare a trial to?",
+    "o": [
+     "A race",
+     "A puzzle",
+     "A journey"
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: المحاكمة كتركيب أحجية."
+   },
+   {
+    "k": "mc",
+    "q": "Which is an example of physical evidence?",
+    "o": [
+     "A bank record",
+     "An expert's opinion",
+     "A fingerprint"
+    ],
+    "a": 2,
+    "why": "الفقرة الثانية: الأشياء مثل البصمة والصورة والأداة."
+   },
+   {
+    "k": "mc",
+    "q": "What does reliable evidence mean?",
+    "o": [
+     "It can be trusted.",
+     "It is very old.",
+     "It is connected to the question."
+    ],
+    "a": 0,
+    "why": "الفقرة الثالثة: الموثوق هو ما يمكن الوثوق به."
+   },
+   {
+    "k": "tfng",
+    "q": "Evidence collected illegally may be rejected by the judge.",
+    "a": "T",
+    "why": "الفقرة الثالثة: قد يرفض القاضي الأدلة المجموعة بطريقة غير قانونية."
+   },
+   {
+    "k": "tfng",
+    "q": "In a criminal case, the standard of proof is lower than in a civil case.",
+    "a": "F",
+    "why": "الفقرة الرابعة: الجنائي يتطلب معياراً أعلى."
+   },
+   {
+    "k": "tfng",
+    "q": "Judges in all countries must be lawyers for at least ten years.",
+    "a": "NG",
+    "why": "النص لا يذكر شروط تعيين القضاة."
+   },
+   {
+    "k": "gap",
+    "q": "The prosecution must prove its claim beyond ___ doubt.",
+    "a": [
+     "reasonable"
+    ],
+    "why": "الفقرة الرابعة: إثبات يتجاوز الشك المعقول."
+   },
+   {
+    "k": "gap",
+    "q": "Documents such as contracts, bank records or ___ can show what was agreed.",
+    "a": [
+     "emails"
+    ],
+    "why": "الفقرة الثانية: العقود والسجلات والبريد الإلكتروني."
+   }
+  ],
+  "sumAr": "تعتمد المحاكم على الأدلة من شهود ووثائق وأشياء مادية وخبراء، ويجب أن تكون ذات صلة وموثوقة ومجموعة قانونياً. في القضايا الجنائية يجب الإثبات بما يتجاوز الشك المعقول حمايةً للأبرياء."
+ }
+]

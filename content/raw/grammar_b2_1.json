@@ -1,0 +1,113 @@
+[
+{"id":"g-b2-01","l":"B2","title":"Perfect aspect across tenses (review)","titleAr":"الزمن التام عبر الأزمنة (مراجعة)","why":"نستعمل الزمن التام لنربط حدثاً بوقت آخر: الآن، أو الماضي، أو المستقبل. هذه المراجعة تجمع كل الصور في مكان واحد.",
+"rules":[
+{"ar":"المضارع التام (have/has + V3) يربط الماضي بالحاضر. نتيجة الحدث ما زالت ظاهرة الآن. والمضارع التام المستمر يركّز على استمرار الحدث ومدته.","form":"have/has + V3  |  have/has been + V-ing","ex":[{"en":"The committee has published its findings.","ar":"نشرت اللجنة نتائجها (والنتائج متاحة الآن)."},{"en":"She has been reviewing the contracts since morning.","ar":"هي تراجع العقود منذ الصباح."}]},
+{"ar":"الماضي التام (had + V3) يدل على حدث وقع قبل حدث ماضٍ آخر. نفكّر بخطّ زمني: حدث أول، ثم حدث ثانٍ، ثم الآن. الحدث الأقدم هو الذي نضعه في الماضي التام.","form":"had + V3  |  had been + V-ing","ex":[{"en":"By the time the inspectors arrived, the staff had removed the files.","ar":"عندما وصل المفتشون كان الموظفون قد أزالوا الملفات."},{"en":"He had been waiting for two hours when the judge finally entered.","ar":"كان ينتظر منذ ساعتين عندما دخل القاضي أخيراً."}]},
+{"ar":"المستقبل التام (will have + V3) يدل على حدث سيكتمل قبل وقت محدد في المستقبل. وغالباً نستعمل معه by + وقت. أما will have been + V-ing فنؤكد به المدة.","form":"will have + V3  |  will have been + V-ing","ex":[{"en":"By 2030, the city will have built three new hospitals.","ar":"بحلول عام 2030 ستكون المدينة قد بنت ثلاثة مستشفيات جديدة."},{"en":"Next month, we will have been living here for five years.","ar":"في الشهر القادم نكون قد أقمنا هنا خمس سنوات."}]}
+],
+"mistakes":[
+{"x":"I am living in this city since 2020.","ok":"I have been living in this city since 2020.","ar":"في العربية نقول «أسكن هنا منذ 2020» بالمضارع. أما في الإنجليزية فمع since و for نحتاج الزمن التام، لا المضارع."},
+{"x":"When he arrived, the meeting already finished.","ok":"When he arrived, the meeting had already finished.","ar":"العربي يكتفي بالماضي البسيط لأن «كان قد» اختيارية عنده. في الإنجليزية نستعمل had عندما يسبق حدثٌ حدثاً ماضياً آخر."},
+{"x":"By next year I will finish my degree for two years.","ok":"By next year I will have been studying for two years.","ar":"عبارات المدة مثل for two years تحتاج صورة تامة مثل will have been studying، لا المستقبل البسيط."}
+],
+"tip":"ارسم خطاً زمنياً: ما يقع قبل نقطة معيّنة (الآن، أو حدث ماضٍ، أو موعد قادم) يأخذ have/had/will have + V3.",
+"exs":[
+{"k":"mc","q":"By the time the lecture began, most students ___ their seats.","o":["took","had taken","have taken"],"a":1,"why":"الجلوس سبق بدء المحاضرة الماضي، فنحتاج الماضي التام."},
+{"k":"mc","q":"She ___ the report since nine o'clock and still isn't finished.","o":["wrote","had written","has been writing"],"a":2,"why":"since مع عمل مستمر حتى الآن يحتاج المضارع التام المستمر."},
+{"k":"mc","q":"Next month, we ___ in this flat for five years.","o":["will live","are living","will have been living"],"a":2,"why":"نؤكد المدة حتى نقطة مستقبلية، فنستعمل المستقبل التام المستمر."},
+{"k":"mc","q":"I ___ the judge before, so I knew what to expect.","o":["have met","had met","was meeting"],"a":1,"why":"اللقاء سبق وقتاً ماضياً (عرفتُ ما أتوقع)، فنستعمل الماضي التام."},
+{"k":"mc","q":"This is the first time the committee ___ such a long report.","o":["had received","received","has received"],"a":2,"why":"بعد This is the first time نستعمل المضارع التام."},
+{"k":"gap","q":"By the time we reached the court, the trial ___ (already/start).","a":["had already started","had started already"],"why":"بدأت المحاكمة قبل وصولنا، فنستعمل الماضي التام."},
+{"k":"gap","q":"She is tired because she ___ (work) all night.","a":["has been working"],"why":"السبب الحالي هو عمل مستمر حتى الآن، فنستعمل المضارع التام المستمر."},
+{"k":"gap","q":"By 2030 the city ___ (build) three new hospitals.","a":["will have built"],"why":"الإنجاز سيكتمل قبل 2030، فنستعمل المستقبل التام."},
+{"k":"fix","q":"I am living in this city since 2020.","bad":"am living","good":["have been living","have lived"],"why":"مع since نحتاج المضارع التام، لا المضارع المستمر."},
+{"k":"fix","q":"When he arrived, the meeting already finished.","bad":"finished","good":["had finished","had already finished"],"why":"انتهى الاجتماع قبل وصوله، فنحتاج الماضي التام."},
+{"k":"order","a":"By the end of the year, she will have finished her thesis.","ar":"بنهاية العام ستكون قد أنهت أطروحتها."},
+{"k":"order","a":"They had been waiting for two hours when the judge arrived.","ar":"كانوا ينتظرون منذ ساعتين عندما وصل القاضي."},
+{"k":"trans","q":"She started studying law in 2022 and she is still studying it.","start":"She has been","a":["She has been studying law since 2022.","She has been studying it since 2022."],"why":"حدث بدأ في الماضي ومستمر الآن، فنستعمل has been + V-ing مع since."},
+{"k":"trans","q":"The team finished the audit before the director arrived.","start":"By the time the director arrived,","a":["By the time the director arrived, the team had finished the audit.","By the time the director arrived, the team had already finished the audit."],"why":"By the time + ماضٍ بسيط يطلب الماضي التام في الجملة الأخرى."}
+]},
+{"id":"g-b2-02","l":"B2","title":"Future in the past; future perfect continuous","titleAr":"المستقبل في الماضي والمستقبل التام المستمر","why":"عندما نحكي قصة في الماضي ونتحدث عمّا كان «سيحدث» بعد ذلك، نحتاج صوراً خاصة. ونحتاج المستقبل التام المستمر للحديث عن مدة تمتد حتى وقت قادم.",
+"rules":[
+{"ar":"للتعبير عن «المستقبل» من وجهة نظر الماضي نستعمل would أو was/were going to. نحوّل will إلى would في الكلام المنقول. وwas going to تدل غالباً على نيّة أو خطة.","form":"would + V1  |  was/were going to + V1","ex":[{"en":"She promised that she would help us with the research.","ar":"وعدت بأنها ستساعدنا في البحث."},{"en":"We were going to leave early, but the road was blocked.","ar":"كنا ننوي المغادرة مبكراً، لكن الطريق كان مغلقاً."}]},
+{"ar":"was/were about to تعني أن الحدث على وشك الوقوع في تلك اللحظة. وwas/were to تُستعمل في أسلوب رسمي للخطط المرتّبة أو لما قدّره القدر.","form":"was/were about to + V1  |  was/were to + V1","ex":[{"en":"I was about to leave the office when the call came.","ar":"كنت على وشك مغادرة المكتب عندما جاء الاتصال."},{"en":"The minister was to open the bridge on Monday.","ar":"كان من المقرر أن يفتتح الوزير الجسر يوم الاثنين."}]},
+{"ar":"المستقبل التام المستمر (will have been + V-ing) يعبّر عن مدة ستكتمل في وقت قادم، مع التركيز على استمرار العمل. نستعمله غالباً مع by و for.","form":"will have been + V-ing","ex":[{"en":"By June, she will have been working here for ten years.","ar":"بحلول يونيو تكون قد عملت هنا عشر سنوات."},{"en":"By noon, the workers will have been digging for four hours.","ar":"عند الظهر يكون العمال قد حفروا أربع ساعات متواصلة."}]}
+],
+"mistakes":[
+{"x":"He said he will call me later.","ok":"He said he would call me later.","ar":"في العربية نقول «قال إنه سيتصل» بدون تغيير الزمن. في الإنجليزية، بعد فعل ماضٍ مثل said نحوّل will إلى would."},
+{"x":"I thought the exam will be easy.","ok":"I thought the exam would be easy.","ar":"الفعل thought ماضٍ، لذلك يصبح المستقبل would. هذا أكثر الأخطاء شيوعاً عند العرب."},
+{"x":"By the end of May, I will be working here for a year.","ok":"By the end of May, I will have been working here for a year.","ar":"عندما تظهر by + وقت قادم مع مدة، نحتاج will have been، لا will be."}
+],
+"tip":"would هي «ابنة will في الماضي». وإذا رأيت by + وقتاً قادماً مع for + مدة، فكّر في will have been.",
+"exs":[
+{"k":"mc","q":"He said he ___ the contract the next day.","o":["will sign","would sign","signs"],"a":1,"why":"said ماضٍ، فيتحول will إلى would."},
+{"k":"mc","q":"I was about ___ the door when the phone rang.","o":["to open","opening","open"],"a":0,"why":"التعبير هو be about to + مصدر."},
+{"k":"mc","q":"Next year, she ___ for this firm for ten years.","o":["will work","is working","will have been working"],"a":2,"why":"مدة حتى وقت قادم مع تركيز على الاستمرار: المستقبل التام المستمر."},
+{"k":"mc","q":"I thought the exam ___ easy, but it was very hard.","o":["will be","would be","is"],"a":1,"why":"thought ماضٍ، فنستعمل would للمستقبل في الماضي."},
+{"k":"mc","q":"We ___ leave early, but the road was blocked, so we stayed.","o":["were going to","are going to","will"],"a":0,"why":"نية في الماضي لم تتحقق: was/were going to."},
+{"k":"gap","q":"She promised that she ___ (help) us with the research.","a":["would help","'d help","was going to help"],"why":"الوعد في الماضي، فنستعمل would + مصدر."},
+{"k":"gap","q":"I was about ___ (leave) the office when the call came.","a":["to leave"],"why":"be about to تُتبع بمصدر مع to."},
+{"k":"gap","q":"By 2028, he ___ (study) law for six years.","a":["will have been studying","will have studied"],"why":"مدة حتى وقت قادم: المستقبل التام بصورتيه."},
+{"k":"fix","q":"He said he will call me later.","bad":"will","good":["would"],"why":"بعد said الماضي نستعمل would."},
+{"k":"fix","q":"By the end of May, I will be working here for a year.","bad":"will be working","good":["will have been working","will have worked"],"why":"by + وقت مع for + مدة يحتاج المستقبل التام."},
+{"k":"order","a":"We were about to leave when the alarm rang.","ar":"كنا على وشك المغادرة عندما رنّ الإنذار."},
+{"k":"order","a":"She knew the results would be published soon.","ar":"كانت تعرف أن النتائج ستُنشر قريباً."},
+{"k":"trans","q":"\"I will submit the report on Friday,\" he said.","start":"He said","a":["He said he would submit the report on Friday.","He said that he would submit the report on Friday."],"why":"في الكلام المنقول يتحول will إلى would."},
+{"k":"trans","q":"The workers began digging at eight o'clock and will stop at noon.","start":"By the time they stop,","a":["By the time they stop, the workers will have been digging for four hours.","By the time they stop, the workers will have dug for four hours."],"why":"من الثامنة إلى الظهر أربع ساعات، فنستعمل المستقبل التام."}
+]},
+{"id":"g-b2-03","l":"B2","title":"Mixed conditionals; unless, provided that, as long as, supposing","titleAr":"الجمل الشرطية المختلطة وأدوات الشرط الأخرى","why":"أحياناً يكون الشرط في الماضي والنتيجة في الحاضر، أو العكس. ونحتاج أيضاً كلمات بديلة عن if مثل unless وprovided that.",
+"rules":[
+{"ar":"الشرط المختلط الأول: شرط في الماضي ونتيجة في الحاضر. نقول: لو حدث شيء في الماضي (ولم يحدث) فالوضع الآن مختلف.","form":"If + had + V3, would + V1","ex":[{"en":"If I had studied law, I would be a judge now.","ar":"لو درست القانون لكنت قاضياً الآن."},{"en":"If he hadn't missed the flight, he would be at the conference now.","ar":"لو لم تفته الرحلة لكان في المؤتمر الآن."}]},
+{"ar":"الشرط المختلط الثاني: شرط عام أو دائم في الحاضر ونتيجة في الماضي. نقول: لو كان الشخص هكذا دائماً، لما وقع ذلك الحدث الماضي.","form":"If + past simple, would have + V3","ex":[{"en":"If she weren't so careful, she would have made that error last week.","ar":"لو لم تكن حذرة هكذا لارتكبت ذلك الخطأ الأسبوع الماضي."},{"en":"If the system were more secure, the data would not have been stolen.","ar":"لو كان النظام أكثر أماناً لما سُرقت البيانات."}]},
+{"ar":"unless تعني if ... not، فلا نضع بعدها نفياً آخر. وprovided (that) وas long as تعنيان «بشرط أن». وsupposing تعني «لنفترض أن» وتُستعمل مثل if.","form":"unless / provided that / as long as / supposing + clause","ex":[{"en":"Unless the data is checked, the results cannot be trusted.","ar":"ما لم تُراجع البيانات لا يمكن الوثوق بالنتائج."},{"en":"You may use the archive as long as you register first.","ar":"يمكنك استعمال الأرشيف بشرط أن تسجّل أولاً."}]}
+],
+"mistakes":[
+{"x":"Unless you don't submit the form, you will not receive a licence.","ok":"Unless you submit the form, you will not receive a licence.","ar":"unless تحمل معنى النفي أصلاً («إلا إذا»). لذلك لا نضيف not أو don't بعدها."},
+{"x":"If I would have known the rules, I would have acted differently.","ok":"If I had known the rules, I would have acted differently.","ar":"العربي يترجم «لو» بـ would في الجزأين. في الإنجليزية would لا تأتي في جزء if، بل نستعمل had + V3."},
+{"x":"I will go provided that it will not rain.","ok":"I will go provided that it does not rain.","ar":"بعد provided that وas long as نستعمل المضارع للمستقبل، مثل if تماماً."}
+],
+"tip":"انظر إلى زمن «الشرط» وزمن «النتيجة» كل واحد على حدة: ماضٍ أم حاضر؟ ثم ركّب الجزأين. وunless = if not، فلا تكرر النفي.",
+"exs":[
+{"k":"mc","q":"If I had studied law, I ___ a judge now.","o":["would be","would have been","will be"],"a":0,"why":"الشرط في الماضي والنتيجة في الحاضر (now): would + مصدر."},
+{"k":"mc","q":"If she weren't so careful, she ___ that error last week.","o":["would make","would have made","made"],"a":1,"why":"النتيجة في الماضي (last week): would have + V3."},
+{"k":"mc","q":"You can use the archive ___ you register first.","o":["unless","as long as","in case of"],"a":1,"why":"المعنى «بشرط أن تسجّل»، وهذا معنى as long as."},
+{"k":"mc","q":"___ you pay the fine today, the penalty will double.","o":["Unless","If","Provided"],"a":0,"why":"المعنى: إن لم تدفع اليوم تتضاعف الغرامة، وهذا unless."},
+{"k":"mc","q":"Supposing the committee ___ the proposal, what would you do?","o":["rejects","rejected","will reject"],"a":1,"why":"فرضية غير مؤكدة مع would في السؤال: Supposing + ماضٍ بسيط."},
+{"k":"gap","q":"If he hadn't missed the flight, he ___ (be) at the conference now.","a":["would be","'d be"],"why":"النتيجة في الحاضر: would + مصدر."},
+{"k":"gap","q":"We will approve the grant provided ___ the data is made public.","a":["that"],"why":"التعبير هو provided that."},
+{"k":"gap","q":"If the auditor ___ (not/find) the error last year, the company would still be losing money.","a":["hadn't found","had not found"],"why":"شرط في الماضي، فنستعمل had + V3 في النفي."},
+{"k":"fix","q":"Unless you don't submit the form, you will not receive a licence.","bad":"don't submit","good":["submit"],"why":"unless تعني if not، فلا نكرر النفي."},
+{"k":"fix","q":"If I would have known the rules, I would have acted differently.","bad":"would have known","good":["had known"],"why":"لا نضع would في جزء if؛ نستعمل had + V3."},
+{"k":"order","a":"Unless the data is checked, the results cannot be trusted.","ar":"ما لم تُراجع البيانات لا يمكن الوثوق بالنتائج."},
+{"k":"order","a":"If I were you, I wouldn't have signed that contract.","ar":"لو كنت مكانك لما وقّعت ذلك العقد."},
+{"k":"trans","q":"If you don't have a ticket, you cannot enter the hall.","start":"Unless","a":["Unless you have a ticket, you cannot enter the hall."],"why":"unless = if not، فنحذف النفي من جزء الشرط."},
+{"k":"trans","q":"He didn't take the job in Paris, so he doesn't live there now.","start":"If he","a":["If he had taken the job in Paris, he would live there now.","If he had taken the job in Paris, he'd live there now."],"why":"شرط مختلط: had + V3 للماضي ثم would + مصدر للحاضر."}
+]},
+{"id":"g-b2-04","l":"B2","title":"wish, if only, would rather, it's time","titleAr":"wish وif only وwould rather وit's time","why":"نستعمل هذه التراكيب للتعبير عن الأمنيات والندم والتفضيل. والقاعدة المشتركة: نرجع زمناً واحداً إلى الوراء.","rules":[
+{"ar":"wish وif only للأمنيات. للحاضر نستعمل الماضي البسيط (الأمنية غير متحققة الآن). وللماضي نستعمل الماضي التام (الندم على ما حدث). وif only أقوى من wish.","form":"wish/if only + past simple  |  wish/if only + had + V3","ex":[{"en":"I wish I had more time to study these days.","ar":"أتمنى لو كان لدي وقت أكثر للدراسة هذه الأيام."},{"en":"If only I had checked the figures earlier!","ar":"ليتني راجعت الأرقام قبل ذلك!"}]},
+{"ar":"wish + would نستعملها للشكوى من عادة مزعجة لدى الآخرين، أو لرغبة في تغيير شيء مستقبلي. ولا نستعملها مع النفس (I wish I would).","form":"wish + S + would + V1","ex":[{"en":"I wish he wouldn't talk so loudly.","ar":"أتمنى لو لم يتكلم بصوت عالٍ هكذا."},{"en":"I wish the government would publish the budget.","ar":"أتمنى لو نشرت الحكومة الميزانية."}]},
+{"ar":"would rather وit's time للتفضيل وللحث على التصرف. مع فاعل واحد نستعمل المصدر بدون to. ومع فاعلين مختلفين نستعمل الماضي البسيط. وit's time + فاعل + ماضٍ بسيط معناه أن الوقت متأخر لعمل الشيء.","form":"would rather + V1  |  would rather + S + past  |  it's (high) time + S + past","ex":[{"en":"I would rather you didn't record the meeting.","ar":"أفضّل ألا تسجّل الاجتماع."},{"en":"It's high time the committee made a decision.","ar":"حان الوقت منذ مدة لأن تتخذ اللجنة قراراً."}]}
+],
+"mistakes":[
+{"x":"I wish I can travel abroad next year.","ok":"I wish I could travel abroad next year.","ar":"«أتمنى أن أستطيع» تأتي في العربية بالمضارع. في الإنجليزية بعد wish نرجع زمناً إلى الوراء: can تصبح could."},
+{"x":"I would rather to work from home.","ok":"I would rather work from home.","ar":"نتأثر بـ prefer to فنضع to. لكن بعد would rather نستعمل المصدر مجرداً."},
+{"x":"It's time we leave.","ok":"It's time we left.","ar":"بعد it's time + فاعل نستعمل الماضي البسيط رغم أن المعنى حاضر. هذا ماضٍ «غير حقيقي»."}
+],
+"tip":"قاعدة الرجوع خطوة: أمنية الحاضر = ماضٍ بسيط، وأمنية الماضي = ماضٍ تام. وبعد would rather وit's time مع فاعل جديد = ماضٍ بسيط.",
+"exs":[
+{"k":"mc","q":"I wish I ___ more time to study these days.","o":["have","would have","had"],"a":2,"why":"أمنية عن الحاضر، فنستعمل الماضي البسيط had."},
+{"k":"mc","q":"If only I ___ the warning earlier!","o":["heard","had heard","would hear"],"a":1,"why":"ندم على الماضي، فنستعمل الماضي التام."},
+{"k":"mc","q":"I'd rather you ___ the file to anyone.","o":["don't show","not to show","didn't show"],"a":2,"why":"would rather + فاعل جديد + ماضٍ بسيط."},
+{"k":"mc","q":"It's time the government ___ stronger action.","o":["takes","took","will take"],"a":1,"why":"it's time + فاعل + ماضٍ بسيط."},
+{"k":"mc","q":"I wish he ___ so loudly; I'm trying to concentrate.","o":["wouldn't talk","doesn't talk","hadn't talk"],"a":0,"why":"شكوى من عادة مزعجة: wish + would."},
+{"k":"gap","q":"I'd rather ___ (stay) at home than go out tonight.","a":["stay"],"why":"بعد would rather نستعمل المصدر بدون to."},
+{"k":"gap","q":"She wishes she ___ (can) speak French.","a":["could"],"why":"أمنية عن الحاضر: can تصبح could."},
+{"k":"gap","q":"It's high time we ___ (leave).","a":["left"],"why":"بعد it's high time + فاعل نستعمل الماضي البسيط."},
+{"k":"fix","q":"I wish I can travel abroad next year.","bad":"can","good":["could"],"why":"بعد wish نرجع زمناً للوراء، فتصبح can إلى could."},
+{"k":"fix","q":"I would rather to work from home.","bad":"to work","good":["work"],"why":"بعد would rather نستعمل المصدر بدون to."},
+{"k":"order","a":"I wish I had checked the figures earlier.","ar":"أتمنى لو راجعت الأرقام قبل ذلك."},
+{"k":"order","a":"It is time the committee made a decision.","ar":"حان الوقت لتتخذ اللجنة قراراً."},
+{"k":"trans","q":"I'm sorry I didn't apply for that scholarship.","start":"I wish","a":["I wish I had applied for that scholarship.","I wish I'd applied for that scholarship."],"why":"ندم على الماضي: wish + had + V3."},
+{"k":"trans","q":"I would prefer you not to record the meeting.","start":"I would rather","a":["I would rather you didn't record the meeting.","I would rather you did not record the meeting."],"why":"would rather + فاعل جديد + ماضٍ بسيط."}
+]}
+]

@@ -1,0 +1,1046 @@
+[
+ {
+  "id": "g-a2-01",
+  "l": "A2",
+  "title": "Present simple vs present continuous",
+  "titleAr": "المضارع البسيط والمضارع المستمر",
+  "why": "نستعمل المضارع البسيط للعادات والحقائق، والمستمر لما يحدث الآن أو في هذه الفترة. الخلط بينهما من أكثر أخطاء المتعلمين.",
+  "rules": [
+   {
+    "ar": "المضارع البسيط يصف العادات والحقائق الثابتة. نضيف s أو es مع he وshe وit. ونستعمل do/does للنفي والسؤال.",
+    "form": "S + verb (+s) | S + do/does not + verb",
+    "ex": [
+     {
+      "en": "My father drinks tea every morning.",
+      "ar": "أبي يشرب الشاي كل صباح."
+     },
+     {
+      "en": "Water boils at 100 degrees.",
+      "ar": "يغلي الماء عند مئة درجة."
+     },
+     {
+      "en": "Does she work in a bank?",
+      "ar": "هل تعمل في بنك؟"
+     }
+    ]
+   },
+   {
+    "ar": "المضارع المستمر يصف شيئاً يحدث الآن، أو حدثاً مؤقتاً هذه الأيام. نبنيه من am/is/are + الفعل مع ing.",
+    "form": "S + am/is/are + verb-ing",
+    "ex": [
+     {
+      "en": "Look! It is raining.",
+      "ar": "انظر! إنها تمطر."
+     },
+     {
+      "en": "I am reading a good book this week.",
+      "ar": "أقرأ كتاباً جيداً هذا الأسبوع."
+     },
+     {
+      "en": "They are not working today.",
+      "ar": "هم لا يعملون اليوم."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال لا تأتي غالباً في المستمر، وهي أفعال الحالة مثل: like, love, want, know, need, understand. نقول I know ولا نقول I am knowing.",
+    "form": "like / want / know / need + simple",
+    "ex": [
+     {
+      "en": "I need a new laptop.",
+      "ar": "أحتاج إلى حاسوب محمول جديد."
+     },
+     {
+      "en": "She understands the lesson.",
+      "ar": "هي تفهم الدرس."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I am agree with you.",
+    "ok": "I agree with you.",
+    "ar": "في العربية نقول «أنا موافق» بدون فعل مساعد، فنضيف am بالخطأ. agree فعل كامل، فلا نضع قبله am."
+   },
+   {
+    "x": "She go to school every day.",
+    "ok": "She goes to school every day.",
+    "ar": "في العربية الفعل يتغير مع الضمير بطريقة أخرى. في الإنجليزية نضيف s مع he وshe وit في المضارع البسيط."
+   },
+   {
+    "x": "I am knowing the answer.",
+    "ok": "I know the answer.",
+    "ar": "know فعل حالة، لذلك لا نستعمله مع ing. استعمل المضارع البسيط."
+   }
+  ],
+  "tip": "كلمات مثل every day وusually = بسيط. وكلمات مثل now وat the moment وLook! = مستمر.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She ___ to work by bus every day.",
+    "o": [
+     "go",
+     "goes",
+     "is going"
+    ],
+    "a": 1,
+    "why": "every day تدل على عادة، وwith she نضيف s."
+   },
+   {
+    "k": "mc",
+    "q": "Be quiet! The baby ___.",
+    "o": [
+     "sleeps",
+     "sleep",
+     "is sleeping"
+    ],
+    "a": 2,
+    "why": "Be quiet تدل على شيء يحدث الآن، فنستعمل المستمر."
+   },
+   {
+    "k": "mc",
+    "q": "I ___ coffee. It tastes too bitter.",
+    "o": [
+     "don't like",
+     "am not liking",
+     "doesn't like"
+    ],
+    "a": 0,
+    "why": "like فعل حالة فلا يأتي مع ing، وwith I نستعمل don't."
+   },
+   {
+    "k": "mc",
+    "q": "How often ___ your brother visit the library?",
+    "o": [
+     "do",
+     "is",
+     "does"
+    ],
+    "a": 2,
+    "why": "How often تسأل عن العادة، وwith brother نستعمل does."
+   },
+   {
+    "k": "mc",
+    "q": "Water ___ at 100 degrees Celsius.",
+    "o": [
+     "is boiling",
+     "boil",
+     "boils"
+    ],
+    "a": 2,
+    "why": "هذه حقيقة علمية ثابتة، فنستعمل المضارع البسيط مع s."
+   },
+   {
+    "k": "mc",
+    "q": "Why ___ a coat today? It is very hot.",
+    "o": [
+     "do you wear",
+     "are you wearing",
+     "you are wearing"
+    ],
+    "a": 1,
+    "why": "السؤال عن شيء يحدث اليوم الآن، فنستعمل المستمر في صيغة السؤال."
+   },
+   {
+    "k": "gap",
+    "q": "My sister usually ___ (study) in the library.",
+    "a": [
+     "studies"
+    ],
+    "why": "usually عادة، وفعل study يصبح studies مع she."
+   },
+   {
+    "k": "gap",
+    "q": "Listen! The students ___ (sing) in the hall.",
+    "a": [
+     "are singing"
+    ],
+    "why": "Listen! تعني الآن، فنستعمل are + ing."
+   },
+   {
+    "k": "gap",
+    "q": "He ___ (not/work) on Fridays.",
+    "a": [
+     "doesn't work",
+     "does not work"
+    ],
+    "why": "عادة ثابتة منفية مع he، فنستعمل doesn't + الفعل الأصلي."
+   },
+   {
+    "k": "gap",
+    "q": "___ you understand the question?",
+    "a": [
+     "Do"
+    ],
+    "why": "السؤال عن حالة بالمضارع البسيط، فنبدأ بـ Do مع you."
+   },
+   {
+    "k": "fix",
+    "q": "He don't like coffee.",
+    "bad": "don't",
+    "good": [
+     "doesn't",
+     "does not"
+    ],
+    "why": "مع he نستعمل doesn't في المضارع البسيط."
+   },
+   {
+    "k": "fix",
+    "q": "I am wanting a glass of water.",
+    "bad": "am wanting",
+    "good": [
+     "want"
+    ],
+    "why": "want فعل حالة ولا يأتي عادة مع ing."
+   },
+   {
+    "k": "order",
+    "a": "She is studying English at the moment.",
+    "ar": "هي تدرس الإنجليزية في هذه اللحظة."
+   },
+   {
+    "k": "order",
+    "a": "My brother plays football every Saturday.",
+    "ar": "يلعب أخي كرة القدم كل سبت."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-02",
+  "l": "A2",
+  "title": "Past simple (regular and irregular)",
+  "titleAr": "الماضي البسيط (المنتظم وغير المنتظم)",
+  "why": "نستعمل الماضي البسيط للحديث عن أحداث انتهت في زمن محدد في الماضي، مثل أمس أو الأسبوع الماضي.",
+  "rules": [
+   {
+    "ar": "الأفعال المنتظمة تأخذ ed في الماضي. work تصبح worked، وstudy تصبح studied.",
+    "form": "verb + ed",
+    "ex": [
+     {
+      "en": "I studied hard last night.",
+      "ar": "درست بجد ليلة أمس."
+     },
+     {
+      "en": "They visited the museum on Sunday.",
+      "ar": "زاروا المتحف يوم الأحد."
+     },
+     {
+      "en": "She stopped the car near the bank.",
+      "ar": "أوقفت السيارة قرب البنك."
+     }
+    ]
+   },
+   {
+    "ar": "الأفعال غير المنتظمة لها شكل خاص يجب حفظه، مثل go – went وsee – saw وbuy – bought.",
+    "form": "go → went, see → saw, buy → bought",
+    "ex": [
+     {
+      "en": "We went to Oran by train.",
+      "ar": "ذهبنا إلى وهران بالقطار."
+     },
+     {
+      "en": "He bought a new phone.",
+      "ar": "اشترى هاتفاً جديداً."
+     },
+     {
+      "en": "I saw the manager this morning.",
+      "ar": "رأيت المدير هذا الصباح."
+     }
+    ]
+   },
+   {
+    "ar": "في النفي والسؤال نستعمل did. وبعد did يرجع الفعل إلى شكله الأصلي بدون ed.",
+    "form": "did not + verb | Did + S + verb?",
+    "ex": [
+     {
+      "en": "She did not pass the exam.",
+      "ar": "هي لم تنجح في الامتحان."
+     },
+     {
+      "en": "Did you call the doctor?",
+      "ar": "هل اتصلت بالطبيب؟"
+     },
+     {
+      "en": "What did he say?",
+      "ar": "ماذا قال؟"
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She didn't went to school.",
+    "ok": "She didn't go to school.",
+    "ar": "في العربية «لم» تجعل الفعل مجزوماً. في الإنجليزية didn't تحمل الماضي، فيبقى الفعل الذي بعدها في صيغته الأصلية."
+   },
+   {
+    "x": "I goed to the market.",
+    "ok": "I went to the market.",
+    "ar": "لا نضيف ed إلى كل فعل. الأفعال غير المنتظمة مثل go لها شكل خاص هو went."
+   },
+   {
+    "x": "Did you saw him?",
+    "ok": "Did you see him?",
+    "ar": "بعد Did لا نضع الماضي مرة ثانية. الماضي ظهر في did فقط."
+   }
+  ],
+  "tip": "في السؤال والنفي: did يحمل الماضي، فلا تضع الماضي على الفعل مرة أخرى.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Yesterday I ___ a letter to the university.",
+    "o": [
+     "writed",
+     "wrote",
+     "written"
+    ],
+    "a": 1,
+    "why": "write فعل غير منتظم وماضيه wrote."
+   },
+   {
+    "k": "mc",
+    "q": "She ___ the exam, so she was sad.",
+    "o": [
+     "didn't pass",
+     "not passed",
+     "doesn't passed"
+    ],
+    "a": 0,
+    "why": "النفي في الماضي: didn't + الفعل الأصلي."
+   },
+   {
+    "k": "mc",
+    "q": "___ you watch the match last night?",
+    "o": [
+     "Were",
+     "Do",
+     "Did"
+    ],
+    "a": 2,
+    "why": "سؤال في الماضي عن فعل كامل يبدأ بـ Did."
+   },
+   {
+    "k": "mc",
+    "q": "We ___ to Oran by train last summer.",
+    "o": [
+     "go",
+     "goed",
+     "went"
+    ],
+    "a": 2,
+    "why": "go غير منتظم وماضيه went."
+   },
+   {
+    "k": "mc",
+    "q": "He ___ the door and walked in.",
+    "o": [
+     "opened",
+     "opend",
+     "open"
+    ],
+    "a": 0,
+    "why": "الفعل المنتظم open يأخذ ed فيصبح opened."
+   },
+   {
+    "k": "mc",
+    "q": "I ___ my keys, so I could not open the door.",
+    "o": [
+     "losed",
+     "was losing",
+     "lost"
+    ],
+    "a": 2,
+    "why": "lose فعل غير منتظم وماضيه lost."
+   },
+   {
+    "k": "gap",
+    "q": "Last year they ___ (move) to a new flat.",
+    "a": [
+     "moved"
+    ],
+    "why": "move فعل منتظم، يأخذ d فقط لأنه ينتهي بحرف e."
+   },
+   {
+    "k": "gap",
+    "q": "He ___ (not/come) to class on Monday.",
+    "a": [
+     "didn't come",
+     "did not come"
+    ],
+    "why": "النفي: did not + الفعل الأصلي."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (buy) fresh bread this morning.",
+    "a": [
+     "bought"
+    ],
+    "why": "buy غير منتظم وماضيه bought."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (study) hard, and I passed the test.",
+    "a": [
+     "studied"
+    ],
+    "why": "الفعل ينتهي بحرف علّة y بعد حرف ساكن، فنبدل y إلى ied."
+   },
+   {
+    "k": "fix",
+    "q": "She goed to the market.",
+    "bad": "goed",
+    "good": [
+     "went"
+    ],
+    "why": "go غير منتظم، وماضيه went وليس goed."
+   },
+   {
+    "k": "fix",
+    "q": "Did you saw the news?",
+    "bad": "saw",
+    "good": [
+     "see"
+    ],
+    "why": "بعد Did نستعمل الفعل الأصلي see."
+   },
+   {
+    "k": "order",
+    "a": "We visited the old castle yesterday.",
+    "ar": "زرنا القلعة القديمة أمس."
+   },
+   {
+    "k": "order",
+    "a": "She did not answer my message.",
+    "ar": "هي لم ترد على رسالتي."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-03",
+  "l": "A2",
+  "title": "Past continuous vs past simple",
+  "titleAr": "الماضي المستمر والماضي البسيط",
+  "why": "نستعمل الماضي المستمر لحدث طويل كان جارياً في الماضي، ونستعمل الماضي البسيط لحدث قصير قاطعه.",
+  "rules": [
+   {
+    "ar": "الماضي المستمر يصف عملاً كان مستمراً في لحظة في الماضي. نبنيه من was/were + الفعل مع ing.",
+    "form": "was/were + verb-ing",
+    "ex": [
+     {
+      "en": "I was reading at nine o'clock.",
+      "ar": "كنت أقرأ في الساعة التاسعة."
+     },
+     {
+      "en": "They were playing in the garden.",
+      "ar": "كانوا يلعبون في الحديقة."
+     },
+     {
+      "en": "She was not listening.",
+      "ar": "لم تكن تستمع."
+     }
+    ]
+   },
+   {
+    "ar": "الحدث الطويل يكون مستمراً، والحدث القصير يكون بسيطاً. نربط بينهما بـ when أو while.",
+    "form": "long action: was/were + ing | short action: past simple",
+    "ex": [
+     {
+      "en": "I was walking home when I saw an accident.",
+      "ar": "كنت أمشي إلى البيت عندما رأيت حادثاً."
+     },
+     {
+      "en": "While he was cooking, the phone rang.",
+      "ar": "بينما كان يطبخ، رنّ الهاتف."
+     },
+     {
+      "en": "The lights went out while we were eating.",
+      "ar": "انطفأت الأضواء بينما كنا نأكل."
+     }
+    ]
+   },
+   {
+    "ar": "حدثان قصيران متتابعان نستعملهما بالماضي البسيط. أما حدثان طويلان في الوقت نفسه فنستعمل بينهما while مع المستمر.",
+    "form": "past simple + past simple | while + was/were + ing",
+    "ex": [
+     {
+      "en": "When I arrived, she left.",
+      "ar": "عندما وصلت، غادرت هي."
+     },
+     {
+      "en": "I was studying while my brother was sleeping.",
+      "ar": "كنت أدرس بينما كان أخي ينام."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I was waiting when he was arriving.",
+    "ok": "I was waiting when he arrived.",
+    "ar": "الحدث القصير الذي يقاطع حدثاً آخر يكون بالماضي البسيط. لا نستعمل المستمر لكل فعل في الجملة."
+   },
+   {
+    "x": "They didn't were sleeping.",
+    "ok": "They weren't sleeping.",
+    "ar": "النفي في الماضي المستمر يكون بـ wasn't أو weren't، ولا نستعمل did مع was/were."
+   },
+   {
+    "x": "While I walked, I was seeing a bird.",
+    "ok": "While I was walking, I saw a bird.",
+    "ar": "نضع المستمر مع الحدث الطويل، والبسيط مع الحدث القصير. والعكس خطأ."
+   }
+  ],
+  "tip": "الحدث الطويل = خلفية الصورة (was doing). الحدث القصير = شيء يدخل فجأة (did).",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "While he ___ the report, his computer crashed.",
+    "o": [
+     "wrote",
+     "was writing",
+     "is writing"
+    ],
+    "a": 1,
+    "why": "كتابة التقرير حدث طويل قاطعه انهيار الحاسوب."
+   },
+   {
+    "k": "mc",
+    "q": "The students ___ quietly when the fire alarm rang.",
+    "o": [
+     "were working",
+     "worked",
+     "work"
+    ],
+    "a": 0,
+    "why": "العمل كان جارياً عندما رنّ الإنذار."
+   },
+   {
+    "k": "mc",
+    "q": "She ___ her ankle while she was running.",
+    "o": [
+     "was hurting",
+     "hurts",
+     "hurt"
+    ],
+    "a": 2,
+    "why": "إصابة الكاحل حدث قصير، فنستعمل الماضي البسيط hurt."
+   },
+   {
+    "k": "mc",
+    "q": "I was cooking dinner ___ my brother arrived.",
+    "o": [
+     "when",
+     "while",
+     "during"
+    ],
+    "a": 0,
+    "why": "بعد الحدث القصير arrived نستعمل when."
+   },
+   {
+    "k": "mc",
+    "q": "Last night I ___ a strange noise and woke up.",
+    "o": [
+     "was hearing",
+     "heard",
+     "hear"
+    ],
+    "a": 1,
+    "why": "سماع الصوت حدث قصير في الماضي، فنستعمل heard."
+   },
+   {
+    "k": "mc",
+    "q": "They ___ football when it started to rain.",
+    "o": [
+     "played",
+     "were playing",
+     "play"
+    ],
+    "a": 1,
+    "why": "اللعب كان جارياً عندما بدأ المطر."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (walk) home when I saw the accident.",
+    "a": [
+     "was walking"
+    ],
+    "why": "المشي حدث طويل، ورأيت الحادث حدث قصير."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (not/listen) when the teacher asked the question.",
+    "a": [
+     "wasn't listening",
+     "was not listening"
+    ],
+    "why": "النفي في الماضي المستمر: was not + ing."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (have) lunch when the power went off.",
+    "a": [
+     "were having"
+    ],
+    "why": "كنا نتناول الغداء عندما انقطعت الكهرباء."
+   },
+   {
+    "k": "gap",
+    "q": "He broke his arm while he ___ (ride) a bike.",
+    "a": [
+     "was riding"
+    ],
+    "why": "بعد while نستعمل الماضي المستمر للحدث الطويل."
+   },
+   {
+    "k": "fix",
+    "q": "She was cooking when I was arriving.",
+    "bad": "was arriving",
+    "good": [
+     "arrived"
+    ],
+    "why": "الوصول حدث قصير، فنستعمل الماضي البسيط."
+   },
+   {
+    "k": "fix",
+    "q": "They didn't were sleeping at midnight.",
+    "bad": "didn't were",
+    "good": [
+     "weren't",
+     "were not"
+    ],
+    "why": "النفي في الماضي المستمر يكون weren't بدون did."
+   },
+   {
+    "k": "order",
+    "a": "I was reading when the lights went out.",
+    "ar": "كنت أقرأ عندما انطفأت الأضواء."
+   },
+   {
+    "k": "order",
+    "a": "What were you doing at nine o'clock?",
+    "ar": "ماذا كنت تفعل في الساعة التاسعة؟"
+   }
+  ]
+ },
+ {
+  "id": "g-a2-04",
+  "l": "A2",
+  "title": "Present perfect with ever, never, just, already, yet",
+  "titleAr": "المضارع التام مع ever وnever وjust وalready وyet",
+  "why": "نستعمل المضارع التام للتجارب وللأحداث القريبة التي لها صلة بالحاضر، من دون ذكر وقت محدد.",
+  "rules": [
+   {
+    "ar": "نبني المضارع التام من have/has + التصريف الثالث للفعل (past participle).",
+    "form": "have/has + past participle",
+    "ex": [
+     {
+      "en": "I have visited Cairo.",
+      "ar": "لقد زرت القاهرة."
+     },
+     {
+      "en": "She has finished her homework.",
+      "ar": "لقد أنهت واجبها."
+     },
+     {
+      "en": "We have not seen that film.",
+      "ar": "لم نشاهد ذلك الفيلم."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل ever في السؤال عن التجارب، وnever في النفي. معنى never هو «ولا مرة».",
+    "form": "Have you ever + p.p.? | I have never + p.p.",
+    "ex": [
+     {
+      "en": "Have you ever flown in a plane?",
+      "ar": "هل سبق لك أن سافرت بالطائرة؟"
+     },
+     {
+      "en": "I have never eaten sushi.",
+      "ar": "لم آكل السوشي قط."
+     }
+    ]
+   },
+   {
+    "ar": "just تعني «قبل قليل»، وalready تعني «من قبل» وتأتي في الجمل المثبتة. وyet تأتي في آخر السؤال أو النفي.",
+    "form": "just / already between have and p.p. | yet at the end",
+    "ex": [
+     {
+      "en": "He has just arrived.",
+      "ar": "لقد وصل للتو."
+     },
+     {
+      "en": "I have already sent the email.",
+      "ar": "لقد أرسلت البريد بالفعل."
+     },
+     {
+      "en": "Have you finished the report yet?",
+      "ar": "هل أنهيت التقرير بعد؟"
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I have saw this film twice.",
+    "ok": "I have seen this film twice.",
+    "ar": "بعد have نستعمل التصريف الثالث seen وليس saw. احفظ الأفعال الشائعة في ثلاثة أشكال."
+   },
+   {
+    "x": "I didn't finish yet.",
+    "ok": "I haven't finished yet.",
+    "ar": "مع yet نستعمل المضارع التام غالباً، لأن الحدث لم يكتمل لكنه متوقع الآن."
+   },
+   {
+    "x": "I have been never to Japan.",
+    "ok": "I have never been to Japan.",
+    "ar": "never تأتي بين have والتصريف الثالث، وليس بعده."
+   }
+  ],
+  "tip": "just وalready وnever تقع بين have والفعل. وyet تذهب إلى آخر الجملة.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I have never ___ sushi.",
+    "o": [
+     "eat",
+     "ate",
+     "eaten"
+    ],
+    "a": 2,
+    "why": "بعد have نستعمل التصريف الثالث eaten."
+   },
+   {
+    "k": "mc",
+    "q": "Have you ___ visited a museum in another country?",
+    "o": [
+     "yet",
+     "ever",
+     "still"
+    ],
+    "a": 1,
+    "why": "في السؤال عن التجارب نستعمل ever."
+   },
+   {
+    "k": "mc",
+    "q": "She has ___ finished her homework. Now she is free.",
+    "o": [
+     "just",
+     "yet",
+     "ever"
+    ],
+    "a": 0,
+    "why": "just تعني قبل قليل، وتأتي في الجملة المثبتة."
+   },
+   {
+    "k": "mc",
+    "q": "I haven't done the shopping ___.",
+    "o": [
+     "already",
+     "ever",
+     "yet"
+    ],
+    "a": 2,
+    "why": "yet تأتي في آخر النفي بمعنى «بعد»."
+   },
+   {
+    "k": "mc",
+    "q": "We ___ the film, so let's choose another one.",
+    "o": [
+     "have already seen",
+     "has already seen",
+     "are already seeing"
+    ],
+    "a": 0,
+    "why": "مع we نستعمل have، ثم already ثم seen."
+   },
+   {
+    "k": "mc",
+    "q": "Has the manager arrived ___?",
+    "o": [
+     "yet",
+     "just",
+     "never"
+    ],
+    "a": 0,
+    "why": "في السؤال نضع yet في الآخر."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (just/finish) her exam.",
+    "a": [
+     "has just finished",
+     "'s just finished"
+    ],
+    "why": "just بين has والتصريف الثالث."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (never/visit) Spain.",
+    "a": [
+     "have never visited",
+     "'ve never visited"
+    ],
+    "why": "never بين have والتصريف الثالث visited."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (not/receive) the results yet.",
+    "a": [
+     "haven't received",
+     "have not received"
+    ],
+    "why": "النفي مع yet: have not + التصريف الثالث."
+   },
+   {
+    "k": "gap",
+    "q": "They ___ (already/leave).",
+    "a": [
+     "have already left",
+     "'ve already left"
+    ],
+    "why": "already بين have والتصريف الثالث left."
+   },
+   {
+    "k": "fix",
+    "q": "I have saw this film twice.",
+    "bad": "saw",
+    "good": [
+     "seen"
+    ],
+    "why": "بعد have نستعمل التصريف الثالث seen."
+   },
+   {
+    "k": "fix",
+    "q": "Have you ate lunch yet?",
+    "bad": "ate",
+    "good": [
+     "eaten"
+    ],
+    "why": "بعد have نستعمل التصريف الثالث eaten."
+   },
+   {
+    "k": "order",
+    "a": "She has just sent the email.",
+    "ar": "لقد أرسلت البريد الإلكتروني للتو."
+   },
+   {
+    "k": "order",
+    "a": "Have you finished the report yet?",
+    "ar": "هل أنهيت التقرير بعد؟"
+   }
+  ]
+ },
+ {
+  "id": "g-a2-05",
+  "l": "A2",
+  "title": "Present perfect vs past simple (for/since)",
+  "titleAr": "المضارع التام والماضي البسيط مع for وsince",
+  "why": "نستعمل for وsince مع المضارع التام لنقول منذ متى أو كم من الوقت استمر شيء حتى الآن. ونستعمل الماضي البسيط مع وقت منتهٍ.",
+  "rules": [
+   {
+    "ar": "for يأتي مع مدة من الوقت: for three years. وsince يأتي مع نقطة بداية: since 2019.",
+    "form": "for + duration | since + starting point",
+    "ex": [
+     {
+      "en": "I have lived here for five years.",
+      "ar": "أعيش هنا منذ خمس سنوات."
+     },
+     {
+      "en": "She has worked here since January.",
+      "ar": "هي تعمل هنا منذ يناير."
+     },
+     {
+      "en": "We have known him since 2020.",
+      "ar": "نعرفه منذ عام 2020."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل المضارع التام لشيء بدأ في الماضي وما زال مستمراً حتى الآن.",
+    "form": "have/has + past participle",
+    "ex": [
+     {
+      "en": "He has been a teacher for ten years.",
+      "ar": "هو معلم منذ عشر سنوات."
+     },
+     {
+      "en": "They have been married since June.",
+      "ar": "هما متزوجان منذ يونيو."
+     }
+    ]
+   },
+   {
+    "ar": "إذا ذكرنا وقتاً منتهياً مثل yesterday أو in 2019 أو last week، نستعمل الماضي البسيط وليس المضارع التام.",
+    "form": "finished time → past simple",
+    "ex": [
+     {
+      "en": "We moved to this city in 2019.",
+      "ar": "انتقلنا إلى هذه المدينة عام 2019."
+     },
+     {
+      "en": "I saw him yesterday.",
+      "ar": "رأيته أمس."
+     },
+     {
+      "en": "She lost her phone last week.",
+      "ar": "فقدت هاتفها الأسبوع الماضي."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I am studying English since two years.",
+    "ok": "I have studied English for two years.",
+    "ar": "في العربية نقول «أدرس منذ سنتين» بالمضارع. في الإنجليزية نستعمل المضارع التام مع for وsince."
+   },
+   {
+    "x": "She has visited Paris in 2022.",
+    "ok": "She visited Paris in 2022.",
+    "ar": "in 2022 وقت منتهٍ، فلا يأتي معه المضارع التام."
+   },
+   {
+    "x": "I live here since 2019.",
+    "ok": "I have lived here since 2019.",
+    "ar": "since تحتاج إلى المضارع التام، لا المضارع البسيط."
+   }
+  ],
+  "tip": "for = كم المدة؟ since = متى بدأ؟ ووقت منتهٍ مثل yesterday = ماضٍ بسيط.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I have lived here ___ 2019.",
+    "o": [
+     "for",
+     "since",
+     "during"
+    ],
+    "a": 1,
+    "why": "2019 نقطة بداية، فنستعمل since."
+   },
+   {
+    "k": "mc",
+    "q": "She has worked here ___ three years.",
+    "o": [
+     "since",
+     "from",
+     "for"
+    ],
+    "a": 2,
+    "why": "three years مدة، فنستعمل for."
+   },
+   {
+    "k": "mc",
+    "q": "We ___ in Blida in 2020.",
+    "o": [
+     "lived",
+     "have lived",
+     "live"
+    ],
+    "a": 0,
+    "why": "in 2020 وقت منتهٍ فنستعمل الماضي البسيط."
+   },
+   {
+    "k": "mc",
+    "q": "I ___ him yesterday.",
+    "o": [
+     "have seen",
+     "saw",
+     "have saw"
+    ],
+    "a": 1,
+    "why": "yesterday وقت منتهٍ، فنستعمل الماضي البسيط."
+   },
+   {
+    "k": "mc",
+    "q": "How long ___ you known your teacher?",
+    "o": [
+     "did",
+     "have",
+     "are"
+    ],
+    "a": 1,
+    "why": "السؤال عن مدة مستمرة حتى الآن يأخذ have + p.p."
+   },
+   {
+    "k": "mc",
+    "q": "He ___ his phone last week, so he bought a new one.",
+    "o": [
+     "has lost",
+     "loses",
+     "lost"
+    ],
+    "a": 2,
+    "why": "last week وقت منتهٍ، فنستعمل lost."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (live) here since 2018.",
+    "a": [
+     "have lived",
+     "'ve lived"
+    ],
+    "why": "since تحتاج إلى المضارع التام."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (start) the course last Monday.",
+    "a": [
+     "started"
+    ],
+    "why": "last Monday وقت منتهٍ، فنستعمل الماضي البسيط."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (know) each other for five years.",
+    "a": [
+     "have known",
+     "'ve known"
+    ],
+    "why": "for مع المدة تحتاج إلى المضارع التام."
+   },
+   {
+    "k": "gap",
+    "q": "He ___ (not/see) his cousin since June.",
+    "a": [
+     "hasn't seen",
+     "has not seen"
+    ],
+    "why": "since مع النفي: has not + p.p."
+   },
+   {
+    "k": "fix",
+    "q": "I am studying English since two years.",
+    "bad": "am studying",
+    "good": [
+     "have studied",
+     "'ve studied",
+     "have been studying",
+     "'ve been studying"
+    ],
+    "why": "مع for وsince نستعمل المضارع التام."
+   },
+   {
+    "k": "fix",
+    "q": "She has visited Paris in 2022.",
+    "bad": "has visited",
+    "good": [
+     "visited"
+    ],
+    "why": "in 2022 وقت منتهٍ فنستعمل الماضي البسيط."
+   },
+   {
+    "k": "order",
+    "a": "He has worked here since January.",
+    "ar": "هو يعمل هنا منذ يناير."
+   },
+   {
+    "k": "order",
+    "a": "We moved to this city in 2019.",
+    "ar": "انتقلنا إلى هذه المدينة عام 2019."
+   }
+  ]
+ }
+]

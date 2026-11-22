@@ -1,0 +1,1091 @@
+[
+ {
+  "id": "g-a2-06",
+  "l": "A2",
+  "title": "Future: will, be going to, present continuous",
+  "titleAr": "المستقبل: will وbe going to والمضارع المستمر",
+  "why": "في الإنجليزية ثلاث طرق شائعة للحديث عن المستقبل، ولكل طريقة استعمال مختلف. اختيار الطريقة الصحيحة يجعل كلامك طبيعياً.",
+  "rules": [
+   {
+    "ar": "نستعمل will للقرار الذي نتخذه الآن، وللتوقع وللوعد. وبعد will يأتي الفعل الأصلي بدون to.",
+    "form": "will + verb",
+    "ex": [
+     {
+      "en": "The phone is ringing. I will answer it.",
+      "ar": "الهاتف يرن. سأرد عليه."
+     },
+     {
+      "en": "I think it will be sunny tomorrow.",
+      "ar": "أظن أن الجو سيكون مشمساً غداً."
+     },
+     {
+      "en": "I promise I won't be late.",
+      "ar": "أعدك أنني لن أتأخر."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل be going to للخطة التي قررناها قبل الكلام، وللتوقع الذي نراه بأدلة أمام أعيننا.",
+    "form": "am/is/are going to + verb",
+    "ex": [
+     {
+      "en": "I am going to start a new course.",
+      "ar": "سأبدأ دورة جديدة."
+     },
+     {
+      "en": "Look at those clouds! It is going to rain.",
+      "ar": "انظر إلى تلك الغيوم! ستمطر."
+     },
+     {
+      "en": "She is going to buy a car.",
+      "ar": "ستشتري سيارة."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل المضارع المستمر لموعد مرتب ومحدد، وغالباً معه وقت أو مكان.",
+    "form": "am/is/are + verb-ing + future time",
+    "ex": [
+     {
+      "en": "I am seeing the dentist at four o'clock.",
+      "ar": "سأقابل طبيب الأسنان في الرابعة."
+     },
+     {
+      "en": "We are meeting the lawyer at noon.",
+      "ar": "سنقابل المحامي عند الظهر."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I will to call you tomorrow.",
+    "ok": "I will call you tomorrow.",
+    "ar": "في العربية يأتي حرف «سـ» أو «سوف» قبل الفعل مباشرة. كذلك بعد will نضع الفعل الأصلي ولا نضع to."
+   },
+   {
+    "x": "She is going to meets her friend.",
+    "ok": "She is going to meet her friend.",
+    "ar": "بعد going to نضع الفعل الأصلي بلا s، حتى مع she."
+   },
+   {
+    "x": "Look at the clouds! It will rain.",
+    "ok": "Look at the clouds! It is going to rain.",
+    "ar": "عندما نرى دليلاً الآن نفضل be going to على will."
+   }
+  ],
+  "tip": "will = قرار الآن أو وعد. going to = خطة أو دليل أمامك. المستمر = موعد مرتب.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The phone is ringing. I ___ answer it.",
+    "o": [
+     "am going to",
+     "will",
+     "am answering"
+    ],
+    "a": 1,
+    "why": "قرار لحظي وقت الكلام، فنستعمل will."
+   },
+   {
+    "k": "mc",
+    "q": "Look at those dark clouds! It ___ rain.",
+    "o": [
+     "is going to",
+     "goes to",
+     "will to"
+    ],
+    "a": 0,
+    "why": "نرى دليلاً أمامنا، فنستعمل be going to."
+   },
+   {
+    "k": "mc",
+    "q": "I ___ my dentist at 4 o'clock tomorrow. I have an appointment.",
+    "o": [
+     "am seeing",
+     "will seeing",
+     "seen"
+    ],
+    "a": 0,
+    "why": "موعد مرتب، فنستعمل المضارع المستمر."
+   },
+   {
+    "k": "mc",
+    "q": "I promise I ___ late again.",
+    "o": [
+     "am not being",
+     "don't be",
+     "won't be"
+    ],
+    "a": 2,
+    "why": "الوعد يكون بـ will، والنفي won't."
+   },
+   {
+    "k": "mc",
+    "q": "She has bought paint. She ___ paint her room this weekend.",
+    "o": [
+     "will",
+     "is going to",
+     "paints"
+    ],
+    "a": 1,
+    "why": "الخطة قررتها من قبل، فنستعمل be going to."
+   },
+   {
+    "k": "mc",
+    "q": "I think people ___ to Mars one day.",
+    "o": [
+     "will travel",
+     "are travelling",
+     "go to travel"
+    ],
+    "a": 0,
+    "why": "توقع عام عن المستقبل البعيد، فنستعمل will."
+   },
+   {
+    "k": "gap",
+    "q": "I'm tired. I think I ___ (go) to bed early.",
+    "a": [
+     "will go",
+     "'ll go"
+    ],
+    "why": "قرار لحظي مع I think، فنستعمل will."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (visit) my grandparents on Friday. We have bought the tickets.",
+    "a": [
+     "are visiting",
+     "'re visiting",
+     "are going to visit",
+     "'re going to visit"
+    ],
+    "why": "موعد مرتب أو خطة: المستمر أو be going to."
+   },
+   {
+    "k": "gap",
+    "q": "He ___ (not/be) at home tomorrow.",
+    "a": [
+     "won't be",
+     "will not be",
+     "isn't going to be"
+    ],
+    "why": "نفي المستقبل: will not أو is not going to."
+   },
+   {
+    "k": "gap",
+    "q": "Watch out! You ___ (fall)!",
+    "a": [
+     "are going to fall",
+     "'re going to fall"
+    ],
+    "why": "نحذر من شيء نراه الآن، فنستعمل going to."
+   },
+   {
+    "k": "fix",
+    "q": "I will to call you tomorrow.",
+    "bad": "will to",
+    "good": [
+     "will"
+    ],
+    "why": "بعد will لا نضع to."
+   },
+   {
+    "k": "fix",
+    "q": "She is going to meets her friend tonight.",
+    "bad": "meets",
+    "good": [
+     "meet"
+    ],
+    "why": "بعد going to نضع الفعل الأصلي."
+   },
+   {
+    "k": "order",
+    "a": "We are meeting the lawyer at noon.",
+    "ar": "سنقابل المحامي عند الظهر."
+   },
+   {
+    "k": "order",
+    "a": "It will be sunny tomorrow afternoon.",
+    "ar": "سيكون الجو مشمساً بعد ظهر الغد."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-07",
+  "l": "A2",
+  "title": "Countable and uncountable nouns",
+  "titleAr": "الأسماء المعدودة وغير المعدودة",
+  "why": "بعض الأشياء نستطيع عدّها مثل الكتب، وبعضها لا نعدها مثل الماء. وهذا يغير الكلمات التي نستعملها معها: some وany وmuch وmany.",
+  "rules": [
+   {
+    "ar": "الاسم المعدود له مفرد وجمع: a book, two books. والاسم غير المعدود لا نضع قبله a ولا نجمعه: water, money, advice, information.",
+    "form": "a/an + countable | uncountable: no a, no -s",
+    "ex": [
+     {
+      "en": "I need a pen and two notebooks.",
+      "ar": "أحتاج إلى قلم ودفترين."
+     },
+     {
+      "en": "We need some water.",
+      "ar": "نحتاج إلى بعض الماء."
+     },
+     {
+      "en": "She gave me good advice.",
+      "ar": "قدمت لي نصيحة جيدة."
+     }
+    ]
+   },
+   {
+    "ar": "some نستعملها في الجملة المثبتة، وany في النفي والسؤال. وفي العرض والطلب نقول Would you like some tea?",
+    "form": "some (+) | any (-) (?)",
+    "ex": [
+     {
+      "en": "There is some milk in the fridge.",
+      "ar": "يوجد بعض الحليب في الثلاجة."
+     },
+     {
+      "en": "We haven't got any eggs.",
+      "ar": "ليس عندنا أي بيض."
+     },
+     {
+      "en": "Would you like some tea?",
+      "ar": "هل تريد بعض الشاي؟"
+     }
+    ]
+   },
+   {
+    "ar": "many مع المعدود، وmuch مع غير المعدود، في النفي والسؤال. وa lot of تصلح مع النوعين في المثبت.",
+    "form": "many + countable | much + uncountable | a lot of + both",
+    "ex": [
+     {
+      "en": "How many students are there?",
+      "ar": "كم طالباً يوجد؟"
+     },
+     {
+      "en": "I don't have much time.",
+      "ar": "ليس عندي وقت كثير."
+     },
+     {
+      "en": "She has a lot of friends.",
+      "ar": "لديها أصدقاء كثيرون."
+     }
+    ]
+   },
+   {
+    "ar": "a few مع المعدود بمعنى «قليل لكنه كافٍ»، وa little مع غير المعدود بالمعنى نفسه.",
+    "form": "a few + countable | a little + uncountable",
+    "ex": [
+     {
+      "en": "I have a few friends in Algiers.",
+      "ar": "لدي بضعة أصدقاء في الجزائر."
+     },
+     {
+      "en": "There is a little milk left.",
+      "ar": "بقي قليل من الحليب."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I have many money.",
+    "ok": "I have a lot of money.",
+    "ar": "في العربية «مال كثير» تقال للنوعين. في الإنجليزية money غير معدود، فلا نستعمل many معه."
+   },
+   {
+    "x": "She gave me an advice.",
+    "ok": "She gave me some advice.",
+    "ar": "advice غير معدود في الإنجليزية، فلا نضع a قبله ولا نجمعه. نقول some advice."
+   },
+   {
+    "x": "Can you give me some informations?",
+    "ok": "Can you give me some information?",
+    "ar": "information لا تجمع في الإنجليزية، مع أن «معلومات» جمع في العربية."
+   }
+  ],
+  "tip": "إذا قلت two قبله فهو معدود. وإذا لم تستطع فهو غير معدود: water, money, advice, information.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I don't have ___ money.",
+    "o": [
+     "many",
+     "a few",
+     "much"
+    ],
+    "a": 2,
+    "why": "money غير معدود، فنستعمل much في النفي."
+   },
+   {
+    "k": "mc",
+    "q": "There are ___ students in the class today.",
+    "o": [
+     "a lot of",
+     "much",
+     "a little"
+    ],
+    "a": 0,
+    "why": "students معدود، وa lot of تصلح مع المعدود."
+   },
+   {
+    "k": "mc",
+    "q": "Would you like ___ tea?",
+    "o": [
+     "any",
+     "some",
+     "many"
+    ],
+    "a": 1,
+    "why": "في العرض نستعمل some."
+   },
+   {
+    "k": "mc",
+    "q": "We haven't got ___ eggs.",
+    "o": [
+     "some",
+     "much",
+     "any"
+    ],
+    "a": 2,
+    "why": "في النفي مع المعدود نستعمل any."
+   },
+   {
+    "k": "mc",
+    "q": "I have ___ friends in Algiers, so I am not alone.",
+    "o": [
+     "a few",
+     "a little",
+     "much"
+    ],
+    "a": 0,
+    "why": "friends معدود، وa few تناسب المعدود."
+   },
+   {
+    "k": "mc",
+    "q": "There is ___ milk left. Let's buy more tomorrow.",
+    "o": [
+     "a few",
+     "a little",
+     "many"
+    ],
+    "a": 1,
+    "why": "milk غير معدود، فنستعمل a little."
+   },
+   {
+    "k": "gap",
+    "q": "Is there ___ sugar in the kitchen?",
+    "a": [
+     "any"
+    ],
+    "why": "في السؤال نستعمل any."
+   },
+   {
+    "k": "gap",
+    "q": "How ___ water do you drink every day?",
+    "a": [
+     "much"
+    ],
+    "why": "water غير معدود، فنسأل How much."
+   },
+   {
+    "k": "gap",
+    "q": "There aren't ___ chairs in the room.",
+    "a": [
+     "many",
+     "any",
+     "a lot of"
+    ],
+    "why": "chairs معدود، وفي النفي نستعمل many أو any."
+   },
+   {
+    "k": "gap",
+    "q": "She gave me ___ good advice.",
+    "a": [
+     "some"
+    ],
+    "why": "الجملة مثبتة وadvice غير معدود، فنستعمل some."
+   },
+   {
+    "k": "fix",
+    "q": "I have many money.",
+    "bad": "many",
+    "good": [
+     "much",
+     "a lot of"
+    ],
+    "why": "money غير معدود فلا نستعمل many."
+   },
+   {
+    "k": "fix",
+    "q": "She gave me an advice.",
+    "bad": "an advice",
+    "good": [
+     "some advice",
+     "advice",
+     "a piece of advice"
+    ],
+    "why": "advice غير معدود فلا نضع an."
+   },
+   {
+    "k": "order",
+    "a": "There isn't much milk in the fridge.",
+    "ar": "لا يوجد حليب كثير في الثلاجة."
+   },
+   {
+    "k": "order",
+    "a": "How many books do you have?",
+    "ar": "كم كتاباً لديك؟"
+   }
+  ]
+ },
+ {
+  "id": "g-a2-08",
+  "l": "A2",
+  "title": "Articles: a, an, the and zero article",
+  "titleAr": "أدوات التعريف والتنكير: a وan وthe وبدون أداة",
+  "why": "في العربية نعرّف الاسم بـ «ال» ولا يوجد تنكير بأداة. أما الإنجليزية فتحتاج a أو an أو the في أكثر الجمل.",
+  "rules": [
+   {
+    "ar": "نستعمل a قبل صوت ساكن، وan قبل صوت متحرك: a book, an apple. والمهم هو الصوت وليس الحرف: an hour, a university.",
+    "form": "a + consonant sound | an + vowel sound",
+    "ex": [
+     {
+      "en": "She is an engineer.",
+      "ar": "هي مهندسة."
+     },
+     {
+      "en": "I saw an elephant at the zoo.",
+      "ar": "رأيت فيلاً في حديقة الحيوان."
+     },
+     {
+      "en": "He is a doctor.",
+      "ar": "هو طبيب."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل a/an عندما نذكر الشيء لأول مرة أو نقول وظيفته. ونستعمل the عندما يعرف المستمع أي شيء نقصد.",
+    "form": "first mention: a/an | known thing: the",
+    "ex": [
+     {
+      "en": "I have a car. The car is old.",
+      "ar": "لدي سيارة. السيارة قديمة."
+     },
+     {
+      "en": "Please close the door.",
+      "ar": "من فضلك أغلق الباب."
+     },
+     {
+      "en": "The sun rises in the east.",
+      "ar": "تشرق الشمس من الشرق."
+     }
+    ]
+   },
+   {
+    "ar": "لا نضع أداة قبل الأسماء العامة بصيغة الجمع أو غير المعدودة، ولا قبل الرياضات واللغات.",
+    "form": "no article: music, football, English",
+    "ex": [
+     {
+      "en": "I love music.",
+      "ar": "أحب الموسيقى."
+     },
+     {
+      "en": "He plays football every Saturday.",
+      "ar": "يلعب كرة القدم كل سبت."
+     },
+     {
+      "en": "Water is essential for life.",
+      "ar": "الماء ضروري للحياة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She is teacher.",
+    "ok": "She is a teacher.",
+    "ar": "في العربية نقول «هي معلمة» بدون أداة. في الإنجليزية نحتاج a قبل الوظيفة."
+   },
+   {
+    "x": "He eats a apple every day.",
+    "ok": "He eats an apple every day.",
+    "ar": "apple تبدأ بصوت متحرك، فنستعمل an."
+   },
+   {
+    "x": "The life is difficult.",
+    "ok": "Life is difficult.",
+    "ar": "نتحدث عن الحياة بصفة عامة، فلا نضع the. في العربية «الحياة» لها ال دائماً، لكن الإنجليزية لا تفعل ذلك."
+   }
+  ],
+  "tip": "أول مرة = a/an. نعرفه كلانا = the. كلام عام = لا شيء.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She is ___ engineer in a big company.",
+    "o": [
+     "a",
+     "an",
+     "the"
+    ],
+    "a": 1,
+    "why": "engineer تبدأ بصوت متحرك فنستعمل an."
+   },
+   {
+    "k": "mc",
+    "q": "I have a laptop and a phone. ___ laptop is new.",
+    "o": [
+     "The",
+     "A",
+     "An"
+    ],
+    "a": 0,
+    "why": "ذكرنا laptop من قبل، فصار معروفاً ونستعمل The."
+   },
+   {
+    "k": "mc",
+    "q": "My brother plays ___ football every Saturday.",
+    "o": [
+     "a",
+     "the",
+     "(no article)"
+    ],
+    "a": 2,
+    "why": "نذكر الرياضات بدون أداة."
+   },
+   {
+    "k": "mc",
+    "q": "___ sun rises in the east.",
+    "o": [
+     "A",
+     "The",
+     "(no article)"
+    ],
+    "a": 1,
+    "why": "الشمس شيء فريد معروف، فنستعمل the."
+   },
+   {
+    "k": "mc",
+    "q": "I need ___ pen. Do you have one?",
+    "o": [
+     "a",
+     "the",
+     "an"
+    ],
+    "a": 0,
+    "why": "pen يبدأ بصوت ساكن وغير محدد، فنستعمل a."
+   },
+   {
+    "k": "mc",
+    "q": "My father is ___ honest man.",
+    "o": [
+     "a",
+     "an",
+     "the"
+    ],
+    "a": 1,
+    "why": "honest تبدأ بصوت متحرك لأن h لا تنطق، فنستعمل an."
+   },
+   {
+    "k": "gap",
+    "q": "She has ___ umbrella in her bag.",
+    "a": [
+     "an"
+    ],
+    "why": "umbrella تبدأ بصوت متحرك فنستعمل an."
+   },
+   {
+    "k": "gap",
+    "q": "He is ___ best student in our class.",
+    "a": [
+     "the"
+    ],
+    "why": "مع صيغة التفضيل نستعمل the."
+   },
+   {
+    "k": "gap",
+    "q": "My uncle is ___ pilot.",
+    "a": [
+     "a"
+    ],
+    "why": "نقول وظيفة الشخص بـ a قبل الاسم الذي يبدأ بصوت ساكن."
+   },
+   {
+    "k": "gap",
+    "q": "Yesterday I bought a jacket. ___ jacket was very cheap.",
+    "a": [
+     "The"
+    ],
+    "why": "ذكرنا jacket من قبل فنستعمل The."
+   },
+   {
+    "k": "fix",
+    "q": "She is teacher.",
+    "bad": "is teacher",
+    "good": [
+     "is a teacher"
+    ],
+    "why": "نحتاج a قبل الوظيفة."
+   },
+   {
+    "k": "fix",
+    "q": "He eats a apple every day.",
+    "bad": "a apple",
+    "good": [
+     "an apple"
+    ],
+    "why": "apple تبدأ بصوت متحرك فنستعمل an."
+   },
+   {
+    "k": "order",
+    "a": "I bought a book and an umbrella.",
+    "ar": "اشتريت كتاباً ومظلة."
+   },
+   {
+    "k": "order",
+    "a": "She is an honest judge.",
+    "ar": "هي قاضية نزيهة."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-09",
+  "l": "A2",
+  "title": "Comparatives, superlatives and (not) as ... as",
+  "titleAr": "المقارنة والتفضيل وas ... as",
+  "why": "نستعمل المقارنة لنقارن بين شيئين، والتفضيل لنقول إن شيئاً هو الأعلى بين مجموعة. وas ... as لنقول إن شيئين متساويان.",
+  "rules": [
+   {
+    "ar": "للصفة القصيرة نضيف er ثم than. وللصفة الطويلة نضع more قبلها ثم than.",
+    "form": "short adj + er + than | more + long adj + than",
+    "ex": [
+     {
+      "en": "My brother is taller than me.",
+      "ar": "أخي أطول مني."
+     },
+     {
+      "en": "This exercise is more difficult than the last one.",
+      "ar": "هذا التمرين أصعب من التمرين السابق."
+     },
+     {
+      "en": "Planes are faster than trains.",
+      "ar": "الطائرات أسرع من القطارات."
+     }
+    ]
+   },
+   {
+    "ar": "للتفضيل نضيف est مع the، أو نضع the most قبل الصفة الطويلة. وهنا نقارن بمجموعة كاملة.",
+    "form": "the + adj + est | the most + long adj",
+    "ex": [
+     {
+      "en": "He is the tallest boy in the class.",
+      "ar": "هو أطول ولد في الصف."
+     },
+     {
+      "en": "This is the most interesting lesson.",
+      "ar": "هذا أكثر درس إثارة للاهتمام."
+     },
+     {
+      "en": "Algiers is the biggest city in Algeria.",
+      "ar": "الجزائر العاصمة أكبر مدينة في الجزائر."
+     }
+    ]
+   },
+   {
+    "ar": "good وbad صفتان خاصتان: good – better – the best، وbad – worse – the worst.",
+    "form": "good → better → best | bad → worse → worst",
+    "ex": [
+     {
+      "en": "Her English is better than mine.",
+      "ar": "إنجليزيتها أفضل من إنجليزيتي."
+     },
+     {
+      "en": "This is the best book I have read.",
+      "ar": "هذا أفضل كتاب قرأته."
+     }
+    ]
+   },
+   {
+    "ar": "as ... as تعني «مثل». وللنفي نقول not as ... as بمعنى «أقل من».",
+    "form": "(not) as + adj + as",
+    "ex": [
+     {
+      "en": "This test is as easy as that one.",
+      "ar": "هذا الاختبار سهل مثل ذاك."
+     },
+     {
+      "en": "My phone is not as expensive as yours.",
+      "ar": "هاتفي ليس غالياً مثل هاتفك."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She is more taller than me.",
+    "ok": "She is taller than me.",
+    "ar": "في العربية «أكثر طولاً» تعبير مقبول. في الإنجليزية نستعمل إما er وإما more، وليس الاثنين معاً."
+   },
+   {
+    "x": "This is the most big city.",
+    "ok": "This is the biggest city.",
+    "ar": "big صفة قصيرة، فنضيف est بدل most."
+   },
+   {
+    "x": "He is taller that me.",
+    "ok": "He is taller than me.",
+    "ar": "نستعمل than بعد المقارنة، وليس that."
+   }
+  ],
+  "tip": "قصيرة = er/est. طويلة = more/most. ولا تجمع الاثنين أبداً.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "This bag is ___ than that one.",
+    "o": [
+     "heavyer",
+     "heavier",
+     "more heavy"
+    ],
+    "a": 1,
+    "why": "heavy تنتهي بـ y بعد حرف ساكن، فتصبح heavier."
+   },
+   {
+    "k": "mc",
+    "q": "Algiers is one of ___ cities in Africa.",
+    "o": [
+     "bigger",
+     "the bigger",
+     "the biggest"
+    ],
+    "a": 2,
+    "why": "مع one of نستعمل التفضيل: the biggest."
+   },
+   {
+    "k": "mc",
+    "q": "Planes are ___ than trains.",
+    "o": [
+     "more fast",
+     "faster",
+     "fastest"
+    ],
+    "a": 1,
+    "why": "fast قصيرة، فنقول faster than."
+   },
+   {
+    "k": "mc",
+    "q": "This exercise is ___ than the last one.",
+    "o": [
+     "more difficult",
+     "difficulter",
+     "most difficult"
+    ],
+    "a": 0,
+    "why": "difficult صفة طويلة، فنقول more difficult."
+   },
+   {
+    "k": "mc",
+    "q": "My phone is not ___ expensive as yours.",
+    "o": [
+     "as",
+     "more",
+     "than"
+    ],
+    "a": 0,
+    "why": "التركيب not as ... as."
+   },
+   {
+    "k": "mc",
+    "q": "This is the ___ book I have ever read.",
+    "o": [
+     "good",
+     "better",
+     "best"
+    ],
+    "a": 2,
+    "why": "التفضيل من good هو the best."
+   },
+   {
+    "k": "gap",
+    "q": "My brother is ___ (tall) than me.",
+    "a": [
+     "taller"
+    ],
+    "why": "tall صفة قصيرة، فنضيف er."
+   },
+   {
+    "k": "gap",
+    "q": "This is ___ (interesting) lesson of all.",
+    "a": [
+     "the most interesting"
+    ],
+    "why": "interesting طويلة، فنقول the most interesting."
+   },
+   {
+    "k": "gap",
+    "q": "This laptop is not as ___ (expensive) as that one.",
+    "a": [
+     "expensive"
+    ],
+    "why": "في as ... as نترك الصفة كما هي."
+   },
+   {
+    "k": "gap",
+    "q": "She is ___ (good) at maths than me.",
+    "a": [
+     "better"
+    ],
+    "why": "المقارنة من good هي better."
+   },
+   {
+    "k": "fix",
+    "q": "She is more taller than me.",
+    "bad": "more taller",
+    "good": [
+     "taller"
+    ],
+    "why": "لا نجمع more مع er."
+   },
+   {
+    "k": "fix",
+    "q": "This is the most big city.",
+    "bad": "the most big",
+    "good": [
+     "the biggest"
+    ],
+    "why": "big صفة قصيرة، فنقول the biggest."
+   },
+   {
+    "k": "order",
+    "a": "Cars are faster than bicycles.",
+    "ar": "السيارات أسرع من الدراجات."
+   },
+   {
+    "k": "order",
+    "a": "This test is not as easy as that one.",
+    "ar": "هذا الاختبار ليس سهلاً مثل ذاك."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-10",
+  "l": "A2",
+  "title": "can, could and be able to",
+  "titleAr": "can وcould وbe able to",
+  "why": "نستعمل can للقدرة وللطلب وللاستئذان. وcould للماضي وللطلب المهذب. وbe able to حين لا نجد can.",
+  "rules": [
+   {
+    "ar": "can تدل على القدرة في الحاضر. بعدها فعل أصلي بدون to، ولا تضاف s مع he وshe.",
+    "form": "can + verb",
+    "ex": [
+     {
+      "en": "She can speak three languages.",
+      "ar": "هي تستطيع التحدث بثلاث لغات."
+     },
+     {
+      "en": "He can't drive. He is fifteen.",
+      "ar": "هو لا يستطيع القيادة. عمره خمسة عشر عاماً."
+     },
+     {
+      "en": "Can you swim?",
+      "ar": "هل تستطيع السباحة؟"
+     }
+    ]
+   },
+   {
+    "ar": "could تدل على القدرة العامة في الماضي. وفي الطلب تجعله أكثر أدباً.",
+    "form": "could + verb",
+    "ex": [
+     {
+      "en": "When I was five, I could swim.",
+      "ar": "عندما كان عمري خمس سنوات كنت أستطيع السباحة."
+     },
+     {
+      "en": "Could you help me with this box?",
+      "ar": "هل يمكنك مساعدتي في حمل هذا الصندوق؟"
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل can وcould وmay للاستئذان. وCould وMay أكثر أدباً من Can.",
+    "form": "Can/Could/May I + verb?",
+    "ex": [
+     {
+      "en": "Can I borrow your pen?",
+      "ar": "هل يمكنني استعارة قلمك؟"
+     },
+     {
+      "en": "May I come in?",
+      "ar": "هل يمكنني الدخول؟"
+     }
+    ]
+   },
+   {
+    "ar": "be able to يأخذ مكان can في بقية الأزمنة، مثل المستقبل: will be able to.",
+    "form": "am/is/are able to | will be able to",
+    "ex": [
+     {
+      "en": "I will be able to join you next month.",
+      "ar": "سأتمكن من الانضمام إليكم الشهر القادم."
+     },
+     {
+      "en": "She is able to work from home.",
+      "ar": "هي قادرة على العمل من المنزل."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She can to swim very well.",
+    "ok": "She can swim very well.",
+    "ar": "في العربية نقول «تستطيع أن تسبح». في الإنجليزية بعد can لا نضع to."
+   },
+   {
+    "x": "He cans play the guitar.",
+    "ok": "He can play the guitar.",
+    "ar": "can لا تأخذ s مع he وshe."
+   },
+   {
+    "x": "I will can come tomorrow.",
+    "ok": "I will be able to come tomorrow.",
+    "ar": "لا نجمع will مع can. نستعمل will be able to."
+   }
+  ],
+  "tip": "بعد can وcould لا نضع to ولا s. وإذا احتجت مستقبلاً فقل will be able to.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She ___ speak three languages.",
+    "o": [
+     "cans",
+     "can",
+     "is can"
+    ],
+    "a": 1,
+    "why": "can لا تأخذ s ولا is."
+   },
+   {
+    "k": "mc",
+    "q": "___ I borrow your pen, please?",
+    "o": [
+     "Can",
+     "Do",
+     "Am"
+    ],
+    "a": 0,
+    "why": "للاستئذان نبدأ بـ Can."
+   },
+   {
+    "k": "mc",
+    "q": "When I was five, I ___ swim.",
+    "o": [
+     "can",
+     "am able to",
+     "could"
+    ],
+    "a": 2,
+    "why": "للقدرة في الماضي نستعمل could."
+   },
+   {
+    "k": "mc",
+    "q": "I'm sorry, I ___ come to your party on Friday.",
+    "o": [
+     "can't",
+     "don't can",
+     "not can"
+    ],
+    "a": 0,
+    "why": "النفي: can't + الفعل الأصلي."
+   },
+   {
+    "k": "mc",
+    "q": "___ you help me with this heavy box, please?",
+    "o": [
+     "Do",
+     "Are",
+     "Could"
+    ],
+    "a": 2,
+    "why": "للطلب المهذب نستعمل Could."
+   },
+   {
+    "k": "mc",
+    "q": "He ___ drive because he is only fifteen.",
+    "o": [
+     "doesn't can",
+     "can't",
+     "isn't can"
+    ],
+    "a": 1,
+    "why": "النفي بـ can't فقط."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (not/can) hear you. The line is bad.",
+    "a": [
+     "can't",
+     "cannot",
+     "can not"
+    ],
+    "why": "النفي من can هو can't أو cannot."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (can) swim when she was six.",
+    "a": [
+     "could",
+     "was able to"
+    ],
+    "why": "للماضي نستعمل could أو was able to."
+   },
+   {
+    "k": "gap",
+    "q": "I hope I ___ (be able to) join you next month.",
+    "a": [
+     "will be able to",
+     "'ll be able to"
+    ],
+    "why": "للمستقبل نستعمل will be able to."
+   },
+   {
+    "k": "gap",
+    "q": "___ I use your phone, please?",
+    "a": [
+     "Can",
+     "Could",
+     "May"
+    ],
+    "why": "للاستئذان نستعمل Can أو Could أو May."
+   },
+   {
+    "k": "fix",
+    "q": "She can to swim very well.",
+    "bad": "can to",
+    "good": [
+     "can"
+    ],
+    "why": "بعد can لا نضع to."
+   },
+   {
+    "k": "fix",
+    "q": "He cans play the guitar.",
+    "bad": "cans",
+    "good": [
+     "can"
+    ],
+    "why": "can لا تأخذ s."
+   },
+   {
+    "k": "order",
+    "a": "Can you open the window, please?",
+    "ar": "هل يمكنك فتح النافذة من فضلك؟"
+   },
+   {
+    "k": "order",
+    "a": "I could not find my keys.",
+    "ar": "لم أستطع إيجاد مفاتيحي."
+   }
+  ]
+ }
+]

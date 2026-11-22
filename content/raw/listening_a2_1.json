@@ -1,0 +1,878 @@
+[
+ {
+  "id": "l-a2-01",
+  "l": "A2",
+  "title": "Booking a table for a family lunch",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, Garden Cafe. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hello. I would like to book a table for Sunday lunch, please."
+   },
+   {
+    "s": "A",
+    "t": "Of course. How many people will there be?"
+   },
+   {
+    "s": "B",
+    "t": "Six people. We are four adults and two children."
+   },
+   {
+    "s": "A",
+    "t": "And what time would you like to come?"
+   },
+   {
+    "s": "B",
+    "t": "At half past twelve, if possible."
+   },
+   {
+    "s": "A",
+    "t": "Yes, that is fine. We have a nice table by the window. Can I have your name, please?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, it is Karim Benali. Karim is K, A, R, I, M. Benali is B, E, N, A, L, I."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Mr Benali. Do you need anything special?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, one high chair, please. My niece is only one year old."
+   },
+   {
+    "s": "A",
+    "t": "No problem. I will write that down. We will see you on Sunday."
+   },
+   {
+    "s": "B",
+    "t": "Thank you very much. Goodbye."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "high chair",
+    "ar": "كرسي طفل مرتفع"
+   },
+   {
+    "w": "book a table",
+    "ar": "احجز طاولة"
+   },
+   {
+    "w": "by the window",
+    "ar": "بجانب النافذة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Which day does the family want to come?",
+    "o": [
+     "Saturday",
+     "Sunday",
+     "Friday"
+    ],
+    "a": 1,
+    "why": "قال: Sunday lunch."
+   },
+   {
+    "k": "gap",
+    "q": "How many people will come? ___",
+    "a": [
+     "6",
+     "six"
+    ],
+    "why": "قال: Six people."
+   },
+   {
+    "k": "mc",
+    "q": "What time is the booking?",
+    "o": [
+     "12.00",
+     "12.30",
+     "1.30"
+    ],
+    "a": 1,
+    "why": "قال: half past twelve أي 12:30."
+   },
+   {
+    "k": "mc",
+    "q": "Where is the table?",
+    "o": [
+     "Near the door",
+     "In the garden",
+     "By the window"
+    ],
+    "a": 2,
+    "why": "ذكرت الموظفة طاولة بجانب النافذة."
+   },
+   {
+    "k": "gap",
+    "q": "The family name is ___.",
+    "a": [
+     "Benali"
+    ],
+    "why": "تهجئة الاسم: B, E, N, A, L, I."
+   },
+   {
+    "k": "tfng",
+    "q": "The family needs a high chair for a baby.",
+    "a": "T",
+    "why": "طلب كرسياً مرتفعاً لابنة أخته الصغيرة."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-02",
+  "l": "A2",
+  "title": "Asking for directions to the station",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Excuse me. Can you help me, please? I am looking for the train station."
+   },
+   {
+    "s": "B",
+    "t": "Sure. It is not far from here. Do you see the big bank on the corner?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, I do."
+   },
+   {
+    "s": "B",
+    "t": "Go past the bank and turn left at the traffic lights."
+   },
+   {
+    "s": "A",
+    "t": "Turn left at the lights. Okay."
+   },
+   {
+    "s": "B",
+    "t": "Then walk along Park Street for about five minutes. You will see a small library on your right."
+   },
+   {
+    "s": "A",
+    "t": "A library on my right. Good."
+   },
+   {
+    "s": "B",
+    "t": "The station is just after the library, opposite the bus stop."
+   },
+   {
+    "s": "A",
+    "t": "Is it better to walk or to take a bus?"
+   },
+   {
+    "s": "B",
+    "t": "Walk. The bus is slow at this time, and it costs two dollars."
+   },
+   {
+    "s": "A",
+    "t": "Thank you so much for your help."
+   },
+   {
+    "s": "B",
+    "t": "You are welcome. Have a nice day!"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "traffic lights",
+    "ar": "إشارة المرور"
+   },
+   {
+    "w": "opposite",
+    "ar": "مقابل"
+   },
+   {
+    "w": "on your right",
+    "ar": "على يمينك"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is on the corner near the speaker?",
+    "o": [
+     "A bank",
+     "A library",
+     "A bus stop"
+    ],
+    "a": 0,
+    "why": "قال: the big bank on the corner."
+   },
+   {
+    "k": "mc",
+    "q": "Where must the man turn left?",
+    "o": [
+     "At the bank",
+     "At the traffic lights",
+     "At the library"
+    ],
+    "a": 1,
+    "why": "قال: turn left at the traffic lights."
+   },
+   {
+    "k": "gap",
+    "q": "He walks along Park Street for about ___ minutes.",
+    "a": [
+     "5",
+     "five"
+    ],
+    "why": "قال: for about five minutes."
+   },
+   {
+    "k": "mc",
+    "q": "Where is the library?",
+    "o": [
+     "On the left",
+     "On the right",
+     "Opposite the bank"
+    ],
+    "a": 1,
+    "why": "ستجد مكتبة على يمينك."
+   },
+   {
+    "k": "tfng",
+    "q": "The station is opposite the bus stop.",
+    "a": "T",
+    "why": "قال: opposite the bus stop."
+   },
+   {
+    "k": "gap",
+    "q": "The bus costs ___ dollars.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "قال: it costs two dollars."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-03",
+  "l": "A2",
+  "title": "A voicemail from a friend about the weekend",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hi Sara, it's Tom. Sorry, I missed your call. I'm calling about the weekend."
+   },
+   {
+    "s": "A",
+    "t": "On Saturday morning, I'm going to play football with my brother. The match starts at ten o'clock, so I will be free after lunch."
+   },
+   {
+    "s": "A",
+    "t": "Do you want to go to the new market in the afternoon? It opens at two. I want to buy a birthday present for my mother."
+   },
+   {
+    "s": "A",
+    "t": "After that, we can have a coffee. My cousin Lina works in a small cafe near the market, and she can give us a cake for free."
+   },
+   {
+    "s": "A",
+    "t": "On Sunday, I have to help my father in the garden, but I'm free in the evening. Maybe we can watch a film at my house."
+   },
+   {
+    "s": "A",
+    "t": "Please call me back before Friday night. My number is the same as always. Bye for now!"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "voicemail",
+    "ar": "رسالة صوتية"
+   },
+   {
+    "w": "for free",
+    "ar": "مجاناً"
+   },
+   {
+    "w": "birthday present",
+    "ar": "هدية عيد ميلاد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What will Tom do on Saturday morning?",
+    "o": [
+     "Play football",
+     "Go to the market",
+     "Work in a cafe"
+    ],
+    "a": 0,
+    "why": "سيلعب كرة القدم مع أخيه."
+   },
+   {
+    "k": "gap",
+    "q": "The football match starts at ___ o'clock.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "قال: starts at ten o'clock."
+   },
+   {
+    "k": "gap",
+    "q": "Tom wants to buy a birthday present for his ___.",
+    "a": [
+     "mother"
+    ],
+    "why": "قال: for my mother."
+   },
+   {
+    "k": "mc",
+    "q": "What time does the market open?",
+    "o": [
+     "At ten",
+     "At two",
+     "At six"
+    ],
+    "a": 1,
+    "why": "قال: It opens at two."
+   },
+   {
+    "k": "tfng",
+    "q": "Tom's cousin works in a cafe.",
+    "a": "T",
+    "why": "قال: my cousin Lina works in a small cafe."
+   },
+   {
+    "k": "mc",
+    "q": "When is Tom free on Sunday?",
+    "o": [
+     "In the morning",
+     "In the afternoon",
+     "In the evening"
+    ],
+    "a": 2,
+    "why": "يساعد والده ثم يكون متفرغاً مساءً."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-04",
+  "l": "A2",
+  "title": "At the pharmacy",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon. Can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, please. I have a bad headache and a sore throat."
+   },
+   {
+    "s": "A",
+    "t": "How long have you had them?"
+   },
+   {
+    "s": "B",
+    "t": "Since yesterday morning. I also feel a little tired."
+   },
+   {
+    "s": "A",
+    "t": "Do you have a fever?"
+   },
+   {
+    "s": "B",
+    "t": "No, I don't think so."
+   },
+   {
+    "s": "A",
+    "t": "Okay. I can give you some tablets for the headache. Take one tablet after breakfast and one after dinner."
+   },
+   {
+    "s": "B",
+    "t": "How many days should I take them?"
+   },
+   {
+    "s": "A",
+    "t": "For three days. And these sweets are good for your throat. Drink lots of warm water, too."
+   },
+   {
+    "s": "B",
+    "t": "How much is everything?"
+   },
+   {
+    "s": "A",
+    "t": "The tablets are six pounds and the sweets are three pounds. That is nine pounds in total."
+   },
+   {
+    "s": "B",
+    "t": "Here you are. Thank you."
+   },
+   {
+    "s": "A",
+    "t": "If you still feel ill on Friday, please see a doctor."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "headache",
+    "ar": "صداع"
+   },
+   {
+    "w": "sore throat",
+    "ar": "التهاب الحلق"
+   },
+   {
+    "w": "fever",
+    "ar": "حمى"
+   },
+   {
+    "w": "tablet",
+    "ar": "قرص دواء"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What problems does the customer have?",
+    "o": [
+     "A headache and a sore throat",
+     "A cough and a fever",
+     "A broken arm"
+    ],
+    "a": 0,
+    "why": "ذكر صداعاً والتهاب حلق."
+   },
+   {
+    "k": "mc",
+    "q": "Since when does he feel ill?",
+    "o": [
+     "Since this morning",
+     "Since yesterday morning",
+     "Since Monday"
+    ],
+    "a": 1,
+    "why": "قال: Since yesterday morning."
+   },
+   {
+    "k": "tfng",
+    "q": "The customer has a fever.",
+    "a": "F",
+    "why": "قال: No, I don't think so."
+   },
+   {
+    "k": "gap",
+    "q": "He must take the tablets for ___ days.",
+    "a": [
+     "3",
+     "three"
+    ],
+    "why": "قالت: For three days."
+   },
+   {
+    "k": "gap",
+    "q": "The total price is ___ pounds.",
+    "a": [
+     "9",
+     "nine"
+    ],
+    "why": "ستة زائد ثلاثة تساوي تسعة جنيهات."
+   },
+   {
+    "k": "mc",
+    "q": "When should he see a doctor?",
+    "o": [
+     "On Wednesday",
+     "On Friday",
+     "Today"
+    ],
+    "a": 1,
+    "why": "إذا بقي مريضاً يوم الجمعة."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-05",
+  "l": "A2",
+  "title": "Buying a train ticket",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hi. I need a ticket to Boston, please."
+   },
+   {
+    "s": "A",
+    "t": "One way or return?"
+   },
+   {
+    "s": "B",
+    "t": "Return, please. I want to come back on the same day."
+   },
+   {
+    "s": "A",
+    "t": "Okay. The next train leaves at eleven forty from platform four."
+   },
+   {
+    "s": "B",
+    "t": "Platform four. Is it a fast train?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, it takes two hours. There is also a slower train at noon, but it takes three hours."
+   },
+   {
+    "s": "B",
+    "t": "I will take the fast one, please. How much is it?"
+   },
+   {
+    "s": "A",
+    "t": "A return ticket is thirty-eight dollars. Are you a student?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, I am. Here is my student card."
+   },
+   {
+    "s": "A",
+    "t": "Great. With the card, you pay thirty dollars."
+   },
+   {
+    "s": "B",
+    "t": "Wonderful. Can I pay by card?"
+   },
+   {
+    "s": "A",
+    "t": "Of course. Please put it in the machine."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "return ticket",
+    "ar": "تذكرة ذهاب وإياب"
+   },
+   {
+    "w": "platform",
+    "ar": "رصيف القطار"
+   },
+   {
+    "w": "one way",
+    "ar": "ذهاب فقط"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The man wants a ticket to ___.",
+    "a": [
+     "Boston"
+    ],
+    "why": "قال: a ticket to Boston."
+   },
+   {
+    "k": "mc",
+    "q": "What kind of ticket does he buy?",
+    "o": [
+     "One way",
+     "Return",
+     "Weekly"
+    ],
+    "a": 1,
+    "why": "قال: Return, please."
+   },
+   {
+    "k": "mc",
+    "q": "What time does the fast train leave?",
+    "o": [
+     "11.04",
+     "11.40",
+     "12.00"
+    ],
+    "a": 1,
+    "why": "قالت: eleven forty."
+   },
+   {
+    "k": "gap",
+    "q": "The train leaves from platform ___.",
+    "a": [
+     "4",
+     "four"
+    ],
+    "why": "قالت: platform four."
+   },
+   {
+    "k": "mc",
+    "q": "How long is the fast train journey?",
+    "o": [
+     "Two hours",
+     "Three hours",
+     "Four hours"
+    ],
+    "a": 0,
+    "why": "القطار السريع يستغرق ساعتين."
+   },
+   {
+    "k": "gap",
+    "q": "With the student card the ticket costs ___ dollars.",
+    "a": [
+     "30",
+     "thirty"
+    ],
+    "why": "بالبطاقة الطلابية يدفع ثلاثين دولاراً."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-06",
+  "l": "A2",
+  "title": "A tour guide welcomes visitors",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, everyone, and welcome to the Old Castle. My name is Mia, and I will be your guide today."
+   },
+   {
+    "s": "A",
+    "t": "The tour takes about ninety minutes. First, we will walk around the garden. Then we will go inside to see the great hall and the kitchen."
+   },
+   {
+    "s": "A",
+    "t": "Please stay with the group, and do not touch the old furniture. You can take photos, but please do not use a flash."
+   },
+   {
+    "s": "A",
+    "t": "At half past eleven, we will have a short break. There is a small shop near the exit, and you can buy water and postcards there."
+   },
+   {
+    "s": "A",
+    "t": "The castle is about seven hundred years old. A king built it to protect the town, and later a family lived here for three hundred years."
+   },
+   {
+    "s": "A",
+    "t": "Does anyone have a question? No? Then please follow me."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "guide",
+    "ar": "مرشد سياحي"
+   },
+   {
+    "w": "flash",
+    "ar": "فلاش الكاميرا"
+   },
+   {
+    "w": "exit",
+    "ar": "مخرج"
+   },
+   {
+    "w": "furniture",
+    "ar": "أثاث"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The guide's name is ___.",
+    "a": [
+     "Mia"
+    ],
+    "why": "قالت: My name is Mia."
+   },
+   {
+    "k": "mc",
+    "q": "How long is the tour?",
+    "o": [
+     "About 60 minutes",
+     "About 90 minutes",
+     "About two hours"
+    ],
+    "a": 1,
+    "why": "قالت: about ninety minutes."
+   },
+   {
+    "k": "mc",
+    "q": "What will the group see first?",
+    "o": [
+     "The kitchen",
+     "The great hall",
+     "The garden"
+    ],
+    "a": 2,
+    "why": "أولاً يتجولون حول الحديقة."
+   },
+   {
+    "k": "tfng",
+    "q": "Visitors can use a flash for photos.",
+    "a": "F",
+    "why": "قالت: please do not use a flash."
+   },
+   {
+    "k": "gap",
+    "q": "The break is at half past ___.",
+    "a": [
+     "11",
+     "eleven"
+    ],
+    "why": "الاستراحة عند الحادية عشرة والنصف."
+   },
+   {
+    "k": "mc",
+    "q": "How old is the castle?",
+    "o": [
+     "About 300 years",
+     "About 700 years",
+     "About 90 years"
+    ],
+    "a": 1,
+    "why": "عمر القلعة نحو سبعمئة سنة."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-07",
+  "l": "A2",
+  "title": "Joining a sports club",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello. Welcome to City Sports Club. Are you a new member?"
+   },
+   {
+    "s": "B",
+    "t": "Not yet. I would like to join, please. I want to learn swimming."
+   },
+   {
+    "s": "A",
+    "t": "Great. We have swimming lessons on Monday and Wednesday evenings, from six to seven."
+   },
+   {
+    "s": "B",
+    "t": "Is that for beginners?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, it is. The teacher is very friendly. His name is Mr Green."
+   },
+   {
+    "s": "B",
+    "t": "How much does it cost?"
+   },
+   {
+    "s": "A",
+    "t": "Membership is twenty pounds a month. If you pay for a year, you get two months free."
+   },
+   {
+    "s": "B",
+    "t": "That is a good price. Do I need to bring anything?"
+   },
+   {
+    "s": "A",
+    "t": "Yes. Bring a towel, a swimming cap and a bottle of water. We have lockers, but you need a one pound coin."
+   },
+   {
+    "s": "B",
+    "t": "Okay. Can I try one lesson first?"
+   },
+   {
+    "s": "A",
+    "t": "Of course. Come this Monday, and the first lesson is free."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "member",
+    "ar": "عضو"
+   },
+   {
+    "w": "beginner",
+    "ar": "مبتدئ"
+   },
+   {
+    "w": "towel",
+    "ar": "منشفة"
+   },
+   {
+    "w": "locker",
+    "ar": "خزانة صغيرة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does the man want to learn?",
+    "o": [
+     "Tennis",
+     "Swimming",
+     "Football"
+    ],
+    "a": 1,
+    "why": "قال: I want to learn swimming."
+   },
+   {
+    "k": "mc",
+    "q": "When are the lessons?",
+    "o": [
+     "Monday and Wednesday",
+     "Tuesday and Thursday",
+     "Every weekend"
+    ],
+    "a": 0,
+    "why": "الإثنين والأربعاء مساءً."
+   },
+   {
+    "k": "gap",
+    "q": "The teacher's name is Mr ___.",
+    "a": [
+     "Green"
+    ],
+    "why": "قالت: His name is Mr Green."
+   },
+   {
+    "k": "gap",
+    "q": "Membership costs ___ pounds a month.",
+    "a": [
+     "20",
+     "twenty"
+    ],
+    "why": "قالت: twenty pounds a month."
+   },
+   {
+    "k": "tfng",
+    "q": "He must bring a towel and a swimming cap.",
+    "a": "T",
+    "why": "طلبت منه منشفة وقبعة سباحة وزجاجة ماء."
+   },
+   {
+    "k": "mc",
+    "q": "What is free?",
+    "o": [
+     "The towel",
+     "The first lesson",
+     "The locker"
+    ],
+    "a": 1,
+    "why": "الدرس الأول مجاني."
+   }
+  ]
+ }
+]

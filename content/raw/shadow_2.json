@@ -1,0 +1,490 @@
+[
+ {
+  "id": "sh-b1-01",
+  "l": "B1",
+  "title": "A job interview",
+  "titleAr": "مقابلة عمل",
+  "lines": [
+   {
+    "en": "Thank you for inviting me to this interview.",
+    "ar": "شكرًا لدعوتي إلى هذه المقابلة."
+   },
+   {
+    "en": "I recently graduated, and I'm looking for my first professional position.",
+    "ar": "تخرجت حديثًا، وأبحث عن أول وظيفة مهنية لي."
+   },
+   {
+    "en": "One of my main strengths is that I work well in a team.",
+    "ar": "من أهم نقاط قوتي أنني أعمل جيدًا ضمن فريق."
+   },
+   {
+    "en": "In my last internship, I was responsible for organising the documents.",
+    "ar": "في تدريبي الأخير كنت مسؤولًا عن تنظيم الوثائق."
+   },
+   {
+    "en": "I sometimes spend too long on details, but I'm working on it.",
+    "ar": "أحيانًا أقضي وقتًا طويلًا في التفاصيل، لكنني أعمل على ذلك."
+   },
+   {
+    "en": "I'm particularly interested in this role because it involves research.",
+    "ar": "أنا مهتم بهذا المنصب خصوصًا لأنه يتضمن البحث."
+   },
+   {
+    "en": "Could you tell me more about the training you offer?",
+    "ar": "هل يمكنك إخباري أكثر عن التدريب الذي تقدمونه؟"
+   },
+   {
+    "en": "Where do you see this department in five years?",
+    "ar": "أين ترى هذا القسم بعد خمس سنوات؟"
+   },
+   {
+    "en": "I would be very happy to join your team.",
+    "ar": "سأكون سعيدًا جدًا بالانضمام إلى فريقكم."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-02",
+  "l": "B1",
+  "title": "Giving your opinion politely",
+  "titleAr": "إبداء الرأي بأدب",
+  "lines": [
+   {
+    "en": "In my opinion, public services should be more transparent.",
+    "ar": "في رأيي، ينبغي أن تكون الخدمات العامة أكثر شفافية."
+   },
+   {
+    "en": "As far as I'm concerned, education is the best investment.",
+    "ar": "بالنسبة لي، التعليم هو أفضل استثمار."
+   },
+   {
+    "en": "I tend to think that online classes can be very useful.",
+    "ar": "أميل إلى الاعتقاد بأن الدروس عبر الإنترنت قد تكون مفيدة جدًا."
+   },
+   {
+    "en": "I see what you mean, but I look at it differently.",
+    "ar": "أفهم ما تقصده، لكنني أنظر إلى الأمر بشكل مختلف."
+   },
+   {
+    "en": "That's an interesting point, although I'm not completely sure about it.",
+    "ar": "هذه نقطة مثيرة للاهتمام، رغم أنني لست متأكدًا منها تمامًا."
+   },
+   {
+    "en": "Perhaps we could look at the problem from another angle.",
+    "ar": "ربما يمكننا النظر إلى المشكلة من زاوية أخرى."
+   },
+   {
+    "en": "I may be wrong, but I think the figures are too low.",
+    "ar": "قد أكون مخطئًا، لكنني أعتقد أن الأرقام منخفضة جدًا."
+   },
+   {
+    "en": "Would you mind if I added something to that?",
+    "ar": "هل تمانع إن أضفت شيئًا إلى ذلك؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-03",
+  "l": "B1",
+  "title": "Explaining a problem to customer service",
+  "titleAr": "شرح مشكلة لخدمة العملاء",
+  "lines": [
+   {
+    "en": "I'm calling because my order hasn't arrived yet.",
+    "ar": "أتصل لأن طلبي لم يصل بعد."
+   },
+   {
+    "en": "I placed it two weeks ago, and I still haven't received anything.",
+    "ar": "قدّمته منذ أسبوعين، ولم أستلم شيئًا حتى الآن."
+   },
+   {
+    "en": "The tracking page says it was delivered, but it wasn't.",
+    "ar": "تقول صفحة التتبع إنه سُلّم، لكن ذلك لم يحدث."
+   },
+   {
+    "en": "I've already sent two emails, but nobody replied.",
+    "ar": "لقد أرسلت بريدين إلكترونيين بالفعل، لكن لم يردّ أحد."
+   },
+   {
+    "en": "Could you check what happened to my parcel, please?",
+    "ar": "هل يمكنك أن تتحقق مما حدث لطردي، من فضلك؟"
+   },
+   {
+    "en": "I would prefer a refund rather than a replacement.",
+    "ar": "أفضّل استرداد المبلغ على الاستبدال."
+   },
+   {
+    "en": "How long will it take for the money to reach my account?",
+    "ar": "كم سيستغرق وصول المال إلى حسابي؟"
+   },
+   {
+    "en": "Could you confirm the details in writing, please?",
+    "ar": "هل يمكنك تأكيد التفاصيل كتابةً، من فضلك؟"
+   },
+   {
+    "en": "I'd like to speak to a manager if this isn't solved.",
+    "ar": "أودّ التحدث إلى المدير إن لم تُحلّ المشكلة."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-04",
+  "l": "B1",
+  "title": "Describing your studies",
+  "titleAr": "وصف دراستك",
+  "lines": [
+   {
+    "en": "I'm doing a master's degree in transparency and anti-corruption.",
+    "ar": "أدرس الماجستير في الشفافية ومكافحة الفساد."
+   },
+   {
+    "en": "The course covers law, public administration and research methods.",
+    "ar": "تغطي الدراسة القانون والإدارة العامة ومناهج البحث."
+   },
+   {
+    "en": "I chose this field because I believe in fair public institutions.",
+    "ar": "اخترت هذا المجال لأنني أؤمن بمؤسسات عامة عادلة."
+   },
+   {
+    "en": "This semester, I'm writing a paper on public procurement.",
+    "ar": "في هذا الفصل أكتب بحثًا عن الصفقات العمومية."
+   },
+   {
+    "en": "What I enjoy most is analysing real cases.",
+    "ar": "أكثر ما أستمتع به هو تحليل الحالات الواقعية."
+   },
+   {
+    "en": "The hardest part is reading long articles in English.",
+    "ar": "أصعب جزء هو قراءة المقالات الطويلة بالإنجليزية."
+   },
+   {
+    "en": "I have to hand in my dissertation by next June.",
+    "ar": "يجب أن أسلّم مذكرتي بحلول يونيو القادم."
+   },
+   {
+    "en": "After my master's, I'd like to do a PhD abroad.",
+    "ar": "بعد الماجستير أودّ إجراء دكتوراه في الخارج."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-05",
+  "l": "B1",
+  "title": "Small talk at a conference",
+  "titleAr": "حديث عابر في مؤتمر",
+  "lines": [
+   {
+    "en": "Hello, is this your first time at this conference?",
+    "ar": "مرحبًا، هل هذه أول مرة لك في هذا المؤتمر؟"
+   },
+   {
+    "en": "Yes, it is. I came here to learn from other researchers.",
+    "ar": "نعم، إنها كذلك. جئت لأتعلم من باحثين آخرين."
+   },
+   {
+    "en": "What did you think of the opening speech this morning?",
+    "ar": "ما رأيك في الكلمة الافتتاحية هذا الصباح؟"
+   },
+   {
+    "en": "I found it inspiring, especially the part about open data.",
+    "ar": "وجدتها ملهمة، خاصة الجزء المتعلق بالبيانات المفتوحة."
+   },
+   {
+    "en": "Which sessions are you planning to attend this afternoon?",
+    "ar": "أي جلسات تخطط لحضورها بعد الظهر؟"
+   },
+   {
+    "en": "Shall we grab a coffee before the next talk starts?",
+    "ar": "هل نتناول قهوة قبل أن يبدأ العرض التالي؟"
+   },
+   {
+    "en": "I'd love to hear more about your research.",
+    "ar": "يسعدني أن أسمع المزيد عن بحثك."
+   },
+   {
+    "en": "Here is my card. Let's keep in touch by email.",
+    "ar": "هذه بطاقتي. لنبقَ على تواصل عبر البريد الإلكتروني."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-06",
+  "l": "B1",
+  "title": "Asking questions after a lecture",
+  "titleAr": "طرح أسئلة بعد محاضرة",
+  "lines": [
+   {
+    "en": "Thank you for a very clear and interesting lecture.",
+    "ar": "شكرًا على محاضرة واضحة ومثيرة جدًا."
+   },
+   {
+    "en": "Could I ask a question about the second part of your talk?",
+    "ar": "هل يمكنني طرح سؤال عن الجزء الثاني من محاضرتك؟"
+   },
+   {
+    "en": "I didn't quite understand how you collected your data.",
+    "ar": "لم أفهم تمامًا كيف جمعتَ بياناتك."
+   },
+   {
+    "en": "Could you explain that point in a little more detail?",
+    "ar": "هل يمكنك شرح تلك النقطة بتفصيل أكثر قليلًا؟"
+   },
+   {
+    "en": "How reliable are the results, given the small sample?",
+    "ar": "ما مدى موثوقية النتائج، مع صغر العيّنة؟"
+   },
+   {
+    "en": "Do you think this method could work in other countries?",
+    "ar": "هل تعتقد أن هذه الطريقة قد تنجح في دول أخرى؟"
+   },
+   {
+    "en": "Would you recommend any books or articles on this topic?",
+    "ar": "هل توصي بكتب أو مقالات في هذا الموضوع؟"
+   },
+   {
+    "en": "Thank you. That answers my question very well.",
+    "ar": "شكرًا. هذا يجيب عن سؤالي جيدًا."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-07",
+  "l": "B1",
+  "title": "Introducing a project idea",
+  "titleAr": "تقديم فكرة مشروع",
+  "lines": [
+   {
+    "en": "I'd like to present a short idea for a research project.",
+    "ar": "أودّ تقديم فكرة موجزة لمشروع بحثي."
+   },
+   {
+    "en": "The project aims to find out why some reports are ignored.",
+    "ar": "يهدف المشروع إلى معرفة لماذا تُهمَل بعض التقارير."
+   },
+   {
+    "en": "To begin with, we would collect public reports from several cities.",
+    "ar": "في البداية سنجمع تقارير عامة من عدة مدن."
+   },
+   {
+    "en": "Then we would use software to compare them and find patterns.",
+    "ar": "ثم نستخدم برنامجًا لمقارنتها واكتشاف الأنماط."
+   },
+   {
+    "en": "The main benefit is that it would save a lot of time.",
+    "ar": "الفائدة الرئيسية أنه سيوفر الكثير من الوقت."
+   },
+   {
+    "en": "One possible difficulty is getting access to enough data.",
+    "ar": "من الصعوبات المحتملة الحصول على بيانات كافية."
+   },
+   {
+    "en": "We expect to finish the first stage within six months.",
+    "ar": "نتوقع إنهاء المرحلة الأولى خلال ستة أشهر."
+   },
+   {
+    "en": "I would really appreciate your feedback on this idea.",
+    "ar": "سأقدّر كثيرًا ملاحظاتكم على هذه الفكرة."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-08",
+  "l": "B1",
+  "title": "Agreeing and disagreeing in a meeting",
+  "titleAr": "الموافقة والاعتراض في اجتماع",
+  "lines": [
+   {
+    "en": "I completely agree with what Nadia just said.",
+    "ar": "أوافق تمامًا على ما قالته نادية للتو."
+   },
+   {
+    "en": "That's exactly what I was thinking.",
+    "ar": "هذا بالضبط ما كنت أفكر فيه."
+   },
+   {
+    "en": "I'm afraid I see it differently, because the budget is limited.",
+    "ar": "للأسف أرى الأمر بشكل مختلف، لأن الميزانية محدودة."
+   },
+   {
+    "en": "I take your point, but it might be too risky.",
+    "ar": "أتفهّم وجهة نظرك، لكن قد يكون ذلك محفوفًا بالمخاطر."
+   },
+   {
+    "en": "I'm not sure that would work in practice.",
+    "ar": "لست متأكدًا أن ذلك سينجح عمليًا."
+   },
+   {
+    "en": "Could we compromise and test it on a small scale first?",
+    "ar": "هل يمكننا التوصل إلى حل وسط وتجربته على نطاق صغير أولًا؟"
+   },
+   {
+    "en": "Let's vote on it so that everyone can have a say.",
+    "ar": "لنصوّت عليه كي يتمكن الجميع من إبداء رأيهم."
+   },
+   {
+    "en": "So we all agree to meet again on Monday, don't we?",
+    "ar": "إذن نتفق جميعًا على اللقاء مجددًا يوم الإثنين، أليس كذلك؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-09",
+  "l": "B1",
+  "title": "Talking to a supervisor",
+  "titleAr": "التحدث إلى المشرف",
+  "lines": [
+   {
+    "en": "Thank you for seeing me. Do you have a few minutes?",
+    "ar": "شكرًا لأنك استقبلتني. هل لديك بضع دقائق؟"
+   },
+   {
+    "en": "I've finished the first chapter, and I'd like your comments.",
+    "ar": "أنهيت الفصل الأول، وأودّ ملاحظاتك."
+   },
+   {
+    "en": "I'm having trouble finding enough reliable sources.",
+    "ar": "أواجه صعوبة في العثور على مصادر موثوقة كافية."
+   },
+   {
+    "en": "Do you think I should narrow down my research question?",
+    "ar": "هل تعتقد أنه ينبغي لي تضييق سؤال بحثي؟"
+   },
+   {
+    "en": "I'm afraid I might not meet the deadline.",
+    "ar": "أخشى ألا ألتزم بالموعد النهائي."
+   },
+   {
+    "en": "Would it be possible to have an extra week?",
+    "ar": "هل من الممكن الحصول على أسبوع إضافي؟"
+   },
+   {
+    "en": "I'll send you the revised version by Friday.",
+    "ar": "سأرسل لك النسخة المعدّلة بحلول يوم الجمعة."
+   },
+   {
+    "en": "Thank you for your advice. It was really helpful.",
+    "ar": "شكرًا على نصيحتك. كانت مفيدة حقًا."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-10",
+  "l": "B1",
+  "title": "A visa interview",
+  "titleAr": "مقابلة التأشيرة",
+  "lines": [
+   {
+    "en": "Good morning. I'm applying for a student visa.",
+    "ar": "صباح الخير. أتقدم بطلب تأشيرة طالب."
+   },
+   {
+    "en": "I've been accepted onto a doctoral programme at a university.",
+    "ar": "قُبلت في برنامج دكتوراه في إحدى الجامعات."
+   },
+   {
+    "en": "I'm going to study there for three years.",
+    "ar": "سأدرس هناك لمدة ثلاث سنوات."
+   },
+   {
+    "en": "My scholarship will cover my tuition fees and living costs.",
+    "ar": "ستغطي منحتي الدراسية الرسوم ونفقات المعيشة."
+   },
+   {
+    "en": "I have all the documents here, including my bank statements.",
+    "ar": "لدي جميع الوثائق هنا، بما فيها كشوف حساباتي البنكية."
+   },
+   {
+    "en": "I plan to return to my country after I finish my studies.",
+    "ar": "أخطط للعودة إلى بلدي بعد إنهاء دراستي."
+   },
+   {
+    "en": "My family lives in Algeria, and I'll visit them every summer.",
+    "ar": "تعيش عائلتي في الجزائر، وسأزورها كل صيف."
+   },
+   {
+    "en": "How long will it take to process my application?",
+    "ar": "كم سيستغرق معالجة طلبي؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-11",
+  "l": "B1",
+  "title": "Describing a process",
+  "titleAr": "وصف عملية",
+  "lines": [
+   {
+    "en": "First of all, you need to create an online account.",
+    "ar": "أولًا، تحتاج إلى إنشاء حساب على الإنترنت."
+   },
+   {
+    "en": "Next, you fill in the form with your personal details.",
+    "ar": "بعد ذلك تملأ الاستمارة ببياناتك الشخصية."
+   },
+   {
+    "en": "After that, the documents are uploaded and checked by staff.",
+    "ar": "بعد ذلك تُرفع الوثائق ويراجعها الموظفون."
+   },
+   {
+    "en": "If anything is missing, you will receive an email.",
+    "ar": "إذا كان هناك شيء ناقص فستصلك رسالة إلكترونية."
+   },
+   {
+    "en": "Once the application is approved, you pay the fee online.",
+    "ar": "بمجرد الموافقة على الطلب تدفع الرسوم عبر الإنترنت."
+   },
+   {
+    "en": "Then a confirmation letter is sent to your address.",
+    "ar": "ثم تُرسل رسالة تأكيد إلى عنوانك."
+   },
+   {
+    "en": "Finally, you have to collect the certificate in person.",
+    "ar": "وأخيرًا عليك استلام الشهادة بنفسك."
+   },
+   {
+    "en": "The whole process usually takes about two weeks.",
+    "ar": "تستغرق العملية كلها عادة نحو أسبوعين."
+   }
+  ]
+ },
+ {
+  "id": "sh-b1-12",
+  "l": "B1",
+  "title": "Telling a short story about yesterday",
+  "titleAr": "سرد قصة قصيرة عن أمس",
+  "lines": [
+   {
+    "en": "Yesterday I was on my way to the library when it started raining.",
+    "ar": "أمس كنت في طريقي إلى المكتبة عندما بدأ المطر."
+   },
+   {
+    "en": "I hadn't brought an umbrella, so I ran into a small café.",
+    "ar": "لم أحضر مظلة، فركضت إلى مقهى صغير."
+   },
+   {
+    "en": "While I was waiting, I met an old classmate there.",
+    "ar": "وبينما كنت أنتظر، قابلت زميلًا قديمًا في الدراسة هناك."
+   },
+   {
+    "en": "We hadn't seen each other for almost five years.",
+    "ar": "لم نلتقِ منذ نحو خمس سنوات."
+   },
+   {
+    "en": "We talked for two hours and completely forgot about the time.",
+    "ar": "تحدثنا لمدة ساعتين ونسينا الوقت تمامًا."
+   },
+   {
+    "en": "When I finally looked at my watch, the library was closed.",
+    "ar": "وعندما نظرت أخيرًا إلى ساعتي، كانت المكتبة قد أُغلقت."
+   },
+   {
+    "en": "In the end, I walked home feeling happy anyway.",
+    "ar": "في النهاية مشيت إلى البيت وأنا سعيد رغم ذلك."
+   },
+   {
+    "en": "It turned out to be a better evening than I'd planned.",
+    "ar": "تبيّن أنها أمسية أفضل مما خططت له."
+   }
+  ]
+ }
+]

@@ -1,0 +1,927 @@
+[
+ {
+  "id": "l-b2-06",
+  "l": "B2",
+  "title": "Changes to a city transport network",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Attention, all passengers. This is an announcement from City Transit about important changes to our network, which start on the first Monday of next month."
+   },
+   {
+    "s": "A",
+    "t": "Let us begin with the buses. Route twelve will no longer run along Station Road, because the road will be closed for repairs for about five months."
+   },
+   {
+    "s": "A",
+    "t": "Instead, it will pass through Market Square, and the journey will take around six minutes longer."
+   },
+   {
+    "s": "A",
+    "t": "Route seven, which many of you know, will be withdrawn completely."
+   },
+   {
+    "s": "A",
+    "t": "Passengers who used it should take the new route twenty-seven, which follows almost the same path but also stops at the central library."
+   },
+   {
+    "s": "A",
+    "t": "Now the trams. Line B will be extended by three stops, so that it finally reaches the university hospital."
+   },
+   {
+    "s": "A",
+    "t": "Trams will run every ten minutes during the day, instead of every twelve."
+   },
+   {
+    "s": "A",
+    "t": "These changes should connect the hospital with the city centre, which residents have requested for many years, and they should also make daily journeys faster."
+   },
+   {
+    "s": "A",
+    "t": "At night, we are improving the service for people who work late or go out in the evening."
+   },
+   {
+    "s": "A",
+    "t": "On Fridays and Saturdays, night buses will run every thirty minutes instead of every hour. Please note that this applies only to those two nights."
+   },
+   {
+    "s": "A",
+    "t": "Turning to fares. A single ticket stays at two dollars fifty, so there is no change there."
+   },
+   {
+    "s": "A",
+    "t": "However, the day pass will rise from seven dollars to eight dollars, the first increase in four years."
+   },
+   {
+    "s": "A",
+    "t": "There is good news for students. The discount card will now give thirty percent off all tickets."
+   },
+   {
+    "s": "A",
+    "t": "We had announced twenty-five percent last month, but the city council agreed to a larger reduction."
+   },
+   {
+    "s": "A",
+    "t": "Finally, cycling. Bicycle hire stations will open at twenty tram stops, and the first thirty minutes are free for card holders."
+   },
+   {
+    "s": "A",
+    "t": "To plan your journey, update our app, which shows the new routes from today."
+   },
+   {
+    "s": "A",
+    "t": "Information desks at the central station will also be open until nine every evening this week, and staff will be happy to help. Thank you for listening."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "route",
+    "ar": "خط سير"
+   },
+   {
+    "w": "withdraw",
+    "ar": "يُلغي / يسحب"
+   },
+   {
+    "w": "extend",
+    "ar": "يمدّد"
+   },
+   {
+    "w": "fare",
+    "ar": "أجرة"
+   },
+   {
+    "w": "reduction",
+    "ar": "تخفيض"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why is route twelve changing its path?",
+    "o": [
+     "A road will be closed for repairs",
+     "There are fewer passengers",
+     "A new tram line is being built"
+    ],
+    "a": 0,
+    "why": "طريق المحطة سيُغلق للإصلاح نحو خمسة أشهر."
+   },
+   {
+    "k": "mc",
+    "q": "Which route replaces route seven?",
+    "o": [
+     "Route twelve",
+     "Route twenty-seven",
+     "Line B"
+    ],
+    "a": 1,
+    "why": "الخط السابع ألغي وحلّ محله الخط السابع والعشرون."
+   },
+   {
+    "k": "tfng",
+    "q": "Line B will reach the university hospital.",
+    "a": "T",
+    "why": "سيُمدّد الخط بثلاث محطات."
+   },
+   {
+    "k": "gap",
+    "q": "On Fridays and Saturdays, night buses will run every ___ minutes.",
+    "a": [
+     "30",
+     "thirty"
+    ],
+    "why": "كل نصف ساعة بدل كل ساعة."
+   },
+   {
+    "k": "tfng",
+    "q": "The price of a single ticket will go up.",
+    "a": "F",
+    "why": "التذكرة المفردة تبقى بسعر دولارين وخمسين سنتاً."
+   },
+   {
+    "k": "mc",
+    "q": "What will the new price of the day pass be?",
+    "o": [
+     "Seven dollars",
+     "Two dollars fifty",
+     "Eight dollars"
+    ],
+    "a": 2,
+    "why": "سيرتفع من سبعة إلى ثمانية دولارات."
+   },
+   {
+    "k": "mc",
+    "q": "How much discount will students get?",
+    "o": [
+     "Thirty percent",
+     "Twenty-five percent",
+     "Fifteen percent"
+    ],
+    "a": 0,
+    "why": "وافق المجلس على تخفيض أكبر من الإعلان السابق."
+   },
+   {
+    "k": "gap",
+    "q": "Bicycle hire stations will open at ___ tram stops.",
+    "a": [
+     "20",
+     "twenty"
+    ],
+    "why": "عشرون محطة ترام."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-07",
+  "l": "B2",
+  "title": "Discussing a research proposal",
+  "part": 3,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Come in, both of you. I have read your draft proposal on social media use and sleep, and I think it has real potential."
+   },
+   {
+    "s": "B",
+    "t": "Thank you, Dr Hall. We were not sure about the title. Is it too long?"
+   },
+   {
+    "s": "A",
+    "t": "The title is fine. My concern is the research question. At the moment you ask whether social media harms students' health, which is far too broad."
+   },
+   {
+    "s": "C",
+    "t": "So we should focus on sleep only?"
+   },
+   {
+    "s": "A",
+    "t": "Exactly, Ben. Something like, how does evening social media use affect the sleep of first-year students? That is specific and measurable."
+   },
+   {
+    "s": "B",
+    "t": "That makes sense. We planned to survey two hundred students. Is that enough?"
+   },
+   {
+    "s": "A",
+    "t": "More than enough for a project this size. A hundred and twenty would be realistic, and you would still have time to analyse the data properly."
+   },
+   {
+    "s": "C",
+    "t": "Okay. I suggested using wearable sleep trackers, but Layla thought they would cost too much."
+   },
+   {
+    "s": "B",
+    "t": "Yes, they were about eighty pounds each. Instead, we would use a questionnaire and a two-week sleep diary."
+   },
+   {
+    "s": "A",
+    "t": "A sensible compromise. Diaries are not perfect, because people forget, but they are acceptable for an undergraduate study. Just make sure you explain the limitation."
+   },
+   {
+    "s": "C",
+    "t": "Do we need ethical approval?"
+   },
+   {
+    "s": "A",
+    "t": "Definitely, and before you collect any data. The committee usually takes three weeks, so submit the form as soon as you can."
+   },
+   {
+    "s": "B",
+    "t": "And the literature review? How many studies do we need?"
+   },
+   {
+    "s": "A",
+    "t": "At least ten, published in the last five years. Layla, you mentioned some research on teenagers."
+   },
+   {
+    "s": "A",
+    "t": "That is useful as background, but your main sources should be about university students."
+   },
+   {
+    "s": "B",
+    "t": "I will look for more this weekend."
+   },
+   {
+    "s": "A",
+    "t": "Good. Your topic matters to many students, and the university may even use your findings, so please take the work seriously. Now, who will write which section?"
+   },
+   {
+    "s": "C",
+    "t": "I can write the methodology, and Layla will do the introduction."
+   },
+   {
+    "s": "A",
+    "t": "Fine. The final proposal is due next Friday at noon. Please send it to me by email on Thursday evening, so I can check it first."
+   },
+   {
+    "s": "B",
+    "t": "We will do that. Thank you very much."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "proposal",
+    "ar": "مقترح بحثي"
+   },
+   {
+    "w": "sample",
+    "ar": "عيّنة"
+   },
+   {
+    "w": "ethical approval",
+    "ar": "الموافقة الأخلاقية"
+   },
+   {
+    "w": "limitation",
+    "ar": "قيد / نقطة ضعف"
+   },
+   {
+    "w": "literature review",
+    "ar": "مراجعة الأدبيات"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the tutor's main concern about the draft?",
+    "o": [
+     "The title is too long",
+     "The research question is too broad",
+     "There are too few references"
+    ],
+    "a": 1,
+    "why": "السؤال البحثي واسع جداً."
+   },
+   {
+    "k": "gap",
+    "q": "The tutor wants the study to focus on students' ___.",
+    "a": [
+     "sleep"
+    ],
+    "why": "اقترح التركيز على النوم فقط."
+   },
+   {
+    "k": "mc",
+    "q": "How many students does the tutor think is a realistic sample?",
+    "o": [
+     "Eighty students",
+     "Two hundred students",
+     "A hundred and twenty students"
+    ],
+    "a": 2,
+    "why": "العدد الواقعي في رأيه مئة وعشرون."
+   },
+   {
+    "k": "mc",
+    "q": "Why do the students decide not to use wearable trackers?",
+    "o": [
+     "They are too expensive",
+     "They are not accurate",
+     "Students would refuse to wear them"
+    ],
+    "a": 0,
+    "why": "كلّفة الجهاز حوالي ثمانين جنيهاً."
+   },
+   {
+    "k": "tfng",
+    "q": "The tutor says the students should explain the limits of sleep diaries.",
+    "a": "T",
+    "why": "طلب شرح القيد لأن الناس ينسون."
+   },
+   {
+    "k": "gap",
+    "q": "The ethics committee usually takes about ___ weeks.",
+    "a": [
+     "3",
+     "three"
+    ],
+    "why": "اللجنة تحتاج عادة ثلاثة أسابيع."
+   },
+   {
+    "k": "gap",
+    "q": "The literature review needs at least ___ studies.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "عشر دراسات على الأقل من السنوات الخمس الأخيرة."
+   },
+   {
+    "k": "mc",
+    "q": "Who will write the methodology section?",
+    "o": [
+     "Ben",
+     "Layla",
+     "The tutor"
+    ],
+    "a": 0,
+    "why": "المتحدث الثالث (بن) سيكتب المنهجية."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-08",
+  "l": "B2",
+  "title": "Comparing survey methods",
+  "part": 3,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "So, Jake, we need to decide how to collect the data for our library project. I made a list of three methods."
+   },
+   {
+    "s": "B",
+    "t": "Great. Start with the online questionnaire, because that is what I expected we would choose."
+   },
+   {
+    "s": "A",
+    "t": "The main advantages are cost and speed. We could build it for free and get answers within days. The disadvantage is the response rate."
+   },
+   {
+    "s": "A",
+    "t": "My cousin ran one at work and only about ten percent replied."
+   },
+   {
+    "s": "B",
+    "t": "And the people who reply are often the ones with strong opinions, so the results might not represent everyone."
+   },
+   {
+    "s": "A",
+    "t": "Right, that is called self-selection. Second option, telephone interviews. Response is much better, perhaps forty-five percent, and the interviewer can explain unclear questions."
+   },
+   {
+    "s": "B",
+    "t": "But phone calls cost money, and these days many people never answer a number they do not know. We only have three hundred dollars in the budget."
+   },
+   {
+    "s": "A",
+    "t": "True. Third, face-to-face surveys outside the library. We would get rich, detailed answers, and people can show us things on a map or a list."
+   },
+   {
+    "s": "B",
+    "t": "That sounds the most useful, but it takes much longer. Each interview would last at least fifteen minutes, and we would stand outside for hours."
+   },
+   {
+    "s": "A",
+    "t": "There is also the risk of interviewer bias. People may give polite answers because someone is looking at them."
+   },
+   {
+    "s": "B",
+    "t": "Good point. What if we combine methods? The online questionnaire could be our main source, and we add twenty face-to-face interviews to understand the reasons behind the numbers."
+   },
+   {
+    "s": "A",
+    "t": "I like that. We could offer a prize draw to encourage people to answer the questionnaire. A fifty dollar voucher, perhaps."
+   },
+   {
+    "s": "B",
+    "t": "Hmm, I am not sure. A prize might attract people who do not use the library at all, and they would just click through quickly."
+   },
+   {
+    "s": "B",
+    "t": "Maybe we should simply ask the library to advertise it on its website."
+   },
+   {
+    "s": "A",
+    "t": "Fair enough. Let us do that instead. And before we launch, we should test the questions with ten friends."
+   },
+   {
+    "s": "B",
+    "t": "Yes, a pilot study. If anything confuses them, we will rewrite it."
+   },
+   {
+    "s": "A",
+    "t": "Perfect. I will draft the questionnaire tonight, and you contact the library manager."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "response rate",
+    "ar": "نسبة الاستجابة"
+   },
+   {
+    "w": "self-selection",
+    "ar": "الاختيار الذاتي"
+   },
+   {
+    "w": "bias",
+    "ar": "تحيّز"
+   },
+   {
+    "w": "pilot study",
+    "ar": "دراسة تجريبية"
+   },
+   {
+    "w": "budget",
+    "ar": "ميزانية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What are the main advantages of an online questionnaire?",
+    "o": [
+     "Cost and speed",
+     "A high response rate",
+     "Very detailed answers"
+    ],
+    "a": 0,
+    "why": "رخيص وسريع لكن نسبة الاستجابة ضعيفة."
+   },
+   {
+    "k": "gap",
+    "q": "Only about ___ percent of people answered the online survey at the cousin's work.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "نسبة الرد حوالي عشرة بالمئة."
+   },
+   {
+    "k": "mc",
+    "q": "What is the problem with self-selection?",
+    "o": [
+     "Replies come mainly from people with strong opinions",
+     "The questions are too long",
+     "It costs too much"
+    ],
+    "a": 0,
+    "why": "المجيبون غالباً أصحاب آراء قوية فلا تمثل النتائج الجميع."
+   },
+   {
+    "k": "mc",
+    "q": "Why do they doubt telephone interviews?",
+    "o": [
+     "Response rates are very low",
+     "They cost money and many people ignore unknown numbers",
+     "Interviewers cannot explain questions"
+    ],
+    "a": 1,
+    "why": "التكلفة وعدم الرد على أرقام مجهولة."
+   },
+   {
+    "k": "gap",
+    "q": "The budget for the project is ___ dollars.",
+    "a": [
+     "300",
+     "three hundred"
+    ],
+    "why": "الميزانية ثلاثمئة دولار."
+   },
+   {
+    "k": "tfng",
+    "q": "Face-to-face interviews may lead people to give polite answers.",
+    "a": "T",
+    "why": "هذا هو تحيّز القائم بالمقابلة."
+   },
+   {
+    "k": "gap",
+    "q": "They decide to add ___ face-to-face interviews.",
+    "a": [
+     "20",
+     "twenty"
+    ],
+    "why": "عشرون مقابلة لفهم الأسباب وراء الأرقام."
+   },
+   {
+    "k": "mc",
+    "q": "What do they decide about the prize draw?",
+    "o": [
+     "Offer a fifty dollar voucher",
+     "Ask the library to advertise the survey instead",
+     "Offer a prize only to library members"
+    ],
+    "a": 1,
+    "why": "رفضا الجائزة وفضّلا الإعلان في موقع المكتبة."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-09",
+  "l": "B2",
+  "title": "Planning a presentation on renewable energy",
+  "part": 3,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Right, let us plan our renewable energy presentation. We have twelve minutes in total, and then three minutes for questions."
+   },
+   {
+    "s": "B",
+    "t": "Should we cover every type of renewable energy?"
+   },
+   {
+    "s": "A",
+    "t": "No, that would be too much. I suggest solar, wind, and then storage, because storage is the biggest challenge."
+   },
+   {
+    "s": "C",
+    "t": "What about nuclear power? Some people call it clean energy."
+   },
+   {
+    "s": "A",
+    "t": "It is low carbon, but it is not renewable, and our brief says renewable sources only. So we leave it out."
+   },
+   {
+    "s": "C",
+    "t": "Fair. I will mention it in one sentence at most if someone asks."
+   },
+   {
+    "s": "B",
+    "t": "How should we divide the work? I would like to take wind, because I read a good report about offshore wind farms."
+   },
+   {
+    "s": "A",
+    "t": "Perfect, Sam. I will do the introduction and solar. Priya, can you take storage and the conclusion?"
+   },
+   {
+    "s": "C",
+    "t": "Sure. I can explain batteries and why the sun does not always shine when we need electricity."
+   },
+   {
+    "s": "B",
+    "t": "For visuals, I think we need a map showing the main wind farm areas. Pictures work better than lots of words."
+   },
+   {
+    "s": "A",
+    "t": "Agreed. For solar, I want a graph showing how the price of panels has fallen over the last ten years. It is a very clear trend."
+   },
+   {
+    "s": "C",
+    "t": "And a case study might help. There is a village that put solar panels on the school roof and now saves money on its electricity bills."
+   },
+   {
+    "s": "A",
+    "t": "Nice. Keep the case study to one slide. The professor said no more than ten slides, with very little text."
+   },
+   {
+    "s": "B",
+    "t": "So that is three slides each, plus a title slide."
+   },
+   {
+    "s": "A",
+    "t": "Exactly. When can we practise? I am free on Thursday afternoon."
+   },
+   {
+    "s": "C",
+    "t": "I have a lab until three, but after four o'clock would be good."
+   },
+   {
+    "s": "B",
+    "t": "Same for me. Shall we book a room in the library?"
+   },
+   {
+    "s": "A",
+    "t": "I will do it online tonight. Our presentation is on Monday at nine thirty, so we need at least one full rehearsal."
+   },
+   {
+    "s": "C",
+    "t": "And we should time ourselves. Last time my group ran two minutes over, and we lost marks."
+   },
+   {
+    "s": "A",
+    "t": "Good advice. Let us send our slides to each other by Wednesday evening."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "renewable",
+    "ar": "متجدد"
+   },
+   {
+    "w": "storage",
+    "ar": "تخزين"
+   },
+   {
+    "w": "brief",
+    "ar": "التعليمات / الموجز"
+   },
+   {
+    "w": "case study",
+    "ar": "دراسة حالة"
+   },
+   {
+    "w": "rehearsal",
+    "ar": "بروفة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The presentation must last ___ minutes in total.",
+    "a": [
+     "12",
+     "twelve"
+    ],
+    "why": "اثنتا عشرة دقيقة ثم ثلاث دقائق للأسئلة."
+   },
+   {
+    "k": "mc",
+    "q": "Why do they leave out nuclear power?",
+    "o": [
+     "It is too expensive",
+     "It is not renewable",
+     "It is too difficult to explain"
+    ],
+    "a": 1,
+    "why": "التعليمات تطلب مصادر متجددة فقط."
+   },
+   {
+    "k": "mc",
+    "q": "Which topic will Sam take?",
+    "o": [
+     "Wind",
+     "Solar",
+     "Storage"
+    ],
+    "a": 0,
+    "why": "سام يريد أن يتناول طاقة الرياح."
+   },
+   {
+    "k": "mc",
+    "q": "What visual will be used for the wind section?",
+    "o": [
+     "A graph",
+     "A photograph",
+     "A map"
+    ],
+    "a": 2,
+    "why": "خريطة لأهم مناطق مزارع الرياح."
+   },
+   {
+    "k": "tfng",
+    "q": "The solar graph will show that panel prices have risen.",
+    "a": "F",
+    "why": "الرسم يوضح أن الأسعار انخفضت خلال عشر سنوات."
+   },
+   {
+    "k": "gap",
+    "q": "The professor allows no more than ___ slides.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "عشر شرائح كحد أقصى."
+   },
+   {
+    "k": "mc",
+    "q": "When will the group rehearse?",
+    "o": [
+     "Thursday morning",
+     "Thursday after four o'clock",
+     "Wednesday evening"
+    ],
+    "a": 1,
+    "why": "أحدهم لديه مختبر حتى الثالثة فاتفقوا بعد الرابعة."
+   },
+   {
+    "k": "tfng",
+    "q": "Priya says a group of hers lost marks for going over time.",
+    "a": "T",
+    "why": "تأخرت مجموعتها دقيقتين فخسرت درجات."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-10",
+  "l": "B2",
+  "title": "Feedback on a first essay draft",
+  "part": 3,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Thanks for coming, Karim. I have read your draft essay on whether public transport should be free, and overall I was impressed."
+   },
+   {
+    "s": "B",
+    "t": "Really? I was worried it was a mess."
+   },
+   {
+    "s": "A",
+    "t": "Not at all. The structure is clear and your examples are vivid, especially the one about the city that made buses free for pensioners."
+   },
+   {
+    "s": "B",
+    "t": "Thank you. What should I improve?"
+   },
+   {
+    "s": "A",
+    "t": "Let us start with the introduction. It is nearly four hundred words, which is almost a third of the whole essay. Also, there is no clear thesis statement."
+   },
+   {
+    "s": "B",
+    "t": "I thought the thesis was in the last sentence."
+   },
+   {
+    "s": "A",
+    "t": "It is hinted at, but a reader should know your position immediately. Try one clear sentence, then move on."
+   },
+   {
+    "s": "B",
+    "t": "Okay. And the body paragraphs?"
+   },
+   {
+    "s": "A",
+    "t": "Paragraphs one, two and four work well. Paragraph three is about the cost of building roads, which is interesting but not really relevant, so I suggest deleting it."
+   },
+   {
+    "s": "B",
+    "t": "That would also help with the length. I counted fourteen hundred words, and the limit is twelve hundred."
+   },
+   {
+    "s": "A",
+    "t": "Yes, so you need to cut about two hundred words. Sorry, I said three hundred earlier, but two hundred is correct, since the references do not count."
+   },
+   {
+    "s": "B",
+    "t": "Right. What about my sources?"
+   },
+   {
+    "s": "A",
+    "t": "This is the weakest point. Several of your sources are blogs and news websites. For a university essay, you should use academic journals or official reports."
+   },
+   {
+    "s": "B",
+    "t": "Where do I find those?"
+   },
+   {
+    "s": "A",
+    "t": "Start with the library database. If you search for urban transport policy, you will find plenty. The librarian can also show you how."
+   },
+   {
+    "s": "B",
+    "t": "Is it all right to write I think in the essay?"
+   },
+   {
+    "s": "A",
+    "t": "Better to avoid it. Use phrases such as it can be argued that or the evidence suggests. It sounds more academic."
+   },
+   {
+    "s": "B",
+    "t": "Understood. And the conclusion?"
+   },
+   {
+    "s": "A",
+    "t": "It repeated your main points well, but it added a new argument about air pollution. A conclusion should never introduce new ideas."
+   },
+   {
+    "s": "B",
+    "t": "I will fix that. When is the final deadline?"
+   },
+   {
+    "s": "A",
+    "t": "Wednesday of next week, at five. Come back before then if you want me to look at the new introduction."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "draft",
+    "ar": "مسودة"
+   },
+   {
+    "w": "thesis statement",
+    "ar": "عبارة الأطروحة"
+   },
+   {
+    "w": "relevant",
+    "ar": "ذو صلة"
+   },
+   {
+    "w": "academic journal",
+    "ar": "مجلة علمية"
+   },
+   {
+    "w": "conclusion",
+    "ar": "خاتمة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does the tutor praise about the essay?",
+    "o": [
+     "Clear structure and vivid examples",
+     "Correct grammar",
+     "The number of sources"
+    ],
+    "a": 0,
+    "why": "أثنى على وضوح البناء وحيوية الأمثلة."
+   },
+   {
+    "k": "gap",
+    "q": "The introduction is nearly ___ words long.",
+    "a": [
+     "400",
+     "four hundred"
+    ],
+    "why": "المقدمة قرابة أربعمئة كلمة."
+   },
+   {
+    "k": "mc",
+    "q": "What is wrong with the introduction apart from its length?",
+    "o": [
+     "It contains many mistakes",
+     "It has no clear thesis statement",
+     "It is not interesting"
+    ],
+    "a": 1,
+    "why": "لا توجد عبارة أطروحة واضحة."
+   },
+   {
+    "k": "mc",
+    "q": "Which paragraph does the tutor suggest deleting?",
+    "o": [
+     "Paragraph four",
+     "Paragraph one",
+     "Paragraph three"
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة عن تكلفة بناء الطرق غير ذات صلة."
+   },
+   {
+    "k": "gap",
+    "q": "Karim needs to cut about ___ words.",
+    "a": [
+     "200",
+     "two hundred"
+    ],
+    "why": "صحّح المدرّس رقمه من ثلاثمئة إلى مئتين."
+   },
+   {
+    "k": "mc",
+    "q": "What is the problem with Karim's sources?",
+    "o": [
+     "Several are blogs and news websites",
+     "There are too few of them",
+     "They are too old"
+    ],
+    "a": 0,
+    "why": "عليه استخدام المجلات الأكاديمية والتقارير الرسمية."
+   },
+   {
+    "k": "tfng",
+    "q": "The tutor recommends using the phrase I think in academic essays.",
+    "a": "F",
+    "why": "نصح بتجنبها واستعمال عبارات مثل it can be argued that."
+   },
+   {
+    "k": "mc",
+    "q": "What is wrong with the conclusion?",
+    "o": [
+     "It is too long",
+     "It introduces a new argument",
+     "It does not repeat the main points"
+    ],
+    "a": 1,
+    "why": "أضافت حجة جديدة عن تلوث الهواء."
+   }
+  ]
+ }
+]

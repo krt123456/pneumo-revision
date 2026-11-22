@@ -1,0 +1,402 @@
+[
+ {
+  "id": "r-c1-07",
+  "l": "C1",
+  "title": "Can Money Buy Happiness? What Economists Found",
+  "topic": "society",
+  "paras": [
+   "Whether money can buy happiness is among the oldest questions in popular wisdom, and for much of the twentieth century economists avoided it, regarding feelings as too subjective to measure. That reluctance has faded. Large surveys now ask people in dozens of countries to rate their satisfaction with life on a numerical scale, and the answers can be compared with income, age, health and employment. The results do not support the cynic who claims that wealth is irrelevant, nor the materialist who assumes that more is always better. They reveal a pattern that is considerably more interesting than either slogan.",
+   "Two findings appear consistently. First, in any given country at any given time, richer people report higher average satisfaction than poorer ones. Second, comparing countries, citizens of wealthy nations are on average more satisfied than those of poor nations. Taken together, these results seem to confirm the common-sense view. Yet a third observation complicates it. When economists tracked individual countries over several decades, they found that average happiness often rose only slightly, or not at all, even though national income had increased several times over. This puzzle, first described by an economist in the 1970s, is known as the Easterlin paradox.",
+   "Two main explanations have been offered. The first is relative income. Satisfaction depends not only on how much people earn but on how that amount compares with those around them. If everyone's income rises together, nobody's relative position improves, and the expected gain in well-being fails to materialise. The second is hedonic adaptation: people become accustomed to improved circumstances, and their aspirations rise to match. A larger flat or a faster car delivers a brief lift, after which it simply becomes the new normal, a phenomenon sometimes called the hedonic treadmill.",
+   "A heated debate concerns whether the benefits of money eventually level off. Some influential studies suggested that, beyond a certain income, additional earnings no longer made people feel happier. More recent analyses based on much larger samples reported no such ceiling: satisfaction continued to increase as income rose, although each extra unit of money produced a smaller gain than the one before. Part of the disagreement stems from a distinction between two kinds of well-being. Emotional well-being, the quality of day-to-day mood, may plateau relatively early, whereas life evaluation, the overall judgement people make about how their lives are going, tends to keep rising with income.",
+   "The effect of money is also unevenly distributed. It is strongest at low incomes, where extra earnings reduce insecurity, allow families to afford medical care and relieve the constant stress of making ends meet. Beyond the point at which basic needs are secure, the relationship weakens and other factors assume greater importance: health, stable relationships, a sense of control over one's time and trust in the surrounding community. In other words, money appears to matter chiefly as a protection against misery, and less as a source of joy.",
+   "Research on spending offers another insight. Experiments suggest that people derive longer-lasting satisfaction from spending on experiences, such as travel or shared meals, than on possessions, partly because experiences generate memories and bring people together. Spending on others tends to produce a greater lift than spending on oneself, and paying to avoid disliked chores can increase satisfaction by freeing up time. These findings should be treated with some caution, however: many experiments involve small samples, mostly drawn from wealthy countries, and the effects they report are usually modest.",
+   "What, then, can be concluded? Money matters, but its influence is neither simple nor unlimited. It reduces hardship, improves satisfaction with life, and allows people to purchase some of the things that really do make them happier. Yet it cannot compensate for poor health or isolation, and its benefits are diluted by comparison and adaptation. For policymakers, the implication is that reducing insecurity and inequality may do more for national well-being than the pursuit of growth alone."
+  ],
+  "gloss": [
+   {
+    "w": "cynic",
+    "ar": "متشائم ساخر"
+   },
+   {
+    "w": "materialist",
+    "ar": "مادّي، مهتم بالمال والممتلكات"
+   },
+   {
+    "w": "paradox",
+    "ar": "مفارقة"
+   },
+   {
+    "w": "aspiration",
+    "ar": "طموح"
+   },
+   {
+    "w": "plateau",
+    "ar": "يستقر عند مستوى ثابت"
+   },
+   {
+    "w": "ceiling",
+    "ar": "سقف، حد أعلى"
+   },
+   {
+    "w": "dilute",
+    "ar": "يُضعف، يخفّف"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "Within a single country, richer people tend to report lower satisfaction than poorer people.",
+    "a": "F",
+    "why": "الفقرة 1: الأغنياء يبلغون في المتوسط عن رضا أعلى داخل البلد الواحد."
+   },
+   {
+    "k": "tfng",
+    "q": "Average happiness in some countries has risen far less than national income over several decades.",
+    "a": "T",
+    "why": "الفقرة 1: السعادة ارتفعت قليلًا أو لم ترتفع رغم تضاعف الدخل الوطني."
+   },
+   {
+    "k": "tfng",
+    "q": "People who win a very large sum of money remain happier than before for the rest of their lives.",
+    "a": "NG",
+    "why": "النص لا يتناول الفائزين بمبالغ كبيرة."
+   },
+   {
+    "k": "tfng",
+    "q": "Women report higher life satisfaction than men who earn the same income.",
+    "a": "NG",
+    "why": "لا مقارنة بين الجنسين في النص."
+   },
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Does the benefit of higher income ever level off?",
+     "Why surveys are unreliable",
+     "The cost of buying experiences",
+     "Differences between rich and poor nations"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "People become accustomed to better circumstances, a process known as hedonic ___.",
+    "a": [
+     "adaptation"
+    ],
+    "why": "الفقرة 2: التكيّف المتعة hedonic adaptation يفسّر المفارقة."
+   },
+   {
+    "k": "gap",
+    "q": "Spending on ___ tends to produce a greater lift than spending on oneself.",
+    "a": [
+     "others"
+    ],
+    "why": "الفقرة 5: الإنفاق على الآخرين يعطي رضا أكبر."
+   },
+   {
+    "k": "mc",
+    "q": "According to the passage, the dispute over a satisfaction ceiling is partly explained by",
+    "o": [
+     "errors in the surveys",
+     "the difference between daily mood and overall life evaluation",
+     "variations in the price of goods"
+    ],
+    "a": 1,
+    "why": "الفقرة 3: المزاج اليومي قد يستقر مبكرًا بينما التقييم العام يواصل الارتفاع."
+   },
+   {
+    "k": "mc",
+    "q": "What does the writer suggest about the effect of money at higher incomes?",
+    "o": [
+     "It disappears completely.",
+     "It remains the most important influence.",
+     "It weakens as other factors become more important."
+    ],
+    "a": 2,
+    "why": "الفقرة 4: بعد تأمين الاحتياجات الأساسية تزداد أهمية الصحة والعلاقات."
+   },
+   {
+    "k": "mc",
+    "q": "The writer's attitude to the research on spending is",
+    "o": [
+     "cautiously interested",
+     "completely sceptical",
+     "enthusiastic and uncritical"
+    ],
+    "a": 0,
+    "why": "الفقرة 5: النتائج مفيدة لكن يجب التعامل معها بحذر بسبب صغر العينات."
+   }
+  ],
+  "sumAr": "يعرض النص ما وجده الاقتصاديون عن المال والسعادة: الغنى يرتبط بالرضا، لكن مفارقة إيسترلين والمقارنة الاجتماعية والتكيّف تحدّ من الأثر، وطريقة الإنفاق مهمة، والتأمين ضد الفقر والعزلة أهم من النمو وحده."
+ },
+ {
+  "id": "r-c1-08",
+  "l": "C1",
+  "title": "Mining the Deep Sea: Opportunity or Risk?",
+  "topic": "environment",
+  "paras": [
+   "Four or five kilometres below the surface of the ocean, vast plains of the seabed are strewn with lumps of rock the size of potatoes. These polymetallic nodules, formed over millions of years, contain nickel, copper, manganese and cobalt, metals that are essential for the batteries used in electric vehicles and for renewable energy systems. As demand for such materials grows, a number of companies and governments have turned their attention to the ocean floor. Because most of the relevant area lies beyond national borders, mining there is supposed to be regulated by an international authority, whose rules are still being written.",
+   "Proponents advance a straightforward argument. Land-based mining is far from harmless: it clears forests, displaces communities, consumes enormous quantities of water and leaves behind toxic waste. The supply of certain metals is also concentrated in a handful of countries, which makes the global transition to clean energy vulnerable to political disruption. Nodules, by contrast, lie loose on the seabed. Collecting them requires no tunnelling, no removal of topsoil and no tailings dams, and the ore may be richer in valuable metals than much of what remains on land.",
+   "Opponents begin from a different premise: that the deep sea is poorly understood and slow to recover. Most of the species that live there have never been described by scientists, and many are adapted to extremely stable, cold and dark conditions in which growth is measured in centuries. The nodules themselves provide the only hard surface on which some organisms can attach. Removing them is therefore equivalent to removing the habitat. Small-scale experiments, in which the seabed was disturbed decades ago, have shown that the tracks remain visible and that the animal life within them has still not returned to its original abundance.",
+   "Even more worrying, in the view of many biologists, are the plumes. Collecting machines stir up clouds of fine sediment, which may drift for considerable distances before settling and smothering creatures that feed by filtering the water. Wastewater from processing ships, if discharged at the surface or at mid-depth, could carry particles and dissolved metals through layers of the ocean where fish and other animals live. Noise and artificial light add further disturbance. The scale of these effects is unknown, because no commercial-scale operation has yet taken place, and scientific predictions rely heavily on modelling.",
+   "Supporters of mining answer that the comparison should be with the real alternative, not with an untouched ocean. If the world needs metals, they say, they must come from somewhere, and the damage caused by land mines is certain and well documented. Critics respond that this assumption is itself questionable. Recycling can recover a growing share of battery metals, manufacturers are developing battery chemistries that use less cobalt or none at all, and forecasts of demand are notoriously uncertain. If the metals prove to be unnecessary, the environmental cost of seabed mining would have been incurred for nothing.",
+   "The governance question is equally awkward. The international authority is charged both with promoting the exploitation of seabed resources, which are described as the common heritage of humankind, and with protecting the marine environment. Critics see an obvious conflict of interest. There are also unresolved questions about how revenue should be shared, especially with developing countries that cannot afford the technology. Some governments and scientists have called for a moratorium until baseline surveys are completed; others argue that a firm regulatory framework, developed alongside carefully monitored pilot projects, is preferable to an indefinite delay.",
+   "The strongest argument for caution is the irreversibility of potential damage. Where evidence is incomplete and recovery would take centuries, if it occurred at all, the burden of proof should rest on those who wish to proceed rather than on those who urge patience. This does not mean that the deep sea must remain untouched for ever. It does mean that a decision of such magnitude should follow, not precede, the research that would allow its consequences to be understood."
+  ],
+  "gloss": [
+   {
+    "w": "nodule",
+    "ar": "عقيدة معدنية، كتلة صخرية صغيرة"
+   },
+   {
+    "w": "proponent",
+    "ar": "مؤيّد، مناصر"
+   },
+   {
+    "w": "tailings",
+    "ar": "مخلفات التعدين"
+   },
+   {
+    "w": "plume",
+    "ar": "سحابة (من الرواسب)"
+   },
+   {
+    "w": "sediment",
+    "ar": "رواسب"
+   },
+   {
+    "w": "moratorium",
+    "ar": "وقف مؤقت (اختياري أو رسمي)"
+   },
+   {
+    "w": "irreversibility",
+    "ar": "عدم القابلية للعكس"
+   },
+   {
+    "w": "burden of proof",
+    "ar": "عبء الإثبات"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "Collecting nodules from the seabed requires tunnelling similar to that used in land-based mines.",
+    "a": "F",
+    "why": "الفقرة 1: جمع العقيدات لا يتطلب حفر أنفاق أو إزالة التربة."
+   },
+   {
+    "k": "tfng",
+    "q": "Experimental disturbance of the seabed has left effects that were still visible decades later.",
+    "a": "T",
+    "why": "الفقرة 2: آثار المسارات ما زالت ظاهرة والحياة لم تعد كما كانت."
+   },
+   {
+    "k": "tfng",
+    "q": "Nodules on the seabed contain more cobalt than any deposit found on land.",
+    "a": "NG",
+    "why": "الفقرة 1 تقول إن الخام قد يكون أغنى، دون مقارنة بالكوبالت وحده."
+   },
+   {
+    "k": "tfng",
+    "q": "Deep-sea mining would create more jobs than land-based mining.",
+    "a": "NG",
+    "why": "النص لا يتناول فرص العمل."
+   },
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Clouds of sediment and other forms of pollution",
+     "The history of the nodules",
+     "Costs of recycling batteries",
+     "How land mines are cleaned up"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "Machines stir up clouds of fine ___ that may smother filter-feeding creatures.",
+    "a": [
+     "sediment"
+    ],
+    "why": "الفقرة 3: الآلات تثير سحبًا من الرواسب الدقيقة (sediment)."
+   },
+   {
+    "k": "gap",
+    "q": "Manufacturers are developing battery ___ that use less cobalt.",
+    "a": [
+     "chemistries"
+    ],
+    "why": "الفقرة 4: تُطوَّر كيمياء بطاريات تستخدم كوبالت أقل."
+   },
+   {
+    "k": "mc",
+    "q": "What is the weakness of the proponents' argument, according to critics?",
+    "o": [
+     "It ignores the damage done by land mines.",
+     "It assumes that the metals will definitely be needed.",
+     "It overestimates the cost of recycling."
+    ],
+    "a": 1,
+    "why": "الفقرة 4: الطلب غير مؤكد، فقد لا تلزم هذه المعادن أصلًا."
+   },
+   {
+    "k": "mc",
+    "q": "Why do critics see a conflict of interest in the international authority?",
+    "o": [
+     "It is owned by mining companies.",
+     "It receives money from developing countries.",
+     "It is responsible for both promoting mining and protecting the environment."
+    ],
+    "a": 2,
+    "why": "الفقرة 5: الهيئة مكلّفة بالترويج للاستغلال وبحماية البيئة معًا."
+   },
+   {
+    "k": "mc",
+    "q": "The writer's final position is that",
+    "o": [
+     "decisions on mining should wait for adequate research",
+     "mining should be banned for ever",
+     "mining should start immediately in all areas"
+    ],
+    "a": 0,
+    "why": "الفقرة 6: القرار يجب أن يأتي بعد البحث، وعبء الإثبات على المؤيدين."
+   }
+  ],
+  "sumAr": "يقارن النص بين حجج مؤيدي تعدين قاع البحار، كتقليل أضرار المناجم البرية، ومخاوف المعارضين من تدمير بيئات بطيئة التعافي وسحب الرواسب وتضارب مصالح الهيئة المنظمة، ويدعو إلى إجراء البحوث أولًا."
+ },
+ {
+  "id": "r-c1-09",
+  "l": "C1",
+  "title": "How the Design of Cities Shapes Behaviour",
+  "topic": "city",
+  "paras": [
+   "A city is not merely a backdrop against which life takes place; it is an environment that quietly rewards some actions and discourages others. Planners rarely compel anyone to do anything. Instead, they make certain choices easy, such as walking to a shop or lingering in a square, and others awkward, such as crossing a six-lane road on foot. Because these influences operate below the level of conscious decision, they are easy to overlook. Yet there is growing evidence that the layout of streets, the location of buildings and the design of public furniture affect health, safety and social life in ways that residents rarely notice.",
+   "Consider mobility. In compact neighbourhoods with short blocks, mixed uses and shops, schools and workplaces within a few minutes' walk, residents tend to travel on foot or by bicycle for everyday errands. In districts organised around wide roads, large car parks and strict separation of housing from services, the car becomes close to compulsory, even for trivial journeys. Public-health researchers link such car-dependent layouts to lower levels of physical activity and higher rates of obesity and related illness, although the size of the effect remains debated. Where pavements are narrow, crossings are infrequent and distances between destinations are long, walking becomes not only unpleasant but, for children and older people, genuinely unsafe.",
+   "Safety provides a second illustration. One influential urban writer argued that streets are safest when they are watched by many people with a legitimate reason to be there, a principle summarised as 'eyes on the street'. Windows that overlook pavements, shops that open at different hours and homes with front doors facing the road all increase natural surveillance. Isolated underpasses, blank walls and poorly lit car parks do the opposite. Some studies of lighting upgrades and the greening of neglected spaces have reported falls in recorded crime, though critics caution that offending may simply move elsewhere.",
+   "Design can also be used to restrict behaviour deliberately. Benches divided by armrests prevent anyone from lying down, and sloping ledges or studs discourage people from sitting or sleeping in particular places. Defenders describe such features as legitimate tools for keeping spaces usable by everyone. Opponents call them hostile architecture, arguing that they do not solve the problems they target but merely push vulnerable people out of sight, and that they treat citizens as threats rather than as members of a community. The debate illustrates that the design of the physical environment is never entirely neutral.",
+   "It would be a mistake, however, to exaggerate the power of design. Critics of what they call environmental determinism point to the problem of self-selection: people who enjoy walking may choose to live in walkable areas, so that differences in behaviour between neighbourhoods partly reflect who lives there rather than how the streets are built. Studies that take residents' preferences into account generally find smaller effects than simple comparisons suggest, though the effects rarely vanish altogether. Design, in other words, appears to influence behaviour at the margin, without overriding the choices people make for their own reasons.",
+   "The same caution applies to social life. Parks, squares and markets create opportunities for chance encounters between people who would not otherwise meet, and these contacts are thought to build trust. But a handsome plaza can stand empty if it is exposed to traffic noise, lacks shade or has no reason to attract visitors. Events, maintenance and a sense of local ownership often matter as much as the physical form. Architecture can provide a stage, but it cannot write the performance. Residents who help to plant, program or manage a space tend to look after it far better than those who merely receive it.",
+   "The sensible conclusion is that urban design shapes possibilities, not destinies. This carries a responsibility. Since planners inevitably encourage some behaviour and discourage other behaviour, they should be explicit about their intentions and open to public scrutiny. A city whose residents have been consulted about the habits it is meant to encourage is likely to be both more legitimate and more successful than one whose influence remains hidden in concrete and asphalt."
+  ],
+  "gloss": [
+   {
+    "w": "backdrop",
+    "ar": "خلفية"
+   },
+   {
+    "w": "compulsory",
+    "ar": "إلزامي"
+   },
+   {
+    "w": "surveillance",
+    "ar": "مراقبة"
+   },
+   {
+    "w": "hostile architecture",
+    "ar": "عمارة طاردة (تمنع الجلوس والمبيت)"
+   },
+   {
+    "w": "determinism",
+    "ar": "حتمية"
+   },
+   {
+    "w": "self-selection",
+    "ar": "الاختيار الذاتي (اختيار الناس لمكان يناسب ميولهم)"
+   },
+   {
+    "w": "legitimate",
+    "ar": "مشروع، شرعي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "The writer argues that urban design forces residents to behave in particular ways.",
+    "a": "F",
+    "why": "الفقرة 0 والخاتمة: التصميم يُسهّل أو يُصعّب لا يُجبر، ويشكّل الإمكانات لا المصائر."
+   },
+   {
+    "k": "tfng",
+    "q": "Studies that allow for residents' preferences still tend to find some effect of design on behaviour.",
+    "a": "T",
+    "why": "الفقرة 4: التأثير أصغر لكنه نادرًا ما يختفي تمامًا."
+   },
+   {
+    "k": "tfng",
+    "q": "Young people are more influenced by the design of their neighbourhood than older people.",
+    "a": "NG",
+    "why": "النص لا يقارن بين الفئات العمرية."
+   },
+   {
+    "k": "tfng",
+    "q": "Most cities have banned the use of sloping ledges to discourage sleeping.",
+    "a": "NG",
+    "why": "الفقرة 3 لا تذكر حظرًا لهذه الحواف."
+   },
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Design that deliberately restricts behaviour",
+     "The benefits of shared benches",
+     "How to lower crime with lighting",
+     "Why plazas stand empty"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "An influential urban writer summarised her principle of natural surveillance as 'eyes on the ___'.",
+    "a": [
+     "street"
+    ],
+    "why": "الفقرة 2: مبدأ 'عيون على الشارع' (eyes on the street)."
+   },
+   {
+    "k": "gap",
+    "q": "Differences between neighbourhoods may partly result from ___, as people choose areas that suit them.",
+    "a": [
+     "self-selection"
+    ],
+    "why": "الفقرة 4: الاختيار الذاتي يفسّر جزءًا من الفروق."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main reason why design influences are 'easy to overlook'?",
+    "o": [
+     "They are kept secret by planners.",
+     "They operate without people consciously deciding.",
+     "They only affect small areas."
+    ],
+    "a": 1,
+    "why": "الفقرة 0: هذه التأثيرات تعمل دون مستوى القرار الواعي."
+   },
+   {
+    "k": "mc",
+    "q": "Why does the writer mention a handsome but empty plaza?",
+    "o": [
+     "To show that good architecture always attracts visitors",
+     "To criticise the high cost of public spaces",
+     "To show that physical design alone cannot guarantee social life"
+    ],
+    "a": 2,
+    "why": "الفقرة 5: الفعاليات والصيانة والانتماء المحلي لا تقل أهمية عن الشكل."
+   },
+   {
+    "k": "mc",
+    "q": "The writer suggests that planners should",
+    "o": [
+     "be open about the behaviour their designs aim to encourage",
+     "avoid influencing behaviour altogether",
+     "leave decisions entirely to engineers"
+    ],
+    "a": 0,
+    "why": "الفقرة 6: على المخططين الشفافية بشأن نواياهم وقبول التدقيق العام."
+   }
+  ],
+  "sumAr": "يوضح النص كيف تؤثر تصاميم المدن في المشي والأمان والحياة الاجتماعية، ويناقش العمارة الطاردة وحجة الاختيار الذاتي، ويخلص إلى أن التصميم يوسّع الإمكانات لا يفرض المصير وأن على المخططين أن يكونوا شفافين."
+ }
+]

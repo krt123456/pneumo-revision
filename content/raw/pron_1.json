@@ -1,0 +1,738 @@
+[
+ {
+  "id": "pr-01",
+  "title": "/p/ and /b/",
+  "titleAr": "صوتا /p/ و /b/",
+  "ar": "في العربية لا يوجد صوت /p/، فيميل العربي إلى نطقه /b/ فيقول bark بدل park. لنطق /p/ أغلق شفتيك ثم افتحهما بدفعة هواء قوية دون اهتزاز الحنجرة؛ ضع ورقة أمام فمك فتتحرك مع /p/ ولا تتحرك كثيرًا مع /b/. أما /b/ ففيه اهتزاز في الحنجرة وهواء أقل.",
+  "pairs": [
+   [
+    "park",
+    "bark"
+   ],
+   [
+    "pill",
+    "bill"
+   ],
+   [
+    "pack",
+    "back"
+   ],
+   [
+    "pie",
+    "buy"
+   ],
+   [
+    "pen",
+    "Ben"
+   ],
+   [
+    "rope",
+    "robe"
+   ],
+   [
+    "cap",
+    "cab"
+   ],
+   [
+    "pear",
+    "bear"
+   ]
+  ],
+  "sent": [
+   "Please put the paper bag on the big blue bench.",
+   "The baby bought a pink balloon in the park.",
+   "Peter's bike has a broken pedal.",
+   "I spoke to the public prosecutor about the problem."
+  ]
+ },
+ {
+  "id": "pr-02",
+  "title": "/f/ and /v/",
+  "titleAr": "صوتا /f/ و /v/",
+  "ar": "العربية فيها /f/ لكن ليس فيها /v/، فيقول العربي fan بدل van. لنطق /v/ ضع أسنانك العليا على الشفة السفلى تمامًا كما في /f/ ثم شغّل الحنجرة (ضع يدك على رقبتك فتشعر بالاهتزاز). الخطأ الشائع نطق /v/ كأنه /f/ بلا اهتزاز.",
+  "pairs": [
+   [
+    "fan",
+    "van"
+   ],
+   [
+    "fail",
+    "veil"
+   ],
+   [
+    "safe",
+    "save"
+   ],
+   [
+    "fine",
+    "vine"
+   ],
+   [
+    "leaf",
+    "leave"
+   ],
+   [
+    "few",
+    "view"
+   ],
+   [
+    "ferry",
+    "very"
+   ],
+   [
+    "proof",
+    "prove"
+   ]
+  ],
+  "sent": [
+   "Very few visitors visited the village in November.",
+   "Steve gave five votes to the new leader.",
+   "The fast ferry leaves from the river at five.",
+   "We have to prove that the evidence is valid."
+  ]
+ },
+ {
+  "id": "pr-03",
+  "title": "Short i and e (sit, set)",
+  "titleAr": "صوتا i القصير و e (sit / set)",
+  "ar": "العربية فيها كسرة وفتحة لكنها لا تفرّق بين هذين الصوتين، فينطق العربي sit و set متقاربتين. صوت /ɪ/ في sit قصير ومسترخٍ والفم شبه مغلق واللسان مرتفع قليلًا. أما /e/ في set فيكون الفم أكثر انفتاحًا والفكّ ينزل قليلًا. الخطأ الشائع نطق الصوتين كما في الكسرة الطويلة أو الفتحة المائلة.",
+  "pairs": [
+   [
+    "sit",
+    "set"
+   ],
+   [
+    "bit",
+    "bet"
+   ],
+   [
+    "pin",
+    "pen"
+   ],
+   [
+    "lid",
+    "led"
+   ],
+   [
+    "tin",
+    "ten"
+   ],
+   [
+    "bill",
+    "bell"
+   ],
+   [
+    "fill",
+    "fell"
+   ],
+   [
+    "list",
+    "lest"
+   ]
+  ],
+  "sent": [
+   "Ben put the pen in the tin box.",
+   "Let him sit and tell me the list.",
+   "The red bed is in the big hill house.",
+   "Ten men did the exercise in the gym."
+  ]
+ },
+ {
+  "id": "pr-04",
+  "title": "Long ee and short i (sheep, ship)",
+  "titleAr": "صوتا ee الطويل و i القصير (sheep / ship)",
+  "ar": "في sheep الصوت /iː/ طويل: شدّ شفتيك كأنك تبتسم وأطل الصوت. في ship الصوت /ɪ/ قصير ومسترخٍ وبلا ابتسامة. الخطأ الشائع أن يطيل العربي الصوتين بالقدر نفسه أو يقصّرهما معًا، فيضيع الفرق في المعنى بين leave و live وبين seat و sit.",
+  "pairs": [
+   [
+    "sheep",
+    "ship"
+   ],
+   [
+    "seat",
+    "sit"
+   ],
+   [
+    "leave",
+    "live"
+   ],
+   [
+    "beat",
+    "bit"
+   ],
+   [
+    "feel",
+    "fill"
+   ],
+   [
+    "green",
+    "grin"
+   ],
+   [
+    "heel",
+    "hill"
+   ],
+   [
+    "reach",
+    "rich"
+   ]
+  ],
+  "sent": [
+   "The sheep left the ship near the green beach.",
+   "Please sit in this seat and keep clean.",
+   "I feel ill, so I will leave the meeting.",
+   "He lives in a big city and eats cheap meat."
+  ]
+ },
+ {
+  "id": "pr-05",
+  "title": "a in cat and u in cut",
+  "titleAr": "صوتا a في cat و u في cut",
+  "ar": "في cat الصوت /æ/ يُنطق بفم مفتوح كثيرًا وفكّ منخفض وشفتين ممدودتين قليلًا، مثل فتحة مفخّمة نحو الكسرة. في cut الصوت /ʌ/ قصير وفم نصف مفتوح واللسان في الوسط. العربي يخلط بينهما فيقول cat كأنها cut أو العكس، فتتغير الكلمة: hat وhut، bag وbug.",
+  "pairs": [
+   [
+    "cat",
+    "cut"
+   ],
+   [
+    "hat",
+    "hut"
+   ],
+   [
+    "bag",
+    "bug"
+   ],
+   [
+    "ran",
+    "run"
+   ],
+   [
+    "cap",
+    "cup"
+   ],
+   [
+    "match",
+    "much"
+   ],
+   [
+    "lack",
+    "luck"
+   ],
+   [
+    "ankle",
+    "uncle"
+   ]
+  ],
+  "sent": [
+   "The cat ran up the hut at lunch.",
+   "My uncle has a black cap and a big bag.",
+   "The bus was full of bugs and fun noise.",
+   "Come and have a cup of tea, Dad."
+  ]
+ },
+ {
+  "id": "pr-06",
+  "title": "o in not and o in note",
+  "titleAr": "صوتا o في not و o في note",
+  "ar": "في not الصوت /ɒ/ قصير بفم مستدير ومفتوح قليلًا. في note الصوت /əʊ/ مزدوج: يبدأ بصوت وسط ثم ينزلق نحو ضمّة خفيفة بشفتين مستديرتين. الخطأ الشائع أن ينطقه العربي كواو طويلة صافية /oː/ دون الانزلاق، أو أن يقصّر note فتصبح كأنها not.",
+  "pairs": [
+   [
+    "not",
+    "note"
+   ],
+   [
+    "hop",
+    "hope"
+   ],
+   [
+    "cod",
+    "code"
+   ],
+   [
+    "rob",
+    "robe"
+   ],
+   [
+    "got",
+    "goat"
+   ],
+   [
+    "cost",
+    "coast"
+   ],
+   [
+    "pop",
+    "pope"
+   ],
+   [
+    "shot",
+    "show"
+   ]
+  ],
+  "sent": [
+   "I hope he got a note from the old doctor.",
+   "The goat is not on the road.",
+   "Tom wrote the code on a hot day.",
+   "Joe won't stop at the coast."
+  ]
+ },
+ {
+  "id": "pr-07",
+  "title": "th in think vs s",
+  "titleAr": "صوت th في think مقابل s",
+  "ar": "صوت /θ/ غير موجود في العربية الفصحى المنطوقة عند كثيرين، فيحوّلونه إلى /s/ فيقولون sink بدل think. لنطقه أخرج طرف لسانك قليلًا بين الأسنان العليا والسفلى وانفخ الهواء بلطف دون اهتزاز الحنجرة. في /s/ يبقى اللسان خلف الأسنان. الخطأ هنا قد يغيّر المعنى: think وsink، thank وsank.",
+  "pairs": [
+   [
+    "think",
+    "sink"
+   ],
+   [
+    "thank",
+    "sank"
+   ],
+   [
+    "thing",
+    "sing"
+   ],
+   [
+    "thick",
+    "sick"
+   ],
+   [
+    "path",
+    "pass"
+   ],
+   [
+    "mouth",
+    "mouse"
+   ],
+   [
+    "three",
+    "tree"
+   ],
+   [
+    "thought",
+    "sought"
+   ]
+  ],
+  "sent": [
+   "I think three thousand people thanked me.",
+   "Thank you for the thick path through the north.",
+   "The third month of the year is a month of growth.",
+   "He thought about the mouth of the river."
+  ]
+ },
+ {
+  "id": "pr-08",
+  "title": "th in this vs z",
+  "titleAr": "صوت th في this مقابل z",
+  "ar": "صوت /ð/ هو النظير المجهور لـ /θ/، وهو يشبه ظاء/ذال العربية إلى حد ما لكن بطرف اللسان بين الأسنان بلطف. عادة ينطقه العربي /z/ أو /d/ فيقول zis أو dis. اجعل لسانك بين أسنانك وشغّل الحنجرة لتشعر بالاهتزاز. هذا الصوت يظهر كثيرًا في the وthis وthat وthey وwith.",
+  "pairs": [
+   [
+    "this",
+    ""
+   ],
+   [
+    "that",
+    ""
+   ],
+   [
+    "they",
+    ""
+   ],
+   [
+    "then",
+    ""
+   ],
+   [
+    "breathe",
+    ""
+   ],
+   [
+    "brother",
+    ""
+   ],
+   [
+    "together",
+    ""
+   ],
+   [
+    "weather",
+    ""
+   ]
+  ],
+  "sent": [
+   "This is the other one that they bought.",
+   "My brother and father were there with them.",
+   "Then they breathe the clean air together.",
+   "I'd rather go there than stay here."
+  ]
+ },
+ {
+  "id": "pr-09",
+  "title": "ch and sh",
+  "titleAr": "صوتا ch و sh",
+  "ar": "/tʃ/ في chip مركّب من توقف ثم احتكاك: ابدأ بلسان ملتصق بسقف الفم ثم أطلق الهواء بقوة. أما /ʃ/ في ship فاحتكاك مستمر فقط كالشين العربية. يخلط العربي أحيانًا فيقول sheap بدل cheap. العربية فيها شين لكن ليس فيها صوت ch كما في الإنجليزية، فتدرّب على بدء الصوت بتاء خفيفة.",
+  "pairs": [
+   [
+    "chip",
+    "ship"
+   ],
+   [
+    "cheap",
+    "sheep"
+   ],
+   [
+    "chair",
+    "share"
+   ],
+   [
+    "catch",
+    "cash"
+   ],
+   [
+    "watch",
+    "wash"
+   ],
+   [
+    "choose",
+    "shoes"
+   ],
+   [
+    "March",
+    "marsh"
+   ],
+   [
+    "much",
+    "mush"
+   ]
+  ],
+  "sent": [
+   "She chose a cheap chair in the shop.",
+   "Which kitchen has fresh cheese and fish?",
+   "The teacher will check the church map in March.",
+   "I watch him wash his shoes each Thursday."
+  ]
+ },
+ {
+  "id": "pr-10",
+  "title": "ng at the end of words",
+  "titleAr": "صوت ng في نهاية الكلمات",
+  "ar": "في الإنجليزية /ŋ/ صوت أنفي واحد في sing، يخرج من الأنف مع رفع مؤخرة اللسان نحو سقف الحلق الرخو، ولا يُسمع حرف g منفصل. الخطأ الشائع نطق n ثم g بوضوح فتصبح sing كأنها sin-g، أو الاكتفاء بـ n فتصبح sin. لا تُفصل النون عن الجيم.",
+  "pairs": [
+   [
+    "sing",
+    "sin"
+   ],
+   [
+    "thing",
+    "thin"
+   ],
+   [
+    "king",
+    "kin"
+   ],
+   [
+    "long",
+    "lawn"
+   ],
+   [
+    "morning",
+    ""
+   ],
+   [
+    "building",
+    ""
+   ],
+   [
+    "meeting",
+    ""
+   ],
+   [
+    "evening",
+    ""
+   ]
+  ],
+  "sent": [
+   "I am running along the long morning road.",
+   "The king is singing in the building.",
+   "We are having a meeting this evening.",
+   "She was reading and writing something interesting."
+  ]
+ },
+ {
+  "id": "pr-11",
+  "title": "Consonant clusters without adding a vowel",
+  "titleAr": "تجمّعات الحروف الساكنة دون إضافة حرف علة",
+  "ar": "العربية لا تبدأ الكلمة بحرفين ساكنين متتاليين، فيضيف العربي حركة قبلهما أو بينهما فيقول istreet بدل street، وisspring بدل spring، وaskid بدل asked. تدرّب على نطق الأصوات متتابعة بسرعة دون أي حرف علة، وابدأ بإطالة الصوت الأول: sssstreet. وفي asked انطق /skt/ دفعة واحدة.",
+  "pairs": [
+   [
+    "street",
+    ""
+   ],
+   [
+    "spring",
+    ""
+   ],
+   [
+    "strong",
+    ""
+   ],
+   [
+    "school",
+    ""
+   ],
+   [
+    "asked",
+    ""
+   ],
+   [
+    "scratch",
+    ""
+   ],
+   [
+    "splash",
+    ""
+   ],
+   [
+    "next",
+    ""
+   ]
+  ],
+  "sent": [
+   "The street in spring is quiet and clean.",
+   "She asked the strict student to stop.",
+   "Strong winds struck the school on Sunday.",
+   "He is next in the queue to speak."
+  ]
+ },
+ {
+  "id": "pr-12",
+  "title": "-ed endings",
+  "titleAr": "نهايات -ed",
+  "ar": "تُنطق -ed بثلاث طرق: /t/ بعد الأصوات المهموسة مثل worked وstopped؛ /d/ بعد المجهورة مثل played وlived؛ و/ɪd/ فقط بعد t أو d مثل wanted وneeded فتزيد مقطعًا. الخطأ الشائع نطق -ed دائمًا مقطعًا كاملًا أي worked كأنها work-ed.",
+  "pairs": [
+   [
+    "worked",
+    ""
+   ],
+   [
+    "stopped",
+    ""
+   ],
+   [
+    "played",
+    ""
+   ],
+   [
+    "lived",
+    ""
+   ],
+   [
+    "wanted",
+    ""
+   ],
+   [
+    "needed",
+    ""
+   ],
+   [
+    "watched",
+    ""
+   ],
+   [
+    "opened",
+    ""
+   ]
+  ],
+  "sent": [
+   "He worked, stopped and watched the road.",
+   "She played and lived in a small village.",
+   "They wanted and needed more time.",
+   "We opened the door and looked inside."
+  ]
+ },
+ {
+  "id": "pr-13",
+  "title": "-s endings",
+  "titleAr": "نهايات -s",
+  "ar": "تُنطق -s بثلاث طرق: /s/ بعد المهموسة مثل cats وbooks؛ /z/ بعد المجهورة والحروف العلة مثل dogs وplays؛ و/ɪz/ بعد أصوات الصفير مثل buses وwatches فتزيد مقطعًا. العربي ينطقها غالبًا /s/ دائمًا أو يحذفها فيقول he work بدل he works.",
+  "pairs": [
+   [
+    "cats",
+    ""
+   ],
+   [
+    "books",
+    ""
+   ],
+   [
+    "dogs",
+    ""
+   ],
+   [
+    "plays",
+    ""
+   ],
+   [
+    "buses",
+    ""
+   ],
+   [
+    "watches",
+    ""
+   ],
+   [
+    "judges",
+    ""
+   ],
+   [
+    "knows",
+    ""
+   ]
+  ],
+  "sent": [
+   "He works and she watches the buses.",
+   "The dogs and cats sleep in the houses.",
+   "My brother plays and knows many games.",
+   "The judge reads books and writes notes."
+  ]
+ },
+ {
+  "id": "pr-14",
+  "title": "Word stress (photograph, photographer)",
+  "titleAr": "النبر على الكلمة (photograph / photographer)",
+  "ar": "في الإنجليزية لكل كلمة مقطع منبور يُنطق أقوى وأطول وأعلى. في PHOtograph النبر على المقطع الأول، لكن في phoTOgrapher ينتقل إلى الثاني. العربي ينبر مقاطع الكلمة بالتساوي تقريبًا، فيضيع المعنى. قاعدة: كثير من الكلمات تغير نبرها حين تتغير النهاية مثل -ic وإضافة -er. ابحث عن النبر في المعجم وصفّق عند المقطع المنبور.",
+  "pairs": [
+   [
+    "photograph",
+    "photographer"
+   ],
+   [
+    "economy",
+    "economic"
+   ],
+   [
+    "politics",
+    "political"
+   ],
+   [
+    "music",
+    "musician"
+   ],
+   [
+    "science",
+    "scientific"
+   ],
+   [
+    "history",
+    "historical"
+   ],
+   [
+    "analyse",
+    "analysis"
+   ],
+   [
+    "able",
+    "ability"
+   ]
+  ],
+  "sent": [
+   "The photographer took a photograph of the economy minister.",
+   "Every musician needs ability and a strong sense of music.",
+   "The scientific analysis of history is important.",
+   "I study politics, and the political situation is changing."
+  ]
+ },
+ {
+  "id": "pr-15",
+  "title": "Weak forms and the schwa",
+  "titleAr": "الأشكال الضعيفة وصوت schwa",
+  "ar": "الصوت /ə/ (schwa) أكثر صوت شائعًا في الإنجليزية، وهو صوت قصير جدًا ومسترخٍ تنطقه الكلمات غير المنبورة مثل a وthe وto وof وand وcan. مثال: can في I can swim تنطق /kən/ لا /kæn/. العربي ينطق كل كلمة بوضوح ونبر كامل فتبدو جمله بطيئة وغير طبيعية. اجعل الكلمات الصغيرة سريعة وضعيفة والكلمات الرئيسية فقط قوية.",
+  "pairs": [
+   [
+    "about",
+    ""
+   ],
+   [
+    "banana",
+    ""
+   ],
+   [
+    "support",
+    ""
+   ],
+   [
+    "to",
+    ""
+   ],
+   [
+    "of",
+    ""
+   ],
+   [
+    "and",
+    ""
+   ],
+   [
+    "can",
+    ""
+   ],
+   [
+    "the",
+    ""
+   ]
+  ],
+  "sent": [
+   "I can go to a shop and buy a banana.",
+   "Tom and Anna are tired of the weather.",
+   "She wants to talk about a problem at the office.",
+   "A cup of tea and a piece of cake, please."
+  ]
+ },
+ {
+  "id": "pr-16",
+  "title": "Silent letters",
+  "titleAr": "الحروف الصامتة",
+  "ar": "في الإنجليزية حروف تُكتب ولا تُنطق، وهي تربك العربي لأنه اعتاد أن كل حرف يُنطق. من أمثلتها k في knife وknow، وw في write وwrong، وb في doubt وthumb، وl في walk وcould، وh في hour وhonest، وgh في night وthrough. تعلّم الكلمة نطقًا لا هجاءً، ولا تنطق الحرف الصامت حتى لا يخطئ المستمع.",
+  "pairs": [
+   [
+    "knife",
+    ""
+   ],
+   [
+    "know",
+    ""
+   ],
+   [
+    "write",
+    ""
+   ],
+   [
+    "wrong",
+    ""
+   ],
+   [
+    "doubt",
+    ""
+   ],
+   [
+    "walk",
+    ""
+   ],
+   [
+    "hour",
+    ""
+   ],
+   [
+    "night",
+    ""
+   ]
+  ],
+  "sent": [
+   "I know the answer, so I don't doubt it.",
+   "He wrote the wrong word on the whiteboard.",
+   "We walk for an hour every night.",
+   "The honest knight left his knife outside."
+  ]
+ }
+]

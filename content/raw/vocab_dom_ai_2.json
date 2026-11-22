@@ -1,0 +1,952 @@
+[
+{
+"w": "alert",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "تنبيه",
+"d": "a warning message that tells you to pay attention to something",
+"ex": "The system sends an alert when the judge changes topic.",
+"x": "alert",
+"c": [
+"send an alert"
+]
+},
+{
+"w": "chatbot",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "روبوت محادثة",
+"d": "a program that talks with people by typing or speaking",
+"ex": "The chatbot answers simple questions about court procedure.",
+"x": "chatbot"
+},
+{
+"w": "simulation",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "محاكاة",
+"d": "a model of a real situation used for practice or testing",
+"ex": "The simulation lets students face a judge without any risk.",
+"x": "simulation",
+"c": [
+"computer simulation"
+],
+"f": [
+"simulate"
+]
+},
+{
+"w": "real-time",
+"p": "adj",
+"l": "B2",
+"t": "ai",
+"ar": "فوري، في الزمن الحقيقي",
+"d": "happening at the same moment as the real event",
+"ex": "The tool gives real-time advice while the hearing continues.",
+"x": "real-time",
+"c": [
+"real-time analysis"
+]
+},
+{
+"w": "transcription",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "تفريغ نصي، نسخ كتابي",
+"d": "a written copy of spoken words",
+"ex": "A transcription of the hearing was ready within minutes.",
+"x": "transcription",
+"c": [
+"automatic transcription"
+],
+"f": [
+"transcribe",
+"transcript"
+]
+},
+{
+"w": "prompt",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "موجّه، أمر نصي (للنموذج)",
+"d": "a short text that tells an AI model what to do",
+"ex": "A clear prompt gives a more useful answer.",
+"x": "prompt",
+"c": [
+"write a prompt"
+]
+},
+{
+"w": "bias",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "تحيّز، انحياز",
+"d": "an unfair preference that affects results or decisions",
+"ex": "Bias in the data can lead to unfair advice.",
+"x": "Bias",
+"c": [
+"reduce bias"
+],
+"f": [
+"biased"
+]
+},
+{
+"w": "case file",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "ملف القضية",
+"d": "all the documents that belong to one legal case",
+"ex": "The tool scans the whole case file for gaps.",
+"x": "case file",
+"c": [
+"open a case file"
+]
+},
+{
+"w": "mock trial",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "محاكمة صورية",
+"d": "a practice court session where students play the roles",
+"ex": "Our mock trial helps new lawyers practise their arguments.",
+"x": "mock trial",
+"c": [
+"hold a mock trial"
+]
+},
+{
+"w": "legal research",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "بحث قانوني",
+"d": "the work of finding laws and past decisions on a legal question",
+"ex": "Legal research used to take days, but now it takes minutes.",
+"x": "Legal research",
+"c": [
+"do legal research"
+]
+},
+{
+"w": "machine learning",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "التعلّم الآلي",
+"d": "a method in which computers learn from data without fixed rules",
+"ex": "Machine learning helps the tool improve with every new case.",
+"x": "Machine learning",
+"c": [
+"machine learning model"
+]
+},
+{
+"w": "speech recognition",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "التعرّف على الكلام",
+"d": "technology that turns spoken words into written text",
+"ex": "Speech recognition lets the tool follow the judge's words.",
+"x": "Speech recognition",
+"c": [
+"speech recognition software"
+]
+},
+{
+"w": "speech-to-text",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "تحويل الكلام إلى نص",
+"d": "software that changes spoken language into written words",
+"ex": "A speech-to-text engine writes down the whole hearing.",
+"x": "speech-to-text",
+"c": [
+"speech-to-text software"
+]
+},
+{
+"w": "fairness",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "عدالة، إنصاف",
+"d": "the quality of treating people equally and without prejudice",
+"ex": "Researchers test the tool for fairness across different groups.",
+"x": "fairness",
+"c": [
+"ensure fairness"
+],
+"f": [
+"fair",
+"unfair"
+]
+},
+{
+"w": "regulation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تنظيم، لائحة تنظيمية",
+"d": "an official rule made by a government or authority",
+"ex": "New regulation will control how courts use AI.",
+"x": "regulation",
+"c": [
+"strict regulation"
+],
+"f": [
+"regulate",
+"regulator"
+]
+},
+{
+"w": "ethical guidelines",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "مبادئ توجيهية أخلاقية",
+"d": "official advice on what is morally right when using a technology",
+"ex": "The start-up follows ethical guidelines for all its software.",
+"x": "ethical guidelines",
+"c": [
+"follow ethical guidelines"
+],
+"f": [
+"ethics",
+"ethical"
+]
+},
+{
+"w": "data breach",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "اختراق بيانات، تسرّب بيانات",
+"d": "an incident in which private information is stolen or exposed",
+"ex": "A data breach could reveal the names of protected witnesses.",
+"x": "data breach",
+"c": [
+"suffer a data breach"
+]
+},
+{
+"w": "confidentiality",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "السرّية، كتمان المعلومات",
+"d": "the duty to keep private information secret",
+"ex": "Lawyers must protect client confidentiality at all times.",
+"x": "confidentiality",
+"c": [
+"breach confidentiality"
+],
+"f": [
+"confidential"
+]
+},
+{
+"w": "data protection",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "حماية البيانات",
+"d": "rules and methods that keep personal information safe",
+"ex": "Data protection law applies to every file we process.",
+"x": "Data protection",
+"c": [
+"data protection law"
+]
+},
+{
+"w": "anonymise",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يُخفي هوية (صاحب البيانات)",
+"d": "to remove names and details so no one can identify a person",
+"ex": "We anonymise every judgment before we use it for training.",
+"x": "anonymise",
+"c": [
+"anonymise data"
+],
+"f": [
+"anonymised"
+]
+},
+{
+"w": "training data",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "بيانات التدريب",
+"d": "the examples used to teach a machine learning model",
+"ex": "Poor training data produces poor legal advice.",
+"x": "training data",
+"c": [
+"biased training data"
+]
+},
+{
+"w": "knowledge base",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "قاعدة معرفية",
+"d": "an organised collection of facts that a system can use",
+"ex": "The knowledge base contains the main articles of the civil code.",
+"x": "knowledge base"
+},
+{
+"w": "document analysis",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "تحليل الوثائق",
+"d": "the automatic study of the content of documents",
+"ex": "Document analysis finds missing signatures in a contract.",
+"x": "Document analysis",
+"c": [
+"automated document analysis"
+]
+},
+{
+"w": "legal technology",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "التقنية القانونية",
+"d": "software and tools that help with legal work",
+"ex": "Legal technology is changing how small law firms work.",
+"x": "Legal technology",
+"c": [
+"legal technology start-up"
+]
+},
+{
+"w": "contract review",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "مراجعة العقود",
+"d": "checking a contract to find mistakes and risks",
+"ex": "Automatic contract review saved the firm many hours.",
+"x": "contract review"
+},
+{
+"w": "risk assessment",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "تقييم المخاطر",
+"d": "the process of judging how likely and how serious a danger is",
+"ex": "The tool produces a risk assessment for each witness.",
+"x": "risk assessment",
+"c": [
+"carry out a risk assessment"
+]
+},
+{
+"w": "summarisation",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "التلخيص (الآلي)",
+"d": "the process of making a long text shorter while keeping its main points",
+"ex": "Summarisation turns a long judgment into five key lines.",
+"x": "Summarisation",
+"c": [
+"automatic summarisation"
+],
+"f": [
+"summarise",
+"summary"
+]
+},
+{
+"w": "accountability",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "المساءلة",
+"d": "the duty to explain and take responsibility for your actions",
+"ex": "Accountability is missing when no one owns the algorithm's mistakes.",
+"x": "Accountability",
+"c": [
+"public accountability"
+],
+"f": [
+"accountable"
+]
+},
+{
+"w": "generative AI",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "الذكاء الاصطناعي التوليدي",
+"d": "AI that can create new text, images or sound",
+"ex": "Generative AI can draft a first version of a defence note.",
+"x": "Generative AI"
+},
+{
+"w": "language model",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "نموذج لغوي",
+"d": "an AI system trained to understand and produce human language",
+"ex": "A language model reads the question and writes an answer.",
+"x": "language model",
+"c": [
+"train a language model"
+]
+},
+{
+"w": "digital evidence",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "دليل رقمي",
+"d": "proof stored or sent in electronic form",
+"ex": "Digital evidence such as emails may decide the outcome.",
+"x": "Digital evidence",
+"c": [
+"collect digital evidence"
+]
+},
+{
+"w": "deep learning",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "التعلّم العميق",
+"d": "machine learning that uses many layers of neural networks",
+"ex": "Deep learning allows the tool to understand spoken Arabic.",
+"x": "Deep learning"
+},
+{
+"w": "false positive",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "إيجابي كاذب",
+"d": "a result that wrongly says something is present",
+"ex": "A false positive may warn the lawyer about a risk that does not exist.",
+"x": "false positive"
+},
+{
+"w": "false negative",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "سلبي كاذب",
+"d": "a result that wrongly says something is absent",
+"ex": "A false negative hides a real weakness in the case.",
+"x": "false negative"
+},
+{
+"w": "confidence score",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "درجة الثقة",
+"d": "a number showing how sure the system is about its answer",
+"ex": "Each warning has a confidence score from zero to one hundred.",
+"x": "confidence score",
+"c": [
+"high confidence score"
+]
+},
+{
+"w": "fine-tune",
+"p": "v",
+"l": "C1",
+"t": "ai",
+"ar": "يضبط بدقّة، يُكيّف (نموذجًا مدرَّبًا)",
+"d": "to adjust an existing AI model with extra data for a special task",
+"ex": "We fine-tune the model on criminal law judgments only.",
+"x": "fine-tune",
+"c": [
+"fine-tune a model"
+],
+"f": [
+"fine-tuning"
+]
+},
+{
+"w": "benchmark",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "معيار اختبار مرجعي",
+"d": "a standard test used to compare how well systems perform",
+"ex": "The tool scored highest on the new legal reasoning benchmark.",
+"x": "benchmark",
+"c": [
+"set a benchmark"
+]
+},
+{
+"w": "latency",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "زمن الاستجابة، التأخير",
+"d": "the time delay between a request and the system's answer",
+"ex": "Low latency is essential if advice must reach the lawyer in time.",
+"x": "latency",
+"c": [
+"low latency"
+]
+},
+{
+"w": "human oversight",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "الرقابة البشرية",
+"d": "supervision of an automated system by real people",
+"ex": "Human oversight keeps the final decision in a lawyer's hands.",
+"x": "Human oversight",
+"c": [
+"meaningful human oversight"
+]
+},
+{
+"w": "hallucination",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "هلوسة (نموذج)",
+"d": "a false statement that an AI model produces as if it were true",
+"ex": "One hallucination invented a court decision that never existed.",
+"x": "hallucination"
+},
+{
+"w": "explainability",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "قابلية التفسير",
+"d": "the ability to show clearly why an AI system gave a result",
+"ex": "Explainability matters because a judge may ask how advice was produced.",
+"x": "Explainability",
+"f": [
+"explainable"
+]
+},
+{
+"w": "interpretability",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "قابلية التأويل (فهم آلية النموذج)",
+"d": "how easily a person can understand what happens inside a model",
+"ex": "Interpretability is harder to achieve in deep neural networks.",
+"x": "Interpretability",
+"f": [
+"interpret"
+]
+},
+{
+"w": "natural language processing",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "معالجة اللغة الطبيعية",
+"d": "the field of AI that helps computers understand human language",
+"ex": "Natural language processing allows the tool to read Arabic judgments.",
+"x": "Natural language processing"
+},
+{
+"w": "case law retrieval",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "استرجاع السوابق القضائية",
+"d": "automatic finding of past court decisions relevant to a case",
+"ex": "Case law retrieval returns the five most similar judgments.",
+"x": "Case law retrieval"
+},
+{
+"w": "decision support system",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "نظام دعم القرار",
+"d": "software that helps people make better decisions",
+"ex": "Our product is a decision support system, not a judge.",
+"x": "decision support system"
+},
+{
+"w": "predictive analytics",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "التحليلات التنبؤية",
+"d": "the use of data and models to estimate future outcomes",
+"ex": "Predictive analytics estimates the chance of winning an appeal.",
+"x": "Predictive analytics"
+},
+{
+"w": "audit trail",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "سجلّ التدقيق، أثر المراجعة",
+"d": "a record that shows every action taken in a system",
+"ex": "The audit trail shows who changed the file and when.",
+"x": "audit trail",
+"c": [
+"keep an audit trail"
+]
+},
+{
+"w": "algorithmic bias",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "التحيّز الخوارزمي",
+"d": "unfair results caused by a flaw in an algorithm or its data",
+"ex": "Algorithmic bias can disadvantage defendants from poor areas.",
+"x": "Algorithmic bias"
+},
+{
+"w": "black box",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "صندوق أسود",
+"d": "a system whose internal working cannot be seen or explained",
+"ex": "Courts distrust a black box that cannot justify its advice.",
+"x": "black box",
+"c": [
+"black box model"
+]
+},
+{
+"w": "compliance",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "الامتثال",
+"d": "the act of following laws, rules or standards",
+"ex": "Compliance with data law is a condition for every contract.",
+"x": "Compliance",
+"c": [
+"ensure compliance"
+],
+"f": [
+"comply",
+"compliant"
+]
+},
+{
+"w": "liability",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "مسؤولية قانونية",
+"d": "legal responsibility for harm or damage",
+"ex": "Who bears liability if the tool gives wrong advice?",
+"x": "liability",
+"c": [
+"accept liability"
+],
+"f": [
+"liable"
+]
+},
+{
+"w": "overfitting",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "فرط التخصيص (الإفراط في الملاءمة)",
+"d": "a problem when a model learns its training data too closely and fails on new data",
+"ex": "Overfitting made the model perfect on old cases but weak on new ones.",
+"x": "Overfitting",
+"f": [
+"overfit"
+]
+},
+{
+"w": "threshold",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "عتبة، حدّ فاصل",
+"d": "the level at which a system starts to act or give a signal",
+"ex": "We set a high threshold so that only serious risks trigger a warning.",
+"x": "threshold",
+"c": [
+"set a threshold"
+]
+},
+{
+"w": "classification",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "تصنيف",
+"d": "the process of placing items into categories",
+"ex": "Classification sorts each clause as low, medium or high risk.",
+"x": "Classification",
+"c": [
+"text classification"
+],
+"f": [
+"classify",
+"classifier"
+]
+},
+{
+"w": "entity recognition",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "التعرّف على الكيانات (المسمّاة)",
+"d": "finding names of people, places and organisations in text",
+"ex": "Entity recognition extracts every judge and company named in the file.",
+"x": "Entity recognition",
+"c": [
+"named entity recognition"
+]
+},
+{
+"w": "annotation",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "وسم توضيحي، تعليق توضيحي",
+"d": "a note or label added to data to explain it",
+"ex": "Careful annotation by law students improved the dataset.",
+"x": "annotation",
+"f": [
+"annotate",
+"annotator"
+]
+},
+{
+"w": "ground truth",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "الحقيقة المرجعية (للبيانات)",
+"d": "the correct answers against which a model is checked",
+"ex": "Lawyers wrote the ground truth that we use to test the tool.",
+"x": "ground truth"
+},
+{
+"w": "human-in-the-loop",
+"p": "adj",
+"l": "C1",
+"t": "ai",
+"ar": "بإشراك العنصر البشري في الحلقة",
+"d": "designed so that a person reviews or approves the automated steps",
+"ex": "We chose a human-in-the-loop design for every critical decision.",
+"x": "human-in-the-loop",
+"c": [
+"human-in-the-loop system"
+]
+},
+{
+"w": "legal reasoning",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "الاستدلال القانوني",
+"d": "the way lawyers build arguments from laws and facts",
+"ex": "Teaching machines legal reasoning remains a difficult research problem.",
+"x": "legal reasoning",
+"c": [
+"model legal reasoning"
+]
+},
+{
+"w": "precedent",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "سابقة قضائية",
+"d": "an earlier court decision used as a guide for later cases",
+"ex": "The tool cites a precedent that supports the defence.",
+"x": "precedent",
+"c": [
+"set a precedent"
+]
+},
+{
+"w": "argument mining",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "تنقيب الحجج",
+"d": "automatic detection of claims and reasons in a text",
+"ex": "Argument mining finds the main claims in a prosecutor's speech.",
+"x": "Argument mining"
+},
+{
+"w": "chain of custody",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "سلسلة حيازة الأدلة",
+"d": "the record of who held a piece of evidence and when",
+"ex": "A broken chain of custody can make the evidence inadmissible.",
+"x": "chain of custody",
+"c": [
+"break the chain of custody"
+]
+},
+{
+"w": "tamper-proof",
+"p": "adj",
+"l": "C1",
+"t": "technology",
+"ar": "مقاوم للتلاعب",
+"d": "designed so that nobody can secretly change it",
+"ex": "The log must be tamper-proof to be accepted in court.",
+"x": "tamper-proof",
+"c": [
+"tamper-proof record"
+]
+},
+{
+"w": "blockchain",
+"p": "n",
+"l": "C1",
+"t": "technology",
+"ar": "سلسلة الكتل (بلوكتشين)",
+"d": "a shared digital record that cannot be changed without everyone seeing",
+"ex": "Some courts test blockchain to store land registry records.",
+"x": "blockchain"
+},
+{
+"w": "smart contract",
+"p": "phr",
+"l": "C1",
+"t": "technology",
+"ar": "عقد ذكي",
+"d": "a contract written in code that runs by itself when conditions are met",
+"ex": "A smart contract pays the supplier as soon as the goods arrive.",
+"x": "smart contract"
+},
+{
+"w": "automated decision-making",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "اتخاذ القرارات الآلي",
+"d": "decisions taken by software without a person's direct involvement",
+"ex": "Automated decision-making in justice raises serious ethical questions.",
+"x": "Automated decision-making"
+},
+{
+"w": "synthetic data",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "بيانات اصطناعية",
+"d": "artificial data created by a program to imitate real data",
+"ex": "Synthetic data protects privacy when real case files are secret.",
+"x": "Synthetic data"
+},
+{
+"w": "deepfake",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "تزييف عميق",
+"d": "a fake video or audio made by AI that looks or sounds real",
+"ex": "A deepfake recording could mislead the court about what was said.",
+"x": "deepfake"
+},
+{
+"w": "noise reduction",
+"p": "phr",
+"l": "C1",
+"t": "technology",
+"ar": "تقليل الضوضاء",
+"d": "processing that removes unwanted sound from a recording",
+"ex": "Noise reduction makes the judge's voice clear even in a crowded room.",
+"x": "Noise reduction"
+},
+{
+"w": "speaker identification",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "تحديد هوية المتحدّث",
+"d": "recognising who is speaking from the sound of the voice",
+"ex": "Speaker identification separates the judge from the prosecutor.",
+"x": "Speaker identification"
+},
+{
+"w": "inference",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "الاستدلال (تشغيل النموذج على مُدخَل جديد)",
+"d": "the step in which a trained model produces an answer for new input",
+"ex": "Inference must run in under one second during a live hearing.",
+"x": "Inference",
+"f": [
+"infer"
+]
+},
+{
+"w": "parameter",
+"p": "n",
+"l": "C1",
+"t": "ai",
+"ar": "معامل، مُعطى ضبط",
+"d": "a value inside a model that is adjusted during training",
+"ex": "The model has billions of parameters learned from text.",
+"x": "parameters",
+"c": [
+"billions of parameters"
+]
+},
+{
+"w": "word embedding",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "تضمين الكلمات (تمثيل متجهي)",
+"d": "a way of turning words into numbers that show their meaning",
+"ex": "Word embedding places similar legal terms close together.",
+"x": "Word embedding"
+},
+{
+"w": "large language model",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "نموذج لغوي كبير",
+"d": "a very large AI model trained on huge amounts of text",
+"ex": "A large language model drafted the first summary of the case.",
+"x": "large language model"
+},
+{
+"w": "retrieval-augmented generation",
+"p": "phr",
+"l": "C1",
+"t": "ai",
+"ar": "التوليد المعزَّز بالاسترجاع",
+"d": "a method where a model first looks up documents and then writes an answer",
+"ex": "Retrieval-augmented generation reduces hallucination by using real judgments.",
+"x": "Retrieval-augmented generation"
+}
+]

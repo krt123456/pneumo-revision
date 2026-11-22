@@ -1,0 +1,86 @@
+[
+{"id":"g-b2-09","l":"B2","title":"Participle clauses (reason, time, result)","titleAr":"جمل اسم الفاعل والمفعول (السبب والزمن والنتيجة)","why":"في الكتابة الأكاديمية نختصر جملتين في جملة واحدة بحذف الفاعل والرابط واستعمال V-ing أو V3. هذا يعطي أسلوباً أكثر إحكاماً.",
+"rules":[
+{"ar":"نستعمل V-ing للسبب أو للزمن عندما يكون فاعل الجملتين واحداً. Having + V3 يدل على أن الحدث الأول انتهى قبل الثاني. وللنفي نضع not في البداية.","form":"V-ing / Having + V3 / Not + V-ing , main clause","ex":[{"en":"Having read the contract, she refused to sign it.","ar":"بعد أن قرأت العقد رفضت توقيعه."},{"en":"Not wanting to be late, he took a taxi.","ar":"لأنه لم يرد التأخر، أخذ سيارة أجرة."}]},
+{"ar":"نستعمل V3 للمعنى المبني للمجهول. المعنى: الفاعل تلقّى الفعل. ويمكن استعمال Having been + V3 للتأكيد على أن الحدث سبق.","form":"V3 / Having been + V3 , main clause","ex":[{"en":"Convinced by the evidence, the jury found him guilty.","ar":"اقتنعت هيئة المحلفين بالأدلة فحكمت بإدانته."},{"en":"Built in 1890, the courthouse is now a museum.","ar":"بُنيت المحكمة عام 1890، وهي الآن متحف."}]},
+{"ar":"نستعمل V-ing بعد فاصلة للتعبير عن النتيجة. والفاعل هو الحدث في الجملة الأولى كلها، وليس شخصاً. وأيضاً يمكن استعمالها لحدث متزامن.","form":"main clause , V-ing (result)","ex":[{"en":"The road was blocked, causing traffic delays for hours.","ar":"كان الطريق مغلقاً، مما تسبب بتأخر المرور ساعات."},{"en":"The storm hit the coast, destroying hundreds of homes.","ar":"ضربت العاصفة الساحل فدمّرت مئات البيوت."}]}
+],
+"mistakes":[
+{"x":"Walking down the street, a car hit me.","ok":"Walking down the street, I was hit by a car.","ar":"فاعل جملة participle يجب أن يكون نفس فاعل الجملة الرئيسية. العربية تتسامح في ذلك لكن الإنجليزية لا."},
+{"x":"Surprising by the result, she checked the data again.","ok":"Surprised by the result, she checked the data again.","ar":"المعنى مبني للمجهول (هي التي فوجئت)، فنستعمل V3 لا V-ing."},
+{"x":"Having finish his speech, he sat down.","ok":"Having finished his speech, he sat down.","ar":"بعد Having نستعمل التصريف الثالث دائماً."}
+],
+"tip":"قبل أن تستعمل participle اسأل: هل الفاعل هو نفسه في الجملتين؟ ثم اختر: V-ing للمعلوم، V3 للمجهول، Having + V3 لحدث سبق.",
+"exs":[
+{"k":"mc","q":"___ the news, she called her lawyer.","o":["Hearing","Heard","Having hear"],"a":0,"why":"هي التي سمعت، والفعل معلوم: V-ing."},
+{"k":"mc","q":"___ the audit, the team submitted the results.","o":["Having finished","To finish","Finish"],"a":0,"why":"الانتهاء سبق التقديم: Having + V3."},
+{"k":"mc","q":"The road was blocked, ___ traffic for hours.","o":["caused","causing","to cause"],"a":1,"why":"V-ing بعد فاصلة يعبّر عن النتيجة."},
+{"k":"mc","q":"___ by the evidence, the jury found him guilty.","o":["Convincing","Convince","Convinced"],"a":2,"why":"المحلفون «اقتنعوا»، والمعنى مبني للمجهول: V3."},
+{"k":"mc","q":"He left the room, ___ the door behind him.","o":["closed","to close","closing"],"a":2,"why":"حدث متزامن مبني للمعلوم: V-ing."},
+{"k":"gap","q":"___ (not/know) the rules, he broke them.","a":["Not knowing"],"why":"النفي يأتي قبل V-ing: Not knowing."},
+{"k":"gap","q":"___ (build) in 1890, the courthouse is now a museum.","a":["Built","Having been built"],"why":"المبنى «بُني»، فنستعمل V3."},
+{"k":"gap","q":"The storm hit the coast, ___ (destroy) hundreds of homes.","a":["destroying"],"why":"V-ing بعد فاصلة يعبّر عن النتيجة."},
+{"k":"fix","q":"Having finish his speech, he sat down.","bad":"Having finish","good":["Having finished"],"why":"بعد Having نستعمل التصريف الثالث."},
+{"k":"fix","q":"Surprising by the result, she checked the data again.","bad":"Surprising","good":["Surprised"],"why":"المعنى مبني للمجهول، فنستعمل V3."},
+{"k":"order","a":"Having read the contract, she refused to sign it.","ar":"بعد أن قرأت العقد رفضت توقيعه."},
+{"k":"order","a":"Not wanting to be late, he took a taxi.","ar":"لأنه لم يرد التأخر، أخذ سيارة أجرة."},
+{"k":"trans","q":"As she was tired, she went to bed early.","start":"Being tired,","a":["Being tired, she went to bed early."],"why":"نحذف As والفاعل ونستعمل V-ing للسبب."},
+{"k":"trans","q":"He finished the exam and then he left the room.","start":"Having finished the exam,","a":["Having finished the exam, he left the room."],"why":"حدث أول انتهى قبل الثاني: Having + V3."}
+]},
+{"id":"g-b2-10","l":"B2","title":"Inversion 1 (Never, Not only, Hardly… when, Rarely)","titleAr":"قلب الجملة 1 (Never وNot only وHardly وRarely)","why":"في الكتابة الرسمية وللتأكيد نضع كلمة سلبية أو شبه سلبية في أول الجملة، فيجب أن نعكس ترتيب الفاعل والفعل المساعد، مثل السؤال.",
+"rules":[
+{"ar":"إذا بدأت الجملة بـ Never أو Rarely أو Seldom أو Little، فنضع الفعل المساعد قبل الفاعل. إذا لم يوجد فعل مساعد نضيف do/does/did.","form":"Never/Rarely/Seldom + auxiliary + S + V","ex":[{"en":"Never have I seen such a long report.","ar":"لم أرَ قط تقريراً بهذا الطول."},{"en":"Rarely do judges change their decisions quickly.","ar":"نادراً ما يغيّر القضاة قراراتهم بسرعة."}]},
+{"ar":"في Not only ... but also نقلب الجملة بعد Not only، ولا نقلب بعد but also. وإذا لم يوجد فعل مساعد نستعمل do/does/did.","form":"Not only + auxiliary + S + V, but S also + V","ex":[{"en":"Not only did he steal the money, but he also lied about it.","ar":"لم يسرق المال فقط، بل كذب بشأنه أيضاً."},{"en":"Not only is the system slow, but it is also unsafe.","ar":"النظام ليس بطيئاً فقط، بل غير آمن أيضاً."}]},
+{"ar":"Hardly وBarely وScarcely نستعملها مع had + V3 ثم when. وNo sooner مع had + V3 ثم than. المعنى: «ما إن حدث الأول حتى حدث الثاني».","form":"Hardly + had + S + V3 + when  |  No sooner + had + S + V3 + than","ex":[{"en":"Hardly had the trial begun when the lights went out.","ar":"ما إن بدأت المحاكمة حتى انطفأت الأضواء."},{"en":"No sooner had she sat down than the phone rang.","ar":"ما إن جلست حتى رنّ الهاتف."}]}
+],
+"mistakes":[
+{"x":"Never I have seen such corruption.","ok":"Never have I seen such corruption.","ar":"العربية تسمح بتقديم «أبداً» وإبقاء الترتيب. في الإنجليزية يجب قلب الفاعل والفعل المساعد."},
+{"x":"Not only he lied, but he also destroyed the evidence.","ok":"Not only did he lie, but he also destroyed the evidence.","ar":"بعد Not only في أول الجملة نحتاج فعلاً مساعداً قبل الفاعل (did)."},
+{"x":"Hardly the meeting had started when the alarm rang.","ok":"Hardly had the meeting started when the alarm rang.","ar":"نضع had قبل الفاعل بعد Hardly، ثم V3."}
+],
+"tip":"كلمة سلبية في أول الجملة = اقلب كالسؤال. Hardly وwhen، وNo sooner وthan: لا تخلط بينهما.",
+"exs":[
+{"k":"mc","q":"Never ___ such a clear explanation.","o":["I have heard","have I heard","I heard"],"a":1,"why":"بعد Never في أول الجملة نقلب: have I heard."},
+{"k":"mc","q":"Not only ___ the money, but he also lied about it.","o":["he stole","he did steal","did he steal"],"a":2,"why":"بعد Not only نقلب باستعمال did."},
+{"k":"mc","q":"Hardly had the trial begun ___ the lights went out.","o":["than","when","that"],"a":1,"why":"Hardly تُستعمل مع when."},
+{"k":"mc","q":"Rarely ___ such honest officials.","o":["we meet","we do meet","do we meet"],"a":2,"why":"بعد Rarely نقلب مع do."},
+{"k":"mc","q":"No sooner had she sat down ___ the phone rang.","o":["when","than","that"],"a":1,"why":"No sooner تُستعمل مع than."},
+{"k":"gap","q":"Seldom ___ (we/see) such a clear case.","a":["do we see"],"why":"بعد Seldom نقلب مع do."},
+{"k":"gap","q":"Not only ___ (he/arrive) late, but he also forgot the documents.","a":["did he arrive"],"why":"بعد Not only نقلب مع did."},
+{"k":"gap","q":"Hardly ___ the meeting started when the fire alarm rang.","a":["had"],"why":"Hardly + had + فاعل + V3."},
+{"k":"fix","q":"Never I have seen such corruption.","bad":"Never I have seen","good":["Never have I seen"],"why":"بعد Never نضع الفعل المساعد قبل الفاعل."},
+{"k":"fix","q":"Not only he lied, but he also destroyed the evidence.","bad":"he lied","good":["did he lie"],"why":"بعد Not only نحتاج did قبل الفاعل ثم المصدر."},
+{"k":"order","a":"Rarely do judges change their decisions quickly.","ar":"نادراً ما يغيّر القضاة قراراتهم بسرعة."},
+{"k":"order","a":"Never have I seen such a long report.","ar":"لم أرَ قط تقريراً بهذا الطول."},
+{"k":"trans","q":"I have never seen such a beautiful building.","start":"Never","a":["Never have I seen such a beautiful building."],"why":"بعد Never في أول الجملة نقلب: have I seen."},
+{"k":"trans","q":"She had only just opened the file when the system crashed.","start":"Hardly","a":["Hardly had she opened the file when the system crashed."],"why":"Hardly + had + فاعل + V3 + when."}
+]},
+{"id":"g-b2-11","l":"B2","title":"Cleft sentences (It is… that, What… is)","titleAr":"الجمل المشقوقة (It is… that وWhat… is)","why":"نستعمل الجملة المشقوقة لنؤكد جزءاً معيّناً من الجملة، فنضعه في موضع بارز. هي شائعة في الكلام والكتابة وفي IELTS.",
+"rules":[
+{"ar":"It + be + الجزء المؤكَّد + that/who + بقية الجملة. نستعمل who للأشخاص وthat للأشياء، وقد نستعمل that للأشخاص أيضاً. ويمكن تأكيد الفاعل أو المفعول أو الزمان أو المكان.","form":"It + is/was + focus + that/who + clause","ex":[{"en":"It was the manager who signed the contract.","ar":"المدير هو الذي وقّع العقد."},{"en":"It is accuracy that matters most in auditing.","ar":"الدقة هي أهم شيء في التدقيق."}]},
+{"ar":"What + جملة + be + الجزء المؤكَّد. هذه جملة مشقوقة بـ what تسمى pseudo-cleft. الفعل be يتبع زمن الجملة الأصلية.","form":"What + S + V + is/was + focus","ex":[{"en":"What I need is more time to prepare.","ar":"ما أحتاجه هو وقت أكثر للتحضير."},{"en":"What the committee needs is a clear plan.","ar":"ما تحتاجه اللجنة هو خطة واضحة."}]},
+{"ar":"نستعمل It was not until ... that لنؤكد أن شيئاً حدث متأخراً. ونستعمل What happened was (that)... لنروي حدثاً بتأكيد.","form":"It was not until + time + that + clause","ex":[{"en":"It was not until last week that the results were published.","ar":"لم تُنشر النتائج إلا الأسبوع الماضي."},{"en":"What happened was that the server crashed.","ar":"ما حدث هو أن الخادم انهار."}]}
+],
+"mistakes":[
+{"x":"It is the students who needs support.","ok":"It is the students who need support.","ar":"الفعل بعد who يوافق الاسم المؤكَّد، لا كلمة It. فالطلاب جمع فنقول need."},
+{"x":"What I want to know it is how the system works.","ok":"What I want to know is how the system works.","ar":"في العربية «ما أريد معرفته هو...» وقد نكرر الضمير. في الإنجليزية نضع is فقط بعد الجملة الموصولة."},
+{"x":"It was in 2015 the law was introduced.","ok":"It was in 2015 that the law was introduced.","ar":"لا يجوز حذف that في الجملة المشقوقة بعد تأكيد الزمن."}
+],
+"tip":"أخرج الجزء الذي تريد إبرازه واجعله بين It was ... that، أو اجعل ما تريده في نهاية What ... is. والفعل بعد who يوافق الاسم المؤكَّد.",
+"exs":[
+{"k":"mc","q":"___ I need is a quiet place to study.","o":["What","That","It"],"a":0,"why":"What + جملة + is = «ما أحتاجه هو»."},
+{"k":"mc","q":"It was the manager ___ signed the contract.","o":["what","whom","who"],"a":2,"why":"نستعمل who بعد شخص مؤكَّد هو الفاعل."},
+{"k":"mc","q":"It is accuracy ___ matters most in auditing.","o":["what","that","which is"],"a":1,"why":"It is ... that للتأكيد."},
+{"k":"mc","q":"What the committee needs ___ more time.","o":["are","is","were"],"a":1,"why":"بعد جملة What الحالية نستعمل is."},
+{"k":"mc","q":"It was not until last week ___ the results were published.","o":["that","what","who"],"a":0,"why":"التركيب هو It was not until ... that."},
+{"k":"gap","q":"What I enjoy most ___ reading legal cases.","a":["is"],"why":"بعد What + جملة في الحاضر نستعمل is."},
+{"k":"gap","q":"It was the lack of evidence ___ led to the dismissal.","a":["that","which"],"why":"الموصول للشيء المؤكَّد هو that أو which."},
+{"k":"gap","q":"What he did ___ to report the fraud.","a":["was"],"why":"الجملة في الماضي (did)، فنستعمل was."},
+{"k":"fix","q":"It is the students who needs support.","bad":"needs","good":["need"],"why":"الفعل يوافق الاسم الجمع students."},
+{"k":"fix","q":"What I want to know it is how the system works.","bad":"it is","good":["is"],"why":"لا نكرر الضمير؛ نضع is فقط."},
+{"k":"order","a":"What I need is more time to prepare.","ar":"ما أحتاجه هو وقت أكثر للتحضير."},
+{"k":"order","a":"It was the judge who rejected the appeal.","ar":"القاضي هو الذي رفض الاستئناف."},
+{"k":"trans","q":"The poor management caused the problem.","start":"It was","a":["It was the poor management that caused the problem.","It was poor management that caused the problem."],"why":"نؤكد الفاعل بـ It was ... that."},
+{"k":"trans","q":"I need a reliable source of data.","start":"What","a":["What I need is a reliable source of data."],"why":"نؤكد المفعول بـ What + جملة + is."}
+]}
+]

@@ -1,0 +1,416 @@
+[
+ {
+  "id": "r-b2-19",
+  "l": "B2",
+  "title": "The Placebo Effect",
+  "topic": "health",
+  "paras": [
+   "A placebo is a treatment that contains no active medicine, such as a sugar pill or an injection of salt water. Yet patients who receive one often report real improvement. This \"placebo effect\" has fascinated doctors for centuries, and it is now studied seriously as a window into how expectation and the brain influence health. Understanding it matters because it affects every medical treatment, whether or not the treatment contains an active ingredient.",
+   "The placebo effect is most obvious in conditions where symptoms depend partly on perception, such as pain, nausea, fatigue and low mood. Brain scans show that when people expect pain relief, the brain releases natural chemicals that reduce pain signals. In other words, the improvement is not imaginary; it has a measurable biological basis. Some patients even report that their symptoms eased within minutes of taking a pill that contained nothing but sugar. However, there is little evidence that placebos can shrink tumours or cure infections.",
+   "The way in which a placebo is given matters considerably. Studies have found that large pills work better than small ones, that capsules are seen as stronger than tablets, and that injections often produce a stronger response than pills. Even colour and brand names can influence results. A doctor who is warm, listens carefully and expresses confidence also seems to increase the effect. These findings suggest that the ritual of care is itself part of the treatment.",
+   "Placebos are essential in medical research. To test a new drug, researchers usually divide volunteers into two groups; one receives the drug and the other a placebo. Neither the patients nor, ideally, the doctors know who has received which, a design called a double-blind trial. If the drug group improves significantly more than the placebo group, the drug is judged to have a real effect. Without such comparisons, doctors might credit a drug for improvements that would have happened anyway. Many conditions improve naturally with time, which is another reason why the control group is so valuable.",
+   "The opposite phenomenon also exists. In the \"nocebo\" effect, patients who expect harm experience unpleasant symptoms. Volunteers in trials who are warned about possible side effects sometimes report them even when taking a harmless pill. This raises an ethical question, since doctors are obliged to inform patients of risks, yet that very information may cause some of the discomfort.",
+   "Another ethical issue is honesty. Traditionally, giving a placebo meant deceiving the patient. Yet some recent small studies have suggested that patients may still feel better when they are told openly that a pill contains no medicine, provided that the doctor explains the possible benefit. If larger studies confirm this, placebos might become a legitimate supplementary tool for conditions such as chronic pain. For now, most doctors say placebos should never replace proven treatments, but understanding them can help to make real treatments work better."
+  ],
+  "gloss": [
+   {
+    "w": "placebo",
+    "ar": "دواء وهمي"
+   },
+   {
+    "w": "nausea",
+    "ar": "غثيان"
+   },
+   {
+    "w": "perception",
+    "ar": "إدراك"
+   },
+   {
+    "w": "tumour",
+    "ar": "ورم"
+   },
+   {
+    "w": "double-blind",
+    "ar": "مزدوج التعمية"
+   },
+   {
+    "w": "side effect",
+    "ar": "أثر جانبي"
+   },
+   {
+    "w": "deceive",
+    "ar": "يخدع"
+   },
+   {
+    "w": "chronic",
+    "ar": "مزمن"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 2,
+    "o": [
+     "How the delivery of a placebo changes its power",
+     "The dangers of large pills",
+     "Why doctors dislike capsules",
+     "The cost of sugar pills"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "The brain releases natural chemicals that reduce pain when a person expects relief.",
+    "a": "T",
+    "why": "الفقرة 2: الدماغ يفرز مواد طبيعية تخفف الألم."
+   },
+   {
+    "k": "tfng",
+    "q": "In a double-blind trial, the doctors always know which patients received the drug.",
+    "a": "F",
+    "why": "الفقرة 4: لا المرضى ولا الأطباء يعرفون عادةً."
+   },
+   {
+    "k": "tfng",
+    "q": "The placebo effect is stronger in women than in men.",
+    "a": "NG",
+    "why": "لا يذكر النص أي فرق بين الجنسين."
+   },
+   {
+    "k": "tfng",
+    "q": "Placebos work better on children than on adults.",
+    "a": "NG",
+    "why": "لا يتناول النص أعمار المرضى."
+   },
+   {
+    "k": "mc",
+    "q": "What do studies suggest about how placebos are given?",
+    "o": [
+     "Injections may work better than pills.",
+     "Tablets work better than capsules.",
+     "Small pills work best.",
+     "Colour has no influence."
+    ],
+    "a": 0,
+    "why": "الفقرة 3: الحقن غالباً أقوى استجابة من الأقراص."
+   },
+   {
+    "k": "mc",
+    "q": "Why are placebo groups used in drug trials?",
+    "o": [
+     "To save money",
+     "To show whether the drug has a real effect",
+     "To make doctors feel confident",
+     "To avoid side effects"
+    ],
+    "a": 1,
+    "why": "الفقرة 4: للمقارنة وإثبات التأثير الحقيقي للدواء."
+   },
+   {
+    "k": "gap",
+    "q": "There is little evidence that placebos can shrink ___ or cure infections.",
+    "a": [
+     "tumours"
+    ],
+    "why": "الفقرة 2: لا دليل على تقليص الأورام."
+   },
+   {
+    "k": "gap",
+    "q": "In the ___ effect, patients who expect harm experience unpleasant symptoms.",
+    "a": [
+     "nocebo"
+    ],
+    "why": "الفقرة 5: تأثير النوسيبو."
+   },
+   {
+    "k": "mc",
+    "q": "What did some recent small studies suggest?",
+    "o": [
+     "Patients may improve even when told the pill is a placebo.",
+     "Placebos cure chronic pain completely.",
+     "Doctors should never explain treatments.",
+     "Honest explanations make placebos useless."
+    ],
+    "a": 0,
+    "why": "الفقرة 6: قد يتحسن المرضى حتى لو عرفوا أنه دواء وهمي."
+   }
+  ],
+  "sumAr": "يشرح النص أن التأثير الوهمي له أساس بيولوجي حقيقي ويتأثر بطريقة تقديم العلاج. ويبيّن أهميته في التجارب الطبية والمسائل الأخلاقية المرتبطة به."
+ },
+ {
+  "id": "r-b2-20",
+  "l": "B2",
+  "title": "Smart Cities",
+  "topic": "technology",
+  "paras": [
+   "A smart city uses digital technology to collect information about how it operates and uses that information to improve services. Sensors in roads, lamp posts and buildings send data to central systems, where software looks for patterns. The aim is to make cities cleaner, safer and cheaper to run at a time when more than half of the world's population already lives in urban areas.",
+   "Transport is the most common starting point. Traffic lights linked to sensors can adjust their timing to the number of vehicles waiting, which reduces queues and exhaust fumes. Screens at bus stops show exact arrival times based on the GPS position of each vehicle, and parking apps guide drivers directly to empty spaces rather than leaving them to circle the block. Some cities also use data to plan new bus routes where demand is greatest. In the best cases, these changes save residents many hours each year.",
+   "Resource management is another area. Sensors on water pipes can detect the small drop in pressure caused by a leak long before water appears on the surface, allowing repairs to be made before large amounts are wasted. Streetlights that dim when no one is nearby save electricity, and bins fitted with sensors tell collection crews when they are full, so lorries visit only those that need emptying.",
+   "Smart technology also supports public safety and emergency response. Flood sensors in rivers can warn residents hours before water reaches homes, and traffic data can help ambulances choose the fastest route. Some cities publish \"open data\" about budgets, air quality or public transport so that citizens and small companies can build their own apps. This openness may also increase transparency, since residents can check how money is spent. Residents may also report problems, such as broken pavements, through simple apps, and officials can then see which neighbourhoods need attention most.",
+   "These advantages come with risks. A system that tracks vehicles, phones and cameras may build a detailed picture of how individuals move around, and without clear rules that information could be misused or sold. Privacy specialists therefore recommend collecting only what is needed, removing names from data wherever possible, and telling residents what is gathered and why. Security is another concern, because a city that depends on connected systems may be vulnerable to cyber attacks. A single failure in a central system could, in theory, affect lighting, traffic and water supply at once.",
+   "Finally, there is the question of fairness. Technology tends to reach wealthy districts first, and residents without smartphones or internet access may be unable to use digital services. Experts argue that successful smart cities begin with real problems, such as flooding or long commutes, rather than with the desire to install the newest gadgets, and that they involve residents in the planning. Technology is a tool; its value depends on the goals it serves."
+  ],
+  "gloss": [
+   {
+    "w": "sensor",
+    "ar": "مستشعر"
+   },
+   {
+    "w": "exhaust fumes",
+    "ar": "عوادم، غازات العادم"
+   },
+   {
+    "w": "demand",
+    "ar": "طلب"
+   },
+   {
+    "w": "pressure",
+    "ar": "ضغط"
+   },
+   {
+    "w": "open data",
+    "ar": "بيانات مفتوحة"
+   },
+   {
+    "w": "transparency",
+    "ar": "شفافية"
+   },
+   {
+    "w": "vulnerable",
+    "ar": "عرضة للخطر"
+   },
+   {
+    "w": "commute",
+    "ar": "التنقل اليومي إلى العمل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 4,
+    "o": [
+     "The privacy and security risks of connected systems",
+     "How sensors are made",
+     "Why ambulances use traffic data",
+     "The cost of new bus routes"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "More than half of the world's people already live in cities.",
+    "a": "T",
+    "why": "الفقرة 1: أكثر من نصف سكان العالم في المدن."
+   },
+   {
+    "k": "tfng",
+    "q": "In smart cities, streetlights always stay at full brightness during the night.",
+    "a": "F",
+    "why": "الفقرة 3: تخفت الإضاءة عندما لا يكون أحد قريباً."
+   },
+   {
+    "k": "tfng",
+    "q": "Smart city projects are cheaper to run in Asia than in Europe.",
+    "a": "NG",
+    "why": "لا يقارن النص بين القارات."
+   },
+   {
+    "k": "tfng",
+    "q": "Most residents support the collection of data by their city.",
+    "a": "NG",
+    "why": "لا يذكر النص رأي السكان."
+   },
+   {
+    "k": "mc",
+    "q": "How can sensors on water pipes help a city?",
+    "o": [
+     "They detect leaks early.",
+     "They clean the water.",
+     "They reduce rainfall.",
+     "They lower the price of pipes."
+    ],
+    "a": 0,
+    "why": "الفقرة 3: يكشفون انخفاض الضغط الناتج عن تسرب مبكراً."
+   },
+   {
+    "k": "mc",
+    "q": "According to experts, where should a smart city project begin?",
+    "o": [
+     "With the newest gadgets",
+     "With real problems that residents face",
+     "With wealthy districts",
+     "With private companies"
+    ],
+    "a": 1,
+    "why": "الفقرة 6: تبدأ بمشكلات حقيقية كالفيضانات."
+   },
+   {
+    "k": "gap",
+    "q": "Traffic lights linked to sensors can adjust their ___ to the number of vehicles waiting.",
+    "a": [
+     "timing"
+    ],
+    "why": "الفقرة 2: يعدّلون توقيتها."
+   },
+   {
+    "k": "gap",
+    "q": "Bins fitted with sensors tell collection crews when they are ___.",
+    "a": [
+     "full"
+    ],
+    "why": "الفقرة 3: عندما تمتلئ."
+   },
+   {
+    "k": "mc",
+    "q": "Why might open data increase transparency?",
+    "o": [
+     "Residents can check how public money is spent.",
+     "Companies must hide their budgets.",
+     "Sensors replace officials.",
+     "Apps are free."
+    ],
+    "a": 0,
+    "why": "الفقرة 4: يستطيع السكان معرفة أوجه الإنفاق."
+   }
+  ],
+  "sumAr": "يعرّف النص المدن الذكية وفوائدها في النقل وإدارة الموارد والسلامة العامة. ثم يحذّر من مخاطر الخصوصية والأمن وعدم العدالة ويؤكد البدء بمشكلات حقيقية."
+ },
+ {
+  "id": "r-b2-21",
+  "l": "B2",
+  "title": "Water Scarcity",
+  "topic": "environment",
+  "paras": [
+   "Water covers most of the planet, yet only a tiny fraction is fresh water that people can drink or use to grow crops, and much of that is locked in glaciers and ice caps. Water scarcity occurs when demand for usable water exceeds the supply in a region. It already affects millions of people, and many experts expect the problem to grow. Because water is needed for food, health and industry, shortages can affect almost every part of life.",
+   "Scarcity has two main forms. Physical scarcity arises where there is simply not enough water, as in deserts and dry regions with large populations. Economic scarcity arises where water exists but communities lack the pipes, wells or money needed to bring it to people. A country with large rivers may still have villages without safe drinking water for this reason. In such places, women and children often spend hours each day carrying water from distant sources, time that could be used for school or paid work.",
+   "Agriculture is the largest user of fresh water, taking far more than households or industry. Crops such as rice and cotton need large amounts, and irrigation systems that spray or flood fields lose much of the water to evaporation. Growing populations increase the demand for food, and richer diets with more meat increase it further, because producing meat requires more water than producing grain.",
+   "Climate change adds pressure. Higher temperatures increase evaporation, and rainfall patterns are shifting, making droughts longer in some areas and floods more severe in others. Mountain glaciers, which supply rivers during dry seasons, are shrinking in several regions. In addition, many cities draw water from underground reserves faster than rain can refill them, so water tables keep falling and wells must be drilled ever deeper. This is especially worrying because underground water can take thousands of years to collect, and once it is used up it cannot easily be replaced.",
+   "Solutions exist at every scale. Drip irrigation delivers water drop by drop to plant roots and can cut agricultural use significantly. Cities can repair leaking pipes, which in some places lose a third of the water that enters them, and can recycle treated wastewater for industry and gardens. In coastal regions, desalination plants remove salt from seawater, although the process requires a great deal of energy and is expensive. Households can help by fixing dripping taps and choosing efficient appliances.",
+   "Because rivers and aquifers often cross borders, water is also an issue of cooperation. Countries that share a river need agreements about how much each may use, and shared data on flow and rainfall can prevent misunderstandings. History shows that most disputes over water have been settled through negotiation. Experts believe the challenge in the coming decades will be to use water wisely, price it fairly, and ensure that the poorest are not left behind."
+  ],
+  "gloss": [
+   {
+    "w": "scarcity",
+    "ar": "ندرة"
+   },
+   {
+    "w": "glacier",
+    "ar": "نهر جليدي"
+   },
+   {
+    "w": "evaporation",
+    "ar": "تبخّر"
+   },
+   {
+    "w": "water table",
+    "ar": "منسوب المياه الجوفية"
+   },
+   {
+    "w": "wastewater",
+    "ar": "مياه الصرف"
+   },
+   {
+    "w": "desalination",
+    "ar": "تحلية المياه"
+   },
+   {
+    "w": "aquifer",
+    "ar": "طبقة مياه جوفية"
+   },
+   {
+    "w": "appliance",
+    "ar": "جهاز منزلي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 1,
+    "o": [
+     "Two different kinds of water shortage",
+     "How glaciers form",
+     "The cost of drilling wells",
+     "Rivers that cross borders"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Agriculture uses more fresh water than households or industry.",
+    "a": "T",
+    "why": "الفقرة 3: الزراعة أكبر مستهلك للمياه العذبة."
+   },
+   {
+    "k": "tfng",
+    "q": "Desalination is described as a cheap process that needs little energy.",
+    "a": "F",
+    "why": "الفقرة 5: تتطلب طاقة كبيرة وهي مكلفة."
+   },
+   {
+    "k": "tfng",
+    "q": "Rice farming uses more water than cotton farming.",
+    "a": "NG",
+    "why": "النص يذكر المحصولين معاً دون مقارنة."
+   },
+   {
+    "k": "tfng",
+    "q": "Most countries that share rivers have already signed water agreements.",
+    "a": "NG",
+    "why": "النص يقول إن الدول بحاجة إلى اتفاقات ولا يذكر عددها."
+   },
+   {
+    "k": "mc",
+    "q": "What is economic scarcity?",
+    "o": [
+     "Water exists but people lack the means to deliver it.",
+     "Rain never falls in the region.",
+     "Water is too expensive to export.",
+     "Rivers are owned by companies."
+    ],
+    "a": 0,
+    "why": "الفقرة 2: الماء موجود لكن تنقص الأنابيب أو المال."
+   },
+   {
+    "k": "mc",
+    "q": "Why does a meat-rich diet increase water demand?",
+    "o": [
+     "Animals drink only seawater.",
+     "Meat needs more water to produce than grain.",
+     "Meat must be washed often.",
+     "Farmers use less irrigation."
+    ],
+    "a": 1,
+    "why": "الفقرة 3: إنتاج اللحم يتطلب ماء أكثر من الحبوب."
+   },
+   {
+    "k": "gap",
+    "q": "Irrigation systems that spray or flood fields lose much of the water to ___.",
+    "a": [
+     "evaporation"
+    ],
+    "why": "الفقرة 3: يتبخر جزء كبير من الماء."
+   },
+   {
+    "k": "gap",
+    "q": "Desalination plants remove ___ from seawater.",
+    "a": [
+     "salt"
+    ],
+    "why": "الفقرة 5: تزيل الملح."
+   },
+   {
+    "k": "mc",
+    "q": "What is said about most disputes over water?",
+    "o": [
+     "They led to wars.",
+     "They were solved by negotiation.",
+     "They were ignored.",
+     "They ended in court."
+    ],
+    "a": 1,
+    "why": "الفقرة 6: معظمها حُلّ بالتفاوض."
+   }
+  ],
+  "sumAr": "يبيّن النص أن ندرة المياه قد تكون طبيعية أو اقتصادية، وأن الزراعة وتغير المناخ يزيدان الضغط. ويعرض حلولاً كالري بالتنقيط والتحلية والتعاون بين الدول."
+ }
+]

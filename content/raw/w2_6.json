@@ -1,0 +1,256 @@
+[
+ {
+  "id": "w2-51",
+  "l": "C1",
+  "type": "discuss",
+  "topic": "ai",
+  "prompt": "Some people believe that images, music and stories created with the help of artificial intelligence cannot be regarded as real art. Others argue that such systems are simply a new tool, comparable to the camera in the nineteenth century.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "art traditionally expresses human experience and intention",
+   "AI recombines existing work and may copy artists without payment",
+   "the camera was also dismissed before it became an art form",
+   "the human choosing, directing and editing still shows creativity",
+   "clear labelling and fair payment for source artists"
+  ],
+  "vocab": [
+   "to generate",
+   "authorship",
+   "originality",
+   "creative process",
+   "intellectual property",
+   "a medium",
+   "to blur the line between"
+  ]
+ },
+ {
+  "id": "w2-52",
+  "l": "C1",
+  "type": "opinion",
+  "topic": "law",
+  "prompt": "Courts in some countries use software to suggest outcomes or to estimate the risk that a defendant will commit another offence. Some argue that the reasoning of such systems should be open to public inspection, even if technology companies must reveal commercial secrets.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "a verdict must be explained so that it can be challenged",
+   "hidden logic makes errors permanent",
+   "outside experts can detect discrimination developers overlook",
+   "companies have a legitimate interest in protecting their work",
+   "confidential audits can reconcile both interests"
+  ],
+  "vocab": [
+   "algorithm",
+   "to reoffend",
+   "accountability",
+   "a trade secret",
+   "to scrutinise",
+   "an audit",
+   "discriminatory outcomes",
+   "the burden of proof"
+  ],
+  "model": "Courts in several countries are experimenting with software that recommends outcomes or estimates the risk that a defendant will reoffend. I strongly agree that the reasoning behind such systems should be open to inspection, even if companies must disclose commercially sensitive details, because justice that cannot be examined is hard to describe as justice at all.\n\nThe first argument concerns accountability. A judge must explain a verdict in writing, and the losing party may challenge each step of that reasoning on appeal. If an algorithm influences the decision but its logic remains hidden, this safeguard disappears. Imagine a defendant refused bail because a program scored him as high-risk: without access to the formula, neither he nor his lawyer can discover whether the score rested on a mistaken record or on something irrelevant, such as his postcode. Secrecy therefore makes errors permanent.\n\nThe second argument is that scrutiny improves quality. Independent researchers who can test a system are able to detect discrimination that its developers overlooked, much as engineers inspect a bridge before the public is allowed to cross it. If a risk tool were found to label one neighbourhood's residents as dangerous far more often than another's, that pattern could be corrected only because outsiders had been able to analyse the results.\n\nAdmittedly, companies have a legitimate interest in protecting the investment that went into their products. Yet this concern can be accommodated. Auditors bound by confidentiality could examine the code, and firms that wish to sell to the state could be required to accept such audits as a condition of the contract.\n\nIn conclusion, when software helps to decide questions of liberty, its workings must be as open to challenge as any judge's reasoning, and commercial secrecy should not outweigh that principle.",
+  "notesAr": "1) الموقف قوي وواضح من الجملة الأولى (strongly agree) مع تعليل فلسفي موجز: العدالة التي لا تُفحص لا تُعد عدالة.\n2) الفقرتان الرئيسيتان: المساءلة (المتهم المحروم من الكفالة بسبب درجة لا يعرف أساسها) ثم تحسين الجودة (فحص الجسر قبل عبور الناس)، ومثالان محسوسان وتشبيه جيد.\n3) يرد على الاعتراض المحتمل (Admittedly ... Yet) بحل عملي هو التدقيق السري، وهذا يرفع المقال إلى مستوى C1 بمفردات مثل accountability و scrutiny و audit."
+ },
+ {
+  "id": "w2-53",
+  "l": "C1",
+  "type": "twopart",
+  "topic": "globalisation",
+  "prompt": "In a connected world, young people in very different countries increasingly share the same music, fashion, language and ideas.\n\nWhat factors are driving this trend? Is it a loss for humanity as a whole?",
+  "planAr": "المقدمة: أعد صياغة الموضوع وأشر إلى أنك ستجيب عن السؤالين. الفقرة الأولى: أجب عن السؤال الأول بسبب ومثال. الفقرة الثانية: أجب عن السؤال الثاني بموقف واضح مع سبب ومثال. الخاتمة: لخّص الإجابتين. تأكد أن كل سؤال أخذ جواباً مباشراً.",
+  "ideas": [
+   "social media and streaming platforms spread the same content",
+   "English as a common language for work and study",
+   "migration, travel and international education",
+   "local diversity of food, dialect and craft may fade",
+   "shared references can also support cooperation and understanding"
+  ],
+  "vocab": [
+   "cultural convergence",
+   "to be driven by",
+   "homogenisation",
+   "cultural diversity",
+   "a lingua franca",
+   "to erode",
+   "cross-cultural exchange"
+  ]
+ },
+ {
+  "id": "w2-54",
+  "l": "C1",
+  "type": "advdis",
+  "topic": "transparency",
+  "prompt": "Some governments now publish detailed data on public spending, court decisions and the assets of senior officials.\n\nDo the advantages of this development outweigh the disadvantages?",
+  "planAr": "المقدمة: أعد صياغة السؤال واذكر هل المزايا أكبر من العيوب. الفقرة الأولى: أهم الميزات مع مثال. الفقرة الثانية: أهم العيوب مع مثال، ثم بيّن لماذا تبقى أقل وزناً (أو أكبر). الخاتمة: كرّر حكمك النهائي بعبارات جديدة.",
+  "ideas": [
+   "citizens and journalists can detect waste and conflicts of interest",
+   "officials behave more carefully when they know they are observed",
+   "raw data may be misread or used to spread false claims",
+   "personal privacy and security may be put at risk",
+   "clear formats, context and legal limits can reduce the harm"
+  ],
+  "vocab": [
+   "open data",
+   "asset declaration",
+   "conflict of interest",
+   "to be scrutinised",
+   "privacy",
+   "disclosure",
+   "misinterpretation",
+   "public trust"
+  ]
+ },
+ {
+  "id": "w2-55",
+  "l": "C1",
+  "type": "discuss",
+  "topic": "law",
+  "prompt": "Some people believe that the main purpose of prison should be to punish offenders. Others argue that it should be to rehabilitate them so that they can return to society.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "victims expect wrongdoing to carry a real consequence",
+   "punishment may deter others and reassure the public",
+   "most prisoners are released, so what they learn matters",
+   "training and education reduce reoffending and later costs",
+   "prison still protects the public from dangerous people"
+  ],
+  "vocab": [
+   "rehabilitation",
+   "to deter",
+   "reoffending",
+   "a custodial sentence",
+   "to reintegrate",
+   "retribution",
+   "vocational training",
+   "inmate"
+  ],
+  "model": "Few questions in criminal justice are as persistent as what prison is for. Some insist that it exists to punish wrongdoing, whereas others see it as a place to prepare offenders for a law-abiding life. In my view, rehabilitation should be the central aim, with punishment as its boundary rather than its purpose.\n\nAdvocates of punishment argue that justice requires wrongdoing to carry a price. Victims and their families often feel that a lenient sentence dismisses their suffering, and the prospect of serious consequences may deter others from offending. A person who has defrauded hundreds of pensioners, for instance, would find it hard to accept that a short course of counselling is an adequate response. Moreover, public confidence in the law depends partly on a sense that serious crimes do not go unanswered.\n\nNevertheless, everyday experience suggests that punishment alone seldom makes societies safer. Most prisoners are eventually released, and an inmate who has spent years without training, education or support is likely to return to the same environment with the same prospects. By contrast, a man who learns a trade in prison, such as welding or carpentry, has a realistic alternative to crime on release. Workshops and literacy classes cost money, but they are far cheaper than the repeated expense of arrests, trials and further imprisonment, to say nothing of the harm suffered by new victims.\n\nIn conclusion, punishment answers society's need for justice, but rehabilitation answers its need for safety. Loss of liberty will remain necessary for dangerous offenders; however, its role should be to protect the public while rehabilitation takes place, not to inflict suffering for its own sake. A system that prioritises the second goal will ultimately serve both.",
+  "notesAr": "1) المقدمة تحدد موقفاً مصاغاً بدقة: التأهيل هو الهدف المركزي والعقاب حدّ له وليس غاية (boundary rather than purpose).\n2) كل رأي يعرض بإنصاف وبمثال ملموس (من احتال على مئات المتقاعدين، السجين الذي يتعلم اللحام أو النجارة) مع حجة اقتصادية تقوّي الرأي الشخصي.\n3) الخاتمة تتضمن تحفظاً صغيراً (السجن للخطرين) ثم جملة أخيرة تجمع الهدفين، مع ربط متنوع (whereas, Moreover, Nevertheless, By contrast)."
+ },
+ {
+  "id": "w2-56",
+  "l": "C1",
+  "type": "problem",
+  "topic": "research",
+  "prompt": "Many researchers are under pressure to publish large numbers of papers quickly, and as a result there are growing concerns about weak, misleading or even invented research results.\n\nWhat are the causes of this problem, and what solutions can be suggested?",
+  "planAr": "المقدمة: اذكر المشكلة بإيجاز وأنك ستشرح أسبابها وحلولها. الفقرة الأولى: سببان للمشكلة مع مثال لكل سبب. الفقرة الثانية: حلان واقعيان مع بيان كيف يعالج كل منهما سبباً مذكوراً. الخاتمة: لخّص الأسباب والحلول.",
+  "ideas": [
+   "promotion and funding depend on the number of publications",
+   "journals prefer exciting positive results",
+   "peer reviewers are overworked and unpaid",
+   "reward quality, openness and replication instead of quantity",
+   "require researchers to share data and methods"
+  ],
+  "vocab": [
+   "research integrity",
+   "peer review",
+   "to fabricate data",
+   "to replicate a study",
+   "publication pressure",
+   "misconduct",
+   "incentive",
+   "retraction"
+  ]
+ },
+ {
+  "id": "w2-57",
+  "l": "C1",
+  "type": "opinion",
+  "topic": "economy",
+  "prompt": "Economic growth based on ever-increasing consumption cannot continue indefinitely. Some people therefore argue that governments should measure national success by citizens' wellbeing rather than by the size of the economy.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "resources and the environment are limited",
+   "a higher national income does not always mean healthier or happier lives",
+   "wellbeing indicators include health, education, safety and free time",
+   "growth still funds hospitals, schools and technology",
+   "combine several indicators, not replace economic data"
+  ],
+  "vocab": [
+   "gross domestic product",
+   "wellbeing",
+   "sustainable",
+   "a measure of success",
+   "depletion of resources",
+   "quality of life",
+   "indicator",
+   "to prioritise"
+  ]
+ },
+ {
+  "id": "w2-58",
+  "l": "C1",
+  "type": "advdis",
+  "topic": "corruption",
+  "prompt": "Some countries pay a share of recovered money to citizens whose information leads to the conviction of corrupt officials.\n\nDo the advantages of this approach outweigh the disadvantages?",
+  "planAr": "المقدمة: أعد صياغة السؤال واذكر هل المزايا أكبر من العيوب. الفقرة الأولى: أهم الميزات مع مثال. الفقرة الثانية: أهم العيوب مع مثال، ثم بيّن لماذا تبقى أقل وزناً (أو أكبر). الخاتمة: كرّر حكمك النهائي بعبارات جديدة.",
+  "ideas": [
+   "fear of retaliation stops many witnesses from speaking",
+   "insiders are often the only source of proof",
+   "the state may recover more money than it pays",
+   "false accusations driven by greed or rivalry",
+   "payment only after a verdict and penalties for false reports"
+  ],
+  "vocab": [
+   "to report",
+   "reward",
+   "to expose",
+   "retaliation",
+   "incentive",
+   "false accusation",
+   "a conviction",
+   "safeguard"
+  ],
+  "model": "A number of countries pay a share of recovered funds to citizens whose information leads to the conviction of corrupt officials. In my opinion, the benefits of such schemes outweigh their drawbacks, provided that they are carefully designed.\n\nThe principal advantage is that rewards overcome the strongest obstacle to reporting: fear. Someone who exposes a corrupt manager risks dismissal, social isolation and sometimes threats, so without a tangible incentive many witnesses prefer silence. A clerk who notices that contracts are always awarded to the same company, for example, may stay quiet because the personal cost is too high, yet a substantial payment can make the risk acceptable and allow him to start a new career elsewhere. Since corruption is hidden by nature, people on the inside are often the only ones who can provide proof, so encouraging them is highly effective. In successful cases, the state recovers far more than it pays out.\n\nOn the other hand, critics warn that financial rewards may encourage false accusations and turn colleagues into informers motivated by greed rather than principle. A rival might invent a claim to damage someone's reputation, wasting investigators' time and harming an innocent person. These dangers are real, but they can be limited. Payment can be made only after a court has reached a verdict, and those who knowingly make false reports can be punished under the law. Where such conditions apply, the incentive rewards truth rather than rumour.\n\nIn conclusion, although rewards carry a risk of abuse, strict safeguards can contain it, and the greater likelihood that serious corruption is exposed makes these schemes worthwhile.",
+  "notesAr": "1) المقدمة تعطي الحكم والشرط معاً (\"outweigh ... provided that\") فلا يبدو الموقف مطلقاً.\n2) فقرة الميزات تشرح سبباً عميقاً (الخوف) بمثال الموظف الذي يلاحظ العقود، وتضيف حجة اقتصادية (الدولة تسترد أكثر مما تدفع).\n3) فقرة العيوب تعرض أخطر اعتراض ثم ترد عليه بضمانات محددة (الدفع بعد الحكم، عقوبة البلاغ الكاذب)، وهذا يمثل تحليلاً متوازناً."
+ },
+ {
+  "id": "w2-59",
+  "l": "C1",
+  "type": "twopart",
+  "topic": "ageing",
+  "prompt": "As populations grow older, some governments are considering raising the age at which people can receive a state pension.\n\nWhy is this considered necessary by some policymakers? What problems might it create?",
+  "planAr": "المقدمة: أعد صياغة الموضوع وأشر إلى أنك ستجيب عن السؤالين. الفقرة الأولى: أجب عن السؤال الأول بسبب ومثال. الفقرة الثانية: أجب عن السؤال الثاني بموقف واضح مع سبب ومثال. الخاتمة: لخّص الإجابتين. تأكد أن كل سؤال أخذ جواباً مباشراً.",
+  "ideas": [
+   "fewer workers support more retirees",
+   "people live longer and draw pensions for more years",
+   "heavy physical jobs are difficult after a certain age",
+   "poorer workers often have shorter, less healthy lives",
+   "flexible retirement and retraining may soften the effects"
+  ],
+  "vocab": [
+   "pension",
+   "life expectancy",
+   "to contribute",
+   "retirement age",
+   "fiscal pressure",
+   "manual labour",
+   "inequality",
+   "flexible retirement"
+  ]
+ },
+ {
+  "id": "w2-60",
+  "l": "C1",
+  "type": "discuss",
+  "topic": "international aid",
+  "prompt": "Some people believe that wealthy countries should give aid to poorer nations without any conditions. Others argue that aid should depend on reforms such as greater transparency and action against corruption.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "conditions can be seen as interference and may delay urgent help",
+   "the poorest citizens should not suffer for their rulers' failures",
+   "unconditional money may be stolen or wasted",
+   "transparency conditions protect donors and help citizens follow the money",
+   "a mix of emergency help and conditional development support"
+  ],
+  "vocab": [
+   "conditionality",
+   "sovereignty",
+   "development aid",
+   "emergency relief",
+   "to embezzle",
+   "reform",
+   "good governance",
+   "to hold to account"
+  ]
+ }
+]

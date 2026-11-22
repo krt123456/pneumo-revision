@@ -1,0 +1,969 @@
+[
+ {
+  "id": "l-b2-11",
+  "l": "B2",
+  "title": "Preparing a mock trial",
+  "part": 3,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Let us go through your preparation for Thursday's mock trial. Elena, you represent the prosecution, and Marcus, you are for the defence. Where are you now?"
+   },
+   {
+    "s": "B",
+    "t": "I have the case file. Our defendant is accused of stealing a bicycle from the rack outside the engineering building."
+   },
+   {
+    "s": "C",
+    "t": "And our case is that he was in the library at the time."
+   },
+   {
+    "s": "A",
+    "t": "Marcus, what evidence do you have for that?"
+   },
+   {
+    "s": "C",
+    "t": "The library entry system records that his card was used at seven fifty and again at nine ten. The theft happened at about eight forty."
+   },
+   {
+    "s": "A",
+    "t": "Good. Elena, who will you call as witnesses?"
+   },
+   {
+    "s": "B",
+    "t": "First, the owner of the bicycle, to explain what was stolen and how much it was worth."
+   },
+   {
+    "s": "B",
+    "t": "Second, the security guard, who saw someone in a grey jacket near the rack. I also wanted to call the cleaner, who found the broken lock."
+   },
+   {
+    "s": "A",
+    "t": "How long is the trial? We have only forty minutes in total."
+   },
+   {
+    "s": "B",
+    "t": "Then I will leave out the cleaner. Two witnesses are enough."
+   },
+   {
+    "s": "A",
+    "t": "Wise. Remember, you must prove guilt beyond reasonable doubt. The burden is on you, Elena, not on Marcus."
+   },
+   {
+    "s": "C",
+    "t": "So my job is to create doubt. The guard was thirty metres away, it was dark, and the camera footage is blurred."
+   },
+   {
+    "s": "A",
+    "t": "Exactly, and you can raise that in cross-examination. There you may ask leading questions, such as, is it true that the light was poor?"
+   },
+   {
+    "s": "A",
+    "t": "But you may only ask questions. Do not make speeches."
+   },
+   {
+    "s": "C",
+    "t": "Understood. How long are the opening statements?"
+   },
+   {
+    "s": "A",
+    "t": "Three minutes each. Keep them simple. Tell the jury what you will prove, and do not argue yet."
+   },
+   {
+    "s": "B",
+    "t": "Who is on the jury?"
+   },
+   {
+    "s": "A",
+    "t": "Six classmates. Their names will be drawn from a hat. They will not have read the case file, so explain everything clearly."
+   },
+   {
+    "s": "C",
+    "t": "Where and when is the trial?"
+   },
+   {
+    "s": "A",
+    "t": "Thursday at two o'clock in Room Four of the law building. Arrive fifteen minutes early to set up the room."
+   },
+   {
+    "s": "B",
+    "t": "Should we wear formal clothes?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, please. Jackets or smart shirts. It helps you take the role seriously."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "prosecution",
+    "ar": "الادعاء"
+   },
+   {
+    "w": "defence",
+    "ar": "الدفاع"
+   },
+   {
+    "w": "burden of proof",
+    "ar": "عبء الإثبات"
+   },
+   {
+    "w": "cross-examination",
+    "ar": "الاستجواب المضاد"
+   },
+   {
+    "w": "jury",
+    "ar": "هيئة المحلفين"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the defendant accused of?",
+    "o": [
+     "Stealing a bicycle",
+     "Breaking a window",
+     "Taking books from the library"
+    ],
+    "a": 0,
+    "why": "المتهم متَّهم بسرقة دراجة من حامل الدراجات."
+   },
+   {
+    "k": "gap",
+    "q": "The defendant's library card was first used at ___.",
+    "a": [
+     "7.50",
+     "7:50",
+     "seven fifty",
+     "ten to eight"
+    ],
+    "why": "سجل المكتبة: السابعة وخمسون دقيقة."
+   },
+   {
+    "k": "mc",
+    "q": "Which witness will Elena decide not to call?",
+    "o": [
+     "The security guard",
+     "The bicycle owner",
+     "The cleaner"
+    ],
+    "a": 2,
+    "why": "بسبب ضيق الوقت استغنت عن عاملة النظافة."
+   },
+   {
+    "k": "gap",
+    "q": "The whole trial can last only ___ minutes.",
+    "a": [
+     "40",
+     "forty"
+    ],
+    "why": "الوقت الكلي أربعون دقيقة."
+   },
+   {
+    "k": "tfng",
+    "q": "Marcus must prove that the defendant is innocent.",
+    "a": "F",
+    "why": "عبء الإثبات على الادعاء وليس على الدفاع."
+   },
+   {
+    "k": "mc",
+    "q": "Which point will Marcus use against the security guard's evidence?",
+    "o": [
+     "He is a friend of the owner",
+     "He was thirty metres away in the dark",
+     "He has changed his story"
+    ],
+    "a": 1,
+    "why": "كان بعيداً ثلاثين متراً والظلام دامس."
+   },
+   {
+    "k": "gap",
+    "q": "Each opening statement lasts ___ minutes.",
+    "a": [
+     "3",
+     "three"
+    ],
+    "why": "ثلاث دقائق لكل طرف."
+   },
+   {
+    "k": "mc",
+    "q": "How will the jury members be chosen?",
+    "o": [
+     "Volunteers put their names forward",
+     "The professor chooses them",
+     "Names are drawn from a hat"
+    ],
+    "a": 2,
+    "why": "تُسحب الأسماء من قبعة."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-12",
+  "l": "B2",
+  "title": "Choosing a master's thesis topic",
+  "part": 3,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Noor, thanks for sending your list of ideas. Let us talk them through. You have three options, correct?"
+   },
+   {
+    "s": "B",
+    "t": "Yes. First, whistleblower protection laws. Second, corruption risks in public procurement. And third, using artificial intelligence to detect fraud in public spending."
+   },
+   {
+    "s": "A",
+    "t": "What attracts you to the third one?"
+   },
+   {
+    "s": "B",
+    "t": "Honestly, it connects my master's with the doctorate I want to do later. But I am worried about the data."
+   },
+   {
+    "s": "A",
+    "t": "You are right to worry. Many governments publish spending data only in summary form, and a thesis needs detailed records."
+   },
+   {
+    "s": "A",
+    "t": "Without them you would spend months searching rather than analysing."
+   },
+   {
+    "s": "B",
+    "t": "What about whistleblower laws? There is a lot written on that."
+   },
+   {
+    "s": "A",
+    "t": "That is the problem. It is a crowded field."
+   },
+   {
+    "s": "A",
+    "t": "You would have to find something new to say, and examiners will expect you to compare several countries, which takes time."
+   },
+   {
+    "s": "B",
+    "t": "So procurement looks like the middle path?"
+   },
+   {
+    "s": "A",
+    "t": "It could be. There are open contract databases, and some include three years of detailed records."
+   },
+   {
+    "s": "A",
+    "t": "You could look for warning signs, such as contracts awarded with only one bidder."
+   },
+   {
+    "s": "B",
+    "t": "Could I still use some AI there?"
+   },
+   {
+    "s": "A",
+    "t": "In a small way, yes. Simple statistical tools could highlight unusual contracts. But I would not promise too much."
+   },
+   {
+    "s": "A",
+    "t": "Remember, the thesis is only twelve thousand words, and you have eight months."
+   },
+   {
+    "s": "B",
+    "t": "Right. How narrow should I go?"
+   },
+   {
+    "s": "A",
+    "t": "Very narrow. Perhaps one sector, such as road construction, in one region. A narrow study done well is better than a broad one done badly."
+   },
+   {
+    "s": "B",
+    "t": "That makes sense. Initially, I thought of including hospitals as well."
+   },
+   {
+    "s": "A",
+    "t": "Leave hospitals for the doctorate. Now, what do you need to do next?"
+   },
+   {
+    "s": "B",
+    "t": "Write a one-page outline with my research question and the data source."
+   },
+   {
+    "s": "A",
+    "t": "Exactly. Please also ask the librarian about access to the contract database, because some sites need a university login and approval can take several days."
+   },
+   {
+    "s": "A",
+    "t": "Send the outline within three weeks. Let us meet next Wednesday at ten to check your progress."
+   },
+   {
+    "s": "B",
+    "t": "Thank you, Dr Kemp. I feel much clearer now."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "whistleblower",
+    "ar": "مُبلِّغ عن المخالفات"
+   },
+   {
+    "w": "procurement",
+    "ar": "المشتريات العامة"
+   },
+   {
+    "w": "bidder",
+    "ar": "مقدّم عطاء"
+   },
+   {
+    "w": "thesis",
+    "ar": "أطروحة"
+   },
+   {
+    "w": "outline",
+    "ar": "مخطط أولي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why is the AI topic attractive to Noor?",
+    "o": [
+     "The data is easy to find",
+     "It links to her future doctorate",
+     "It is the supervisor's speciality"
+    ],
+    "a": 1,
+    "why": "يربط الماجستير بالدكتوراه التي تريدها لاحقاً."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main problem with the AI topic?",
+    "o": [
+     "The software is expensive",
+     "The time is too short",
+     "Detailed data is often not published"
+    ],
+    "a": 2,
+    "why": "الحكومات تنشر غالباً بيانات ملخصة فقط."
+   },
+   {
+    "k": "tfng",
+    "q": "Dr Kemp thinks the whistleblower topic is already heavily researched.",
+    "a": "T",
+    "why": "وصفه بأنه مجال مزدحم."
+   },
+   {
+    "k": "gap",
+    "q": "One warning sign in contracts is having only one ___.",
+    "a": [
+     "bidder"
+    ],
+    "why": "عقود مُنحت بمتقدم واحد فقط."
+   },
+   {
+    "k": "gap",
+    "q": "The thesis must be ___ words long.",
+    "a": [
+     "12000",
+     "12,000",
+     "twelve thousand"
+    ],
+    "why": "الأطروحة اثنا عشر ألف كلمة."
+   },
+   {
+    "k": "mc",
+    "q": "How much time does Noor have for the thesis?",
+    "o": [
+     "Eight months",
+     "Six months",
+     "Twelve months"
+    ],
+    "a": 0,
+    "why": "لديها ثمانية أشهر."
+   },
+   {
+    "k": "tfng",
+    "q": "Dr Kemp advises Noor to include hospitals in her study.",
+    "a": "F",
+    "why": "قال أن تترك المستشفيات للدكتوراه."
+   },
+   {
+    "k": "gap",
+    "q": "Noor must send an outline within ___ weeks.",
+    "a": [
+     "3",
+     "three"
+    ],
+    "why": "خلال ثلاثة أسابيع."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-13",
+  "l": "B2",
+  "title": "How memory works",
+  "part": 4,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. Today I want to explain how human memory works, and why some study methods work far better than others."
+   },
+   {
+    "s": "A",
+    "t": "Psychologists usually divide memory into three stages. The first is encoding, when information enters the brain."
+   },
+   {
+    "s": "A",
+    "t": "The second is storage, and the third is retrieval, when we bring it back."
+   },
+   {
+    "s": "A",
+    "t": "Let us begin with short-term memory. For decades, textbooks said it holds about seven items."
+   },
+   {
+    "s": "A",
+    "t": "More recent research suggests the real figure is closer to four, if we count meaningful chunks."
+   },
+   {
+    "s": "A",
+    "t": "What is a chunk? Think of a phone number. If you try to remember eleven separate digits, you will probably fail."
+   },
+   {
+    "s": "A",
+    "t": "But if you group them into three or four blocks, the task becomes much easier."
+   },
+   {
+    "s": "A",
+    "t": "Information in short-term memory fades after roughly twenty seconds unless we repeat it or connect it to something we already know. Connection is the key idea here."
+   },
+   {
+    "s": "A",
+    "t": "A fact attached to an existing memory is much more likely to survive."
+   },
+   {
+    "s": "A",
+    "t": "Long-term memory, by contrast, seems to have no practical limit. The challenge is not storage but retrieval."
+   },
+   {
+    "s": "A",
+    "t": "You may know a name perfectly well and still fail to recall it, because you lack the right cue."
+   },
+   {
+    "s": "A",
+    "t": "Cues can be surprising. Smell is a famous example. Many people report that the scent of a certain soap suddenly brings back a whole childhood afternoon."
+   },
+   {
+    "s": "A",
+    "t": "Now, forgetting. In the 1880s, a German psychologist tested himself on lists of nonsense syllables."
+   },
+   {
+    "s": "A",
+    "t": "He found that forgetting is fastest soon after learning: most of the material was lost within the first day."
+   },
+   {
+    "s": "A",
+    "t": "This is why cramming the night before an exam is unwise. A better method is spaced repetition."
+   },
+   {
+    "s": "A",
+    "t": "Review the material after one day, then after a week, then after a month, and each review will make the memory stronger."
+   },
+   {
+    "s": "A",
+    "t": "Sleep also matters. During sleep, the brain replays the day's experiences and moves important information into long-term storage."
+   },
+   {
+    "s": "A",
+    "t": "Students who sleep well after studying usually remember more than those who stay up all night."
+   },
+   {
+    "s": "A",
+    "t": "Finally, a practical tip. Many students re-read their notes again and again, but this gives a false feeling of knowing."
+   },
+   {
+    "s": "A",
+    "t": "Testing yourself with questions is much more effective, even if it feels harder."
+   },
+   {
+    "s": "A",
+    "t": "So, to summarise, use chunks, create connections, space your reviews, sleep well, and test yourself. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "encoding",
+    "ar": "ترميز"
+   },
+   {
+    "w": "retrieval",
+    "ar": "استرجاع"
+   },
+   {
+    "w": "chunk",
+    "ar": "كتلة معلومات"
+   },
+   {
+    "w": "cue",
+    "ar": "مفتاح تذكّر"
+   },
+   {
+    "w": "cramming",
+    "ar": "الحشو قبل الامتحان"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What are the three stages of memory?",
+    "o": [
+     "Seeing, hearing and thinking",
+     "Learning, sleeping and forgetting",
+     "Encoding, storage and retrieval"
+    ],
+    "a": 2,
+    "why": "المراحل: الترميز والتخزين والاسترجاع."
+   },
+   {
+    "k": "mc",
+    "q": "What does more recent research suggest about short-term memory?",
+    "o": [
+     "It holds about seven items",
+     "It holds about four chunks",
+     "It holds about twenty items"
+    ],
+    "a": 1,
+    "why": "الأبحاث الحديثة تقترح قرابة أربع كتل."
+   },
+   {
+    "k": "gap",
+    "q": "Without repetition, short-term information fades after about ___ seconds.",
+    "a": [
+     "20",
+     "twenty"
+    ],
+    "why": "تتلاشى بعد نحو عشرين ثانية."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main challenge of long-term memory?",
+    "o": [
+     "Retrieval",
+     "Storage space",
+     "Speed of learning"
+    ],
+    "a": 0,
+    "why": "المشكلة في الاسترجاع لا في التخزين."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says smells can bring back childhood memories.",
+    "a": "T",
+    "why": "ذكر رائحة الصابون مثالاً."
+   },
+   {
+    "k": "gap",
+    "q": "In the old experiment, most material was lost within the first ___.",
+    "a": [
+     "day",
+     "one day"
+    ],
+    "why": "فُقد معظم المادة خلال اليوم الأول."
+   },
+   {
+    "k": "mc",
+    "q": "Which review schedule does the lecturer recommend?",
+    "o": [
+     "Every hour for a day",
+     "Once, on the night before the exam",
+     "After a day, a week and a month"
+    ],
+    "a": 2,
+    "why": "المراجعة المتباعدة بعد يوم ثم أسبوع ثم شهر."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says re-reading notes is the most effective way to study.",
+    "a": "F",
+    "why": "يعطي إحساساً زائفاً بالمعرفة، والاختبار الذاتي أفضل."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-14",
+  "l": "B2",
+  "title": "The design of cities",
+  "part": 4,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon. Today's lecture is about the design of cities, and about one simple question: who is a city built for?"
+   },
+   {
+    "s": "A",
+    "t": "For most of history, cities grew without a master plan. Medieval towns developed around a market or a river crossing, and their streets were narrow and winding."
+   },
+   {
+    "s": "A",
+    "t": "This looks chaotic on a map, but it has advantages."
+   },
+   {
+    "s": "A",
+    "t": "In hot climates, narrow lanes create shade, and old city centres in many countries are still pleasant to walk in during summer."
+   },
+   {
+    "s": "A",
+    "t": "Planned cities are also very old. Ancient builders often used a grid, with straight streets crossing at right angles."
+   },
+   {
+    "s": "A",
+    "t": "A grid is easy to build, easy to measure, and easy to navigate, which is why many cities in the nineteenth century copied it."
+   },
+   {
+    "s": "A",
+    "t": "The biggest change came in the twentieth century with the car. Planners introduced zoning, which means separating areas by purpose."
+   },
+   {
+    "s": "A",
+    "t": "Homes went in one zone, offices in another, and shops in a third. Highways connected them."
+   },
+   {
+    "s": "A",
+    "t": "The result was long commutes. In some cities, workers spend more than an hour travelling each way."
+   },
+   {
+    "s": "A",
+    "t": "Traffic jams, noise and air pollution followed, and streets stopped being places where people met and became channels for vehicles."
+   },
+   {
+    "s": "A",
+    "t": "Today many designers are trying to reverse this trend. A popular idea is the fifteen-minute city."
+   },
+   {
+    "s": "A",
+    "t": "In it, most daily needs, such as school, shops, a clinic and a park, are within fifteen minutes on foot or by bicycle."
+   },
+   {
+    "s": "A",
+    "t": "To achieve this, planners promote mixed-use buildings, for example apartments above a bakery and a small office. They also convert car lanes into cycle paths and wider pavements."
+   },
+   {
+    "s": "A",
+    "t": "Green space is another priority. Trees and parks make a city cooler in summer, because shade and evaporation can lower local temperatures by several degrees."
+   },
+   {
+    "s": "A",
+    "t": "They also improve mental health and give children somewhere safe to play."
+   },
+   {
+    "s": "A",
+    "t": "Of course, there are criticisms. First, rebuilding an existing city is very expensive."
+   },
+   {
+    "s": "A",
+    "t": "Second, when a neighbourhood becomes more attractive, prices often rise, and poorer residents may be forced to leave. This is called gentrification."
+   },
+   {
+    "s": "A",
+    "t": "So what lessons can we draw? Firstly, good design puts people before vehicles. Secondly, good design must also protect the people who already live there."
+   },
+   {
+    "s": "A",
+    "t": "Next week, we will look at a case study of a city that tried to do both."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, and please read chapter five before then."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "zoning",
+    "ar": "تقسيم المناطق"
+   },
+   {
+    "w": "commute",
+    "ar": "التنقل اليومي للعمل"
+   },
+   {
+    "w": "mixed-use",
+    "ar": "متعدد الاستعمالات"
+   },
+   {
+    "w": "gentrification",
+    "ar": "التحسين العمراني الذي يُهجّر السكان"
+   },
+   {
+    "w": "pavement",
+    "ar": "رصيف"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is one advantage of narrow winding streets in hot climates?",
+    "o": [
+     "They are easier to navigate",
+     "They provide shade",
+     "They allow more traffic"
+    ],
+    "a": 1,
+    "why": "الأزقة الضيقة تعطي ظلاً."
+   },
+   {
+    "k": "mc",
+    "q": "Why did many nineteenth-century cities copy the grid plan?",
+    "o": [
+     "It gave more shade",
+     "It was cheaper than roads",
+     "It was easy to build, measure and navigate"
+    ],
+    "a": 2,
+    "why": "الشبكة سهلة البناء والقياس والتنقل."
+   },
+   {
+    "k": "gap",
+    "q": "Zoning means separating areas by ___.",
+    "a": [
+     "purpose"
+    ],
+    "why": "فصل المناطق حسب الغرض."
+   },
+   {
+    "k": "mc",
+    "q": "What was a major result of zoning?",
+    "o": [
+     "Long commutes",
+     "More public squares",
+     "Smaller cities"
+    ],
+    "a": 0,
+    "why": "أدى إلى رحلات عمل طويلة."
+   },
+   {
+    "k": "gap",
+    "q": "In a fifteen-minute city, daily needs are within ___ minutes on foot or by bicycle.",
+    "a": [
+     "15",
+     "fifteen"
+    ],
+    "why": "خمس عشرة دقيقة سيراً أو بالدراجة."
+   },
+   {
+    "k": "tfng",
+    "q": "Planners sometimes convert car lanes into cycle paths.",
+    "a": "T",
+    "why": "من وسائل تحقيق مدينة الخمس عشرة دقيقة."
+   },
+   {
+    "k": "mc",
+    "q": "What does gentrification mean in the lecture?",
+    "o": [
+     "Building new highways around a city",
+     "Poorer residents being forced out as prices rise",
+     "Planting trees in neighbourhoods"
+    ],
+    "a": 1,
+    "why": "ارتفاع الأسعار يدفع الأقل دخلاً إلى المغادرة."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says rebuilding an existing city is cheap.",
+    "a": "F",
+    "why": "قال إنها مكلفة جداً."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-15",
+  "l": "B2",
+  "title": "A short history of courts and written law",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Today I want to give you a short history of courts and written law, and to explain why writing the law down was such an important step."
+   },
+   {
+    "s": "A",
+    "t": "Before writing, rules existed as custom, memorised and passed on by elders. The problem is obvious."
+   },
+   {
+    "s": "A",
+    "t": "Memory changes, and powerful people can claim that the custom says whatever suits them."
+   },
+   {
+    "s": "A",
+    "t": "Some of the earliest written laws come from Mesopotamia, about four thousand years ago."
+   },
+   {
+    "s": "A",
+    "t": "One famous collection was carved on a tall stone pillar and placed in a public place, so that people could see what the rules were."
+   },
+   {
+    "s": "A",
+    "t": "Many of its provisions set fixed penalties, which limited private revenge."
+   },
+   {
+    "s": "A",
+    "t": "A similar idea appears in ancient Rome. Around four hundred and fifty years before the modern era, Roman citizens demanded that the law be displayed in the forum."
+   },
+   {
+    "s": "A",
+    "t": "The result was known as the Twelve Tables."
+   },
+   {
+    "s": "A",
+    "t": "Much later, in the sixth century, the emperor Justinian ordered scholars to collect and organise Roman law into a single code, and that work influenced European legal thinking for centuries."
+   },
+   {
+    "s": "A",
+    "t": "Now let us move to medieval England. After the Norman conquest, royal judges began to travel around the country to hear cases."
+   },
+   {
+    "s": "A",
+    "t": "When they met, they compared decisions, and over time the rulings became a shared body of rules."
+   },
+   {
+    "s": "A",
+    "t": "This is the origin of common law, which relies heavily on precedent, meaning earlier decisions in similar cases."
+   },
+   {
+    "s": "A",
+    "t": "England also developed the jury, a group of ordinary citizens who decide the facts."
+   },
+   {
+    "s": "A",
+    "t": "In 1215, a charter forced on the king stated that no free man could be imprisoned without a lawful judgment."
+   },
+   {
+    "s": "A",
+    "t": "This was not a modern bill of rights, but it established that even rulers were bound by law."
+   },
+   {
+    "s": "A",
+    "t": "Meanwhile, much of continental Europe followed the Roman tradition. In 1804, France published a civil code, written clearly so that ordinary people could read it."
+   },
+   {
+    "s": "A",
+    "t": "This approach, called civil law, puts the main rules in written codes, and judges apply them rather than building on earlier cases."
+   },
+   {
+    "s": "A",
+    "t": "Today these two traditions have moved closer together. Common law countries have many statutes, and civil law courts also pay attention to earlier decisions."
+   },
+   {
+    "s": "A",
+    "t": "Why does this matter? Three features run through this history: laws that are written, laws that are public, and courts that give reasons."
+   },
+   {
+    "s": "A",
+    "t": "Together, they make it hard for officials to act in secret, which is why they are central to the fight against corruption."
+   },
+   {
+    "s": "A",
+    "t": "In the next lecture, we will look at how judges are appointed. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "custom",
+    "ar": "عُرف"
+   },
+   {
+    "w": "penalty",
+    "ar": "عقوبة"
+   },
+   {
+    "w": "precedent",
+    "ar": "سابقة قضائية"
+   },
+   {
+    "w": "jury",
+    "ar": "هيئة محلفين"
+   },
+   {
+    "w": "statute",
+    "ar": "قانون مكتوب"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why was law based on custom a problem?",
+    "o": [
+     "There were not enough judges",
+     "It was too long to read",
+     "Memory changes and powerful people could twist it"
+    ],
+    "a": 2,
+    "why": "الذاكرة تتغير والأقوياء يفسرونها لصالحهم."
+   },
+   {
+    "k": "gap",
+    "q": "The earliest written laws are about ___ years old.",
+    "a": [
+     "4000",
+     "four thousand",
+     "4,000"
+    ],
+    "why": "قبل نحو أربعة آلاف سنة."
+   },
+   {
+    "k": "mc",
+    "q": "Where was the famous Mesopotamian collection placed?",
+    "o": [
+     "In a temple library",
+     "On a pillar in a public place",
+     "In the king's palace"
+    ],
+    "a": 1,
+    "why": "نُحتت على عمود حجري في مكان عام."
+   },
+   {
+    "k": "gap",
+    "q": "The Twelve Tables were displayed in the ___.",
+    "a": [
+     "forum"
+    ],
+    "why": "عُرضت في الساحة العامة (الفورم)."
+   },
+   {
+    "k": "mc",
+    "q": "What did Justinian do?",
+    "o": [
+     "He wrote the Twelve Tables",
+     "He introduced travelling judges",
+     "He had Roman law collected into one code"
+    ],
+    "a": 2,
+    "why": "أمر بجمع القانون الروماني في مدونة واحدة."
+   },
+   {
+    "k": "mc",
+    "q": "What does common law rely on most?",
+    "o": [
+     "Earlier decisions",
+     "Written codes only",
+     "Advice from elders"
+    ],
+    "a": 0,
+    "why": "يعتمد على السوابق القضائية."
+   },
+   {
+    "k": "tfng",
+    "q": "The charter of 1215 was a modern bill of rights.",
+    "a": "F",
+    "why": "لم تكن وثيقة حقوق حديثة، لكنها قيّدت الحكام بالقانون."
+   },
+   {
+    "k": "gap",
+    "q": "France published its civil code in ___.",
+    "a": [
+     "1804"
+    ],
+    "why": "نُشرت المدونة المدنية الفرنسية عام 1804."
+   }
+  ]
+ }
+]

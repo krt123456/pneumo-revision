@@ -1,0 +1,752 @@
+[
+ {
+  "w": "tedious",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "مُمِلّ، مُرهِق للصبر",
+  "d": "boring and taking far too long, so people lose interest",
+  "ex": "Filling in the long tax forms was tedious and took all afternoon.",
+  "x": "tedious"
+ },
+ {
+  "w": "terrain",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "تضاريس، أرض",
+  "d": "the physical features of an area of land, such as hills or rivers",
+  "ex": "The rough mountain terrain made the road difficult to build.",
+  "x": "terrain"
+ },
+ {
+  "w": "thrifty",
+  "p": "adj",
+  "l": "B2",
+  "t": "money",
+  "ar": "مقتصد، حريص على المال",
+  "d": "careful with money and avoiding unnecessary spending",
+  "ex": "My thrifty grandmother always reused paper bags and glass jars.",
+  "x": "thrifty"
+ },
+ {
+  "w": "tinker",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يعبث بالأجهزة، يُجري تعديلات صغيرة",
+  "d": "to make small adjustments to something, often to improve it",
+  "ex": "He spent the evening tinkering with the old radio until it worked.",
+  "x": "tinkering"
+ },
+ {
+  "w": "taunt",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يسخر، يستفزّ بالكلام",
+  "d": "to mock or provoke someone with unkind words",
+  "ex": "Rival supporters taunted the players after the defeat.",
+  "x": "taunted"
+ },
+ {
+  "w": "tremor",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "ارتجاف، هزّة خفيفة",
+  "d": "a small shaking or trembling of the ground",
+  "ex": "A small tremor was felt across the city early in the morning.",
+  "x": "tremor"
+ },
+ {
+  "w": "tumble",
+  "p": "v",
+  "l": "B2",
+  "t": "money",
+  "ar": "يتدحرج، يهبط بسرعة",
+  "d": "to fall suddenly, or to drop quickly in value or amount",
+  "ex": "Share prices tumbled after the company announced its losses.",
+  "x": "tumbled"
+ },
+ {
+  "w": "tyranny",
+  "p": "n",
+  "l": "B2",
+  "t": "government",
+  "ar": "استبداد، طغيان",
+  "d": "cruel and unfair use of power by a ruler or authority",
+  "ex": "Historians describe the tyranny of the emperor in harsh terms.",
+  "x": "tyranny"
+ },
+ {
+  "w": "tactful",
+  "p": "adj",
+  "l": "B2",
+  "t": "communication",
+  "ar": "لبق، حكيم في القول",
+  "d": "careful not to upset or offend other people when speaking",
+  "ex": "The tactful manager explained the bad news without blaming anyone.",
+  "x": "tactful"
+ },
+ {
+  "w": "thaw",
+  "p": "v",
+  "l": "B2",
+  "t": "weather",
+  "ar": "يذوب، يدفأ",
+  "d": "to become warm enough for ice and snow to melt",
+  "ex": "The snow began to thaw as spring arrived in the mountains.",
+  "x": "thaw"
+ },
+ {
+  "w": "tribute",
+  "p": "n",
+  "l": "B2",
+  "t": "society",
+  "ar": "تكريم، إشادة",
+  "d": "something said or done to show respect and admiration for someone",
+  "ex": "The award was a tribute to decades of work in public health.",
+  "x": "tribute"
+ },
+ {
+  "w": "timid",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "خجول، خائف",
+  "d": "shy and easily frightened, lacking confidence",
+  "ex": "The timid student rarely spoke up in seminars.",
+  "x": "timid"
+ },
+ {
+  "w": "torment",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يعذّب، يؤلم",
+  "d": "to cause someone great mental or physical suffering",
+  "ex": "Constant noise from the road tormented the patients in the hospital.",
+  "x": "tormented"
+ },
+ {
+  "w": "trudge",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يسير بتثاقل، يجرّ خطاه",
+  "d": "to walk slowly and with difficulty, often because of tiredness",
+  "ex": "We trudged through the mud for two hours to reach the camp.",
+  "x": "trudged"
+ },
+ {
+  "w": "tycoon",
+  "p": "n",
+  "l": "B2",
+  "t": "business",
+  "ar": "قطب، ملياردير",
+  "d": "a powerful and very rich businessman or businesswoman",
+  "ex": "The oil tycoon donated millions to build the new university library.",
+  "x": "tycoon"
+ },
+ {
+  "w": "tally",
+  "p": "v",
+  "l": "B2",
+  "t": "quantity",
+  "ar": "يُحصي، يطابق",
+  "d": "to count things, or to agree with other figures",
+  "ex": "The officials tallied the votes twice to confirm the results.",
+  "x": "tallied"
+ },
+ {
+  "w": "tangle",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "تشابك، ارتباك",
+  "d": "a confused mass of things twisted together, or a complicated situation",
+  "ex": "The legal case got into a tangle of contradictory documents.",
+  "x": "tangle"
+ },
+ {
+  "w": "tardy",
+  "p": "adj",
+  "l": "B2",
+  "t": "time",
+  "ar": "متأخر، بطيء",
+  "d": "late or slow to arrive, act or respond",
+  "ex": "The tardy reply from the ministry delayed the project for months.",
+  "x": "tardy"
+ },
+ {
+  "w": "taciturn",
+  "p": "adj",
+  "l": "B2",
+  "t": "communication",
+  "ar": "صامت، قليل الكلام",
+  "d": "reserved and rarely talking much to other people",
+  "ex": "The taciturn engineer answered every question with a single word.",
+  "x": "taciturn"
+ },
+ {
+  "w": "torrent",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "سيل جارف، تدفّق",
+  "d": "a strong, fast flow of water, or a sudden large flood of something",
+  "ex": "A torrent of rain poured onto the streets within minutes.",
+  "x": "torrent"
+ },
+ {
+  "w": "tranquillity",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "سكينة، هدوء",
+  "d": "a state of calm, peaceful quiet",
+  "ex": "The garden offered tranquillity after the noise of the city.",
+  "x": "tranquillity"
+ },
+ {
+  "w": "tumult",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "صخب، اضطراب",
+  "d": "a loud, confused noise or a state of great excitement",
+  "ex": "The tumult in the stadium grew as the final whistle approached.",
+  "x": "tumult"
+ },
+ {
+  "w": "unassuming",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متواضع، بسيط",
+  "d": "modest and not showing off or seeking attention",
+  "ex": "The unassuming professor was respected by every student.",
+  "x": "unassuming"
+ },
+ {
+  "w": "uncanny",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "غريب، مُدهش بشكل مُقلق",
+  "d": "strange and surprising, as if almost supernatural",
+  "ex": "The detective had an uncanny ability to guess what the suspect would say.",
+  "x": "uncanny"
+ },
+ {
+  "w": "tepid",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "فاتر، دافئ قليلاً",
+  "d": "only slightly warm, not hot, or lacking enthusiasm",
+  "ex": "The tepid response from voters surprised the party's leaders.",
+  "x": "tepid"
+ },
+ {
+  "w": "unfold",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "ينكشف، يتكشّف تدريجياً",
+  "d": "to develop gradually, or to open out and be revealed",
+  "ex": "The story of the scandal began to unfold in the newspapers.",
+  "x": "unfold"
+ },
+ {
+  "w": "unify",
+  "p": "v",
+  "l": "B2",
+  "t": "government",
+  "ar": "يوحّد",
+  "d": "to bring separate people or parts together to form one whole",
+  "ex": "The new law aims to unify the rules for public contracts.",
+  "x": "unify"
+ },
+ {
+  "w": "unleash",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يُطلق، يُفلت",
+  "d": "to release something powerful or to let strong feelings out",
+  "ex": "The new policy unleashed a wave of criticism from experts.",
+  "x": "unleashed"
+ },
+ {
+  "w": "unpredictable",
+  "p": "adj",
+  "l": "B2",
+  "t": "weather",
+  "ar": "غير متوقّع، متقلّب",
+  "d": "difficult to predict, because it can change suddenly",
+  "ex": "The weather in the mountains is unpredictable in early spring.",
+  "x": "unpredictable"
+ },
+ {
+  "w": "unruly",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "عاصٍ، فوضوي",
+  "d": "difficult to control, badly behaved, or disorderly",
+  "ex": "The unruly crowd pushed against the gates of the stadium.",
+  "x": "unruly"
+ },
+ {
+  "w": "unflinching",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "ثابت، لا يتراجع",
+  "d": "steady and calm, not showing fear or hesitation",
+  "ex": "She gave an unflinching account of the events in court.",
+  "x": "unflinching"
+ },
+ {
+  "w": "uproot",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يقتلع، يُبعد عن موطنه",
+  "d": "to pull a plant out of the ground, or to force someone to move away",
+  "ex": "The storm uprooted several old trees along the riverbank.",
+  "x": "uprooted"
+ },
+ {
+  "w": "usurp",
+  "p": "v",
+  "l": "B2",
+  "t": "government",
+  "ar": "يغتصب، ينتزع السلطة",
+  "d": "to take power or a position from someone without the right to it",
+  "ex": "The general tried to usurp the power of the elected council.",
+  "x": "usurp"
+ },
+ {
+  "w": "unkempt",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غير مرتّب، مهمَل",
+  "d": "untidy and not well cared for, especially in appearance",
+  "ex": "The unkempt garden had not been weeded for several years.",
+  "x": "unkempt"
+ },
+ {
+  "w": "understated",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "متواضع، غير مبالغ فيه",
+  "d": "restrained and simple, not showy or exaggerated",
+  "ex": "The architect chose an understated design with plain white walls.",
+  "x": "understated"
+ },
+ {
+  "w": "undo",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يُلغي، يفكّ",
+  "d": "to reverse an action, or to unfasten something that was tied",
+  "ex": "She tried to undo the damage caused by the careless email.",
+  "x": "undo"
+ },
+ {
+  "w": "unbridled",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "جامح، غير مقيّد",
+  "d": "uncontrolled and without restraint",
+  "ex": "The festival crowd showed unbridled joy when the band appeared.",
+  "x": "unbridled"
+ },
+ {
+  "w": "unfazed",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "غير مكترث، غير مضطرب",
+  "d": "not worried, surprised or disturbed by something",
+  "ex": "The pilot seemed unfazed by the strong wind on landing.",
+  "x": "unfazed"
+ },
+ {
+  "w": "upbeat",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متفائل، مفعم بالحيوية",
+  "d": "cheerful, positive and optimistic about the future",
+  "ex": "The manager sounded upbeat about the company's plans for next year.",
+  "x": "upbeat"
+ },
+ {
+  "w": "uplifting",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مُلهِم، مُبهج",
+  "d": "making you feel happier, more hopeful or inspired",
+  "ex": "The choir gave an uplifting performance that moved the audience.",
+  "x": "uplifting"
+ },
+ {
+  "w": "unwitting",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "غير مقصود، غير واعٍ",
+  "d": "not knowing or intending something, even though it happens",
+  "ex": "He became an unwitting partner in the fraud.",
+  "x": "unwitting"
+ },
+ {
+  "w": "vacant",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "شاغر، خالٍ",
+  "d": "empty and not occupied or used by anyone",
+  "ex": "The vacant office on the third floor will be rented next month.",
+  "x": "vacant"
+ },
+ {
+  "w": "valiant",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "شجاع، بطل",
+  "d": "very brave, especially in difficult or dangerous situations",
+  "ex": "The valiant firefighters rescued three children from the burning house.",
+  "x": "valiant"
+ },
+ {
+  "w": "verbal",
+  "p": "adj",
+  "l": "B2",
+  "t": "communication",
+  "ar": "لفظي، شفهي",
+  "d": "spoken rather than written, or expressed in words",
+  "ex": "The deal was agreed by verbal promise before anything was signed.",
+  "x": "verbal"
+ },
+ {
+  "w": "versatile",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متعدّد المهارات، متعدد الاستخدامات",
+  "d": "able to do many different things, or useful for many purposes",
+  "ex": "The versatile tool can cut, drill and sand wood.",
+  "x": "versatile"
+ },
+ {
+  "w": "vex",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُضايق، يُحيّر",
+  "d": "to annoy or worry someone, often because of a difficult problem",
+  "ex": "The missing documents vexed the accountants for several days.",
+  "x": "vexed"
+ },
+ {
+  "w": "vibrant",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "نابض بالحياة، زاهٍ",
+  "d": "full of energy, colour and life",
+  "ex": "The vibrant market was full of colours, music and busy shoppers.",
+  "x": "vibrant"
+ },
+ {
+  "w": "vanquish",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يهزم تماماً، يقهر",
+  "d": "to defeat an opponent completely",
+  "ex": "The young team vanquished the champions in a dramatic final.",
+  "x": "vanquished"
+ },
+ {
+  "w": "vicious",
+  "p": "adj",
+  "l": "B2",
+  "t": "crime",
+  "ar": "شرس، وحشي",
+  "d": "cruel, violent or aggressive in a dangerous way",
+  "ex": "A vicious attack on the journalist shocked the whole country.",
+  "x": "vicious"
+ },
+ {
+  "w": "veer",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "ينحرف فجأة، يغيّر الاتجاه",
+  "d": "to change direction suddenly, often while moving",
+  "ex": "The car veered off the road to avoid a fallen tree.",
+  "x": "veered"
+ },
+ {
+  "w": "venom",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "سُمّ، حقد",
+  "d": "poison from a snake or insect, or bitter hostility in speech",
+  "ex": "The critic's review was full of venom and personal insults.",
+  "x": "venom"
+ },
+ {
+  "w": "vengeance",
+  "p": "n",
+  "l": "B2",
+  "t": "crime",
+  "ar": "انتقام",
+  "d": "harm done to someone in return for a wrong they have done",
+  "ex": "The family swore vengeance, but the court handled the case instead.",
+  "x": "vengeance"
+ },
+ {
+  "w": "vile",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "شنيع، قبيح الخلق",
+  "d": "extremely unpleasant, cruel or morally bad",
+  "ex": "The vile language in the messages led to the account being closed.",
+  "x": "vile"
+ },
+ {
+  "w": "vintage",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "عتيق، من حقبة مميزة",
+  "d": "old and of high quality, from a past period",
+  "ex": "The shop sold vintage posters from the 1950s and 1960s.",
+  "x": "vintage"
+ },
+ {
+  "w": "visionary",
+  "p": "adj",
+  "l": "B2",
+  "t": "mind",
+  "ar": "ذو رؤية مستقبلية",
+  "d": "showing imagination and thinking ahead about future possibilities",
+  "ex": "The visionary engineer designed a city that ran on solar power.",
+  "x": "visionary"
+ },
+ {
+  "w": "vain",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متكبّر، عديم الجدوى",
+  "d": "too proud of your appearance, or failing to achieve its purpose",
+  "ex": "Her vain attempts to fix the printer wasted the whole morning.",
+  "x": "vain"
+ },
+ {
+  "w": "wary",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "حذر، متوجّس",
+  "d": "careful and cautious because you expect problems or danger",
+  "ex": "Investors were wary of the new tax on property sales.",
+  "x": "wary"
+ },
+ {
+  "w": "whim",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "نزوة، هوى مفاجئ",
+  "d": "a sudden wish or idea, often without a clear reason",
+  "ex": "On a whim, she booked a flight to the coast for the weekend.",
+  "x": "whim"
+ },
+ {
+  "w": "wholehearted",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "صادق، بكل القلب",
+  "d": "complete and sincere, given with all your energy and commitment",
+  "ex": "The volunteers gave wholehearted support to the new library project.",
+  "x": "wholehearted"
+ },
+ {
+  "w": "wilt",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يذبل، يضعف",
+  "d": "to become limp and weak, often from heat or lack of water",
+  "ex": "The flowers wilted quickly in the hot sun of the car park.",
+  "x": "wilted"
+ },
+ {
+  "w": "wan",
+  "p": "adj",
+  "l": "B2",
+  "t": "health",
+  "ar": "شاحب، باهت",
+  "d": "pale and looking unwell or tired",
+  "ex": "After the long illness, his face looked wan and thin.",
+  "x": "wan"
+ },
+ {
+  "w": "wince",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يتألم، يتقلّص وجهه",
+  "d": "to show pain or embarrassment briefly on the face",
+  "ex": "She winced when the doctor pressed the bruise on her arm.",
+  "x": "winced"
+ },
+ {
+  "w": "wrath",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "غضب شديد، سخط",
+  "d": "extremely strong anger, often expressed in a violent way",
+  "ex": "The king's wrath fell on the advisers who had misled him.",
+  "x": "wrath"
+ },
+ {
+  "w": "wretched",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "بائس، تعيس",
+  "d": "very unhappy, unpleasant, or of very poor quality",
+  "ex": "The wretched weather spoiled our plans for the outdoor wedding.",
+  "x": "wretched"
+ },
+ {
+  "w": "weary",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مُتعَب، سئِم",
+  "d": "very tired or bored with something that lasts too long",
+  "ex": "The weary travellers arrived at the station after a long night journey.",
+  "x": "weary"
+ },
+ {
+  "w": "wearisome",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "مُرهِق، مُمِلّ",
+  "d": "tiring and boring because it lasts too long",
+  "ex": "The wearisome paperwork took the staff most of the week.",
+  "x": "wearisome"
+ },
+ {
+  "w": "weathered",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متآكل بفعل الطقس، مُتمرّس",
+  "d": "worn or damaged by weather over time, or experienced in hardship",
+  "ex": "The weathered wooden fence had lost its paint years ago.",
+  "x": "weathered"
+ },
+ {
+  "w": "wisdom",
+  "p": "n",
+  "l": "B2",
+  "t": "mind",
+  "ar": "حكمة، فطنة",
+  "d": "good judgement gained from experience and knowledge",
+  "ex": "Her wisdom helped the committee avoid a costly mistake.",
+  "x": "wisdom"
+ },
+ {
+  "w": "wry",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "ساخر بلطف، ملتوٍ",
+  "d": "showing dry, mildly humorous amusement or irony",
+  "ex": "She gave a wry smile when the plan was finally approved.",
+  "x": "wry"
+ },
+ {
+  "w": "whisk",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يخطف بسرعة، يُخفِق",
+  "d": "to move something quickly away, or to beat food rapidly",
+  "ex": "The waiter whisked the empty plates away before the dessert.",
+  "x": "whisked"
+ },
+ {
+  "w": "wholesale",
+  "p": "adj",
+  "l": "B2",
+  "t": "business",
+  "ar": "بالجملة، شامل",
+  "d": "on a very large scale, or involving the sale of goods in bulk",
+  "ex": "The shop bought flour wholesale from the local mill each month.",
+  "x": "wholesale"
+ },
+ {
+  "w": "zany",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غريب، مضحك بجنون",
+  "d": "wildly funny, odd or unusual in a playful way",
+  "ex": "The zany comedy was full of silly costumes and loud jokes.",
+  "x": "zany"
+ },
+ {
+  "w": "zigzag",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يتعرّج، يتلوّى",
+  "d": "to move forward by turning sharply from side to side",
+  "ex": "The path zigzagged up the hill through pine forests.",
+  "x": "zigzagged"
+ },
+ {
+  "w": "zoom",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "ينطلق بسرعة، يقرّب الصورة",
+  "d": "to move very fast, or to enlarge an image on a screen",
+  "ex": "The car zoomed past the school at high speed.",
+  "x": "zoomed"
+ },
+ {
+  "w": "zest",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "حماس، نكهة",
+  "d": "great enthusiasm, or a strong and lively flavour",
+  "ex": "Students approached the project with real zest and energy.",
+  "x": "zest"
+ }
+]

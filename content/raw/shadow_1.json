@@ -1,0 +1,502 @@
+[
+ {
+  "id": "sh-a2-01",
+  "l": "A2",
+  "title": "At the airport",
+  "titleAr": "في المطار",
+  "lines": [
+   {
+    "en": "Could you tell me where the check-in desk is?",
+    "ar": "هل يمكنك أن تخبرني أين مكتب تسجيل الوصول؟"
+   },
+   {
+    "en": "I would like a window seat, please.",
+    "ar": "أودّ مقعدًا بجانب النافذة، من فضلك."
+   },
+   {
+    "en": "I have one suitcase and one small bag.",
+    "ar": "لدي حقيبة سفر واحدة وحقيبة صغيرة."
+   },
+   {
+    "en": "Is my flight to Madrid on time?",
+    "ar": "هل رحلتي إلى مدريد في موعدها؟"
+   },
+   {
+    "en": "Which gate should I go to?",
+    "ar": "إلى أي بوابة يجب أن أذهب؟"
+   },
+   {
+    "en": "Boarding starts at half past six, doesn't it?",
+    "ar": "يبدأ الصعود إلى الطائرة في السادسة والنصف، أليس كذلك؟"
+   },
+   {
+    "en": "Excuse me, where can I get a bottle of water?",
+    "ar": "عذرًا، من أين يمكنني شراء زجاجة ماء؟"
+   },
+   {
+    "en": "I'm sorry, I think I lost my boarding pass.",
+    "ar": "آسف، أظن أنني أضعت بطاقة الصعود."
+   },
+   {
+    "en": "Here is my passport and my ticket.",
+    "ar": "هذا جواز سفري وهذه تذكرتي."
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-02",
+  "l": "A2",
+  "title": "In a taxi",
+  "titleAr": "في سيارة الأجرة",
+  "lines": [
+   {
+    "en": "Hello, could you take me to the train station?",
+    "ar": "مرحبًا، هل يمكنك أن توصلني إلى محطة القطار؟"
+   },
+   {
+    "en": "How long will it take to get there?",
+    "ar": "كم من الوقت سيستغرق الوصول إلى هناك؟"
+   },
+   {
+    "en": "Could you turn on the air conditioning, please?",
+    "ar": "هل يمكنك تشغيل المكيّف، من فضلك؟"
+   },
+   {
+    "en": "I'm in a hurry, so please go the fastest way.",
+    "ar": "أنا مستعجل، لذا اسلك أسرع طريق من فضلك."
+   },
+   {
+    "en": "Please stop next to the blue building.",
+    "ar": "من فضلك توقف بجانب المبنى الأزرق."
+   },
+   {
+    "en": "How much is the fare to the airport?",
+    "ar": "كم أجرة الذهاب إلى المطار؟"
+   },
+   {
+    "en": "Can you wait here for five minutes?",
+    "ar": "هل يمكنك الانتظار هنا خمس دقائق؟"
+   },
+   {
+    "en": "Keep the change. Thank you very much.",
+    "ar": "احتفظ بالباقي. شكرًا جزيلًا."
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-03",
+  "l": "A2",
+  "title": "At a hotel reception",
+  "titleAr": "في استقبال الفندق",
+  "lines": [
+   {
+    "en": "Hello, I have a reservation under the name Karim.",
+    "ar": "مرحبًا، لدي حجز باسم كريم."
+   },
+   {
+    "en": "I'd like a quiet room for two nights.",
+    "ar": "أريد غرفة هادئة لمدة ليلتين."
+   },
+   {
+    "en": "Does the price include breakfast?",
+    "ar": "هل يشمل السعر وجبة الفطور؟"
+   },
+   {
+    "en": "What time is breakfast served in the morning?",
+    "ar": "في أي ساعة يُقدَّم الفطور صباحًا؟"
+   },
+   {
+    "en": "Could you give me the Wi-Fi password, please?",
+    "ar": "هل يمكنك إعطائي كلمة مرور الواي فاي، من فضلك؟"
+   },
+   {
+    "en": "The shower in my room isn't working properly.",
+    "ar": "الدش في غرفتي لا يعمل جيدًا."
+   },
+   {
+    "en": "Could I have an extra towel and a pillow?",
+    "ar": "هل يمكنني الحصول على منشفة ووسادة إضافيتين؟"
+   },
+   {
+    "en": "What time do I have to check out tomorrow?",
+    "ar": "في أي ساعة يجب أن أغادر الفندق غدًا؟"
+   },
+   {
+    "en": "Can you call a taxi for me at seven?",
+    "ar": "هل يمكنك أن تطلب لي سيارة أجرة في السابعة؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-04",
+  "l": "A2",
+  "title": "Ordering food in a café",
+  "titleAr": "طلب الطعام في مقهى",
+  "lines": [
+   {
+    "en": "Hi, could I see the menu, please?",
+    "ar": "مرحبًا، هل يمكنني رؤية قائمة الطعام، من فضلك؟"
+   },
+   {
+    "en": "I'll have a cheese sandwich and an orange juice.",
+    "ar": "سآخذ شطيرة جبن وعصير برتقال."
+   },
+   {
+    "en": "Is the soup of the day vegetarian?",
+    "ar": "هل حساء اليوم نباتي؟"
+   },
+   {
+    "en": "Could I have my tea with a little milk?",
+    "ar": "هل يمكنني الحصول على الشاي مع قليل من الحليب؟"
+   },
+   {
+    "en": "What would you recommend for dessert?",
+    "ar": "ماذا تنصحني أن آخذ كحلوى؟"
+   },
+   {
+    "en": "Excuse me, we ordered ten minutes ago.",
+    "ar": "عذرًا، لقد طلبنا قبل عشر دقائق."
+   },
+   {
+    "en": "Can we have the bill, please?",
+    "ar": "هل يمكننا الحصول على الفاتورة، من فضلك؟"
+   },
+   {
+    "en": "Could I pay by card, or only cash?",
+    "ar": "هل يمكنني الدفع بالبطاقة أم نقدًا فقط؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-05",
+  "l": "A2",
+  "title": "Shopping for clothes",
+  "titleAr": "شراء الملابس",
+  "lines": [
+   {
+    "en": "Excuse me, do you have this shirt in a larger size?",
+    "ar": "عذرًا، هل لديكم هذا القميص بمقاس أكبر؟"
+   },
+   {
+    "en": "Where can I try these trousers on?",
+    "ar": "أين يمكنني تجربة هذا البنطال؟"
+   },
+   {
+    "en": "It's a bit too tight around the shoulders.",
+    "ar": "إنه ضيق قليلًا عند الكتفين."
+   },
+   {
+    "en": "Do you have it in a darker colour?",
+    "ar": "هل لديكم منه بلون أغمق؟"
+   },
+   {
+    "en": "How much is this jacket after the discount?",
+    "ar": "كم سعر هذه السترة بعد التخفيض؟"
+   },
+   {
+    "en": "That's a little expensive for me today.",
+    "ar": "هذا غالٍ قليلًا بالنسبة لي اليوم."
+   },
+   {
+    "en": "I'll take the grey one, please.",
+    "ar": "سآخذ الرمادي، من فضلك."
+   },
+   {
+    "en": "Can I return it if it doesn't fit?",
+    "ar": "هل يمكنني إرجاعه إن لم يكن مناسبًا؟"
+   },
+   {
+    "en": "Do you have a receipt for the exchange?",
+    "ar": "هل لديك إيصال من أجل الاستبدال؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-06",
+  "l": "A2",
+  "title": "At the doctor's",
+  "titleAr": "عند الطبيب",
+  "lines": [
+   {
+    "en": "I've had a headache since yesterday morning.",
+    "ar": "أعاني من صداع منذ صباح أمس."
+   },
+   {
+    "en": "I also have a sore throat and a cough.",
+    "ar": "وأعاني أيضًا من التهاب في الحلق وسعال."
+   },
+   {
+    "en": "I don't have a fever, but I feel very tired.",
+    "ar": "ليست لدي حمى، لكنني أشعر بتعب شديد."
+   },
+   {
+    "en": "I'm allergic to penicillin, so please be careful.",
+    "ar": "لدي حساسية من البنسلين، لذا انتبه من فضلك."
+   },
+   {
+    "en": "How often should I take this medicine?",
+    "ar": "كم مرة يجب أن آخذ هذا الدواء؟"
+   },
+   {
+    "en": "Should I take it before or after meals?",
+    "ar": "هل آخذه قبل الوجبات أم بعدها؟"
+   },
+   {
+    "en": "Do I need to stay at home for a few days?",
+    "ar": "هل أحتاج إلى البقاء في البيت بضعة أيام؟"
+   },
+   {
+    "en": "Can I have a medical certificate for my university?",
+    "ar": "هل يمكنني الحصول على شهادة طبية لجامعتي؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-07",
+  "l": "A2",
+  "title": "Meeting someone new",
+  "titleAr": "التعرّف على شخص جديد",
+  "lines": [
+   {
+    "en": "Hi, I don't think we've met. I'm Yassine.",
+    "ar": "مرحبًا، لا أظننا التقينا. أنا ياسين."
+   },
+   {
+    "en": "Nice to meet you. Where are you from?",
+    "ar": "سررت بلقائك. من أين أنت؟"
+   },
+   {
+    "en": "I'm from Algeria, but I live in Blida now.",
+    "ar": "أنا من الجزائر، لكنني أعيش في البليدة الآن."
+   },
+   {
+    "en": "What do you do? Are you a student?",
+    "ar": "ماذا تعمل؟ هل أنت طالب؟"
+   },
+   {
+    "en": "Yes, I'm studying medicine at the university.",
+    "ar": "نعم، أدرس الطب في الجامعة."
+   },
+   {
+    "en": "How long have you lived in this city?",
+    "ar": "منذ متى تعيش في هذه المدينة؟"
+   },
+   {
+    "en": "What do you like doing in your free time?",
+    "ar": "ماذا تحب أن تفعل في وقت فراغك؟"
+   },
+   {
+    "en": "I really enjoy playing football with my friends.",
+    "ar": "أستمتع حقًا بلعب كرة القدم مع أصدقائي."
+   },
+   {
+    "en": "It was great talking to you. See you soon!",
+    "ar": "كان من الرائع الحديث إليك. أراك قريبًا!"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-08",
+  "l": "A2",
+  "title": "Asking for help in the street",
+  "titleAr": "طلب المساعدة في الشارع",
+  "lines": [
+   {
+    "en": "Excuse me, could you help me, please?",
+    "ar": "عذرًا، هل يمكنك مساعدتي، من فضلك؟"
+   },
+   {
+    "en": "I'm lost. Where is the nearest bus stop?",
+    "ar": "لقد تهت. أين أقرب محطة حافلات؟"
+   },
+   {
+    "en": "Is the post office far from here?",
+    "ar": "هل مكتب البريد بعيد من هنا؟"
+   },
+   {
+    "en": "Go straight and turn left at the traffic lights.",
+    "ar": "اذهب مباشرة ثم انعطف يسارًا عند إشارة المرور."
+   },
+   {
+    "en": "Could you show me the way on my phone?",
+    "ar": "هل يمكنك أن تريني الطريق على هاتفي؟"
+   },
+   {
+    "en": "Sorry, could you speak a little more slowly?",
+    "ar": "آسف، هل يمكنك التحدث ببطء أكثر قليلًا؟"
+   },
+   {
+    "en": "Could you repeat that, please? I didn't understand.",
+    "ar": "هل يمكنك أن تعيد ذلك، من فضلك؟ لم أفهم."
+   },
+   {
+    "en": "Thank you so much. You've been very kind.",
+    "ar": "شكرًا جزيلًا. لقد كنت لطيفًا جدًا."
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-09",
+  "l": "A2",
+  "title": "On the phone",
+  "titleAr": "على الهاتف",
+  "lines": [
+   {
+    "en": "Hello, this is Sara speaking. Can I speak to Mr Amine?",
+    "ar": "مرحبًا، معك سارة. هل يمكنني التحدث إلى السيد أمين؟"
+   },
+   {
+    "en": "I'm sorry, he's not here right now.",
+    "ar": "آسف، إنه غير موجود الآن."
+   },
+   {
+    "en": "Could you ask him to call me back, please?",
+    "ar": "هل يمكنك أن تطلب منه الاتصال بي، من فضلك؟"
+   },
+   {
+    "en": "My number is zero five five, one two three.",
+    "ar": "رقمي صفر خمسة خمسة، واحد اثنان ثلاثة."
+   },
+   {
+    "en": "Sorry, the line is bad. Could you say that again?",
+    "ar": "آسف، الخط سيّئ. هل يمكنك إعادة ذلك؟"
+   },
+   {
+    "en": "Can I leave a message for him?",
+    "ar": "هل يمكنني ترك رسالة له؟"
+   },
+   {
+    "en": "I'm calling about the appointment on Thursday.",
+    "ar": "أتصل بخصوص الموعد يوم الخميس."
+   },
+   {
+    "en": "Could you hold on a moment, please?",
+    "ar": "هل يمكنك الانتظار لحظة، من فضلك؟"
+   },
+   {
+    "en": "Thanks for calling. Have a nice day!",
+    "ar": "شكرًا لاتصالك. أتمنى لك يومًا سعيدًا!"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-10",
+  "l": "A2",
+  "title": "At the university office",
+  "titleAr": "في مكتب الجامعة",
+  "lines": [
+   {
+    "en": "Good morning, I'd like to ask about my timetable.",
+    "ar": "صباح الخير، أودّ أن أسأل عن جدول حصصي."
+   },
+   {
+    "en": "Where can I hand in this registration form?",
+    "ar": "أين يمكنني تسليم استمارة التسجيل هذه؟"
+   },
+   {
+    "en": "Do I need to bring any other documents?",
+    "ar": "هل أحتاج إلى إحضار أي وثائق أخرى؟"
+   },
+   {
+    "en": "When will the exam results be published?",
+    "ar": "متى ستُنشر نتائج الامتحانات؟"
+   },
+   {
+    "en": "I missed the lecture because I was ill.",
+    "ar": "فاتتني المحاضرة لأنني كنت مريضًا."
+   },
+   {
+    "en": "Is it possible to change my group?",
+    "ar": "هل من الممكن أن أغيّر فوجي؟"
+   },
+   {
+    "en": "What time does the office close today?",
+    "ar": "في أي ساعة يُغلق المكتب اليوم؟"
+   },
+   {
+    "en": "Could I get a certificate to prove I'm a student?",
+    "ar": "هل يمكنني الحصول على شهادة تثبت أنني طالب؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-11",
+  "l": "A2",
+  "title": "At the bank",
+  "titleAr": "في البنك",
+  "lines": [
+   {
+    "en": "I'd like to open a bank account, please.",
+    "ar": "أودّ فتح حساب بنكي، من فضلك."
+   },
+   {
+    "en": "What documents do I need to bring with me?",
+    "ar": "ما الوثائق التي أحتاج إلى إحضارها معي؟"
+   },
+   {
+    "en": "Is there a monthly fee for this account?",
+    "ar": "هل هناك رسوم شهرية لهذا الحساب؟"
+   },
+   {
+    "en": "I want to withdraw two hundred euros, please.",
+    "ar": "أريد سحب مئتي يورو، من فضلك."
+   },
+   {
+    "en": "Could you check my balance for me?",
+    "ar": "هل يمكنك التحقق من رصيدي من أجلي؟"
+   },
+   {
+    "en": "My card doesn't work at the cash machine.",
+    "ar": "بطاقتي لا تعمل في جهاز الصراف الآلي."
+   },
+   {
+    "en": "How long does an international transfer take?",
+    "ar": "كم يستغرق التحويل الدولي من الوقت؟"
+   },
+   {
+    "en": "Can I make an appointment with an adviser?",
+    "ar": "هل يمكنني حجز موعد مع مستشار؟"
+   }
+  ]
+ },
+ {
+  "id": "sh-a2-12",
+  "l": "A2",
+  "title": "Talking about your day",
+  "titleAr": "الحديث عن يومك",
+  "lines": [
+   {
+    "en": "I woke up at six and had a quick breakfast.",
+    "ar": "استيقظت في السادسة وتناولت فطورًا سريعًا."
+   },
+   {
+    "en": "Then I took the bus to the university.",
+    "ar": "ثم ركبت الحافلة إلى الجامعة."
+   },
+   {
+    "en": "I had two lectures and a short meeting.",
+    "ar": "حضرت محاضرتين واجتماعًا قصيرًا."
+   },
+   {
+    "en": "At lunchtime, I ate with my friends in the canteen.",
+    "ar": "في وقت الغداء أكلت مع أصدقائي في المطعم الجامعي."
+   },
+   {
+    "en": "In the afternoon, I studied in the library for hours.",
+    "ar": "بعد الظهر درست في المكتبة لساعات."
+   },
+   {
+    "en": "I was very tired, so I came home early.",
+    "ar": "كنت متعبًا جدًا، فعدت إلى البيت مبكرًا."
+   },
+   {
+    "en": "After dinner, I called my parents and watched the news.",
+    "ar": "بعد العشاء اتصلت بوالديّ وشاهدت الأخبار."
+   },
+   {
+    "en": "Tomorrow I have an exam, so I'll go to bed early.",
+    "ar": "غدًا لدي امتحان، لذا سأنام مبكرًا."
+   }
+  ]
+ }
+]

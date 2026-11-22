@@ -1,0 +1,434 @@
+[
+ {
+  "id": "w1-13",
+  "l": "B1",
+  "chart": "pie",
+  "title": "How a typical household in Country A spends its monthly income",
+  "unit": "%",
+  "x": [
+   "Housing",
+   "Food",
+   "Transport",
+   "Education",
+   "Leisure",
+   "Other"
+  ],
+  "series": [
+   {
+    "name": "Household spending",
+    "data": [
+     35,
+     25,
+     15,
+     10,
+     10,
+     5
+    ]
+   }
+  ],
+  "prompt": "The pie chart below shows how a typical household in Country A divides its monthly income between six types of spending. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The pie chart shows how a typical household in Country A divides its monthly income between six types of spending.\n\nOverall, housing and food together took up the majority of the budget, whereas leisure and other items accounted for only a small share of the total, with transport falling in between.\n\nHousing was the largest category, at 35% of total income, followed by food at 25%. Together, these two basic needs accounted for 60% of all spending. Transport came next with 15%, which was 10 percentage points lower than the figure for food.\n\nEducation and leisure each took exactly 10% of the household budget, so families spent the same amount on learning as on free-time activities. The remaining 5% was spent on other items, making this the smallest category of all. In other words, housing was seven times as large as the final category, and it was more than three times the size of the share spent on either education or leisure.",
+  "keyAr": "السكن والغذاء معًا يستهلكان 60% من الدخل (35% و25%). يليهما النقل (15%)، ثم التعليم والترفيه بـ 10% لكل منهما، والبنود الأخرى الأصغر (5%). السكن سبعة أضعاف الفئة الأخيرة.",
+  "phr": [
+   "divides its income between …",
+   "accounted for … of the total",
+   "followed by …",
+   "Together, these … accounted for …",
+   "each took exactly …",
+   "the smallest category of all"
+  ]
+ },
+ {
+  "id": "w1-14",
+  "l": "B2",
+  "chart": "pie",
+  "title": "Sources of electricity in Country B, 1990 and 2020",
+  "unit": "%",
+  "x": [
+   "Coal",
+   "Oil",
+   "Gas",
+   "Hydropower",
+   "Wind and solar"
+  ],
+  "series": [
+   {
+    "name": "1990",
+    "data": [
+     52,
+     20,
+     15,
+     11,
+     2
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     18,
+     4,
+     38,
+     12,
+     28
+    ]
+   }
+  ],
+  "prompt": "The two pie charts below show the sources of electricity in Country B in 1990 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The two pie charts compare the sources of electricity in Country B in 1990 and 2020.\n\nOverall, the country moved away from coal and oil towards gas and renewable energy. Coal was the dominant source in 1990, but by 2020 gas had taken over as the main one. Renewable sources, including hydropower, grew in importance, from 13% to 40% of the total.\n\nIn 1990, coal supplied just over half of the country's electricity, at 52%, followed by oil at 20% and gas at 15%. Hydropower provided 11%, while wind and solar power contributed a mere 2%, making them the smallest source.\n\nBy 2020 the picture had changed considerably. Coal's share had fallen to 18%, and oil had almost disappeared, at 4%. Gas, in contrast, rose to 38% and became the largest source, and wind and solar energy expanded dramatically from 2% to 28%. Hydropower remained relatively stable, rising by only one percentage point to 12%. Taken together, coal and oil provided 72% of electricity in 1990 but only 22% thirty years later.",
+  "keyAr": "تحولت الدولة B من الفحم والنفط إلى الغاز والطاقة المتجددة. كان الفحم المصدر الأول عام 1990 (52%) وأصبح الغاز الأول عام 2020 (38%). قفزت الرياح والشمس من 2% إلى 28% وبقيت المائية شبه ثابتة (11% إلى 12%).",
+  "phr": [
+   "moved away from … towards …",
+   "the dominant source",
+   "a mere 2%",
+   "had almost disappeared",
+   "expanded dramatically",
+   "remained relatively stable"
+  ]
+ },
+ {
+  "id": "w1-15",
+  "l": "B2",
+  "chart": "pie",
+  "title": "Reasons for visiting City X, 2005 and 2020",
+  "unit": "%",
+  "x": [
+   "Leisure",
+   "Business",
+   "Visiting relatives",
+   "Education",
+   "Medical care"
+  ],
+  "series": [
+   {
+    "name": "2005",
+    "data": [
+     40,
+     30,
+     18,
+     8,
+     4
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     48,
+     14,
+     22,
+     10,
+     6
+    ]
+   }
+  ],
+  "prompt": "The pie charts below show the main reasons why people visited City X in 2005 and in 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The two pie charts show the main reasons why people visited City X in 2005 and in 2020.\n\nOverall, leisure was the leading reason in both years, and its share increased, while business travel declined sharply. Every other category grew slightly over the period. Taken together, leisure and business made up 70% of visits in 2005, but only 62% in 2020.\n\nIn 2005, 40% of visitors came for leisure, and business was a clear second at 30%. Visits to relatives made up 18% of the total, whereas education and medical care were much smaller, at 8% and 4% respectively.\n\nBy 2020, leisure had risen to 48%, which was almost half of all visits. The share of business visitors, however, more than halved, falling from 30% to 14%, and this placed it behind visits to relatives, which had grown to 22%. Education and medical care both increased a little, to 10% and 6% respectively, but they remained the least common reasons for coming to the city, as they had been fifteen years earlier.",
+  "keyAr": "بقيت السياحة الترفيهية السبب الأول في العامين (40% ثم 48%)، وانخفضت زيارات الأعمال بشدة (من 30% إلى 14%) فصارت خلف زيارة الأقارب (22%). ازداد التعليم والعلاج قليلًا (8% إلى 10% و4% إلى 6%) وبقيا الأقل.",
+  "phr": [
+   "the leading reason",
+   "a clear second",
+   "made up … of the total",
+   "more than halved",
+   "placed it behind …",
+   "the least common reasons"
+  ]
+ },
+ {
+  "id": "w1-16",
+  "l": "C1",
+  "chart": "pie",
+  "title": "Sources of income of a university in Country H, 2000 and 2020",
+  "unit": "%",
+  "x": [
+   "Government grants",
+   "Student fees",
+   "Research contracts",
+   "Donations",
+   "Commercial activities",
+   "Investments"
+  ],
+  "series": [
+   {
+    "name": "2000",
+    "data": [
+     52,
+     24,
+     10,
+     6,
+     5,
+     3
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     28,
+     38,
+     16,
+     8,
+     7,
+     3
+    ]
+   }
+  ],
+  "prompt": "The pie charts below show where a university in Country H obtained its income in 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The two pie charts illustrate where a university in Country H obtained its income in 2000 and 2020.\n\nOverall, the university shifted from relying on state support to depending on its students. Government grants were the largest source in 2000, but by 2020 student fees had taken over. Most other sources grew modestly, and investments were the only one that did not change.\n\nIn 2000, more than half of the income, 52%, came from government grants, with student fees supplying 24%. Research contracts contributed 10%, donations 6% and commercial activities 5%, while investments provided only 3%.\n\nTwenty years later, government funding had dropped to 28%, whereas fees rose to 38% and became the principal source. Research contracts also grew, from 10% to 16%, and donations and commercial activities increased slightly, to 8% and 7% respectively. Investments stayed at 3%, which was the smallest share in both years. Together, government grants and student fees supplied 66% of the income in 2020, compared with 76% in 2000.",
+  "keyAr": "تحولت الجامعة من الاعتماد على المنح الحكومية (52% عام 2000 ثم 28%) إلى رسوم الطلاب (24% ثم 38%) التي أصبحت المصدر الأول. نمت عقود البحث (10% إلى 16%) وزادت التبرعات والأنشطة التجارية قليلًا، وبقيت الاستثمارات 3%.",
+  "phr": [
+   "obtained its income",
+   "shifted from … to …",
+   "took over",
+   "the principal source",
+   "increased slightly, to …",
+   "the smallest share in both years"
+  ]
+ },
+ {
+  "id": "w1-17",
+  "l": "B1",
+  "chart": "table",
+  "title": "Average rainfall in three towns by season",
+  "unit": "mm",
+  "x": [
+   "Spring",
+   "Summer",
+   "Autumn",
+   "Winter"
+  ],
+  "series": [
+   {
+    "name": "Town A",
+    "data": [
+     60,
+     20,
+     75,
+     110
+    ]
+   },
+   {
+    "name": "Town B",
+    "data": [
+     85,
+     45,
+     90,
+     70
+    ]
+   },
+   {
+    "name": "Town C",
+    "data": [
+     30,
+     5,
+     25,
+     40
+    ]
+   }
+  ],
+  "prompt": "The table below shows the average rainfall in three towns during the four seasons of the year. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table compares the average rainfall, in millimetres, in three towns during the four seasons of the year.\n\nOverall, Town B was the wettest town in total, while Town C was by far the driest. Summer was the driest season in all three towns.\n\nIn summer, Town A received 20 mm of rain, Town B 45 mm and Town C only 5 mm, which was the lowest figure in the table. Spring was wetter, with 60 mm in Town A, 85 mm in Town B and 30 mm in Town C.\n\nAutumn brought 75 mm to Town A and 90 mm to Town B, the highest autumn figure, while Town C received just 25 mm. In winter, Town A had the heaviest rainfall of all, at 110 mm, compared with 70 mm in Town B and 40 mm in Town C. Over the whole year, Town B recorded 290 mm in total, slightly more than Town A, with 265 mm, whereas Town C received only 100 mm.",
+  "keyAr": "كانت البلدة B الأمطر مجموعًا (290 ملم) والبلدة C الأجف بفارق كبير (100 ملم). الصيف أجف فصل في البلدات الثلاث (5 ملم في C). سجلت A أعلى رقم في الجدول شتاءً (110 ملم).",
+  "phr": [
+   "the wettest / the driest",
+   "by far the driest",
+   "the lowest figure in the table",
+   "compared with …",
+   "the heaviest rainfall of all",
+   "in total"
+  ]
+ },
+ {
+  "id": "w1-18",
+  "l": "B2",
+  "chart": "table",
+  "title": "International visitors to five countries (millions)",
+  "unit": "million",
+  "x": [
+   "Country A",
+   "Country B",
+   "Country C",
+   "Country D",
+   "Country E"
+  ],
+  "series": [
+   {
+    "name": "2000",
+    "data": [
+     12,
+     30,
+     8,
+     20,
+     5
+    ]
+   },
+   {
+    "name": "2010",
+    "data": [
+     18,
+     34,
+     15,
+     19,
+     9
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     25,
+     22,
+     31,
+     21,
+     14
+    ]
+   }
+  ],
+  "prompt": "The table below gives information about the number of international visitors, in millions, to five countries in 2000, 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table gives information about the number of international visitors, in millions, to five countries in 2000, 2010 and 2020.\n\nOverall, visitor numbers rose in four of the five countries, with Country C showing the most remarkable growth. Country B, in contrast, was the only one to experience a decline, although it was the most visited country in the first two years.\n\nIn 2000, Country B attracted 30 million visitors, far more than Country D with 20 million, Country A with 12 million, Country C with 8 million and Country E with 5 million. By 2010, Country B had increased slightly to 34 million, while Countries A and C rose to 18 and 15 million respectively.\n\nBy 2020 the ranking had changed. Country C's total had almost quadrupled, to 31 million, making it the top destination, and Country A grew to 25 million. Country B fell to 22 million. Country D stayed almost flat at around 20 million throughout, and Country E, although it nearly tripled to 14 million, remained the least visited.",
+  "keyAr": "زاد عدد الزوار في أربع دول من خمس، وأكبر نمو في الدولة C (من 8 إلى 31 مليونًا) فصارت الأولى عام 2020. الدولة B الوحيدة التي تراجعت (من 34 إلى 22) بعد أن كانت الأولى. بقيت D شبه ثابتة وE الأقل (14).",
+  "phr": [
+   "gives information about …",
+   "the most remarkable growth",
+   "the only one to …",
+   "had almost quadrupled",
+   "stayed almost flat",
+   "remained the least visited"
+  ]
+ },
+ {
+  "id": "w1-19",
+  "l": "B2",
+  "chart": "table",
+  "title": "Households owning four devices in five regions",
+  "unit": "%",
+  "x": [
+   "North",
+   "South",
+   "East",
+   "West",
+   "Central"
+  ],
+  "series": [
+   {
+    "name": "Laptop",
+    "data": [
+     78,
+     55,
+     66,
+     82,
+     38
+    ]
+   },
+   {
+    "name": "Smartphone",
+    "data": [
+     95,
+     88,
+     92,
+     97,
+     79
+    ]
+   },
+   {
+    "name": "Tablet",
+    "data": [
+     52,
+     35,
+     40,
+     61,
+     22
+    ]
+   },
+   {
+    "name": "Smart TV",
+    "data": [
+     60,
+     41,
+     72,
+     58,
+     30
+    ]
+   }
+  ],
+  "prompt": "The table below shows the percentage of households that owned four types of electronic device in five regions of a country. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table shows the percentage of households owning four types of electronic device in five regions of a country.\n\nOverall, smartphones were by far the most widespread device in every region, while tablets were generally the least common. The West had the highest ownership levels for three of the four devices, whereas the Central region had the lowest for all four.\n\nSmartphone ownership ranged from 79% in the Central region to 97% in the West, and it exceeded 85% in every other region. Laptops were also popular in the West, at 82%, and in the North, at 78%, but only 38% of Central households had one.\n\nSmart TVs showed a different pattern: the East led with 72%, ahead of the North with 60% and the West with 58%, while the Central figure was only 30%. Tablets were owned by 61% of households in the West and 52% in the North, but by just 40% in the East, 35% in the South and 22% in the Central region.",
+  "keyAr": "الهواتف الذكية الأكثر انتشارًا في كل المناطق (79% إلى 97%) والأجهزة اللوحية الأقل عادةً. الغرب الأعلى في ثلاثة أجهزة والوسط الأدنى في الأربعة جميعها. تتصدر المنطقة الشرقية في التلفزيونات الذكية (72%).",
+  "phr": [
+   "by far the most widespread",
+   "generally the least common",
+   "ranged from … to …",
+   "exceeded …",
+   "showed a different pattern",
+   "ahead of …"
+  ]
+ },
+ {
+  "id": "w1-20",
+  "l": "C1",
+  "chart": "table",
+  "title": "Graduates by subject area in Country J (thousands)",
+  "unit": "thousand",
+  "x": [
+   "Computer science",
+   "Engineering",
+   "Medicine",
+   "Law",
+   "Education",
+   "Business"
+  ],
+  "series": [
+   {
+    "name": "2005",
+    "data": [
+     4,
+     22,
+     8,
+     11,
+     20,
+     15
+    ]
+   },
+   {
+    "name": "2010",
+    "data": [
+     9,
+     25,
+     10,
+     13,
+     18,
+     19
+    ]
+   },
+   {
+    "name": "2015",
+    "data": [
+     18,
+     27,
+     12,
+     12,
+     15,
+     24
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     31,
+     26,
+     15,
+     10,
+     13,
+     28
+    ]
+   }
+  ],
+  "prompt": "The table below shows how many students graduated, in thousands, in six subject areas in Country J in 2005, 2010, 2015 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The table shows how many students graduated, in thousands, in six subject areas in Country J in 2005, 2010, 2015 and 2020.\n\nOverall, the number of graduates grew in computer science, business and medicine, whereas it declined in education and, after an early rise, in law. Engineering remained fairly stable and stayed among the largest fields, but computer science changed the most and became the biggest field by 2020.\n\nIn 2005, engineering led with 22 thousand graduates, followed by education with 20 thousand and business with 15 thousand, while computer science produced only 4 thousand. Over the next fifteen years, computer science expanded rapidly to 9, 18 and finally 31 thousand, overtaking engineering between 2015 and 2020. Business also grew steadily, from 15 to 28 thousand.\n\nEngineering fluctuated within a narrow range, peaking at 27 thousand in 2015 and ending at 26 thousand. Medicine rose gradually from 8 to 15 thousand. Law peaked at 13 thousand in 2010 and then fell to 10 thousand, while education showed a continuous decline, from 20 thousand in 2005 to 13 thousand in 2020.",
+  "keyAr": "نما عدد الخريجين في علوم الحاسوب (4 إلى 31 ألفًا) والأعمال (15 إلى 28) والطب (8 إلى 15)، وانخفض في التربية (20 إلى 13) والقانون بعد ذروته 13 عام 2010. بقيت الهندسة مستقرة نسبيًا (22 إلى 27) وتجاوزتها الحاسوب بين 2015 و2020.",
+  "phr": [
+   "grew in …, whereas it declined in …",
+   "changed the most",
+   "expanded rapidly",
+   "overtaking … between … and …",
+   "fluctuated within a narrow range",
+   "a continuous decline"
+  ]
+ }
+]

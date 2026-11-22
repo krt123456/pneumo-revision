@@ -1,0 +1,752 @@
+[
+ {
+  "w": "quietude",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "سكون، هدوء تام",
+  "d": "a state of calm, peaceful stillness",
+  "ex": "The quietude of the mountain village made it perfect for writing.",
+  "x": "quietude"
+ },
+ {
+  "w": "quirky",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غريب الأطوار، طريف",
+  "d": "unusual in a charming or slightly odd way",
+  "ex": "The hotel had quirky decorations, including a bicycle hanging from the ceiling.",
+  "x": "quirky"
+ },
+ {
+  "w": "quarry",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "محجر، مقلع",
+  "d": "a place where stone or minerals are dug out of the ground",
+  "ex": "The disused quarry now provides a home for rare birds.",
+  "x": "quarry"
+ },
+ {
+  "w": "radiate",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يشعّ، ينبعث",
+  "d": "to send out light or heat, or to show a feeling strongly",
+  "ex": "The warm fireplace radiated heat across the whole living room.",
+  "x": "radiated"
+ },
+ {
+  "w": "rally",
+  "p": "v",
+  "l": "B2",
+  "t": "government",
+  "ar": "يتجمّع، يحشد التأييد",
+  "d": "to come together to support a cause, or to recover strength",
+  "ex": "Thousands of citizens rallied outside parliament to demand reform.",
+  "x": "rallied"
+ },
+ {
+  "w": "ravage",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يدمّر، يخرّب",
+  "d": "to cause severe damage or destruction to something",
+  "ex": "The floods ravaged farmland and destroyed hundreds of homes.",
+  "x": "ravaged"
+ },
+ {
+  "w": "rowdy",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "صاخب، فوضوي",
+  "d": "noisy, disorderly and difficult to control",
+  "ex": "The rowdy crowd at the stadium shouted through the whole match.",
+  "x": "rowdy"
+ },
+ {
+  "w": "rebellion",
+  "p": "n",
+  "l": "B2",
+  "t": "government",
+  "ar": "تمرّد، عصيان",
+  "d": "an organised refusal to obey a government or authority",
+  "ex": "The rebellion spread quickly through the northern provinces.",
+  "x": "rebellion"
+ },
+ {
+  "w": "recline",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يستلقي، يتكئ",
+  "d": "to lean back or lie down in a relaxed position",
+  "ex": "She reclined on the sofa and closed her eyes for a while.",
+  "x": "reclined"
+ },
+ {
+  "w": "refine",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يُحسّن، يُهذّب",
+  "d": "to make something more precise, pure or polished",
+  "ex": "The team refined the design after testing it with real users.",
+  "x": "refined"
+ },
+ {
+  "w": "rejoice",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يبتهج، يفرح",
+  "d": "to feel or show great happiness about something good",
+  "ex": "Fans rejoiced when the team finally won the national cup.",
+  "x": "rejoiced"
+ },
+ {
+  "w": "relish",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يستمتع بشدّة، يتلذّذ",
+  "d": "to enjoy something very much and look forward to it",
+  "ex": "Many students relish the challenge of difficult essay questions.",
+  "x": "relish"
+ },
+ {
+  "w": "reminisce",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يستعيد الذكريات",
+  "d": "to talk or think about happy memories from the past",
+  "ex": "The old friends reminisced about their university days over dinner.",
+  "x": "reminisced"
+ },
+ {
+  "w": "rebound",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يرتدّ، يتعافى من نكسة",
+  "d": "to bounce back, or recover quickly after a setback",
+  "ex": "The economy rebounded strongly once the new policy took effect.",
+  "x": "rebounded"
+ },
+ {
+  "w": "reprieve",
+  "p": "n",
+  "l": "B2",
+  "t": "law",
+  "ar": "تأجيل تنفيذ العقوبة، مهلة",
+  "d": "a delay in punishment, or a temporary relief from trouble",
+  "ex": "The prisoner received a last-minute reprieve from the governor.",
+  "x": "reprieve"
+ },
+ {
+  "w": "rickety",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متهالك، مهتزّ",
+  "d": "unsteady and likely to collapse or break",
+  "ex": "They climbed a rickety wooden ladder to reach the attic.",
+  "x": "rickety"
+ },
+ {
+  "w": "revere",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُبجّل، يُوقّر",
+  "d": "to respect and admire someone or something very deeply",
+  "ex": "Students revere their teacher for her patience and fairness.",
+  "x": "revere"
+ },
+ {
+  "w": "ripple",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "تموّج، تأثير متدرّج",
+  "d": "a small wave on water, or a gradual effect spreading outward",
+  "ex": "The decision sent ripples through the local economy for months.",
+  "x": "ripples"
+ },
+ {
+  "w": "rummage",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "ينبش، يفتّش بعجالة",
+  "d": "to search through things in a messy or quick way",
+  "ex": "He rummaged through the drawer looking for his passport.",
+  "x": "rummaged"
+ },
+ {
+  "w": "rouse",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يوقظ، يُحرّك المشاعر",
+  "d": "to wake someone up, or to stir strong feelings in people",
+  "ex": "The speech roused the crowd and encouraged them to vote.",
+  "x": "roused"
+ },
+ {
+  "w": "rubble",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "أنقاض، حطام",
+  "d": "broken pieces of stone, brick or concrete after a building collapses",
+  "ex": "Rescue teams searched through the rubble for survivors all night.",
+  "x": "rubble"
+ },
+ {
+  "w": "sanctuary",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "ملاذ، محمية",
+  "d": "a safe place where people or animals are protected from harm",
+  "ex": "The national park is a sanctuary for rare birds and wildlife.",
+  "x": "sanctuary"
+ },
+ {
+  "w": "savvy",
+  "p": "adj",
+  "l": "B2",
+  "t": "work",
+  "ar": "حاذق، ذكي عملياً",
+  "d": "shrewd and well informed, especially about business or technology",
+  "ex": "The savvy entrepreneur spotted the new market before its rivals did.",
+  "x": "savvy"
+ },
+ {
+  "w": "savour",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يتذوّق ببطء، يستمتع بـ",
+  "d": "to enjoy something slowly and fully, especially food or a moment",
+  "ex": "She savoured every bite of the rich chocolate cake.",
+  "x": "savoured"
+ },
+ {
+  "w": "scoff",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يسخر، يستهزئ",
+  "d": "to mock or express scornful disbelief about something",
+  "ex": "Some critics scoffed at the idea of a free public library.",
+  "x": "scoffed"
+ },
+ {
+  "w": "scour",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يجوب بدقّة، يفتّش",
+  "d": "to search an area very thoroughly for something",
+  "ex": "Investigators scoured the forest for any sign of the missing hiker.",
+  "x": "scoured"
+ },
+ {
+  "w": "seep",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يتسرّب ببطء، ينفذ",
+  "d": "to flow slowly through small gaps or openings",
+  "ex": "Rainwater seeped through the cracks in the old basement wall.",
+  "x": "seeped"
+ },
+ {
+  "w": "seethe",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يغلي غضباً، يفور",
+  "d": "to be very angry, though trying not to show it",
+  "ex": "The residents were seething after the council ignored their complaints.",
+  "x": "seething"
+ },
+ {
+  "w": "serene",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "هادئ، صافٍ",
+  "d": "calm, peaceful and untroubled",
+  "ex": "The lake looked serene in the early morning light.",
+  "x": "serene"
+ },
+ {
+  "w": "shrivel",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "ينكمش، يذبل",
+  "d": "to shrink and wrinkle, usually from heat, cold or lack of water",
+  "ex": "The leaves shrivelled in the heat after weeks without rain.",
+  "x": "shrivelled"
+ },
+ {
+  "w": "shimmer",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يتلألأ، يلمع",
+  "d": "to shine with a soft, trembling light",
+  "ex": "The sea shimmered under the moonlight as the boat drifted past.",
+  "x": "shimmered"
+ },
+ {
+  "w": "shrill",
+  "p": "adj",
+  "l": "B2",
+  "t": "communication",
+  "ar": "حادّ، صاخب",
+  "d": "high-pitched and piercing in sound",
+  "ex": "A shrill whistle from the referee stopped the game immediately.",
+  "x": "shrill"
+ },
+ {
+  "w": "singe",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يَلفح، يحرق سطحياً",
+  "d": "to burn the surface of something slightly",
+  "ex": "The chef singed the peppers over a flame to bring out the flavour.",
+  "x": "singed"
+ },
+ {
+  "w": "skimp",
+  "p": "v",
+  "l": "B2",
+  "t": "money",
+  "ar": "يقتّر، يُقلّل",
+  "d": "to spend as little as possible, often with poor results",
+  "ex": "Do not skimp on safety equipment when building the new tower.",
+  "x": "skimp"
+ },
+ {
+  "w": "slumber",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "ينام، يغفو",
+  "d": "to sleep quietly, especially in a calm or peaceful way",
+  "ex": "The old dog continued to slumber by the fire all evening.",
+  "x": "slumber"
+ },
+ {
+  "w": "sneer",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يتهكّم، يبتسم ساخراً",
+  "d": "to smile or speak in a scornful, unkind way",
+  "ex": "The critic sneered at the film's cheap special effects.",
+  "x": "sneered"
+ },
+ {
+  "w": "sombre",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "كئيب، جادّ حزين",
+  "d": "dark or serious in mood, often because of grief",
+  "ex": "The sombre crowd stood in silence at the memorial.",
+  "x": "sombre"
+ },
+ {
+  "w": "spartan",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "بسيط، خالٍ من الرفاهية",
+  "d": "very simple and plain, without comfort or luxury",
+  "ex": "The monks lived in spartan rooms with only a bed and a desk.",
+  "x": "spartan"
+ },
+ {
+  "w": "spiteful",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "حاقد، مُؤذٍ عمداً",
+  "d": "deliberately unkind, and wanting to hurt someone",
+  "ex": "The spiteful comments on the website hurt the young actor badly.",
+  "x": "spiteful"
+ },
+ {
+  "w": "splendid",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "رائع، فاخر",
+  "d": "very good, impressive or magnificent to look at",
+  "ex": "The palace gardens were splendid in the spring sunshine.",
+  "x": "splendid"
+ },
+ {
+  "w": "squalid",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "بائس، قذر",
+  "d": "dirty, neglected and in very bad condition",
+  "ex": "The migrants were housed in squalid rooms with no clean water.",
+  "x": "squalid"
+ },
+ {
+  "w": "squabble",
+  "p": "n",
+  "l": "B2",
+  "t": "communication",
+  "ar": "شجار صغير، خصام تافه",
+  "d": "a noisy, petty argument over something unimportant",
+  "ex": "The children had a squabble over who would sit by the window.",
+  "x": "squabble"
+ },
+ {
+  "w": "stealthy",
+  "p": "adj",
+  "l": "B2",
+  "t": "crime",
+  "ar": "متسلّل، خفيّ",
+  "d": "moving or acting quietly and secretly so as not to be noticed",
+  "ex": "A stealthy thief entered the shop through the back door.",
+  "x": "stealthy"
+ },
+ {
+  "w": "sterile",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "معقّم، عقيم",
+  "d": "completely clean and free from germs, or unable to produce",
+  "ex": "The surgeon worked in a sterile room with special equipment.",
+  "x": "sterile"
+ },
+ {
+  "w": "sulk",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يتذمّر بصمت، يتجهّم",
+  "d": "to be silent and bad-tempered because you are upset",
+  "ex": "After losing the game, the boy sulked in his room all afternoon.",
+  "x": "sulked"
+ },
+ {
+  "w": "surly",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "عابس، فظّ",
+  "d": "rude and bad-tempered in a sullen way",
+  "ex": "The surly waiter ignored us for almost twenty minutes.",
+  "x": "surly"
+ },
+ {
+  "w": "suspicion",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "شك، ارتياب",
+  "d": "a feeling that someone is guilty or that something is wrong",
+  "ex": "The officer's suspicion grew when the driver kept checking the mirror.",
+  "x": "suspicion"
+ },
+ {
+  "w": "swagger",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يتبختر، يتيه",
+  "d": "to walk in a confident, arrogant or showy way",
+  "ex": "The young footballer swaggered onto the pitch as if he owned it.",
+  "x": "swaggered"
+ },
+ {
+  "w": "sweltering",
+  "p": "adj",
+  "l": "B2",
+  "t": "weather",
+  "ar": "خانق الحرارة",
+  "d": "uncomfortably hot, with very high temperatures",
+  "ex": "Students fanned themselves in the sweltering classroom during June.",
+  "x": "sweltering"
+ },
+ {
+  "w": "swift",
+  "p": "adj",
+  "l": "B2",
+  "t": "movement",
+  "ar": "سريع، عاجل",
+  "d": "happening quickly, or moving at great speed",
+  "ex": "The police took swift action after the report of the robbery.",
+  "x": "swift"
+ },
+ {
+  "w": "sympathetic",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متعاطف، متفهّم",
+  "d": "showing care and understanding for someone's problems",
+  "ex": "The manager was sympathetic when I explained my family emergency.",
+  "x": "sympathetic"
+ },
+ {
+  "w": "scaffold",
+  "p": "n",
+  "l": "B2",
+  "t": "work",
+  "ar": "سقالة، هيكل مؤقت",
+  "d": "a temporary structure of poles used to support workers on a building",
+  "ex": "Workers on the scaffold repainted the upper windows of the office block.",
+  "x": "scaffold"
+ },
+ {
+  "w": "scramble",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يتسلّق بسرعة، يتزاحم",
+  "d": "to move or climb quickly and awkwardly, often in a hurry",
+  "ex": "Children scrambled up the rocks to see the waterfall.",
+  "x": "scrambled"
+ },
+ {
+  "w": "seasoned",
+  "p": "adj",
+  "l": "B2",
+  "t": "work",
+  "ar": "متمرّس، خبير",
+  "d": "experienced and skilled through long practice in a field",
+  "ex": "The seasoned journalist knew exactly which questions to ask.",
+  "x": "seasoned"
+ },
+ {
+  "w": "sedate",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "هادئ، رزين",
+  "d": "calm, slow and dignified, without excitement or haste",
+  "ex": "The sedate pace of life in the village suited retired teachers.",
+  "x": "sedate"
+ },
+ {
+  "w": "shuffle",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يتثاقل في المشي، يخلط",
+  "d": "to walk slowly without lifting the feet, or to mix things around",
+  "ex": "The old man shuffled along the corridor with his walking stick.",
+  "x": "shuffled"
+ },
+ {
+  "w": "sift",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يغربل، يفرز بعناية",
+  "d": "to examine information carefully to separate what is important",
+  "ex": "Researchers sifted through thousands of documents to find the truth.",
+  "x": "sifted"
+ },
+ {
+  "w": "sneak",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يتسلّل خفية",
+  "d": "to move quietly and secretly so that nobody notices you",
+  "ex": "The boy tried to sneak into the cinema without buying a ticket.",
+  "x": "sneak"
+ },
+ {
+  "w": "sleek",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "أنيق، انسيابي",
+  "d": "smooth, shiny and elegant in shape or appearance",
+  "ex": "The new car had a sleek design and a quiet engine.",
+  "x": "sleek"
+ },
+ {
+  "w": "smirk",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يبتسم ابتسامة ساخرة",
+  "d": "to smile in a smug or mocking way",
+  "ex": "The defendant smirked when the verdict was read aloud.",
+  "x": "smirked"
+ },
+ {
+  "w": "snatch",
+  "p": "v",
+  "l": "B2",
+  "t": "crime",
+  "ar": "ينتزع، يخطف",
+  "d": "to take something quickly and roughly from someone",
+  "ex": "A thief tried to snatch her handbag at the bus stop.",
+  "x": "snatch"
+ },
+ {
+  "w": "sober",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "رصين، متزن",
+  "d": "serious and calm, not showing excessive emotion",
+  "ex": "The committee gave a sober assessment of the company's losses.",
+  "x": "sober"
+ },
+ {
+  "w": "solace",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "عزاء، سلوى",
+  "d": "comfort received at a time of sadness or disappointment",
+  "ex": "Music brought some solace to the family during their grief.",
+  "x": "solace"
+ },
+ {
+  "w": "sour",
+  "p": "adj",
+  "l": "B2",
+  "t": "food",
+  "ar": "حامض، مرّ",
+  "d": "having a sharp, acidic taste, or unpleasant in mood",
+  "ex": "The lemon tasted sour, so she added a spoon of sugar.",
+  "x": "sour"
+ },
+ {
+  "w": "squeamish",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "سريع الاشمئزاز، رقيق المشاعر",
+  "d": "easily upset or disgusted by unpleasant things",
+  "ex": "Some squeamish students looked away during the medical demonstration.",
+  "x": "squeamish"
+ },
+ {
+  "w": "startling",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مُفاجئ، صادم",
+  "d": "surprising and shocking, often because it was unexpected",
+  "ex": "The startling results of the survey changed the government's plans.",
+  "x": "startling"
+ },
+ {
+  "w": "stellar",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "ممتاز، لامع",
+  "d": "excellent, outstanding, or very impressive in quality",
+  "ex": "Her stellar performance in the final exam earned her a scholarship.",
+  "x": "stellar"
+ },
+ {
+  "w": "stingy",
+  "p": "adj",
+  "l": "B2",
+  "t": "money",
+  "ar": "بخيل، شحيح",
+  "d": "unwilling to spend money or give generously to others",
+  "ex": "The stingy landlord refused to repair the broken heating.",
+  "x": "stingy"
+ },
+ {
+  "w": "stricken",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مُصاب بالحزن، منكوب",
+  "d": "badly affected by fear, grief, illness or disaster",
+  "ex": "The stricken family waited for news from the hospital all night.",
+  "x": "stricken"
+ },
+ {
+  "w": "stutter",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يتلعثم",
+  "d": "to speak with repeated sounds, often because of nerves",
+  "ex": "He stuttered slightly when he introduced himself to the panel.",
+  "x": "stuttered"
+ },
+ {
+  "w": "sturdy",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متين، قوي البنيان",
+  "d": "strongly built and not easily damaged or broken",
+  "ex": "The workers built a sturdy wooden bridge over the stream.",
+  "x": "sturdy"
+ },
+ {
+  "w": "submerge",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يغمر، يُغرق",
+  "d": "to cover something completely with water or another liquid",
+  "ex": "Heavy rain submerged the lower streets of the old town.",
+  "x": "submerged"
+ },
+ {
+  "w": "suffocate",
+  "p": "v",
+  "l": "B2",
+  "t": "health",
+  "ar": "يختنق، يُخنق",
+  "d": "to be unable to breathe, or to stop someone from breathing",
+  "ex": "Smoke from the fire began to suffocate the people trapped upstairs.",
+  "x": "suffocate"
+ },
+ {
+  "w": "sumptuous",
+  "p": "adj",
+  "l": "B2",
+  "t": "food",
+  "ar": "فاخر، شهيّ",
+  "d": "rich, luxurious and very generous, usually of food or furnishings",
+  "ex": "The guests enjoyed a sumptuous dinner with roast lamb and fresh bread.",
+  "x": "sumptuous"
+ },
+ {
+  "w": "superb",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "ممتاز، رائع",
+  "d": "extremely good, excellent or of outstanding quality",
+  "ex": "The chef's superb sauce was praised by every critic in the city.",
+  "x": "superb"
+ }
+]

@@ -1,0 +1,412 @@
+[
+ {
+  "id": "r-b2-13",
+  "l": "B2",
+  "title": "Whistleblowers and the Public Interest",
+  "topic": "law",
+  "paras": [
+   "A whistleblower is a person who reveals wrongdoing inside an organisation, usually a company or a government department, to people who can stop it. The wrongdoing may be fraud, dangerous working conditions, or the hiding of safety risks. Because whistleblowers often know about problems before anyone outside does, they can prevent harm that would otherwise stay hidden for years.",
+   "Yet speaking out carries heavy costs. Employees who report concerns frequently face dismissal, threats, or exclusion by colleagues. Some find that future employers are reluctant to hire them, since they are seen as disloyal. A number of studies of workplaces suggest that fear of such treatment is the most common reason why staff stay silent about misconduct they have witnessed.",
+   "For this reason, many countries have passed laws to protect people who report. These laws usually contain three main elements. First, they allow a person to report anonymously or in confidence. Second, they forbid an employer from punishing someone who has reported in good faith. Third, they offer a route to compensation if punishment occurs anyway. However, protection on paper does not always translate into protection in practice, as workers may not know that the law exists or may doubt that officials will enforce it.",
+   "Reports can travel along different channels. Internal channels, such as a manager or an ethics hotline, are generally encouraged first because they let an organisation correct its own mistakes quickly. External channels include regulators, the police and elected representatives. A third option is public disclosure through the media, which most laws allow only in limited circumstances, for example when there is an immediate danger to life or when earlier reports have been ignored. Critics of this last route argue that unverified information can damage innocent people's reputations, while supporters reply that publicity is sometimes the only force strong enough to make powerful institutions act.",
+   "The question of motive also divides opinion. Some commentators suggest that a whistleblower who acts out of anger or hope of personal gain is less trustworthy. Legal experts, however, tend to say that motive matters far less than accuracy. If the information is true and concerns a serious risk, the public benefits regardless of the reporter's feelings. Courts therefore usually ask whether the person reasonably believed the information to be true, not whether he or she was a saint.",
+   "Technology has changed the practice in recent years. Secure online platforms allow people to send documents without revealing their names, and some organisations now run such systems on behalf of the public. At the same time, digital records make it easier for employers to trace the source of a leak, so careful reporters must think hard about how they send material. Whatever the method, the central idea remains the same: societies are safer and fairer when those who see wrongdoing can speak about it without fear. A culture that rewards honesty, rather than silence, is likely to detect problems sooner and at lower cost."
+  ],
+  "gloss": [
+   {
+    "w": "whistleblower",
+    "ar": "مُبلِّغ عن المخالفات"
+   },
+   {
+    "w": "misconduct",
+    "ar": "سوء سلوك مهني"
+   },
+   {
+    "w": "dismissal",
+    "ar": "فصل من العمل"
+   },
+   {
+    "w": "anonymously",
+    "ar": "دون الكشف عن الاسم"
+   },
+   {
+    "w": "compensation",
+    "ar": "تعويض"
+   },
+   {
+    "w": "disclosure",
+    "ar": "إفصاح، كشف"
+   },
+   {
+    "w": "motive",
+    "ar": "دافع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 1,
+    "o": [
+     "The personal risks of speaking out",
+     "Why companies hire honest staff",
+     "How courts punish dishonest employers",
+     "The history of workplace laws"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Whistleblowers may be aware of a problem before people outside the organisation are.",
+    "a": "T",
+    "why": "الفقرة 1: يعرفون المشكلات قبل غيرهم من الخارج."
+   },
+   {
+    "k": "tfng",
+    "q": "Most laws require a person who reports wrongdoing to give his or her name.",
+    "a": "F",
+    "why": "الفقرة 3: القوانين تسمح بالتبليغ دون كشف الهوية."
+   },
+   {
+    "k": "tfng",
+    "q": "Whistleblowers who go to the media are more successful than those who use internal channels.",
+    "a": "NG",
+    "why": "الفقرة 4: لا يقارن النص بين نجاح القناتين."
+   },
+   {
+    "k": "tfng",
+    "q": "Legal protection can fail if workers doubt that the law will be applied.",
+    "a": "T",
+    "why": "الفقرة 3: قد لا يثق العمال بتطبيق القانون."
+   },
+   {
+    "k": "mc",
+    "q": "Why are internal channels usually suggested first?",
+    "o": [
+     "They are the only legal route.",
+     "They allow an organisation to fix its errors fast.",
+     "They protect the reporter's identity completely.",
+     "They avoid involving managers."
+    ],
+    "a": 1,
+    "why": "الفقرة 4: تتيح للمؤسسة تصحيح أخطائها بسرعة."
+   },
+   {
+    "k": "mc",
+    "q": "What do courts mainly consider when judging a whistleblower's motive?",
+    "o": [
+     "Whether the reporter was angry",
+     "Whether the reporter gained money",
+     "Whether the reporter reasonably thought the information true",
+     "Whether the reporter used the media"
+    ],
+    "a": 2,
+    "why": "الفقرة 5: المحاكم تسأل هل اعتقد المبلّغ بشكل معقول صحة المعلومات."
+   },
+   {
+    "k": "gap",
+    "q": "Most laws allow public disclosure through the media only in ___ circumstances.",
+    "a": [
+     "limited"
+    ],
+    "why": "الفقرة 4: في ظروف محدودة فقط."
+   },
+   {
+    "k": "gap",
+    "q": "Digital records make it easier for employers to trace the ___ of a leak.",
+    "a": [
+     "source"
+    ],
+    "why": "الفقرة 6: تتبع مصدر التسريب."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main idea of the final paragraph?",
+    "o": [
+     "Technology has made reporting impossible.",
+     "Honest reporting is helped by safe systems, but risks remain.",
+     "Employers should read all digital records.",
+     "Anonymous platforms are illegal in most countries."
+    ],
+    "a": 1,
+    "why": "الفقرة 6: التقنية تساعد، لكن تتبع المصدر ما زال ممكناً."
+   }
+  ],
+  "sumAr": "النص يشرح دور المبلّغين عن المخالفات في حماية المصلحة العامة وما يواجهونه من مخاطر. ويعرض قوانين الحماية وقنوات التبليغ وأثر التقنية الحديثة."
+ },
+ {
+  "id": "r-b2-14",
+  "l": "B2",
+  "title": "The Economic Cost of Corruption",
+  "topic": "anticorruption",
+  "paras": [
+   "Corruption is often described as a moral failure, but it is also an economic one. When public officials accept bribes or steal public money, the effects spread far beyond the individuals involved. Economists have spent decades trying to measure those effects, and although exact figures are disputed, most agree that corruption slows growth and makes societies poorer. The difficulty is that bribes are secret by nature, so researchers must rely on surveys and indirect evidence rather than on complete records.",
+   "The most direct cost is the loss of public money. When a contract for a road or a hospital is awarded to the company that pays the largest bribe rather than the one that offers the best price, the government pays more for lower quality. Some of the extra cost is simply pocketed, and some is spent on poor materials, so the building may need repairs within a few years. Taxpayers therefore pay twice: once for the original project and again for its replacement.",
+   "Corruption also discourages investment. Businesses, especially foreign ones, prefer countries where rules are predictable. If a firm must pay unofficial fees to obtain a licence, connect to electricity, or clear goods through customs, these payments act like an extra tax, and one that is impossible to plan for. Faced with such uncertainty, many companies decide to invest elsewhere, which means fewer jobs and less technology transfer for the country concerned.",
+   "A third problem concerns the way resources are distributed. Where officials can profit from certain projects, they tend to favour those that are easy to hide, such as large construction schemes, over less visible but more useful ones, such as teacher training or routine maintenance. Public spending on education and health may fall as a result, even when the total budget stays the same. Over time, a workforce that is less healthy and less educated is less productive.",
+   "Small businesses and poorer households are often hit hardest. A large company can afford lawyers and can sometimes negotiate with officials, whereas a market trader or a young entrepreneur may be forced to pay or close down. Surveys in several regions have found that the poor spend a larger share of their income on informal payments for basic services than the wealthy do. Corruption therefore widens inequality, which in turn can reduce social trust and political stability.",
+   "Fortunately, evidence shows that reform can work. Publishing government contracts online, rotating officials between posts, and allowing citizens to track spending have all been associated with lower levels of bribery in some places. Independent audit bodies that are free from political pressure also help. Yet no single measure is enough on its own. Lasting improvement usually requires a combination of clear laws, honest enforcement and a public that is willing to demand accountability."
+  ],
+  "gloss": [
+   {
+    "w": "bribe",
+    "ar": "رشوة"
+   },
+   {
+    "w": "pocketed",
+    "ar": "اختُلس، وُضع في الجيب"
+   },
+   {
+    "w": "predictable",
+    "ar": "يمكن التنبؤ به"
+   },
+   {
+    "w": "customs",
+    "ar": "الجمارك"
+   },
+   {
+    "w": "maintenance",
+    "ar": "صيانة"
+   },
+   {
+    "w": "inequality",
+    "ar": "تفاوت، عدم مساواة"
+   },
+   {
+    "w": "audit",
+    "ar": "تدقيق، مراجعة حسابات"
+   },
+   {
+    "w": "accountability",
+    "ar": "مساءلة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "How corruption changes where money is spent",
+     "Why large projects are popular with voters",
+     "The training of teachers in poor countries",
+     "How budgets are approved each year"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Most economists believe that corruption harms economic growth.",
+    "a": "T",
+    "why": "الفقرة 1: معظم الاقتصاديين متفقون على أنها تبطئ النمو."
+   },
+   {
+    "k": "tfng",
+    "q": "Poorer families spend a smaller share of their income on informal payments than richer families do.",
+    "a": "F",
+    "why": "الفقرة 5: الفقراء ينفقون حصة أكبر لا أصغر."
+   },
+   {
+    "k": "tfng",
+    "q": "Corruption is more common in large countries than in small ones.",
+    "a": "NG",
+    "why": "لا يقارن النص بين الدول الكبيرة والصغيرة."
+   },
+   {
+    "k": "tfng",
+    "q": "Foreign companies pay larger bribes than local companies.",
+    "a": "NG",
+    "why": "لا يذكر النص مقدار ما تدفعه الشركات الأجنبية مقارنة بالمحلية."
+   },
+   {
+    "k": "mc",
+    "q": "Why does the writer say that taxpayers 'pay twice'?",
+    "o": [
+     "They pay taxes and also private fees.",
+     "Poorly built projects must be repaid or rebuilt soon.",
+     "Bribes are added to their bills.",
+     "They must fund two governments."
+    ],
+    "a": 1,
+    "why": "الفقرة 2: المواد الرديئة تستدعي إصلاحاً أو استبدالاً مبكراً."
+   },
+   {
+    "k": "mc",
+    "q": "According to paragraph 3, why do some companies avoid corrupt countries?",
+    "o": [
+     "Unofficial payments are like a tax that cannot be planned.",
+     "Their workers dislike the climate.",
+     "Official taxes there are too high.",
+     "Foreign firms are banned from licences."
+    ],
+    "a": 0,
+    "why": "الفقرة 3: الرسوم غير الرسمية كضريبة لا يمكن التخطيط لها."
+   },
+   {
+    "k": "gap",
+    "q": "Officials favour large construction schemes because they are easy to ___.",
+    "a": [
+     "hide"
+    ],
+    "why": "الفقرة 4: المشاريع السهلة الإخفاء."
+   },
+   {
+    "k": "gap",
+    "q": "Corruption widens ___, which can reduce social trust.",
+    "a": [
+     "inequality"
+    ],
+    "why": "الفقرة 5: يوسّع التفاوت بين الناس."
+   },
+   {
+    "k": "mc",
+    "q": "Which reform is mentioned in the final paragraph?",
+    "o": [
+     "Raising officials' salaries",
+     "Banning foreign investment",
+     "Letting citizens follow public spending",
+     "Closing small businesses"
+    ],
+    "a": 2,
+    "why": "الفقرة 6: السماح للمواطنين بتتبع الإنفاق."
+   }
+  ],
+  "sumAr": "يبيّن النص أن الفساد يضر الاقتصاد عبر هدر المال العام وطرد الاستثمار وسوء توزيع الموارد. كما يوضح أن الفقراء والمشاريع الصغيرة هم الأكثر تضرراً وأن الإصلاح ممكن."
+ },
+ {
+  "id": "r-b2-15",
+  "l": "B2",
+  "title": "Artificial Intelligence in the Courtroom",
+  "topic": "ai",
+  "paras": [
+   "Courts have always depended on human judgement, but artificial intelligence is now entering the courtroom in several ways. Some uses are modest, such as searching thousands of documents in minutes. Others are more controversial, such as software that predicts whether a defendant is likely to commit another offence. Understanding the difference between these uses is essential for anyone who cares about fair trials.",
+   "The least controversial applications save time. In large cases, lawyers may have to read millions of emails and contracts. Programs trained to recognise relevant words and patterns can sort these files far faster than a team of junior staff, and at a lower cost. Similar tools help judges find earlier decisions on a legal point, and chatbots can guide members of the public through court procedures. These systems extend access to justice because they reduce expenses that many people cannot afford.",
+   "A more sensitive use is risk assessment. In some jurisdictions, officials use algorithms to estimate the chance that a person released on bail will fail to return to court or will reoffend. The software compares the individual with data on thousands of earlier cases. Supporters argue that this approach is more consistent than the instincts of a tired judge at the end of a long day. Opponents point out that the data reflect past decisions, and if those decisions were biased against a certain group, the program may repeat the bias while appearing neutral.",
+   "This problem is made worse by a lack of transparency. Many risk tools are produced by private companies that treat their methods as trade secrets. A defendant who is told that a score has influenced his sentence may therefore have no practical way to challenge how it was calculated. Lawyers have argued that this undermines the right to a fair hearing, which depends on the ability to examine the evidence used against you.",
+   "Another worry involves errors. Generative AI systems can produce text that sounds confident but contains invented details, including cases that never existed. Lawyers in several countries have been criticised for submitting such material to courts without checking it. Judges have responded by requiring lawyers to confirm that every source has been verified by a human being.",
+   "In response, many legal bodies are drafting guidelines. Common principles include human oversight of every important decision, clear explanations of how a tool works, regular testing for bias, and the right to object to the use of automated analysis. Most experts agree that AI should assist judges rather than replace them. The reason is not only technical. Passing sentence is an act of public authority, and many people believe that such authority must remain accountable to a person who can explain and defend the decision."
+  ],
+  "gloss": [
+   {
+    "w": "defendant",
+    "ar": "متهم"
+   },
+   {
+    "w": "algorithm",
+    "ar": "خوارزمية"
+   },
+   {
+    "w": "bail",
+    "ar": "كفالة، إفراج مؤقت"
+   },
+   {
+    "w": "reoffend",
+    "ar": "يعود إلى ارتكاب الجريمة"
+   },
+   {
+    "w": "jurisdiction",
+    "ar": "اختصاص قضائي، ولاية قضائية"
+   },
+   {
+    "w": "bias",
+    "ar": "تحيّز"
+   },
+   {
+    "w": "oversight",
+    "ar": "إشراف، رقابة"
+   },
+   {
+    "w": "verified",
+    "ar": "تم التحقق منه"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Secret methods that are hard to challenge",
+     "The low cost of legal software",
+     "Why lawyers dislike private companies",
+     "How judges choose their staff"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Chatbots can help ordinary people understand how court procedures work.",
+    "a": "T",
+    "why": "الفقرة 2: روبوتات المحادثة ترشد الجمهور في الإجراءات."
+   },
+   {
+    "k": "tfng",
+    "q": "Risk assessment software compares a person with information from a single earlier case.",
+    "a": "F",
+    "why": "الفقرة 3: تقارن بيانات آلاف القضايا لا قضية واحدة."
+   },
+   {
+    "k": "tfng",
+    "q": "Risk assessment tools are more accurate than human judges.",
+    "a": "NG",
+    "why": "النص يقول إنها أكثر اتساقاً ولا يذكر الدقة."
+   },
+   {
+    "k": "tfng",
+    "q": "Generative AI is used more by prosecutors than by defence lawyers.",
+    "a": "NG",
+    "why": "لا يذكر النص من يستخدمها أكثر."
+   },
+   {
+    "k": "mc",
+    "q": "Why do supporters favour risk assessment programs?",
+    "o": [
+     "They are cheaper than lawyers.",
+     "They treat cases more consistently than a tired judge may.",
+     "They never use past data.",
+     "They are written by courts."
+    ],
+    "a": 1,
+    "why": "الفقرة 3: أكثر اتساقاً من حدس قاضٍ مرهق."
+   },
+   {
+    "k": "mc",
+    "q": "How have judges reacted to false material produced by AI?",
+    "o": [
+     "They banned all computers.",
+     "They required lawyers to confirm that humans checked sources.",
+     "They stopped accepting written evidence.",
+     "They punished the software companies."
+    ],
+    "a": 1,
+    "why": "الفقرة 5: طلبوا تأكيداً أن إنساناً تحقق من كل مصدر."
+   },
+   {
+    "k": "gap",
+    "q": "Programs can sort files faster than a team of ___ staff.",
+    "a": [
+     "junior"
+    ],
+    "why": "الفقرة 2: موظفين مبتدئين."
+   },
+   {
+    "k": "gap",
+    "q": "Many risk tools are treated as trade ___ by private companies.",
+    "a": [
+     "secrets"
+    ],
+    "why": "الفقرة 4: أسرار تجارية."
+   },
+   {
+    "k": "mc",
+    "q": "What do most experts think about AI in courts?",
+    "o": [
+     "It should replace judges.",
+     "It should help judges but not replace them.",
+     "It should only be used in civil cases.",
+     "It should be tested once only."
+    ],
+    "a": 1,
+    "why": "الفقرة 6: يجب أن تساعد القضاة لا أن تحل محلهم."
+   }
+  ],
+  "sumAr": "يعرض النص استخدامات الذكاء الاصطناعي في المحاكم من فرز الوثائق إلى تقدير المخاطر. ويناقش مشكلات التحيز وغياب الشفافية والأخطاء، ويؤكد ضرورة بقاء القرار بيد القاضي."
+ }
+]

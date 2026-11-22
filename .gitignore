@@ -5,3 +5,9 @@ android/app/src/main/assets/
 android/local.properties
 *.jks
 *.keystore
+__pycache__/
+*.pyc
+gen/
+content/existing_words.txt
+keystore/
+*.apk

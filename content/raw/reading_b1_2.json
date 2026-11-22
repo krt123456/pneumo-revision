@@ -1,0 +1,434 @@
+[
+ {
+  "id": "r-b1-05",
+  "l": "B1",
+  "title": "Sleep and Memory",
+  "topic": "science",
+  "paras": [
+   "Most people know that a poor night makes them feel tired, but fewer realise that sleep also protects memory. While the body rests, the brain is busy. Scientists who study sleep say that it works like a night shift in a library: the day's new information is sorted, stored and connected to older knowledge.",
+   "A night has several stages, which repeat about every ninety minutes. In deep sleep, the brain seems to move facts and events from a short-term store to a long-term one. In the lighter stage, when we dream most, it appears to link ideas and practise skills. Both stages matter, and cutting sleep short removes part of them.",
+   "Experiments support this idea. In a typical study, two groups of students learn a list of words. One group sleeps for eight hours, and the other stays awake all night. Two days later, both groups sleep normally and are tested. The students who slept after learning usually remember more. Lost sleep, it seems, cannot be fully repaid later.",
+   "This has practical lessons for students. Studying until dawn before an exam may feel serious, but it often backfires. A tired mind finds it harder to focus, so less information goes in, and less of it stays. It is wiser to review the material in the evening, go to bed on time, and look at the key points again in the morning.",
+   "Experts also suggest some simple habits. Go to bed and wake up at similar times every day. Keep the bedroom dark, cool and quiet. Avoid heavy meals and strong coffee late in the day. Switch off phones about an hour before sleep, because bright screens can make it harder to fall asleep. A short nap of twenty minutes after lunch can help, but long naps may disturb the night."
+  ],
+  "gloss": [
+   {
+    "w": "memory",
+    "ar": "الذاكرة"
+   },
+   {
+    "w": "stage",
+    "ar": "مرحلة"
+   },
+   {
+    "w": "store",
+    "ar": "مخزن / تخزين"
+   },
+   {
+    "w": "backfire",
+    "ar": "يأتي بنتيجة عكسية"
+   },
+   {
+    "w": "focus",
+    "ar": "يركّز"
+   },
+   {
+    "w": "disturb",
+    "ar": "يُزعج / يُخلّ بـ"
+   },
+   {
+    "w": "nap",
+    "ar": "قيلولة قصيرة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How do scientists compare sleep to a library?",
+    "o": [
+     "A quiet reading room",
+     "A night shift that sorts and stores information",
+     "A place that closes early"
+    ],
+    "a": 1,
+    "why": "الفقرة 1: النوم كنوبة عمل ليلية تفرز المعلومات وتخزنها."
+   },
+   {
+    "k": "mc",
+    "q": "What seems to happen in deep sleep?",
+    "o": [
+     "The brain stops working",
+     "The brain practises dreams",
+     "The brain moves facts to long-term storage"
+    ],
+    "a": 2,
+    "why": "الفقرة 2: تنتقل المعلومات من الذاكرة القصيرة إلى الطويلة."
+   },
+   {
+    "k": "tfng",
+    "q": "The stages of a night repeat about every ninety minutes.",
+    "a": "T",
+    "why": "الفقرة 2: تتكرر المراحل كل تسعين دقيقة تقريبًا."
+   },
+   {
+    "k": "tfng",
+    "q": "Students who stay awake all night remember more than those who sleep.",
+    "a": "F",
+    "why": "الفقرة 3: الذين ناموا يتذكرون أكثر."
+   },
+   {
+    "k": "tfng",
+    "q": "The study mentioned involved more than one hundred students.",
+    "a": "NG",
+    "why": "النص لا يذكر عدد الطلاب."
+   },
+   {
+    "k": "gap",
+    "q": "Review the material in the evening and look at key points again in the ___.",
+    "a": [
+     "morning"
+    ],
+    "why": "الفقرة 4: المراجعة مرة أخرى في الصباح."
+   },
+   {
+    "k": "gap",
+    "q": "Keep the bedroom dark, cool and ___.",
+    "a": [
+     "quiet"
+    ],
+    "why": "الفقرة 5: غرفة النوم مظلمة وباردة وهادئة."
+   },
+   {
+    "k": "tfng",
+    "q": "A twenty-minute nap after lunch can help.",
+    "a": "T",
+    "why": "الفقرة 5: قيلولة قصيرة بعد الغداء قد تفيد."
+   }
+  ],
+  "sumAr": "النوم يحمي الذاكرة لأن الدماغ يرتب المعلومات ويخزنها ليلًا. لذلك لا يفيد السهر قبل الامتحان، وتساعد عادات بسيطة مثل النوم في وقت منتظم وغرفة هادئة وإبعاد الهاتف."
+ },
+ {
+  "id": "r-b1-06",
+  "l": "B1",
+  "title": "Working from Home",
+  "topic": "work",
+  "paras": [
+   "Since the arrival of fast internet and video calls, millions of employees have started to work from home, at least for part of the week. For some, it is a dream: no crowded train, no early alarm, and a quiet space to think. For others, it brings surprising difficulties. As with most changes, the truth lies somewhere in the middle.",
+   "The advantages are easy to see. Workers save time and money on travel, and many say that they can concentrate better without noise from colleagues. Parents can be present when children return from school. Companies also benefit, because they can hire people who live far away and sometimes need smaller offices.",
+   "However, there are real disadvantages. Some people feel lonely because they miss casual conversations at the coffee machine. Others find it hard to stop working, since the laptop is always on the kitchen table. Without a clear end to the day, they answer emails late at night and feel tired in the morning. Managers, meanwhile, sometimes worry about how to check that work is done.",
+   "Good habits can solve many of these problems. It helps to have a fixed place for work, even a small desk in the corner of a room. A regular timetable, with breaks and a clear finishing time, protects free time. Short walks outside improve mood, and a quick video call with a colleague can replace the office chat. Employers can help by agreeing on clear goals instead of counting hours.",
+   "Many companies now prefer a hybrid model, in which staff work at home on some days and in the office on others. This allows teams to meet face to face for planning and creative work, while keeping quiet days for tasks that need focus. Whether it is the future for everyone is still debated, but it has clearly changed how we think about work."
+  ],
+  "gloss": [
+   {
+    "w": "employee",
+    "ar": "موظف"
+   },
+   {
+    "w": "concentrate",
+    "ar": "يركّز"
+   },
+   {
+    "w": "colleague",
+    "ar": "زميل عمل"
+   },
+   {
+    "w": "casual",
+    "ar": "عفوي / غير رسمي"
+   },
+   {
+    "w": "timetable",
+    "ar": "جدول زمني"
+   },
+   {
+    "w": "hybrid",
+    "ar": "هجين"
+   },
+   {
+    "w": "debated",
+    "ar": "موضع نقاش"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why do many workers concentrate better at home?",
+    "o": [
+     "They have no tasks",
+     "There is less noise from colleagues",
+     "They work fewer hours"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: بلا ضجيج الزملاء."
+   },
+   {
+    "k": "mc",
+    "q": "Why do some people find it hard to stop working?",
+    "o": [
+     "Their manager calls them",
+     "They have no holidays",
+     "The laptop is always on the kitchen table"
+    ],
+    "a": 2,
+    "why": "الفقرة 3: الحاسوب دائمًا على طاولة المطبخ."
+   },
+   {
+    "k": "tfng",
+    "q": "Companies can hire people who live far away.",
+    "a": "T",
+    "why": "الفقرة 2: يمكن توظيف من يسكنون بعيدًا."
+   },
+   {
+    "k": "tfng",
+    "q": "Working at home is better for all employees.",
+    "a": "F",
+    "why": "الفقرة 1 و3: له مزايا وعيوب ولا يناسب الجميع."
+   },
+   {
+    "k": "tfng",
+    "q": "Most employees would like to work at home permanently.",
+    "a": "NG",
+    "why": "النص لا يذكر رأي أغلبية الموظفين."
+   },
+   {
+    "k": "gap",
+    "q": "Employers can agree on clear ___ instead of counting hours.",
+    "a": [
+     "goals"
+    ],
+    "why": "الفقرة 4: أهداف واضحة بدل عدّ الساعات."
+   },
+   {
+    "k": "gap",
+    "q": "Many companies prefer a ___ model.",
+    "a": [
+     "hybrid"
+    ],
+    "why": "الفقرة 5: النموذج الهجين."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer says that a fixed place for work can help.",
+    "a": "T",
+    "why": "الفقرة 4: من المفيد تخصيص مكان ثابت للعمل."
+   }
+  ],
+  "sumAr": "للعمل من المنزل مزايا مثل توفير الوقت والمال وهدوء التركيز، وله عيوب مثل الشعور بالوحدة وصعوبة إنهاء اليوم. تساعد عادات واضحة، وكثير من الشركات تفضل النموذج الهجين."
+ },
+ {
+  "id": "r-b1-07",
+  "l": "B1",
+  "title": "A Young Entrepreneur's First Shop",
+  "topic": "business",
+  "paras": [
+   "Salma was twenty-three when she opened her first shop, a small bakery near a university. She had worked in a café for three years and saved money every month. Her family thought the idea was risky, but she had a clear plan, and she was determined to try. \"If it fails,\" she told them, \"at least I will have learned something.\"",
+   "The first problem was money. Her savings covered only half of the costs, so she asked a small-business fund for a loan. She prepared a simple plan showing the cost of ovens, rent and flour, and how many loaves she needed to sell each day. The fund approved a smaller amount than she hoped, so she bought one good oven instead of two and found a second-hand display counter.",
+   "Choosing the location was the next challenge. Rents in the city centre were too high, but a street near the university had thousands of students walking past every day. She spent a week counting people outside the empty shop and noting the busiest hours. This simple research convinced her that the place was right.",
+   "The opening week was difficult. On the second day, the oven broke, and she had to throw away a whole batch. A friend lent her a smaller one, and she worked until midnight. Customers were patient, and some even offered advice. By the end of the month, she realised that students loved her cheap breakfast offer, while office workers wanted bread after five o'clock, so she changed her opening hours.",
+   "A year later, Salma has two part-time employees and a loyal group of regular customers. She says that she learned three lessons: keep costs low at the start, listen to customers, and never be afraid to change plans. She is now thinking about selling her bread online, but she wants to be sure that the quality stays high."
+  ],
+  "gloss": [
+   {
+    "w": "risky",
+    "ar": "محفوف بالمخاطر"
+   },
+   {
+    "w": "determined",
+    "ar": "عازمة / مصمّمة"
+   },
+   {
+    "w": "loan",
+    "ar": "قرض"
+   },
+   {
+    "w": "loaf",
+    "ar": "رغيف"
+   },
+   {
+    "w": "batch",
+    "ar": "دفعة (من الخبز)"
+   },
+   {
+    "w": "location",
+    "ar": "موقع"
+   },
+   {
+    "w": "loyal",
+    "ar": "وفيّ"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How did Salma choose the location of her shop?",
+    "o": [
+     "She asked her family",
+     "She counted people passing the empty shop",
+     "She copied another bakery"
+    ],
+    "a": 1,
+    "why": "الفقرة 3: قضت أسبوعًا تعدّ المارّة وتسجل ساعات الذروة."
+   },
+   {
+    "k": "mc",
+    "q": "Why did she buy only one oven?",
+    "o": [
+     "The fund approved less money than she hoped",
+     "Ovens were not available",
+     "She did not need two"
+    ],
+    "a": 0,
+    "why": "الفقرة 2: وافق الصندوق على مبلغ أقل."
+   },
+   {
+    "k": "tfng",
+    "q": "Salma's family was sure that her idea was safe.",
+    "a": "F",
+    "why": "الفقرة 1: رأت عائلتها أن الفكرة محفوفة بالمخاطر."
+   },
+   {
+    "k": "tfng",
+    "q": "The oven broke on the second day.",
+    "a": "T",
+    "why": "الفقرة 4: تعطل الفرن في اليوم الثاني."
+   },
+   {
+    "k": "tfng",
+    "q": "Her bakery makes cakes for weddings.",
+    "a": "NG",
+    "why": "النص لا يذكر كعك الأعراس."
+   },
+   {
+    "k": "gap",
+    "q": "Rents in the city centre were too ___.",
+    "a": [
+     "high"
+    ],
+    "why": "الفقرة 3: الإيجارات مرتفعة جدًا."
+   },
+   {
+    "k": "gap",
+    "q": "Students loved her cheap ___ offer.",
+    "a": [
+     "breakfast"
+    ],
+    "why": "الفقرة 4: عرض الفطور الرخيص."
+   },
+   {
+    "k": "tfng",
+    "q": "Salma now has two full-time employees.",
+    "a": "F",
+    "why": "الفقرة 5: لديها موظفان بدوام جزئي."
+   }
+  ],
+  "sumAr": "افتتحت سلمى مخبزًا صغيرًا قرب جامعة بعد خطة واضحة وقرض محدود. واجهت أعطالًا وتحديات، لكنها تعلمت أن تُبقي التكاليف منخفضة وتصغي إلى الزبائن وتغيّر خطتها عند الحاجة."
+ },
+ {
+  "id": "r-b1-08",
+  "l": "B1",
+  "title": "Life at the Edge of a Great Desert",
+  "topic": "nature",
+  "paras": [
+   "The town of Tamar, an imaginary place, lies where green farmland ends and the great sand desert begins. From the roof of the old school, you can see both worlds: palm trees and small gardens on one side, and endless red dunes on the other. About twenty thousand people live here, and their lives are shaped by a simple fact: water is precious.",
+   "Summers are extremely hot, with daytime temperatures above forty-five degrees. People wake before dawn to do heavy work, rest indoors during the afternoon, and come out again in the evening, when the air cools. Houses are built with thick walls and narrow streets, which give shade. Many families also sleep on the roof on the hottest nights.",
+   "Water comes from deep wells and from an old system of underground channels that carries water from the hills to the gardens. Farmers share it by a strict timetable, and each family knows the hours when it can open its channel. They grow dates, wheat and vegetables under the tall palms, which protect the lower plants from sun and wind.",
+   "The desert is also a danger. Strong winds can lift sand into the air, and sometimes a storm covers roads and fields in a few hours. After a storm, neighbours work together to clear the paths. Young people learn early how to protect their eyes and faces with a long scarf, and how to read the sky for signs of coming wind.",
+   "In recent years, tourism has brought new work. Visitors come to ride camels, sleep in tents and watch the stars, which are extremely bright because there are no city lights. Local guides explain the history of the desert routes and the plants that survive there. Residents welcome the income, but they also worry that too many visitors could use too much water and leave rubbish. They hope to find a balance between old traditions and new opportunities."
+  ],
+  "gloss": [
+   {
+    "w": "dune",
+    "ar": "كثيب رملي"
+   },
+   {
+    "w": "precious",
+    "ar": "ثمين"
+   },
+   {
+    "w": "shade",
+    "ar": "ظل"
+   },
+   {
+    "w": "channel",
+    "ar": "قناة"
+   },
+   {
+    "w": "strict",
+    "ar": "صارم"
+   },
+   {
+    "w": "scarf",
+    "ar": "وشاح"
+   },
+   {
+    "w": "income",
+    "ar": "دخل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What shapes the lives of people in Tamar?",
+    "o": [
+     "The fact that water is precious",
+     "The number of tourists",
+     "The cold winters"
+    ],
+    "a": 0,
+    "why": "الفقرة 1: حياتهم تتشكل بندرة الماء."
+   },
+   {
+    "k": "mc",
+    "q": "Why are the houses built with thick walls and narrow streets?",
+    "o": [
+     "To keep animals out",
+     "To stop the wind",
+     "To give shade"
+    ],
+    "a": 2,
+    "why": "الفقرة 2: لتوفير الظل."
+   },
+   {
+    "k": "tfng",
+    "q": "About twenty thousand people live in Tamar.",
+    "a": "T",
+    "why": "الفقرة 1: نحو عشرين ألف نسمة."
+   },
+   {
+    "k": "tfng",
+    "q": "Farmers can open their water channel whenever they like.",
+    "a": "F",
+    "why": "الفقرة 3: الري وفق جدول صارم."
+   },
+   {
+    "k": "tfng",
+    "q": "There is a hospital in the town.",
+    "a": "NG",
+    "why": "النص لا يذكر مستشفى."
+   },
+   {
+    "k": "gap",
+    "q": "Farmers grow dates, wheat and vegetables under tall ___.",
+    "a": [
+     "palms"
+    ],
+    "why": "الفقرة 3: تحت النخيل العالي."
+   },
+   {
+    "k": "gap",
+    "q": "Young people protect their faces with a long ___.",
+    "a": [
+     "scarf"
+    ],
+    "why": "الفقرة 4: وشاح طويل."
+   },
+   {
+    "k": "tfng",
+    "q": "Stars look very bright because there are no city lights.",
+    "a": "T",
+    "why": "الفقرة 5: لا توجد أضواء مدينة."
+   }
+  ],
+  "sumAr": "تعيش بلدة خيالية على حافة صحراء كبرى حيث الماء ثمين والحر شديد. يتكيف السكان بالبيوت الظليلة وتنظيم الري ومواجهة العواصف، وتجلب السياحة دخلًا جديدًا مع قلق على الماء والنظافة."
+ }
+]

@@ -1,0 +1,960 @@
+[
+ {
+  "id": "l-b2-16",
+  "l": "B2",
+  "title": "What transparency means in government",
+  "part": 4,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Welcome back. Today we turn to a word that appears in almost every discussion of good government: transparency. What does it actually mean?"
+   },
+   {
+    "s": "A",
+    "t": "In simple terms, transparency means that the public can see how decisions are made, how money is spent, and who is responsible."
+   },
+   {
+    "s": "A",
+    "t": "The idea is that officials behave better when they know people are watching."
+   },
+   {
+    "s": "A",
+    "t": "Let me break the concept into three parts. The first is the right to request information."
+   },
+   {
+    "s": "A",
+    "t": "Many countries now have freedom of information laws, which allow citizens to ask for official documents."
+   },
+   {
+    "s": "A",
+    "t": "The earliest such law was passed in Sweden in the eighteenth century, though most others appeared after nineteen sixty."
+   },
+   {
+    "s": "A",
+    "t": "The second part is proactive publication. Instead of waiting for requests, governments publish budgets, contracts and meeting records on their own initiative."
+   },
+   {
+    "s": "A",
+    "t": "This saves citizens the trouble of asking, and it saves officials the trouble of answering."
+   },
+   {
+    "s": "A",
+    "t": "The third part is participation. Transparency is more useful when people can attend public meetings, comment on draft laws and report concerns."
+   },
+   {
+    "s": "A",
+    "t": "Let me give an example. Imagine a city that decides to publish every contract worth more than ten thousand dollars."
+   },
+   {
+    "s": "A",
+    "t": "Within months, a local journalist notices that three different schools paid very different prices for identical desks."
+   },
+   {
+    "s": "A",
+    "t": "Questions are asked, the supplier is changed, and the city saves money. Nobody needed to prove corruption; simply seeing the information was enough."
+   },
+   {
+    "s": "A",
+    "t": "However, transparency has limits. Some information must stay confidential, such as personal medical records or details of national security."
+   },
+   {
+    "s": "A",
+    "t": "The challenge is to decide where to draw the line, and the usual principle is that secrecy needs a clear reason, while openness needs none."
+   },
+   {
+    "s": "A",
+    "t": "There is a second limitation. Publishing a huge number of documents is not the same as being open."
+   },
+   {
+    "s": "A",
+    "t": "If the files are in a confusing format or buried on a website nobody can find, citizens learn nothing. Critics call this a data dump."
+   },
+   {
+    "s": "A",
+    "t": "Real transparency means information that is easy to find, to read and to compare."
+   },
+   {
+    "s": "A",
+    "t": "Finally, remember that transparency alone does not punish anyone. It must be connected to accountability, which means there are consequences when officials misuse their power."
+   },
+   {
+    "s": "A",
+    "t": "Without that, people may see the problem clearly but feel unable to change it."
+   },
+   {
+    "s": "A",
+    "t": "In our next session, we will look at the tools that connect transparency to accountability. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "transparency",
+    "ar": "الشفافية"
+   },
+   {
+    "w": "proactive",
+    "ar": "استباقي"
+   },
+   {
+    "w": "accountability",
+    "ar": "المساءلة"
+   },
+   {
+    "w": "confidential",
+    "ar": "سري"
+   },
+   {
+    "w": "supplier",
+    "ar": "مورّد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "According to the lecturer, why does transparency improve behaviour?",
+    "o": [
+     "Officials are paid more",
+     "Officials know people are watching",
+     "Laws become shorter"
+    ],
+    "a": 1,
+    "why": "الفكرة أن الموظفين يتصرفون أفضل حين يعرفون أنهم مراقَبون."
+   },
+   {
+    "k": "gap",
+    "q": "The earliest freedom of information law was passed in ___.",
+    "a": [
+     "Sweden"
+    ],
+    "why": "أقدم قانون لحرية المعلومات في السويد."
+   },
+   {
+    "k": "mc",
+    "q": "What does proactive publication mean?",
+    "o": [
+     "Citizens write to officials for documents",
+     "Journalists find secret documents",
+     "Governments publish information on their own initiative"
+    ],
+    "a": 2,
+    "why": "الحكومة تنشر دون انتظار الطلبات."
+   },
+   {
+    "k": "gap",
+    "q": "In the example, the city publishes every contract worth more than ___ dollars.",
+    "a": [
+     "10,000",
+     "10000",
+     "ten thousand"
+    ],
+    "why": "العقود التي تتجاوز عشرة آلاف دولار."
+   },
+   {
+    "k": "mc",
+    "q": "What did the journalist discover?",
+    "o": [
+     "Schools paid very different prices for identical desks",
+     "A supplier had stolen money",
+     "Some contracts were missing"
+    ],
+    "a": 0,
+    "why": "ثلاث مدارس دفعت أسعاراً مختلفة جداً لمكاتب متطابقة."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says secrecy needs a clear reason.",
+    "a": "T",
+    "why": "المبدأ: السرية تحتاج مبرراً واضحاً أما الانفتاح فلا."
+   },
+   {
+    "k": "mc",
+    "q": "What is a data dump?",
+    "o": [
+     "Deleting old files",
+     "Publishing huge numbers of documents that are hard to use",
+     "A report leaked to journalists"
+    ],
+    "a": 1,
+    "why": "نشر كمّ هائل من الملفات يصعب فهمه أو إيجاده."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says transparency by itself punishes officials who misuse power.",
+    "a": "F",
+    "why": "الشفافية وحدها لا تعاقب، يلزم ربطها بالمساءلة."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-17",
+  "l": "B2",
+  "title": "How machines learn from data",
+  "part": 4,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. Today's topic is how machines learn from data, a subject that sounds mysterious but rests on a few simple ideas."
+   },
+   {
+    "s": "A",
+    "t": "Let us start with a comparison. In traditional programming, a person writes the rules. If an email contains the words free prize, mark it as spam."
+   },
+   {
+    "s": "A",
+    "t": "The computer follows the rules exactly, but it only catches what the programmer thought of."
+   },
+   {
+    "s": "A",
+    "t": "Machine learning reverses this."
+   },
+   {
+    "s": "A",
+    "t": "Instead of writing rules, we give the computer thousands of examples, each labelled as spam or not spam, and a learning algorithm looks for patterns that separate the two groups."
+   },
+   {
+    "s": "A",
+    "t": "The result is called a model."
+   },
+   {
+    "s": "A",
+    "t": "This approach is known as supervised learning, because the examples come with correct answers, like a teacher marking homework."
+   },
+   {
+    "s": "A",
+    "t": "It is the most common type used today, for tasks such as recognising faces or predicting house prices."
+   },
+   {
+    "s": "A",
+    "t": "A crucial step is testing. Researchers usually keep about twenty percent of their data hidden during training."
+   },
+   {
+    "s": "A",
+    "t": "After training, they show the model this unseen data and measure how often it is right."
+   },
+   {
+    "s": "A",
+    "t": "If they tested on the same examples used for learning, the results would be misleadingly good."
+   },
+   {
+    "s": "A",
+    "t": "That brings us to overfitting. An overfitted model has memorised the training examples, including their accidental details, instead of learning general patterns."
+   },
+   {
+    "s": "A",
+    "t": "It is like a student who memorises last year's exam paper and then fails when the questions change."
+   },
+   {
+    "s": "A",
+    "t": "The second type is unsupervised learning. Here there are no labels, and the algorithm simply searches for natural groups."
+   },
+   {
+    "s": "A",
+    "t": "A shop might use it to discover that its customers fall into four distinct kinds of buyer, without anyone telling the computer what to look for."
+   },
+   {
+    "s": "A",
+    "t": "The third type is reinforcement learning. The system tries actions and receives rewards or penalties, so it improves through trial and error."
+   },
+   {
+    "s": "A",
+    "t": "This is how programs have learned to play complex board games, sometimes playing millions of games against themselves."
+   },
+   {
+    "s": "A",
+    "t": "Now an important warning. A model learns whatever patterns are in its data, including unfair ones."
+   },
+   {
+    "s": "A",
+    "t": "Suppose a company trains a hiring tool on the records of past employees, and most of those employees were men."
+   },
+   {
+    "s": "A",
+    "t": "The tool may learn to prefer men, not because anyone intended it, but because the data reflected the past."
+   },
+   {
+    "s": "A",
+    "t": "This is why data quality matters more than data quantity."
+   },
+   {
+    "s": "A",
+    "t": "And it is why people who work in law and public policy need to understand these systems well enough to question them."
+   },
+   {
+    "s": "A",
+    "t": "Next time, we will look at how to audit an algorithm. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "algorithm",
+    "ar": "خوارزمية"
+   },
+   {
+    "w": "label",
+    "ar": "تصنيف / وسم"
+   },
+   {
+    "w": "overfitting",
+    "ar": "فرط التخصيص"
+   },
+   {
+    "w": "reinforcement",
+    "ar": "تعزيز"
+   },
+   {
+    "w": "audit",
+    "ar": "تدقيق / مراجعة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the weakness of traditional programming for spam?",
+    "o": [
+     "The computer ignores the rules",
+     "It only catches what the programmer thought of",
+     "It is too slow"
+    ],
+    "a": 1,
+    "why": "القواعد تلتقط فقط ما فكّر به المبرمج."
+   },
+   {
+    "k": "gap",
+    "q": "The result of the learning process is called a ___.",
+    "a": [
+     "model"
+    ],
+    "why": "النتيجة تسمى نموذجاً."
+   },
+   {
+    "k": "mc",
+    "q": "Why is it called supervised learning?",
+    "o": [
+     "A teacher watches the computer",
+     "The process is very slow",
+     "The examples come with correct answers"
+    ],
+    "a": 2,
+    "why": "الأمثلة مصحوبة بالإجابات الصحيحة كأن معلماً يصحح."
+   },
+   {
+    "k": "gap",
+    "q": "Researchers usually keep about ___ percent of data hidden for testing.",
+    "a": [
+     "20",
+     "twenty"
+    ],
+    "why": "حوالي عشرين بالمئة."
+   },
+   {
+    "k": "mc",
+    "q": "Overfitting is compared to which kind of student?",
+    "o": [
+     "A tired student",
+     "One who memorises last year's exam paper",
+     "A student with no books"
+    ],
+    "a": 1,
+    "why": "يحفظ ورقة امتحان العام الماضي ويفشل عند تغيّر الأسئلة."
+   },
+   {
+    "k": "gap",
+    "q": "A shop might find that its customers fall into ___ kinds of buyer.",
+    "a": [
+     "4",
+     "four"
+    ],
+    "why": "أربعة أنواع من المشترين."
+   },
+   {
+    "k": "mc",
+    "q": "How does reinforcement learning improve?",
+    "o": [
+     "From labelled examples",
+     "By finding natural groups",
+     "By trial and error with rewards"
+    ],
+    "a": 2,
+    "why": "يتعلم بالتجربة والخطأ والمكافآت."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says the quantity of data matters more than its quality.",
+    "a": "F",
+    "why": "قال إن جودة البيانات أهم من كميتها."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-18",
+  "l": "B2",
+  "title": "Why some languages die",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello everyone. Today we are going to ask why some languages die, and whether anything can be done about it."
+   },
+   {
+    "s": "A",
+    "t": "There are roughly seven thousand languages in the world today."
+   },
+   {
+    "s": "A",
+    "t": "Linguists estimate that around forty percent are endangered, and many experts think about half may disappear by the end of this century."
+   },
+   {
+    "s": "A",
+    "t": "First, what does it mean for a language to die? It does not happen with a sudden disaster."
+   },
+   {
+    "s": "A",
+    "t": "A language is usually considered dead when its last fluent speaker passes away."
+   },
+   {
+    "s": "A",
+    "t": "But the real turning point comes much earlier, when parents stop passing the language on to their children."
+   },
+   {
+    "s": "A",
+    "t": "Why do parents make that choice? The most common reason is economic."
+   },
+   {
+    "s": "A",
+    "t": "If good jobs and university courses require a dominant language, families naturally want their children to master it."
+   },
+   {
+    "s": "A",
+    "t": "They are not rejecting their heritage; they are trying to give their children opportunities."
+   },
+   {
+    "s": "A",
+    "t": "Migration is a second factor. When young people move from villages to big cities, they live and work among speakers of other languages."
+   },
+   {
+    "s": "A",
+    "t": "Their own language is heard only at home, and then less and less."
+   },
+   {
+    "s": "A",
+    "t": "Schools and media play a role as well."
+   },
+   {
+    "s": "A",
+    "t": "If lessons, television and the internet are all in one national language, a small language has no place in modern life."
+   },
+   {
+    "s": "A",
+    "t": "Sometimes there is also social pressure, so that speakers feel embarrassed to use their language in public."
+   },
+   {
+    "s": "A",
+    "t": "Interestingly, the number of speakers is not the only measure of health. A language with a million speakers can be in danger if no children are learning it."
+   },
+   {
+    "s": "A",
+    "t": "A language with only a few thousand speakers can survive if the community uses it daily."
+   },
+   {
+    "s": "A",
+    "t": "Why should we care?"
+   },
+   {
+    "s": "A",
+    "t": "Each language holds a unique store of knowledge, for example names for local plants, traditional methods of navigation or farming, and stories that exist nowhere else."
+   },
+   {
+    "s": "A",
+    "t": "When the language disappears, much of that knowledge goes with it."
+   },
+   {
+    "s": "A",
+    "t": "There are encouraging examples. In Wales, the Welsh language has been supported through schools and television, and the number of young speakers has risen."
+   },
+   {
+    "s": "A",
+    "t": "In New Zealand, communities created preschools where small children learn Maori entirely through the language."
+   },
+   {
+    "s": "A",
+    "t": "Modern technology helps too, since speakers can record words and make learning apps cheaply."
+   },
+   {
+    "s": "A",
+    "t": "The lesson is that revival is possible, but it needs children, and it needs the community to want it. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "endangered",
+    "ar": "مهدَّد بالانقراض"
+   },
+   {
+    "w": "fluent",
+    "ar": "طليق"
+   },
+   {
+    "w": "heritage",
+    "ar": "تراث"
+   },
+   {
+    "w": "migration",
+    "ar": "هجرة"
+   },
+   {
+    "w": "revival",
+    "ar": "إحياء"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "There are roughly ___ languages in the world today.",
+    "a": [
+     "7000",
+     "seven thousand",
+     "7,000"
+    ],
+    "why": "نحو سبعة آلاف لغة."
+   },
+   {
+    "k": "mc",
+    "q": "When is a language usually considered dead?",
+    "o": [
+     "When no one writes it",
+     "When a government bans it",
+     "When its last fluent speaker passes away"
+    ],
+    "a": 2,
+    "why": "تُعدّ ميتة بوفاة آخر متحدث بطلاقة."
+   },
+   {
+    "k": "mc",
+    "q": "What is the real turning point for a language?",
+    "o": [
+     "Parents stop passing it on to children",
+     "The last speaker dies",
+     "A dictionary is published"
+    ],
+    "a": 0,
+    "why": "النقطة الفاصلة حين يتوقف الآباء عن نقلها."
+   },
+   {
+    "k": "mc",
+    "q": "Why do parents often choose a dominant language for their children?",
+    "o": [
+     "They reject their heritage",
+     "They want their children to have opportunities",
+     "The law forces them"
+    ],
+    "a": 1,
+    "why": "السبب اقتصادي: وظائف وجامعات تتطلب اللغة السائدة."
+   },
+   {
+    "k": "tfng",
+    "q": "Moving from villages to big cities can reduce the use of a small language.",
+    "a": "T",
+    "why": "في المدن يُسمع الصغير منها في البيت فقط ثم يقل."
+   },
+   {
+    "k": "tfng",
+    "q": "A language with a million speakers cannot be in danger.",
+    "a": "F",
+    "why": "قد تكون في خطر إن لم يتعلمها الأطفال."
+   },
+   {
+    "k": "gap",
+    "q": "In New Zealand, communities created ___ where small children learn Maori.",
+    "a": [
+     "preschools"
+    ],
+    "why": "رياض أطفال تُدرَّس فيها اللغة بالكامل."
+   },
+   {
+    "k": "mc",
+    "q": "What is the lesson of the lecture?",
+    "o": [
+     "Technology alone can save languages",
+     "Revival needs children and the community's wish",
+     "Languages should only be recorded"
+    ],
+    "a": 1,
+    "why": "الإحياء ممكن لكنه يحتاج أطفالاً ورغبة المجتمع."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-19",
+  "l": "B2",
+  "title": "The economics of water",
+  "part": 4,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. Today we are going to look at the economics of water, which raises a puzzle that economists have discussed for hundreds of years."
+   },
+   {
+    "s": "A",
+    "t": "The puzzle is this. Water is essential for life, yet in most places it is very cheap. Diamonds are not essential, yet they are extremely expensive. Why?"
+   },
+   {
+    "s": "A",
+    "t": "The traditional answer is that price depends not on how useful something is overall, but on how scarce it is at the moment of buying."
+   },
+   {
+    "s": "A",
+    "t": "Where water is plentiful, the next litre has little value."
+   },
+   {
+    "s": "A",
+    "t": "But water is becoming scarce. About ninety-seven percent of the planet's water is salty, and most of the fresh water is frozen or underground."
+   },
+   {
+    "s": "A",
+    "t": "The share that is easy to reach is tiny."
+   },
+   {
+    "s": "A",
+    "t": "Agriculture is the biggest user. Around seventy percent of the fresh water taken from rivers and wells worldwide goes to irrigation."
+   },
+   {
+    "s": "A",
+    "t": "This means that small improvements in farming can save more water than large changes in households."
+   },
+   {
+    "s": "A",
+    "t": "One problem is that farmers and households often pay prices that are far below the true cost of delivering water."
+   },
+   {
+    "s": "A",
+    "t": "Governments keep prices low for good reasons, to protect poorer people, but the effect is waste, because nobody has a reason to save."
+   },
+   {
+    "s": "A",
+    "t": "One solution is tiered pricing. The first portion of water, enough for drinking, cooking and washing, is cheap. Further portions cost more per litre."
+   },
+   {
+    "s": "A",
+    "t": "In this way, essential use is protected while heavy use is discouraged."
+   },
+   {
+    "s": "A",
+    "t": "A second issue is leakage. In some cities, as much as a third of the treated water is lost through broken pipes before it reaches a tap."
+   },
+   {
+    "s": "A",
+    "t": "Repairing them is often cheaper than finding new sources, but repairs are invisible and politicians prefer to cut ribbons on new dams."
+   },
+   {
+    "s": "A",
+    "t": "Third, there is the idea of virtual water, the water used to produce goods."
+   },
+   {
+    "s": "A",
+    "t": "Producing one kilogram of beef takes thousands of litres, whereas a kilogram of wheat takes far fewer. When a dry country imports food, it is effectively importing water."
+   },
+   {
+    "s": "A",
+    "t": "Finally, fairness. In many places, poor households without a connection buy water from vendors and pay several times more per litre than wealthy neighbours who have pipes."
+   },
+   {
+    "s": "A",
+    "t": "Solving this requires investment in networks, not simply lower prices."
+   },
+   {
+    "s": "A",
+    "t": "To conclude, water is an economic problem as well as an environmental one. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "scarce",
+    "ar": "شحيح / نادر"
+   },
+   {
+    "w": "irrigation",
+    "ar": "ري"
+   },
+   {
+    "w": "leakage",
+    "ar": "تسرّب"
+   },
+   {
+    "w": "tiered pricing",
+    "ar": "التسعير المتدرج"
+   },
+   {
+    "w": "vendor",
+    "ar": "بائع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "According to the traditional answer, what mainly determines price?",
+    "o": [
+     "How useful something is overall",
+     "How scarce it is when buying",
+     "The cost of bottles"
+    ],
+    "a": 1,
+    "why": "السعر يتحدد بالندرة لحظة الشراء."
+   },
+   {
+    "k": "gap",
+    "q": "About ___ percent of the planet's water is salty.",
+    "a": [
+     "97",
+     "ninety-seven",
+     "ninety seven"
+    ],
+    "why": "سبعة وتسعون بالمئة مالحة."
+   },
+   {
+    "k": "mc",
+    "q": "Which sector uses the most fresh water?",
+    "o": [
+     "Households",
+     "Industry",
+     "Agriculture"
+    ],
+    "a": 2,
+    "why": "الزراعة والري نحو سبعين بالمئة."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says low water prices encourage people to save water.",
+    "a": "F",
+    "why": "الأسعار المنخفضة تسبب الهدر لأن لا أحد لديه سبب للتوفير."
+   },
+   {
+    "k": "gap",
+    "q": "In tiered pricing, the first portion of water is ___.",
+    "a": [
+     "cheap"
+    ],
+    "why": "الجزء الأول رخيص ثم يزداد السعر."
+   },
+   {
+    "k": "gap",
+    "q": "In some cities, as much as a ___ of treated water is lost through leaks.",
+    "a": [
+     "third",
+     "1/3"
+    ],
+    "why": "يضيع حتى ثلث المياه المعالجة."
+   },
+   {
+    "k": "mc",
+    "q": "Why are pipe repairs often neglected?",
+    "o": [
+     "Repairing pipes costs more than new dams",
+     "Repairs are invisible, so politicians prefer new projects",
+     "The leaks are very small"
+    ],
+    "a": 1,
+    "why": "الإصلاحات غير مرئية فيفضّل السياسيون المشاريع الجديدة."
+   },
+   {
+    "k": "tfng",
+    "q": "Poor households without a connection may pay more per litre than wealthy ones.",
+    "a": "T",
+    "why": "يشترون من الباعة بأسعار أعلى بأضعاف."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-20",
+  "l": "B2",
+  "title": "How scientists test a new medicine",
+  "part": 4,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon. Today I want to explain how scientists test a new medicine before it reaches the pharmacy, a process that often takes ten years or more."
+   },
+   {
+    "s": "A",
+    "t": "It begins in the laboratory. Researchers test a promising substance on cells and then on animals, to see whether it seems to work and whether it is toxic."
+   },
+   {
+    "s": "A",
+    "t": "Most substances fail at this early stage, and only a few move forward."
+   },
+   {
+    "s": "A",
+    "t": "The next step is human testing, which is divided into phases. In phase one, a small group of volunteers, usually between twenty and one hundred, receive the medicine."
+   },
+   {
+    "s": "A",
+    "t": "The main question is safety. Researchers find the highest dose that people can tolerate without serious side effects."
+   },
+   {
+    "s": "A",
+    "t": "In phase two, the medicine is given to a few hundred patients who actually have the illness."
+   },
+   {
+    "s": "A",
+    "t": "Now the question is whether it works, and what dose is best."
+   },
+   {
+    "s": "A",
+    "t": "Phase three is the largest and most expensive. Thousands of patients take part, often in many countries."
+   },
+   {
+    "s": "A",
+    "t": "The new medicine is compared either with the best existing treatment or with a placebo, which is a harmless pill with no active ingredient."
+   },
+   {
+    "s": "A",
+    "t": "Why use a placebo? Because simply believing you are being treated can make you feel better."
+   },
+   {
+    "s": "A",
+    "t": "To separate that effect from the medicine itself, patients are assigned to groups at random, by a computer, so that the groups are similar."
+   },
+   {
+    "s": "A",
+    "t": "In the best trials, the design is double-blind. This means neither the patients nor the doctors know who is receiving the real medicine until the trial is finished."
+   },
+   {
+    "s": "A",
+    "t": "Otherwise, doctors might unconsciously treat or judge the groups differently."
+   },
+   {
+    "s": "A",
+    "t": "When phase three is complete, the company sends all the results to a regulatory agency."
+   },
+   {
+    "s": "A",
+    "t": "Independent experts examine the data, and if the benefits clearly outweigh the risks, the medicine is approved."
+   },
+   {
+    "s": "A",
+    "t": "But testing does not stop there."
+   },
+   {
+    "s": "A",
+    "t": "In phase four, doctors continue to monitor patients after approval, because rare side effects may appear only when hundreds of thousands of people use the medicine."
+   },
+   {
+    "s": "A",
+    "t": "One more point, which is important for public trust."
+   },
+   {
+    "s": "A",
+    "t": "In many countries, companies must register a trial before it begins and must report the results, even if the medicine failed."
+   },
+   {
+    "s": "A",
+    "t": "Without this rule, disappointing results could simply be hidden, and doctors would see only the success stories."
+   },
+   {
+    "s": "A",
+    "t": "To summarise, good testing needs several phases, random groups, blind design and honest reporting. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "trial",
+    "ar": "تجربة سريرية"
+   },
+   {
+    "w": "dose",
+    "ar": "جرعة"
+   },
+   {
+    "w": "placebo",
+    "ar": "دواء وهمي"
+   },
+   {
+    "w": "side effect",
+    "ar": "أثر جانبي"
+   },
+   {
+    "w": "regulatory agency",
+    "ar": "جهة تنظيمية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "Testing a new medicine often takes ___ years or more.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "العملية تستغرق عشر سنوات أو أكثر."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main question in phase one?",
+    "o": [
+     "Does the medicine work?",
+     "Is the medicine safe?",
+     "How much will it cost?"
+    ],
+    "a": 1,
+    "why": "المرحلة الأولى للسلامة وإيجاد أعلى جرعة محتملة."
+   },
+   {
+    "k": "mc",
+    "q": "Who takes part in phase two?",
+    "o": [
+     "Healthy volunteers",
+     "Thousands of patients in many countries",
+     "A few hundred patients with the illness"
+    ],
+    "a": 2,
+    "why": "مئات قليلة من المرضى بالمرض نفسه."
+   },
+   {
+    "k": "gap",
+    "q": "A placebo is a harmless ___ with no active ingredient.",
+    "a": [
+     "pill"
+    ],
+    "why": "حبة غير ضارة بلا مادة فعالة."
+   },
+   {
+    "k": "tfng",
+    "q": "In phase three, doctors decide which patients go into which group.",
+    "a": "F",
+    "why": "التوزيع عشوائي بواسطة الحاسوب."
+   },
+   {
+    "k": "mc",
+    "q": "What does double-blind mean?",
+    "o": [
+     "Neither patients nor doctors know who gets the real medicine",
+     "Only patients do not know",
+     "Results are hidden from regulators"
+    ],
+    "a": 0,
+    "why": "لا المريض ولا الطبيب يعرف حتى انتهاء التجربة."
+   },
+   {
+    "k": "mc",
+    "q": "Why does phase four exist?",
+    "o": [
+     "The company needs advertising data",
+     "Rare side effects may appear only when very many people use it",
+     "Earlier phases were not completed"
+    ],
+    "a": 1,
+    "why": "قد تظهر آثار نادرة عند استخدام مئات الآلاف."
+   },
+   {
+    "k": "tfng",
+    "q": "In many countries, companies must report trial results even if the medicine failed.",
+    "a": "T",
+    "why": "يجب تسجيل التجربة والإبلاغ عن نتائجها وإن فشل الدواء."
+   }
+  ]
+ }
+]

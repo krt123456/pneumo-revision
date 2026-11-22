@@ -1,0 +1,851 @@
+[
+ {
+  "id": "l-a2-08",
+  "l": "A2",
+  "title": "A weather report",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, and here is the weather for the week. Today will be cloudy in the north, with some rain in the afternoon. The temperature will be around twelve degrees."
+   },
+   {
+    "s": "A",
+    "t": "In the south, it will be warm and sunny. It will reach twenty-two degrees, so it is a good day for the beach."
+   },
+   {
+    "s": "A",
+    "t": "Tomorrow, strong winds will come from the west. Please be careful if you are driving near the coast."
+   },
+   {
+    "s": "A",
+    "t": "On Wednesday, it will be very cold at night, and there may be fog on the roads early in the morning."
+   },
+   {
+    "s": "A",
+    "t": "From Thursday, the weather will get better. We will see more sun, and the rain will stop."
+   },
+   {
+    "s": "A",
+    "t": "By the weekend, it will be warm and dry everywhere, with a high of twenty degrees. Enjoy your week!"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "temperature",
+    "ar": "درجة الحرارة"
+   },
+   {
+    "w": "fog",
+    "ar": "ضباب"
+   },
+   {
+    "w": "coast",
+    "ar": "ساحل"
+   },
+   {
+    "w": "strong winds",
+    "ar": "رياح قوية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the weather in the north today?",
+    "o": [
+     "Sunny",
+     "Cloudy with rain",
+     "Foggy"
+    ],
+    "a": 1,
+    "why": "قال: cloudy in the north with some rain."
+   },
+   {
+    "k": "gap",
+    "q": "The temperature in the south will reach ___ degrees.",
+    "a": [
+     "22",
+     "twenty-two",
+     "twenty two"
+    ],
+    "why": "قال: twenty-two degrees."
+   },
+   {
+    "k": "tfng",
+    "q": "Tomorrow, the wind will come from the east.",
+    "a": "F",
+    "why": "الرياح ستأتي من الغرب."
+   },
+   {
+    "k": "mc",
+    "q": "What may happen early on Wednesday morning?",
+    "o": [
+     "Snow",
+     "Fog",
+     "Strong rain"
+    ],
+    "a": 1,
+    "why": "قال: there may be fog on the roads."
+   },
+   {
+    "k": "gap",
+    "q": "The weather will get better from ___.",
+    "a": [
+     "Thursday"
+    ],
+    "why": "قال: From Thursday."
+   },
+   {
+    "k": "mc",
+    "q": "What will the weekend be like?",
+    "o": [
+     "Warm and dry",
+     "Cold and windy",
+     "Wet and cloudy"
+    ],
+    "a": 0,
+    "why": "قال: warm and dry everywhere."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-09",
+  "l": "A2",
+  "title": "Renting a flat",
+  "part": 1,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello, Sunrise Homes. Can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Yes. I saw your advert for a flat in Green Street. Is it still free?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, it is. It has two bedrooms, a small kitchen and a balcony."
+   },
+   {
+    "s": "B",
+    "t": "How much is the rent?"
+   },
+   {
+    "s": "A",
+    "t": "It is four hundred and fifty dollars a month, and the water is included."
+   },
+   {
+    "s": "B",
+    "t": "What about the internet?"
+   },
+   {
+    "s": "A",
+    "t": "You pay for that yourself. It is about twenty dollars a month."
+   },
+   {
+    "s": "B",
+    "t": "Is the flat near a bus stop?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, the bus stop is two minutes from the door. The supermarket is also very close."
+   },
+   {
+    "s": "B",
+    "t": "Good. Can I see the flat tomorrow?"
+   },
+   {
+    "s": "A",
+    "t": "Of course. Come at four o'clock. You must bring your passport or identity card."
+   },
+   {
+    "s": "B",
+    "t": "Okay. My name is Yusuf. Thank you for your help."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "advert",
+    "ar": "إعلان"
+   },
+   {
+    "w": "rent",
+    "ar": "إيجار"
+   },
+   {
+    "w": "balcony",
+    "ar": "شرفة"
+   },
+   {
+    "w": "included",
+    "ar": "مشمول"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Where is the flat?",
+    "o": [
+     "Sunrise Road",
+     "Green Street",
+     "Park Avenue"
+    ],
+    "a": 1,
+    "why": "قال: a flat in Green Street."
+   },
+   {
+    "k": "gap",
+    "q": "The flat has ___ bedrooms.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "قالت: two bedrooms."
+   },
+   {
+    "k": "gap",
+    "q": "The monthly rent is ___ dollars.",
+    "a": [
+     "450",
+     "four hundred and fifty",
+     "four hundred fifty"
+    ],
+    "why": "قالت: four hundred and fifty dollars."
+   },
+   {
+    "k": "mc",
+    "q": "What is included in the rent?",
+    "o": [
+     "The internet",
+     "The water",
+     "The bus ticket"
+    ],
+    "a": 1,
+    "why": "الماء مشمول في الإيجار."
+   },
+   {
+    "k": "tfng",
+    "q": "The bus stop is far from the flat.",
+    "a": "F",
+    "why": "محطة الحافلة على بعد دقيقتين من الباب."
+   },
+   {
+    "k": "mc",
+    "q": "What time is the visit?",
+    "o": [
+     "At two",
+     "At three",
+     "At four"
+    ],
+    "a": 2,
+    "why": "قالت: Come at four o'clock."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-10",
+  "l": "A2",
+  "title": "A teacher explains the week's timetable",
+  "part": 2,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, class. Before we start, here is our timetable for this week."
+   },
+   {
+    "s": "A",
+    "t": "On Monday, we have grammar at nine o'clock and reading at eleven."
+   },
+   {
+    "s": "A",
+    "t": "On Tuesday, there is no class in the morning because I have a meeting. We will meet at two in the afternoon for speaking practice."
+   },
+   {
+    "s": "A",
+    "t": "On Wednesday, we have a computer lesson in room twelve, not in our usual room. Please remember to bring headphones."
+   },
+   {
+    "s": "A",
+    "t": "On Thursday, there is a short test. It is about the words from units five and six, so please study them at home."
+   },
+   {
+    "s": "A",
+    "t": "On Friday, we will go to the library for an hour. We finish early, at twelve, so you can go home for lunch."
+   },
+   {
+    "s": "A",
+    "t": "Please write this in your notebooks. Are there any questions?"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "timetable",
+    "ar": "جدول الدروس"
+   },
+   {
+    "w": "headphones",
+    "ar": "سماعات الأذن"
+   },
+   {
+    "w": "test",
+    "ar": "اختبار"
+   },
+   {
+    "w": "meeting",
+    "ar": "اجتماع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is at nine o'clock on Monday?",
+    "o": [
+     "Reading",
+     "Grammar",
+     "Speaking"
+    ],
+    "a": 1,
+    "why": "قالت: grammar at nine o'clock."
+   },
+   {
+    "k": "tfng",
+    "q": "There is a morning class on Tuesday.",
+    "a": "F",
+    "why": "لا يوجد درس صباحاً لأن المعلمة لديها اجتماع."
+   },
+   {
+    "k": "gap",
+    "q": "The computer lesson is in room ___.",
+    "a": [
+     "12",
+     "twelve"
+    ],
+    "why": "قالت: room twelve."
+   },
+   {
+    "k": "mc",
+    "q": "What must students bring on Wednesday?",
+    "o": [
+     "A dictionary",
+     "Headphones",
+     "A laptop"
+    ],
+    "a": 1,
+    "why": "طلبت منهم إحضار سماعات."
+   },
+   {
+    "k": "mc",
+    "q": "What is the test about?",
+    "o": [
+     "Units one and two",
+     "Units five and six",
+     "Units nine and ten"
+    ],
+    "a": 1,
+    "why": "الاختبار عن الوحدتين خمسة وستة."
+   },
+   {
+    "k": "gap",
+    "q": "On Friday, the class finishes at ___.",
+    "a": [
+     "12",
+     "twelve"
+    ],
+    "why": "قالت: We finish early, at twelve."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-11",
+  "l": "A2",
+  "title": "At the post office",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Next, please. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hello. I want to send this parcel to Canada."
+   },
+   {
+    "s": "A",
+    "t": "Let me see. Please put it on the scale. It is two kilos."
+   },
+   {
+    "s": "B",
+    "t": "How long will it take?"
+   },
+   {
+    "s": "A",
+    "t": "By air, it takes about five days. By sea, it takes a month."
+   },
+   {
+    "s": "B",
+    "t": "By air, please. How much is it?"
+   },
+   {
+    "s": "A",
+    "t": "Eighteen dollars. Do you want to add insurance? It is only three dollars more."
+   },
+   {
+    "s": "B",
+    "t": "No, thank you. It is just some books for my sister."
+   },
+   {
+    "s": "A",
+    "t": "Okay. Please fill in this form with her address and your phone number."
+   },
+   {
+    "s": "B",
+    "t": "Can I also buy two stamps for letters?"
+   },
+   {
+    "s": "A",
+    "t": "Yes. Stamps are one dollar each."
+   },
+   {
+    "s": "B",
+    "t": "Here is a twenty-dollar bill. Thank you."
+   },
+   {
+    "s": "A",
+    "t": "Your change is two dollars after the parcel. Have a good day."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "parcel",
+    "ar": "طرد"
+   },
+   {
+    "w": "scale",
+    "ar": "ميزان"
+   },
+   {
+    "w": "insurance",
+    "ar": "تأمين"
+   },
+   {
+    "w": "stamp",
+    "ar": "طابع بريدي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Where does the man want to send the parcel?",
+    "o": [
+     "To Canada",
+     "To Spain",
+     "To Italy"
+    ],
+    "a": 0,
+    "why": "قال: to Canada."
+   },
+   {
+    "k": "gap",
+    "q": "The parcel weighs ___ kilos.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "قال الموظف: It is two kilos."
+   },
+   {
+    "k": "mc",
+    "q": "How long does air mail take?",
+    "o": [
+     "Two days",
+     "About five days",
+     "A month"
+    ],
+    "a": 1,
+    "why": "بالجو نحو خمسة أيام."
+   },
+   {
+    "k": "tfng",
+    "q": "The man buys insurance.",
+    "a": "F",
+    "why": "قال: No, thank you."
+   },
+   {
+    "k": "gap",
+    "q": "What is inside the parcel? ___",
+    "a": [
+     "books",
+     "some books"
+    ],
+    "why": "قال: just some books for my sister."
+   },
+   {
+    "k": "mc",
+    "q": "How much is one stamp?",
+    "o": [
+     "One dollar",
+     "Two dollars",
+     "Three dollars"
+    ],
+    "a": 0,
+    "why": "قال: one dollar each."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-12",
+  "l": "A2",
+  "title": "A shop announcement",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Attention, please. Good afternoon, shoppers, and welcome to Fresh Mart."
+   },
+   {
+    "s": "A",
+    "t": "This week, we have some special offers. Apples are only two dollars a kilo, and a loaf of brown bread costs one dollar fifty."
+   },
+   {
+    "s": "A",
+    "t": "On the first floor, all winter coats are half price. Please visit the clothes department near the escalator."
+   },
+   {
+    "s": "A",
+    "t": "Today only, children can enjoy a free ice cream from the cafe on the ground floor. Please ask the staff at the desk."
+   },
+   {
+    "s": "A",
+    "t": "We also have a message for the owner of a blue car, number plate four four seven. Your lights are on. Please come back to your car."
+   },
+   {
+    "s": "A",
+    "t": "Fresh Mart closes at nine o'clock tonight. Thank you for shopping with us."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "special offer",
+    "ar": "عرض خاص"
+   },
+   {
+    "w": "half price",
+    "ar": "نصف السعر"
+   },
+   {
+    "w": "escalator",
+    "ar": "سلم متحرك"
+   },
+   {
+    "w": "staff",
+    "ar": "الموظفون"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How much are apples this week?",
+    "o": [
+     "One dollar a kilo",
+     "Two dollars a kilo",
+     "Three dollars a kilo"
+    ],
+    "a": 1,
+    "why": "التفاح بدولارين للكيلو."
+   },
+   {
+    "k": "gap",
+    "q": "A loaf of brown bread costs one dollar ___.",
+    "a": [
+     "50",
+     "fifty"
+    ],
+    "why": "قال: one dollar fifty."
+   },
+   {
+    "k": "mc",
+    "q": "What is half price?",
+    "o": [
+     "Shoes",
+     "Winter coats",
+     "Toys"
+    ],
+    "a": 1,
+    "why": "المعاطف الشتوية بنصف السعر."
+   },
+   {
+    "k": "tfng",
+    "q": "The free ice cream is for adults.",
+    "a": "F",
+    "why": "الآيس كريم المجاني للأطفال."
+   },
+   {
+    "k": "gap",
+    "q": "The blue car's number plate is ___.",
+    "a": [
+     "447",
+     "four four seven"
+    ],
+    "why": "رقم اللوحة أربعة أربعة سبعة."
+   },
+   {
+    "k": "mc",
+    "q": "What time does the shop close?",
+    "o": [
+     "At eight",
+     "At nine",
+     "At ten"
+    ],
+    "a": 1,
+    "why": "قال: closes at nine o'clock."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-13",
+  "l": "A2",
+  "title": "A phone call to a hotel",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good evening, Lake View Hotel. Anna speaking."
+   },
+   {
+    "s": "B",
+    "t": "Hello. I have a reservation for tomorrow, but I need to change it."
+   },
+   {
+    "s": "A",
+    "t": "Certainly. What is your name, please?"
+   },
+   {
+    "s": "B",
+    "t": "It is Hassan Omar."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Mr Omar. You have a single room for two nights, from the fifth of May."
+   },
+   {
+    "s": "B",
+    "t": "Yes. Can I arrive one day later, on the sixth, and stay for three nights?"
+   },
+   {
+    "s": "A",
+    "t": "Let me check. Yes, that is possible. The price is the same, ninety pounds a night."
+   },
+   {
+    "s": "B",
+    "t": "Is breakfast included?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, breakfast is from seven to ten in the dining room."
+   },
+   {
+    "s": "B",
+    "t": "Perfect. Also, I will arrive late, at about eleven at night. Is that a problem?"
+   },
+   {
+    "s": "A",
+    "t": "No, the reception is open all night."
+   },
+   {
+    "s": "B",
+    "t": "Thank you very much for your help."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "reservation",
+    "ar": "حجز"
+   },
+   {
+    "w": "single room",
+    "ar": "غرفة فردية"
+   },
+   {
+    "w": "reception",
+    "ar": "الاستقبال"
+   },
+   {
+    "w": "arrive",
+    "ar": "يصل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The guest's family name is ___.",
+    "a": [
+     "Omar"
+    ],
+    "why": "قالت: Mr Omar."
+   },
+   {
+    "k": "mc",
+    "q": "What was the first booking?",
+    "o": [
+     "Two nights",
+     "Three nights",
+     "One night"
+    ],
+    "a": 0,
+    "why": "الحجز الأصلي ليلتان."
+   },
+   {
+    "k": "mc",
+    "q": "What new date will he arrive?",
+    "o": [
+     "The fifth of May",
+     "The sixth of May",
+     "The seventh of May"
+    ],
+    "a": 1,
+    "why": "يريد الوصول في السادس."
+   },
+   {
+    "k": "gap",
+    "q": "The room costs ___ pounds a night.",
+    "a": [
+     "90",
+     "ninety"
+    ],
+    "why": "قالت: ninety pounds a night."
+   },
+   {
+    "k": "tfng",
+    "q": "Breakfast is included in the price.",
+    "a": "T",
+    "why": "قالت: Yes, breakfast is from seven to ten."
+   },
+   {
+    "k": "mc",
+    "q": "What time will he arrive?",
+    "o": [
+     "About nine",
+     "About ten",
+     "About eleven at night"
+    ],
+    "a": 2,
+    "why": "سيصل حوالي الحادية عشرة ليلاً."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-14",
+  "l": "A2",
+  "title": "Talking about last holiday",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Last summer, my family and I went to Turkey for two weeks. We flew from Algiers to Istanbul, and the flight took about four hours."
+   },
+   {
+    "s": "A",
+    "t": "We stayed in a small hotel near the sea. The rooms were clean, and the people there were very kind. Every morning, we ate breakfast on the roof and watched the boats."
+   },
+   {
+    "s": "A",
+    "t": "In the first week, we visited the old market and a famous museum. My brother bought a leather jacket, and I bought some sweets for my friends."
+   },
+   {
+    "s": "A",
+    "t": "In the second week, we took a boat trip to an island. The water was warm, and we swam every day."
+   },
+   {
+    "s": "A",
+    "t": "The only bad thing was the weather on the last day. It rained all morning, so we stayed in the hotel and played cards."
+   },
+   {
+    "s": "A",
+    "t": "It was a great holiday, and I want to go again next year."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "flight",
+    "ar": "رحلة جوية"
+   },
+   {
+    "w": "island",
+    "ar": "جزيرة"
+   },
+   {
+    "w": "leather jacket",
+    "ar": "سترة جلدية"
+   },
+   {
+    "w": "boat trip",
+    "ar": "رحلة بالقارب"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How long was the holiday?",
+    "o": [
+     "One week",
+     "Two weeks",
+     "Three weeks"
+    ],
+    "a": 1,
+    "why": "قال: for two weeks."
+   },
+   {
+    "k": "gap",
+    "q": "The flight took about ___ hours.",
+    "a": [
+     "4",
+     "four"
+    ],
+    "why": "قال: about four hours."
+   },
+   {
+    "k": "mc",
+    "q": "Where did they eat breakfast?",
+    "o": [
+     "In the dining room",
+     "On the roof",
+     "On the beach"
+    ],
+    "a": 1,
+    "why": "كانوا يتناولون الفطور على السطح."
+   },
+   {
+    "k": "mc",
+    "q": "What did the brother buy?",
+    "o": [
+     "A leather jacket",
+     "Some sweets",
+     "A museum ticket"
+    ],
+    "a": 0,
+    "why": "اشترى أخوه سترة جلدية."
+   },
+   {
+    "k": "tfng",
+    "q": "They took a boat trip in the first week.",
+    "a": "F",
+    "why": "الرحلة بالقارب كانت في الأسبوع الثاني."
+   },
+   {
+    "k": "gap",
+    "q": "On the last day, they played ___.",
+    "a": [
+     "cards"
+    ],
+    "why": "بسبب المطر لعبوا الورق."
+   }
+  ]
+ }
+]

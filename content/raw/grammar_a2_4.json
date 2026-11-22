@@ -1,0 +1,868 @@
+[
+ {
+  "id": "g-a2-15",
+  "l": "A2",
+  "title": "Question forms; subject vs object questions",
+  "titleAr": "تكوين الأسئلة وأسئلة الفاعل والمفعول",
+  "why": "في الإنجليزية ترتيب السؤال يختلف عن الجملة الخبرية. نحتاج غالباً إلى فعل مساعد مثل do أو does أو did قبل الفاعل.",
+  "rules": [
+   {
+    "ar": "سؤال نعم/لا: نضع الفعل المساعد في أول الجملة، ثم الفاعل، ثم الفعل الأصلي.",
+    "form": "Do/Does/Did + S + verb? | Am/Is/Are + S ...?",
+    "ex": [
+     {
+      "en": "Do you live near the university?",
+      "ar": "هل تسكن قرب الجامعة؟"
+     },
+     {
+      "en": "Does she like tea?",
+      "ar": "هل تحب هي الشاي؟"
+     },
+     {
+      "en": "Did they arrive on time?",
+      "ar": "هل وصلوا في الموعد؟"
+     }
+    ]
+   },
+   {
+    "ar": "سؤال بكلمة استفهام: نضع كلمة الاستفهام أولاً، ثم نكمل بترتيب سؤال عادي.",
+    "form": "Wh-word + do/does/did + S + verb?",
+    "ex": [
+     {
+      "en": "Where does your sister work?",
+      "ar": "أين تعمل أختك؟"
+     },
+     {
+      "en": "What time does the train leave?",
+      "ar": "متى يغادر القطار؟"
+     },
+     {
+      "en": "Why did you leave early?",
+      "ar": "لماذا غادرت مبكراً؟"
+     }
+    ]
+   },
+   {
+    "ar": "إذا كان من نسأل عنه هو الفاعل (من فعل؟)، لا نستعمل do/does/did. نضع الفعل مباشرة بعد who أو what.",
+    "form": "Who/What + verb (no do/did)",
+    "ex": [
+     {
+      "en": "Who broke the window?",
+      "ar": "من كسر النافذة؟"
+     },
+     {
+      "en": "Who lives next door?",
+      "ar": "من يسكن بجانبنا؟"
+     }
+    ]
+   },
+   {
+    "ar": "إذا كان من نسأل عنه هو المفعول (من فعلنا به؟)، نستعمل did أو do أو does. وحرف الجر يبقى في آخر السؤال عادة.",
+    "form": "Who/What + did + S + verb?",
+    "ex": [
+     {
+      "en": "Who did you call yesterday?",
+      "ar": "بمن اتصلت أمس؟"
+     },
+     {
+      "en": "Who are you talking to?",
+      "ar": "مع من تتحدث؟"
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Where you live?",
+    "ok": "Where do you live?",
+    "ar": "في العربية نقول «أين تسكن؟» بدون فعل مساعد. في الإنجليزية نحتاج do قبل الفاعل."
+   },
+   {
+    "x": "Who did broke the window?",
+    "ok": "Who broke the window?",
+    "ar": "Who هنا هو الفاعل، فلا نستعمل did. نضع الفعل بعدها مباشرة."
+   },
+   {
+    "x": "Where does she lives?",
+    "ok": "Where does she live?",
+    "ar": "does تحمل s، فيرجع الفعل الأصلي بدون s."
+   }
+  ],
+  "tip": "السؤال عن المفعول يحتاج did. والسؤال عن الفاعل لا يحتاج.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "___ you live near the university?",
+    "o": [
+     "Do",
+     "Does",
+     "Are"
+    ],
+    "a": 0,
+    "why": "مع you نستعمل Do."
+   },
+   {
+    "k": "mc",
+    "q": "Where ___ your sister work?",
+    "o": [
+     "do",
+     "does",
+     "is"
+    ],
+    "a": 1,
+    "why": "مع sister نستعمل does."
+   },
+   {
+    "k": "mc",
+    "q": "Who ___ the window? It was open this morning.",
+    "o": [
+     "did break",
+     "did broke",
+     "broke"
+    ],
+    "a": 2,
+    "why": "Who هنا فاعل، فلا نستعمل did."
+   },
+   {
+    "k": "mc",
+    "q": "Who ___ you call yesterday?",
+    "o": [
+     "did",
+     "called",
+     "do"
+    ],
+    "a": 0,
+    "why": "Who هنا مفعول، فنستعمل did."
+   },
+   {
+    "k": "mc",
+    "q": "___ she go to the library yesterday?",
+    "o": [
+     "Do",
+     "Does",
+     "Did"
+    ],
+    "a": 2,
+    "why": "yesterday ماضٍ، فنستعمل Did."
+   },
+   {
+    "k": "mc",
+    "q": "What time ___ the train leave?",
+    "o": [
+     "does",
+     "do",
+     "is"
+    ],
+    "a": 0,
+    "why": "train مفرد، فنستعمل does."
+   },
+   {
+    "k": "gap",
+    "q": "___ she like tea?",
+    "a": [
+     "Does"
+    ],
+    "why": "مع she نستعمل Does."
+   },
+   {
+    "k": "gap",
+    "q": "Where ___ you go yesterday?",
+    "a": [
+     "did"
+    ],
+    "why": "yesterday ماضٍ، فنستعمل did."
+   },
+   {
+    "k": "gap",
+    "q": "Who ___ (live) next door?",
+    "a": [
+     "lives"
+    ],
+    "why": "Who فاعل، فنضع الفعل مع s مباشرة."
+   },
+   {
+    "k": "gap",
+    "q": "What ___ you doing at the moment?",
+    "a": [
+     "are"
+    ],
+    "why": "المضارع المستمر مع you يحتاج are."
+   },
+   {
+    "k": "fix",
+    "q": "Where you live?",
+    "bad": "Where you live",
+    "good": [
+     "Where do you live"
+    ],
+    "why": "نحتاج do قبل الفاعل."
+   },
+   {
+    "k": "fix",
+    "q": "Who did broke the window?",
+    "bad": "did broke",
+    "good": [
+     "broke"
+    ],
+    "why": "Who فاعل فلا نستعمل did."
+   },
+   {
+    "k": "order",
+    "a": "Where did you buy this jacket?",
+    "ar": "أين اشتريت هذه السترة؟"
+   },
+   {
+    "k": "order",
+    "a": "What time does the lesson start?",
+    "ar": "متى يبدأ الدرس؟"
+   }
+  ]
+ },
+ {
+  "id": "g-a2-16",
+  "l": "A2",
+  "title": "Adverbs of frequency and manner; word order",
+  "titleAr": "ظروف التكرار والكيفية وترتيب الكلمات",
+  "why": "ظروف التكرار تقول كم مرة، وظروف الكيفية تقول كيف. ولكل منهما مكان خاص في الجملة.",
+  "rules": [
+   {
+    "ar": "ظروف التكرار: always, usually, often, sometimes, never. تأتي قبل الفعل الأصلي وبعد فعل be.",
+    "form": "S + adverb + verb | S + be + adverb",
+    "ex": [
+     {
+      "en": "She usually drinks coffee in the morning.",
+      "ar": "هي تشرب القهوة غالباً في الصباح."
+     },
+     {
+      "en": "I never eat breakfast.",
+      "ar": "لا آكل الفطور أبداً."
+     },
+     {
+      "en": "They are always late.",
+      "ar": "هم متأخرون دائماً."
+     }
+    ]
+   },
+   {
+    "ar": "ظروف الكيفية تصف الفعل. نصنعها غالباً بإضافة ly إلى الصفة: careful تصبح carefully.",
+    "form": "adjective + ly",
+    "ex": [
+     {
+      "en": "She drives carefully.",
+      "ar": "هي تقود بحذر."
+     },
+     {
+      "en": "He opened the door quietly.",
+      "ar": "فتح الباب بهدوء."
+     },
+     {
+      "en": "My sister sings beautifully.",
+      "ar": "أختي تغني بجمال."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الظروف خاصة: good تصبح well، وhard وfast تبقيان كما هما.",
+    "form": "good → well | hard, fast = same",
+    "ex": [
+     {
+      "en": "He speaks English very well.",
+      "ar": "هو يتكلم الإنجليزية جيداً جداً."
+     },
+     {
+      "en": "He works hard and runs fast.",
+      "ar": "هو يعمل بجد ويجري بسرعة."
+     }
+    ]
+   },
+   {
+    "ar": "ظرف الكيفية يأتي بعد الفعل أو بعد المفعول، ولا يفصل بين الفعل والمفعول.",
+    "form": "verb + object + manner",
+    "ex": [
+     {
+      "en": "He plays football well.",
+      "ar": "هو يلعب كرة القدم جيداً."
+     },
+     {
+      "en": "She speaks English fluently.",
+      "ar": "هي تتكلم الإنجليزية بطلاقة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She goes always to school by bus.",
+    "ok": "She always goes to school by bus.",
+    "ar": "في العربية نقول «تذهب دائماً». في الإنجليزية always تأتي قبل الفعل الأصلي."
+   },
+   {
+    "x": "He speaks English very good.",
+    "ok": "He speaks English very well.",
+    "ar": "good صفة. الفعل يحتاج ظرفاً، والظرف هنا well."
+   },
+   {
+    "x": "He plays well football.",
+    "ok": "He plays football well.",
+    "ar": "لا نفصل بين الفعل والمفعول بالظرف."
+   }
+  ],
+  "tip": "التكرار قبل الفعل وبعد be. والكيفية في الآخر. وwell للفعل، good للاسم.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She ___ drinks coffee in the morning.",
+    "o": [
+     "usually",
+     "usual",
+     "usually is"
+    ],
+    "a": 0,
+    "why": "الظرف قبل الفعل الأصلي: usually drinks."
+   },
+   {
+    "k": "mc",
+    "q": "He speaks English very ___.",
+    "o": [
+     "good",
+     "well",
+     "goodly"
+    ],
+    "a": 1,
+    "why": "للفعل نستعمل الظرف well."
+   },
+   {
+    "k": "mc",
+    "q": "She drives very ___.",
+    "o": [
+     "care",
+     "careful",
+     "carefully"
+    ],
+    "a": 2,
+    "why": "الظرف يصف الفعل drives، فنقول carefully."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "I never go to the gym.",
+     "I go never to the gym.",
+     "Never I go to the gym."
+    ],
+    "a": 0,
+    "why": "never قبل الفعل الأصلي."
+   },
+   {
+    "k": "mc",
+    "q": "They are ___ late for class. They always arrive early.",
+    "o": [
+     "always",
+     "never",
+     "usually"
+    ],
+    "a": 1,
+    "why": "يصلون مبكراً دائماً، إذن لا يتأخرون أبداً."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "He plays football well.",
+     "He plays well football.",
+     "He well plays football."
+    ],
+    "a": 0,
+    "why": "الظرف يأتي بعد المفعول."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (always/arrive) on time.",
+    "a": [
+     "always arrives"
+    ],
+    "why": "always قبل الفعل ومع she نضيف s."
+   },
+   {
+    "k": "gap",
+    "q": "My sister sings ___ (beautiful).",
+    "a": [
+     "beautifully"
+    ],
+    "why": "نحول الصفة إلى ظرف بإضافة ly."
+   },
+   {
+    "k": "gap",
+    "q": "He works very ___ (hard) and never stops.",
+    "a": [
+     "hard"
+    ],
+    "why": "hard تبقى كما هي في الظرف."
+   },
+   {
+    "k": "gap",
+    "q": "I ___ (never/eat) breakfast.",
+    "a": [
+     "never eat"
+    ],
+    "why": "never قبل الفعل الأصلي."
+   },
+   {
+    "k": "fix",
+    "q": "She goes always to school by bus.",
+    "bad": "goes always",
+    "good": [
+     "always goes"
+    ],
+    "why": "always تأتي قبل الفعل الأصلي."
+   },
+   {
+    "k": "fix",
+    "q": "He speaks English very good.",
+    "bad": "good",
+    "good": [
+     "well"
+    ],
+    "why": "الفعل يحتاج ظرفاً: well."
+   },
+   {
+    "k": "order",
+    "a": "She always arrives at work early.",
+    "ar": "هي تصل دائماً إلى العمل مبكراً."
+   },
+   {
+    "k": "order",
+    "a": "They are sometimes late for class.",
+    "ar": "هم أحياناً متأخرون عن الصف."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-17",
+  "l": "A2",
+  "title": "Pronouns, possessives; there is/are vs it is",
+  "titleAr": "الضمائر والملكية وthere is/are مقابل it is",
+  "why": "تنوع الضمائر في الإنجليزية يربك المتعلم. وهناك فرق مهم بين there is لوجود شيء وit is للوصف أو الطقس أو الوقت.",
+  "rules": [
+   {
+    "ar": "ضمائر الفاعل (I, he, she...) تأتي قبل الفعل. وضمائر المفعول (me, him, her...) تأتي بعد الفعل.",
+    "form": "I/he/she → me/him/her",
+    "ex": [
+     {
+      "en": "Ali is my friend. I often help him.",
+      "ar": "علي صديقي. أساعده كثيراً."
+     },
+     {
+      "en": "She called me yesterday.",
+      "ar": "اتصلت بي أمس."
+     }
+    ]
+   },
+   {
+    "ar": "صفات الملكية (my, your, his, her, our, their) تأتي قبل الاسم. وضمائر الملكية (mine, yours, his, hers, ours, theirs) تقف وحدها.",
+    "form": "my book | the book is mine",
+    "ex": [
+     {
+      "en": "This is my pencil.",
+      "ar": "هذا قلمي."
+     },
+     {
+      "en": "This pencil is mine.",
+      "ar": "هذا القلم لي."
+     },
+     {
+      "en": "Is this bag yours?",
+      "ar": "هل هذه الحقيبة لك؟"
+     }
+    ]
+   },
+   {
+    "ar": "there is/are تقول إن الشيء موجود. نستعمل is مع المفرد وare مع الجمع.",
+    "form": "There is + singular | There are + plural",
+    "ex": [
+     {
+      "en": "There is a park near my house.",
+      "ar": "توجد حديقة قرب بيتي."
+     },
+     {
+      "en": "There are three books on the desk.",
+      "ar": "توجد ثلاثة كتب على المكتب."
+     },
+     {
+      "en": "There aren't any chairs.",
+      "ar": "لا توجد كراسٍ."
+     }
+    ]
+   },
+   {
+    "ar": "it is نستعملها للطقس والوقت والوصف. ولا نستعمل there معها.",
+    "form": "It is + weather/time/adjective",
+    "ex": [
+     {
+      "en": "It is very hot today.",
+      "ar": "الجو حار جداً اليوم."
+     },
+     {
+      "en": "It is half past six.",
+      "ar": "الساعة السادسة والنصف."
+     },
+     {
+      "en": "It is a beautiful city.",
+      "ar": "إنها مدينة جميلة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Their are two apples on the table.",
+    "ok": "There are two apples on the table.",
+    "ar": "there وtheir تنطقان بالطريقة نفسها تقريباً. there للوجود، وtheir للملكية."
+   },
+   {
+    "x": "This is my book. That one is your.",
+    "ok": "This is my book. That one is yours.",
+    "ar": "بعد is وحدها نستعمل yours وليس your."
+   },
+   {
+    "x": "Is very hot today.",
+    "ok": "It is very hot today.",
+    "ar": "في العربية نحذف الضمير أحياناً. في الإنجليزية يجب وجود it في الطقس."
+   }
+  ],
+  "tip": "there = موجود. it = طقس/وقت/وصف. my + اسم، mine وحدها.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Ali is my friend. I often help ___.",
+    "o": [
+     "him",
+     "he",
+     "his"
+    ],
+    "a": 0,
+    "why": "بعد الفعل نستعمل ضمير المفعول him."
+   },
+   {
+    "k": "mc",
+    "q": "This is not my pencil. Is it ___?",
+    "o": [
+     "your",
+     "you",
+     "yours"
+    ],
+    "a": 2,
+    "why": "نقف بدون اسم، فنستعمل yours."
+   },
+   {
+    "k": "mc",
+    "q": "___ is a park near my house.",
+    "o": [
+     "It",
+     "There",
+     "They"
+    ],
+    "a": 1,
+    "why": "نذكر وجود شيء، فنستعمل there is."
+   },
+   {
+    "k": "mc",
+    "q": "___ are three books on the desk.",
+    "o": [
+     "There",
+     "It",
+     "They"
+    ],
+    "a": 0,
+    "why": "نذكر وجود أشياء متعددة، فنستعمل there are."
+   },
+   {
+    "k": "mc",
+    "q": "___ is very hot today.",
+    "o": [
+     "He",
+     "There",
+     "It"
+    ],
+    "a": 2,
+    "why": "الطقس يحتاج it."
+   },
+   {
+    "k": "mc",
+    "q": "My sister and I love ___ new flat.",
+    "o": [
+     "we",
+     "our",
+     "ours"
+    ],
+    "a": 1,
+    "why": "قبل الاسم نستعمل صفة الملكية our."
+   },
+   {
+    "k": "gap",
+    "q": "I like Sara. I often call ___.",
+    "a": [
+     "her"
+    ],
+    "why": "بعد الفعل نستعمل ضمير المفعول her."
+   },
+   {
+    "k": "gap",
+    "q": "Is this your bag? No, it isn't ___. It's Omar's.",
+    "a": [
+     "mine"
+    ],
+    "why": "نقف بدون اسم، فنستعمل mine."
+   },
+   {
+    "k": "gap",
+    "q": "There ___ a lot of cars in the street.",
+    "a": [
+     "are"
+    ],
+    "why": "cars جمع، فنقول there are."
+   },
+   {
+    "k": "gap",
+    "q": "___ is half past six.",
+    "a": [
+     "It"
+    ],
+    "why": "للوقت نستعمل It is."
+   },
+   {
+    "k": "fix",
+    "q": "Their are two apples on the table.",
+    "bad": "Their",
+    "good": [
+     "There"
+    ],
+    "why": "للوجود نستعمل There."
+   },
+   {
+    "k": "fix",
+    "q": "This is my book. That one is your.",
+    "bad": "your",
+    "good": [
+     "yours"
+    ],
+    "why": "بدون اسم نستعمل yours."
+   },
+   {
+    "k": "order",
+    "a": "There is a bank near the station.",
+    "ar": "يوجد بنك قرب المحطة."
+   },
+   {
+    "k": "order",
+    "a": "Is this pen yours or mine?",
+    "ar": "هل هذا القلم لك أم لي؟"
+   }
+  ]
+ },
+ {
+  "id": "g-a2-18",
+  "l": "A2",
+  "title": "Relative clauses (who, which, that, where)",
+  "titleAr": "جمل الوصل (who وwhich وthat وwhere)",
+  "why": "جملة الوصل تعطي معلومة عن اسم، وتقوم مقام «الذي» و«التي» في العربية. نختار الكلمة حسب نوع الاسم.",
+  "rules": [
+   {
+    "ar": "who للأشخاص، وwhich للأشياء، وthat للاثنين. نضعها بعد الاسم مباشرة.",
+    "form": "person + who | thing + which | both + that",
+    "ex": [
+     {
+      "en": "The woman who lives next door is a doctor.",
+      "ar": "المرأة التي تسكن بجانبنا طبيبة."
+     },
+     {
+      "en": "This is the book which I bought yesterday.",
+      "ar": "هذا هو الكتاب الذي اشتريته أمس."
+     },
+     {
+      "en": "I have a friend that speaks four languages.",
+      "ar": "لدي صديق يتكلم أربع لغات."
+     }
+    ]
+   },
+   {
+    "ar": "where للأماكن. ونستعملها بدل in which أو at which.",
+    "form": "place + where",
+    "ex": [
+     {
+      "en": "The city where I was born is small.",
+      "ar": "المدينة التي وُلدت فيها صغيرة."
+     },
+     {
+      "en": "The library is the place where students study.",
+      "ar": "المكتبة هي المكان الذي يدرس فيه الطلاب."
+     }
+    ]
+   },
+   {
+    "ar": "في العربية نكرر ضميراً عائداً: «الكتاب الذي قرأته». في الإنجليزية لا نكرر الضمير بعد الفعل.",
+    "form": "The book which I read (no it)",
+    "ex": [
+     {
+      "en": "The laptop that I bought is broken.",
+      "ar": "الحاسوب الذي اشتريته معطل."
+     },
+     {
+      "en": "The man who I met was kind.",
+      "ar": "الرجل الذي قابلته كان لطيفاً."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The book which I read it was interesting.",
+    "ok": "The book which I read was interesting.",
+    "ar": "في العربية «الذي قرأته» فيها ضمير عائد. في الإنجليزية which نفسها تقوم بالعمل، فلا نكرر it."
+   },
+   {
+    "x": "The man which lives next door is a judge.",
+    "ok": "The man who lives next door is a judge.",
+    "ar": "which للأشياء. للأشخاص نستعمل who أو that."
+   },
+   {
+    "x": "The city where I was born it is small.",
+    "ok": "The city where I was born is small.",
+    "ar": "where تحمل معنى المكان، فلا نضيف ضميراً بعد الجملة."
+   }
+  ],
+  "tip": "أشخاص = who. أشياء = which. أماكن = where. وthat تصلح للأشخاص والأشياء.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The woman ___ lives next door is a doctor.",
+    "o": [
+     "who",
+     "which",
+     "where"
+    ],
+    "a": 0,
+    "why": "woman شخص، فنستعمل who."
+   },
+   {
+    "k": "mc",
+    "q": "This is the book ___ I bought yesterday.",
+    "o": [
+     "who",
+     "where",
+     "which"
+    ],
+    "a": 2,
+    "why": "book شيء، فنستعمل which."
+   },
+   {
+    "k": "mc",
+    "q": "The city ___ I was born is small.",
+    "o": [
+     "which",
+     "where",
+     "who"
+    ],
+    "a": 1,
+    "why": "city مكان، فنستعمل where."
+   },
+   {
+    "k": "mc",
+    "q": "A lawyer is a person ___ gives legal advice.",
+    "o": [
+     "which",
+     "where",
+     "who"
+    ],
+    "a": 2,
+    "why": "person شخص، فنستعمل who."
+   },
+   {
+    "k": "mc",
+    "q": "The phone ___ is on the table is mine.",
+    "o": [
+     "who",
+     "that",
+     "where"
+    ],
+    "a": 1,
+    "why": "phone شيء، وthat تصلح للأشياء."
+   },
+   {
+    "k": "mc",
+    "q": "The library is the place ___ students study.",
+    "o": [
+     "where",
+     "who",
+     "which"
+    ],
+    "a": 0,
+    "why": "place مكان، فنستعمل where."
+   },
+   {
+    "k": "gap",
+    "q": "I have a friend ___ speaks four languages.",
+    "a": [
+     "who",
+     "that"
+    ],
+    "why": "friend شخص، فنستعمل who أو that."
+   },
+   {
+    "k": "gap",
+    "q": "The laptop ___ I bought last week is broken.",
+    "a": [
+     "which",
+     "that"
+    ],
+    "why": "laptop شيء، فنستعمل which أو that."
+   },
+   {
+    "k": "gap",
+    "q": "That is the hospital ___ my mother works.",
+    "a": [
+     "where"
+    ],
+    "why": "hospital مكان، فنستعمل where."
+   },
+   {
+    "k": "gap",
+    "q": "She is the teacher ___ helped me.",
+    "a": [
+     "who",
+     "that"
+    ],
+    "why": "teacher شخص، فنستعمل who أو that."
+   },
+   {
+    "k": "fix",
+    "q": "The book which I read it was interesting.",
+    "bad": "I read it",
+    "good": [
+     "I read"
+    ],
+    "why": "لا نكرر الضمير it بعد which."
+   },
+   {
+    "k": "fix",
+    "q": "The man which lives next door is a judge.",
+    "bad": "which",
+    "good": [
+     "who",
+     "that"
+    ],
+    "why": "man شخص، فنستعمل who أو that."
+   },
+   {
+    "k": "order",
+    "a": "The man who lives next door is a judge.",
+    "ar": "الرجل الذي يسكن بجانبنا قاضٍ."
+   },
+   {
+    "k": "order",
+    "a": "The school where she works is new.",
+    "ar": "المدرسة التي تعمل فيها جديدة."
+   }
+  ]
+ }
+]

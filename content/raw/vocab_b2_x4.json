@@ -1,0 +1,752 @@
+[
+ {
+  "w": "makeshift",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "مؤقت، مرتجل",
+  "d": "temporary and made quickly from whatever materials are available",
+  "ex": "The families slept in makeshift tents after the earthquake.",
+  "x": "makeshift"
+ },
+ {
+  "w": "malnutrition",
+  "p": "n",
+  "l": "B2",
+  "t": "health",
+  "ar": "سوء التغذية",
+  "d": "poor health caused by not having enough nutritious food",
+  "ex": "Doctors warned that malnutrition was spreading among children in the camp.",
+  "x": "malnutrition"
+ },
+ {
+  "w": "mantra",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "شعار، مبدأ يُردَّد",
+  "d": "a word or phrase repeated often as a guiding principle",
+  "ex": "Measure twice, cut once became the carpenter's mantra.",
+  "x": "mantra"
+ },
+ {
+  "w": "magnanimous",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "كريم، سمح، عفو",
+  "d": "generous and forgiving, especially towards people who have wronged you",
+  "ex": "The magnanimous winner congratulated her rival warmly on stage.",
+  "x": "magnanimous"
+ },
+ {
+  "w": "maritime",
+  "p": "adj",
+  "l": "B2",
+  "t": "travel",
+  "ar": "بحري، متعلّق بالبحر",
+  "d": "connected with the sea, ships or sea trade",
+  "ex": "The port is one of the busiest maritime centres in the region.",
+  "x": "maritime"
+ },
+ {
+  "w": "mishap",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "حادث طفيف، مصيبة صغيرة",
+  "d": "an unlucky accident that causes minor problems or delays",
+  "ex": "A small mishap with the projector delayed the start of the seminar.",
+  "x": "mishap"
+ },
+ {
+  "w": "mellow",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "هادئ، لطيف",
+  "d": "calm, relaxed and pleasant, without harsh or sharp qualities",
+  "ex": "The mellow music in the café helped students relax after exams.",
+  "x": "mellow"
+ },
+ {
+  "w": "mend",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يُصلح، يرمّم",
+  "d": "to repair something that is broken or damaged",
+  "ex": "The tailor offered to mend the torn jacket within two days.",
+  "x": "mend"
+ },
+ {
+  "w": "merciless",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "قاسٍ لا يرحم",
+  "d": "very cruel or harsh, showing no kindness or pity",
+  "ex": "The merciless heat of the desert made the journey dangerous.",
+  "x": "merciless"
+ },
+ {
+  "w": "meandering",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متعرّج، ملتوٍ",
+  "d": "winding or taking a long, indirect course",
+  "ex": "The meandering river crossed the plain before reaching the sea.",
+  "x": "meandering"
+ },
+ {
+  "w": "migrate",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يهاجر، ينتقل",
+  "d": "to move from one country or region to another",
+  "ex": "Thousands of birds migrate south every autumn across the desert.",
+  "x": "migrate"
+ },
+ {
+  "w": "mingle",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يختلط، يتآنس",
+  "d": "to mix socially with other people at an event",
+  "ex": "Guests mingled in the garden before the speeches began.",
+  "x": "mingled"
+ },
+ {
+  "w": "misjudge",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يسيء التقدير",
+  "d": "to form a wrong opinion about someone or a situation",
+  "ex": "The manager misjudged the market and launched the product too late.",
+  "x": "misjudged"
+ },
+ {
+  "w": "moisture",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "رطوبة، بخار الماء",
+  "d": "small amounts of water or liquid present in the air or a material",
+  "ex": "Excess moisture in the walls can cause damage to furniture.",
+  "x": "moisture"
+ },
+ {
+  "w": "mournful",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "حزين، كئيب",
+  "d": "sad and full of sorrow, often in appearance or sound",
+  "ex": "A mournful song drifted across the valley after the funeral.",
+  "x": "mournful"
+ },
+ {
+  "w": "mould",
+  "p": "v",
+  "l": "B2",
+  "t": "mind",
+  "ar": "يُشكّل، يصوغ",
+  "d": "to shape or influence the character of a person or thing",
+  "ex": "Parents and teachers play a key role in moulding young minds.",
+  "x": "moulding"
+ },
+ {
+  "w": "mutter",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يتمتم، يهمس بغضب",
+  "d": "to speak quietly and unclearly, often in complaint",
+  "ex": "The driver muttered angrily when the traffic lights stayed red.",
+  "x": "muttered"
+ },
+ {
+  "w": "murky",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غامض، مشبوه",
+  "d": "dark and unclear, often in a suspicious way",
+  "ex": "The murky deal between the two companies needs a full inquiry.",
+  "x": "murky"
+ },
+ {
+  "w": "marginalise",
+  "p": "v",
+  "l": "B2",
+  "t": "society",
+  "ar": "يُهمّش",
+  "d": "to treat a person or group as less important than others",
+  "ex": "Older workers were marginalised when the company moved to new software.",
+  "x": "marginalised"
+ },
+ {
+  "w": "nag",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يُلحّ، يُزعج بالتكرار",
+  "d": "to keep complaining or asking someone to do something",
+  "ex": "My mother would nag me to finish my homework before dinner.",
+  "x": "nag"
+ },
+ {
+  "w": "naive",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "ساذج، ساذج الثقة",
+  "d": "too trusting and lacking experience of how the world works",
+  "ex": "It was naive of him to believe the offer was genuine.",
+  "x": "naive"
+ },
+ {
+  "w": "nimble",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "رشيق، خفيف الحركة",
+  "d": "quick and light in movement, especially with the hands or feet",
+  "ex": "The nimble waiter carried six plates through the crowded room.",
+  "x": "nimble"
+ },
+ {
+  "w": "novice",
+  "p": "n",
+  "l": "B2",
+  "t": "education",
+  "ar": "مبتدئ، حديث العهد",
+  "d": "a person who is new to an activity and still learning it",
+  "ex": "As a novice reporter, she checked every fact twice.",
+  "x": "novice"
+ },
+ {
+  "w": "numb",
+  "p": "adj",
+  "l": "B2",
+  "t": "health",
+  "ar": "خدِر، فاقد الإحساس",
+  "d": "unable to feel anything in part of the body, or emotionally unmoved",
+  "ex": "After hours in the cold, my fingers felt numb and stiff.",
+  "x": "numb"
+ },
+ {
+  "w": "nudge",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يدفع بخفة، يحثّ",
+  "d": "to push gently, or to encourage someone to act",
+  "ex": "The coach nudged the player towards a better position.",
+  "x": "nudged"
+ },
+ {
+  "w": "nomadic",
+  "p": "adj",
+  "l": "B2",
+  "t": "travel",
+  "ar": "رحّال، بدوي الترحال",
+  "d": "moving regularly from place to place rather than living in one home",
+  "ex": "Nomadic families move their tents with the seasons across the plains.",
+  "x": "nomadic"
+ },
+ {
+  "w": "obsess",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يستحوذ على التفكير، يهوس",
+  "d": "to think about someone or something constantly and in an unhealthy way",
+  "ex": "The journalist became obsessed with the unsolved case for years.",
+  "x": "obsessed"
+ },
+ {
+  "w": "oppressive",
+  "p": "adj",
+  "l": "B2",
+  "t": "society",
+  "ar": "قامع، ثقيل الوطأة",
+  "d": "cruel and unfair, or heavy and hard to bear",
+  "ex": "The oppressive rules kept the villagers from speaking at public meetings.",
+  "x": "oppressive"
+ },
+ {
+  "w": "ordinance",
+  "p": "n",
+  "l": "B2",
+  "t": "law",
+  "ar": "قرار، لائحة رسمية",
+  "d": "an official rule or order made by a local authority",
+  "ex": "The city council passed a new ordinance on noise in the streets.",
+  "x": "ordinance"
+ },
+ {
+  "w": "offbeat",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "غير تقليدي، غريب الطابع",
+  "d": "unusual and different from what is conventional or expected",
+  "ex": "The director's offbeat comedy surprised critics with its odd humour.",
+  "x": "offbeat"
+ },
+ {
+  "w": "optimism",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "تفاؤل",
+  "d": "a hopeful belief that good things will happen in the future",
+  "ex": "Despite the setbacks, the team kept its optimism about the project.",
+  "x": "optimism"
+ },
+ {
+  "w": "orderly",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "منظم، مرتّب",
+  "d": "arranged neatly, or behaving in a calm, controlled way",
+  "ex": "The queue at the passport office was orderly and calm.",
+  "x": "orderly"
+ },
+ {
+  "w": "ornate",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "مزخرف، مُفصّل الزخرفة",
+  "d": "decorated with a lot of complicated detail and patterns",
+  "ex": "The palace ceiling was covered with ornate gold carvings.",
+  "x": "ornate"
+ },
+ {
+  "w": "outlandish",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غريب، مستهجن",
+  "d": "very strange or unusual, and unlikely to be accepted",
+  "ex": "The minister's outlandish claims were quickly dismissed by experts.",
+  "x": "outlandish"
+ },
+ {
+  "w": "overwrought",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مضطرب، مُتوتّر",
+  "d": "very anxious, upset or excited, and unable to stay calm",
+  "ex": "The overwrought parents waited outside the hospital all night.",
+  "x": "overwrought"
+ },
+ {
+  "w": "overhear",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يسترق السمع، يسمع مصادفةً",
+  "d": "to hear something by accident, when it was not meant for you",
+  "ex": "I overheard the manager discussing the budget cuts on the phone.",
+  "x": "overheard"
+ },
+ {
+  "w": "overdue",
+  "p": "adj",
+  "l": "B2",
+  "t": "time",
+  "ar": "متأخر عن موعده، مستحق",
+  "d": "later than the time when it should have been done or paid",
+  "ex": "The library book was three weeks overdue, so I paid a fine.",
+  "x": "overdue"
+ },
+ {
+  "w": "parched",
+  "p": "adj",
+  "l": "B2",
+  "t": "nature",
+  "ar": "جاف متشقق، عطشان",
+  "d": "extremely dry, especially because of heat or lack of water",
+  "ex": "The parched fields cracked under the summer sun for months.",
+  "x": "parched"
+ },
+ {
+  "w": "partition",
+  "p": "n",
+  "l": "B2",
+  "t": "government",
+  "ar": "تقسيم، فاصل",
+  "d": "the division of a country or area into separate parts",
+  "ex": "The partition of the old warehouse created two separate offices.",
+  "x": "partition"
+ },
+ {
+  "w": "passionate",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "شغوف، متحمّس",
+  "d": "having or showing strong and intense feelings about something",
+  "ex": "She is a passionate teacher who loves helping slow learners.",
+  "x": "passionate"
+ },
+ {
+  "w": "patience",
+  "p": "n",
+  "l": "B2",
+  "t": "mind",
+  "ar": "صبر، أناة",
+  "d": "the ability to wait calmly without getting annoyed",
+  "ex": "Learning a new language needs patience and daily practice.",
+  "x": "patience"
+ },
+ {
+  "w": "peculiar",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غريب، مميّز",
+  "d": "strange or unusual in a way that is hard to explain",
+  "ex": "The old clock made a peculiar sound every hour.",
+  "x": "peculiar"
+ },
+ {
+  "w": "penetrate",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يخترق، ينفذ إلى",
+  "d": "to pass into or through something, often with difficulty",
+  "ex": "Light barely penetrated the thick smoke in the warehouse.",
+  "x": "penetrated"
+ },
+ {
+  "w": "parody",
+  "p": "n",
+  "l": "B2",
+  "t": "arts",
+  "ar": "محاكاة ساخرة، تهكّم فنيّ",
+  "d": "a humorous imitation of a serious work or person",
+  "ex": "The sketch was a clever parody of the prime minister's speeches.",
+  "x": "parody"
+ },
+ {
+  "w": "perish",
+  "p": "v",
+  "l": "B2",
+  "t": "nature",
+  "ar": "يهلك، يفنى",
+  "d": "to die, especially in a dangerous or sudden way",
+  "ex": "Many animals perished in the fire that swept the forest.",
+  "x": "perished"
+ },
+ {
+  "w": "perplex",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُحيّر، يُربك",
+  "d": "to confuse someone so that they cannot understand something",
+  "ex": "The sudden change in the exam rules perplexed many students.",
+  "x": "perplexed"
+ },
+ {
+  "w": "pompous",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متعالٍ، متفاخر",
+  "d": "behaving as if you are more important than other people",
+  "ex": "The pompous official spoke for an hour about his achievements.",
+  "x": "pompous"
+ },
+ {
+  "w": "postgraduate",
+  "p": "n",
+  "l": "B2",
+  "t": "education",
+  "ar": "طالب دراسات عليا",
+  "d": "a student who is studying for a degree after a first degree",
+  "ex": "As a postgraduate, she spent two years researching public procurement.",
+  "x": "postgraduate"
+ },
+ {
+  "w": "presumptuous",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متطفّل، متجاوز الحدّ",
+  "d": "going too far by assuming things without permission or evidence",
+  "ex": "It was presumptuous of him to decide the result before the vote.",
+  "x": "presumptuous"
+ },
+ {
+  "w": "procrastinate",
+  "p": "v",
+  "l": "B2",
+  "t": "mind",
+  "ar": "يماطل، يؤجّل",
+  "d": "to delay doing something you should do, often without a good reason",
+  "ex": "If you procrastinate on your essay, the deadline will be stressful.",
+  "x": "procrastinate"
+ },
+ {
+  "w": "pristine",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "نقي، في حالته الأصلية",
+  "d": "completely clean, pure and in its original condition",
+  "ex": "The lake remained pristine, with clear water and no litter.",
+  "x": "pristine"
+ },
+ {
+  "w": "poignant",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مؤثّر، شجيّ",
+  "d": "causing a strong feeling of sadness or tender emotion",
+  "ex": "The letter from the soldier's daughter was poignant and moving.",
+  "x": "poignant"
+ },
+ {
+  "w": "prosperous",
+  "p": "adj",
+  "l": "B2",
+  "t": "money",
+  "ar": "مزدهر، ميسور الحال",
+  "d": "successful, wealthy and doing well financially",
+  "ex": "The coastal town became prosperous after the new port opened.",
+  "x": "prosperous"
+ },
+ {
+  "w": "pry",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يتطفّل، يتدخّل في الخصوصية",
+  "d": "to ask questions or look into private matters that do not concern you",
+  "ex": "Reporters were accused of prying into the minister's private life.",
+  "x": "prying"
+ },
+ {
+  "w": "quaint",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "طريف، قديم الطراز الجميل",
+  "d": "attractive in an old-fashioned or unusual way",
+  "ex": "The village has quaint stone cottages and narrow cobbled streets.",
+  "x": "quaint"
+ },
+ {
+  "w": "radiant",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مشرق، متألق",
+  "d": "glowing with happiness, health or light",
+  "ex": "The bride looked radiant as she walked down the aisle.",
+  "x": "radiant"
+ },
+ {
+  "w": "ramshackle",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متهالك، آيل للسقوط",
+  "d": "badly built and in poor condition, close to falling apart",
+  "ex": "They rented a ramshackle cottage with broken windows and a leaking roof.",
+  "x": "ramshackle"
+ },
+ {
+  "w": "reap",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يحصد",
+  "d": "to receive the results or benefits of something you have done",
+  "ex": "Farmers reap the rewards of careful planning at harvest time.",
+  "x": "reap"
+ },
+ {
+  "w": "reclusive",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "منعزل، انطوائي",
+  "d": "avoiding contact with other people, living a private life",
+  "ex": "The reclusive author rarely gave interviews or attended public events.",
+  "x": "reclusive"
+ },
+ {
+  "w": "rehearse",
+  "p": "v",
+  "l": "B2",
+  "t": "arts",
+  "ar": "يتدرّب، يُعدّ مسبقاً",
+  "d": "to practise something before performing it in public",
+  "ex": "The students rehearsed their presentation twice before the final session.",
+  "x": "rehearsed"
+ },
+ {
+  "w": "rhythmic",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "إيقاعي، منتظم الوقع",
+  "d": "having a regular pattern of beats or repeated movement",
+  "ex": "The rhythmic sound of the rain helped the baby fall asleep.",
+  "x": "rhythmic"
+ },
+ {
+  "w": "reside",
+  "p": "v",
+  "l": "B2",
+  "t": "home",
+  "ar": "يقيم، يسكن",
+  "d": "to live permanently in a particular place",
+  "ex": "Most of the company's employees reside in the northern suburbs.",
+  "x": "reside"
+ },
+ {
+  "w": "restless",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "قلِق، لا يهدأ",
+  "d": "unable to relax or stay still because of worry or boredom",
+  "ex": "The restless children waited impatiently for the bus to arrive.",
+  "x": "restless"
+ },
+ {
+  "w": "rustic",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "ريفي، بسيط",
+  "d": "simple, rural and traditional in style or character",
+  "ex": "We ate rustic bread and cheese at a farmhouse in the hills.",
+  "x": "rustic"
+ },
+ {
+  "w": "sabotage",
+  "p": "v",
+  "l": "B2",
+  "t": "crime",
+  "ar": "يخرّب عمداً، يعطّل",
+  "d": "to damage something on purpose to stop it from working",
+  "ex": "Activists were accused of trying to sabotage the new railway line.",
+  "x": "sabotage"
+ },
+ {
+  "w": "scruple",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "تحرّج أخلاقي، تردّد",
+  "d": "a moral doubt that stops you from doing something wrong",
+  "ex": "The lawyer had no scruples about hiding the evidence.",
+  "x": "scruples"
+ },
+ {
+  "w": "secluded",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "منعزل، بعيد عن الأنظار",
+  "d": "private and quiet, far away from people and noise",
+  "ex": "They built a cabin in a secluded valley far from the city.",
+  "x": "secluded"
+ },
+ {
+  "w": "snug",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "دافئ مريح، متماسك",
+  "d": "warm, comfortable and cosy, often in a small space",
+  "ex": "We sat by the fire in a snug room while the snow fell outside.",
+  "x": "snug"
+ },
+ {
+  "w": "solitude",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "وحدة، خلوة",
+  "d": "the state of being alone, often in a peaceful way",
+  "ex": "The writer found peace and solitude in a small house by the sea.",
+  "x": "solitude"
+ },
+ {
+  "w": "soothe",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُهدّئ، يُخفّف",
+  "d": "to calm someone or make a pain or worry feel less strong",
+  "ex": "A warm drink can soothe a sore throat during winter.",
+  "x": "soothe"
+ },
+ {
+  "w": "stammer",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يتلعثم",
+  "d": "to speak with pauses and repeated sounds, often from nerves",
+  "ex": "The nervous candidate stammered through the first question of the interview.",
+  "x": "stammered"
+ },
+ {
+  "w": "stifling",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "خانق، مُضيِّق",
+  "d": "unpleasantly hot or restrictive, making it hard to breathe or act freely",
+  "ex": "The stifling heat in the classroom made it hard to concentrate.",
+  "x": "stifling"
+ },
+ {
+  "w": "stubborn",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "عنيد، مكابر",
+  "d": "refusing to change your opinion or action, even when you should",
+  "ex": "My stubborn cousin refuses to accept any advice about money.",
+  "x": "stubborn"
+ },
+ {
+  "w": "sublime",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "سامٍ، رفيع الشأن",
+  "d": "extremely beautiful, impressive or morally great",
+  "ex": "The view from the summit was sublime, with clouds below the peak.",
+  "x": "sublime"
+ },
+ {
+  "w": "pensive",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متأمّل، شارد الذهن",
+  "d": "thinking deeply and quietly, often about something sad",
+  "ex": "He sat by the window, looking pensive after the phone call.",
+  "x": "pensive"
+ }
+]

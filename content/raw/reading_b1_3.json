@@ -1,0 +1,434 @@
+[
+ {
+  "id": "r-b1-09",
+  "l": "B1",
+  "title": "Why Cities Invest in Public Transport",
+  "topic": "city",
+  "paras": [
+   "Every morning, thousands of cars enter big cities, and many of them carry only one person. The result is traffic jams, noise and polluted air. In response, more and more city governments are spending large sums of money on buses, trams and metro lines. At first sight, this may seem expensive, but the reasons behind the investment are strong.",
+   "The first reason is space. A single bus can carry as many passengers as forty cars, yet it takes up far less road. A metro line under the ground uses no street space at all. Since land in city centres is very costly, moving more people in less space is a clear gain.",
+   "The second reason is health and the environment. Fewer cars mean cleaner air and fewer accidents. Passengers who use public transport also walk to and from stations, so they get a little exercise every day. Electric trams and buses reduce greenhouse gases even further, which helps cities meet their climate targets.",
+   "The third reason is fairness. Not everybody can afford a car or is able to drive. Students, older people and people with low incomes depend on buses and trains to reach schools, hospitals and jobs. When the service is reliable, they can take part fully in city life. Businesses also benefit, because workers arrive on time and shoppers can reach the high street easily.",
+   "Of course, a good system must be well designed. Passengers need frequent services, clear maps, reasonable prices and safe stations. If buses are late or dirty, people will return to their cars. Many cities therefore use one ticket for all services and show live arrival times on screens and phones. Experts agree that investing in public transport is not only about moving people; it is about making the whole city work better."
+  ],
+  "gloss": [
+   {
+    "w": "traffic jam",
+    "ar": "ازدحام مروري"
+   },
+   {
+    "w": "invest",
+    "ar": "يستثمر"
+   },
+   {
+    "w": "passenger",
+    "ar": "راكب"
+   },
+   {
+    "w": "greenhouse gases",
+    "ar": "غازات الدفيئة"
+   },
+   {
+    "w": "income",
+    "ar": "دخل"
+   },
+   {
+    "w": "reliable",
+    "ar": "موثوق"
+   },
+   {
+    "w": "frequent",
+    "ar": "متكرّر"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why is a bus good for saving space?",
+    "o": [
+     "It is smaller than a car",
+     "It carries as many people as forty cars on less road",
+     "It uses the metro tunnel"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: حافلة واحدة تنقل ركاب أربعين سيارة بمساحة أقل."
+   },
+   {
+    "k": "mc",
+    "q": "Which group depends on public transport, according to the text?",
+    "o": [
+     "Students and people with low incomes",
+     "Only tourists",
+     "Only office managers"
+    ],
+    "a": 0,
+    "why": "الفقرة 4: الطلاب وكبار السن وذوو الدخل المحدود."
+   },
+   {
+    "k": "tfng",
+    "q": "A metro line under the ground uses no street space.",
+    "a": "T",
+    "why": "الفقرة 2: المترو تحت الأرض لا يشغل مساحة شارع."
+   },
+   {
+    "k": "tfng",
+    "q": "Electric buses increase greenhouse gases.",
+    "a": "F",
+    "why": "الفقرة 3: الحافلات الكهربائية تقلل الغازات."
+   },
+   {
+    "k": "tfng",
+    "q": "Public transport is free in most large cities.",
+    "a": "NG",
+    "why": "النص لا يذكر مجانية النقل."
+   },
+   {
+    "k": "gap",
+    "q": "Fewer cars mean cleaner ___ and fewer accidents.",
+    "a": [
+     "air"
+    ],
+    "why": "الفقرة 3: هواء أنظف وحوادث أقل."
+   },
+   {
+    "k": "gap",
+    "q": "Many cities use one ___ for all services.",
+    "a": [
+     "ticket"
+    ],
+    "why": "الفقرة 5: تذكرة واحدة لكل الخدمات."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer says that bad service may send people back to their cars.",
+    "a": "T",
+    "why": "الفقرة 5: إذا تأخرت الحافلات يعود الناس لسياراتهم."
+   }
+  ],
+  "sumAr": "تستثمر المدن في النقل العام لأنه يوفر المساحة ويحسّن الصحة والبيئة ويحقق العدالة لمن لا يملكون سيارة. وينجح ذلك فقط إذا كانت الخدمة منتظمة ونظيفة وسهلة الاستعمال."
+ },
+ {
+  "id": "r-b1-10",
+  "l": "B1",
+  "title": "Volunteering",
+  "topic": "society",
+  "paras": [
+   "Every year, millions of people give their time to help others without being paid. They clean beaches, teach children to read, deliver food to elderly neighbours or help at sports events. This is called volunteering, and it is one of the most valuable forms of public service. Communities depend on it, but volunteers often say that they gain at least as much as they give.",
+   "Volunteering helps others in obvious ways. A local library can stay open longer if volunteers help to organise books. A shelter can feed more people if students prepare meals on Saturdays. In emergencies, such as floods, volunteers often arrive before official help and carry out simple but vital tasks, such as filling sandbags or giving information.",
+   "The benefits for volunteers are also real. Many learn new skills, such as teamwork, communication and planning, which employers value highly. Young people can add this experience to their CVs and discover which kind of job they enjoy. Retired people meet new friends and feel useful. Several studies suggest that volunteers feel happier and less lonely, although the exact reasons are still being discussed.",
+   "Starting is easier than many people think. First, choose a cause that you really care about, such as animals, education or the environment. Then contact a local organisation and ask what help is needed. Be honest about how many hours you can offer. Two hours every week is better than a big promise that you cannot keep. Many groups provide short training before you begin.",
+   "Volunteering can also have difficulties. Some tasks are tiring or emotional, and new volunteers may feel unsure. Good organisations therefore give support and clear instructions, and they thank people regularly. If you do not have time for regular work, you can still help by joining a one-day event, sharing skills online, or giving things you no longer need. Small actions, repeated by many people, can change a neighbourhood."
+  ],
+  "gloss": [
+   {
+    "w": "volunteer",
+    "ar": "متطوّع"
+   },
+   {
+    "w": "valuable",
+    "ar": "قيّم"
+   },
+   {
+    "w": "shelter",
+    "ar": "مأوى"
+   },
+   {
+    "w": "emergency",
+    "ar": "حالة طارئة"
+   },
+   {
+    "w": "vital",
+    "ar": "حيوي"
+   },
+   {
+    "w": "cause",
+    "ar": "قضية / غاية"
+   },
+   {
+    "w": "organisation",
+    "ar": "منظمة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What do volunteers often say about their work?",
+    "o": [
+     "It is too tiring",
+     "They gain at least as much as they give",
+     "It should be paid"
+    ],
+    "a": 1,
+    "why": "الفقرة 1: يقولون إنهم يكسبون بقدر ما يعطون."
+   },
+   {
+    "k": "mc",
+    "q": "Why is two hours every week better than a big promise?",
+    "o": [
+     "It is easier to learn",
+     "It costs less",
+     "It is a promise you can keep"
+    ],
+    "a": 2,
+    "why": "الفقرة 4: وعد صغير تستطيع الوفاء به أفضل."
+   },
+   {
+    "k": "tfng",
+    "q": "In emergencies, volunteers sometimes arrive before official help.",
+    "a": "T",
+    "why": "الفقرة 2: يصلون غالبًا قبل المساعدة الرسمية."
+   },
+   {
+    "k": "tfng",
+    "q": "All volunteers receive a small payment.",
+    "a": "F",
+    "why": "الفقرة 1: يتطوعون دون أجر."
+   },
+   {
+    "k": "tfng",
+    "q": "Most volunteers in the world are under thirty years old.",
+    "a": "NG",
+    "why": "النص لا يذكر أعمار المتطوعين."
+   },
+   {
+    "k": "gap",
+    "q": "Volunteers learn teamwork, communication and ___.",
+    "a": [
+     "planning"
+    ],
+    "why": "الفقرة 3: العمل الجماعي والتواصل والتخطيط."
+   },
+   {
+    "k": "gap",
+    "q": "First, choose a ___ that you really care about.",
+    "a": [
+     "cause"
+    ],
+    "why": "الفقرة 4: اختر قضية تهمّك."
+   },
+   {
+    "k": "tfng",
+    "q": "Scientists have fully proved why volunteers feel happier.",
+    "a": "F",
+    "why": "الفقرة 3: الأسباب الدقيقة ما زالت قيد النقاش."
+   }
+  ],
+  "sumAr": "التطوع عمل مجاني يفيد المجتمع والمتطوع معًا، إذ يمنحه مهارات وأصدقاء وشعورًا بالفائدة. يبدأ المرء بقضية يحبها ووقت واقعي، وحتى المساهمات الصغيرة تغيّر الحي."
+ },
+ {
+  "id": "r-b1-11",
+  "l": "B1",
+  "title": "How Vaccines Train the Body",
+  "topic": "health",
+  "paras": [
+   "Every day, the human body meets germs such as bacteria and viruses. Most of the time, the immune system, the body's defence team, deals with them quickly. However, some germs are so dangerous that the body needs help. This is the job of a vaccine: it teaches the immune system to recognise a germ before the real infection arrives.",
+   "A vaccine contains a harmless piece or a weak form of a germ. It cannot cause the full disease, but the body does not know that. White blood cells treat it as an enemy and make special proteins called antibodies, which attach themselves to the invader. Think of it as a training exercise for a football team: the match is not real, but the players learn the other side's tactics.",
+   "The most important part is memory. After the training, some immune cells stay in the body for years. If the real germ ever appears, these memory cells recognise it at once and react quickly. The infection is then stopped early, or it becomes much milder. Some vaccines need extra doses, called boosters, to remind the body.",
+   "Vaccines protect more than the person who receives them. When most people in a community are protected, the germ finds it hard to move from one person to another. This is called community protection. It is especially important for babies, elderly people and those who cannot be vaccinated for medical reasons, because they depend on the people around them.",
+   "Before a vaccine is approved, it is tested in several stages, first on small groups and then on thousands of volunteers. Doctors check that it works and that side effects are small and short, such as a sore arm or a mild fever. After approval, experts continue to watch for rare problems. Overall, vaccines are one of the most effective tools of modern medicine, and they have helped to save millions of lives."
+  ],
+  "gloss": [
+   {
+    "w": "germ",
+    "ar": "جرثومة"
+   },
+   {
+    "w": "immune system",
+    "ar": "جهاز المناعة"
+   },
+   {
+    "w": "antibody",
+    "ar": "جسم مضاد"
+   },
+   {
+    "w": "invader",
+    "ar": "غازٍ / دخيل"
+   },
+   {
+    "w": "booster",
+    "ar": "جرعة تنشيطية"
+   },
+   {
+    "w": "side effect",
+    "ar": "أثر جانبي"
+   },
+   {
+    "w": "approved",
+    "ar": "مُعتمَد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does a vaccine contain?",
+    "o": [
+     "A strong form of the germ",
+     "A harmless piece or weak form of a germ",
+     "Only water and sugar"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: جزء غير ضار أو شكل ضعيف من الجرثومة."
+   },
+   {
+    "k": "mc",
+    "q": "What are antibodies?",
+    "o": [
+     "Special proteins that attach to the invader",
+     "Tiny machines in the vaccine",
+     "Medicines for fever"
+    ],
+    "a": 0,
+    "why": "الفقرة 2: بروتينات خاصة تلتصق بالغازي."
+   },
+   {
+    "k": "tfng",
+    "q": "A vaccine can cause the full disease.",
+    "a": "F",
+    "why": "الفقرة 2: لا يسبب المرض الكامل."
+   },
+   {
+    "k": "tfng",
+    "q": "Some immune cells stay in the body for years after the training.",
+    "a": "T",
+    "why": "الفقرة 3: خلايا الذاكرة تبقى سنوات."
+   },
+   {
+    "k": "tfng",
+    "q": "Boosters are cheaper than the first dose.",
+    "a": "NG",
+    "why": "النص لا يذكر أسعار الجرعات."
+   },
+   {
+    "k": "gap",
+    "q": "Vaccines are tested on thousands of ___.",
+    "a": [
+     "volunteers"
+    ],
+    "why": "الفقرة 5: على آلاف المتطوعين."
+   },
+   {
+    "k": "gap",
+    "q": "This is called ___ protection.",
+    "a": [
+     "community"
+    ],
+    "why": "الفقرة 4: الحماية المجتمعية."
+   },
+   {
+    "k": "tfng",
+    "q": "Side effects are usually small and short.",
+    "a": "T",
+    "why": "الفقرة 5: آثار صغيرة وقصيرة كألم الذراع."
+   }
+  ],
+  "sumAr": "يدرّب اللقاح جهاز المناعة بجزء غير ضار من الجرثومة فتتكوّن أجسام مضادة وخلايا ذاكرة. يحمي اللقاح الفرد والمجتمع، ويُختبر على مراحل قبل اعتماده."
+ },
+ {
+  "id": "r-b1-12",
+  "l": "B1",
+  "title": "The First Computers",
+  "topic": "technology",
+  "paras": [
+   "Today a phone in your pocket is more powerful than the huge machines that filled whole rooms seventy years ago. The word \"computer\" originally described a person, someone whose job was to do long calculations by hand. Only later did it come to mean a machine.",
+   "Long before electricity, inventors dreamed of calculating machines. In the nineteenth century, a British mathematician designed an \"engine\" with gears that could, in theory, follow a set of instructions. It was never fully built in his lifetime, but his idea of a programmable machine was ahead of its time. A friend of his wrote notes on how such a machine might be used, and many people regard her as an early programmer.",
+   "The first electronic computers appeared in the 1940s. They used thousands of glass tubes to switch signals on and off, and they were enormous. Some machines weighed more than twenty tonnes and needed a large hall, a team of operators and a powerful cooling system. They could do in seconds what took people days. Governments and universities used these machines for science, weather forecasts and military calculations.",
+   "The glass tubes were soon replaced by transistors, which were smaller, cheaper and more reliable. Later, engineers placed thousands, then millions, of transistors on a single small chip. Computers shrank from room size to desk size. In the 1970s and 1980s, the first personal computers appeared, and ordinary families, schools and small offices could buy one.",
+   "Early programmers used punched cards, and they often waited hours to see whether their program worked. A single mistake could ruin everything. Today we expect instant answers, but the basic idea has not changed: a computer follows instructions very quickly and exactly. Understanding its history reminds us that progress usually comes in small steps, from many people over many years."
+  ],
+  "gloss": [
+   {
+    "w": "calculation",
+    "ar": "عملية حسابية"
+   },
+   {
+    "w": "gear",
+    "ar": "ترس"
+   },
+   {
+    "w": "programmable",
+    "ar": "قابل للبرمجة"
+   },
+   {
+    "w": "enormous",
+    "ar": "ضخم"
+   },
+   {
+    "w": "transistor",
+    "ar": "ترانزستور"
+   },
+   {
+    "w": "reliable",
+    "ar": "موثوق"
+   },
+   {
+    "w": "punched card",
+    "ar": "بطاقة مثقّبة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What did the word computer originally mean?",
+    "o": [
+     "A type of calculator",
+     "A person who did calculations",
+     "A room full of machines"
+    ],
+    "a": 1,
+    "why": "الفقرة 1: كان يصف شخصًا يقوم بحسابات طويلة."
+   },
+   {
+    "k": "mc",
+    "q": "What replaced the glass tubes?",
+    "o": [
+     "Gears",
+     "Punched cards",
+     "Transistors"
+    ],
+    "a": 2,
+    "why": "الفقرة 4: حلت الترانزستورات محلها."
+   },
+   {
+    "k": "tfng",
+    "q": "The nineteenth-century engine was completed in its designer's lifetime.",
+    "a": "F",
+    "why": "الفقرة 2: لم تُبنَ بالكامل في حياته."
+   },
+   {
+    "k": "tfng",
+    "q": "The first electronic computers appeared in the 1940s.",
+    "a": "T",
+    "why": "الفقرة 3: ظهرت في الأربعينيات."
+   },
+   {
+    "k": "tfng",
+    "q": "Early computers were cheaper than doing calculations by hand.",
+    "a": "NG",
+    "why": "النص لا يقارن التكلفة."
+   },
+   {
+    "k": "gap",
+    "q": "Early electronic computers used thousands of glass ___.",
+    "a": [
+     "tubes"
+    ],
+    "why": "الفقرة 3: آلاف الأنابيب الزجاجية."
+   },
+   {
+    "k": "gap",
+    "q": "Early programmers used punched ___.",
+    "a": [
+     "cards"
+    ],
+    "why": "الفقرة 5: البطاقات المثقبة."
+   },
+   {
+    "k": "tfng",
+    "q": "Personal computers appeared in the 1970s and 1980s.",
+    "a": "T",
+    "why": "الفقرة 4: ظهرت الحواسيب الشخصية حينها."
+   }
+  ],
+  "sumAr": "كانت الحواسيب الأولى آلات ضخمة تعمل بالأنابيب الزجاجية، ثم صغّرتها الترانزستورات والرقائق حتى وصلت إلى البيوت. وبقيت الفكرة الأساسية واحدة: تنفيذ التعليمات بسرعة ودقة."
+ }
+]

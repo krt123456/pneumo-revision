@@ -1,0 +1,360 @@
+[
+ {
+  "id": "ws-b1-01",
+  "l": "B1",
+  "task": "Write one paragraph (about 80 words) about your life as a student. Describe your studies, your timetable and one difficulty.",
+  "taskAr": "اكتب فقرة واحدة (نحو 80 كلمة) عن حياتك كطالب. صف دراستك وجدولك وصعوبة واحدة تواجهها.",
+  "frame": [
+   "I am currently studying ... at ...",
+   "My timetable is ...",
+   "One of the biggest difficulties is ...",
+   "To deal with it, I ..."
+  ],
+  "model": "I am currently studying transparency and anti-corruption at a university in Algeria. My timetable is quite busy: I have lectures on Monday, Tuesday and Thursday, and I spend the other days reading and writing. I really enjoy the subject because it deals with real problems in society. One of the biggest difficulties is that most of the best articles are in English. To deal with it, I read one short article every morning and write down ten new words.",
+  "check": [
+   "هل فيها جملة موضوع تعرّف بدراستك؟",
+   "هل ذكرت صعوبة واحدة وحلاً لها؟",
+   "هل استعملت المضارع المستمر مع currently والبسيط مع العادات؟",
+   "هل ربطت الأفكار بـ because وTo deal with؟"
+  ]
+ },
+ {
+  "id": "ws-b1-02",
+  "l": "B1",
+  "task": "Write an informal email (about 85 words) to a friend about a trip you took. Say where you went, what you saw and what you liked best.",
+  "taskAr": "اكتب رسالة ودية (نحو 85 كلمة) لصديق عن رحلة قمت بها. قل أين ذهبت وماذا رأيت وما أعجبك أكثر.",
+  "frame": [
+   "Hi ...,",
+   "I'm writing to tell you about ...",
+   "The best part was ...",
+   "I wish you could have ...",
+   "Write soon,"
+  ],
+  "model": "Hi Yacine,\nHow are you? I'm writing to tell you about my trip to the desert last week. We travelled by bus for six hours and then rode camels to the camp. The best part was the night sky: I had never seen so many stars! We also ate bread baked in the sand, which was delicious. It was very cold at night, but the blankets were warm. I wish you could have come with us. Let's plan another trip together soon.\nWrite soon,\nOmar",
+  "check": [
+   "هل الأسلوب ودي (I'm, Let's, How are you)؟",
+   "هل استعملت الماضي البسيط لسرد الرحلة؟",
+   "هل ذكرت أفضل جزء بوضوح؟",
+   "هل ختمت بجملة تدعو للرد أو للقاء؟"
+  ]
+ },
+ {
+  "id": "ws-b1-03",
+  "l": "B1",
+  "task": "Describe a place you know well (a town, a market or a library) in one paragraph of about 90 words. Use your senses.",
+  "taskAr": "صف مكاناً تعرفه جيداً (بلدة أو سوق أو مكتبة) في فقرة من نحو 90 كلمة. استعمل الحواس.",
+  "frame": [
+   "... is a place where ...",
+   "When you walk in, you can see ...",
+   "You can hear ... and smell ...",
+   "What makes it special is ..."
+  ],
+  "model": "The old market in my town is a place where everyone meets on Friday morning. When you walk in, you can see tables full of oranges, olives and bright scarves. You can hear the sellers shouting their prices, and you can smell fresh bread and mint tea. The streets are narrow and crowded, but nobody seems to be in a hurry. What makes it special is the friendly atmosphere: people stop to talk, to laugh and to help each other. For me, it is the heart of the town.",
+  "check": [
+   "هل استعملت ثلاث حواس على الأقل؟",
+   "هل استعملت جملة وصل مثل a place where؟",
+   "هل استعملت صفات دقيقة (narrow, crowded, fresh)؟",
+   "هل ختمت بإحساسك الشخصي؟"
+  ]
+ },
+ {
+  "id": "ws-b1-04",
+  "l": "B1",
+  "task": "Explain what transparency means in public life. Write one paragraph (about 80 words) with a definition, an example and a reason why it matters.",
+  "taskAr": "اشرح معنى الشفافية في الحياة العامة. اكتب فقرة (نحو 80 كلمة) فيها تعريف ومثال وسبب أهميتها.",
+  "frame": [
+   "Transparency can be defined as ...",
+   "A clear example is ...",
+   "Because of this, citizens can ...",
+   "That is why transparency matters: ..."
+  ],
+  "model": "Transparency can be defined as the practice of making decisions, money and rules open to the public. A clear example is a municipality that publishes its budget and every contract it signs. Because of this, citizens can compare the promises with the real results, and journalists can ask questions. When information is hidden, mistakes and dishonest behaviour are much harder to discover. That is why transparency matters: it protects public money, encourages honest officials and builds trust between people and their institutions.",
+  "check": [
+   "هل بدأت بتعريف واضح؟",
+   "هل أعطيت مثالاً ملموساً يمكن تخيّله؟",
+   "هل ربطت النتيجة بـ Because of this؟",
+   "هل ختمت بجملة تلخص الأهمية؟"
+  ]
+ },
+ {
+  "id": "ws-b1-05",
+  "l": "B1",
+  "task": "Write a formal email (about 95 words) to a professor. Ask for an extension for an assignment and explain the reason politely.",
+  "taskAr": "اكتب رسالة رسمية (نحو 95 كلمة) إلى أستاذ تطلب فيها تمديد موعد تسليم واجب، واشرح السبب بلطف.",
+  "frame": [
+   "Dear Professor ...,",
+   "I am writing regarding ...",
+   "Unfortunately, ...",
+   "I would be grateful if ...",
+   "I apologise for any inconvenience."
+  ],
+  "model": "Dear Professor Mansouri,\nI am writing regarding the assignment for your course on public administration, which is due on 5 December. Unfortunately, I have been ill for the past week and I have not been able to finish the final section. I have already completed the research and most of the writing. I would be grateful if you could allow me to submit it on 10 December. I can send you my plan today if you would like to see it. I apologise for any inconvenience and thank you for your understanding.\nYours sincerely,\nSofiane Cherif",
+  "check": [
+   "هل ذكرت اسم المقرر وموعد التسليم؟",
+   "هل شرحت السبب باختصار ولباقة؟",
+   "هل استعملت I would be grateful if بدل صيغة الأمر؟",
+   "هل خلت الرسالة من الاختصارات مثل I'm وcan't؟"
+  ]
+ },
+ {
+  "id": "ws-b1-06",
+  "l": "B1",
+  "task": "Give your opinion: should cities publish how they spend public money online? Write one paragraph (about 100 words) with two reasons and an example.",
+  "taskAr": "أبدِ رأيك: هل ينبغي أن تنشر المدن كيف تنفق المال العام على الإنترنت؟ اكتب فقرة (نحو 100 كلمات) فيها سببان ومثال.",
+  "frame": [
+   "In my opinion, ...",
+   "The first reason is that ...",
+   "Another reason is ...",
+   "For example, ...",
+   "For these reasons, ..."
+  ],
+  "model": "In my opinion, cities should publish how they spend public money online. The first reason is that citizens have the right to know what happens to the taxes they pay. Another reason is that open information makes it harder to hide waste. For example, if a city publishes the price of every new road, people can easily see when one road costs twice as much as another. Some officials may say that this takes too much time. However, modern websites make it simple and cheap. For these reasons, I believe that publishing spending is a good rule for every city.",
+  "check": [
+   "هل صرّحت برأيك في الجملة الأولى؟",
+   "هل لكل سبب جملة مستقلة؟",
+   "هل أعطيت مثالاً بعبارة For example؟",
+   "هل ذكرت رأياً مخالفاً وردّيت عليه بـ However؟"
+  ]
+ },
+ {
+  "id": "ws-b1-07",
+  "l": "B1",
+  "task": "Write a short story (about 95 words) that begins: \"Last Tuesday, I found a wallet on the bus.\" Use past simple and past continuous.",
+  "taskAr": "اكتب قصة قصيرة (نحو 95 كلمات) تبدأ بالجملة: \"Last Tuesday, I found a wallet on the bus.\" استعمل الماضي البسيط والماضي المستمر.",
+  "frame": [
+   "Last Tuesday, I found a wallet on the bus.",
+   "While I was ..., I noticed ...",
+   "At first, I ...",
+   "Then I decided to ...",
+   "In the end, ..."
+  ],
+  "model": "Last Tuesday, I found a wallet on the bus. While I was reading, I noticed it under the seat. At first, I wanted to keep it because I was short of money. Then I opened it and saw a student card with a photo of a young girl. I decided to take it to the university office. When I arrived, a girl was crying at the desk. She had lost her card and her bus pass. In the end, she thanked me with a big smile, and I felt proud of my choice.",
+  "check": [
+   "هل بدأت بالجملة المعطاة بالضبط؟",
+   "هل استعملت while + الماضي المستمر للخلفية؟",
+   "هل رتبت الأحداث بـ At first وThen وIn the end؟",
+   "هل فيها مشاعر أو قرار واضح؟"
+  ]
+ },
+ {
+  "id": "ws-b1-08",
+  "l": "B1",
+  "task": "Describe this chart in words (about 95 words). A line chart shows the number of students (in thousands) at an online course: 2018 = 10, 2020 = 30, 2022 = 55, 2024 = 60.",
+  "taskAr": "صف هذا الرسم البياني بالكلمات (نحو 95 كلمة). رسم خطي يبيّن عدد الطلاب (بالآلاف) في دورة إلكترونية: 2018 = 10، 2020 = 30، 2022 = 55، 2024 = 60.",
+  "frame": [
+   "The line chart shows ...",
+   "In 2018, the number was ...",
+   "Between ... and ..., it rose sharply to ...",
+   "After that, ... increased slowly.",
+   "Overall, ..."
+  ],
+  "model": "The line chart shows how many students joined an online course between 2018 and 2024. The numbers are given in thousands. In 2018, only 10 thousand students took the course. Between 2018 and 2020, the number tripled and reached 30 thousand. It then continued to rise sharply and hit 55 thousand in 2022. After that, the increase was much slower: by 2024, the figure had risen by only 5 thousand, to 60 thousand. Overall, the course became six times more popular in six years, although growth slowed down at the end of the period.",
+  "check": [
+   "هل بدأت بجملة تقول ما يبيّنه الرسم؟",
+   "هل استعملت أفعال الاتجاه (rose, tripled, reached)؟",
+   "هل ذكرت الأرقام والسنوات بدقة؟",
+   "هل ختمت بجملة Overall تلخص الاتجاه العام؟"
+  ]
+ },
+ {
+  "id": "ws-b1-09",
+  "l": "B1",
+  "task": "Write a summary (about 95 words) of this text: \"Many cities now use smart bins that tell workers when they are full. Trucks only visit full bins, so they drive less. As a result, cities spend less on fuel, the air is cleaner and the streets are tidier. However, the bins are expensive to buy, and small towns often cannot afford them.\"",
+  "taskAr": "اكتب ملخصاً (نحو 95 كلمة) لهذا النص: \"Many cities now use smart bins that tell workers when they are full. Trucks only visit full bins, so they drive less. As a result, cities spend less on fuel, the air is cleaner and the streets are tidier. However, the bins are expensive to buy, and small towns often cannot afford them.\"",
+  "frame": [
+   "The text explains that ...",
+   "According to the text, ...",
+   "As a result, ...",
+   "However, the text also says that ..."
+  ],
+  "model": "The text explains that some cities now use smart bins to manage their rubbish. According to the text, the bins send a message to workers when they are full, so trucks only collect from the bins that need emptying. As a result, cities use less fuel, there is less pollution and the streets stay cleaner. However, the text also says that the bins are expensive, which means that small towns may not be able to buy them. In short, smart bins are useful for large cities, but cost is still a problem for smaller ones.",
+  "check": [
+   "هل استعملت كلماتك الخاصة بدل نسخ الجمل؟",
+   "هل ذكرت الفكرة الرئيسية والنتيجة والمشكلة؟",
+   "هل خلت من رأيك الشخصي؟",
+   "هل استعملت عبارات مثل According to the text؟"
+  ]
+ },
+ {
+  "id": "ws-b1-10",
+  "l": "B1",
+  "task": "Describe a project idea to improve your town (about 105 words). Explain the problem, your solution, who will help and the result you expect.",
+  "taskAr": "صف فكرة مشروع لتحسين بلدتك (نحو 105 كلمة). اشرح المشكلة والحل ومن سيساعد والنتيجة المتوقعة.",
+  "frame": [
+   "The main problem in my town is ...",
+   "My idea is to ...",
+   "The project would be run by ...",
+   "We could get help from ...",
+   "If it works, ..."
+  ],
+  "model": "The main problem in my town is that people do not know how to report broken streetlights and holes in the road. My idea is to create a simple website and phone number where residents can send a photo and the place of the problem. The project would be run by a small team of volunteer students. We could get help from the municipality, which could fix the most urgent problems first. Every month, we would publish a list of the problems that were reported and the ones that were solved. If it works, the streets will be safer, and people will trust their local government more.",
+  "check": [
+   "هل ذكرت المشكلة قبل الحل؟",
+   "هل استعملت would وcould للحديث عن مشروع مقترح؟",
+   "هل ذكرت من سينفّذ ومن سيساعد؟",
+   "هل ختمت بنتيجة باستعمال If it works؟"
+  ]
+ },
+ {
+  "id": "ws-b1-11",
+  "l": "B1",
+  "task": "Write about 105 words: do you prefer studying online or in a classroom? Give reasons and a short example from your own experience.",
+  "taskAr": "اكتب نحو 105 كلمة: هل تفضّل الدراسة عبر الإنترنت أم في القاعة؟ اعرض الأسباب ومثالاً قصيراً من تجربتك.",
+  "frame": [
+   "I prefer ... to ...",
+   "There are two main reasons for this.",
+   "Firstly, ...",
+   "On the other hand, ...",
+   "Personally, ..."
+  ],
+  "model": "I prefer studying in a classroom to studying online. There are two main reasons for this. Firstly, it is easier to concentrate when I am sitting with other students. At home, my phone and my family often distract me. Secondly, I can ask questions immediately and hear the questions of others. On the other hand, online lessons save time and travel money, and I can watch a difficult lecture twice. Last year, I followed a statistics course online, and I had to read the same page three times because nobody could explain it to me. Personally, I think the best choice is a mix of both.",
+  "check": [
+   "هل ذكرت تفضيلك في أول جملة؟",
+   "هل رتبت الأسباب بـ Firstly وSecondly؟",
+   "هل أعطيت الجانب الآخر بـ On the other hand؟",
+   "هل في المثال تفصيل من تجربتك؟"
+  ]
+ },
+ {
+  "id": "ws-b1-12",
+  "l": "B1",
+  "task": "Write a complaint email (about 110 words) to an online shop. You received a damaged product. Explain what happened and what you want.",
+  "taskAr": "اكتب رسالة شكوى (نحو 110 كلمة) إلى متجر إلكتروني. وصلك منتج تالف. اشرح ما حدث وما الذي تطلبه.",
+  "frame": [
+   "Dear Sir or Madam,",
+   "I am writing to complain about ...",
+   "When the parcel arrived, ...",
+   "I have attached ...",
+   "I would like you to ...",
+   "I look forward to hearing from you."
+  ],
+  "model": "Dear Sir or Madam,\nI am writing to complain about a laptop bag that I ordered from your website on 3 November (order number 4821). When the parcel arrived last Monday, the zip was broken and there was a large hole in one corner. I have attached two photos that show the damage. The bag was not cheap, and I needed it for my studies. I would like you to send me a new bag or to give me my money back, whichever is easier for you. I would also like to know how long this will take. I look forward to hearing from you.\nYours faithfully,\nHassan Rahmani",
+  "check": [
+   "هل ذكرت رقم الطلب وتاريخه؟",
+   "هل وصفت المشكلة بدقة وبنبرة مهذبة؟",
+   "هل حددت ما تطلبه بوضوح؟",
+   "هل انتهيت بـ Yours faithfully لأنك لا تعرف الاسم؟"
+  ]
+ },
+ {
+  "id": "ws-b1-13",
+  "l": "B1",
+  "task": "Describe a person you admire (about 135 words). Say who the person is, what he or she did and why you admire him or her.",
+  "taskAr": "صف شخصاً تُعجب به (نحو 135 كلمة). قل من هو وماذا فعل ولماذا تُعجب به.",
+  "frame": [
+   "The person I admire most is ...",
+   "He/She is a ... who ...",
+   "One thing he/she did was ...",
+   "What I admire most is ...",
+   "He/She has taught me that ..."
+  ],
+  "model": "The person I admire most is my old maths teacher, Mrs Amel. She is a woman who never gave up on her students. One thing she did was to stay at school every afternoon for free, so that weaker students could ask questions. I was one of them. At the beginning, I could not solve even the easiest problems, but she explained everything again and again with patience and a smile. Her classroom was always calm and tidy, and she remembered the name of every student. What I admire most is that she treated everybody equally, rich or poor. She has taught me that hard work and kindness can change a person's life. Today I try to help my younger cousins in the same way, and I hope to become a teacher like her one day.",
+  "check": [
+   "هل ذكرت من هو الشخص ولماذا تعجب به؟",
+   "هل استعملت who في جملة وصل واحدة على الأقل؟",
+   "هل ذكرت فعلاً محدداً قام به؟",
+   "هل ختمت بما تعلمته منه؟"
+  ]
+ },
+ {
+  "id": "ws-b1-14",
+  "l": "B1",
+  "task": "Write a story (about 130 words) about a day when everything went wrong. Use the past perfect at least twice.",
+  "taskAr": "اكتب قصة (نحو 130 كلمة) عن يوم سارت فيه الأمور كلها بشكل سيئ. استعمل الماضي التام مرتين على الأقل.",
+  "frame": [
+   "It was the worst day of ...",
+   "I had forgotten to ... so ...",
+   "By the time I arrived, ...",
+   "Just then, ...",
+   "Luckily, ..."
+  ],
+  "model": "It was the worst day of the term. I woke up late because my alarm had not rung, and I missed the bus. I ran to the station, but by the time I arrived, the next bus had already left. When I finally reached the university, the exam had started and the door was closed. Just then, I realised that I had left my pen and my student card at home. I was so upset that I sat on the steps and almost cried. Luckily, the professor came out, listened to me and allowed me to take the exam in the afternoon. That evening I bought two alarm clocks and went to bed early. I learnt that a bad day is easier to forget when you laugh about it.",
+  "check": [
+   "هل استعملت had + اسم المفعول لحدث سابق؟",
+   "هل رتبت الأحداث ترتيباً زمنياً واضحاً؟",
+   "هل استعملت by the time وjust then وluckily؟",
+   "هل للقصة نهاية؟"
+  ]
+ },
+ {
+  "id": "ws-b1-15",
+  "l": "B1",
+  "task": "Describe this bar chart (about 120 words). It shows how 100 students travel to university: bus 40, walking 25, car 20, bicycle 10, train 5.",
+  "taskAr": "صف هذا الرسم بالأعمدة (نحو 120 كلمة). يبيّن كيف يصل 100 طالب إلى الجامعة: الحافلة 40، المشي 25، السيارة 20، الدراجة 10، القطار 5.",
+  "frame": [
+   "The bar chart illustrates ...",
+   "The most popular way is ..., with ...",
+   "The second most common ...",
+   "By contrast, ...",
+   "In summary, ..."
+  ],
+  "model": "The bar chart illustrates how 100 students travel to university. The most popular way is by bus, with 40 students, which is exactly two fifths of the total. The second most common way is walking, chosen by 25 students. A smaller group of 20 students come by car, while only 10 students use a bicycle. By contrast, the train is the least popular option, with just 5 students. It is interesting that the number of students who walk is higher than the number who drive. In summary, public transport and walking together account for about two thirds of all journeys, and private transport is less common. If the university built a safer bicycle path, more students might choose to cycle.",
+  "check": [
+   "هل بدأت بجملة تقدم الرسم (illustrates)؟",
+   "هل رتبت الأرقام من الأكبر إلى الأصغر؟",
+   "هل استعملت لغة المقارنة (most, least, higher than)؟",
+   "هل ختمت بـ In summary تعطي الاتجاه العام؟"
+  ]
+ },
+ {
+  "id": "ws-b1-16",
+  "l": "B1",
+  "task": "Write about the advantages and disadvantages of using AI tools for study (about 130 words).",
+  "taskAr": "اكتب عن مزايا وعيوب استعمال أدوات الذكاء الاصطناعي في الدراسة (نحو 130 كلمة).",
+  "frame": [
+   "AI tools are becoming ...",
+   "One advantage is that ...",
+   "Another benefit is ...",
+   "However, there are also disadvantages.",
+   "To sum up, ..."
+  ],
+  "model": "AI tools are becoming very common among students. One advantage is that they can explain difficult ideas in simple words at any time of the day. Another benefit is that they help students check grammar and organise their notes, which saves a lot of time. However, there are also disadvantages. Firstly, AI sometimes gives wrong information in a confident voice, so students must always check important facts. Secondly, if students copy answers without thinking, they stop learning and may even break university rules. For example, a student who asks AI to write a whole essay will not improve his own writing. To sum up, AI is a useful assistant, but it should never replace thinking. Students who use it carefully, and who check every answer, will gain the most.",
+  "check": [
+   "هل ذكرت ميزتين وعيبين؟",
+   "هل استعملت عبارات الإضافة والتناقض (Another, However)؟",
+   "هل أعطيت مثالاً واحداً على الأقل؟",
+   "هل ختمت بخلاصة متوازنة؟"
+  ]
+ },
+ {
+  "id": "ws-b1-17",
+  "l": "B1",
+  "task": "Write an email (about 120 words) applying for a short internship at a research centre. Introduce yourself, explain your skills and say why you are interested.",
+  "taskAr": "اكتب رسالة (نحو 120 كلمة) للتقدم إلى تدريب قصير في مركز بحثي. عرّف بنفسك واذكر مهاراتك وسبب اهتمامك.",
+  "frame": [
+   "Dear Dr ...,",
+   "I am writing to apply for ...",
+   "I am currently ...",
+   "I have experience in ...",
+   "I am particularly interested in ... because ...",
+   "I have attached ..."
+  ],
+  "model": "Dear Dr Khelifi,\nI am writing to apply for the two-month internship at your research centre, which I saw advertised on your website. I am currently a master's student in transparency and anti-corruption, and I have a bachelor's degree in accounting and finance. I have experience in reading financial reports, organising data in spreadsheets and writing short research summaries in English. I am particularly interested in your work on public procurement because I would like to understand how contracts can be checked more easily. I am a careful and reliable worker, and I learn quickly. I have attached my CV and a short writing sample. I would be very happy to discuss my application at any time.\nYours sincerely,\nAbdel Rahman Belkacem",
+  "check": [
+   "هل ذكرت الوظيفة وأين رأيت الإعلان؟",
+   "هل ذكرت مؤهلاتك ومهارتين على الأقل؟",
+   "هل شرحت سبب اهتمامك بالمركز تحديداً؟",
+   "هل ذكرت المرفقات وأنهيت بأسلوب رسمي؟"
+  ]
+ },
+ {
+  "id": "ws-b1-18",
+  "l": "B1",
+  "task": "Write a summary (about 125 words) of this text: \"Corruption does not only waste money. When officials take bribes, roads are built badly, medicines are not delivered and honest companies lose contracts. Over time, citizens stop trusting the state and many talented young people leave the country. Experts say that open budgets, independent courts and free media are the best ways to reduce corruption.\" Add one sentence of your own opinion.",
+  "taskAr": "اكتب ملخصاً (نحو 125 كلمة) لهذا النص: \"Corruption does not only waste money. When officials take bribes, roads are built badly, medicines are not delivered and honest companies lose contracts. Over time, citizens stop trusting the state and many talented young people leave the country. Experts say that open budgets, independent courts and free media are the best ways to reduce corruption.\" أضف جملة واحدة برأيك الشخصي.",
+  "frame": [
+   "The text argues that ...",
+   "First, it explains that ...",
+   "It also mentions that ...",
+   "As a solution, experts suggest ...",
+   "In my opinion, ..."
+  ],
+  "model": "The text argues that corruption is harmful in many ways, and not only because it wastes money. First, it explains that when officials accept bribes, public services become worse. For example, roads are badly built and medicines may never reach the people who need them. It also mentions that honest companies lose their chance to win contracts. In the long term, people lose trust in the state, and many talented young people decide to leave their country. As a solution, experts suggest three main measures: open budgets, independent courts and free media. In my opinion, the first step should be open budgets, because it is the easiest for citizens to understand and to check. Without public information, the other measures cannot work well.",
+  "check": [
+   "هل لخّصت الأفكار الرئيسية بكلماتك؟",
+   "هل ذكرت الأسباب والنتائج والحلول بالترتيب؟",
+   "هل فصلت رأيك عن الملخص بعبارة In my opinion؟",
+   "هل التزمت بعدد الكلمات المطلوب؟"
+  ]
+ }
+]

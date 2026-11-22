@@ -1,0 +1,1027 @@
+[
+{
+"w": "case study",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "دراسة حالة",
+"d": "a detailed study of one person, place, event or organisation",
+"ex": "Her thesis includes a case study of one anti-corruption agency.",
+"x": "case study",
+"c": [
+"carry out a case study"
+]
+},
+{
+"w": "limitation",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "محدودية، قيد (في الدراسة)",
+"d": "a weakness or restriction that reduces how far results can be trusted",
+"ex": "The small sample is a limitation of this study.",
+"x": "limitation",
+"c": [
+"acknowledge a limitation"
+],
+"f": [
+"limit"
+]
+},
+{
+"w": "contribution",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "إسهام، مساهمة علمية",
+"d": "something new and useful that a work adds to a field",
+"ex": "The main contribution of this thesis is a new method for testing legal AI.",
+"x": "contribution",
+"c": [
+"make a contribution"
+],
+"f": [
+"contribute"
+]
+},
+{
+"w": "implication",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "دلالة، انعكاس، مغزى",
+"d": "a possible effect or meaning that follows from a result",
+"ex": "The findings have serious implications for fair trials.",
+"x": "implications",
+"c": [
+"policy implication"
+],
+"f": [
+"imply"
+]
+},
+{
+"w": "variable",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "متغيّر",
+"d": "a factor that can change and be measured in a study",
+"ex": "Age is one variable that we controlled in the survey.",
+"x": "variable",
+"c": [
+"key variable"
+],
+"f": [
+"vary"
+]
+},
+{
+"w": "qualitative",
+"p": "adj",
+"l": "B2",
+"t": "research",
+"ar": "نوعي (كيفي)",
+"d": "based on opinions, experiences and descriptions rather than numbers",
+"ex": "Qualitative research explores how lawyers feel about automation.",
+"x": "Qualitative",
+"c": [
+"qualitative data"
+],
+"f": [
+"quality"
+]
+},
+{
+"w": "quantitative",
+"p": "adj",
+"l": "B2",
+"t": "research",
+"ar": "كمّي",
+"d": "based on numbers and statistics that can be measured",
+"ex": "A quantitative survey counted how often the tool was used.",
+"x": "quantitative",
+"c": [
+"quantitative analysis"
+],
+"f": [
+"quantity"
+]
+},
+{
+"w": "methodology",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "منهجية",
+"d": "the system of methods and principles used in a study",
+"ex": "The methodology chapter explains how the data were collected.",
+"x": "methodology",
+"c": [
+"research methodology"
+],
+"f": [
+"method"
+]
+},
+{
+"w": "literature review",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "مراجعة الأدبيات (الدراسات السابقة)",
+"d": "a summary and evaluation of earlier studies on a topic",
+"ex": "A good literature review shows what is already known.",
+"x": "literature review",
+"c": [
+"write a literature review"
+]
+},
+{
+"w": "peer review",
+"p": "phr",
+"l": "B2",
+"t": "academic",
+"ar": "مراجعة الأقران (التحكيم العلمي)",
+"d": "the checking of a paper by other experts before publication",
+"ex": "Peer review took four months, but it improved the article.",
+"x": "Peer review",
+"c": [
+"undergo peer review"
+]
+},
+{
+"w": "plagiarism",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "انتحال علمي (سرقة أدبية)",
+"d": "using another person's words or ideas without giving credit",
+"ex": "Universities punish plagiarism very strictly.",
+"x": "plagiarism",
+"c": [
+"commit plagiarism"
+],
+"f": [
+"plagiarise"
+]
+},
+{
+"w": "data collection",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "جمع البيانات",
+"d": "the process of gathering information for a study",
+"ex": "Data collection will last two months in three courts.",
+"x": "Data collection"
+},
+{
+"w": "population",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "مجتمع الدراسة (الأصل الإحصائي)",
+"d": "the whole group of people that a study wants to describe",
+"ex": "The population of this study is all practising defence lawyers.",
+"x": "population",
+"c": [
+"target population"
+]
+},
+{
+"w": "random sample",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "عيّنة عشوائية",
+"d": "a group chosen by chance so that everyone has an equal chance",
+"ex": "We selected a random sample of two hundred case files.",
+"x": "random sample"
+},
+{
+"w": "control group",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "مجموعة ضابطة",
+"d": "a group that does not receive the treatment being tested",
+"ex": "The control group prepared the hearing without the tool.",
+"x": "control group"
+},
+{
+"w": "mixed methods",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "المناهج المختلطة",
+"d": "research that combines qualitative and quantitative methods",
+"ex": "We used mixed methods: a survey and twenty interviews.",
+"x": "mixed methods"
+},
+{
+"w": "focus group",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "مجموعة نقاش بؤرية",
+"d": "a small group that discusses a topic with a researcher",
+"ex": "A focus group of judges discussed the idea of real-time advice.",
+"x": "focus group",
+"c": [
+"run a focus group"
+]
+},
+{
+"w": "semi-structured interview",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "مقابلة شبه منظمة",
+"d": "an interview with prepared questions but room for free discussion",
+"ex": "Each semi-structured interview lasted about forty minutes.",
+"x": "semi-structured interview"
+},
+{
+"w": "pilot study",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "دراسة استطلاعية (تجريبية)",
+"d": "a small trial study carried out before the main research",
+"ex": "A pilot study showed that two questions were unclear.",
+"x": "pilot study",
+"c": [
+"carry out a pilot study"
+]
+},
+{
+"w": "empirical",
+"p": "adj",
+"l": "B2",
+"t": "research",
+"ar": "تجريبي، قائم على الملاحظة والبيانات",
+"d": "based on observation or experiment rather than theory alone",
+"ex": "There is little empirical evidence on AI in Arab courts.",
+"x": "empirical",
+"c": [
+"empirical evidence"
+],
+"f": [
+"empirically"
+]
+},
+{
+"w": "correlation",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "ارتباط (إحصائي)",
+"d": "a connection between two things that change together",
+"ex": "The study found a correlation between speed and accuracy.",
+"x": "correlation",
+"c": [
+"strong correlation"
+],
+"f": [
+"correlate"
+]
+},
+{
+"w": "causation",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "علاقة سببية",
+"d": "a relationship in which one thing directly causes another",
+"ex": "Correlation does not prove causation.",
+"x": "causation",
+"f": [
+"cause"
+]
+},
+{
+"w": "validity",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "صدق، صلاحية (القياس)",
+"d": "the degree to which a study measures what it claims to measure",
+"ex": "The validity of the questionnaire was checked by three experts.",
+"x": "validity",
+"c": [
+"test validity"
+],
+"f": [
+"valid"
+]
+},
+{
+"w": "reliability",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "ثبات، موثوقية (القياس)",
+"d": "the degree to which a method gives the same results each time",
+"ex": "High reliability means that other researchers can repeat the test.",
+"x": "reliability",
+"c": [
+"high reliability"
+],
+"f": [
+"reliable"
+]
+},
+{
+"w": "research gap",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "فجوة بحثية",
+"d": "a topic that earlier studies have not yet explored properly",
+"ex": "We identified a research gap in AI support for defence lawyers.",
+"x": "research gap",
+"c": [
+"identify a research gap"
+]
+},
+{
+"w": "theoretical framework",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "إطار نظري",
+"d": "the set of theories and concepts on which a study is based",
+"ex": "The theoretical framework draws on theories of procedural justice.",
+"x": "theoretical framework",
+"c": [
+"develop a theoretical framework"
+]
+},
+{
+"w": "ethical approval",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "موافقة أخلاقية (من لجنة الأخلاقيات)",
+"d": "official permission from a committee to carry out research on people",
+"ex": "We could not start the interviews without ethical approval.",
+"x": "ethical approval",
+"c": [
+"obtain ethical approval"
+]
+},
+{
+"w": "informed consent",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "موافقة مستنيرة",
+"d": "permission given after the person fully understands the research",
+"ex": "Every participant gave informed consent before the interview.",
+"x": "informed consent",
+"c": [
+"obtain informed consent"
+]
+},
+{
+"w": "anonymity",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "إخفاء الهوية، عدم الكشف عن الهوية",
+"d": "the state of not being identified by name",
+"ex": "We guaranteed anonymity to all the officials we interviewed.",
+"x": "anonymity",
+"c": [
+"guarantee anonymity"
+],
+"f": [
+"anonymous"
+]
+},
+{
+"w": "scope",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "نطاق (الدراسة)",
+"d": "the range of topics that a study covers",
+"ex": "The scope of this thesis is limited to criminal courts.",
+"x": "scope",
+"c": [
+"limited scope"
+]
+},
+{
+"w": "rationale",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "مسوّغ، مبرّر منطقي",
+"d": "the reasons that explain why something is done",
+"ex": "The rationale for the study is the lack of Arabic legal datasets.",
+"x": "rationale",
+"c": [
+"clear rationale"
+]
+},
+{
+"w": "dissertation defence",
+"p": "phr",
+"l": "B2",
+"t": "academic",
+"ar": "مناقشة الأطروحة",
+"d": "the final oral examination in which a student defends a thesis",
+"ex": "His dissertation defence will take place in front of three examiners.",
+"x": "dissertation defence",
+"c": [
+"prepare for a dissertation defence"
+],
+"f": [
+"defend"
+]
+},
+{
+"w": "viva",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "مناقشة شفوية (للأطروحة)",
+"d": "an oral examination on a thesis or dissertation",
+"ex": "She felt calm during the viva and answered every question.",
+"x": "viva",
+"c": [
+"pass the viva"
+]
+},
+{
+"w": "examiner",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "ممتحِن، عضو لجنة المناقشة",
+"d": "a person who tests a student's work or knowledge",
+"ex": "The examiner asked why he had chosen a qualitative method.",
+"x": "examiner",
+"c": [
+"external examiner"
+],
+"f": [
+"examine"
+]
+},
+{
+"w": "appendix",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "ملحق",
+"d": "extra material added at the end of a book or thesis",
+"ex": "The full questionnaire appears in the appendix.",
+"x": "appendix",
+"c": [
+"see the appendix"
+]
+},
+{
+"w": "acknowledgements",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "شكر وتقدير (في الأطروحة)",
+"d": "a section in which an author thanks people who helped",
+"ex": "She thanked her supervisor in the acknowledgements.",
+"x": "acknowledgements",
+"f": [
+"acknowledge"
+]
+},
+{
+"w": "co-author",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "مؤلف مشارك",
+"d": "a person who writes a paper together with another author",
+"ex": "His co-author collected most of the interview data.",
+"x": "co-author"
+},
+{
+"w": "citation",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "استشهاد مرجعي، إحالة",
+"d": "a reference to a source in a piece of writing",
+"ex": "The article has over one hundred citations.",
+"x": "citation",
+"c": [
+"add a citation"
+],
+"f": [
+"cite"
+]
+},
+{
+"w": "open access",
+"p": "phr",
+"l": "B2",
+"t": "academic",
+"ar": "وصول مفتوح (النشر المفتوح)",
+"d": "free for everyone to read and use online",
+"ex": "We published the paper in an open access journal.",
+"x": "open access",
+"c": [
+"open access journal"
+]
+},
+{
+"w": "thesis statement",
+"p": "phr",
+"l": "B2",
+"t": "academic",
+"ar": "عبارة الأطروحة (الفكرة المحورية)",
+"d": "one sentence that states the main argument of an essay or thesis",
+"ex": "Your thesis statement should appear at the end of the introduction.",
+"x": "thesis statement"
+},
+{
+"w": "critical analysis",
+"p": "phr",
+"l": "B2",
+"t": "academic",
+"ar": "تحليل نقدي",
+"d": "a careful judgement of the strengths and weaknesses of an idea",
+"ex": "The chapter offers a critical analysis of automated sentencing.",
+"x": "critical analysis"
+},
+{
+"w": "stance",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "موقف (فكري)",
+"d": "a clear position or opinion about a subject",
+"ex": "The author takes a cautious stance on AI judges.",
+"x": "stance",
+"c": [
+"take a stance"
+]
+},
+{
+"w": "robust",
+"p": "adj",
+"l": "B2",
+"t": "research",
+"ar": "متين، قوي (يصمد أمام الاختبار)",
+"d": "strong enough to give reliable results under different conditions",
+"ex": "The result is robust even when we remove the largest case.",
+"x": "robust",
+"c": [
+"robust results"
+]
+},
+{
+"w": "novel",
+"p": "adj",
+"l": "B2",
+"t": "research",
+"ar": "جديد، مبتكر",
+"d": "new and different from what was done before",
+"ex": "The thesis presents a novel way to detect weak arguments.",
+"x": "novel",
+"c": [
+"novel approach"
+]
+},
+{
+"w": "synthesis",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "تركيب، توليف (للمعارف)",
+"d": "the combining of ideas from different sources into a new whole",
+"ex": "The chapter is a synthesis of ten years of research.",
+"x": "synthesis",
+"f": [
+"synthesise"
+]
+},
+{
+"w": "generalise",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يعمّم",
+"d": "to apply results from a small group to a larger one",
+"ex": "We cannot generalise from only ten interviews.",
+"x": "generalise",
+"c": [
+"generalise from"
+],
+"f": [
+"generalisation"
+]
+},
+{
+"w": "hypothesise",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يفترض (فرضية)",
+"d": "to suggest an explanation that needs to be tested",
+"ex": "We hypothesised that the tool would reduce preparation time.",
+"x": "hypothesised",
+"c": [
+"hypothesise that"
+],
+"f": [
+"hypothesis"
+]
+},
+{
+"w": "outlier",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "قيمة شاذّة",
+"d": "a result that is very different from all the others",
+"ex": "One outlier changed the average score considerably.",
+"x": "outlier",
+"c": [
+"remove an outlier"
+]
+},
+{
+"w": "independent variable",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "المتغيّر المستقل",
+"d": "the factor that a researcher changes to see its effect",
+"ex": "The independent variable is whether the lawyer uses the tool.",
+"x": "independent variable"
+},
+{
+"w": "dependent variable",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "المتغيّر التابع",
+"d": "the factor that is measured to see the effect of another",
+"ex": "The dependent variable is the lawyer's score in the mock trial.",
+"x": "dependent variable"
+},
+{
+"w": "statistically significant",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "ذو دلالة إحصائية",
+"d": "unlikely to have happened by chance, according to a statistical test",
+"ex": "The difference between the two groups was statistically significant.",
+"x": "statistically significant"
+},
+{
+"w": "confidence interval",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "مجال الثقة",
+"d": "a range of values within which the true result probably lies",
+"ex": "The confidence interval shows how precise the estimate is.",
+"x": "confidence interval"
+},
+{
+"w": "margin of error",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "هامش الخطأ",
+"d": "the amount by which a survey result may differ from the truth",
+"ex": "The poll has a margin of error of three per cent.",
+"x": "margin of error"
+},
+{
+"w": "inductive",
+"p": "adj",
+"l": "C1",
+"t": "research",
+"ar": "استقرائي",
+"d": "moving from specific observations to general conclusions",
+"ex": "An inductive approach lets themes emerge from the interviews.",
+"x": "inductive",
+"c": [
+"inductive reasoning"
+],
+"f": [
+"induction"
+]
+},
+{
+"w": "deductive",
+"p": "adj",
+"l": "C1",
+"t": "research",
+"ar": "استنباطي (استدلالي)",
+"d": "moving from a general theory to specific predictions",
+"ex": "A deductive study starts from theory and then tests it.",
+"x": "deductive",
+"c": [
+"deductive reasoning"
+],
+"f": [
+"deduction"
+]
+},
+{
+"w": "grounded theory",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "النظرية المجذّرة (المؤسَّسة على البيانات)",
+"d": "a method that builds theory directly from collected data",
+"ex": "She used grounded theory to explain how lawyers trust AI.",
+"x": "grounded theory"
+},
+{
+"w": "thematic analysis",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "التحليل الموضوعي",
+"d": "a method of finding repeated themes in qualitative data",
+"ex": "Thematic analysis of the interviews revealed three main concerns.",
+"x": "Thematic analysis"
+},
+{
+"w": "triangulation",
+"p": "n",
+"l": "C1",
+"t": "research",
+"ar": "التثليث (المنهجي)",
+"d": "using several methods or sources to check the same finding",
+"ex": "Triangulation strengthens the study because three sources agree.",
+"x": "Triangulation",
+"f": [
+"triangulate"
+]
+},
+{
+"w": "systematic review",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "مراجعة منهجية",
+"d": "a structured review that finds and evaluates all relevant studies",
+"ex": "A systematic review of legal AI found only twelve rigorous studies.",
+"x": "systematic review"
+},
+{
+"w": "meta-analysis",
+"p": "n",
+"l": "C1",
+"t": "research",
+"ar": "تحليل تلوي (تحليل ميتا)",
+"d": "a statistical study that combines the results of many studies",
+"ex": "The meta-analysis combined data from forty experiments.",
+"x": "meta-analysis"
+},
+{
+"w": "impact factor",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "معامل التأثير (للمجلة)",
+"d": "a number showing how often articles in a journal are cited",
+"ex": "The journal has a high impact factor in law and technology.",
+"x": "impact factor"
+},
+{
+"w": "preprint",
+"p": "n",
+"l": "C1",
+"t": "academic",
+"ar": "نسخة أولية قبل التحكيم",
+"d": "a research paper shared publicly before peer review",
+"ex": "He posted a preprint so that other researchers could comment.",
+"x": "preprint"
+},
+{
+"w": "corresponding author",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "المؤلف المراسِل",
+"d": "the author who handles communication with the journal",
+"ex": "The corresponding author answered the reviewers' questions.",
+"x": "corresponding author"
+},
+{
+"w": "conflict of interest",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "تضارب المصالح",
+"d": "a situation in which personal interests may affect judgement",
+"ex": "Authors must declare any conflict of interest to the journal.",
+"x": "conflict of interest",
+"c": [
+"declare a conflict of interest"
+]
+},
+{
+"w": "research integrity",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "النزاهة البحثية",
+"d": "honest and responsible behaviour in all stages of research",
+"ex": "Research integrity is the basis of public trust in science.",
+"x": "Research integrity"
+},
+{
+"w": "academic integrity",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "النزاهة الأكاديمية",
+"d": "honesty and fair behaviour in study and exams",
+"ex": "The university has a strict policy on academic integrity.",
+"x": "academic integrity"
+},
+{
+"w": "fabrication",
+"p": "n",
+"l": "C1",
+"t": "academic",
+"ar": "تلفيق (البيانات)",
+"d": "the act of inventing data or results that do not exist",
+"ex": "Fabrication of data ends a researcher's career.",
+"x": "Fabrication",
+"f": [
+"fabricate"
+]
+},
+{
+"w": "substantiate",
+"p": "v",
+"l": "C1",
+"t": "academic",
+"ar": "يدعم بالأدلة، يثبت",
+"d": "to provide evidence that shows a claim is true",
+"ex": "The author fails to substantiate her main claim.",
+"x": "substantiate",
+"c": [
+"substantiate a claim"
+]
+},
+{
+"w": "corroborate",
+"p": "v",
+"l": "C1",
+"t": "research",
+"ar": "يعزّز (بدليل آخر)، يؤيّد",
+"d": "to support a result or statement with additional evidence",
+"ex": "The interviews corroborate the findings of the survey.",
+"x": "corroborate",
+"c": [
+"corroborate evidence"
+],
+"f": [
+"corroboration"
+]
+},
+{
+"w": "seminal",
+"p": "adj",
+"l": "C1",
+"t": "academic",
+"ar": "أساسي ومؤثّر (رائد)",
+"d": "very important and influential in the development of a field",
+"ex": "She cites a seminal article on judicial independence.",
+"x": "seminal",
+"c": [
+"seminal work"
+]
+},
+{
+"w": "paradigm",
+"p": "n",
+"l": "C1",
+"t": "academic",
+"ar": "نموذج معرفي، إطار فكري",
+"d": "a widely accepted way of thinking about a subject",
+"ex": "AI is creating a new paradigm in legal research.",
+"x": "paradigm",
+"c": [
+"paradigm shift"
+]
+},
+{
+"w": "epistemology",
+"p": "n",
+"l": "C1",
+"t": "academic",
+"ar": "نظرية المعرفة (الإبستيمولوجيا)",
+"d": "the study of how knowledge is formed and what counts as true",
+"ex": "The chapter on epistemology explains why we trust expert evidence.",
+"x": "epistemology"
+},
+{
+"w": "rigour",
+"p": "n",
+"l": "C1",
+"t": "research",
+"ar": "صرامة منهجية، دقة علمية",
+"d": "careful and exact work that avoids mistakes",
+"ex": "Examiners praised the methodological rigour of the thesis.",
+"x": "rigour",
+"c": [
+"methodological rigour"
+],
+"f": [
+"rigorous"
+]
+},
+{
+"w": "interdisciplinary",
+"p": "adj",
+"l": "C1",
+"t": "academic",
+"ar": "متعدد التخصصات",
+"d": "involving two or more different areas of knowledge",
+"ex": "Legal AI is an interdisciplinary field of law and computer science.",
+"x": "interdisciplinary",
+"c": [
+"interdisciplinary research"
+]
+},
+{
+"w": "longitudinal study",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "دراسة طولية",
+"d": "research that follows the same people over a long period",
+"ex": "A longitudinal study tracked the same judges for five years.",
+"x": "longitudinal study"
+},
+{
+"w": "fieldwork",
+"p": "n",
+"l": "C1",
+"t": "research",
+"ar": "عمل ميداني",
+"d": "research done in real places rather than in a library or laboratory",
+"ex": "Her fieldwork took place in provincial courts.",
+"x": "fieldwork",
+"c": [
+"do fieldwork"
+]
+},
+{
+"w": "doctoral candidate",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "طالب دكتوراه (مرشّح)",
+"d": "a student who is working on a doctoral thesis",
+"ex": "The doctoral candidate presented her plan to the panel.",
+"x": "doctoral candidate"
+},
+{
+"w": "external examiner",
+"p": "phr",
+"l": "C1",
+"t": "academic",
+"ar": "ممتحِن خارجي",
+"d": "an examiner from another university who judges a thesis",
+"ex": "An external examiner from Europe read the entire thesis.",
+"x": "external examiner"
+},
+{
+"w": "peer-reviewed",
+"p": "adj",
+"l": "C1",
+"t": "academic",
+"ar": "محكَّم علميًا",
+"d": "checked and approved by other experts before publication",
+"ex": "Use only peer-reviewed sources in your literature review.",
+"x": "peer-reviewed",
+"c": [
+"peer-reviewed journal"
+]
+},
+{
+"w": "state of the art",
+"p": "phr",
+"l": "C1",
+"t": "research",
+"ar": "أحدث ما توصّل إليه المجال",
+"d": "the most advanced stage of development in a field",
+"ex": "The review describes the state of the art in legal AI.",
+"x": "state of the art"
+}
+]

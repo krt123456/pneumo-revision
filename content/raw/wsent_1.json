@@ -1,0 +1,346 @@
+[
+ {
+  "id": "ws-a2-01",
+  "l": "A2",
+  "task": "Write three sentences about your daily routine. Use: usually, never, sometimes.",
+  "taskAr": "اكتب ثلاث جمل عن روتينك اليومي. استعمل: usually وnever وsometimes.",
+  "frame": [
+   "I usually ...",
+   "I never ...",
+   "Sometimes I ..."
+  ],
+  "model": "I usually get up at six o'clock. I never drink coffee after lunch. Sometimes I walk to the library in the evening.",
+  "check": [
+   "هل كتبت ثلاث جمل كاملة؟",
+   "هل بدأت كل جملة بحرف كبير وأنهيتها بنقطة؟",
+   "هل وضعت usually وnever قبل الفعل الرئيسي؟",
+   "هل استعملت المضارع البسيط؟"
+  ]
+ },
+ {
+  "id": "ws-a2-02",
+  "l": "A2",
+  "task": "Write three or four sentences about your family. Say who they are and what they do.",
+  "taskAr": "اكتب ثلاث أو أربع جمل عن عائلتك. اذكر من هم وماذا يعملون.",
+  "frame": [
+   "There are ... people in my family.",
+   "My father is ...",
+   "My sister ..."
+  ],
+  "model": "There are five people in my family. My father is a teacher and my mother is a nurse. My brother is a student. He plays football every Friday.",
+  "check": [
+   "هل استعملت There are وis/are بشكل صحيح؟",
+   "هل أضفت s إلى الفعل مع he وshe؟",
+   "هل ذكرت مهنة لكل شخص؟",
+   "هل أنهيت كل جملة بنقطة؟"
+  ]
+ },
+ {
+  "id": "ws-a2-03",
+  "l": "A2",
+  "task": "Describe your studies in four sentences. Say what you study, where, and what you like about it.",
+  "taskAr": "صف دراستك في أربع جمل. قل ماذا تدرس وأين وما الذي يعجبك فيها.",
+  "frame": [
+   "I study ... at ...",
+   "I am in my ... year.",
+   "My favourite subject is ...",
+   "I like it because ..."
+  ],
+  "model": "I study law at a university in Algeria. I am in my second year. My favourite subject is public law. I like it because it teaches me about justice and fair rules.",
+  "check": [
+   "هل كتبت I study وليس I am study؟",
+   "هل استعملت because لذكر السبب؟",
+   "هل كتبت اسم المادة بوضوح؟",
+   "هل فيها أربع جمل على الأقل؟"
+  ]
+ },
+ {
+  "id": "ws-a2-04",
+  "l": "A2",
+  "task": "Write four sentences about your best friend. Say what he or she looks like and what he or she is like.",
+  "taskAr": "اكتب أربع جمل عن أعز أصدقائك. صف شكله وشخصيته.",
+  "frame": [
+   "My best friend is called ...",
+   "He/She is ... and has ...",
+   "He/She is very ...",
+   "We often ..."
+  ],
+  "model": "My best friend is called Karim. He is tall and has short black hair. He is very kind and funny. We often study together in the library on Saturdays.",
+  "check": [
+   "هل استعملت is مع he وshe؟",
+   "هل وصفت الشكل والشخصية معاً؟",
+   "هل كتبت الاسم بحرف كبير؟",
+   "هل استعملت often قبل الفعل؟"
+  ]
+ },
+ {
+  "id": "ws-a2-05",
+  "l": "A2",
+  "task": "Write about your town or city in about 40 words. Say where it is and what people can do there.",
+  "taskAr": "اكتب عن مدينتك أو بلدتك في نحو 40 كلمة. قل أين تقع وماذا يستطيع الناس أن يفعلوا فيها.",
+  "frame": [
+   "My town is in ...",
+   "There is a ... and there are ...",
+   "People can ...",
+   "I like it because ..."
+  ],
+  "model": "My town is in the north of Algeria. There is a big market and there are two small parks. People can walk by the river in the evening. I like my town because it is quiet and the people are friendly.",
+  "check": [
+   "هل استعملت There is مع المفرد وThere are مع الجمع؟",
+   "هل استعملت can + فعل بدون to؟",
+   "هل كتبت الأسماء الخاصة بحرف كبير؟",
+   "هل ذكرت سبباً مع because؟"
+  ]
+ },
+ {
+  "id": "ws-a2-06",
+  "l": "A2",
+  "task": "Write about what you did yesterday in about 40 words. Use at least four past simple verbs.",
+  "taskAr": "اكتب عما فعلته أمس في نحو 40 كلمة. استعمل أربعة أفعال على الأقل في الماضي البسيط.",
+  "frame": [
+   "Yesterday I woke up at ...",
+   "In the morning I ...",
+   "Then I ...",
+   "In the evening I ..."
+  ],
+  "model": "Yesterday I woke up at seven. In the morning I went to the university and I attended two lectures. Then I had lunch with my friends. In the evening I studied English for an hour and watched a short film.",
+  "check": [
+   "هل كل الأفعال في الماضي (went, had, watched)؟",
+   "هل استعملت did not مع الفعل الأصلي إن نفيت؟",
+   "هل رتبت الأحداث بـ then وin the evening؟",
+   "هل كتبت Yesterday في بداية الجملة أو نهايتها؟"
+  ]
+ },
+ {
+  "id": "ws-a2-07",
+  "l": "A2",
+  "task": "Write about your plans for next weekend in about 35 words. Use going to and will.",
+  "taskAr": "اكتب عن خططك لعطلة نهاية الأسبوع القادمة في نحو 35 كلمة. استعمل going to وwill.",
+  "frame": [
+   "Next weekend I am going to ...",
+   "On Saturday I will ...",
+   "I am also going to ...",
+   "I hope ..."
+  ],
+  "model": "Next weekend I am going to visit my grandparents. On Saturday I will help my grandfather in his garden. In the evening we are going to cook dinner together. I hope the weather will be nice.",
+  "check": [
+   "هل استعملت am going to للخطط؟",
+   "هل استعملت will للتوقع أو القرار اللحظي؟",
+   "هل جاء بعد going to فعل في صيغته الأصلية؟",
+   "هل ذكرت اليوم أو الوقت؟"
+  ]
+ },
+ {
+  "id": "ws-a2-08",
+  "l": "A2",
+  "task": "Write a short email to a friend. Invite him or her to your house on Friday. Say the time and what you will do.",
+  "taskAr": "اكتب رسالة قصيرة لصديق تدعوه فيها إلى بيتك يوم الجمعة. اذكر الوقت وماذا ستفعلان.",
+  "frame": [
+   "Hi ...,",
+   "Would you like to come to my house on ...?",
+   "We can ...",
+   "Please tell me ...",
+   "Best wishes,"
+  ],
+  "model": "Hi Samir,\nWould you like to come to my house on Friday? Please come at four o'clock. We can drink tea, play cards and watch the match together. My brother will also be here. Please tell me if you can come.\nBest wishes,\nAmine",
+  "check": [
+   "هل بدأت بتحية وانتهيت بخاتمة؟",
+   "هل استعملت Would you like to للدعوة المهذبة؟",
+   "هل ذكرت اليوم والساعة؟",
+   "هل طلبت منه الرد؟"
+  ]
+ },
+ {
+  "id": "ws-a2-09",
+  "l": "A2",
+  "task": "Describe your room or your home in about 50 words. Say what there is and where things are.",
+  "taskAr": "صف غرفتك أو بيتك في نحو 50 كلمة. قل ما الموجود وأين توجد الأشياء.",
+  "frame": [
+   "My room is ...",
+   "There is a ... next to ...",
+   "The ... is on/under ...",
+   "My favourite thing is ..."
+  ],
+  "model": "My room is small but comfortable. There is a bed next to the window and a desk opposite the door. The lamp is on the desk and my books are on the shelf above it. My favourite thing is the big window because I can see the mountains from it.",
+  "check": [
+   "هل استعملت حروف الجر in وon وnext to وunder؟",
+   "هل استعملت there is وthere are صحيحاً؟",
+   "هل وضعت الصفة قبل الاسم (small room)؟",
+   "هل ذكرت شيئاً مفضلاً مع السبب؟"
+  ]
+ },
+ {
+  "id": "ws-a2-10",
+  "l": "A2",
+  "task": "Write about your favourite food in about 40 words. Say what it is, how it is made and when you eat it.",
+  "taskAr": "اكتب عن طعامك المفضل في نحو 40 كلمة. قل ما هو وكيف يُحضَّر ومتى تأكله.",
+  "frame": [
+   "My favourite food is ...",
+   "It is made with ...",
+   "You need ...",
+   "I usually eat it ..."
+  ],
+  "model": "My favourite food is couscous with vegetables. It is made with semolina, carrots, potatoes and a little meat. My mother cooks it every Friday and the whole family eats together. I like it because it is warm, tasty and healthy.",
+  "check": [
+   "هل استعملت some وa little وa lot of مع غير المعدود؟",
+   "هل استعملت is made with للمكونات؟",
+   "هل ذكرت وقت تناوله؟",
+   "هل أضفت رأيك مع because؟"
+  ]
+ },
+ {
+  "id": "ws-a2-11",
+  "l": "A2",
+  "task": "Write about a job you would like to do in about 40 words. Say what the job is and why you want it.",
+  "taskAr": "اكتب عن وظيفة تود أن تعمل بها في نحو 40 كلمة. قل ما هي ولماذا تريدها.",
+  "frame": [
+   "I would like to be a ...",
+   "A ... works in ...",
+   "The job is ... because ...",
+   "In the future I want to ..."
+  ],
+  "model": "I would like to be a lawyer. A lawyer works in an office and in court. The job is important because lawyers help people who are in trouble. In the future I want to work for a company that protects workers' rights.",
+  "check": [
+   "هل استعملت I would like to be + مهنة؟",
+   "هل استعملت a قبل المهنة المفردة؟",
+   "هل ذكرت سببين؟",
+   "هل استعملت want to + فعل؟"
+  ]
+ },
+ {
+  "id": "ws-a2-12",
+  "l": "A2",
+  "task": "Explain in simple English what transparency means. Write about 50 words and give one example.",
+  "taskAr": "اشرح بإنجليزية بسيطة معنى الشفافية (transparency). اكتب نحو 50 كلمة وأعطِ مثالاً واحداً.",
+  "frame": [
+   "Transparency means ...",
+   "For example, ...",
+   "When a government is transparent, ...",
+   "This is important because ..."
+  ],
+  "model": "Transparency means that an organisation is open and honest about what it does. For example, a city publishes how it spends its money on the internet. When a government is transparent, citizens can check the information and ask questions. This is important because it helps to stop corruption and builds trust.",
+  "check": [
+   "هل شرحت الكلمة بجملة بسيطة؟",
+   "هل استعملت For example قبل المثال؟",
+   "هل استعملت الجملة الشرطية When ... مع المضارع؟",
+   "هل ذكرت لماذا الشفافية مهمة؟"
+  ]
+ },
+ {
+  "id": "ws-a2-13",
+  "l": "A2",
+  "task": "Write a short formal email to your professor. Ask for a meeting about your project. Write about 50 words.",
+  "taskAr": "اكتب رسالة رسمية قصيرة إلى أستاذك تطلب فيها موعداً لمناقشة مشروعك. اكتب نحو 50 كلمة.",
+  "frame": [
+   "Dear Professor ...,",
+   "I am writing to ask ...",
+   "Would it be possible to ...?",
+   "I am free on ...",
+   "Yours sincerely,"
+  ],
+  "model": "Dear Professor Hadi,\nI am writing to ask for a meeting about my research project. Would it be possible to see you this week? I am free on Tuesday and Wednesday afternoon. I would like to discuss my title and my plan. Thank you for your time.\nYours sincerely,\nNadia Benali",
+  "check": [
+   "هل بدأت بـ Dear Professor وانتهيت بـ Yours sincerely؟",
+   "هل ذكرت سبب الرسالة في الجملة الأولى؟",
+   "هل استعملت Would it be possible للطلب المهذب؟",
+   "هل اقترحت أوقاتاً محددة؟"
+  ]
+ },
+ {
+  "id": "ws-a2-14",
+  "l": "A2",
+  "task": "Look at a park on a sunny Sunday. Describe what people are doing. Write about 50 words using the present continuous.",
+  "taskAr": "تخيل حديقة في يوم أحد مشمس. صف ما يفعله الناس الآن. اكتب نحو 50 كلمة بالمضارع المستمر.",
+  "frame": [
+   "It is a sunny day in the park.",
+   "A man is ...",
+   "Two children are ...",
+   "Some people are ..."
+  ],
+  "model": "It is a sunny Sunday in the park. A man is reading a newspaper under a tree. Two children are playing with a red ball. Some people are walking their dogs and a woman is selling ice cream. Everyone looks happy and the park is full of life.",
+  "check": [
+   "هل استعملت am/is/are + فعل-ing؟",
+   "هل كتبت is مع المفرد وare مع الجمع؟",
+   "هل صفت ما يحدث الآن لا العادة؟",
+   "هل كتبت 55 كلمة تقريباً؟"
+  ]
+ },
+ {
+  "id": "ws-a2-15",
+  "l": "A2",
+  "task": "Write about a holiday you enjoyed in about 55 words. Say where you went, who with, what you did and what you thought.",
+  "taskAr": "اكتب عن عطلة استمتعت بها في نحو 55 كلمة. قل أين ذهبت ومع من وماذا فعلت ورأيك فيها.",
+  "frame": [
+   "Last summer I went to ... with ...",
+   "We stayed in ...",
+   "Every day we ...",
+   "It was ... because ..."
+  ],
+  "model": "Last summer I went to the seaside with my cousins. We stayed in a small hotel near the beach. Every day we swam in the sea and played football on the sand. In the evening we ate fresh fish. It was a wonderful holiday because the weather was hot and everybody was relaxed.",
+  "check": [
+   "هل الأفعال كلها في الماضي (went, stayed, ate)؟",
+   "هل استعملت was/were للوصف؟",
+   "هل ذكرت مع من ذهبت؟",
+   "هل ختمت برأيك في العطلة؟"
+  ]
+ },
+ {
+  "id": "ws-a2-16",
+  "l": "A2",
+  "task": "Compare two cities or two phones in about 50 words. Use comparative adjectives and at least one superlative.",
+  "taskAr": "قارن بين مدينتين أو هاتفين في نحو 50 كلمة. استعمل صيغ المقارنة وصيغة تفضيل واحدة على الأقل.",
+  "frame": [
+   "... is bigger than ...",
+   "... is more ... than ...",
+   "... is cheaper/older ...",
+   "In my opinion, the best ... is ..."
+  ],
+  "model": "Algiers is bigger than Blida and it has more cars. Blida is quieter and cheaper than Algiers. The buses in Algiers are more crowded, but there are more things to do there. Blida is smaller, but it is closer to the mountains. In my opinion, the best city for students is Blida.",
+  "check": [
+   "هل استعملت er مع الصفات القصيرة وmore مع الطويلة؟",
+   "هل استعملت than بعد الصفة المقارنة؟",
+   "هل استعملت the best أو the biggest؟",
+   "هل أعطيت رأيك في النهاية؟"
+  ]
+ },
+ {
+  "id": "ws-a2-17",
+  "l": "A2",
+  "task": "Describe a simple project idea in about 60 words. Say what it is, who it helps and what you need.",
+  "taskAr": "صف فكرة مشروع بسيط في نحو 60 كلمة. قل ما هو ومن يستفيد منه وماذا تحتاج.",
+  "frame": [
+   "My project idea is ...",
+   "It is for ...",
+   "It can help people to ...",
+   "I need ... and ...",
+   "First, I will ..."
+  ],
+  "model": "My project idea is a small phone app for students. It is for people who want to find cheap books near their university. Students can write the name of a book and see the nearest shop and the price. I need a computer, a designer and some money. First, I will ask fifty students if they would use it.",
+  "check": [
+   "هل ذكرت الفكرة في الجملة الأولى؟",
+   "هل استعملت who في وصف الأشخاص؟",
+   "هل ذكرت ما تحتاجه؟",
+   "هل ذكرت خطوتك الأولى بـ First, I will؟"
+  ]
+ },
+ {
+  "id": "ws-a2-18",
+  "l": "A2",
+  "task": "Write a short paragraph about why you are learning English. Write 60 to 70 words and include a goal for the future.",
+  "taskAr": "اكتب فقرة قصيرة عن سبب تعلمك الإنجليزية. اكتب 60 إلى 70 كلمة وضمّنها هدفاً للمستقبل.",
+  "frame": [
+   "I am learning English because ...",
+   "First, ...",
+   "Second, ...",
+   "In the future, I want to ...",
+   "I study ... every day."
+  ],
+  "model": "I am learning English because it is the language of science and international work. First, I need it to read research articles in my field. Second, I want to speak with people from other countries. In the future, I want to study abroad and write my own research. I study English for one hour every day, and I am getting better slowly.",
+  "check": [
+   "هل بدأت بجملة موضوع واضحة فيها because؟",
+   "هل رتبت الأسباب بـ First وSecond؟",
+   "هل ذكرت هدفاً بـ In the future, I want to؟",
+   "هل أنهيت الفقرة بجملة ختامية؟"
+  ]
+ }
+]

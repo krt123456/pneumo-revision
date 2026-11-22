@@ -1,0 +1,873 @@
+[
+ {
+  "id": "g-b1-13",
+  "l": "B1",
+  "title": "Relative clauses 2: defining vs non-defining, whose, whom",
+  "titleAr": "جمل الصلة 2: المحدِّدة وغير المحدِّدة، whose وwhom",
+  "why": "نستعمل جمل الصلة لإضافة معلومة عن شخص أو شيء. هنا نتعلم الفرق بين معلومة ضرورية ومعلومة إضافية، ونستعمل whose وwhom.",
+  "rules": [
+   {
+    "ar": "جملة الصلة المحدِّدة (defining) تقول لنا أي شخص أو أي شيء نقصد. لا نضع فيها فواصل. نستعمل who للأشخاص وwhich للأشياء، ويمكن استعمال that لكليهما.",
+    "form": "noun + who / which / that + verb",
+    "ex": [
+     {
+      "en": "The lawyer who helped me is very kind.",
+      "ar": "المحامي الذي ساعدني لطيف جدا."
+     },
+     {
+      "en": "I lost the book that you gave me.",
+      "ar": "أضعت الكتاب الذي أعطيتني إياه."
+     }
+    ]
+   },
+   {
+    "ar": "إذا كان الضمير مفعولا به في الجملة المحدِّدة فيمكن حذفه. لا نحذفه إذا كان فاعلا. والمهم: لا نكرر الضمير في آخر الجملة كما نفعل بالعربية.",
+    "form": "The book (that) I read was long.",
+    "ex": [
+     {
+      "en": "The report I read was clear.",
+      "ar": "التقرير الذي قرأته كان واضحا."
+     },
+     {
+      "en": "The man who called you is outside.",
+      "ar": "الرجل الذي اتصل بك في الخارج."
+     }
+    ]
+   },
+   {
+    "ar": "جملة الصلة غير المحدِّدة (non-defining) تعطي معلومة إضافية فقط. نضعها بين فاصلتين. لا نستعمل that فيها أبدا، ولا نحذف الضمير.",
+    "form": "noun, who / which …, verb",
+    "ex": [
+     {
+      "en": "My brother, who lives in Oran, is a doctor.",
+      "ar": "أخي، الذي يسكن في وهران، طبيب."
+     },
+     {
+      "en": "The river, which is very long, crosses three cities.",
+      "ar": "النهر، وهو طويل جدا، يعبر ثلاث مدن."
+     }
+    ]
+   },
+   {
+    "ar": "whose تعني «الذي له / التي لها». بعدها اسم مباشرة. whom هو ضمير المفعول به للأشخاص، ويأتي بعد حرف الجر في اللغة الرسمية.",
+    "form": "noun + whose + noun / preposition + whom",
+    "ex": [
+     {
+      "en": "The student whose essay won is my friend.",
+      "ar": "الطالب الذي فاز مقاله صديقي."
+     },
+     {
+      "en": "The man to whom I spoke was the manager.",
+      "ar": "الرجل الذي تحدثت إليه كان المدير."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The book which I read it was long.",
+    "ok": "The book which I read was long.",
+    "ar": "في العربية نقول «قرأته» فيبقى الضمير. في الإنجليزية الضمير which يكفي، فلا نضيف it."
+   },
+   {
+    "x": "My sister, that works at a bank, is busy.",
+    "ok": "My sister, who works at a bank, is busy.",
+    "ar": "بعد الفاصلة لا نستعمل that. نستعمل who للشخص وwhich للشيء."
+   },
+   {
+    "x": "The man who his car was stolen called us.",
+    "ok": "The man whose car was stolen called us.",
+    "ar": "لا نجمع who مع الضمير his. نستعمل whose بدلهما."
+   },
+   {
+    "x": "Who's car is this?",
+    "ok": "Whose car is this?",
+    "ar": "Who's اختصار who is. للملكية نكتب whose."
+   }
+  ],
+  "tip": "إذا حذفت الجملة وتغير المعنى فلا فواصل. إذا حذفتها وبقي المعنى كاملا فضعها بين فاصلتين ولا تستعمل that.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The lawyer ___ helped me is very kind.",
+    "o": [
+     "which",
+     "who",
+     "whose"
+    ],
+    "a": 1,
+    "why": "الكلمة تعود على شخص وهي فاعل، فنستعمل who."
+   },
+   {
+    "k": "mc",
+    "q": "My brother, ___ lives in Oran, is a doctor.",
+    "o": [
+     "that",
+     "who",
+     "whom"
+    ],
+    "a": 1,
+    "why": "الجملة غير محدِّدة (بين فاصلتين) فلا نستعمل that. والضمير فاعل فنستعمل who."
+   },
+   {
+    "k": "mc",
+    "q": "The woman ___ car was stolen called the police.",
+    "o": [
+     "who",
+     "whose",
+     "which"
+    ],
+    "a": 1,
+    "why": "السيارة تخص المرأة، فنستعمل whose بعدها اسم."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "The book, that I borrowed, was long.",
+     "The book, which I borrowed, was long.",
+     "The book, who I borrowed, was long."
+    ],
+    "a": 1,
+    "why": "مع الفواصل نستعمل which وليس that، وwho للأشخاص فقط."
+   },
+   {
+    "k": "mc",
+    "q": "The man to ___ I spoke was the manager.",
+    "o": [
+     "who",
+     "whom",
+     "that"
+    ],
+    "a": 1,
+    "why": "بعد حرف الجر to نستعمل whom للشخص."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the correct sentence.",
+    "o": [
+     "The city which I visited it was big.",
+     "The city I visited was big.",
+     "The city I visited it was big."
+    ],
+    "a": 1,
+    "why": "لا نكرر الضمير. يمكن حذف which لأنه مفعول به."
+   },
+   {
+    "k": "gap",
+    "q": "The student ___ essay won the prize is my friend.",
+    "a": [
+     "whose"
+    ],
+    "why": "المقال يخص الطالب، فنستعمل whose."
+   },
+   {
+    "k": "gap",
+    "q": "Dr Salma, ___ I met at the conference, wrote the report.",
+    "a": [
+     "whom",
+     "who"
+    ],
+    "why": "الدكتورة شخص ومفعول به، فنستعمل whom (ويقبل who في الكلام العادي)."
+   },
+   {
+    "k": "gap",
+    "q": "The reason for ___ he resigned was never explained.",
+    "a": [
+     "which"
+    ],
+    "why": "بعد حرف الجر for نستعمل which للأشياء."
+   },
+   {
+    "k": "gap",
+    "q": "Algiers, ___ is the capital, is a busy city.",
+    "a": [
+     "which"
+    ],
+    "why": "جملة غير محدِّدة عن مكان، فنستعمل which وليس that."
+   },
+   {
+    "k": "fix",
+    "q": "My sister, that works at a bank, is very busy.",
+    "bad": "that",
+    "good": [
+     "who"
+    ],
+    "why": "بعد الفاصلة لا نستعمل that. الأخت شخص فنستعمل who."
+   },
+   {
+    "k": "fix",
+    "q": "The man whose I met yesterday is a judge.",
+    "bad": "whose",
+    "good": [
+     "whom",
+     "who",
+     "that"
+    ],
+    "why": "لا نقصد الملكية هنا. الرجل مفعول به، فنستعمل whom أو who أو that."
+   },
+   {
+    "k": "order",
+    "a": "The woman whose son is a lawyer lives next door.",
+    "ar": "المرأة التي ابنها محامٍ تسكن في الجوار."
+   },
+   {
+    "k": "order",
+    "a": "My laptop, which I bought last year, has stopped working.",
+    "ar": "حاسوبي المحمول، الذي اشتريته السنة الماضية، توقف عن العمل."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-14",
+  "l": "B1",
+  "title": "Verb patterns 2: make/let, verb + object + to, stop/remember/try",
+  "titleAr": "أنماط الأفعال 2: make وlet، فعل + مفعول + to، وstop وremember وtry",
+  "why": "بعض الأفعال تأخذ بعدها فعلا بصيغة معينة. إذا أخطأت في الصيغة تتغير الجملة أو يصبح معناها خاطئا.",
+  "rules": [
+   {
+    "ar": "بعد make وlet نضع المفعول ثم الفعل بدون to. make تعني «يُجبر»، وlet تعني «يسمح».",
+    "form": "make / let + object + base verb",
+    "ex": [
+     {
+      "en": "The teacher made us repeat the sentence.",
+      "ar": "جعلنا المعلم نكرر الجملة."
+     },
+     {
+      "en": "My parents let me stay out late.",
+      "ar": "سمح لي والداي بالبقاء خارجا متأخرا."
+     }
+    ]
+   },
+   {
+    "ar": "في المبني للمجهول نقول be made to مع to. أما let فلا نستعملها هكذا، نستعمل be allowed to.",
+    "form": "be made to + verb / be allowed to + verb",
+    "ex": [
+     {
+      "en": "We were made to wait for an hour.",
+      "ar": "أُجبرنا على الانتظار ساعة."
+     },
+     {
+      "en": "Visitors are allowed to take photos.",
+      "ar": "يُسمح للزوار بالتصوير."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال تأخذ مفعولا ثم to + فعل: want, ask, tell, advise, allow, expect, persuade, remind, teach, would like.",
+    "form": "verb + object + to + verb",
+    "ex": [
+     {
+      "en": "The doctor advised me to rest.",
+      "ar": "نصحني الطبيب بأن أرتاح."
+     },
+     {
+      "en": "She asked him to close the window.",
+      "ar": "طلبت منه أن يغلق النافذة."
+     }
+    ]
+   },
+   {
+    "ar": "stop وremember وtry يتغير معناها بحسب ما بعدها. stop doing = توقف عن عمل. stop to do = توقف ليقوم بعمل آخر. remember doing = تذكّر شيئا حدث. remember to do = لا تنسَ أن تفعل. try doing = جرّب. try to do = حاول بجهد.",
+    "form": "stop / remember / try + -ing or to",
+    "ex": [
+     {
+      "en": "He stopped to buy bread.",
+      "ar": "توقف ليشتري الخبز."
+     },
+     {
+      "en": "I remember locking the door.",
+      "ar": "أتذكر أنني أقفلت الباب."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She made me to cry.",
+    "ok": "She made me cry.",
+    "ar": "في العربية نقول «جعلتني أبكي» وتأتي «أن». في الإنجليزية بعد make لا نضع to."
+   },
+   {
+    "x": "He suggested me to go.",
+    "ok": "He suggested that I go.",
+    "ar": "suggest لا تأخذ مفعولا ثم to. نستعمل that أو -ing."
+   },
+   {
+    "x": "The guard didn't allow us entering.",
+    "ok": "The guard didn't allow us to enter.",
+    "ar": "بعد allow + مفعول نستعمل to + فعل وليس -ing."
+   },
+   {
+    "x": "I want that you help me.",
+    "ok": "I want you to help me.",
+    "ar": "بعد want لا نستعمل that. نضع المفعول ثم to + فعل."
+   }
+  ],
+  "tip": "make وlet بلا to (فعل مباشرة). الأفعال الأخرى مثل want وtell بعد الشخص تأخذ to. تذكّر: remember to = المستقبل، remember -ing = الماضي.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The manager made us ___ the report again.",
+    "o": [
+     "rewrite",
+     "to rewrite",
+     "rewriting"
+    ],
+    "a": 0,
+    "why": "بعد make + مفعول نضع الفعل بدون to."
+   },
+   {
+    "k": "mc",
+    "q": "My teacher advised me ___ more English books.",
+    "o": [
+     "reading",
+     "read",
+     "to read"
+    ],
+    "a": 2,
+    "why": "advise + مفعول + to + فعل."
+   },
+   {
+    "k": "mc",
+    "q": "She let her son ___ the experiment.",
+    "o": [
+     "to watch",
+     "watch",
+     "watching"
+    ],
+    "a": 1,
+    "why": "بعد let + مفعول نضع الفعل بدون to."
+   },
+   {
+    "k": "mc",
+    "q": "On the way home, I stopped ___ some bread.",
+    "o": [
+     "buying",
+     "to buy",
+     "buy"
+    ],
+    "a": 1,
+    "why": "توقفت لكي أشتري، فنستعمل to buy."
+   },
+   {
+    "k": "mc",
+    "q": "I clearly remember ___ the door before I left.",
+    "o": [
+     "to lock",
+     "locking",
+     "lock"
+    ],
+    "a": 1,
+    "why": "نتذكر شيئا فعلناه في الماضي، فنستعمل remember + -ing."
+   },
+   {
+    "k": "mc",
+    "q": "Please remember ___ the lights before you leave.",
+    "o": [
+     "to turn off",
+     "turning off",
+     "turn off"
+    ],
+    "a": 0,
+    "why": "المطلوب ألا ننسى عملا في المستقبل، فنستعمل remember to."
+   },
+   {
+    "k": "gap",
+    "q": "The police officer told us ___ (park) somewhere else.",
+    "a": [
+     "to park"
+    ],
+    "why": "tell + مفعول + to + فعل."
+   },
+   {
+    "k": "gap",
+    "q": "They didn't let the visitors ___ (take) photos in the court.",
+    "a": [
+     "take"
+    ],
+    "why": "بعد let + مفعول نضع الفعل بدون to."
+   },
+   {
+    "k": "gap",
+    "q": "He tried hard ___ (finish) the essay on time, but he couldn't.",
+    "a": [
+     "to finish"
+    ],
+    "why": "المعنى محاولة بجهد، فنستعمل try to."
+   },
+   {
+    "k": "gap",
+    "q": "Our teacher allowed us ___ (use) dictionaries in the test.",
+    "a": [
+     "to use"
+    ],
+    "why": "allow + مفعول + to + فعل."
+   },
+   {
+    "k": "fix",
+    "q": "She made me to cry with that story.",
+    "bad": "to cry",
+    "good": [
+     "cry"
+    ],
+    "why": "بعد make + مفعول لا نستعمل to."
+   },
+   {
+    "k": "fix",
+    "q": "The guard didn't allow us entering the building.",
+    "bad": "entering",
+    "good": [
+     "to enter"
+    ],
+    "why": "بعد allow + مفعول نستعمل to + فعل."
+   },
+   {
+    "k": "order",
+    "a": "The teacher made the students repeat the sentence.",
+    "ar": "جعل المعلم الطلاب يكررون الجملة."
+   },
+   {
+    "k": "order",
+    "a": "My boss asked me to send the documents.",
+    "ar": "طلب مني مديري أن أرسل الوثائق."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-15",
+  "l": "B1",
+  "title": "Articles 2: general vs specific, places, institutions",
+  "titleAr": "أدوات التعريف 2: العام والخاص، الأماكن، المؤسسات",
+  "why": "نستعمل the أو لا نستعمل شيئا بحسب هل نتكلم عن شيء عام أو شيء محدد. العربية تستعمل «ال» في الحالتين، لذلك نخطئ كثيرا.",
+  "rules": [
+   {
+    "ar": "عندما نتكلم عن شيء بشكل عام (جمع أو غير معدود) لا نضع أداة تعريف. بالعربية نقول «الفساد مشكلة»، لكن بالإنجليزية: Corruption is a problem.",
+    "form": "zero article + plural / uncountable",
+    "ex": [
+     {
+      "en": "Honesty is important in public service.",
+      "ar": "الأمانة مهمة في الخدمة العامة."
+     },
+     {
+      "en": "Judges need independence.",
+      "ar": "يحتاج القضاة إلى الاستقلالية."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل the عندما يعرف المستمع أي شيء نقصد، أو عندما يكون الشيء وحيدا: the sun, the internet, the government.",
+    "form": "the + specific / unique thing",
+    "ex": [
+     {
+      "en": "The corruption in this report is serious.",
+      "ar": "الفساد المذكور في هذا التقرير خطير."
+     },
+     {
+      "en": "We watched the sun rise.",
+      "ar": "شاهدنا الشمس تشرق."
+     }
+    ]
+   },
+   {
+    "ar": "مع المؤسسات (school, hospital, prison, university, court, work, bed) لا نضع the إذا ذكرنا الغرض الأساسي منها. إذا قصدنا المبنى أو زرناه لسبب آخر نضع the.",
+    "form": "go to school / go to the school",
+    "ex": [
+     {
+      "en": "She is at university now.",
+      "ar": "هي في الجامعة الآن (تدرس)."
+     },
+     {
+      "en": "My mother went to the school to meet my teacher.",
+      "ar": "ذهبت أمي إلى المدرسة لتقابل معلمي."
+     }
+    ]
+   },
+   {
+    "ar": "أسماء الأماكن: لا the مع معظم الدول والمدن والشوارع (Algeria, Oran). نضع the مع الأسماء الجمعية والجمهوريات والممالك (the Netherlands, the United States) ومع الأنهار والبحار والصحارى (the Nile, the Sahara).",
+    "form": "the + rivers, seas, deserts, plural countries",
+    "ex": [
+     {
+      "en": "He works in the United States.",
+      "ar": "يعمل في الولايات المتحدة."
+     },
+     {
+      "en": "The Sahara is very hot.",
+      "ar": "الصحراء الكبرى حارة جدا."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The corruption harms poor people.",
+    "ok": "Corruption harms poor people.",
+    "ar": "في العربية «الفساد» بأل حتى في المعنى العام. في الإنجليزية الكلام العام بلا the."
+   },
+   {
+    "x": "She lives in the Algeria.",
+    "ok": "She lives in Algeria.",
+    "ar": "أسماء معظم الدول لا تأخذ the، حتى لو كانت بأل في العربية."
+   },
+   {
+    "x": "He is a honest judge.",
+    "ok": "He is an honest judge.",
+    "ar": "الحرف h في honest لا يُنطق، فالكلمة تبدأ بصوت حرف علة، ولذلك نستعمل an."
+   },
+   {
+    "x": "My father goes to the work by bus.",
+    "ok": "My father goes to work by bus.",
+    "ar": "work بمعنى مكان العمل العام لا تأخذ the."
+   }
+  ],
+  "tip": "اسأل نفسك: هل أتكلم عن الجنس كله (بلا the) أم عن شيء معروف بين المتكلم والمستمع (the)؟",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "___ honesty is important in public service.",
+    "o": [
+     "The",
+     "A",
+     "No article"
+    ],
+    "a": 2,
+    "why": "الكلام عام عن صفة، فلا نضع أداة تعريف."
+   },
+   {
+    "k": "mc",
+    "q": "She was ill, so she was taken to ___ hospital.",
+    "o": [
+     "the",
+     "a",
+     "No article"
+    ],
+    "a": 2,
+    "why": "نقصد الغرض الأساسي من المستشفى (العلاج)، فنقول to hospital في البريطانية."
+   },
+   {
+    "k": "mc",
+    "q": "My mother went to ___ school to meet my teacher.",
+    "o": [
+     "the",
+     "a",
+     "no article"
+    ],
+    "a": 0,
+    "why": "ذهبت إلى المبنى لسبب غير الدراسة، فنقول the school."
+   },
+   {
+    "k": "mc",
+    "q": "___ Sahara is very hot in summer.",
+    "o": [
+     "The",
+     "A",
+     "No article"
+    ],
+    "a": 0,
+    "why": "أسماء الصحارى تأخذ the."
+   },
+   {
+    "k": "mc",
+    "q": "He is at ___ university now, so he can't call.",
+    "o": [
+     "a",
+     "the",
+     "no article"
+    ],
+    "a": 2,
+    "why": "هو طالب، والغرض الأساسي من الجامعة الدراسة، فلا نضع the."
+   },
+   {
+    "k": "mc",
+    "q": "I would like to visit ___ Netherlands next year.",
+    "o": [
+     "the",
+     "a",
+     "no article"
+    ],
+    "a": 0,
+    "why": "Netherlands اسم جمعي، فنضع the."
+   },
+   {
+    "k": "gap",
+    "q": "We watched ___ sun rise over the hills.",
+    "a": [
+     "the"
+    ],
+    "why": "الشمس وحيدة، فنضع the."
+   },
+   {
+    "k": "gap",
+    "q": "He works in ___ United States.",
+    "a": [
+     "the"
+    ],
+    "why": "اسم الدولة يتضمن كلمة States الجمعية، فنضع the."
+   },
+   {
+    "k": "gap",
+    "q": "She is ___ honest judge.",
+    "a": [
+     "an"
+    ],
+    "why": "honest يبدأ بصوت حرف علة، فنقول an."
+   },
+   {
+    "k": "gap",
+    "q": "I found the answer on ___ internet.",
+    "a": [
+     "the"
+    ],
+    "why": "internet يستعمل مع the دائما."
+   },
+   {
+    "k": "fix",
+    "q": "The corruption harms poor people more than rich people.",
+    "bad": "The corruption",
+    "good": [
+     "Corruption"
+    ],
+    "why": "الكلام عام عن الفساد، فلا نضع the."
+   },
+   {
+    "k": "fix",
+    "q": "She lives in the Algeria.",
+    "bad": "the Algeria",
+    "good": [
+     "Algeria"
+    ],
+    "why": "اسم الجزائر لا يأخذ the."
+   },
+   {
+    "k": "order",
+    "a": "The river crosses the city from north to south.",
+    "ar": "يعبر النهر المدينة من الشمال إلى الجنوب."
+   },
+   {
+    "k": "order",
+    "a": "He was sent to prison for fraud.",
+    "ar": "أُرسل إلى السجن بسبب الاحتيال."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-16",
+  "l": "B1",
+  "title": "Quantifiers 2: both, either, neither, each, every, all, none, most",
+  "titleAr": "المحدِّدات الكمية 2: both وeither وneither وeach وevery وall وnone وmost",
+  "why": "هذه الكلمات تخبرنا كم شخصا أو شيئا نقصد. تعلّمها بدقة لأن لكل منها شكلا خاصا للفعل والاسم بعدها.",
+  "rules": [
+   {
+    "ar": "نستعمل both وeither وneither عندما نتكلم عن شيئين فقط. both = الاثنان معا (فعل جمع). either = واحد من الاثنين (فعل مفرد). neither = لا هذا ولا ذاك (فعل مفرد وبمعنى إيجابي).",
+    "form": "both + plural / either, neither + singular",
+    "ex": [
+     {
+      "en": "Both answers are correct.",
+      "ar": "كلا الجوابين صحيح."
+     },
+     {
+      "en": "Neither answer is correct.",
+      "ar": "لا هذا الجواب ولا ذاك صحيح."
+     }
+    ]
+   },
+   {
+    "ar": "بعد of نضع the أو ضمير: both of the, either of them, neither of my parents. لا نقول neither isn't، لأن neither فيه معنى النفي.",
+    "form": "both / either / neither + of + the/my/them",
+    "ex": [
+     {
+      "en": "Neither of my parents speaks English.",
+      "ar": "لا والدي ولا والدتي تتكلم الإنجليزية."
+     },
+     {
+      "en": "You can use either of the doors.",
+      "ar": "يمكنك استعمال أي باب من البابين."
+     }
+    ]
+   },
+   {
+    "ar": "each = كل واحد على حدة. every = الجميع كمجموعة. بعد كل منهما اسم مفرد وفعل مفرد. each يمكن أن يأتي مع of: each of the students.",
+    "form": "each / every + singular noun",
+    "ex": [
+     {
+      "en": "Every student must carry an ID card.",
+      "ar": "يجب أن يحمل كل طالب بطاقة هوية."
+     },
+     {
+      "en": "Each of the students has a different topic.",
+      "ar": "لكل طالب موضوع مختلف."
+     }
+    ]
+   },
+   {
+    "ar": "all وmost وnone للكثرة. مع الجمع العام لا نضع of: all people, most students. مع the أو الضمير نضع of: most of the students, none of them.",
+    "form": "all / most + noun; all / most / none + of + the",
+    "ex": [
+     {
+      "en": "Most people use public transport.",
+      "ar": "معظم الناس يستعملون المواصلات العامة."
+     },
+     {
+      "en": "None of the reports mentioned the contract.",
+      "ar": "لم يذكر أي تقرير العقد."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Every students must sign.",
+    "ok": "Every student must sign.",
+    "ar": "في العربية «كل الطلاب» جمع. في الإنجليزية بعد every نضع اسما مفردا."
+   },
+   {
+    "x": "Most of people agree.",
+    "ok": "Most people agree.",
+    "ar": "في الكلام العام لا نضع of. نقول most people، وmost of the people مع the."
+   },
+   {
+    "x": "Neither of them isn't here.",
+    "ok": "Neither of them is here.",
+    "ar": "neither فيه نفي، فلا نضيف نفيا ثانيا."
+   },
+   {
+    "x": "All of students passed.",
+    "ok": "All the students passed.",
+    "ar": "لا نضع of بعد all مباشرة قبل اسم جمع بلا the."
+   }
+  ],
+  "tip": "both = اثنان معا، either/neither = اثنان وفعل مفرد، every/each = اسم مفرد، most/all في العام بلا of.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "___ of my parents speaks English, so I always translate.",
+    "o": [
+     "Both",
+     "Neither",
+     "Every"
+    ],
+    "a": 1,
+    "why": "لا هذا ولا ذاك يتكلم الإنجليزية، والفعل مفرد speaks."
+   },
+   {
+    "k": "mc",
+    "q": "Both answers ___ correct.",
+    "o": [
+     "is",
+     "are",
+     "has"
+    ],
+    "a": 1,
+    "why": "both يأخذ فعل الجمع."
+   },
+   {
+    "k": "mc",
+    "q": "___ student must carry an ID card.",
+    "o": [
+     "Every",
+     "All",
+     "Both"
+    ],
+    "a": 0,
+    "why": "الاسم مفرد student، فنستعمل every."
+   },
+   {
+    "k": "mc",
+    "q": "Most ___ in this city use public transport.",
+    "o": [
+     "of people",
+     "people",
+     "of peoples"
+    ],
+    "a": 1,
+    "why": "في الكلام العام نقول most people بلا of."
+   },
+   {
+    "k": "mc",
+    "q": "I have two sisters. ___ of them lives in Spain.",
+    "o": [
+     "Both",
+     "Each",
+     "All"
+    ],
+    "a": 1,
+    "why": "الفعل lives مفرد، فنستعمل each. both وall تحتاجان فعل جمع."
+   },
+   {
+    "k": "mc",
+    "q": "You can take ___ road; they both lead to the village.",
+    "o": [
+     "either",
+     "neither",
+     "none"
+    ],
+    "a": 0,
+    "why": "يمكن اختيار أي طريق من الاثنين، فنستعمل either."
+   },
+   {
+    "k": "gap",
+    "q": "I read all the reports, but ___ of them mentioned the contract.",
+    "a": [
+     "none"
+    ],
+    "why": "عدد التقارير أكثر من اثنين ولم يذكر أي منها العقد، فنستعمل none."
+   },
+   {
+    "k": "gap",
+    "q": "___ the staff were present at the meeting; nobody was absent.",
+    "a": [
+     "All",
+     "all",
+     "All of",
+     "all of"
+    ],
+    "why": "الجميع حضر، فنستعمل all أو all of."
+   },
+   {
+    "k": "gap",
+    "q": "There are two exits. You can use ___ one.",
+    "a": [
+     "either"
+    ],
+    "why": "أي مخرج من اثنين، فنستعمل either."
+   },
+   {
+    "k": "gap",
+    "q": "Each of the students ___ (have) a different topic.",
+    "a": [
+     "has"
+    ],
+    "why": "بعد each of نستعمل فعلا مفردا."
+   },
+   {
+    "k": "fix",
+    "q": "Every students must sign the form.",
+    "bad": "Every students",
+    "good": [
+     "Every student",
+     "All students"
+    ],
+    "why": "بعد every نستعمل اسما مفردا، أو نستعمل all مع الجمع."
+   },
+   {
+    "k": "fix",
+    "q": "Neither of the answers isn't correct.",
+    "bad": "isn't",
+    "good": [
+     "is"
+    ],
+    "why": "neither فيه نفي، فلا نستعمل فعلا منفيا معه."
+   },
+   {
+    "k": "order",
+    "a": "Both of my brothers study medicine in Blida.",
+    "ar": "كلا أخويّ يدرس الطب في البليدة."
+   },
+   {
+    "k": "order",
+    "a": "Most of the witnesses told the same story.",
+    "ar": "معظم الشهود رووا القصة نفسها."
+   }
+  ]
+ }
+]

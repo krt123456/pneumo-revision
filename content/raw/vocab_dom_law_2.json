@@ -1,0 +1,1035 @@
+[
+{
+"w": "courtroom",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "قاعة المحكمة",
+"ex": "The courtroom was silent when the judge came in.",
+"x": "courtroom",
+"exar": "الصمت خيّم على قاعة المحكمة عندما دخل القاضي.",
+"c": [
+"enter the courtroom"
+]
+},
+{
+"w": "statement",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "إفادة، تصريح",
+"ex": "The witness gave a short statement to the police.",
+"x": "statement",
+"exar": "أدلى الشاهد بإفادة قصيرة للشرطة.",
+"c": [
+"make a statement",
+"witness statement"
+]
+},
+{
+"w": "defence",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "دفاع",
+"d": "the side that argues a person is not guilty",
+"ex": "The defence said that the money was a gift.",
+"x": "defence",
+"c": [
+"the case for the defence",
+"defence lawyer"
+],
+"f": [
+"defend",
+"defender"
+]
+},
+{
+"w": "prosecution",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "النيابة، الادعاء",
+"d": "the side that tries to prove a person is guilty",
+"ex": "The prosecution showed the jury a video of the attack.",
+"x": "prosecution",
+"c": [
+"the prosecution case"
+],
+"f": [
+"prosecute",
+"prosecutor"
+]
+},
+{
+"w": "prosecutor",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "وكيل الجمهورية، مدعٍ عام",
+"d": "a lawyer who accuses a person of a crime in court",
+"ex": "The prosecutor asked the witness about the night of the fire.",
+"x": "prosecutor",
+"c": [
+"public prosecutor"
+],
+"f": [
+"prosecute",
+"prosecution"
+]
+},
+{
+"w": "defendant",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "المدّعى عليه، المتهم",
+"d": "the person who is accused or sued in a court case",
+"ex": "The defendant stood up and answered the judge's question.",
+"x": "defendant",
+"c": [
+"the defendant pleaded"
+],
+"f": [
+"defend"
+]
+},
+{
+"w": "plaintiff",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "المدّعي",
+"d": "the person who brings a case against someone in court",
+"ex": "The plaintiff asked the court to order the company to pay him.",
+"x": "plaintiff",
+"c": [
+"the plaintiff claims"
+]
+},
+{
+"w": "claimant",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "المدّعي، صاحب الدعوى",
+"d": "a person who asks a court for money or rights",
+"ex": "The claimant said the employer never paid his last salary.",
+"x": "claimant",
+"c": [
+"the claimant argued"
+],
+"f": [
+"claim"
+]
+},
+{
+"w": "accused",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "المتهم",
+"d": "the person charged with a crime",
+"ex": "The accused denied that he had ever met the witness.",
+"x": "accused",
+"c": [
+"the accused person"
+],
+"f": [
+"accuse",
+"accusation"
+]
+},
+{
+"w": "hearing",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "جلسة، جلسة استماع",
+"d": "a meeting in court to listen to the facts of a case",
+"ex": "The hearing was postponed because the judge was ill.",
+"x": "hearing",
+"c": [
+"a court hearing",
+"fair hearing"
+],
+"f": [
+"hear"
+]
+},
+{
+"w": "testify",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يدلي بشهادته",
+"d": "to say in court what you saw or know",
+"ex": "Three neighbours testified that they heard shouting.",
+"x": "testified",
+"c": [
+"testify against",
+"testify in court"
+],
+"f": [
+"testimony"
+]
+},
+{
+"w": "testimony",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "شهادة، إفادة أمام المحكمة",
+"d": "what a witness says under oath in court",
+"ex": "The testimony of the doctor changed the whole case.",
+"x": "testimony",
+"c": [
+"give testimony",
+"false testimony"
+],
+"f": [
+"testify"
+]
+},
+{
+"w": "cross-examination",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "استجواب مضاد، مناقشة الشاهد",
+"d": "questions put to a witness by the opposing lawyer",
+"ex": "During cross-examination, the lawyer found a mistake in the story.",
+"x": "cross-examination",
+"c": [
+"under cross-examination"
+],
+"f": [
+"cross-examine"
+]
+},
+{
+"w": "objection",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "اعتراض",
+"d": "a formal protest during a trial about a question or evidence",
+"ex": "The defence lawyer made an objection to the question.",
+"x": "objection",
+"c": [
+"raise an objection",
+"make an objection"
+],
+"f": [
+"object"
+]
+},
+{
+"w": "sustain",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يقبل (الاعتراض)، يؤيد",
+"d": "to accept an objection as correct in court",
+"ex": "The judge sustained the objection and the question was withdrawn.",
+"x": "sustained"
+},
+{
+"w": "overrule",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يرفض (الاعتراض)، يلغي",
+"d": "to reject an objection or an earlier decision",
+"ex": "The judge overruled the objection and told the witness to answer.",
+"x": "overruled"
+},
+{
+"w": "verdict",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "حكم، قرار هيئة المحلفين",
+"d": "the final decision of a court on guilt or innocence",
+"ex": "The jury reached a verdict after two days of discussion.",
+"x": "verdict",
+"c": [
+"reach a verdict",
+"guilty verdict"
+]
+},
+{
+"w": "appeal",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "استئناف، طعن",
+"d": "a request to a higher court to change a decision",
+"ex": "The lawyer filed an appeal against the sentence.",
+"x": "appeal",
+"c": [
+"file an appeal",
+"lodge an appeal"
+],
+"f": [
+"appeal"
+]
+},
+{
+"w": "bail",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "كفالة، إفراج مؤقت",
+"d": "money paid so an accused person can wait outside prison",
+"ex": "The judge granted bail and the man went home.",
+"x": "bail",
+"c": [
+"be released on bail",
+"grant bail"
+]
+},
+{
+"w": "plea",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "دفع، إقرار بالذنب أو إنكاره",
+"d": "a formal answer of guilty or not guilty in court",
+"ex": "His plea was not guilty, so a trial began.",
+"x": "plea",
+"c": [
+"enter a plea"
+],
+"f": [
+"plead"
+]
+},
+{
+"w": "plead",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يترافع، يدفع بـ",
+"d": "to say in court whether you are guilty or not",
+"ex": "She pleaded not guilty to all the charges.",
+"x": "pleaded",
+"c": [
+"plead guilty",
+"plead not guilty"
+],
+"f": [
+"plea"
+]
+},
+{
+"w": "adjourn",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يرجئ، يؤجل (الجلسة)",
+"d": "to stop a court session and continue it later",
+"ex": "The judge adjourned the hearing until the following Tuesday.",
+"x": "adjourned",
+"c": [
+"adjourn the hearing"
+],
+"f": [
+"adjournment"
+]
+},
+{
+"w": "convict",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يدين",
+"d": "to decide in court that someone is guilty",
+"ex": "The court convicted the driver of causing the crash.",
+"x": "convicted",
+"c": [
+"convict of"
+],
+"f": [
+"conviction",
+"convicted"
+]
+},
+{
+"w": "conviction",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إدانة",
+"d": "a court decision that someone is guilty of a crime",
+"ex": "He has one previous conviction for stealing.",
+"x": "conviction",
+"c": [
+"previous conviction",
+"secure a conviction"
+],
+"f": [
+"convict"
+]
+},
+{
+"w": "ruling",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "قرار قضائي، حكم",
+"d": "an official decision made by a judge",
+"ex": "The ruling surprised both lawyers in the room.",
+"x": "ruling",
+"c": [
+"a court ruling",
+"issue a ruling"
+],
+"f": [
+"rule"
+]
+},
+{
+"w": "summons",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "استدعاء قضائي، تكليف بالحضور",
+"d": "an official order to come to court",
+"ex": "He received a summons to appear before the judge on Friday.",
+"x": "summons",
+"c": [
+"issue a summons",
+"serve a summons"
+],
+"f": [
+"summon"
+]
+},
+{
+"w": "summon",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يستدعي",
+"d": "to order someone officially to come to court",
+"ex": "The court summoned the manager to explain the missing documents.",
+"x": "summoned",
+"c": [
+"summon a witness"
+],
+"f": [
+"summons"
+]
+},
+{
+"w": "clerk",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "كاتب الضبط",
+"d": "a court officer who keeps the records of a case",
+"ex": "The clerk wrote down every word the witness said.",
+"x": "clerk",
+"c": [
+"court clerk"
+]
+},
+{
+"w": "bailiff",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "محضر قضائي",
+"d": "a court officer who keeps order and delivers papers",
+"ex": "The bailiff delivered the court papers to the tenant's door.",
+"x": "bailiff"
+},
+{
+"w": "magistrate",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "قاضٍ، قاضي محكمة ابتدائية",
+"d": "a judge who deals with less serious cases",
+"ex": "The magistrate heard the case of the broken shop window.",
+"x": "magistrate",
+"c": [
+"magistrates' court"
+]
+},
+{
+"w": "tribunal",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "هيئة تحكيم، محكمة خاصة",
+"d": "a special court that decides disputes of a certain kind",
+"ex": "The tribunal ruled that the worker had been dismissed unfairly.",
+"x": "tribunal",
+"c": [
+"employment tribunal"
+]
+},
+{
+"w": "take the stand",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "يصعد إلى منصة الشهادة",
+"d": "to go to the witness place to give evidence",
+"ex": "The engineer took the stand and described the broken bridge.",
+"x": "took the stand"
+},
+{
+"w": "alibi",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "دفع بالغيبة، حجة الغياب",
+"d": "proof that a person was somewhere else at the time of a crime",
+"ex": "His alibi was that he was in a meeting in another city.",
+"x": "alibi",
+"c": [
+"a solid alibi"
+]
+},
+{
+"w": "interrogation",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "استجواب، تحقيق",
+"d": "long and serious questioning of a suspect by police",
+"ex": "The interrogation lasted all night in a small room.",
+"x": "interrogation",
+"c": [
+"under interrogation"
+],
+"f": [
+"interrogate"
+]
+},
+{
+"w": "custody",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "الحجز، الحبس المؤقت",
+"d": "the state of being held by the police before a trial",
+"ex": "The suspect remained in custody until the hearing.",
+"x": "custody",
+"c": [
+"in custody",
+"police custody"
+]
+},
+{
+"w": "detain",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يوقف، يحتجز",
+"d": "to keep someone in a place and not let them leave",
+"ex": "Officers detained the manager for questioning.",
+"x": "detained",
+"c": [
+"detain a suspect"
+],
+"f": [
+"detention"
+]
+},
+{
+"w": "detention",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "احتجاز، توقيف",
+"d": "the act of keeping a person under official control",
+"ex": "His detention lasted six days before he saw a lawyer.",
+"x": "detention",
+"c": [
+"pre-trial detention",
+"arbitrary detention"
+],
+"f": [
+"detain"
+]
+},
+{
+"w": "warrant",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "أمر قضائي، إذن",
+"d": "an official paper from a judge allowing the police to act",
+"ex": "The police showed a warrant before they entered the office.",
+"x": "warrant",
+"c": [
+"arrest warrant"
+]
+},
+{
+"w": "search warrant",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "إذن بالتفتيش",
+"d": "a judge's written permission to search a place",
+"ex": "The officers had a search warrant for the manager's office.",
+"x": "search warrant",
+"c": [
+"issue a search warrant"
+]
+},
+{
+"w": "parole",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إفراج مشروط",
+"d": "early release from prison on condition of good behaviour",
+"ex": "She was released on parole after serving half of her sentence.",
+"x": "parole",
+"c": [
+"be released on parole"
+]
+},
+{
+"w": "probation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "وضع تحت الاختبار، المراقبة القضائية",
+"d": "a period of supervision instead of or after prison",
+"ex": "The court gave him two years of probation.",
+"x": "probation",
+"c": [
+"on probation",
+"probation officer"
+]
+},
+{
+"w": "imprisonment",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "سجن، حبس",
+"d": "the state of being put in prison",
+"ex": "The law allows imprisonment for up to five years.",
+"x": "imprisonment",
+"c": [
+"life imprisonment",
+"a term of imprisonment"
+],
+"f": [
+"imprison"
+]
+},
+{
+"w": "sentencing",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "النطق بالعقوبة",
+"d": "the stage when a judge decides the punishment",
+"ex": "The sentencing will take place next month.",
+"x": "sentencing",
+"c": [
+"at the sentencing"
+],
+"f": [
+"sentence"
+]
+},
+{
+"w": "defence lawyer",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "محامي الدفاع",
+"d": "a lawyer who speaks for the accused person",
+"ex": "The defence lawyer asked for the case to be dismissed.",
+"x": "defence lawyer",
+"c": [
+"a skilled defence lawyer"
+]
+},
+{
+"w": "public prosecutor",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "وكيل الجمهورية، النائب العام",
+"d": "a state lawyer who brings criminal cases to court",
+"ex": "The public prosecutor opened an investigation into the contract.",
+"x": "public prosecutor",
+"c": [
+"the public prosecutor's office"
+]
+},
+{
+"w": "counsel",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "محامٍ، مستشار قانوني",
+"d": "a lawyer who advises a client or speaks in court",
+"ex": "Counsel for the defendant asked to speak to the judge.",
+"x": "counsel",
+"c": [
+"legal counsel",
+"counsel for the defence"
+]
+},
+{
+"w": "notary",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "موثّق",
+"d": "a public officer who checks and certifies legal papers",
+"ex": "The notary checked our signatures and stamped the sale document.",
+"x": "notary",
+"c": [
+"notary public"
+]
+},
+{
+"w": "court of appeal",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "محكمة الاستئناف، مجلس قضائي",
+"d": "a court that reviews decisions made by lower courts",
+"ex": "The court of appeal reduced his sentence to one year.",
+"x": "court of appeal",
+"c": [
+"take a case to the court of appeal"
+]
+},
+{
+"w": "supreme court",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "المحكمة العليا",
+"d": "the highest court of a country",
+"ex": "The supreme court is the last place where a case can be heard.",
+"x": "supreme court",
+"c": [
+"a supreme court judge"
+]
+},
+{
+"w": "not guilty",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "غير مذنب، بريء",
+"d": "a decision or plea that a person did not commit the crime",
+"ex": "The jury found him not guilty of all charges.",
+"x": "not guilty",
+"c": [
+"plead not guilty",
+"a verdict of not guilty"
+]
+},
+{
+"w": "reasonable doubt",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "شك معقول",
+"d": "a doubt that makes a thoughtful person unsure of guilt",
+"ex": "The jury had a reasonable doubt because the video was unclear.",
+"x": "reasonable doubt",
+"c": [
+"beyond reasonable doubt"
+]
+},
+{
+"w": "closing argument",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "المرافعة الختامية",
+"d": "a lawyer's final speech to the court before a decision",
+"ex": "In her closing argument, the lawyer reminded the jury of the missing key.",
+"x": "closing argument",
+"c": [
+"deliver a closing argument"
+]
+},
+{
+"w": "opening statement",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "المرافعة الافتتاحية",
+"d": "a lawyer's first speech that explains the case to the court",
+"ex": "The prosecutor's opening statement lasted only ten minutes.",
+"x": "opening statement",
+"c": [
+"give an opening statement"
+]
+},
+{
+"w": "judgment",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "حكم قضائي",
+"d": "the official decision of a court at the end of a case",
+"ex": "The court gave its judgment in favour of the workers.",
+"x": "judgment",
+"c": [
+"pass judgment",
+"give judgment"
+]
+},
+{
+"w": "dismiss",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يرفض (الدعوى)، يسقط",
+"d": "to end a case without a full trial",
+"ex": "The judge dismissed the case for lack of proof.",
+"x": "dismissed the case",
+"c": [
+"dismiss a case",
+"dismiss a claim"
+],
+"f": [
+"dismissal"
+]
+},
+{
+"w": "settle",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يسوّي، يتصالح",
+"d": "to end a dispute by agreement, often without a trial",
+"ex": "The two companies settled before the trial began.",
+"x": "settled",
+"c": [
+"settle out of court"
+],
+"f": [
+"settlement"
+]
+},
+{
+"w": "settlement",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تسوية، صلح",
+"d": "an agreement that ends a legal dispute",
+"ex": "The tenant accepted a settlement of two months' rent.",
+"x": "settlement",
+"c": [
+"reach a settlement",
+"out-of-court settlement"
+],
+"f": [
+"settle"
+]
+},
+{
+"w": "damages",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تعويضات، تعويض عن الضرر",
+"d": "money a court orders someone to pay for harm caused",
+"ex": "The court awarded him damages for the injury at work.",
+"x": "damages",
+"c": [
+"award damages",
+"claim damages"
+]
+},
+{
+"w": "compensation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تعويض",
+"d": "money paid to someone for loss or harm",
+"ex": "The victims received compensation from the construction company.",
+"x": "compensation",
+"c": [
+"claim compensation",
+"receive compensation"
+],
+"f": [
+"compensate"
+]
+},
+{
+"w": "respondent",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "المدّعى عليه، المستأنف ضده",
+"d": "the person who must answer a claim or an appeal",
+"ex": "The respondent had thirty days to reply to the appeal.",
+"x": "respondent",
+"c": [
+"the respondent argues"
+]
+},
+{
+"w": "witness protection",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "حماية الشهود",
+"d": "a programme that keeps witnesses safe from danger",
+"ex": "The key witness entered a witness protection programme.",
+"x": "witness protection",
+"c": [
+"a witness protection programme"
+]
+},
+{
+"w": "on trial",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "قيد المحاكمة",
+"d": "being judged in a court of law",
+"ex": "The former director is on trial for abuse of office.",
+"x": "on trial",
+"c": [
+"stand trial"
+]
+},
+{
+"w": "press charges",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "يرفع دعوى جنائية، يقدّم شكوى",
+"d": "to officially accuse someone of a crime",
+"ex": "The shop owner decided to press charges against the thief.",
+"x": "press charges",
+"c": [
+"drop charges"
+]
+},
+{
+"w": "court order",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "أمر قضائي، حكم قضائي ملزم",
+"d": "a written instruction from a judge that must be obeyed",
+"ex": "A court order forced the company to open its accounts.",
+"x": "court order",
+"c": [
+"obtain a court order",
+"comply with a court order"
+]
+},
+{
+"w": "lawsuit",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "دعوى قضائية",
+"d": "a case brought to a court by one side against another",
+"ex": "The residents filed a lawsuit against the factory.",
+"x": "lawsuit",
+"c": [
+"file a lawsuit",
+"bring a lawsuit"
+]
+},
+{
+"w": "juror",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "محلَّف",
+"d": "a member of a jury",
+"ex": "One juror asked to see the photographs again.",
+"x": "juror",
+"c": [
+"a juror's duty"
+],
+"f": [
+"jury"
+]
+},
+{
+"w": "judicial",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "قضائي",
+"d": "connected with courts and judges",
+"ex": "A judicial review will check whether the decision was lawful.",
+"x": "judicial",
+"c": [
+"judicial review",
+"judicial system"
+],
+"f": [
+"judiciary"
+]
+},
+{
+"w": "judiciary",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "السلطة القضائية، القضاء",
+"d": "the judges and courts of a country",
+"ex": "An independent judiciary protects citizens from abuse of power.",
+"x": "judiciary",
+"c": [
+"an independent judiciary"
+],
+"f": [
+"judicial"
+]
+},
+{
+"w": "unlawful",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "غير مشروع، مخالف للقانون",
+"d": "not allowed by law",
+"ex": "The court decided that the dismissal was unlawful.",
+"x": "unlawful",
+"c": [
+"unlawful act",
+"unlawfully"
+],
+"f": [
+"lawful"
+]
+},
+{
+"w": "retrial",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إعادة المحاكمة",
+"d": "a second trial of the same case",
+"ex": "The new evidence led the court to order a retrial.",
+"x": "retrial",
+"c": [
+"order a retrial"
+],
+"f": [
+"trial"
+]
+}
+]

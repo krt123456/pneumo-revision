@@ -1,0 +1,307 @@
+[
+ {
+  "id": "w1-07",
+  "l": "B1",
+  "chart": "bar",
+  "title": "How people travel to work in two cities",
+  "unit": "%",
+  "x": [
+   "Car",
+   "Bus",
+   "Train",
+   "Bicycle",
+   "Walking"
+  ],
+  "series": [
+   {
+    "name": "City A",
+    "data": [
+     45,
+     25,
+     15,
+     10,
+     5
+    ]
+   },
+   {
+    "name": "City B",
+    "data": [
+     20,
+     30,
+     28,
+     15,
+     7
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows how people in two cities travel to work. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart compares how people in two cities, City A and City B, travel to work, using five different means of transport.\n\nOverall, the car was the most popular choice in City A, whereas the bus was the most common in City B. Public transport was clearly more important in City B, while walking was the least popular method in both cities.\n\nIn City A, 45% of workers drove to work, which was almost twice as many as those who took the bus (25%). Train travel accounted for 15% and cycling for 10%, and only 5% walked. In City B, by contrast, just 20% used a car, which was less than half the figure for City A.\n\nCity B's commuters preferred public transport: 30% went by bus and 28% by train, which was nearly double the train figure for City A. Cycling was also more popular in City B, at 15%, than in City A, at 10%, but walking was similar in the two cities, at 7% and 5% respectively.",
+  "keyAr": "السيارة الأكثر استخدامًا في المدينة A (45%) والحافلة في B (30%). النقل العام أهم في B (حافلة 30% وقطار 28%) والمشي الأقل في المدينتين (5% و7%). نسبة السيارة في B (20%) أقل من نصف نسبتها في A.",
+  "phr": [
+   "The bar chart compares …",
+   "the most popular choice",
+   "whereas …",
+   "almost twice as many as …",
+   "by contrast",
+   "respectively"
+  ]
+ },
+ {
+  "id": "w1-08",
+  "l": "B2",
+  "chart": "bar",
+  "title": "Average monthly household spending in Country F, 2000 and 2020",
+  "unit": "US dollars",
+  "x": [
+   "Housing",
+   "Food",
+   "Transport",
+   "Healthcare",
+   "Leisure"
+  ],
+  "series": [
+   {
+    "name": "2000",
+    "data": [
+     420,
+     310,
+     180,
+     90,
+     120
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     780,
+     350,
+     260,
+     210,
+     240
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows the average monthly spending of households in Country F on five categories in 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart compares average monthly household spending on five categories in Country F in 2000 and 2020.\n\nOverall, spending rose in every category over the twenty years. Housing was by far the largest item in both years, while healthcare and leisure showed the fastest growth.\n\nIn 2000, households spent $420 a month on housing, followed by $310 on food, $180 on transport, $120 on leisure and just $90 on healthcare. By 2020, the housing figure had climbed to $780, which was nearly double its earlier level and more than twice as high as the next category, food, at $350.\n\nFood spending increased only slightly, by $40, whereas transport rose from $180 to $260. The most striking changes occurred in leisure and healthcare. Spending on leisure doubled to $240, and healthcare spending more than doubled, from $90 to $210, although it remained the lowest category in both years. As a result, total monthly spending across the five categories grew from $1,120 to $1,840.",
+  "keyAr": "ارتفع الإنفاق في كل الفئات بين 2000 و2020. السكن الأكبر دائمًا (من 420 إلى 780 دولارًا)، والغذاء زاد قليلًا (310 إلى 350). أسرع نمو كان في الترفيه (ضعف) والرعاية الصحية (من 90 إلى 210).",
+  "phr": [
+   "Overall, spending rose in every …",
+   "by far the largest",
+   "followed by …",
+   "nearly double its earlier level",
+   "increased only slightly",
+   "more than doubled"
+  ]
+ },
+ {
+  "id": "w1-09",
+  "l": "B2",
+  "chart": "bar",
+  "title": "Graduates by subject and gender in Country G, 2022",
+  "unit": "thousand",
+  "x": [
+   "Engineering",
+   "Medicine",
+   "Law",
+   "Business",
+   "Arts",
+   "Education"
+  ],
+  "series": [
+   {
+    "name": "Male",
+    "data": [
+     42,
+     18,
+     15,
+     30,
+     9,
+     6
+    ]
+   },
+   {
+    "name": "Female",
+    "data": [
+     14,
+     26,
+     19,
+     29,
+     17,
+     22
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows the number of male and female graduates in six subject areas in Country G in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart shows the number of male and female graduates, in thousands, in six subject areas in Country G in 2022.\n\nOverall, women outnumbered men in four of the six subjects, with the clearest gender gaps in engineering and education. Engineering was the most popular subject among men, whereas business was the most popular among women.\n\nEngineering produced the largest number of male graduates, at 42 thousand, which was three times the female figure of 14 thousand. Business was the second most popular choice for men, with 30 thousand, and there the numbers were almost equal, since 29 thousand women also graduated. Law and medicine attracted fewer men, with 15 and 18 thousand respectively.\n\nWomen, by contrast, dominated education, with 22 thousand graduates against only 6 thousand men. Female graduates also outnumbered males in medicine (26 thousand compared with 18 thousand), law (19 and 15 thousand) and arts (17 and 9 thousand). In total, women accounted for 127 thousand graduates, compared with 120 thousand men.",
+  "keyAr": "تفوقت النساء عدديًا في أربعة من ستة تخصصات (الطب والقانون والفنون والتربية). الهندسة الأكثر شعبية بين الرجال (42 ألفًا، ثلاثة أضعاف النساء) والأعمال بين النساء (29 ألفًا). في الأعمال تقارب الرقمان (30 و29).",
+  "phr": [
+   "outnumbered",
+   "the clearest gender gap",
+   "three times the … figure",
+   "almost equal",
+   "dominated",
+   "compared with …"
+  ]
+ },
+ {
+  "id": "w1-10",
+  "l": "B2",
+  "chart": "bar",
+  "title": "Visitors to four tourist attractions in a European country",
+  "unit": "thousand",
+  "x": [
+   "Museum",
+   "Castle",
+   "Botanical garden",
+   "Beach park"
+  ],
+  "series": [
+   {
+    "name": "2010",
+    "data": [
+     120,
+     95,
+     60,
+     150
+    ]
+   },
+   {
+    "name": "2015",
+    "data": [
+     140,
+     110,
+     85,
+     135
+    ]
+   },
+   {
+    "name": "2020",
+    "data": [
+     100,
+     150,
+     130,
+     90
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows the number of visitors to four tourist attractions in a European country in 2010, 2015 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart gives information about the number of visitors, in thousands, to four tourist attractions in a European country in 2010, 2015 and 2020.\n\nOverall, the castle and the botanical garden attracted steadily more visitors over the decade, whereas the beach park lost popularity. In 2010 the beach park was the busiest site, but by 2020 the castle had taken the lead.\n\nIn 2010, the beach park received 150 thousand visitors, ahead of the museum with 120 thousand, the castle with 95 thousand and the botanical garden with 60 thousand. Five years later, the beach park fell to 135 thousand, while the museum, castle and garden all gained, reaching 140, 110 and 85 thousand respectively.\n\nThe changes were most dramatic by 2020. The castle's figure rose to 150 thousand, and the botanical garden more than doubled its 2010 total, to 130 thousand. In contrast, the beach park dropped to just 90 thousand, the lowest of the four, and the museum fell back to 100 thousand after its rise in 2015.",
+  "keyAr": "ازداد زوار القلعة والحديقة النباتية باستمرار (القلعة 95 إلى 150 ألفًا، الحديقة 60 إلى 130)، وانخفض زوار منتزه الشاطئ (150 إلى 90). كان المنتزه الأكثر ازدحامًا عام 2010 وأصبحت القلعة الأولى عام 2020. ارتفع المتحف ثم تراجع.",
+  "phr": [
+   "gives information about …",
+   "lost popularity",
+   "taken the lead",
+   "respectively",
+   "more than doubled",
+   "fell back to …"
+  ]
+ },
+ {
+  "id": "w1-11",
+  "l": "B2",
+  "chart": "bar",
+  "title": "Electricity generated by five sources in two countries",
+  "unit": "TWh",
+  "x": [
+   "Coal",
+   "Gas",
+   "Nuclear",
+   "Hydropower",
+   "Wind and solar"
+  ],
+  "series": [
+   {
+    "name": "Country G",
+    "data": [
+     120,
+     95,
+     60,
+     35,
+     40
+    ]
+   },
+   {
+    "name": "Country H",
+    "data": [
+     30,
+     70,
+     85,
+     110,
+     55
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows the amount of electricity, in terawatt-hours (TWh), that two countries generated from five energy sources in one year. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart compares the amount of electricity, in terawatt-hours (TWh), that two countries generated from five energy sources in one year.\n\nOverall, Country G relied mainly on fossil fuels, with coal and gas together providing most of its power, while Country H depended more on hydropower and nuclear energy. Coal was the biggest source in Country G but the smallest in Country H.\n\nCountry G produced 120 TWh from coal and 95 TWh from gas, a combined total of 215 TWh. By contrast, Country H generated only 30 TWh from coal, although its gas output, at 70 TWh, was not far below that of Country G.\n\nNuclear energy supplied 60 TWh in Country G and 85 TWh in Country H. The biggest difference was in hydropower: Country H produced 110 TWh, more than three times the figure for Country G, at 35 TWh. Wind and solar contributed 40 TWh in G and 55 TWh in H, making them the second smallest source in both countries.",
+  "keyAr": "اعتمدت الدولة G على الوقود الأحفوري (فحم 120 وغاز 95 تيراواط ساعة)، واعتمدت H على الطاقة المائية (110) والنووية (85). الفحم الأكبر في G والأصغر في H (30). المائية في H أكثر من ثلاثة أضعاف G.",
+  "phr": [
+   "relied mainly on …",
+   "together providing most of …",
+   "By contrast, …",
+   "a combined total of …",
+   "The biggest difference was in …",
+   "more than three times the figure for …"
+  ]
+ },
+ {
+  "id": "w1-12",
+  "l": "C1",
+  "chart": "bar",
+  "title": "Adults taking part in six types of learning, by age group",
+  "unit": "%",
+  "x": [
+   "Online courses",
+   "Evening classes",
+   "Workplace training",
+   "Language study",
+   "Professional exams",
+   "Community workshops"
+  ],
+  "series": [
+   {
+    "name": "Aged 18-29",
+    "data": [
+     38,
+     14,
+     22,
+     30,
+     18,
+     12
+    ]
+   },
+   {
+    "name": "Aged 30-49",
+    "data": [
+     26,
+     18,
+     41,
+     19,
+     24,
+     15
+    ]
+   },
+   {
+    "name": "Aged 50+",
+    "data": [
+     11,
+     16,
+     15,
+     8,
+     6,
+     27
+    ]
+   }
+  ],
+  "prompt": "The bar chart below shows the percentage of adults in three age groups who took part in six types of learning activity last year. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The bar chart shows the percentage of adults in three age groups who took part in six types of learning activity last year.\n\nOverall, no single activity was the favourite of every age group. Younger adults were the most active online, those aged 30 to 49 mainly learned at work, and the oldest group led only in community workshops.\n\nOnline courses were taken by 38% of the 18-29 group, compared with 26% of those aged 30 to 49 and only 11% of those aged 50 and over. Language study showed a similar pattern, falling from 30% among the youngest group to 19% and then 8%.\n\nWorkplace training was the most common activity for the middle group, at 41%, well above the figures for the younger (22%) and older (15%) groups. This group also recorded the highest percentages for professional exams (24%) and evening classes (18%), although the differences in evening classes were small, ranging only between 14% and 18%. By contrast, 27% of people aged 50 and over attended community workshops, more than double the 12% of the youngest group.",
+  "keyAr": "لا يوجد نشاط مفضل لدى كل الفئات: الشباب الأكثر في الدورات الإلكترونية (38%) واللغات (30%)، وفئة 30-49 في التدريب المهني (41%) والامتحانات (24%)، وفئة 50+ تتصدر في الورش المجتمعية فقط (27%). الفروق في الدروس المسائية صغيرة.",
+  "phr": [
+   "no single activity was the favourite of …",
+   "led only in …",
+   "showed a similar pattern",
+   "well above the figures for …",
+   "ranging only between … and …",
+   "more than double the … of …"
+  ]
+ }
+]

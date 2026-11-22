@@ -1,0 +1,733 @@
+[
+ {
+  "id": "l-b1-13",
+  "l": "B1",
+  "title": "Two colleagues organise a meeting",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hi, Omar. Do you have a minute? We need to organise the team meeting for next week."
+   },
+   {
+    "s": "B",
+    "t": "Of course. The last one was on a Monday, but several people couldn't come. How about Wednesday?"
+   },
+   {
+    "s": "A",
+    "t": "Wednesday is better for me, too. Shall we say ten o'clock in the morning?"
+   },
+   {
+    "s": "B",
+    "t": "Ten is fine. But I have to leave at eleven thirty for a visit to a client, so the meeting should not be longer than ninety minutes."
+   },
+   {
+    "s": "A",
+    "t": "Right. I think an hour will be enough. Which room should we use?"
+   },
+   {
+    "s": "B",
+    "t": "The big meeting room is already booked. We could use the small one on the third floor, but it only has eight chairs."
+   },
+   {
+    "s": "A",
+    "t": "There are nine of us, so that is a problem. Perhaps we can borrow a chair from the office next door."
+   },
+   {
+    "s": "B",
+    "t": "Good idea. And what is on the agenda?"
+   },
+   {
+    "s": "A",
+    "t": "First, the budget for next year. Then, the new customer service system. And finally, the holiday plan for the summer."
+   },
+   {
+    "s": "B",
+    "t": "Should we send the agenda in advance?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, I will email it tomorrow morning. Could you bring the printed budget report? Ten copies, please."
+   },
+   {
+    "s": "B",
+    "t": "No problem. Do we need to order coffee and biscuits?"
+   },
+   {
+    "s": "A",
+    "t": "Just coffee, I think. I will ask the kitchen."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "agenda",
+    "ar": "جدول الأعمال"
+   },
+   {
+    "w": "client",
+    "ar": "عميل"
+   },
+   {
+    "w": "in advance",
+    "ar": "مسبقاً"
+   },
+   {
+    "w": "budget",
+    "ar": "ميزانية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Which day do they choose?",
+    "o": [
+     "Monday",
+     "Wednesday",
+     "Friday"
+    ],
+    "a": 1,
+    "why": "اختارا يوم الأربعاء."
+   },
+   {
+    "k": "gap",
+    "q": "The meeting starts at ___ o'clock.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "يبدأ عند العاشرة."
+   },
+   {
+    "k": "mc",
+    "q": "Why can't the meeting be very long?",
+    "o": [
+     "Omar has a client visit",
+     "The room is booked",
+     "There are no chairs"
+    ],
+    "a": 0,
+    "why": "عمر يغادر الحادية عشرة والنصف لزيارة عميل."
+   },
+   {
+    "k": "mc",
+    "q": "What is the problem with the small room?",
+    "o": [
+     "It has no screen",
+     "It has only eight chairs",
+     "It is too cold"
+    ],
+    "a": 1,
+    "why": "فيها ثمانية كراسي فقط والمشاركون تسعة."
+   },
+   {
+    "k": "gap",
+    "q": "There are ___ people in the team.",
+    "a": [
+     "9",
+     "nine"
+    ],
+    "why": "قالت: There are nine of us."
+   },
+   {
+    "k": "tfng",
+    "q": "The last item on the agenda is the holiday plan.",
+    "a": "T",
+    "why": "آخر بند هو خطة الإجازة الصيفية."
+   },
+   {
+    "k": "gap",
+    "q": "Omar will bring ___ copies of the budget report.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "عشر نسخ."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-14",
+  "l": "B1",
+  "title": "A guide to a university campus",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello, new students, and welcome to Hillside University. My name is Jake, and I am a third-year student. Let me show you the most important places on campus."
+   },
+   {
+    "s": "A",
+    "t": "We are standing in front of the Main Building. This is where you will find the registration office, which is open from nine to four, Monday to Friday."
+   },
+   {
+    "s": "A",
+    "t": "You need to go there to collect your student card."
+   },
+   {
+    "s": "A",
+    "t": "Behind it, you can see the Central Library. It has four floors, and the top floor is silent. During exams, it stays open twenty-four hours a day."
+   },
+   {
+    "s": "A",
+    "t": "On the right, the glass building is the Science Centre, with laboratories and lecture halls. Most first-year science classes are held here."
+   },
+   {
+    "s": "A",
+    "t": "If you walk down the hill, you will reach the Student Hub. It has a cafe, a small shop and a room where you can relax between classes."
+   },
+   {
+    "s": "A",
+    "t": "A lunch there costs about five dollars."
+   },
+   {
+    "s": "A",
+    "t": "The sports hall is next to the car park. Membership is free for students, and it has a gym and a swimming pool."
+   },
+   {
+    "s": "A",
+    "t": "Finally, remember that the campus bus runs every ten minutes from the main gate to the student housing. It is free if you show your card."
+   },
+   {
+    "s": "A",
+    "t": "Now, let's go and see the library."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "campus",
+    "ar": "الحرم الجامعي"
+   },
+   {
+    "w": "registration",
+    "ar": "التسجيل"
+   },
+   {
+    "w": "laboratory",
+    "ar": "مختبر"
+   },
+   {
+    "w": "student housing",
+    "ar": "سكن الطلاب"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Who is Jake?",
+    "o": [
+     "A teacher",
+     "A third-year student",
+     "A librarian"
+    ],
+    "a": 1,
+    "why": "قال إنه طالب في السنة الثالثة."
+   },
+   {
+    "k": "mc",
+    "q": "Why do new students go to the registration office?",
+    "o": [
+     "To pay fees",
+     "To collect their student card",
+     "To book a room"
+    ],
+    "a": 1,
+    "why": "لاستلام بطاقة الطالب."
+   },
+   {
+    "k": "tfng",
+    "q": "The whole library is silent.",
+    "a": "F",
+    "why": "الطابق العلوي فقط هادئ تماماً."
+   },
+   {
+    "k": "gap",
+    "q": "During exams, the library is open ___ hours a day.",
+    "a": [
+     "24",
+     "twenty-four",
+     "twenty four"
+    ],
+    "why": "يبقى مفتوحاً أربعاً وعشرين ساعة."
+   },
+   {
+    "k": "mc",
+    "q": "Where are most first-year science classes?",
+    "o": [
+     "The Main Building",
+     "The Science Centre",
+     "The Student Hub"
+    ],
+    "a": 1,
+    "why": "في المركز العلمي."
+   },
+   {
+    "k": "gap",
+    "q": "A lunch at the Student Hub costs about ___ dollars.",
+    "a": [
+     "5",
+     "five"
+    ],
+    "why": "نحو خمسة دولارات."
+   },
+   {
+    "k": "mc",
+    "q": "How often does the campus bus run?",
+    "o": [
+     "Every five minutes",
+     "Every ten minutes",
+     "Every half hour"
+    ],
+    "a": 1,
+    "why": "كل عشر دقائق."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-15",
+  "l": "B1",
+  "title": "A talk on transparency in local government",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon. Today, I would like to talk about transparency in local government, and why it matters for ordinary citizens."
+   },
+   {
+    "s": "A",
+    "t": "Transparency means that the public can see how decisions are made and how public money is spent."
+   },
+   {
+    "s": "A",
+    "t": "In a transparent town, the council publishes its budget, its contracts and the minutes of its meetings, so that anyone can read them."
+   },
+   {
+    "s": "A",
+    "t": "Why is this important? There are three main reasons. First, transparency helps to prevent corruption."
+   },
+   {
+    "s": "A",
+    "t": "When officials know that people can check their decisions, they are less likely to misuse public money."
+   },
+   {
+    "s": "A",
+    "t": "Second, it builds trust. Citizens are more willing to pay taxes and to follow rules when they understand what happens to their money."
+   },
+   {
+    "s": "A",
+    "t": "Third, it improves services."
+   },
+   {
+    "s": "A",
+    "t": "When residents can see which roads are repaired and which schools are built, they can say what they need, and the council can plan better."
+   },
+   {
+    "s": "A",
+    "t": "How can a town become more transparent? Some councils publish contracts on a website, where citizens can search them."
+   },
+   {
+    "s": "A",
+    "t": "Others hold open meetings, or let people ask questions online. A simple measure is to publish every contract above a certain value, for example ten thousand pounds."
+   },
+   {
+    "s": "A",
+    "t": "Of course, transparency is not enough on its own. People also need to know their rights, and the authorities must answer their questions within a reasonable time."
+   },
+   {
+    "s": "A",
+    "t": "Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "transparency",
+    "ar": "شفافية"
+   },
+   {
+    "w": "minutes",
+    "ar": "محضر الاجتماع"
+   },
+   {
+    "w": "contract",
+    "ar": "عقد"
+   },
+   {
+    "w": "misuse",
+    "ar": "يسيء استخدام"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does transparency mean in the talk?",
+    "o": [
+     "Spending less money",
+     "Public access to how decisions are made and money is spent",
+     "Hiring more officials"
+    ],
+    "a": 1,
+    "why": "أن يرى الناس كيف تُتخذ القرارات وتُنفق الأموال."
+   },
+   {
+    "k": "gap",
+    "q": "The council publishes its budget, its contracts and the ___ of its meetings.",
+    "a": [
+     "minutes"
+    ],
+    "why": "تنشر محاضر الاجتماعات."
+   },
+   {
+    "k": "gap",
+    "q": "There are ___ main reasons why transparency is important.",
+    "a": [
+     "3",
+     "three"
+    ],
+    "why": "قال: three main reasons."
+   },
+   {
+    "k": "mc",
+    "q": "What is the second reason?",
+    "o": [
+     "It builds trust",
+     "It saves time",
+     "It reduces taxes"
+    ],
+    "a": 0,
+    "why": "السبب الثاني هو بناء الثقة."
+   },
+   {
+    "k": "tfng",
+    "q": "Residents who see which roads are repaired can say what they need.",
+    "a": "T",
+    "why": "هذا ذُكر ضمن تحسين الخدمات."
+   },
+   {
+    "k": "gap",
+    "q": "An example is to publish every contract above ___ pounds.",
+    "a": [
+     "10000",
+     "10,000",
+     "ten thousand",
+     "10 000"
+    ],
+    "why": "قال: ten thousand pounds."
+   },
+   {
+    "k": "tfng",
+    "q": "The speaker thinks transparency alone is enough.",
+    "a": "F",
+    "why": "قال إنها وحدها لا تكفي."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-16",
+  "l": "B1",
+  "title": "A phone call to a bank about a new card",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, Northern Bank. This is Helen. How can I help?"
+   },
+   {
+    "s": "B",
+    "t": "Good morning. I would like to order a new debit card, please. My old one stopped working last week."
+   },
+   {
+    "s": "A",
+    "t": "I am sorry about that. For security, I need to ask a few questions. Can you give me your full name and date of birth?"
+   },
+   {
+    "s": "B",
+    "t": "Yes. It is Rami Haddad, and my birth date is the twelfth of March, nineteen ninety-eight."
+   },
+   {
+    "s": "A",
+    "t": "Thank you. And the first line of your address?"
+   },
+   {
+    "s": "B",
+    "t": "Fourteen Elm Road."
+   },
+   {
+    "s": "A",
+    "t": "That is correct. Did you lose the card, or is it just damaged?"
+   },
+   {
+    "s": "B",
+    "t": "It is damaged. The chip is broken, so the machines don't read it."
+   },
+   {
+    "s": "A",
+    "t": "In that case, there is no charge for the replacement. The new card will arrive in five working days."
+   },
+   {
+    "s": "B",
+    "t": "Can I collect it from the branch instead? I am often out during the day."
+   },
+   {
+    "s": "A",
+    "t": "Yes, you can. Which branch is nearest to you?"
+   },
+   {
+    "s": "B",
+    "t": "The one in Market Street."
+   },
+   {
+    "s": "A",
+    "t": "I will arrange that. Please remember to bring your passport when you collect the card."
+   },
+   {
+    "s": "B",
+    "t": "Will I keep the same PIN?"
+   },
+   {
+    "s": "A",
+    "t": "No, you will get a new one by post, in a separate letter."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "debit card",
+    "ar": "بطاقة مصرفية"
+   },
+   {
+    "w": "replacement",
+    "ar": "بديل"
+   },
+   {
+    "w": "branch",
+    "ar": "فرع"
+   },
+   {
+    "w": "PIN",
+    "ar": "الرقم السري"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why does the customer need a new card?",
+    "o": [
+     "He lost it",
+     "It is damaged",
+     "It was stolen"
+    ],
+    "a": 1,
+    "why": "الشريحة مكسورة."
+   },
+   {
+    "k": "gap",
+    "q": "His surname is ___.",
+    "a": [
+     "Haddad"
+    ],
+    "why": "الاسم Rami Haddad."
+   },
+   {
+    "k": "mc",
+    "q": "What is his date of birth?",
+    "o": [
+     "12 March 1998",
+     "13 March 1989",
+     "2 December 1998"
+    ],
+    "a": 0,
+    "why": "ولد في الثاني عشر من مارس 1998."
+   },
+   {
+    "k": "gap",
+    "q": "The first line of his address is ___ Elm Road.",
+    "a": [
+     "14",
+     "fourteen"
+    ],
+    "why": "قال: Fourteen Elm Road."
+   },
+   {
+    "k": "tfng",
+    "q": "He has to pay for the replacement.",
+    "a": "F",
+    "why": "لا رسوم على الاستبدال."
+   },
+   {
+    "k": "mc",
+    "q": "How long does the new card take to arrive?",
+    "o": [
+     "Two working days",
+     "Five working days",
+     "Ten working days"
+    ],
+    "a": 1,
+    "why": "خمسة أيام عمل."
+   },
+   {
+    "k": "mc",
+    "q": "How will he get his new PIN?",
+    "o": [
+     "By post",
+     "By phone",
+     "At the branch"
+    ],
+    "a": 0,
+    "why": "سيصله بالبريد في رسالة منفصلة."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-17",
+  "l": "B1",
+  "title": "Students discuss a survey",
+  "part": 3,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Okay, we have collected all the answers. Let's look at the results of our survey about student transport. Maya, how many people replied?"
+   },
+   {
+    "s": "B",
+    "t": "One hundred and twenty. That is more than we expected. We only planned for a hundred."
+   },
+   {
+    "s": "C",
+    "t": "And what were the main findings, Maya?"
+   },
+   {
+    "s": "B",
+    "t": "Well, forty-five percent of the students come to campus by bus. Thirty percent walk, and only fifteen percent come by car."
+   },
+   {
+    "s": "C",
+    "t": "I am surprised that so few use bicycles."
+   },
+   {
+    "s": "B",
+    "t": "Only ten percent do. Many said that the roads aren't safe, and there is nowhere to park a bike."
+   },
+   {
+    "s": "A",
+    "t": "That could be an interesting recommendation. We could suggest more bicycle racks near the library."
+   },
+   {
+    "s": "C",
+    "t": "Yes. What about the bus? Did people complain?"
+   },
+   {
+    "s": "B",
+    "t": "Quite a lot. Sixty students said that the buses are too crowded in the morning, and some mentioned that they wait more than twenty minutes."
+   },
+   {
+    "s": "A",
+    "t": "Then we should include a graph about waiting times. Leo, can you make it?"
+   },
+   {
+    "s": "C",
+    "t": "Sure, I will do it tonight. When is the report due?"
+   },
+   {
+    "s": "A",
+    "t": "Next Friday. So let's meet again on Monday to check everything."
+   },
+   {
+    "s": "B",
+    "t": "I will write the introduction and the conclusion by then."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "survey",
+    "ar": "استبيان"
+   },
+   {
+    "w": "findings",
+    "ar": "النتائج"
+   },
+   {
+    "w": "recommendation",
+    "ar": "توصية"
+   },
+   {
+    "w": "crowded",
+    "ar": "مزدحم"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "How many students answered the survey? ___",
+    "a": [
+     "120",
+     "one hundred and twenty",
+     "one hundred twenty",
+     "a hundred and twenty"
+    ],
+    "why": "أجاب مئة وعشرون طالباً."
+   },
+   {
+    "k": "mc",
+    "q": "What percentage of students come by bus?",
+    "o": [
+     "30 percent",
+     "45 percent",
+     "15 percent"
+    ],
+    "a": 1,
+    "why": "خمسة وأربعون بالمئة بالحافلة."
+   },
+   {
+    "k": "gap",
+    "q": "Only ___ percent of students use bicycles.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "عشرة بالمئة فقط."
+   },
+   {
+    "k": "mc",
+    "q": "What do they suggest to help cyclists?",
+    "o": [
+     "More bicycle racks",
+     "A new road",
+     "Cheaper bicycles"
+    ],
+    "a": 0,
+    "why": "اقتراح مزيد من حوامل الدراجات قرب المكتبة."
+   },
+   {
+    "k": "tfng",
+    "q": "Sixty students said the buses are too crowded in the morning.",
+    "a": "T",
+    "why": "قالت مايا: ستون طالباً اشتكوا من ازدحام الحافلات صباحاً."
+   },
+   {
+    "k": "mc",
+    "q": "What will Leo make?",
+    "o": [
+     "A graph about waiting times",
+     "The conclusion",
+     "A poster"
+    ],
+    "a": 0,
+    "why": "ليو سيعدّ رسماً بيانياً عن أوقات الانتظار."
+   },
+   {
+    "k": "mc",
+    "q": "When do they meet again?",
+    "o": [
+     "Friday",
+     "Monday",
+     "Tonight"
+    ],
+    "a": 1,
+    "why": "سيلتقون يوم الاثنين."
+   }
+  ]
+ }
+]

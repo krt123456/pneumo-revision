@@ -1,0 +1,628 @@
+[
+ {
+  "id": "g-b2-20",
+  "l": "B2",
+  "title": "Hedging (may, tend to, appear to, it seems that, be likely to)",
+  "titleAr": "التحفّظ في التعبير (may وtend to وappear to وit seems that وbe likely to)",
+  "why": "في البحث العلمي لا نجزم بأن كل شيء مؤكد. نستعمل عبارات التحفظ لنكون دقيقين ومهذبين، وهذا مطلوب في IELTS وفي الأبحاث.",
+  "rules": [
+   {
+    "ar": "نستعمل may وmight وcould بدل will حين لا نكون متأكدين. بعدها يأتي الفعل بصيغته الأصلية.",
+    "form": "S + may / might / could + base verb",
+    "ex": [
+     {
+      "en": "Corruption may weaken public trust.",
+      "ar": "قد يُضعف الفساد ثقة الجمهور."
+     },
+     {
+      "en": "The new law might reduce delays in the courts.",
+      "ar": "قد يقلّل القانون الجديد من التأخير في المحاكم."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل أفعالاً مخففة مثل tend to وappear to وseem to وsuggest وindicate. نقول suggest وليس prove لأن الدليل نادراً ما يكون نهائياً.",
+    "form": "S + tend / appear / seem + to + verb  |  The data suggest that ...",
+    "ex": [
+     {
+      "en": "Large public projects tend to exceed their budgets.",
+      "ar": "تميل المشاريع العامة الكبيرة إلى تجاوز ميزانياتها."
+     },
+     {
+      "en": "The data suggest that the method is effective.",
+      "ar": "تشير البيانات إلى أن الطريقة فعالة."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل عبارات الاحتمال: it seems that، it appears that، it is likely that، be likely to، probably، perhaps، to some extent، in some cases. ونتجنب always وnever وall.",
+    "form": "It is likely that + clause  |  S + be likely to + verb",
+    "ex": [
+     {
+      "en": "It appears that the policy has had little effect.",
+      "ar": "يبدو أن السياسة لم يكن لها أثر يُذكر."
+     },
+     {
+      "en": "The company is likely to lose the contract.",
+      "ar": "من المرجح أن تخسر الشركة العقد."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "This proves that the law is ineffective.",
+    "ok": "This suggests that the law is ineffective.",
+    "ar": "العربية تميل إلى الجزم. أما الأكاديمي الإنجليزي فيستعمل suggest أو indicate ما لم يكن الدليل قاطعاً."
+   },
+   {
+    "x": "It is probably that the figures are wrong.",
+    "ok": "It is probable that the figures are wrong. / The figures are probably wrong.",
+    "ar": "probably ظرف ولا يأتي بعد it is. استعمل probable أو likely."
+   },
+   {
+    "x": "All students will fail without support.",
+    "ok": "Many students may fail without support.",
+    "ar": "كلمات مثل all وwill تجزم بلا دليل. استعمل many أو some مع may."
+   }
+  ],
+  "tip": "قبل أن تكتب جملة جازمة اسأل: هل عندي دليل قاطع؟ إن لم يكن فاستعمل may أو tend to أو suggest.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The results ___ that the new method is more effective.",
+    "o": [
+     "prove",
+     "suggest",
+     "are"
+    ],
+    "a": 1,
+    "why": "suggest فعل مخفف يناسب الدليل غير القاطع."
+   },
+   {
+    "k": "mc",
+    "q": "Large public projects ___ to exceed their budgets.",
+    "o": [
+     "tend",
+     "must",
+     "tends"
+    ],
+    "a": 0,
+    "why": "الفاعل جمع (projects)، فنستعمل tend."
+   },
+   {
+    "k": "mc",
+    "q": "It is ___ that unemployment will fall next year.",
+    "o": [
+     "probably",
+     "probable to",
+     "likely"
+    ],
+    "a": 2,
+    "why": "بعد it is نستعمل صفة like likely وليس ظرفاً."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is the most cautious?",
+    "o": [
+     "Corruption always destroys trust.",
+     "Corruption will destroy trust.",
+     "Corruption may weaken public trust."
+    ],
+    "a": 2,
+    "why": "may وweaken تُظهران الاحتمال، بخلاف always وwill."
+   },
+   {
+    "k": "mc",
+    "q": "The company is ___ to lose the contract.",
+    "o": [
+     "probably",
+     "likely",
+     "probable"
+    ],
+    "a": 1,
+    "why": "التركيب be likely to + فعل."
+   },
+   {
+    "k": "gap",
+    "q": "The data ___ (appear) to support the theory.",
+    "a": [
+     "appear",
+     "appears"
+    ],
+    "why": "appear to + فعل يخفف الجزم، وdata تُستعمل جمعاً أو مفرداً."
+   },
+   {
+    "k": "gap",
+    "q": "It ___ (seem) that the policy has had little effect.",
+    "a": [
+     "seems"
+    ],
+    "why": "it seems that عبارة تحفظ، والفاعل it يأخذ s."
+   },
+   {
+    "k": "gap",
+    "q": "This policy ___ (may / will) reduce crime, but we cannot be sure.",
+    "a": [
+     "may"
+    ],
+    "why": "نحن غير متأكدين، فنستعمل may وليس will."
+   },
+   {
+    "k": "fix",
+    "q": "This proves that the law is ineffective.",
+    "bad": "proves",
+    "good": [
+     "suggests",
+     "indicates"
+    ],
+    "why": "prove قوي جداً؛ نستعمل suggest أو indicate للتحفظ."
+   },
+   {
+    "k": "fix",
+    "q": "It is probably that the figures are wrong.",
+    "bad": "probably",
+    "good": [
+     "probable",
+     "likely"
+    ],
+    "why": "بعد it is نحتاج صفة: probable أو likely."
+   },
+   {
+    "k": "order",
+    "a": "The results appear to support this view.",
+    "ar": "تبدو النتائج داعمة لهذا الرأي."
+   },
+   {
+    "k": "order",
+    "a": "Students tend to prefer online lectures.",
+    "ar": "يميل الطلاب إلى تفضيل المحاضرات عبر الإنترنت."
+   },
+   {
+    "k": "trans",
+    "q": "Corruption weakens public trust.",
+    "start": "Corruption may",
+    "a": [
+     "Corruption may weaken public trust."
+    ],
+    "why": "بعد may نستعمل الفعل الأصلي weaken دون s."
+   },
+   {
+    "k": "trans",
+    "q": "The new law will reduce delays.",
+    "start": "The new law is likely",
+    "a": [
+     "The new law is likely to reduce delays."
+    ],
+    "why": "التركيب be likely to + فعل يخفف الجزم."
+   }
+  ]
+ },
+ {
+  "id": "g-b2-21",
+  "l": "B2",
+  "title": "Describing trends and data",
+  "titleAr": "وصف الاتجاهات والبيانات",
+  "why": "في IELTS Writing Task 1 تصف رسماً بيانياً. تحتاج أفعالاً وأسماء وظروفاً دقيقة وحروف جر صحيحة وأزمنة مناسبة.",
+  "rules": [
+   {
+    "ar": "نستعمل أفعالاً لازمة (بلا مفعول به): rise, increase, grow, climb لزيادة؛ fall, drop, decline, decrease لانخفاض. وللثبات remain stable أو level off. وللقمة peak at.",
+    "form": "S + rose / fell / remained stable / peaked at + figure",
+    "ex": [
+     {
+      "en": "The number of visitors rose from 2,000 to 5,000.",
+      "ar": "ارتفع عدد الزوار من 2000 إلى 5000."
+     },
+     {
+      "en": "Unemployment peaked at 8 per cent and then fell.",
+      "ar": "بلغت البطالة ذروتها عند 8 بالمئة ثم انخفضت."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل حروف الجر بعناية. from ... to للبداية والنهاية. by للمقدار. at للرقم الثابت أو الذروة. in بعد الاسم (a rise in prices).",
+    "form": "rise from A to B | by 10% | at 50% | a rise in X",
+    "ex": [
+     {
+      "en": "Sales increased by 15 per cent, from 200 to 230 units.",
+      "ar": "زادت المبيعات بنسبة 15 بالمئة، من 200 إلى 230 وحدة."
+     },
+     {
+      "en": "There was a dramatic fall in the number of cases.",
+      "ar": "حدث انخفاض كبير في عدد الحالات."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل الاسم بعد there was a + صفة + اسم، والفعل بعد ظرف. الصفة مع الاسم (a sharp rise)، والظرف مع الفعل (rose sharply). وأمثلة: slight/slightly، steady/steadily، dramatic/dramatically.",
+    "form": "There was a + adj + noun  |  S + verb + adverb",
+    "ex": [
+     {
+      "en": "There was a slight increase in exports.",
+      "ar": "حدثت زيادة طفيفة في الصادرات."
+     },
+     {
+      "en": "Prices fell steadily between 2010 and 2015.",
+      "ar": "انخفضت الأسعار بثبات بين 2010 و2015."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل الماضي البسيط لسنة محددة في الماضي، والمضارع التام لفترة تمتد إلى الآن، وwill أو is expected to للتوقع. ونقول between 2010 and 2020 أو from 2010 to 2020.",
+    "form": "past simple | present perfect | will / is expected to",
+    "ex": [
+     {
+      "en": "Prices rose sharply in 2019.",
+      "ar": "ارتفعت الأسعار بشدة في عام 2019."
+     },
+     {
+      "en": "The figure has been rising steadily since 2018.",
+      "ar": "يرتفع الرقم باستمرار منذ عام 2018."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Sales raised sharply in 2020.",
+    "ok": "Sales rose sharply in 2020.",
+    "ar": "raise يحتاج مفعولاً به (raise prices). بدون مفعول نستعمل rise وماضيها rose."
+   },
+   {
+    "x": "There was a sharply rise in prices.",
+    "ok": "There was a sharp rise in prices.",
+    "ar": "قبل الاسم نستعمل صفة وليس ظرفاً. الظرف يصف الفعل."
+   },
+   {
+    "x": "The rate increased to 10 per cent, from 5 to 10.",
+    "ok": "The rate increased by 5 per cent, from 5 to 10.",
+    "ar": "by تذكر مقدار الزيادة، وto تذكر النقطة التي وصلنا إليها. لا تخلط بينهما."
+   }
+  ],
+  "tip": "الفعل + ظرف (rose sharply)، والصفة + اسم (a sharp rise). rise بلا مفعول، raise مع مفعول. by للمقدار، to للنهاية.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The number of visitors ___ from 2,000 to 5,000 between 2015 and 2020.",
+    "o": [
+     "raised",
+     "rose",
+     "was risen"
+    ],
+    "a": 1,
+    "why": "rise فعل لازم، وماضيه rose ولا يُبنى للمجهول."
+   },
+   {
+    "k": "mc",
+    "q": "There was a ___ fall in prices last year.",
+    "o": [
+     "slight",
+     "slightly",
+     "slightness"
+    ],
+    "a": 0,
+    "why": "قبل الاسم fall نحتاج صفة: slight."
+   },
+   {
+    "k": "mc",
+    "q": "Sales increased ___ 15 per cent, from 200 to 230 units.",
+    "o": [
+     "to",
+     "by",
+     "at"
+    ],
+    "a": 1,
+    "why": "by تذكر مقدار الزيادة وهو 15 بالمئة."
+   },
+   {
+    "k": "mc",
+    "q": "Unemployment ___ at 8 per cent in 2010 and then fell.",
+    "o": [
+     "peak",
+     "was peaking up",
+     "peaked"
+    ],
+    "a": 2,
+    "why": "سنة محددة في الماضي، فنستعمل peaked at."
+   },
+   {
+    "k": "mc",
+    "q": "The figure ___ since 2018.",
+    "o": [
+     "rose steadily",
+     "has been rising steadily",
+     "is rising steady"
+    ],
+    "a": 1,
+    "why": "since يحتاج المضارع التام، والظرف steadily يصف الفعل."
+   },
+   {
+    "k": "gap",
+    "q": "Prices ___ (rise) sharply in 2019.",
+    "a": [
+     "rose"
+    ],
+    "why": "سنة محددة في الماضي، فنستعمل ماضي rise وهو rose."
+   },
+   {
+    "k": "gap",
+    "q": "There was a dramatic fall ___ the number of cases.",
+    "a": [
+     "in"
+    ],
+    "why": "بعد اسم مثل fall نستعمل in."
+   },
+   {
+    "k": "gap",
+    "q": "The rate ___ (remain) stable at 5 per cent from 2012 to 2015.",
+    "a": [
+     "remained"
+    ],
+    "why": "فترة ماضية محددة، فنستعمل الماضي البسيط remained."
+   },
+   {
+    "k": "fix",
+    "q": "Sales raised sharply in 2020.",
+    "bad": "raised",
+    "good": [
+     "rose"
+    ],
+    "why": "الفعل بلا مفعول به هو rise، وماضيه rose."
+   },
+   {
+    "k": "fix",
+    "q": "There was a sharply rise in prices.",
+    "bad": "sharply",
+    "good": [
+     "sharp"
+    ],
+    "why": "قبل الاسم rise نحتاج صفة sharp."
+   },
+   {
+    "k": "order",
+    "a": "Prices fell steadily between 2010 and 2015.",
+    "ar": "انخفضت الأسعار بثبات بين 2010 و2015."
+   },
+   {
+    "k": "order",
+    "a": "There was a slight increase in exports.",
+    "ar": "حدثت زيادة طفيفة في الصادرات."
+   },
+   {
+    "k": "trans",
+    "q": "The number of tourists rose dramatically.",
+    "start": "There was a dramatic",
+    "a": [
+     "There was a dramatic rise in the number of tourists.",
+     "There was a dramatic increase in the number of tourists."
+    ],
+    "why": "نحوّل الفعل والظرف إلى اسم وصفة: a dramatic rise in."
+   },
+   {
+    "k": "trans",
+    "q": "There was a gradual decline in sales.",
+    "start": "Sales",
+    "a": [
+     "Sales declined gradually.",
+     "Sales fell gradually.",
+     "Sales decreased gradually."
+    ],
+    "why": "نحوّل الاسم إلى فعل والصفة إلى ظرف."
+   }
+  ]
+ },
+ {
+  "id": "g-b2-22",
+  "l": "B2",
+  "title": "Complex sentences and punctuation",
+  "titleAr": "الجمل المركبة وعلامات الترقيم",
+  "why": "الجملة الطويلة الجيدة تحتاج ترقيماً صحيحاً. كثير من العرب يضعون فاصلة بين جملتين كاملتين، وهذا خطأ يخفض درجة الكتابة.",
+  "rules": [
+   {
+    "ar": "في جملة الصلة غير المحددة (معلومة إضافية) نضع فاصلتين، ونستعمل which أو who وليس that. أما جملة الصلة المحددة فبلا فواصل ويجوز فيها that.",
+    "form": "noun, which/who + clause, verb  |  noun + that + clause",
+    "ex": [
+     {
+      "en": "The report, which was published in May, criticised the ministry.",
+      "ar": "التقرير، الذي نُشر في مايو، انتقد الوزارة."
+     },
+     {
+      "en": "The students who failed the exam can retake it.",
+      "ar": "الطلاب الذين رسبوا في الامتحان يستطيعون إعادته."
+     }
+    ]
+   },
+   {
+    "ar": "الفاصلة المنقوطة (;) تربط جملتين كاملتين مترابطتين في المعنى. وبعد أداة مثل however وnevertheless نضع فاصلة. ولا نضعها قبل and أو but.",
+    "form": "Sentence; however, sentence.",
+    "ex": [
+     {
+      "en": "The law is strict; however, it is rarely enforced.",
+      "ar": "القانون صارم، لكنه نادراً ما يُطبَّق."
+     },
+     {
+      "en": "The study was small; its findings were nevertheless useful.",
+      "ar": "كانت الدراسة صغيرة، لكن نتائجها كانت مفيدة."
+     }
+    ]
+   },
+   {
+    "ar": "النقطتان (:) تقدمان قائمة أو شرحاً بعد جملة كاملة. وبعد جملة تمهيدية (مثل Although...) نضع فاصلة قبل الجملة الرئيسية.",
+    "form": "Full sentence: list / explanation.  Although clause, main clause.",
+    "ex": [
+     {
+      "en": "There are two main causes: poverty and weak institutions.",
+      "ar": "هناك سببان رئيسيان: الفقر وضعف المؤسسات."
+     },
+     {
+      "en": "Although the law is clear, it is rarely enforced.",
+      "ar": "مع أن القانون واضح، فهو نادراً ما يُطبَّق."
+     }
+    ]
+   },
+   {
+    "ar": "الفاصلة وحدها لا تربط جملتين كاملتين. هذا الخطأ اسمه comma splice. الحل: نقطة، أو فاصلة منقوطة، أو فاصلة مع and/but/so.",
+    "form": "Sentence. Sentence.  |  Sentence; sentence.  |  Sentence, but sentence.",
+    "ex": [
+     {
+      "en": "The test was difficult, but I passed it.",
+      "ar": "كان الامتحان صعباً، لكنني نجحت فيه."
+     },
+     {
+      "en": "The test was difficult; I passed it anyway.",
+      "ar": "كان الامتحان صعباً، لكنني نجحت فيه على أي حال."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The test was difficult, I passed it.",
+    "ok": "The test was difficult, but I passed it.",
+    "ar": "العربية تسمح بجمل طويلة تفصل بينها الفاصلة. الإنجليزية لا تسمح، فاستعمل نقطة أو فاصلة منقوطة أو but."
+   },
+   {
+    "x": "The report, that was published in May, criticised the ministry.",
+    "ok": "The report, which was published in May, criticised the ministry.",
+    "ar": "بعد الفاصلة لا نستعمل that. نستعمل which أو who."
+   },
+   {
+    "x": "The law is strict, however, it is rarely enforced.",
+    "ok": "The law is strict; however, it is rarely enforced.",
+    "ar": "however ليست أداة ربط مثل لكن. قبلها نقطة أو فاصلة منقوطة."
+   }
+  ],
+  "tip": "سؤال سريع: هل على جانبي الفاصلة جملتان كاملتان؟ إذن غيّرها إلى نقطة أو فاصلة منقوطة أو أضف and/but.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "The law was strict, it was rarely enforced.",
+     "The law was strict, but it was rarely enforced.",
+     "The law was strict, however it was rarely enforced."
+    ],
+    "a": 1,
+    "why": "جملتان كاملتان تحتاجان but أو فاصلة منقوطة؛ الفاصلة وحدها تصنع comma splice."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "The report, which was published in May, criticised the ministry.",
+     "The report, that was published in May, criticised the ministry.",
+     "The report, what was published in May, criticised the ministry."
+    ],
+    "a": 0,
+    "why": "المعلومة الإضافية بين فاصلتين تُقدَّم بـ which وليس that أو what."
+   },
+   {
+    "k": "mc",
+    "q": "The committee, ___ members are elected, meets monthly.",
+    "o": [
+     "who",
+     "whose",
+     "which"
+    ],
+    "a": 1,
+    "why": "نعبّر عن الملكية (أعضاؤها) فنستعمل whose."
+   },
+   {
+    "k": "mc",
+    "q": "Dr Hall, ___ wrote the report, will speak tomorrow.",
+    "o": [
+     "that",
+     "who",
+     "whom"
+    ],
+    "a": 1,
+    "why": "الشخص فاعل لـ wrote، وبعد الفاصلة لا نستعمل that، فنستعمل who."
+   },
+   {
+    "k": "mc",
+    "q": "There are three causes of delay; ___ poor planning, low funding and staff shortages.",
+    "o": [
+     "namely",
+     "because",
+     "although"
+    ],
+    "a": 0,
+    "why": "namely تقدم تفصيل الأسباب الثلاثة بعد الفاصلة المنقوطة."
+   },
+   {
+    "k": "gap",
+    "q": "The plan, ___ (which/that) was approved in June, cost millions.",
+    "a": [
+     "which"
+    ],
+    "why": "بعد الفاصلة في جملة صلة غير محددة نستعمل which."
+   },
+   {
+    "k": "gap",
+    "q": "The city, ___ (where/which) I was born, is by the sea.",
+    "a": [
+     "where"
+    ],
+    "why": "نعني المكان، وبعدها جملة كاملة، فنستعمل where."
+   },
+   {
+    "k": "gap",
+    "q": "The law is strict; ___, it is rarely enforced. (however / but)",
+    "a": [
+     "however"
+    ],
+    "why": "بعد الفاصلة المنقوطة نستعمل however وبعدها فاصلة."
+   },
+   {
+    "k": "fix",
+    "q": "The test was difficult, I passed it.",
+    "bad": "difficult, I",
+    "good": [
+     "difficult; I",
+     "difficult. I",
+     "difficult, but I"
+    ],
+    "why": "جملتان كاملتان لا تُربطان بفاصلة فقط."
+   },
+   {
+    "k": "fix",
+    "q": "The report, that was published in May, criticised the ministry.",
+    "bad": "that",
+    "good": [
+     "which"
+    ],
+    "why": "بعد الفاصلة في المعلومة الإضافية نستعمل which."
+   },
+   {
+    "k": "order",
+    "a": "The judge, who was very experienced, rejected the appeal.",
+    "ar": "رفض القاضي، وهو ذو خبرة كبيرة، الاستئناف."
+   },
+   {
+    "k": "order",
+    "a": "There are two main causes: poverty and weak institutions.",
+    "ar": "هناك سببان رئيسيان: الفقر وضعف المؤسسات."
+   },
+   {
+    "k": "trans",
+    "q": "The report was published in May. It criticised the ministry.",
+    "start": "The report,",
+    "a": [
+     "The report, which was published in May, criticised the ministry."
+    ],
+    "why": "نجعل الجملة الأولى جملة صلة غير محددة بين فاصلتين."
+   },
+   {
+    "k": "trans",
+    "q": "The law is strict, but it is rarely enforced.",
+    "start": "The law is strict;",
+    "a": [
+     "The law is strict; however, it is rarely enforced.",
+     "The law is strict; nevertheless, it is rarely enforced.",
+     "The law is strict; nonetheless, it is rarely enforced."
+    ],
+    "why": "بعد الفاصلة المنقوطة نضع أداة تنازل مثل however تتبعها فاصلة."
+   }
+  ]
+ }
+]

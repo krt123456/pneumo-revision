@@ -1,0 +1,416 @@
+[
+ {
+  "id": "r-b2-22",
+  "l": "B2",
+  "title": "The Gig Economy",
+  "topic": "business",
+  "paras": [
+   "The gig economy describes a labour market in which people earn money through short-term tasks or projects rather than permanent jobs. Drivers who accept rides through an app, designers who take on freelance commissions, and couriers who deliver meals are all part of it. Digital platforms match workers with customers within minutes, and this convenience has helped the sector expand rapidly across many countries. For many people, a smartphone has become both a workplace and a source of income, and the number of platforms continues to grow every year.",
+   "For workers, the main attraction is flexibility. A student can work evenings only, a parent can choose hours around school, and someone with a regular job can earn extra income at weekends. Platforms also lower the barriers to entry: there is often no interview, and starting may require little more than a phone and an identity document. For people who struggle to find traditional employment, this can be a valuable first step, and some workers use gig tasks to build a reputation before moving to a more stable career.",
+   "Consumers and businesses gain as well. Customers enjoy low prices and quick service, while small companies can hire a specialist for a single project instead of paying a full-time salary. This allows start-ups to grow with fewer fixed costs. Some economists argue that the model also creates competition that encourages established companies to improve their own services and to respond faster to what customers want.",
+   "However, the model has serious drawbacks. Most gig workers are classified as independent contractors rather than employees, so they usually receive no paid holiday, sick pay or pension contribution. Income can be unpredictable, because the number of tasks depends on demand and on how many other workers are online. Workers also pay their own expenses, such as fuel, vehicle repairs and insurance, so the amount left after costs may be lower than it first appears.",
+   "Another concern is the power of algorithms. Platforms often use ratings and automated systems to decide who receives work, and a few poor reviews can reduce a worker's access to tasks. Because decisions are made by software, workers may find it hard to understand why their earnings have fallen or to appeal against a suspension. Researchers describe this as a form of management without a manager.",
+   "Governments are now trying to respond. Some courts have ruled that certain drivers should be treated as employees, while some countries have introduced minimum earnings or insurance requirements for platform workers. Others prefer a middle category between employee and contractor. Whatever approach is taken, the challenge is to preserve the flexibility that many workers value while ensuring that they are not left without basic protection. Workers themselves are also forming groups and online communities to share information and negotiate better terms."
+  ],
+  "gloss": [
+   {
+    "w": "freelance",
+    "ar": "عمل حر، مستقل"
+   },
+   {
+    "w": "courier",
+    "ar": "موصّل طلبات"
+   },
+   {
+    "w": "flexibility",
+    "ar": "مرونة"
+   },
+   {
+    "w": "contractor",
+    "ar": "متعاقد مستقل"
+   },
+   {
+    "w": "pension",
+    "ar": "معاش تقاعدي"
+   },
+   {
+    "w": "algorithm",
+    "ar": "خوارزمية"
+   },
+   {
+    "w": "suspension",
+    "ar": "إيقاف عن العمل"
+   },
+   {
+    "w": "negotiate",
+    "ar": "يفاوض"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 4,
+    "o": [
+     "Decisions made by software without human explanation",
+     "The pleasure of working at night",
+     "How to start a small company",
+     "Why customers like low prices"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Gig workers who are classed as contractors usually do not receive paid holiday.",
+    "a": "T",
+    "why": "الفقرة 4: لا إجازة مدفوعة غالباً."
+   },
+   {
+    "k": "tfng",
+    "q": "Small companies using gig workers must still pay a full-time salary for each specialist.",
+    "a": "F",
+    "why": "الفقرة 3: يمكنهم توظيف متخصص لمشروع واحد."
+   },
+   {
+    "k": "tfng",
+    "q": "Most gig workers would prefer a permanent job if one were available.",
+    "a": "NG",
+    "why": "لا يذكر النص تفضيلات العمال."
+   },
+   {
+    "k": "tfng",
+    "q": "Couriers earn more money than drivers on average.",
+    "a": "NG",
+    "why": "لا يقارن النص بين دخل الفئتين."
+   },
+   {
+    "k": "mc",
+    "q": "What is the main attraction of gig work for workers?",
+    "o": [
+     "Free insurance",
+     "Flexible hours",
+     "High pensions",
+     "Guaranteed income"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: الميزة الرئيسية هي المرونة."
+   },
+   {
+    "k": "mc",
+    "q": "Why can gig income be unpredictable?",
+    "o": [
+     "It depends on demand and the number of workers online.",
+     "Workers are paid yearly.",
+     "Platforms hide all prices.",
+     "Customers pay in cash only."
+    ],
+    "a": 0,
+    "why": "الفقرة 4: يعتمد على الطلب وعدد العاملين."
+   },
+   {
+    "k": "gap",
+    "q": "Starting may require little more than a phone and an identity ___.",
+    "a": [
+     "document"
+    ],
+    "why": "الفقرة 2: وثيقة هوية."
+   },
+   {
+    "k": "gap",
+    "q": "Researchers describe this as a form of management without a ___.",
+    "a": [
+     "manager"
+    ],
+    "why": "الفقرة 5: إدارة بلا مدير."
+   },
+   {
+    "k": "mc",
+    "q": "What do some countries do about platform work?",
+    "o": [
+     "Ban it completely",
+     "Create rules such as minimum earnings or insurance",
+     "Stop courts from ruling on it",
+     "Replace it with permanent jobs"
+    ],
+    "a": 1,
+    "why": "الفقرة 6: حدّ أدنى للدخل أو تأمين."
+   }
+  ],
+  "sumAr": "يعرض النص مزايا اقتصاد العمل الحر عبر المنصات للعمال والزبائن، ثم عيوبه كغياب الحماية وعدم استقرار الدخل وسلطة الخوارزميات. ويشير إلى محاولات الحكومات تنظيمه."
+ },
+ {
+  "id": "r-b2-23",
+  "l": "B2",
+  "title": "How Judges and Juries Make Decisions",
+  "topic": "law",
+  "paras": [
+   "When a person is accused of a serious crime, someone must decide what really happened and what should follow. In some legal systems, this is the work of a professional judge. In others, it is shared with a jury, a group of ordinary citizens chosen at random. Researchers who study these decision-makers have found that the process is more complex, and sometimes less rational, than we might hope.",
+   "Judges and juries follow different logic. A judge is trained in law and is expected to give written reasons for his or her decision, which can later be examined by a higher court. A jury usually delivers only a verdict, and members discuss the case in private. Supporters of juries argue that ordinary people bring common sense and community values, and that involving citizens increases public trust in the courts. Critics worry that jurors may struggle with technical evidence.",
+   "Psychologists have identified several influences on decisions that have nothing to do with the facts. One is the order of information: people tend to give extra weight to evidence they hear first or last. Another is the vividness of testimony; a witness who speaks confidently is often believed even when his or her memory is shaky. Studies also suggest that attractive or well-dressed defendants may sometimes be treated more leniently, although findings vary.",
+   "Judges are not immune from such effects. One much-discussed study of parole hearings suggested that decisions might be affected by the time since the judges' last break, although later researchers argued that the pattern could be explained by the order in which cases were scheduled. This debate illustrates how difficult it is to separate real bias from other factors. Even so, many courts now use training programmes to make judges aware of unconscious bias.",
+   "Group discussion also shapes jury decisions. In deliberation, a confident, talkative juror may influence others, and members in the minority sometimes give in simply to end the disagreement. To reduce this risk, courts give clear instructions about the standard of proof and sometimes require unanimous agreement, so that every view must be addressed. Some systems allow majority verdicts to prevent a single juror from blocking a decision.",
+   "Various reforms aim to improve the quality of decisions. Written guidelines for sentencing narrow the range of punishment for similar offences. Judges may be required to explain their reasoning in detail, which encourages careful thinking. Some courts provide jurors with notes, written summaries and plain language instructions. None of these measures can remove human judgement entirely, nor should they. The goal is not to turn courts into machines, but to ensure that human decisions are as fair, consistent and transparent as possible, so that citizens can trust the outcome even when they disagree with it."
+  ],
+  "gloss": [
+   {
+    "w": "jury",
+    "ar": "هيئة محلفين"
+   },
+   {
+    "w": "verdict",
+    "ar": "حكم، قرار الإدانة أو البراءة"
+   },
+   {
+    "w": "testimony",
+    "ar": "شهادة"
+   },
+   {
+    "w": "leniently",
+    "ar": "بتساهل"
+   },
+   {
+    "w": "parole",
+    "ar": "إفراج مشروط"
+   },
+   {
+    "w": "unconscious",
+    "ar": "لا واعٍ"
+   },
+   {
+    "w": "deliberation",
+    "ar": "مداولة"
+   },
+   {
+    "w": "unanimous",
+    "ar": "بالإجماع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 2,
+    "o": [
+     "Influences on decisions that are unrelated to the facts",
+     "Why witnesses forget names",
+     "The training of professional judges",
+     "How juries are chosen"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "A judge is usually expected to give written reasons for a decision.",
+    "a": "T",
+    "why": "الفقرة 2: يُتوقع من القاضي تقديم أسباب مكتوبة."
+   },
+   {
+    "k": "tfng",
+    "q": "Members of a jury are selected because of their legal training.",
+    "a": "F",
+    "why": "الفقرة 1: يُختارون عشوائياً من المواطنين العاديين."
+   },
+   {
+    "k": "tfng",
+    "q": "Trials with a jury are more expensive than trials with a judge alone.",
+    "a": "NG",
+    "why": "لا يتناول النص التكلفة."
+   },
+   {
+    "k": "tfng",
+    "q": "Judges with more years of experience are less affected by unconscious bias.",
+    "a": "NG",
+    "why": "لا يذكر النص أثر سنوات الخبرة."
+   },
+   {
+    "k": "mc",
+    "q": "What do supporters of juries say?",
+    "o": [
+     "Jurors understand technical evidence better than judges.",
+     "Ordinary people bring common sense and increase public trust.",
+     "Juries are faster than judges.",
+     "Juries give written reasons."
+    ],
+    "a": 1,
+    "why": "الفقرة 2: المواطنون يجلبون الحس السليم ويزيدون ثقة الجمهور."
+   },
+   {
+    "k": "mc",
+    "q": "Why did later researchers question the parole hearing study?",
+    "o": [
+     "The judges refused to be studied.",
+     "The pattern might be explained by how cases were ordered.",
+     "The study was too long.",
+     "The data were lost."
+    ],
+    "a": 1,
+    "why": "الفقرة 4: قد يفسّره ترتيب جدولة القضايا."
+   },
+   {
+    "k": "gap",
+    "q": "A jury usually delivers only a ___.",
+    "a": [
+     "verdict"
+    ],
+    "why": "الفقرة 2: حكماً فقط دون أسباب."
+   },
+   {
+    "k": "gap",
+    "q": "Courts sometimes require ___ agreement so that every view must be addressed.",
+    "a": [
+     "unanimous"
+    ],
+    "why": "الفقرة 5: اتفاق بالإجماع."
+   },
+   {
+    "k": "mc",
+    "q": "What is the aim of the reforms described in the last paragraph?",
+    "o": [
+     "To replace human judgement with machines",
+     "To make human decisions fairer and more consistent",
+     "To reduce the number of trials",
+     "To remove juries"
+    ],
+    "a": 1,
+    "why": "الفقرة 6: جعل القرارات البشرية أكثر عدلاً واتساقاً."
+   }
+  ],
+  "sumAr": "يبيّن النص الفرق بين القضاة والمحلفين وكيف تؤثر عوامل نفسية لا علاقة لها بالوقائع في قراراتهم. ويعرض إصلاحات تهدف إلى جعل الأحكام أكثر عدلاً وشفافية."
+ },
+ {
+  "id": "r-b2-24",
+  "l": "B2",
+  "title": "Automation and the Future of Work",
+  "topic": "technology",
+  "paras": [
+   "Machines have replaced human labour for centuries, from the mechanical looms of the eighteenth century to the factory robots of the twentieth. What is different today is the range of tasks that can be automated. Advances in artificial intelligence mean that software can now read documents, recognise images and answer questions, abilities once thought to require human intelligence. As a result, even highly educated professionals are starting to ask how their own work might change.",
+   "Economists have tried to estimate how many jobs are at risk. Their conclusions differ widely, partly because they analyse tasks rather than whole occupations. Most jobs combine routine tasks, such as filling in forms, with tasks that require judgement, creativity or personal contact. A job is more vulnerable when most of its tasks are routine and predictable, whether these are physical, as in assembly lines, or mental, as in data entry.",
+   "History offers some reassurance. When earlier technologies removed jobs, they also created new ones, often in industries that had not existed before. Few people in 1900 could have imagined careers in software or air traffic control. Automation can also lower prices and raise incomes, leading to higher demand for goods and services, and therefore more work. However, the transition can be painful. New jobs may appear in different places, or require different skills, from those that disappeared.",
+   "This creates a challenge for education. Workers whose tasks are automated need opportunities to retrain, yet adult training is often underfunded. Many experts argue that schools should place greater emphasis on skills that machines find difficult, such as critical thinking, teamwork and communication, as well as on basic digital literacy. Because the pace of change is rapid, the ability to keep learning throughout life may be more valuable than any single qualification.",
+   "There is also a debate about who benefits. If companies use machines to produce more with fewer employees, profits may flow to the owners of technology rather than to workers. Some economists propose measures such as higher taxes on capital, wage support, or shorter working weeks to share gains more widely. Others warn that heavy regulation might discourage innovation and slow growth. Both sides, however, accept that doing nothing would leave many workers behind. There is no consensus about which approach would work best.",
+   "Looking ahead, many specialists expect collaboration rather than complete replacement in most fields. A doctor may use software to scan images but still discuss treatment with the patient; a lawyer may use a program to search documents but still decide the strategy. In such roles, technology handles repetitive parts and people provide judgement, empathy and responsibility. The future of work will depend not only on what machines can do, but also on the choices that societies make about how to use them."
+  ],
+  "gloss": [
+   {
+    "w": "automate",
+    "ar": "يؤتمت، يجعله آلياً"
+   },
+   {
+    "w": "loom",
+    "ar": "نول نسيج"
+   },
+   {
+    "w": "routine",
+    "ar": "روتيني"
+   },
+   {
+    "w": "vulnerable",
+    "ar": "عرضة للخطر"
+   },
+   {
+    "w": "reassurance",
+    "ar": "طمأنة"
+   },
+   {
+    "w": "retrain",
+    "ar": "يعيد التدريب"
+   },
+   {
+    "w": "literacy",
+    "ar": "إلمام، معرفة أساسية"
+   },
+   {
+    "w": "consensus",
+    "ar": "إجماع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "The need for new skills and lifelong learning",
+     "Why factories are closing",
+     "The history of mechanical looms",
+     "How to pay lower taxes"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Earlier technologies created new kinds of jobs as well as removing old ones.",
+    "a": "T",
+    "why": "الفقرة 3: أوجدت وظائف جديدة في صناعات جديدة."
+   },
+   {
+    "k": "tfng",
+    "q": "Economists agree on exactly how many jobs are at risk from automation.",
+    "a": "F",
+    "why": "الفقرة 2: تقديراتهم تختلف كثيراً."
+   },
+   {
+    "k": "tfng",
+    "q": "Robots are cheaper than human workers in most factories.",
+    "a": "NG",
+    "why": "لا يتناول النص التكلفة المقارنة."
+   },
+   {
+    "k": "tfng",
+    "q": "Shorter working weeks have already been adopted in many countries.",
+    "a": "NG",
+    "why": "النص يذكرها كمقترح فقط."
+   },
+   {
+    "k": "mc",
+    "q": "Why do estimates of job losses differ?",
+    "o": [
+     "Economists study tasks, not whole occupations.",
+     "Governments hide data.",
+     "Robots are too new.",
+     "Few jobs are routine."
+    ],
+    "a": 0,
+    "why": "الفقرة 2: لأنهم يحللون المهام لا المهن كاملة."
+   },
+   {
+    "k": "mc",
+    "q": "What do many specialists expect in most fields?",
+    "o": [
+     "Total replacement of workers",
+     "Collaboration between people and technology",
+     "Fewer doctors and lawyers",
+     "The end of education"
+    ],
+    "a": 1,
+    "why": "الفقرة 6: تعاون لا إحلال كامل."
+   },
+   {
+    "k": "gap",
+    "q": "A job is more vulnerable when most of its tasks are routine and ___.",
+    "a": [
+     "predictable"
+    ],
+    "why": "الفقرة 2: روتينية ويمكن التنبؤ بها."
+   },
+   {
+    "k": "gap",
+    "q": "Adult training is often ___.",
+    "a": [
+     "underfunded"
+    ],
+    "why": "الفقرة 4: التدريب يعاني من نقص التمويل."
+   },
+   {
+    "k": "mc",
+    "q": "What do some economists suggest to share the gains of automation?",
+    "o": [
+     "Higher taxes on capital",
+     "Banning all machines",
+     "Raising prices",
+     "Stopping education"
+    ],
+    "a": 0,
+    "why": "الفقرة 5: ضرائب أعلى على رأس المال."
+   }
+  ],
+  "sumAr": "يناقش النص أثر الأتمتة والذكاء الاصطناعي في الوظائف، وكيف أن التاريخ يبعث على بعض الطمأنينة. ويؤكد أهمية التعليم المستمر وتوزيع المكاسب، وتوقع تعاون الإنسان والآلة."
+ }
+]

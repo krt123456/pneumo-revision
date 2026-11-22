@@ -1,0 +1,326 @@
+[
+ {
+  "id": "sp1-01",
+  "l": "B1",
+  "topic": "Hometown",
+  "qs": [
+   {
+    "q": "Where is your hometown, and what is it famous for?",
+    "a": "My hometown is Tissemsilt, a quiet city in the highlands of Algeria. It's known for its forests and cool winters.",
+    "tip": "اذكر المكان ثم معلومة مميزة واحدة، ولا تكتف بالاسم."
+   },
+   {
+    "q": "Do you like living in your hometown?",
+    "a": "Yes, mostly. It's peaceful and everyone knows each other, although there are fewer job opportunities than in big cities.",
+    "tip": "أعطِ رأيًا ثم سببًا ثم تحفظًا صغيرًا ليبدو الجواب طبيعيًا."
+   },
+   {
+    "q": "What changes have you seen in your hometown in recent years?",
+    "a": "A lot of new roads and shops have been built. The centre is busier now, and young people use the internet much more.",
+    "tip": "استعمل المضارع التام أو الماضي للحديث عن التغيّر."
+   },
+   {
+    "q": "Would you recommend your hometown to visitors?",
+    "a": "Definitely. They could walk in the nearby woods and try the local food, and the people are very welcoming.",
+    "tip": "يمكنك استعمال could وwould لتقديم اقتراح مهذب."
+   }
+  ]
+ },
+ {
+  "id": "sp1-02",
+  "l": "B1",
+  "topic": "Studies",
+  "qs": [
+   {
+    "q": "What are you studying at the moment?",
+    "a": "I'm doing a master's degree in transparency and anti-corruption. It's quite demanding, but I find it very interesting.",
+    "tip": "لا تذكر اسم التخصص فقط، أضف شعورك تجاهه."
+   },
+   {
+    "q": "Why did you choose this subject?",
+    "a": "I wanted to understand how public institutions can be fairer. I also think it will give me useful skills for research.",
+    "tip": "أجب بـ because أو I wanted to لتعطي سببًا واضحًا."
+   },
+   {
+    "q": "What is the most difficult part of your studies?",
+    "a": "Reading long academic articles in English is the hardest part. I often need to read them twice to understand the main idea.",
+    "tip": "تحدث عن صعوبة حقيقية ثم اذكر كيف تتعامل معها."
+   },
+   {
+    "q": "How do you usually study for exams?",
+    "a": "I make short summaries and test myself with questions. I study in the library because it's quiet and I can concentrate there.",
+    "tip": "اذكر عادتين محددتين لتبدو إجابتك غنية."
+   }
+  ]
+ },
+ {
+  "id": "sp1-03",
+  "l": "B1",
+  "topic": "Work",
+  "qs": [
+   {
+    "q": "What kind of work do you do?",
+    "a": "I work with technical documents for construction projects. I write and organise reports, so accuracy is very important.",
+    "tip": "صف عملك بجملة بسيطة ثم اذكر ما يهم فيه."
+   },
+   {
+    "q": "What do you enjoy most about your job?",
+    "a": "I enjoy solving problems and seeing a project move forward. It's also satisfying when a long document is finally finished.",
+    "tip": "استخدم enjoy مع اسم أو -ing."
+   },
+   {
+    "q": "Is there anything you dislike about your work?",
+    "a": "Sometimes the deadlines are very tight, which can be stressful. However, it teaches me to plan my time carefully.",
+    "tip": "بعد ذكر السلبية أضف However لتنهي بنبرة إيجابية."
+   },
+   {
+    "q": "What job would you like to do in the future?",
+    "a": "I'd like to become a researcher in the field of law and technology. I hope to work at a university abroad one day.",
+    "tip": "استعمل I'd like to وI hope to للحديث عن المستقبل."
+   }
+  ]
+ },
+ {
+  "id": "sp1-04",
+  "l": "B1",
+  "topic": "Family",
+  "qs": [
+   {
+    "q": "Tell me about your family.",
+    "a": "There are six of us in my family: my parents, two brothers and a sister. We're very close and we have dinner together every Friday.",
+    "tip": "اذكر العدد ثم تفصيلًا شخصيًا صغيرًا."
+   },
+   {
+    "q": "Who are you closest to in your family?",
+    "a": "I'm closest to my mother. She always listens to me and gives me good advice when I'm worried.",
+    "tip": "الجملة الثانية تشرح السبب، وهذا ما يريده الممتحن."
+   },
+   {
+    "q": "Do you spend much time with your family?",
+    "a": "Yes, whenever I can. Because of my studies I'm often busy, but we talk on the phone almost every day.",
+    "tip": "whenever I can عبارة مفيدة وطبيعية."
+   },
+   {
+    "q": "Do you think family is important?",
+    "a": "Of course. Family gives you support when things are difficult, and it teaches you values that stay with you for life.",
+    "tip": "اربط الرأي بسبب ومثال عام."
+   }
+  ]
+ },
+ {
+  "id": "sp1-05",
+  "l": "B1",
+  "topic": "Daily routine",
+  "qs": [
+   {
+    "q": "What is your daily routine like?",
+    "a": "I get up at about six, have breakfast and go to the university. In the evening I study for a few hours and then go to bed.",
+    "tip": "استخدم كلمات الترتيب مثل then وafter that."
+   },
+   {
+    "q": "Which part of the day do you like best?",
+    "a": "I like the evening best because it's calm. I can read or study without being interrupted.",
+    "tip": "اذكر وقتًا محددًا وسببه."
+   },
+   {
+    "q": "Do you have the same routine at the weekend?",
+    "a": "Not really. At the weekend I sleep later and meet friends, so my days are much more relaxed.",
+    "tip": "Not really طريقة طبيعية للنفي الخفيف."
+   },
+   {
+    "q": "Would you like to change anything in your routine?",
+    "a": "Yes, I'd like to do some exercise every morning. At the moment I don't have enough time, but I'm trying to plan better.",
+    "tip": "استخدم الشرط أو I'd like to للحديث عن تغيير."
+   }
+  ]
+ },
+ {
+  "id": "sp1-06",
+  "l": "B1",
+  "topic": "Food",
+  "qs": [
+   {
+    "q": "What kinds of food do you like?",
+    "a": "I love traditional Algerian dishes like couscous, but I also enjoy fresh salads and grilled fish.",
+    "tip": "أعط مثالين محددين بدل قول I like everything."
+   },
+   {
+    "q": "Do you prefer eating at home or in restaurants?",
+    "a": "I prefer eating at home because the food is healthier and cheaper. Still, I sometimes go out with friends for a change.",
+    "tip": "prefer مع because ثم Still للتوازن."
+   },
+   {
+    "q": "Can you cook?",
+    "a": "I can cook a few simple dishes, such as rice with vegetables. I'd like to learn more because cooking is a useful skill.",
+    "tip": "اذكر ما تستطيع فعله بدقة بدل نعم أو لا."
+   },
+   {
+    "q": "Has your diet changed in recent years?",
+    "a": "Yes, I eat less sugar than before. I try to have more fruit and drink more water, because I care about my health.",
+    "tip": "استخدم المضارع التام أو المقارنة مثل less than."
+   }
+  ]
+ },
+ {
+  "id": "sp1-07",
+  "l": "B1",
+  "topic": "Weather",
+  "qs": [
+   {
+    "q": "What is the weather like in your region?",
+    "a": "Winters are cold and sometimes snowy, while summers are hot and dry. Spring is the nicest season, in my opinion.",
+    "tip": "while مفيدة للمقارنة بين فصلين."
+   },
+   {
+    "q": "What kind of weather do you like?",
+    "a": "I like mild, sunny weather because I can go out and walk. I don't enjoy very hot days, as they make me tired.",
+    "tip": "اذكر سببًا لما تحبه ولما لا تحبه."
+   },
+   {
+    "q": "Does the weather affect your mood?",
+    "a": "Yes, definitely. When it's grey and rainy, I feel lazy, but sunshine gives me more energy.",
+    "tip": "استعمل when لتصف علاقة السبب بالنتيجة."
+   },
+   {
+    "q": "Has the weather changed where you live?",
+    "a": "I think summers are hotter than they used to be. People also say that there is less rain, which worries farmers.",
+    "tip": "used to تناسب الحديث عن الماضي مقابل الحاضر."
+   }
+  ]
+ },
+ {
+  "id": "sp1-08",
+  "l": "B1",
+  "topic": "Hobbies",
+  "qs": [
+   {
+    "q": "What do you like doing in your free time?",
+    "a": "I like reading and walking in the open air. Recently I've also started learning how to edit videos.",
+    "tip": "اذكر هوايتين، وواحدة منهما حديثة تعطي حيوية."
+   },
+   {
+    "q": "How did you become interested in that hobby?",
+    "a": "A friend showed me some videos, and I wanted to try it myself. After a few weeks, I was hooked.",
+    "tip": "be hooked تعبير عامي مقبول يعني أُغرمت به."
+   },
+   {
+    "q": "Do you prefer hobbies you do alone or with others?",
+    "a": "It depends. Reading is better alone, but I enjoy football much more with friends because it's more fun.",
+    "tip": "It depends تمنحك وقتًا للتفكير وتفتح جوابًا متوازنًا."
+   },
+   {
+    "q": "Is there a hobby you would like to try?",
+    "a": "I'd love to try photography. I think it would help me see ordinary places in a new way.",
+    "tip": "استعمل would للتعبير عن أمنية."
+   }
+  ]
+ },
+ {
+  "id": "sp1-09",
+  "l": "B1",
+  "topic": "Sport",
+  "qs": [
+   {
+    "q": "Do you play any sports?",
+    "a": "I play football once a week with my friends. I'm not very skilled, but it's great exercise and a lot of fun.",
+    "tip": "اعترف بمستواك بصدق، فهذا طبيعي ومقبول."
+   },
+   {
+    "q": "What sports are popular in your country?",
+    "a": "Football is by far the most popular. People of all ages watch matches, and kids play in the streets after school.",
+    "tip": "by far للتأكيد على الأكثر شعبية."
+   },
+   {
+    "q": "Do you think sport is important for young people?",
+    "a": "Yes, because it keeps them healthy and teaches teamwork. It also gives them something positive to do instead of staying on their phones.",
+    "tip": "سببان للإجابة أفضل من سبب واحد."
+   },
+   {
+    "q": "Would you like to try a new sport?",
+    "a": "I'd like to try swimming. It's good for the whole body, and I've never had proper lessons.",
+    "tip": "اذكر سببًا وحقيقة شخصية عن تجربتك السابقة."
+   }
+  ]
+ },
+ {
+  "id": "sp1-10",
+  "l": "B1",
+  "topic": "Reading",
+  "qs": [
+   {
+    "q": "Do you enjoy reading?",
+    "a": "Yes, I read almost every day, mostly articles and non-fiction books. I find it relaxing and it improves my vocabulary.",
+    "tip": "اذكر ما تقرأ ولماذا تقرأ."
+   },
+   {
+    "q": "What kind of books do you like?",
+    "a": "I prefer books about history and science because they explain how the world works. Now and then I read a good novel, too.",
+    "tip": "Now and then تعبير طبيعي بمعنى أحيانًا."
+   },
+   {
+    "q": "Do you prefer paper books or e-books?",
+    "a": "I prefer e-books because I can carry hundreds of them on my phone. However, paper books are better for long, quiet reading.",
+    "tip": "قارن بين الخيارين بوضوح باستعمال However."
+   },
+   {
+    "q": "Did you read a lot when you were a child?",
+    "a": "Not much, to be honest. We didn't have many books at home, but I started reading more when I went to university.",
+    "tip": "to be honest عبارة مفيدة وتجعل الجواب صادقًا."
+   }
+  ]
+ },
+ {
+  "id": "sp1-11",
+  "l": "B1",
+  "topic": "Travel",
+  "qs": [
+   {
+    "q": "Do you like travelling?",
+    "a": "Yes, very much. I enjoy discovering new places and trying different food, but I don't travel as often as I'd like.",
+    "tip": "as often as I'd like مقارنة طبيعية جدًا."
+   },
+   {
+    "q": "What was the best trip you have ever taken?",
+    "a": "I once visited the north coast with my family. The sea was beautiful, and we stayed in a small village for a week.",
+    "tip": "استعمل الماضي البسيط لتروي رحلة محددة."
+   },
+   {
+    "q": "Do you prefer travelling alone or with other people?",
+    "a": "I prefer travelling with friends because it's safer and more fun. On the other hand, travelling alone lets you decide everything yourself.",
+    "tip": "On the other hand لإظهار الوجه الآخر."
+   },
+   {
+    "q": "Which country would you like to visit in the future?",
+    "a": "I'd love to visit Japan. I'm interested in its technology and its culture, and I hear that the cities are very clean.",
+    "tip": "I hear that طريقة لطيفة لنقل معلومة سمعتها."
+   }
+  ]
+ },
+ {
+  "id": "sp1-12",
+  "l": "B1",
+  "topic": "Technology",
+  "qs": [
+   {
+    "q": "What technology do you use every day?",
+    "a": "I use my phone and laptop all day long. I use them for studying, communicating and finding information.",
+    "tip": "اذكر شيئين ثم الغرض من استعمالهما."
+   },
+   {
+    "q": "Has technology made your life easier?",
+    "a": "Yes, in many ways. I can access books and lessons online, so I don't always need to go to the library.",
+    "tip": "in many ways تسمح بذكر مثال بعدها."
+   },
+   {
+    "q": "Is there any technology you find annoying?",
+    "a": "Notifications annoy me a lot. They interrupt my work, so I often turn my phone off when I study.",
+    "tip": "annoy فعل جيد، واذكر الحل الذي تتبعه."
+   },
+   {
+    "q": "How do you think technology will change education?",
+    "a": "I think students will use more artificial intelligence to practise and get feedback. Still, teachers will remain important to guide them.",
+    "tip": "لا بأس بالتوقع باستعمال will مع I think."
+   }
+  ]
+ }
+]

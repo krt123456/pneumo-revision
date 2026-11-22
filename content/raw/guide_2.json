@@ -1,0 +1,386 @@
+[
+ {
+  "id": "gd-ielts-09",
+  "cat": "ielts",
+  "title": "Reading: True / False / Not Given",
+  "titleAr": "Reading: أسئلة True / False / Not Given",
+  "bodyAr": "هذا النوع من الأسئلة يعطيك جملة ويطلب منك أن تقارنها بالنص. هناك ثلاث إجابات فقط. **True**: النص يقول الشيء نفسه بكلمات أخرى. **False**: النص يقول عكسه صراحة. **Not Given**: النص لا يتحدث عن هذه المعلومة أصلاً، فلا يمكنك أن تؤكدها أو تنفيها.\n\nأكثر ما يربك الطلاب هو الفرق بين False وNot Given. القاعدة: لا تستعمل معلوماتك الشخصية أبداً. اسأل نفسك فقط: هل يوجد في النص ما يناقض الجملة؟ إن وجدت التناقض فالجواب False. وإن لم تجد دليلاً لا للموافقة ولا للمخالفة فالجواب Not Given.\n\nمثال: النص يقول إن المكتبة تفتح في التاسعة صباحاً. الجملة: «المكتبة تفتح في الثامنة». هذا False. أما إذا كانت الجملة «المكتبة تفتح كل يوم» والنص لا يذكر الأيام فهذا Not Given.\n\n**انتبه إلى كلمات التحديد** مثل all وsome وusually وonly وalways. تغيير واحد منها قد يحوّل الجملة من True إلى False. وتأكد من أن الأسئلة تتبع ترتيب النص غالباً، فهذا يساعدك على تحديد مكان البحث.\n\nتدرّب بكتابة سطر قصير تحت كل إجابة تشرح فيه السبب، لأن شرح السبب يدرّب عقلك على الدليل.",
+  "keyPoints": [
+   "True: النص يوافق الجملة بكلمات أخرى.",
+   "False: النص يقول عكس الجملة صراحة.",
+   "Not Given: لا يوجد في النص دليل للموافقة أو المخالفة.",
+   "لا تستعمل معلوماتك الشخصية، وانتبه إلى كلمات مثل all وsome وonly."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "The text says: 'The museum opens at nine.' Statement: 'The museum opens at eight.' What is the answer?",
+    "o": [
+     "True",
+     "False",
+     "Not Given"
+    ],
+    "a": 1,
+    "why": "النص يذكر وقتاً مختلفاً، فهناك تناقض صريح، والجواب False."
+   },
+   {
+    "k": "mc",
+    "q": "When is the answer Not Given?",
+    "o": [
+     "The text contradicts the statement",
+     "The text gives no information to confirm or deny it",
+     "The statement is very long"
+    ],
+    "a": 1,
+    "why": "Not Given تعني أن النص لا يتناول هذه المعلومة أصلاً."
+   },
+   {
+    "k": "mc",
+    "q": "Which word can change True into False?",
+    "o": [
+     "the",
+     "always",
+     "and"
+    ],
+    "a": 1,
+    "why": "كلمات التحديد مثل always وonly وall قد تغيّر المعنى كله."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-10",
+  "cat": "ielts",
+  "title": "Reading: matching headings",
+  "titleAr": "Reading: مطابقة العناوين (Matching Headings)",
+  "bodyAr": "في هذا النوع تُعطى قائمة عناوين وعليك أن تضع العنوان المناسب لكل فقرة. القائمة تحتوي عادة عناوين أكثر من الفقرات، فبعضها لن يُستعمل. والهدف اختبار فهمك للفكرة الرئيسية، لا للتفاصيل.\n\n**الخطوة الأولى:** اقرأ العناوين قبل النص وضع خطاً تحت كلمة المفتاح في كل واحد. ثم اقرأ **الجملة الأولى والأخيرة** من كل فقرة، فالفكرة الرئيسية تظهر غالباً هناك. لا تقرأ كل الفقرة قراءة دقيقة في هذه المرحلة.\n\n**الخطوة الثانية:** اسأل: ما الفكرة التي تغطي الفقرة كلها؟ العنوان الصحيح يلخّص الفقرة كاملة، والعنوان الفخ يذكر تفصيلة واحدة فقط أو كلمة مشتركة مع الفقرة. قد تجد في الفقرة كلمة موجودة في العنوان لكن الفكرة مختلفة، فلا تنخدع بتطابق الكلمات.\n\n**الخطوة الثالثة:** ابدأ بالفقرات الأوضح، واحذف العناوين التي استعملتها. ثم عُد إلى الفقرات الصعبة، فالخيارات تقلّ وتصبح أسهل.\n\nانتبه أيضاً إلى أن الفقرة الأولى أحياناً تُعطى مثالاً جاهزاً بإجابتها، فاستفد منه لتفهم أسلوب النص.\n\nوأخيراً لا تتوقف طويلاً عند فقرة واحدة، فكل فقرة تساوي نقطة واحدة فقط.",
+  "keyPoints": [
+   "عناوين أكثر من الفقرات، وبعضها لا يُستعمل.",
+   "اقرأ أول وآخر جملة من كل فقرة لمعرفة فكرتها الرئيسية.",
+   "العنوان الصحيح يغطي الفقرة كلها وليس تفصيلة واحدة.",
+   "لا تنخدع بكلمة مشتركة بين العنوان والفقرة."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "Which part of a paragraph usually shows the main idea?",
+    "o": [
+     "The first and last sentences",
+     "The middle numbers only",
+     "The title of the passage"
+    ],
+    "a": 0,
+    "why": "الفكرة الرئيسية تظهر غالباً في الجملة الأولى أو الأخيرة."
+   },
+   {
+    "k": "mc",
+    "q": "What is a typical heading trap?",
+    "o": [
+     "A heading that summarises the whole paragraph",
+     "A heading that shares a word but covers only a small detail",
+     "A heading with no words"
+    ],
+    "a": 1,
+    "why": "الفخ هو عنوان يشترك في كلمة مع الفقرة لكنه لا يعبّر عن فكرتها كلها."
+   },
+   {
+    "k": "mc",
+    "q": "What should you do with headings you have already used?",
+    "o": [
+     "Use them again",
+     "Cross them out to narrow your choices",
+     "Ignore the remaining paragraphs"
+    ],
+    "a": 1,
+    "why": "شطب العناوين المستعملة يقلل الخيارات ويسهّل الفقرات الصعبة."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-11",
+  "cat": "ielts",
+  "title": "Reading: sentence and summary completion, word limits",
+  "titleAr": "Reading: إكمال الجمل والملخص وحدّ الكلمات",
+  "bodyAr": "في إكمال الجمل (sentence completion) أو الملخص (summary completion) تكتب كلمات من **النص نفسه** في الفراغ. أهم قاعدة هي **حدّ الكلمات** المكتوب في التعليمات، مثل NO MORE THAN TWO WORDS. إن كتبت ثلاث كلمات فالإجابة خاطئة حتى لو كانت صحيحة المعنى. والرقم يُحسب عادة كلمة واحدة.\n\n**الخطوة الأولى:** اقرأ الجملة الناقصة وحدّد نوع الكلمة المطلوبة: اسم؟ فعل؟ صفة؟ رقم؟ نحو الجملة يخبرك بذلك. فإن كان قبل الفراغ the أو a فغالباً المطلوب اسم أو صفة.\n\n**الخطوة الثانية:** ابحث في النص عن الجملة المقابلة، وغالباً بالمرادفات لا بالكلمات نفسها. ثم انسخ الكلمة **كما هي** من النص دون تغيير الشكل أو الجمع.\n\n**الخطوة الثالثة:** اقرأ الجملة بعد وضع الإجابة وتأكد أنها صحيحة نحوياً. إن كانت الجملة تقول «two ___» فالكلمة غالباً جمع.\n\nفي الملخص قد يوجد صندوق كلمات. اختر الكلمة التي تناسب المعنى والنحو معاً، ولا تستعمل الكلمة نفسها مرتين إلا إذا سمحت التعليمات.\n\nوتذكّر أن الإملاء مهم، فانسخ الكلمة بعناية حرفاً حرفاً.",
+  "keyPoints": [
+   "الإجابة كلمات من النص نفسه وليست من عندك.",
+   "التزم بحدّ الكلمات، فالزيادة تجعل الإجابة خاطئة.",
+   "حدّد نوع الكلمة المطلوبة من نحو الجملة.",
+   "انسخ الكلمة كما هي بإملائها الصحيح وتحقّق من قراءة الجملة كاملة."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "The instruction says NO MORE THAN TWO WORDS. Which answer is allowed?",
+    "o": [
+     "a very old bridge",
+     "old bridge",
+     "the very old bridge"
+    ],
+    "a": 1,
+    "why": "كلمتان كحد أقصى، وold bridge تحقق الحد."
+   },
+   {
+    "k": "mc",
+    "q": "Where do the answers in completion questions come from?",
+    "o": [
+     "Your own ideas",
+     "The reading text",
+     "The question paper's title"
+    ],
+    "a": 1,
+    "why": "الكلمات تُنسخ من النص نفسه كما وردت."
+   },
+   {
+    "k": "mc",
+    "q": "The sentence is: 'The city built two ___.' What kind of word fits?",
+    "o": [
+     "A plural noun",
+     "A verb ending in -ing",
+     "An adverb"
+    ],
+    "a": 0,
+    "why": "كلمة two قبل الفراغ تدل على اسم جمع."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-12",
+  "cat": "ielts",
+  "title": "Reading: multiple choice and matching information",
+  "titleAr": "Reading: الاختيار من متعدد ومطابقة المعلومات",
+  "bodyAr": "في **multiple choice** تقرأ سؤالاً ثم تختار من عدة أجوبة. الأسئلة تتبع ترتيب النص غالباً. اقرأ السؤال أولاً وحدّد كلمته الأساسية، ثم اقرأ الجزء المناسب من النص بدقة. ثم قارن كل خيار بالنص: الخيارات الخاطئة غالباً تستعمل كلمات من النص لكنها تغيّر المعنى أو تضيف شيئاً لم يُقَل. الخيار الصحيح عادة يعيد صياغة المعنى بكلمات مختلفة.\n\nنصيحة: احذف الخيارات الخاطئة أولاً. وإن وجدت خيارين متشابهين فاسأل: أيهما يطابق النص كله، وليس جزءاً منه؟\n\nفي **matching information** تُعطى معلومة مثل: «an example of a new technology»، وعليك أن تحدد **أي فقرة** تحتويها. هنا ليس للأسئلة ترتيب النص. وقد تتكرر الفقرة نفسها أكثر من مرة، وبعض الفقرات قد لا تُستعمل. الطريقة: اقرأ النص أولاً وسجّل بجانب كل فقرة ما فيها في كلمتين. ثم ابحث عن المرادفات للمعلومة المطلوبة.\n\nلا تضيّع أكثر من دقيقة على معلومة واحدة. وإن تعذّرت فانتقل وعُد إليها.\n\nفالتدريب على المرادفات في كل مرة يرفع سرعتك أكثر من أي حيلة أخرى.",
+  "keyPoints": [
+   "في multiple choice الأسئلة تتبع ترتيب النص غالباً.",
+   "الخيارات الخاطئة تستعمل كلمات النص لكنها تغيّر المعنى.",
+   "في matching information حدّد الفقرة التي تحتوي المعلومة، وقد تتكرر الفقرة.",
+   "سجّل لكل فقرة فكرتها في كلمتين، وابحث عن المرادفات."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "Why are wrong options often tricky in multiple choice?",
+    "o": [
+     "They use words from the text but change the meaning",
+     "They are always very short",
+     "They never appear in the text"
+    ],
+    "a": 0,
+    "why": "الخيارات الخاطئة تستعمل كلمات النص لتضلّلك لكن معناها مختلف."
+   },
+   {
+    "k": "mc",
+    "q": "In matching information, can one paragraph be the answer twice?",
+    "o": [
+     "Never",
+     "Sometimes, if the instructions allow it",
+     "Only in Listening"
+    ],
+    "a": 1,
+    "why": "في هذا النوع قد تتكرر الفقرة نفسها، فاقرأ التعليمات."
+   },
+   {
+    "k": "mc",
+    "q": "What is the best first step for a multiple choice question?",
+    "o": [
+     "Choose the longest option",
+     "Underline the key word in the question",
+     "Read the options only"
+    ],
+    "a": 1,
+    "why": "الكلمة الأساسية في السؤال تقودك إلى الجزء المناسب من النص."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-13",
+  "cat": "ielts",
+  "title": "Writing Task 1: structure and the overview",
+  "titleAr": "Writing Task 1: البنية والـ Overview",
+  "bodyAr": "في Task 1 تصف رسماً بيانياً أو جدولاً أو خريطة أو عملية في نحو 150 كلمة على الأقل، ومدة الكتابة المقترحة نحو 20 دقيقة. المطلوب **وصف لا رأي**: لا تكتب «أعتقد» ولا تفسّر الأسباب من عندك.\n\nالبنية المقترحة أربع فقرات:\n1) **Introduction**: أعد صياغة عنوان الرسم بكلماتك. استعمل مرادفات مثل: shows → illustrates، the percentage → the proportion.\n2) **Overview**: جملتان تلخصان أبرز الاتجاهات أو أكبر الفروق، دون أرقام تفصيلية. وهذه أهم فقرة، وغيابها يخفض درجتك.\n3) و4) **Details**: فقرتان تدعمان الـ overview بأرقام مختارة ومقارنات.\n\n**ما معنى الاختيار؟** لا تذكر كل رقم. اختر أبرز الأرقام: أعلى قيمة وأدنى قيمة وأكبر تغيّر وأي تقاطع أو استثناء.\n\nمثال على overview: «Overall, online sales rose steadily, while sales in shops fell.» جملة واحدة، فيها أهم اتجاهين.\n\nتجنّب النسخ الحرفي من الرسم، وراجع الوحدات والسنوات. واحرص على أن تكتب الفقرات بأزمنة مناسبة: الماضي للتواريخ الماضية، والمستقبل للتوقعات.\n\nتدرّب على كتابة Overview وحدها لعشرة رسوم مختلفة، فهذه العادة ترفع جودة التقرير كله.",
+  "keyPoints": [
+   "Task 1 وصف موضوعي بنحو 150 كلمة على الأقل، دون آراء.",
+   "الأساس: Introduction ثم Overview ثم فقرتا تفاصيل.",
+   "الـ Overview يلخّص الاتجاهات الكبرى دون أرقام كثيرة، وغيابه يضرّ بالدرجة.",
+   "اختر أبرز الأرقام ولا تنقل كل شيء."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What is the purpose of the overview in Task 1?",
+    "o": [
+     "To give your opinion",
+     "To summarise the main trends or differences",
+     "To list every number"
+    ],
+    "a": 1,
+    "why": "الـ overview يلخّص أبرز الاتجاهات أو الفروق دون تفاصيل كثيرة."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is a good overview?",
+    "o": [
+     "Overall, online sales rose steadily, while sales in shops fell.",
+     "I think online shopping is very good for everyone.",
+     "In 2010 sales were 20 and in 2011 they were 22."
+    ],
+    "a": 0,
+    "why": "الجملة الأولى تلخّص اتجاهين كبيرين دون رأي ودون أرقام كثيرة."
+   },
+   {
+    "k": "mc",
+    "q": "How should you write the introduction?",
+    "o": [
+     "Copy the title exactly",
+     "Paraphrase the title in your own words",
+     "Skip it"
+    ],
+    "a": 1,
+    "why": "أعد صياغة العنوان بمرادفات بدل نسخه حرفاً."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-14",
+  "cat": "ielts",
+  "title": "Writing Task 1: the language of trends and comparison",
+  "titleAr": "Writing Task 1: لغة الاتجاهات والمقارنة",
+  "bodyAr": "وصف الاتجاهات يحتاج مفردات دقيقة وتنوّعاً في التراكيب. للصعود: rise وincrease وgrow وclimb. للنزول: fall وdecline وdrop وdecrease. للثبات: remain stable وstay constant وlevel off. ولا تكرّر الفعل نفسه في كل جملة.\n\n**الصفات والظروف** تصف السرعة: a sharp rise (ارتفاع حاد) وa gradual decline (انخفاض تدريجي) وa slight fall (انخفاض طفيف) وrose steadily (ارتفع بثبات). وتأتي الأرقام مع حروف جر: rose **from** 20% **to** 35% وincreased **by** 15% وreached a peak **of** 50%.\n\n**في المقارنة** استعمل: higher than وlower than وthe highest وwhereas وwhile وin contrast وsimilarly. مثال: «Country A had the highest rate, whereas Country B had the lowest.»\n\n**الأزمنة:** إذا كانت السنوات ماضية فاستعمل الماضي البسيط. وإن كان الرسم عن المستقبل فاستعمل will وis expected to.\n\nتجنّب الأخطاء الشائعة: ارتفع «بـ» كذا (by) وليس «في» كذا، وارتفع «إلى» كذا (to). وراجع صحة الأرقام.\n\nجرّب كتابة خمس جمل عن بيانات اخترعتها بخمسة أفعال مختلفة، فهذه طريقة سهلة لتتحرر من التكرار.",
+  "keyPoints": [
+   "نوّع أفعال الصعود والنزول والثبات ولا تكرّر فعلاً واحداً.",
+   "استعمل صفات وظروفاً لوصف السرعة مثل sharp وgradual وsteadily.",
+   "حروف الجر مهمة: from ... to وby وof.",
+   "للمقارنة: higher than وwhereas وin contrast، وللماضي استعمل الماضي البسيط."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "Which preposition completes: 'Sales rose ___ 20% to 35%.'?",
+    "o": [
+     "by",
+     "from",
+     "at"
+    ],
+    "a": 1,
+    "why": "نقول rose from ... to ... للتعبير عن بداية الارتفاع ونهايته."
+   },
+   {
+    "k": "mc",
+    "q": "Which phrase means a small decrease?",
+    "o": [
+     "a sharp fall",
+     "a slight fall",
+     "a steady rise"
+    ],
+    "a": 1,
+    "why": "slight تعني طفيف، وهي تصف انخفاضاً صغيراً."
+   },
+   {
+    "k": "mc",
+    "q": "The data are from 2005 to 2015. Which tense do you normally use?",
+    "o": [
+     "Past simple",
+     "Future simple",
+     "Present continuous"
+    ],
+    "a": 0,
+    "why": "السنوات ماضية فنستعمل الماضي البسيط."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-15",
+  "cat": "ielts",
+  "title": "Writing Task 2: essay types and structure",
+  "titleAr": "Writing Task 2: أنواع المقال وبنيته",
+  "bodyAr": "Task 2 مقال من 250 كلمة على الأقل، والمدة المقترحة نحو 40 دقيقة، وهو يحمل وزناً أكبر من Task 1 في الكتابة. يجب أن تجيب عن **السؤال المطروح بالضبط**، فأول ما يُقيَّم هو هل أجبت عمّا سُئلت.\n\nمن أنواع الأسئلة الشائعة: **Opinion** (إلى أي حد توافق؟) و**Discussion** (ناقش الرأيين) و**Problem and Solution** و**Advantages and Disadvantages** و**Two-part question** (سؤالان في موضوع واحد). اقرأ السؤال مرتين وضع خطاً تحت كلماته المفتاحية ونوع المطلوب.\n\n**البنية العامة** أربع فقرات:\n1) مقدمة: أعد صياغة الموضوع ثم اكتب **thesis**، أي موقفك أو خطة مقالك في جملة.\n2) فقرة أولى فيها فكرة رئيسية، ثم شرح، ثم مثال.\n3) فقرة ثانية بالطريقة نفسها.\n4) خاتمة قصيرة تلخّص موقفك دون أفكار جديدة.\n\n**خطّط خمس دقائق** قبل الكتابة: اكتب فكرتين رئيسيتين وأمثلة لكل واحدة. هذا يمنعك من التشتت ويوفّر الوقت. وراجع في الدقائق الأخيرة الأخطاء الصغيرة.\n\nالنصيحة الأهم: موقف واضح وأفكار قليلة مشروحة جيداً أفضل من أفكار كثيرة مبتورة. وتذكّر أن الأمثلة الشخصية الصادقة المختصرة مقبولة، فلا تخترع أمثلة معقدة.",
+  "keyPoints": [
+   "Task 2 مقال من 250 كلمة على الأقل، ومدته المقترحة 40 دقيقة.",
+   "حدّد نوع السؤال وأجب عن المطلوب بالضبط.",
+   "البنية: مقدمة فيها موقف، فقرتان للأفكار، وخاتمة قصيرة.",
+   "خطّط خمس دقائق، وفكرتان مشروحتان خير من أفكار كثيرة ناقصة."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What should the introduction of an essay include?",
+    "o": [
+     "A paraphrase of the topic and your position",
+     "A long story",
+     "Only the conclusion"
+    ],
+    "a": 0,
+    "why": "المقدمة تعيد صياغة الموضوع وتذكر موقفك أو خطة المقال."
+   },
+   {
+    "k": "mc",
+    "q": "Which is a Task 2 essay type?",
+    "o": [
+     "Map labelling",
+     "Problem and solution",
+     "Form completion"
+    ],
+    "a": 1,
+    "why": "Problem and solution نوع من أسئلة المقال، والباقي من Listening وWriting Task 1."
+   },
+   {
+    "k": "mc",
+    "q": "What does an essay paragraph need most?",
+    "o": [
+     "Many ideas without explanation",
+     "One main idea, an explanation and an example",
+     "One very long sentence"
+    ],
+    "a": 1,
+    "why": "الفقرة الجيدة فيها فكرة رئيسية مع شرح ومثال."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-16",
+  "cat": "ielts",
+  "title": "Writing Task 2: building a paragraph and coherence",
+  "titleAr": "Writing Task 2: بناء الفقرة والترابط",
+  "bodyAr": "الفقرة الجيدة في Task 2 تشبه سلماً صغيراً: **Topic sentence** ثم **Explanation** ثم **Example** ثم **Link**. الجملة الأولى تعلن الفكرة، والثانية تشرح لماذا هي صحيحة، والثالثة تعطي مثالاً واقعياً، والأخيرة تربط الفكرة بسؤال المقال.\n\nمثال مختصر: «Public libraries help students from poor families. They provide free books and quiet places to study. For instance, a student without internet at home can use the library computers to finish research. As a result, libraries support equal opportunities in education.» لاحظ أن كل جملة تبني على التي قبلها.\n\n**Coherence** يعني أن القارئ يتابع أفكارك بسهولة: كل فقرة لها فكرة واحدة، والانتقال بينها واضح. و**Cohesion** هو الوسائل اللغوية التي تربط الجمل: كلمات الربط (however وtherefore وfor example) والضمائر (this وthese وthey) وتكرار الفكرة بمرادف.\n\n**تحذير:** لا تحشر كلمات الربط في كل جملة. الاستعمال الآلي لـ firstly وsecondly وmoreover في كل مكان يضعف الكتابة. استعمل رابطاً حين تحتاج فعلاً إلى نقل المعنى.\n\nوبعد الكتابة اقرأ مقالك وأنت تسأل: هل تتبع الفكرة الواحدة الأخرى بسلاسة؟ إن لم يكن، أعد ترتيب الجمل.",
+  "keyPoints": [
+   "الفقرة: Topic sentence ثم شرح ثم مثال ثم ربط بالسؤال.",
+   "Coherence: وضوح تسلسل الأفكار وفكرة واحدة لكل فقرة.",
+   "Cohesion: روابط وضمائر ومرادفات تصل الجمل ببعضها.",
+   "لا تُكثر من كلمات الربط بشكل آلي."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What does a topic sentence do?",
+    "o": [
+     "States the main idea of the paragraph",
+     "Gives the last example",
+     "Repeats the question"
+    ],
+    "a": 0,
+    "why": "جملة الفكرة الرئيسية تعلن موضوع الفقرة في أولها."
+   },
+   {
+    "k": "mc",
+    "q": "Which is a linking word showing contrast?",
+    "o": [
+     "therefore",
+     "however",
+     "for example"
+    ],
+    "a": 1,
+    "why": "however تفيد التضاد، وtherefore تفيد النتيجة، وfor example المثال."
+   },
+   {
+    "k": "mc",
+    "q": "Why avoid using linking words mechanically in every sentence?",
+    "o": [
+     "They are forbidden",
+     "It makes the writing weaker and unnatural",
+     "The examiner never reads them"
+    ],
+    "a": 1,
+    "why": "الربط يجب أن يخدم المعنى، لا أن يُحشر في كل جملة."
+   }
+  ]
+ }
+]

@@ -1,0 +1,945 @@
+[
+{
+"w": "absorb",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يمتص، يستوعب",
+"d": "to take in a liquid, or to take in information and hold it",
+"ex": "The sponge absorbed all the spilled water in a few seconds.",
+"x": "absorbed",
+"c": [
+"absorb information"
+],
+"f": [
+"absorbent",
+"absorption"
+]
+},
+{
+"w": "acknowledge",
+"p": "v",
+"l": "B2",
+"t": "communication",
+"ar": "يعترف بـ، يقرّ بـ",
+"d": "to accept or admit that something is true or that it exists",
+"ex": "The company acknowledged its mistake and promised to repay everyone.",
+"x": "acknowledged",
+"f": [
+"acknowledgement"
+]
+},
+{
+"w": "administer",
+"p": "v",
+"l": "B2",
+"t": "government",
+"ar": "يدير، يشرف على",
+"d": "to manage or control the running of an organisation or service",
+"ex": "The local council administers the schools and parks in our district.",
+"x": "administers",
+"f": [
+"administration",
+"administrator"
+]
+},
+{
+"w": "barren",
+"p": "adj",
+"l": "B2",
+"t": "nature",
+"ar": "قاحل، عقيم",
+"d": "with very few plants or crops, so the land is empty and bare",
+"ex": "Camels can survive for days in the barren desert with little water.",
+"x": "barren"
+},
+{
+"w": "blunt",
+"p": "adj",
+"l": "B2",
+"t": "communication",
+"ar": "صريح، فظّ",
+"d": "direct and honest, sometimes in a way that hurts people",
+"ex": "Her blunt reply surprised everyone, but it was also very honest.",
+"x": "blunt",
+"f": [
+"bluntly",
+"bluntness"
+]
+},
+{
+"w": "bounty",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "وفرة، عطاء وفير",
+"d": "a large amount of something good, such as food or gifts",
+"ex": "The farm produced a bounty of apples, pears and plums that autumn.",
+"x": "bounty"
+},
+{
+"w": "canvas",
+"p": "n",
+"l": "B2",
+"t": "arts",
+"ar": "قماش، لوحة زيتية",
+"d": "strong cloth used for painting pictures, or for making tents and bags",
+"ex": "The painter spent three weeks on a large canvas of the harbour.",
+"x": "canvas"
+},
+{
+"w": "conserve",
+"p": "v",
+"l": "B2",
+"t": "environment",
+"ar": "يحافظ على، يصون",
+"d": "to protect something from being damaged, wasted or lost",
+"ex": "Farmers must conserve water, because the rivers are becoming very low.",
+"x": "conserve",
+"f": [
+"conservation",
+"conservative"
+]
+},
+{
+"w": "criticise",
+"p": "v",
+"l": "B2",
+"t": "communication",
+"ar": "ينتقد",
+"d": "to say that something is bad, wrong or not good enough",
+"ex": "Several readers criticised the author for ignoring the evidence.",
+"x": "criticised",
+"f": [
+"criticism",
+"critical"
+]
+},
+{
+"w": "customary",
+"p": "adj",
+"l": "B2",
+"t": "society",
+"ar": "معتاد، متعارف عليه",
+"d": "usual, or accepted as normal in a particular society",
+"ex": "It is customary to bring a small gift when visiting a family's home.",
+"x": "customary"
+},
+{
+"w": "absurd",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "سخيف، غير منطقي",
+"d": "very silly or completely unreasonable",
+"ex": "It seemed absurd to pay fifty pounds for a single cup of coffee.",
+"x": "absurd",
+"f": [
+"absurdly",
+"absurdity"
+]
+},
+{
+"w": "accent",
+"p": "n",
+"l": "B2",
+"t": "communication",
+"ar": "لهجة، نبرة",
+"d": "the way people pronounce words, which shows where they come from",
+"ex": "She speaks English with a soft French accent that I find charming.",
+"x": "accent"
+},
+{
+"w": "acquaintance",
+"p": "n",
+"l": "B2",
+"t": "people",
+"ar": "معرفة عابرة، معرفة",
+"d": "a person you know a little, but not as a close friend",
+"ex": "He is just an acquaintance from work, not a close friend.",
+"x": "acquaintance",
+"c": [
+"old acquaintance"
+]
+},
+{
+"w": "adorable",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "محبوب، لطيف جدا",
+"d": "very cute or lovable, in a way that makes people smile",
+"ex": "The puppy had big brown eyes and was absolutely adorable.",
+"x": "adorable",
+"f": [
+"adore",
+"adoration"
+]
+},
+{
+"w": "alter",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يغيّر، يعدّل",
+"d": "to change something so that it becomes different",
+"ex": "The tailor altered the jacket so that it fitted my shoulders.",
+"x": "altered",
+"f": [
+"alteration"
+]
+},
+{
+"w": "amusing",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مسلٍّ، مضحك",
+"d": "funny or entertaining, and making you smile or laugh",
+"ex": "The teacher told an amusing story about his first day at school.",
+"x": "amusing",
+"f": [
+"amuse",
+"amusement"
+]
+},
+{
+"w": "ancestor",
+"p": "n",
+"l": "B2",
+"t": "people",
+"ar": "سلف، جد من الأجداد",
+"d": "a person from your family who lived a long time ago",
+"ex": "Our ancestors lived in this village more than four hundred years ago.",
+"x": "ancestors",
+"f": [
+"ancestry"
+]
+},
+{
+"w": "apology",
+"p": "n",
+"l": "B2",
+"t": "communication",
+"ar": "اعتذار",
+"d": "a statement saying that you are sorry for doing something wrong",
+"ex": "He sent a short apology after he missed the important meeting.",
+"x": "apology",
+"c": [
+"offer an apology",
+"a sincere apology"
+],
+"f": [
+"apologise",
+"apologetic"
+]
+},
+{
+"w": "appetite",
+"p": "n",
+"l": "B2",
+"t": "food",
+"ar": "شهية، رغبة في الأكل",
+"d": "the desire to eat food, or a strong wish for something",
+"ex": "The long walk in the mountains gave the children a huge appetite.",
+"x": "appetite",
+"c": [
+"lose your appetite"
+]
+},
+{
+"w": "applaud",
+"p": "v",
+"l": "B2",
+"t": "arts",
+"ar": "يصفّق، يثني على",
+"d": "to clap your hands to show that you admire something",
+"ex": "The audience applauded the dancers for several minutes after the show.",
+"x": "applauded",
+"f": [
+"applause"
+]
+},
+{
+"w": "appliance",
+"p": "n",
+"l": "B2",
+"t": "home",
+"ar": "جهاز منزلي كهربائي",
+"d": "a machine used in the home for a particular task, such as washing",
+"ex": "The new kitchen appliances use much less electricity than the old ones.",
+"x": "appliances"
+},
+{
+"w": "arena",
+"p": "n",
+"l": "B2",
+"t": "sport",
+"ar": "ساحة، حلبة",
+"d": "a large building or open area where sports or shows take place",
+"ex": "Thousands of fans filled the arena to watch the final match.",
+"x": "arena"
+},
+{
+"w": "arrogant",
+"p": "adj",
+"l": "B2",
+"t": "people",
+"ar": "متعجرف، مغرور",
+"d": "behaving as if you are more important or clever than others",
+"ex": "The arrogant manager never listened to the ideas of his team.",
+"x": "arrogant",
+"f": [
+"arrogance"
+]
+},
+{
+"w": "ascend",
+"p": "v",
+"l": "B2",
+"t": "movement",
+"ar": "يصعد، يرتقي",
+"d": "to go up or climb to a higher place",
+"ex": "The climbers slowly ascended the steep path towards the summit.",
+"x": "ascended",
+"f": [
+"ascent"
+]
+},
+{
+"w": "astonish",
+"p": "v",
+"l": "B2",
+"t": "feelings",
+"ar": "يُدهش، يُذهل",
+"d": "to surprise someone so much that they cannot believe it",
+"ex": "Her quick answer astonished the examiners, who had expected a long pause.",
+"x": "astonished",
+"f": [
+"astonishment",
+"astonishing"
+]
+},
+{
+"w": "attentive",
+"p": "adj",
+"l": "B2",
+"t": "communication",
+"ar": "منتبه، مهتم بالآخرين",
+"d": "paying careful attention to someone or something",
+"ex": "The hotel staff were very attentive and helped us with every request.",
+"x": "attentive",
+"f": [
+"attention"
+]
+},
+{
+"w": "attic",
+"p": "n",
+"l": "B2",
+"t": "home",
+"ar": "علّية، غرفة تحت السقف",
+"d": "a room or space just under the roof of a house",
+"ex": "We found some old photographs in a box in the attic.",
+"x": "attic"
+},
+{
+"w": "awkward",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "محرج، صعب، غير مريح",
+"d": "difficult to deal with, or making people feel uncomfortable",
+"ex": "There was an awkward silence after he asked her about her salary.",
+"x": "awkward",
+"f": [
+"awkwardly",
+"awkwardness"
+]
+},
+{
+"w": "baggage",
+"p": "n",
+"l": "B2",
+"t": "travel",
+"ar": "أمتعة، حقائب السفر",
+"d": "the bags and cases that a traveller carries on a journey",
+"ex": "The airline lost two of our bags, so our baggage arrived a day late.",
+"x": "baggage",
+"c": [
+"hand baggage",
+"excess baggage"
+]
+},
+{
+"w": "beloved",
+"p": "adj",
+"l": "B2",
+"t": "people",
+"ar": "محبوب، عزيز جدا",
+"d": "loved very much by someone, often a special person",
+"ex": "The writer's beloved grandfather taught him to read and write.",
+"x": "beloved"
+},
+{
+"w": "bizarre",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "غريب، شاذ",
+"d": "very strange and unusual, often in a surprising way",
+"ex": "We heard a bizarre noise coming from the basement last night.",
+"x": "bizarre"
+},
+{
+"w": "bland",
+"p": "adj",
+"l": "B2",
+"t": "food",
+"ar": "باهت، بلا نكهة",
+"d": "having little flavour or excitement, so it is not interesting",
+"ex": "The hospital food was bland, so I added salt and pepper.",
+"x": "bland"
+},
+{
+"w": "blossom",
+"p": "n",
+"l": "B2",
+"t": "nature",
+"ar": "زهرة، إزهار",
+"d": "a flower or group of flowers, especially on a fruit tree",
+"ex": "The almond trees were covered in pink blossom in early spring.",
+"x": "blossom"
+},
+{
+"w": "bruise",
+"p": "n",
+"l": "B2",
+"t": "body",
+"ar": "كدمة، رضّة",
+"d": "a dark mark on the skin after being hit or falling",
+"ex": "He had a large bruise on his knee after falling off his bike.",
+"x": "bruise"
+},
+{
+"w": "cargo",
+"p": "n",
+"l": "B2",
+"t": "transport",
+"ar": "شحنة، بضاعة",
+"d": "goods carried by a ship, plane or lorry",
+"ex": "The ship carried a cargo of rice, oil and building materials.",
+"x": "cargo",
+"c": [
+"cargo ship",
+"cargo plane"
+]
+},
+{
+"w": "ceremony",
+"p": "n",
+"l": "B2",
+"t": "society",
+"ar": "حفل رسمي، مراسم",
+"d": "a formal event held to mark an important occasion",
+"ex": "The university held a graduation ceremony in the main hall.",
+"x": "ceremony",
+"f": [
+"ceremonial"
+]
+},
+{
+"w": "charm",
+"p": "n",
+"l": "B2",
+"t": "feelings",
+"ar": "سحر، جاذبية",
+"d": "a pleasant quality that attracts people and makes them like you",
+"ex": "The small village had a quiet charm that attracted many tourists.",
+"x": "charm",
+"c": [
+"quiet charm",
+"natural charm"
+],
+"f": [
+"charming",
+"charmingly"
+]
+},
+{
+"w": "cheerful",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مرح، بشوش",
+"d": "happy and positive, and showing it in your behaviour",
+"ex": "The cheerful waiter greeted every customer with a warm smile.",
+"x": "cheerful",
+"f": [
+"cheerfully"
+]
+},
+{
+"w": "clumsy",
+"p": "adj",
+"l": "B2",
+"t": "body",
+"ar": "أخرق، غير رشيق",
+"d": "moving or doing things in a careless, awkward way",
+"ex": "He is clumsy and often drops plates when he washes up.",
+"x": "clumsy",
+"f": [
+"clumsiness"
+]
+},
+{
+"w": "coarse",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "خشن، فظّ",
+"d": "rough in texture, or rude and not polite in manner",
+"ex": "The farmer wore a coarse wool jacket that protected him from the wind.",
+"x": "coarse"
+},
+{
+"w": "colossal",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "ضخم جدا، هائل",
+"d": "extremely large, huge, or very impressive in size",
+"ex": "The city built a colossal statue at the entrance of the harbour.",
+"x": "colossal"
+},
+{
+"w": "comedy",
+"p": "n",
+"l": "B2",
+"t": "arts",
+"ar": "كوميديا، مسرحية هزلية",
+"d": "a film, show or play that is meant to make people laugh",
+"ex": "We watched a comedy on television and laughed until midnight.",
+"x": "comedy",
+"f": [
+"comedian",
+"comic"
+]
+},
+{
+"w": "commander",
+"p": "n",
+"l": "B2",
+"t": "society",
+"ar": "قائد، آمر",
+"d": "a person who has power and gives orders to a group of people",
+"ex": "The commander of the fire brigade thanked the volunteers for their courage.",
+"x": "commander",
+"f": [
+"command",
+"commanding"
+]
+},
+{
+"w": "companion",
+"p": "n",
+"l": "B2",
+"t": "people",
+"ar": "رفيق، صاحب",
+"d": "a person you spend time with, especially on a journey",
+"ex": "My old dog is a loyal companion on my long walks.",
+"x": "companion",
+"f": [
+"companionship"
+]
+},
+{
+"w": "chimney",
+"p": "n",
+"l": "B2",
+"t": "home",
+"ar": "مدخنة",
+"d": "a tall pipe that carries smoke from a fire up and out of a building",
+"ex": "Thick grey smoke rose from the chimney of the old factory.",
+"x": "chimney"
+},
+{
+"w": "comprehend",
+"p": "v",
+"l": "B2",
+"t": "mind",
+"ar": "يستوعب، يدرك",
+"d": "to understand something completely, especially something difficult",
+"ex": "It took me a long time to comprehend the meaning of the legal text.",
+"x": "comprehend",
+"f": [
+"comprehension",
+"comprehensive"
+]
+},
+{
+"w": "conceited",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مغرور، معجب بنفسه",
+"d": "too proud of yourself and your abilities, in a way that annoys others",
+"ex": "The conceited player kept talking about his goals instead of his team.",
+"x": "conceited"
+},
+{
+"w": "considerate",
+"p": "adj",
+"l": "B2",
+"t": "communication",
+"ar": "مراعٍ للآخرين، متفهم",
+"d": "careful not to upset or inconvenience other people",
+"ex": "It was considerate of you to turn down the music late at night.",
+"x": "considerate",
+"f": [
+"consideration"
+]
+},
+{
+"w": "console",
+"p": "v",
+"l": "B2",
+"t": "feelings",
+"ar": "يواسي، يعزّي",
+"d": "to comfort someone who is sad or disappointed",
+"ex": "My friend tried to console me after I lost the race.",
+"x": "console",
+"f": [
+"consolation"
+]
+},
+{
+"w": "contagious",
+"p": "adj",
+"l": "B2",
+"t": "health",
+"ar": "معدٍ، ينتقل بالعدوى",
+"d": "able to spread from one person to another, usually by touch",
+"ex": "Doctors warned that the virus was highly contagious among young children.",
+"x": "contagious",
+"f": [
+"contagion"
+]
+},
+{
+"w": "crater",
+"p": "n",
+"l": "B2",
+"t": "nature",
+"ar": "فوهة، حفرة كبيرة",
+"d": "a large round hole in the ground, made by an explosion or impact",
+"ex": "After the meteor hit the desert, it left a deep crater.",
+"x": "crater"
+},
+{
+"w": "crisp",
+"p": "adj",
+"l": "B2",
+"t": "food",
+"ar": "مقرمش، منعش",
+"d": "firm, dry and easy to break, usually describing food or air",
+"ex": "The bread was crisp on the outside and soft on the inside.",
+"x": "crisp",
+"f": [
+"crispy",
+"crisply"
+]
+},
+{
+"w": "cunning",
+"p": "adj",
+"l": "B2",
+"t": "misc",
+"ar": "ماكر، داهية",
+"d": "clever at getting what you want, often in a dishonest way",
+"ex": "The cunning fox hid the chicken and waited until nobody was watching.",
+"x": "cunning",
+"f": [
+"cunningly"
+]
+},
+{
+"w": "accomplish",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "ينجز، يحقق",
+"d": "to finish something successfully, after effort or hard work",
+"ex": "With careful planning, the team accomplished the project in only six months.",
+"x": "accomplished",
+"f": [
+"accomplishment"
+]
+},
+{
+"w": "accustomed",
+"p": "adj",
+"l": "B2",
+"t": "misc",
+"ar": "معتاد، متعوّد",
+"d": "used to a situation, because it happens often",
+"ex": "She was accustomed to waking up early because of her morning job.",
+"x": "accustomed",
+"c": [
+"accustomed to"
+]
+},
+{
+"w": "alarming",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مُقلق، مُفزع",
+"d": "making you feel worried or afraid, because something is dangerous",
+"ex": "The number of accidents on the road is alarming and must be reduced.",
+"x": "alarming",
+"f": [
+"alarm",
+"alarmed"
+]
+},
+{
+"w": "ally",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "حليف، مؤيّد",
+"d": "a person, group or country that helps and supports another one",
+"ex": "The two countries became close allies after signing the trade agreement.",
+"x": "allies",
+"f": [
+"alliance",
+"allied"
+]
+},
+{
+"w": "anchor",
+"p": "n",
+"l": "B2",
+"t": "transport",
+"ar": "مرساة، مرتكز",
+"d": "a heavy object that holds a ship in place when it is in the water",
+"ex": "The sailors lowered the anchor and waited for the storm to pass.",
+"x": "anchor",
+"c": [
+"drop anchor",
+"weigh anchor"
+]
+},
+{
+"w": "approximate",
+"p": "adj",
+"l": "B2",
+"t": "quantity",
+"ar": "تقريبي",
+"d": "close to the correct number or amount, but not exact",
+"ex": "The approximate cost of the trip is around three hundred dollars.",
+"x": "approximate",
+"f": [
+"approximately",
+"approximation"
+]
+},
+{
+"w": "assemble",
+"p": "v",
+"l": "B2",
+"t": "work",
+"ar": "يجمّع، يحشد",
+"d": "to put parts together to make something, or to gather people",
+"ex": "Volunteers assembled the tables and chairs before the conference began.",
+"x": "assembled",
+"f": [
+"assembly"
+]
+},
+{
+"w": "atmosphere",
+"p": "n",
+"l": "B2",
+"t": "nature",
+"ar": "جو، أجواء",
+"d": "the air around the Earth, or the mood of a particular place",
+"ex": "The warm atmosphere in the café made everyone feel relaxed.",
+"x": "atmosphere",
+"f": [
+"atmospheric"
+]
+},
+{
+"w": "attain",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يحقق، يبلغ",
+"d": "to succeed in reaching a goal, or to reach a particular level",
+"ex": "She worked hard for years to attain her goal of becoming a judge.",
+"x": "attain",
+"f": [
+"attainment",
+"attainable"
+]
+},
+{
+"w": "casualty",
+"p": "n",
+"l": "B2",
+"t": "health",
+"ar": "ضحية، جريح، خسارة بشرية",
+"d": "a person who is killed or injured in an accident or a war",
+"ex": "The accident caused no casualties, although three cars were destroyed.",
+"x": "casualties"
+},
+{
+"w": "cemetery",
+"p": "n",
+"l": "B2",
+"t": "society",
+"ar": "مقبرة",
+"d": "a place where dead people are buried",
+"ex": "We visited the old cemetery on the hill to honour my grandparents.",
+"x": "cemetery"
+},
+{
+"w": "circuit",
+"p": "n",
+"l": "B2",
+"t": "science",
+"ar": "دائرة كهربائية، مسار",
+"d": "a closed path that electricity flows around, or a regular route",
+"ex": "The electrician found a broken wire in the circuit behind the fridge.",
+"x": "circuit",
+"f": [
+"circuitry"
+]
+},
+{
+"w": "clinic",
+"p": "n",
+"l": "B2",
+"t": "health",
+"ar": "عيادة",
+"d": "a place where people go for medical treatment or advice",
+"ex": "The village clinic opens every morning except on Friday.",
+"x": "clinic",
+"f": [
+"clinical",
+"clinician"
+]
+},
+{
+"w": "colonial",
+"p": "adj",
+"l": "B2",
+"t": "society",
+"ar": "استعماري",
+"d": "connected with a country that controls a foreign territory",
+"ex": "The old colonial buildings in the city are now used as offices.",
+"x": "colonial",
+"f": [
+"colony"
+]
+},
+{
+"w": "commerce",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "تجارة",
+"d": "the buying and selling of goods and services between people or countries",
+"ex": "Electronic commerce has grown quickly during the last ten years.",
+"x": "commerce",
+"f": [
+"commercial"
+]
+},
+{
+"w": "confide",
+"p": "v",
+"l": "B2",
+"t": "communication",
+"ar": "يبوح بسرّه، يأتمن",
+"d": "to tell someone a secret because you trust them",
+"ex": "She confided in her sister about her plans to move abroad.",
+"x": "confided",
+"c": [
+"confide in"
+],
+"f": [
+"confidence",
+"confidential"
+]
+},
+{
+"w": "conquer",
+"p": "v",
+"l": "B2",
+"t": "society",
+"ar": "يغزو، يتغلّب على",
+"d": "to take control of a country, or to defeat a problem or fear",
+"ex": "He hoped to conquer his fear of heights by climbing the tall tower.",
+"x": "conquer",
+"f": [
+"conqueror",
+"conquest"
+]
+},
+{
+"w": "cowardly",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "جبان، خائف",
+"d": "not brave, and afraid to face danger or difficulty",
+"ex": "It was cowardly of him to blame his friend for the mistake.",
+"x": "cowardly"
+},
+{
+"w": "corridor",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "ممرّ",
+"d": "a long, narrow passage inside a building with rooms on either side",
+"ex": "The students walked along the long corridor to their classrooms.",
+"x": "corridor"
+},
+{
+"w": "costume",
+"p": "n",
+"l": "B2",
+"t": "arts",
+"ar": "زيّ تنكّري، ملابس تمثيلية",
+"d": "a set of clothes worn by an actor or for a special party",
+"ex": "Children wore colourful costumes for the school play about animals.",
+"x": "costumes"
+},
+{
+"w": "crumble",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يتفتت، ينهار",
+"d": "to break into small pieces, or to slowly fall apart",
+"ex": "The old wall began to crumble after many years of heavy rain.",
+"x": "crumble",
+"f": [
+"crumbly"
+]
+},
+{
+"w": "cohesive",
+"p": "adj",
+"l": "B2",
+"t": "academic",
+"ar": "متماسك، مترابط",
+"d": "holding together well, so that the parts form a unified whole",
+"ex": "A good essay needs a cohesive argument in which every paragraph links clearly.",
+"x": "cohesive"
+}
+]

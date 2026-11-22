@@ -1,0 +1,1138 @@
+[
+{
+"id": "l-c1-01",
+"l": "C1",
+"title": "A research plan on artificial intelligence in courts",
+"part": 3,
+"accent": "GB",
+"lines": [
+{
+"s": "A",
+"t": "Come in, Samira. I have read your draft proposal on artificial intelligence in courts, and I would like to go through it section by section."
+},
+{
+"s": "B",
+"t": "Thank you. I was a little worried that the scope is too wide, to be honest."
+},
+{
+"s": "A",
+"t": "It is, but not in the way you think. You say you will study risk assessment tools, translation software and case allocation systems. That is three projects, not one."
+},
+{
+"s": "B",
+"t": "I included all three because each affects how fair a trial feels to ordinary people."
+},
+{
+"s": "A",
+"t": "I understand, but a doctoral committee wants depth. I suggest you keep risk assessment tools and drop the other two, at least for the main study."
+},
+{
+"s": "B",
+"t": "Could I mention translation software as a future direction in the conclusion?"
+},
+{
+"s": "A",
+"t": "Certainly, a short paragraph would be fine. Now, your methods. You plan to interview forty judges. How did you arrive at that number?"
+},
+{
+"s": "B",
+"t": "Mostly from similar studies. But I realise judges are very busy, so I might only reach fifteen."
+},
+{
+"s": "A",
+"t": "Fifteen is realistic, and it is enough if you combine it with court observation. Have you thought about ethics approval?"
+},
+{
+"s": "B",
+"t": "I have started the form. The difficulty is that some courts will not allow recordings, so I would rely on handwritten notes."
+},
+{
+"s": "A",
+"t": "Then please say so clearly. Reviewers dislike surprises, and handwritten notes affect how you can quote people."
+},
+{
+"s": "B",
+"t": "I will add a section on that. I also wanted to ask about the data. A vendor has offered me access to its risk scores for one region."
+},
+{
+"s": "A",
+"t": "That is interesting, but be careful. If the company controls what you see, your independence could be questioned."
+},
+{
+"s": "A",
+"t": "Ask for a written agreement that gives you the right to publish whatever you find."
+},
+{
+"s": "B",
+"t": "Even if the findings are critical of the product?"
+},
+{
+"s": "A",
+"t": "Especially then. Without that clause, I would not sign anything."
+},
+{
+"s": "B",
+"t": "Understood. My other worry is the timeline. I have given myself six months for fieldwork."
+},
+{
+"s": "A",
+"t": "That is too optimistic. Gaining access to courts takes time, so plan for nine months, and begin the first contacts while you are still writing the proposal."
+},
+{
+"s": "B",
+"t": "That would push the writing stage into the third year."
+},
+{
+"s": "A",
+"t": "It would, but a third year for writing is normal. What matters is that the first chapter is nearly finished by the end of year one."
+},
+{
+"s": "B",
+"t": "I could draft the literature review during the access negotiations."
+},
+{
+"s": "A",
+"t": "Exactly. And on that note, your reading list is strong on law, but I see almost nothing from computer science."
+},
+{
+"s": "B",
+"t": "I was afraid I would not understand it."
+},
+{
+"s": "A",
+"t": "You do not need to follow the mathematics. You need to know how these tools are trained and tested, because your argument depends on that."
+},
+{
+"s": "A",
+"t": "I will send you two accessible articles."
+},
+{
+"s": "B",
+"t": "That would be a great help. Should I rewrite the introduction as well?"
+},
+{
+"s": "A",
+"t": "Yes, it is the weakest part. At the moment it begins with a general statement about technology changing society, which tells the reader nothing."
+},
+{
+"s": "A",
+"t": "Start with a real dilemma a judge faces."
+},
+{
+"s": "B",
+"t": "Like deciding whether to follow a score that disagrees with their own judgement."
+},
+{
+"s": "A",
+"t": "Precisely. Send me a new version by the end of the month, and we will meet again in the first week of December."
+},
+{
+"s": "B",
+"t": "I will. Thank you, Dr Hale, this has been really useful."
+}
+],
+"gloss": [
+{
+"w": "scope",
+"ar": "نطاق البحث"
+},
+{
+"w": "fieldwork",
+"ar": "العمل الميداني"
+},
+{
+"w": "vendor",
+"ar": "الشركة المزوِّدة"
+},
+{
+"w": "ethics approval",
+"ar": "الموافقة الأخلاقية"
+},
+{
+"w": "literature review",
+"ar": "مراجعة الأدبيات"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What is the supervisor's main criticism of the proposal at the start?",
+"o": [
+"It lacks a clear research question.",
+"It combines several projects in one study.",
+"It ignores how fair trials feel to people."
+],
+"a": 1,
+"why": "ذكرت أنها ثلاثة مشاريع لا مشروع واحد، والنطاق أوسع مما ينبغي."
+},
+{
+"k": "tfng",
+"q": "The supervisor refuses to let Samira mention translation software anywhere in the thesis.",
+"a": "F",
+"why": "وافقت على فقرة قصيرة عنها في الخاتمة كاتجاه مستقبلي."
+},
+{
+"k": "gap",
+"q": "Samira thinks she may only manage to interview ___ judges.",
+"a": [
+"fifteen",
+"15"
+],
+"why": "الأربعون خطتها الأصلية، لكنها قد تصل إلى خمسة عشر فقط."
+},
+{
+"k": "mc",
+"q": "What difficulty does Samira expect with some courts?",
+"o": [
+"They will not give interview times.",
+"They will refuse ethics approval.",
+"They will not permit recording."
+],
+"a": 2,
+"why": "قالت إن بعض المحاكم لا تسمح بالتسجيل فستعتمد على ملاحظات مكتوبة."
+},
+{
+"k": "mc",
+"q": "What does the supervisor advise about the vendor's offer?",
+"o": [
+"Insist on a written right to publish the findings.",
+"Reject any cooperation with a company.",
+"Accept it only if the product is praised."
+],
+"a": 0,
+"why": "نصحت بعقد مكتوب يضمن حق النشر حتى لو كانت النتائج ناقدة."
+},
+{
+"k": "gap",
+"q": "The supervisor says Samira should plan for ___ months of fieldwork.",
+"a": [
+"nine",
+"9"
+],
+"why": "رأت أن ستة أشهر تفاؤل زائد وطلبت تسعة."
+},
+{
+"k": "mc",
+"q": "What does the supervisor say about Samira's reading list?",
+"o": [
+"It contains too many old sources.",
+"It has hardly any technical sources.",
+"It needs more law cases."
+],
+"a": 1,
+"why": "القائمة قوية في القانون وتكاد تخلو من علوم الحاسوب."
+},
+{
+"k": "mc",
+"q": "How does the supervisor want the introduction to begin?",
+"o": [
+"With a broad statement about technology.",
+"With a summary of the findings.",
+"With a concrete problem a judge faces."
+],
+"a": 2,
+"why": "طلبت أن تبدأ بمعضلة حقيقية يواجهها القاضي بدل عبارة عامة."
+}
+]
+},
+{
+"id": "l-c1-02",
+"l": "C1",
+"title": "Two researchers disagree about interview data",
+"part": 3,
+"accent": "US",
+"lines": [
+{
+"s": "A",
+"t": "Marcus, I have finished the first pass through the interview transcripts, and I think the picture is clearer than we expected."
+},
+{
+"s": "B",
+"t": "Go on. I have only managed to read about half of them, so tell me what you found."
+},
+{
+"s": "A",
+"t": "Well, out of the thirty-two interviews, twenty-six people said they stopped contacting the council after a first bad experience. That is the central theme for me."
+},
+{
+"s": "B",
+"t": "Hold on. Twenty-six sounds large, but how many of those came from the two districts where we recruited through the community centre?"
+},
+{
+"s": "A",
+"t": "Fourteen, I think. Why does that matter?"
+},
+{
+"s": "B",
+"t": "Because people who go to a community centre are often there to complain. We may be hearing from the most frustrated residents, not the typical ones."
+},
+{
+"s": "A",
+"t": "I see the point, but the other twelve came from the market stalls and the library, and they said the same thing."
+},
+{
+"s": "B",
+"t": "Twelve out of eighteen from those places is still high, I admit. But I would not write that most residents distrust the council."
+},
+{
+"s": "B",
+"t": "I would write that most of our participants did."
+},
+{
+"s": "A",
+"t": "That is a fair distinction, although I find it rather cautious."
+},
+{
+"s": "B",
+"t": "Reviewers will not find it cautious. They will find it correct."
+},
+{
+"s": "A",
+"t": "Fine. Let us move on to coding. I have been coding line by line and letting the themes emerge, which gave me nine categories."
+},
+{
+"s": "B",
+"t": "Nine is too many. We agreed at the start to use the framework from the pilot, with four categories: access, fairness, speed and respect."
+},
+{
+"s": "A",
+"t": "The pilot framework missed something important. Several people talked about not understanding the forms, which fits none of your four."
+},
+{
+"s": "B",
+"t": "It fits access, surely. If you cannot understand the form, you cannot reach the service."
+},
+{
+"s": "A",
+"t": "Not exactly. Access is about opening hours and distance. This is about language and design."
+},
+{
+"s": "B",
+"t": "Then add a fifth category called clarity, and merge your other categories into the framework."
+},
+{
+"s": "A",
+"t": "That seems like a reasonable compromise. I would still keep a short list of the minor themes in an appendix."
+},
+{
+"s": "B",
+"t": "Fine, as long as they do not appear in the main findings."
+},
+{
+"s": "A",
+"t": "Another thing. Four interviews were conducted in Arabic and translated by Leila. Should we ask someone else to check them?"
+},
+{
+"s": "B",
+"t": "I think so. Not because I doubt her, but because translation changes tone, and our whole analysis is about tone."
+},
+{
+"s": "A",
+"t": "She has offered to do the back-translation herself."
+},
+{
+"s": "B",
+"t": "That would not be independent. Let us ask the university language centre. It should take them about two weeks."
+},
+{
+"s": "A",
+"t": "Agreed. One last point, the quotes. I would like to use the strongest ones in the abstract."
+},
+{
+"s": "B",
+"t": "Use one at most. An abstract full of quotations looks like a news article, not a study."
+},
+{
+"s": "A",
+"t": "All right, one quote. I will draft the findings section tonight and send it to you tomorrow morning."
+},
+{
+"s": "B",
+"t": "Good. And I will finish reading the rest of the transcripts, so that I can argue with you properly."
+},
+{
+"s": "A",
+"t": "Please do. I suspect you will find even more people who gave up on the forms."
+},
+{
+"s": "B",
+"t": "If I do, that is one more reason for the new clarity category."
+}
+],
+"gloss": [
+{
+"w": "transcript",
+"ar": "نص مكتوب للمقابلة"
+},
+{
+"w": "coding",
+"ar": "ترميز البيانات النوعية"
+},
+{
+"w": "theme",
+"ar": "محور، موضوع متكرر"
+},
+{
+"w": "back-translation",
+"ar": "الترجمة العكسية"
+},
+{
+"w": "appendix",
+"ar": "ملحق"
+}
+],
+"qs": [
+{
+"k": "gap",
+"q": "According to Dana, ___ participants stopped contacting the council after one bad experience.",
+"a": [
+"twenty-six",
+"twenty six",
+"26"
+],
+"why": "قالت إن ستة وعشرين من اثنين وثلاثين توقفوا عن التواصل."
+},
+{
+"k": "mc",
+"q": "Why does Marcus question the recruitment through the community centre?",
+"o": [
+"The centre refused to share names.",
+"The people there may be unusually dissatisfied.",
+"The centre is too far from the council."
+],
+"a": 1,
+"why": "يرى أن مرتادي المركز قد يكونون الأكثر شكوى لا الأكثر تمثيلا."
+},
+{
+"k": "mc",
+"q": "What do they agree to write in the report?",
+"o": [
+"Most residents distrust the council.",
+"The council is trusted in two districts.",
+"Most of the participants distrusted the council."
+],
+"a": 2,
+"why": "اتفقا على أن الأغلبية بين المشاركين لا بين السكان عموما."
+},
+{
+"k": "mc",
+"q": "How did Dana arrive at nine categories?",
+"o": [
+"She coded line by line without a fixed framework.",
+"She added new questions to the pilot.",
+"She combined the four pilot categories."
+],
+"a": 0,
+"why": "قالت إنها رمّزت سطرا سطرا وتركت المحاور تظهر من تلقاء نفسها."
+},
+{
+"k": "tfng",
+"q": "They decide to add a fifth category for difficulty with understanding forms.",
+"a": "T",
+"why": "اقترح ماركوس فئة وضوح خامسة ووافقت دانا على الحل الوسط."
+},
+{
+"k": "mc",
+"q": "Who will check the translated interviews?",
+"o": [
+"Leila, using back-translation.",
+"Marcus, after reading the transcripts.",
+"Staff from the university language centre."
+],
+"a": 2,
+"why": "رفض ماركوس أن تراجعها ليلى بنفسها واقترح مركز اللغات."
+},
+{
+"k": "gap",
+"q": "The language centre should need about ___ weeks for the check.",
+"a": [
+"two",
+"2"
+],
+"why": "قال ماركوس إن العمل سيستغرق نحو أسبوعين."
+},
+{
+"k": "mc",
+"q": "What does Marcus say about quotations in the abstract?",
+"o": [
+"Only a single one should be used.",
+"None should be used.",
+"The strongest three should be used."
+],
+"a": 0,
+"why": "قال استعمل اقتباسا واحدا على الأكثر."
+}
+]
+},
+{
+"id": "l-c1-03",
+"l": "C1",
+"title": "Evaluating sources for a literature review",
+"part": 3,
+"accent": "AU",
+"lines": [
+{
+"s": "A",
+"t": "Right, we have six sources on public procurement for the literature review and we need to decide which to keep. Tom, you start with the government report."
+},
+{
+"s": "B",
+"t": "I like it because it has the most recent figures, but it was written by the very department that runs the system, so I would treat the numbers carefully."
+},
+{
+"s": "C",
+"t": "I agree it is biased, but we could still use it as evidence of what officials claim, as long as we say so."
+},
+{
+"s": "A",
+"t": "Good idea. What about the consultant's blog?"
+},
+{
+"s": "B",
+"t": "It is well written and very persuasive, yet there is no method and no data, and the author sells software to procurement offices."
+},
+{
+"s": "C",
+"t": "I would drop it. Though I did notice it links to a study, so we can follow that link and read the original."
+},
+{
+"s": "A",
+"t": "Okay, so the blog goes, but the study it cites might stay. Now the article from two thousand and nine."
+},
+{
+"s": "B",
+"t": "It is the most cited paper on our list, over four thousand citations I think."
+},
+{
+"s": "C",
+"t": "Cited a lot, but it is fifteen years old. Procurement rules in most countries have changed since then, particularly after online bidding became compulsory."
+},
+{
+"s": "A",
+"t": "I would keep it for the background section, because it defined the key terms everyone uses. For the main argument, we need newer work."
+},
+{
+"s": "B",
+"t": "Fine with me. The preprint, then. It has not been through peer review yet."
+},
+{
+"s": "C",
+"t": "But the authors are from a reputable university and the sample is huge, covering nine countries."
+},
+{
+"s": "A",
+"t": "I am uneasy about it. The conclusions could change after review. How about we include it but mark it clearly as a preprint?"
+},
+{
+"s": "C",
+"t": "That is what I would do too. Tom?"
+},
+{
+"s": "B",
+"t": "I would still be cautious, although I can live with that, provided we do not build a whole section on it."
+},
+{
+"s": "A",
+"t": "Agreed. Next is the think tank report, which argues that publishing all contracts reduces corruption."
+},
+{
+"s": "B",
+"t": "It reads like a campaign document. Every example supports the same conclusion, and nothing in it is critical of the idea."
+},
+{
+"s": "C",
+"t": "I would not throw it out completely. It has a useful table comparing disclosure laws in twelve countries, which we cannot find elsewhere."
+},
+{
+"s": "A",
+"t": "Then we use the table and cite the report carefully, without repeating its conclusions."
+},
+{
+"s": "B",
+"t": "Good compromise. What about the last one, the case study of the hospital in the north?"
+},
+{
+"s": "C",
+"t": "It is only one hospital, so we cannot generalise. But the detail is wonderful, because it shows how a bribe actually passes through the paperwork."
+},
+{
+"s": "A",
+"t": "Then it works as an illustration, not as proof. I will put it in the discussion."
+},
+{
+"s": "B",
+"t": "Let us write that down. Who is doing the summary table?"
+},
+{
+"s": "C",
+"t": "I can do it by Thursday, if you send me the reference list tonight."
+},
+{
+"s": "A",
+"t": "I will send it within the hour. And Tom, could you email Dr Nolan and ask whether a preprint is acceptable in a literature review?"
+},
+{
+"s": "B",
+"t": "Sure, I will do that straight after this meeting."
+},
+{
+"s": "C",
+"t": "Brilliant. Then we only need to agree on a reading order for the group presentation."
+}
+],
+"gloss": [
+{
+"w": "procurement",
+"ar": "المشتريات العمومية"
+},
+{
+"w": "preprint",
+"ar": "نسخة بحثية قبل التحكيم"
+},
+{
+"w": "peer review",
+"ar": "التحكيم العلمي"
+},
+{
+"w": "generalise",
+"ar": "يعمّم النتائج"
+},
+{
+"w": "illustration",
+"ar": "مثال توضيحي"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "Why does Tom want to treat the government report's figures carefully?",
+"o": [
+"The department that produced it runs the system.",
+"The figures are several years out of date.",
+"The report has no clear method."
+],
+"a": 0,
+"why": "أشار إلى أن التقرير كتبته الإدارة نفسها التي تشغّل النظام."
+},
+{
+"k": "gap",
+"q": "Tom says the consultant's blog has no data and no ___.",
+"a": [
+"method"
+],
+"why": "قال إنه بلا منهج وبلا بيانات."
+},
+{
+"k": "mc",
+"q": "What do the students decide about the article from two thousand and nine?",
+"o": [
+"Remove it because it is old.",
+"Use it as the basis of the main argument.",
+"Keep it for the background section."
+],
+"a": 2,
+"why": "قررت أن تبقيه للخلفية لأنه عرّف المصطلحات الأساسية."
+},
+{
+"k": "tfng",
+"q": "Tom is completely comfortable with using the preprint from the start.",
+"a": "F",
+"why": "بقي حذرا ووافق فقط بشرط ألا يُبنى عليه قسم كامل."
+},
+{
+"k": "gap",
+"q": "The think tank report contains a table comparing disclosure laws in ___ countries.",
+"a": [
+"twelve",
+"12"
+],
+"why": "التسعة هي عدد دول ورقة ما قبل التحكيم، والجدول يشمل اثنتي عشرة."
+},
+{
+"k": "mc",
+"q": "How will the group use the hospital case study?",
+"o": [
+"As an example, not as proof.",
+"As proof that bribery is common.",
+"As the main source for the conclusion."
+],
+"a": 0,
+"why": "حالة مستشفى واحد لا تعمَّم، فتصلح للتوضيح فقط."
+},
+{
+"k": "gap",
+"q": "Jess promises to finish the summary table by ___.",
+"a": [
+"Thursday"
+],
+"why": "قالت إنها تنجزه بحلول يوم الخميس."
+},
+{
+"k": "mc",
+"q": "What will Tom do after the meeting?",
+"o": [
+"Send the reference list to Jess.",
+"Ask the lecturer about using preprints.",
+"Write the section on the think tank."
+],
+"a": 1,
+"why": "طُلب منه أن يراسل الدكتور نولان بشأن قبول الورقة قبل التحكيم."
+}
+]
+},
+{
+"id": "l-c1-04",
+"l": "C1",
+"title": "Seminar: protecting whistleblowers",
+"part": 3,
+"accent": "GB",
+"lines": [
+{
+"s": "A",
+"t": "Today we are looking at whistleblower protection. Omar, you read the case study. Can you start us off?"
+},
+{
+"s": "B",
+"t": "Yes. It concerns an accountant in a regional hospital who noticed that invoices for cleaning services were being paid twice."
+},
+{
+"s": "B",
+"t": "She reported it internally, and within months her contract was not renewed."
+},
+{
+"s": "C",
+"t": "Which is the classic pattern, isn't it? The employee does the right thing and the employer finds another reason to remove them."
+},
+{
+"s": "A",
+"t": "That is what we need to examine. Hannah, in your essay you argued that the law should shift the burden of proof. Explain that."
+},
+{
+"s": "C",
+"t": "Normally, the worker must prove that the dismissal was connected to the report. That is almost impossible. I argued that the employer should have to prove it was not."
+},
+{
+"s": "B",
+"t": "I see the logic, but isn't it unfair to employers? Anyone about to be dismissed for poor performance could simply file a report and claim protection."
+},
+{
+"s": "C",
+"t": "That is the standard objection, but the evidence from countries that have tried it suggests such abuse is rare. Most people fear reporting, not exploit it."
+},
+{
+"s": "A",
+"t": "Omar, are you convinced?"
+},
+{
+"s": "B",
+"t": "Partly. I would accept the reversed burden if the report was made in good faith and through an official channel, but not if the employee went straight to the press."
+},
+{
+"s": "C",
+"t": "I disagree with that. Official channels are often the very place where the problem is hidden. If a manager is part of the fraud, an internal report just warns him."
+},
+{
+"s": "A",
+"t": "That raises the question of external reporting. Most laws set out three tiers: first the employer, then a regulator, then the public. What is the thinking behind that?"
+},
+{
+"s": "B",
+"t": "To give organisations a chance to fix problems before they become scandals, and to protect people from false accusations in the media."
+},
+{
+"s": "C",
+"t": "But the tiers can also delay everything. By the time someone reaches the third tier, the evidence may have disappeared."
+},
+{
+"s": "A",
+"t": "Good. Let me add a point from the case study. The accountant had no lawyer, and she could not afford one. Does that matter?"
+},
+{
+"s": "B",
+"t": "A great deal. Rights that exist on paper are useless if a person cannot afford to use them."
+},
+{
+"s": "B",
+"t": "I think free legal advice is more important than any change in the burden of proof."
+},
+{
+"s": "C",
+"t": "I would put them on the same level, to be fair. Though I accept that without advice, most people never reach a tribunal."
+},
+{
+"s": "A",
+"t": "What about financial rewards? Some systems give whistleblowers a percentage of the money recovered."
+},
+{
+"s": "B",
+"t": "I am against that. It changes the motive, and defence lawyers will say the witness is only in it for the money."
+},
+{
+"s": "C",
+"t": "I used to think so too, but the sums recovered are huge, and rewards do make people come forward."
+},
+{
+"s": "C",
+"t": "I think a small reward is acceptable, as long as the report is checked independently."
+},
+{
+"s": "A",
+"t": "We are almost out of time. Let me ask each of you for one recommendation for the hospital's board, in a sentence."
+},
+{
+"s": "B",
+"t": "Set up an anonymous reporting line run by someone outside the hospital."
+},
+{
+"s": "C",
+"t": "Promise in writing that nobody will be dismissed for six months after reporting, unless the hospital proves a separate reason."
+},
+{
+"s": "A",
+"t": "Thank you both. For next week, please read the two statutes on the reading list and bring one example of how each protects a worker."
+},
+{
+"s": "B",
+"t": "Will the examples need to come from real cases, or can they be hypothetical?"
+},
+{
+"s": "A",
+"t": "Real cases, please. They are much easier to discuss."
+}
+],
+"gloss": [
+{
+"w": "whistleblower",
+"ar": "المبلّغ عن المخالفات"
+},
+{
+"w": "burden of proof",
+"ar": "عبء الإثبات"
+},
+{
+"w": "in good faith",
+"ar": "بحسن نية"
+},
+{
+"w": "tribunal",
+"ar": "محكمة، هيئة قضائية"
+},
+{
+"w": "statute",
+"ar": "قانون، تشريع"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What happened to the accountant in the case study?",
+"o": [
+"She was dismissed immediately after reporting.",
+"She was paid twice for her work.",
+"Her contract was not renewed after she reported internally."
+],
+"a": 2,
+"why": "أبلغت داخليا ثم لم يُجدَّد عقدها بعد أشهر."
+},
+{
+"k": "mc",
+"q": "What does Hannah propose about the burden of proof?",
+"o": [
+"The employer should prove the dismissal was unconnected.",
+"The worker should prove the report was honest.",
+"The tribunal should collect the evidence itself."
+],
+"a": 0,
+"why": "اقترحت أن يُثبت صاحب العمل أن الفصل لا علاقة له بالتبليغ."
+},
+{
+"k": "mc",
+"q": "What is Omar's objection to this idea?",
+"o": [
+"Reporting is too costly for workers.",
+"Employees facing dismissal might use reports to protect themselves.",
+"Employers would stop hiring accountants."
+],
+"a": 1,
+"why": "خشي أن يقدّم من سيُفصل بلاغا ليحتمي به."
+},
+{
+"k": "tfng",
+"q": "Hannah says that misuse of such protection is common in countries that have introduced it.",
+"a": "F",
+"why": "قالت إن إساءة الاستعمال نادرة، فالناس يخافون من التبليغ."
+},
+{
+"k": "mc",
+"q": "Why does Hannah reject Omar's condition about official channels?",
+"o": [
+"Managers may be involved in the wrongdoing.",
+"The press is more reliable than regulators.",
+"Official channels take too many months."
+],
+"a": 0,
+"why": "إن كان المدير متورطا فالبلاغ الداخلي ينبّهه فقط."
+},
+{
+"k": "mc",
+"q": "What does Omar consider the most important improvement?",
+"o": [
+"A reward for whistleblowers.",
+"A change in the burden of proof.",
+"Free legal advice."
+],
+"a": 2,
+"why": "رأى أن الاستشارة القانونية المجانية أهم من تغيير عبء الإثبات."
+},
+{
+"k": "mc",
+"q": "What is Hannah's view on financial rewards now?",
+"o": [
+"She opposes them completely.",
+"She accepts small ones if the report is verified.",
+"She wants rewards to be as large as possible."
+],
+"a": 1,
+"why": "غيّرت رأيها وقبلت مكافأة صغيرة بشرط التحقق المستقل."
+},
+{
+"k": "gap",
+"q": "Hannah's recommendation protects staff from dismissal for ___ after reporting.",
+"a": [
+"six months",
+"6 months"
+],
+"why": "اقترحت وعدا مكتوبا بعدم الفصل لمدة ستة أشهر."
+}
+]
+},
+{
+"id": "l-c1-05",
+"l": "C1",
+"title": "Feedback on a start-up pitch",
+"part": 3,
+"accent": "US",
+"lines": [
+{
+"s": "A",
+"t": "Thank you both for making time. I have just presented the pitch, and I would love your honest reaction."
+},
+{
+"s": "B",
+"t": "I will start with the positive. The opening story about the bakery owner who lost a contract because he missed a deadline was excellent. I could picture him."
+},
+{
+"s": "C",
+"t": "I agree, that was the strongest moment. My concern is what came next. You went straight into twelve slides of technology and the audience lost the thread."
+},
+{
+"s": "A",
+"t": "I thought investors wanted to see that the technology is sound."
+},
+{
+"s": "C",
+"t": "They do, but later. First they want to know who pays, how much, and why they will not leave."
+},
+{
+"s": "B",
+"t": "Which brings me to pricing. You are charging forty pounds a month. For a business with five employees that sounds low, and low prices make people suspicious."
+},
+{
+"s": "C",
+"t": "I disagree a little. For a very small business forty pounds is already a stretch. I would keep it but add a higher plan with extra features for larger companies."
+},
+{
+"s": "A",
+"t": "We have discussed a premium tier, with automatic bid drafting."
+},
+{
+"s": "B",
+"t": "Then put it on the slide. At the moment I only saw it in your notes."
+},
+{
+"s": "A",
+"t": "Okay. What about the market size? I said there are two million small firms."
+},
+{
+"s": "B",
+"t": "That is the number I would remove. You have not explained which of those firms actually bid for public contracts, and most never will."
+},
+{
+"s": "B",
+"t": "Start with the ones that do, even if the number is smaller, perhaps three hundred thousand."
+},
+{
+"s": "C",
+"t": "Exactly. A small, believable number beats a huge one that nobody trusts."
+},
+{
+"s": "A",
+"t": "Hmm, I worry that three hundred thousand sounds too small to be exciting."
+},
+{
+"s": "C",
+"t": "Investors are not looking for excitement at that point. They are looking for a plan to win the first ten thousand customers."
+},
+{
+"s": "A",
+"t": "And I only have a hundred and twenty at the moment."
+},
+{
+"s": "B",
+"t": "Which is a good start, as long as you say how many of them still pay after three months. Do you know?"
+},
+{
+"s": "A",
+"t": "Around seventy percent."
+},
+{
+"s": "B",
+"t": "That is a strong figure! Put it on the slide next to the bakery story. It proves the story is not an exception."
+},
+{
+"s": "C",
+"t": "One more point, about the competition. You said you have none."
+},
+{
+"s": "A",
+"t": "Well, nobody does exactly what we do."
+},
+{
+"s": "C",
+"t": "Everybody has competitors, even if it is only spreadsheets and email. Name them, and explain why your product is better than a spreadsheet."
+},
+{
+"s": "B",
+"t": "I would add a short live demonstration. Two minutes, showing a tender notice becoming a checklist."
+},
+{
+"s": "A",
+"t": "I was afraid the internet would fail during the pitch."
+},
+{
+"s": "B",
+"t": "Record it as a video, then. That way nothing can go wrong, and you still show the product working."
+},
+{
+"s": "A",
+"t": "That makes sense. Should I cut anything to stay within ten minutes?"
+},
+{
+"s": "C",
+"t": "Yes, the team slide. Keep one sentence about it, because your experience is already clear from the opening."
+},
+{
+"s": "A",
+"t": "Right. I will rebuild it this weekend and send a new version on Monday."
+},
+{
+"s": "B",
+"t": "Send it to both of us. And practise out loud, because your delivery was a little fast."
+}
+],
+"gloss": [
+{
+"w": "pitch",
+"ar": "عرض ترويجي للمستثمرين"
+},
+{
+"w": "tier",
+"ar": "مستوى، فئة"
+},
+{
+"w": "tender",
+"ar": "مناقصة"
+},
+{
+"w": "competitor",
+"ar": "منافس"
+},
+{
+"w": "market size",
+"ar": "حجم السوق"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "Which part of the pitch did the mentors like most?",
+"o": [
+"The slides about the technology.",
+"The pricing explanation.",
+"The opening story about a small business owner."
+],
+"a": 2,
+"why": "أشاد كلاهما بقصة صاحب المخبز في البداية."
+},
+{
+"k": "mc",
+"q": "What is Ruth's main criticism of the structure?",
+"o": [
+"The technology section came too early and was too long.",
+"The founder spoke for too long about her team.",
+"The ending did not include any figures."
+],
+"a": 0,
+"why": "انتقلت مباشرة إلى اثنتي عشرة شريحة تقنية فضاع الجمهور."
+},
+{
+"k": "gap",
+"q": "The current subscription costs ___ pounds a month.",
+"a": [
+"forty",
+"40"
+],
+"why": "ذكرت الباحثة أن السعر أربعون جنيها شهريا."
+},
+{
+"k": "mc",
+"q": "What does Ruth suggest about the price?",
+"o": [
+"Lower it for very small firms.",
+"Keep it and add a more expensive plan.",
+"Raise it immediately to avoid suspicion."
+],
+"a": 1,
+"why": "خالفت غريغ واقترحت إبقاء السعر مع خطة أعلى."
+},
+{
+"k": "gap",
+"q": "Greg suggests a starting market of about ___ firms.",
+"a": [
+"three hundred thousand",
+"300000",
+"300,000"
+],
+"why": "اقترح ثلاثمئة ألف شركة تشارك فعلا في العقود العمومية."
+},
+{
+"k": "tfng",
+"q": "Greg is impressed by the proportion of customers who are still paying after three months.",
+"a": "T",
+"why": "وصف نسبة السبعين بالمئة بأنها رقم قوي."
+},
+{
+"k": "mc",
+"q": "What does Greg recommend instead of a live demonstration online?",
+"o": [
+"A printed handout.",
+"A recorded video of the product.",
+"A longer question session."
+],
+"a": 1,
+"why": "خوفا من انقطاع الإنترنت اقترح تسجيل العرض بالفيديو."
+},
+{
+"k": "mc",
+"q": "What should the founder do with the team slide?",
+"o": [
+"Move it to the end.",
+"Add more photographs.",
+"Reduce it to a single sentence."
+],
+"a": 2,
+"why": "نصحتها روث بجملة واحدة لأن خبرتها واضحة من البداية."
+}
+]
+}
+]

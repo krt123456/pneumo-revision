@@ -1,0 +1,114 @@
+[
+{"id":"g-b2-05","l":"B2","title":"Impersonal passive (It is said that / He is said to); get-passive","titleAr":"المبني للمجهول غير الشخصي وget-passive","why":"نستعمل هذا التركيب في الأخبار والتقارير والكتابة الأكاديمية عندما ننقل ما يقوله الناس دون ذكر القائل. وget-passive شائع في الكلام لما يحدث لنا.",
+"rules":[
+{"ar":"الصورة الأولى تبدأ بـ It ثم فعل مبني للمجهول ثم that وجملة كاملة. تُستعمل مع say وbelieve وthink وreport وexpect وknow وclaim.","form":"It + is/was + said/believed/reported + that + clause","ex":[{"en":"It is said that the law will change next year.","ar":"يُقال إن القانون سيتغير العام القادم."},{"en":"It is expected that prices will rise.","ar":"يُتوقع أن ترتفع الأسعار."}]},
+{"ar":"الصورة الثانية تبدأ بالفاعل نفسه، ثم المبني للمجهول، ثم مصدر مع to. نستعمل to + مصدر للحدث الحاضر. ونستعمل to have + V3 للحدث الذي سبق. ونستعمل to be + V-ing للحدث الجاري.","form":"S + is/was + believed + to + V1 | to have + V3 | to be + V-ing","ex":[{"en":"The mayor is said to have accepted gifts.","ar":"يُقال إن العمدة قبل هدايا."},{"en":"The company is reported to be making huge losses.","ar":"يُذكر أن الشركة تتكبد خسائر ضخمة."}]},
+{"ar":"get-passive يُستعمل في الكلام غير الرسمي لما يحدث لنا، وغالباً شيء مفاجئ أو غير سار أو تغيّر في الحال. لا نستعمله مع الأفعال الثابتة مثل know وlove.","form":"get/got + V3","ex":[{"en":"He got arrested outside the courthouse.","ar":"أُلقي القبض عليه أمام المحكمة."},{"en":"She got promoted after only a year.","ar":"رُقّيت بعد سنة واحدة فقط."}]}
+],
+"mistakes":[
+{"x":"He is said that he is very rich.","ok":"He is said to be very rich. / It is said that he is very rich.","ar":"نخلط الصورتين. إذا بدأنا بـ He فنكمل بـ to + مصدر. وإذا بدأنا بـ It فنكمل بـ that + جملة."},
+{"x":"The workers were get paid late.","ok":"The workers got paid late.","ar":"نجمع were مع get. نستعمل أحدهما فقط: got paid أو were paid."},
+{"x":"The company is reported to make huge losses last year.","ok":"The company is reported to have made huge losses last year.","ar":"العربية لا تفرّق هنا بين الزمنين. في الإنجليزية الحدث الماضي يحتاج to have + V3."}
+],
+"tip":"إذا كان الفاعل هو الأول فبعده to. وإذا كان It هو الأول فبعده that. والحدث الأقدم يأخذ to have + V3.",
+"exs":[
+{"k":"mc","q":"It ___ that the law will change next year.","o":["says","is said","is saying"],"a":1,"why":"التركيب It is said that يدل على «يُقال إن»."},
+{"k":"mc","q":"The suspect is believed ___ the country last week.","o":["to leave","to have left","leaving"],"a":1,"why":"الحدث سبق الاعتقاد (last week)، فنحتاج to have + V3."},
+{"k":"mc","q":"He got ___ for taking bribes.","o":["dismiss","dismissed","dismissing"],"a":1,"why":"get-passive يتبعه تصريف ثالث."},
+{"k":"mc","q":"The company is reported ___ huge losses last year.","o":["to make","to have made","making"],"a":1,"why":"الخسائر وقعت في الماضي، فنستعمل to have + V3."},
+{"k":"mc","q":"It is thought ___ the bridge was built in 1890.","o":["that","to","of"],"a":0,"why":"بعد It is thought تأتي that وجملة كاملة."},
+{"k":"gap","q":"He is believed ___ (be) innocent.","a":["to be"],"why":"للحاضر نستعمل to + مصدر."},
+{"k":"gap","q":"It ___ (expect) that prices will rise.","a":["is expected"],"why":"الصيغة It is expected that بمعنى «يُتوقع أن»."},
+{"k":"gap","q":"She got ___ (promote) last month.","a":["promoted"],"why":"المبني للمجهول مع get يأخذ التصريف الثالث."},
+{"k":"fix","q":"He is said be the best lawyer in town.","bad":"be","good":["to be"],"why":"بعد is said نحتاج to + مصدر."},
+{"k":"fix","q":"The workers were get paid late again.","bad":"were get","good":["got","were"],"why":"لا نجمع were مع get؛ نستعمل got paid أو were paid."},
+{"k":"order","a":"It is believed that the document was forged.","ar":"يُعتقد أن الوثيقة مزوّرة."},
+{"k":"order","a":"He got arrested outside the courthouse yesterday.","ar":"أُلقي القبض عليه أمام المحكمة أمس."},
+{"k":"trans","q":"People say that the mayor accepted gifts.","start":"The mayor is said","a":["The mayor is said to have accepted gifts."],"why":"الحدث سابق، فنستعمل to have + V3 بعد is said."},
+{"k":"trans","q":"It is believed that the fire started in the kitchen.","start":"The fire","a":["The fire is believed to have started in the kitchen."],"why":"نجعل الفاعل أولاً ونستعمل to have + V3 للحدث الماضي."}
+]},
+{"id":"g-b2-06","l":"B2","title":"Causatives (have/get something done, get someone to do)","titleAr":"صيغة السببية: have وget","why":"نستعمل السببية عندما نطلب من شخص آخر أن يفعل شيئاً لنا، أو عندما يحدث لنا شيء بسبب غيرنا. وهي مفيدة جداً في الكلام المهني.",
+"rules":[
+{"ar":"have/get + شيء + V3 تعني أن شخصاً آخر فعل الشيء لنا، أو لأجلنا. لا نذكر غالباً من فعله. وget أكثر غير رسمية.","form":"have/get + object + V3","ex":[{"en":"We had the contract checked by a lawyer.","ar":"جعلنا محامياً يراجع العقد."},{"en":"She got her passport renewed last week.","ar":"جدّدت جواز سفرها الأسبوع الماضي (عن طريق موظف)."}]},
+{"ar":"have + شخص + مصدر مجرداً، أو get + شخص + to + مصدر. المعنى: طلبنا من الشخص أو أقنعناه أن يفعل. لاحظ أن have بدون to، أما get فمع to.","form":"have + person + V1  |  get + person + to + V1","ex":[{"en":"The manager had the staff fill in the forms again.","ar":"جعل المدير الموظفين يملؤون الاستمارات مرة أخرى."},{"en":"She got the technician to repair the server.","ar":"أقنعت الفني بإصلاح الخادم."}]},
+{"ar":"يمكن أن تدل have/get + شيء + V3 على تجربة سيئة حدثت لنا دون إرادتنا. المعنى يظهر من السياق، فنحن لم نطلب ذلك.","form":"have/get + object + V3 (bad experience)","ex":[{"en":"They had their house damaged during the storm.","ar":"تضرّر بيتهم أثناء العاصفة."},{"en":"He had his wallet stolen on the train.","ar":"سُرقت محفظته في القطار."}]}
+],
+"mistakes":[
+{"x":"I repaired my car yesterday. (a mechanic did it)","ok":"I had my car repaired yesterday.","ar":"في العربية نقول «أصلحتُ سيارتي» حتى لو أصلحها غيرنا. في الإنجليزية تعني repaired أنك أنت من أصلحها."},
+{"x":"She got the lawyer prepare the contract.","ok":"She got the lawyer to prepare the contract.","ar":"بعد get + شخص نحتاج to. أما have + شخص فبدون to."},
+{"x":"I had my hair to cut.","ok":"I had my hair cut.","ar":"بعد have + شيء نستعمل التصريف الثالث، لا to + مصدر."}
+],
+"tip":"الشيء + V3 (شيء يُفعل به). الشخص + مصدر (شخص يفعل). والفرق: have مصدر مجرد، وget مع to.",
+"exs":[
+{"k":"mc","q":"We had the contract ___ by a lawyer.","o":["check","checked","checking"],"a":1,"why":"have + شيء + V3."},
+{"k":"mc","q":"I'll get my brother ___ the car.","o":["fix","fixing","to fix"],"a":2,"why":"get + شخص + to + مصدر."},
+{"k":"mc","q":"The manager had the staff ___ the forms again.","o":["to fill in","filled in","fill in"],"a":2,"why":"have + شخص + مصدر بدون to."},
+{"k":"mc","q":"She ___ her passport renewed last week.","o":["had","did","was"],"a":0,"why":"السببية: had + شيء + V3."},
+{"k":"mc","q":"They got their house ___ during the storm.","o":["damaging","damage","damaged"],"a":2,"why":"شيء حدث لهم: get + شيء + V3."},
+{"k":"gap","q":"I must have my eyes ___ (test) soon.","a":["tested"],"why":"have + شيء + V3."},
+{"k":"gap","q":"She got the technician ___ (repair) the server.","a":["to repair"],"why":"get + شخص + to + مصدر."},
+{"k":"gap","q":"We ___ (have) the documents translated yesterday.","a":["had"],"why":"الزمن ماضٍ (yesterday)، فنستعمل had."},
+{"k":"fix","q":"I had my hair to cut yesterday.","bad":"to cut","good":["cut"],"why":"بعد have + شيء نستعمل V3، وهو cut."},
+{"k":"fix","q":"She got the lawyer prepare the contract.","bad":"prepare","good":["to prepare"],"why":"بعد get + شخص نحتاج to + مصدر."},
+{"k":"order","a":"I had my laptop repaired last week.","ar":"أصلحتُ حاسوبي المحمول الأسبوع الماضي (عند فني)."},
+{"k":"order","a":"She got her assistant to book the flights.","ar":"جعلت مساعدها يحجز الرحلات."},
+{"k":"trans","q":"A mechanic serviced our car yesterday.","start":"We","a":["We had our car serviced yesterday.","We got our car serviced yesterday."],"why":"الفعل قام به غيرنا، فنستعمل have/get + شيء + V3."},
+{"k":"trans","q":"The director asked the clerk to send the file.","start":"The director","a":["The director got the clerk to send the file.","The director had the clerk send the file."],"why":"get + شخص + to + مصدر، أو have + شخص + مصدر."}
+]},
+{"id":"g-b2-07","l":"B2","title":"Past deduction & criticism (must have, can't have, should have, needn't have)","titleAr":"الاستنتاج والنقد في الماضي","why":"نستعمل هذه الصيغ لنخمّن ما حدث في الماضي، أو لننتقد تصرفاً ماضياً، أو لنقول إن فعلاً لم يكن ضرورياً.",
+"rules":[
+{"ar":"للاستنتاج في الماضي: must have + V3 تعني «أكيد أنه حدث». can't have + V3 تعني «أكيد أنه لم يحدث». could/might have + V3 تعني «ربما حدث».","form":"must / can't / might have + V3","ex":[{"en":"The ground is wet. It must have rained during the night.","ar":"الأرض مبتلة. لا بد أنها أمطرت أثناء الليل."},{"en":"He can't have written the report; he was on holiday all week.","ar":"لا يمكن أن يكون قد كتب التقرير؛ كان في إجازة طوال الأسبوع."}]},
+{"ar":"should have + V3 أو ought to have + V3 للنقد وللندم: كان يجب أن نفعل ولم نفعل. وshouldn't have + V3 تعني: فعلنا وكان الأفضل ألا نفعل.","form":"should / ought to / shouldn't have + V3","ex":[{"en":"You should have told me earlier; I would have helped.","ar":"كان عليك أن تخبرني قبل ذلك؛ كنت سأساعدك."},{"en":"You shouldn't have signed without reading it.","ar":"ما كان ينبغي أن توقّع دون أن تقرأ."}]},
+{"ar":"needn't have + V3 تعني أنك فعلت شيئاً لم يكن ضرورياً. وهي تختلف عن didn't need to التي تعني أنه لم يكن ضرورياً ولا نعرف هل فُعل.","form":"needn't have + V3","ex":[{"en":"We needn't have cooked so much food; nobody was hungry.","ar":"لم يكن لازماً أن نطبخ كل هذا الطعام؛ لم يكن أحد جائعاً."},{"en":"You needn't have brought a gift; it is only a small meeting.","ar":"ما كان لازماً أن تحضر هدية؛ إنه اجتماع صغير."}]}
+],
+"mistakes":[
+{"x":"She must forget her keys yesterday.","ok":"She must have forgotten her keys yesterday.","ar":"العربي يستعمل «لا بد أنها نسيت» بالماضي فقط. في الإنجليزية نحتاج must have + V3 للاستنتاج عن الماضي."},
+{"x":"He mustn't have seen the sign.","ok":"He can't have seen the sign.","ar":"mustn't للمنع، لا للاستنتاج. لنفي الاستنتاج نستعمل can't have."},
+{"x":"You should to have asked for advice.","ok":"You should have asked for advice.","ar":"بعد should لا نضع to. نقول should have + V3."}
+],
+"tip":"must = أنا متأكد أنه حدث. can't = أنا متأكد أنه لم يحدث. should = كان الأفضل. needn't = لم يكن لازماً لكنه حدث.",
+"exs":[
+{"k":"mc","q":"The ground is wet. It ___ during the night.","o":["must rain","must have rained","should have rained"],"a":1,"why":"استنتاج مؤكد عن الماضي: must have + V3."},
+{"k":"mc","q":"He ___ the report; he was on holiday all week.","o":["must have written","should have written","can't have written"],"a":2,"why":"كان في إجازة، فمن المستحيل أن يكون كتبه."},
+{"k":"mc","q":"You ___ me earlier! I would have helped.","o":["needn't have told","must have told","should have told"],"a":2,"why":"نقد: كان عليك أن تخبرني ولم تفعل."},
+{"k":"mc","q":"We ___ so much food; nobody was hungry.","o":["can't have cooked","needn't have cooked","mustn't have cooked"],"a":1,"why":"طبخنا دون حاجة: needn't have + V3."},
+{"k":"mc","q":"She isn't here. She ___ the train.","o":["needn't have missed","should miss","might have missed"],"a":2,"why":"تخمين غير مؤكد: might have + V3."},
+{"k":"gap","q":"He ___ left earlier; now he is late.","a":["should have","ought to have"],"why":"ندم ونقد على الماضي: should have + V3."},
+{"k":"gap","q":"The thief ___ (must/enter) through the window; the glass is broken.","a":["must have entered"],"why":"استنتاج قوي عن الماضي: must have + V3."},
+{"k":"gap","q":"You ___ (not/bring) a gift; it's only a small meeting.","a":["needn't have brought","need not have brought"],"why":"إحضار الهدية لم يكن ضرورياً: needn't have + V3."},
+{"k":"fix","q":"She must have forgot her keys at the office.","bad":"forgot","good":["forgotten"],"why":"بعد must have نستعمل التصريف الثالث: forgotten."},
+{"k":"fix","q":"You shouldn't to have signed without reading it.","bad":"to have","good":["have"],"why":"بعد should لا نضع to."},
+{"k":"order","a":"He can't have seen the notice yesterday.","ar":"لا يمكن أن يكون قد رأى الإشعار أمس."},
+{"k":"order","a":"You should have read the contract carefully.","ar":"كان عليك أن تقرأ العقد بعناية."},
+{"k":"trans","q":"I'm sure the clerk made a mistake.","start":"The clerk","a":["The clerk must have made a mistake."],"why":"أكيد أنه حدث: must have + V3."},
+{"k":"trans","q":"It was a pity that you didn't ask for advice.","start":"You","a":["You should have asked for advice.","You ought to have asked for advice."],"why":"للندم على فعل لم يحدث: should have + V3."}
+]},
+{"id":"g-b2-08","l":"B2","title":"Reduced relative clauses; prepositions in relatives; which for a whole clause","titleAr":"الجمل الموصولة المختصرة وحروف الجر مع الموصول","why":"في الكتابة الأكاديمية نختصر الجمل الموصولة لنجعل الأسلوب أكثر إحكاماً. ونحتاج أيضاً ترتيب حرف الجر الصحيح في الأسلوب الرسمي.",
+"rules":[
+{"ar":"نحذف who/which/that مع is/are إذا كانت الجملة الموصولة مبنية للمجهول أو مستمرة. نحصل على V3 أو V-ing مباشرة بعد الاسم.","form":"noun + V3 / V-ing","ex":[{"en":"The documents kept in the archive are confidential.","ar":"الوثائق المحفوظة في الأرشيف سرية."},{"en":"Students applying for the scholarship must attend an interview.","ar":"الطلاب المتقدمون للمنحة يجب أن يحضروا مقابلة."}]},
+{"ar":"في الأسلوب الرسمي نضع حرف الجر قبل whom أو which. ولا نستعمل that أو who بعد حرف الجر. وفي الكلام العادي قد يتأخر حرف الجر إلى آخر الجملة.","form":"preposition + whom / which","ex":[{"en":"The judge to whom I spoke was very helpful.","ar":"القاضي الذي تحدثت إليه كان متعاوناً جداً."},{"en":"The company for which she works is based in Oran.","ar":"الشركة التي تعمل فيها مقرها في وهران."}]},
+{"ar":"which بعد فاصلة يمكن أن تشير إلى الجملة كلها، لا إلى اسم واحد. معناها «وهذا الأمر». ولا نستعمل that في هذا الموضع ولا what.","form":", which + verb","ex":[{"en":"He refused to comment, which annoyed the journalists.","ar":"رفض التعليق، وهذا أزعج الصحفيين."},{"en":"She resigned, which surprised her colleagues.","ar":"استقالت، وهذا فاجأ زملاءها."}]}
+],
+"mistakes":[
+{"x":"The woman who sitting next to me is a judge.","ok":"The woman sitting next to me is a judge.","ar":"نحتفظ بالموصول ونحذف is، فتنتج جملة غير صحيحة. إما نحذف who كلياً، أو نقول who is sitting."},
+{"x":"The hospital in that she works is new.","ok":"The hospital in which she works is new.","ar":"بعد حرف الجر نستعمل which أو whom، ولا نستعمل that أبداً."},
+{"x":"He passed the exam, what surprised everyone.","ok":"He passed the exam, which surprised everyone.","ar":"في العربية «ما» تؤدي دور «وهذا». لكن what في الإنجليزية لا تعمل موصولاً هنا؛ نستعمل which."}
+],
+"tip":"احذف who/which + is/are فيبقى V-ing أو V3. وبعد حرف الجر تذكّر: whom للأشخاص وwhich للأشياء. وwhich بعد فاصلة قد يعني «وهذا الأمر».",
+"exs":[
+{"k":"mc","q":"The documents ___ in the archive are confidential.","o":["keeping","kept","to keep"],"a":1,"why":"المعنى مبني للمجهول، فنستعمل التصريف الثالث."},
+{"k":"mc","q":"Students ___ for the scholarship must attend the interview.","o":["applying","applied","to apply"],"a":0,"why":"الطلاب هم الذين يتقدمون، والمعنى جارٍ ومبني للمعلوم: V-ing."},
+{"k":"mc","q":"The judge to ___ I spoke was very helpful.","o":["who","whom","which"],"a":1,"why":"بعد حرف الجر مع شخص نستعمل whom."},
+{"k":"mc","q":"He passed the exam, ___ surprised everyone.","o":["that","what","which"],"a":2,"why":"which بعد فاصلة تشير إلى الجملة كلها."},
+{"k":"mc","q":"The report, ___ by an independent team, shows serious problems.","o":["writing","written","was written"],"a":1,"why":"جملة موصولة مختصرة مبنية للمجهول: V3."},
+{"k":"gap","q":"The company for ___ she works is based in Oran.","a":["which"],"why":"بعد حرف الجر مع شيء نستعمل which."},
+{"k":"gap","q":"The man ___ (stand) at the door is a lawyer.","a":["standing"],"why":"جملة موصولة مختصرة مبنية للمعلوم: V-ing."},
+{"k":"gap","q":"The tools ___ (use) in the experiment were expensive.","a":["used"],"why":"الأدوات «استُعملت»، فنستعمل V3."},
+{"k":"fix","q":"The woman who sitting next to me is a judge.","bad":"who sitting","good":["sitting","who is sitting"],"why":"إما نحذف who أو نضيف is."},
+{"k":"fix","q":"The hospital in that she works is new.","bad":"in that","good":["in which"],"why":"لا نستعمل that بعد حرف الجر."},
+{"k":"order","a":"She resigned, which surprised her colleagues.","ar":"استقالت، وهذا فاجأ زملاءها."},
+{"k":"order","a":"The people living near the factory complained about the noise.","ar":"اشتكى الناس الذين يعيشون قرب المصنع من الضجيج."},
+{"k":"trans","q":"The students who are taking the exam must stay silent.","start":"The students","a":["The students taking the exam must stay silent."],"why":"نحذف who are ونبقي V-ing."},
+{"k":"trans","q":"He refused to comment, and this annoyed the journalists.","start":"He refused to comment,","a":["He refused to comment, which annoyed the journalists."],"why":"which تشير إلى الجملة كلها وتغني عن and this."}
+]}
+]

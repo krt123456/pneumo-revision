@@ -1,0 +1,854 @@
+[
+ {
+  "id": "g-a2-11",
+  "l": "A2",
+  "title": "must, have to, should, mustn't, don't have to",
+  "titleAr": "must وhave to وshould وmustn't وdon't have to",
+  "why": "هذه الأفعال تعبّر عن الواجب والنصيحة والمنع. والفرق بين mustn't وdon't have to يحيّر كثيراً من المتعلمين.",
+  "rules": [
+   {
+    "ar": "must وhave to تعنيان أن الشيء واجب. نستعمل must للقواعد التي نضعها نحن، وhave to للقواعد من الخارج مثل القانون.",
+    "form": "must + verb | have/has to + verb",
+    "ex": [
+     {
+      "en": "I must finish this report today.",
+      "ar": "يجب أن أنهي هذا التقرير اليوم."
+     },
+     {
+      "en": "Drivers have to wear a seat belt.",
+      "ar": "يجب على السائقين ربط حزام الأمان."
+     },
+     {
+      "en": "She has to get up at six.",
+      "ar": "يجب عليها أن تستيقظ في السادسة."
+     }
+    ]
+   },
+   {
+    "ar": "should تعني نصيحة، وهي أضعف من must. ونستعملها حين نقول «من الأفضل».",
+    "form": "should + verb",
+    "ex": [
+     {
+      "en": "You look tired. You should go to bed early.",
+      "ar": "تبدو متعباً. عليك أن تنام مبكراً."
+     },
+     {
+      "en": "You should drink more water.",
+      "ar": "عليك أن تشرب ماء أكثر."
+     }
+    ]
+   },
+   {
+    "ar": "mustn't تعني ممنوع. أما don't have to فتعني ليس ضرورياً، ولكن يجوز. المعنيان مختلفان تماماً.",
+    "form": "mustn't = forbidden | don't have to = not necessary",
+    "ex": [
+     {
+      "en": "You mustn't smoke here. It is dangerous.",
+      "ar": "ممنوع أن تدخن هنا. إنه خطر."
+     },
+     {
+      "en": "We don't have to pay. The museum is free.",
+      "ar": "لا نضطر إلى الدفع. المتحف مجاني."
+     }
+    ]
+   },
+   {
+    "ar": "للماضي نستعمل had to. ولا نستعمل must في الماضي بهذا المعنى.",
+    "form": "had to + verb",
+    "ex": [
+     {
+      "en": "Yesterday I had to wait an hour for the bus.",
+      "ar": "أمس اضطررت إلى الانتظار ساعة للحافلة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "You don't have to smoke here.",
+    "ok": "You mustn't smoke here.",
+    "ar": "في العربية «لا يجب» قد تعني «ممنوع» أو «غير ضروري». في الإنجليزية: mustn't للمنع، وdon't have to لعدم الضرورة."
+   },
+   {
+    "x": "She must to study harder.",
+    "ok": "She must study harder.",
+    "ar": "بعد must لا نضع to. ننسى ذلك لأن العربية تقول «يجب أن»."
+   },
+   {
+    "x": "He doesn't has to work today.",
+    "ok": "He doesn't have to work today.",
+    "ar": "بعد doesn't نستعمل have وليس has."
+   }
+  ],
+  "tip": "mustn't = ممنوع (توقف!). don't have to = لا داعي (ارتح).",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Students ___ show their ID at the exam. It is the rule.",
+    "o": [
+     "have to",
+     "should to",
+     "are must"
+    ],
+    "a": 0,
+    "why": "قاعدة من الخارج، فنستعمل have to."
+   },
+   {
+    "k": "mc",
+    "q": "You ___ smoke here. It is dangerous.",
+    "o": [
+     "don't have to",
+     "mustn't",
+     "haven't to"
+    ],
+    "a": 1,
+    "why": "الممنوع يكون بـ mustn't."
+   },
+   {
+    "k": "mc",
+    "q": "Tomorrow is a holiday, so we ___ go to work.",
+    "o": [
+     "mustn't",
+     "shouldn't to",
+     "don't have to"
+    ],
+    "a": 2,
+    "why": "ليس ضرورياً أن نذهب، فنستعمل don't have to."
+   },
+   {
+    "k": "mc",
+    "q": "You look tired. You ___ go to bed early.",
+    "o": [
+     "must to",
+     "shall to",
+     "should"
+    ],
+    "a": 2,
+    "why": "النصيحة تكون بـ should."
+   },
+   {
+    "k": "mc",
+    "q": "___ she have to work on Sundays?",
+    "o": [
+     "Do",
+     "Does",
+     "Has"
+    ],
+    "a": 1,
+    "why": "السؤال مع she يبدأ بـ Does + have to."
+   },
+   {
+    "k": "mc",
+    "q": "Yesterday I ___ wait an hour for the bus.",
+    "o": [
+     "had to",
+     "must",
+     "musted"
+    ],
+    "a": 0,
+    "why": "للماضي نستعمل had to."
+   },
+   {
+    "k": "gap",
+    "q": "You ___ (must/not) park here. It is private.",
+    "a": [
+     "mustn't",
+     "must not"
+    ],
+    "why": "الممنوع: must not."
+   },
+   {
+    "k": "gap",
+    "q": "She ___ (have to) get up at six every day.",
+    "a": [
+     "has to"
+    ],
+    "why": "مع she نقول has to."
+   },
+   {
+    "k": "gap",
+    "q": "We ___ (not/have to) pay. The museum is free.",
+    "a": [
+     "don't have to",
+     "do not have to"
+    ],
+    "why": "ليس ضرورياً: don't have to."
+   },
+   {
+    "k": "gap",
+    "q": "Yesterday we ___ (have to) leave early.",
+    "a": [
+     "had to"
+    ],
+    "why": "الماضي من have to هو had to."
+   },
+   {
+    "k": "fix",
+    "q": "She must to study harder.",
+    "bad": "must to",
+    "good": [
+     "must",
+     "has to",
+     "should"
+    ],
+    "why": "بعد must لا نضع to."
+   },
+   {
+    "k": "fix",
+    "q": "He doesn't has to work today.",
+    "bad": "doesn't has to",
+    "good": [
+     "doesn't have to",
+     "does not have to"
+    ],
+    "why": "بعد doesn't نستعمل have."
+   },
+   {
+    "k": "order",
+    "a": "You mustn't use your phone here.",
+    "ar": "ممنوع أن تستعمل هاتفك هنا."
+   },
+   {
+    "k": "order",
+    "a": "She has to wear a uniform.",
+    "ar": "يجب عليها أن ترتدي زياً موحداً."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-12",
+  "l": "A2",
+  "title": "Zero and first conditional; time clauses",
+  "titleAr": "الشرط الصفري والشرط الأول وجمل الزمن",
+  "why": "نستعمل if لنتحدث عن حقائق ولنتوقع نتائج مستقبلية. ونستعمل when وas soon as وuntil لنحدد زمن الحدث.",
+  "rules": [
+   {
+    "ar": "الشرط الصفري للحقائق الدائمة. نستعمل المضارع البسيط في الجزأين.",
+    "form": "If + present simple, present simple",
+    "ex": [
+     {
+      "en": "If you heat ice, it melts.",
+      "ar": "إذا سخّنت الجليد فإنه يذوب."
+     },
+     {
+      "en": "If you mix red and blue, you get purple.",
+      "ar": "إذا خلطت الأحمر والأزرق حصلت على البنفسجي."
+     }
+    ]
+   },
+   {
+    "ar": "الشرط الأول لشيء ممكن في المستقبل. نستعمل المضارع البسيط بعد if، وwill في النتيجة.",
+    "form": "If + present simple, will + verb",
+    "ex": [
+     {
+      "en": "If it rains tomorrow, we will stay at home.",
+      "ar": "إذا أمطرت غداً فسنبقى في البيت."
+     },
+     {
+      "en": "If you finish the report, the manager will be happy.",
+      "ar": "إذا أنهيت التقرير فسيسعد المدير."
+     }
+    ]
+   },
+   {
+    "ar": "بعد if وwhen وas soon as وuntil لا نستعمل will حتى لو المعنى مستقبل. نستعمل المضارع البسيط.",
+    "form": "when / as soon as / until + present simple",
+    "ex": [
+     {
+      "en": "I will call you as soon as I get home.",
+      "ar": "سأتصل بك فور وصولي إلى البيت."
+     },
+     {
+      "en": "Wait here until the doctor calls your name.",
+      "ar": "انتظر هنا حتى يُنادى اسمك."
+     },
+     {
+      "en": "When the film finishes, we will go home.",
+      "ar": "عندما ينتهي الفيلم سنذهب إلى البيت."
+     }
+    ]
+   },
+   {
+    "ar": "unless تعني «إذا لم». وهي مثل if ... not.",
+    "form": "unless = if ... not",
+    "ex": [
+     {
+      "en": "You won't pass unless you study.",
+      "ar": "لن تنجح ما لم تدرس."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "If it will rain, we will stay home.",
+    "ok": "If it rains, we will stay home.",
+    "ar": "في العربية الفعل بعد «إذا» قد يدل على المستقبل. في الإنجليزية لا نضع will بعد if."
+   },
+   {
+    "x": "I will call you when I will arrive.",
+    "ok": "I will call you when I arrive.",
+    "ar": "بعد when نستعمل المضارع البسيط وليس will."
+   },
+   {
+    "x": "If I will see him, I tell him.",
+    "ok": "If I see him, I will tell him.",
+    "ar": "will تذهب إلى جملة النتيجة، لا إلى جملة if."
+   }
+  ],
+  "tip": "بعد if/when/until/as soon as: بسيط. will فقط في الجزء الثاني.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "If you mix red and blue, you ___ purple.",
+    "o": [
+     "get",
+     "got",
+     "would get"
+    ],
+    "a": 0,
+    "why": "حقيقة دائمة، فنستعمل المضارع البسيط."
+   },
+   {
+    "k": "mc",
+    "q": "If it rains tomorrow, we ___ at home.",
+    "o": [
+     "stay",
+     "will stay",
+     "would stay"
+    ],
+    "a": 1,
+    "why": "شرط أول: النتيجة بـ will."
+   },
+   {
+    "k": "mc",
+    "q": "I will call you as soon as I ___ home.",
+    "o": [
+     "will get",
+     "got",
+     "get"
+    ],
+    "a": 2,
+    "why": "بعد as soon as نستعمل المضارع البسيط."
+   },
+   {
+    "k": "mc",
+    "q": "She won't pass ___ she studies harder.",
+    "o": [
+     "if",
+     "unless",
+     "when"
+    ],
+    "a": 1,
+    "why": "unless تعني if ... not."
+   },
+   {
+    "k": "mc",
+    "q": "Wait here ___ the doctor calls your name.",
+    "o": [
+     "until",
+     "while",
+     "since"
+    ],
+    "a": 0,
+    "why": "until تعني حتى."
+   },
+   {
+    "k": "mc",
+    "q": "If you ___ the report today, the manager will be happy.",
+    "o": [
+     "finish",
+     "will finish",
+     "finished"
+    ],
+    "a": 0,
+    "why": "بعد if نستعمل المضارع البسيط."
+   },
+   {
+    "k": "gap",
+    "q": "If I ___ (see) him, I will tell him.",
+    "a": [
+     "see"
+    ],
+    "why": "بعد if نستعمل المضارع البسيط."
+   },
+   {
+    "k": "gap",
+    "q": "When the film ___ (finish), we will go home.",
+    "a": [
+     "finishes"
+    ],
+    "why": "بعد when نستعمل المضارع البسيط مع s."
+   },
+   {
+    "k": "gap",
+    "q": "If it ___ (not/rain), we will play football.",
+    "a": [
+     "doesn't rain",
+     "does not rain"
+    ],
+    "why": "النفي في المضارع البسيط: doesn't."
+   },
+   {
+    "k": "gap",
+    "q": "I will wait here until you ___ (come) back.",
+    "a": [
+     "come"
+    ],
+    "why": "بعد until نستعمل المضارع البسيط."
+   },
+   {
+    "k": "fix",
+    "q": "If it will rain, we will stay home.",
+    "bad": "will rain",
+    "good": [
+     "rains"
+    ],
+    "why": "بعد if لا نضع will."
+   },
+   {
+    "k": "fix",
+    "q": "I will call you when I will arrive.",
+    "bad": "will arrive",
+    "good": [
+     "arrive"
+    ],
+    "why": "بعد when لا نضع will."
+   },
+   {
+    "k": "order",
+    "a": "If you study hard, you will pass.",
+    "ar": "إذا درست بجد فستنجح."
+   },
+   {
+    "k": "order",
+    "a": "I will call you when I arrive.",
+    "ar": "سأتصل بك عندما أصل."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-13",
+  "l": "A2",
+  "title": "Verb + -ing or to-infinitive",
+  "titleAr": "الفعل متبوعاً بـ -ing أو to",
+  "why": "بعد بعض الأفعال نضع الفعل الثاني مع ing، وبعد أفعال أخرى نضع to. لا توجد قاعدة بسيطة، لكن هناك قوائم قصيرة نحفظها.",
+  "rules": [
+   {
+    "ar": "بعد هذه الأفعال نستعمل ing: enjoy, finish, mind, avoid, keep, stop.",
+    "form": "enjoy / finish / mind / avoid / keep + -ing",
+    "ex": [
+     {
+      "en": "I enjoy playing football with my friends.",
+      "ar": "أستمتع بلعب كرة القدم مع أصدقائي."
+     },
+     {
+      "en": "She avoids eating fast food.",
+      "ar": "هي تتجنب تناول الوجبات السريعة."
+     },
+     {
+      "en": "He keeps asking the same question.",
+      "ar": "هو يواصل طرح السؤال نفسه."
+     }
+    ]
+   },
+   {
+    "ar": "بعد هذه الأفعال نستعمل to: want, need, hope, decide, plan, learn, would like.",
+    "form": "want / need / hope / decide / plan / learn + to",
+    "ex": [
+     {
+      "en": "I want to learn French.",
+      "ar": "أريد أن أتعلم الفرنسية."
+     },
+     {
+      "en": "They decided to start the project.",
+      "ar": "قرروا بدء المشروع."
+     },
+     {
+      "en": "She hopes to study abroad.",
+      "ar": "هي تأمل أن تدرس في الخارج."
+     }
+    ]
+   },
+   {
+    "ar": "like وlove وhate وstart نستطيع بعدها استعمال ing أو to بمعنى واحد تقريباً.",
+    "form": "like / love / hate / start + -ing or to",
+    "ex": [
+     {
+      "en": "I like reading. = I like to read.",
+      "ar": "أحب القراءة."
+     },
+     {
+      "en": "It started raining. = It started to rain.",
+      "ar": "بدأت تمطر."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I enjoy to read books.",
+    "ok": "I enjoy reading books.",
+    "ar": "في العربية نقول «أستمتع بأن أقرأ». في الإنجليزية بعد enjoy نضع ing."
+   },
+   {
+    "x": "She decided going home early.",
+    "ok": "She decided to go home early.",
+    "ar": "decide من الأفعال التي تأخذ to، وليس ing."
+   },
+   {
+    "x": "He wants going to the cinema.",
+    "ok": "He wants to go to the cinema.",
+    "ar": "want تأخذ to دائماً."
+   }
+  ],
+  "tip": "enjoy/finish/mind/avoid/keep = ing. want/need/hope/decide/plan = to.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I enjoy ___ in the evening.",
+    "o": [
+     "walking",
+     "to walk",
+     "walk"
+    ],
+    "a": 0,
+    "why": "بعد enjoy نستعمل ing."
+   },
+   {
+    "k": "mc",
+    "q": "She wants ___ a doctor.",
+    "o": [
+     "be",
+     "to be",
+     "being"
+    ],
+    "a": 1,
+    "why": "بعد want نستعمل to."
+   },
+   {
+    "k": "mc",
+    "q": "They decided ___ the project.",
+    "o": [
+     "starting",
+     "start",
+     "to start"
+    ],
+    "a": 2,
+    "why": "بعد decide نستعمل to."
+   },
+   {
+    "k": "mc",
+    "q": "Would you mind ___ the window?",
+    "o": [
+     "close",
+     "to close",
+     "closing"
+    ],
+    "a": 2,
+    "why": "بعد mind نستعمل ing."
+   },
+   {
+    "k": "mc",
+    "q": "He finished ___ the report at six.",
+    "o": [
+     "to write",
+     "writing",
+     "write"
+    ],
+    "a": 1,
+    "why": "بعد finish نستعمل ing."
+   },
+   {
+    "k": "mc",
+    "q": "She hopes ___ abroad next year.",
+    "o": [
+     "to study",
+     "studying",
+     "study"
+    ],
+    "a": 0,
+    "why": "بعد hope نستعمل to."
+   },
+   {
+    "k": "gap",
+    "q": "I want ___ (learn) French.",
+    "a": [
+     "to learn"
+    ],
+    "why": "بعد want نستعمل to."
+   },
+   {
+    "k": "gap",
+    "q": "She avoids ___ (eat) fast food.",
+    "a": [
+     "eating"
+    ],
+    "why": "بعد avoid نستعمل ing."
+   },
+   {
+    "k": "gap",
+    "q": "We need ___ (buy) some bread.",
+    "a": [
+     "to buy"
+    ],
+    "why": "بعد need نستعمل to."
+   },
+   {
+    "k": "gap",
+    "q": "He keeps ___ (ask) the same question.",
+    "a": [
+     "asking"
+    ],
+    "why": "بعد keep نستعمل ing."
+   },
+   {
+    "k": "fix",
+    "q": "I enjoy to read books.",
+    "bad": "to read",
+    "good": [
+     "reading"
+    ],
+    "why": "بعد enjoy نستعمل ing."
+   },
+   {
+    "k": "fix",
+    "q": "She decided going home early.",
+    "bad": "going",
+    "good": [
+     "to go"
+    ],
+    "why": "بعد decide نستعمل to + الفعل الأصلي."
+   },
+   {
+    "k": "order",
+    "a": "I enjoy playing football with my friends.",
+    "ar": "أستمتع بلعب كرة القدم مع أصدقائي."
+   },
+   {
+    "k": "order",
+    "a": "He decided to study law.",
+    "ar": "قرر أن يدرس القانون."
+   }
+  ]
+ },
+ {
+  "id": "g-a2-14",
+  "l": "A2",
+  "title": "Prepositions of time and place (in, on, at)",
+  "titleAr": "حروف الجر للزمان والمكان (in وon وat)",
+  "why": "في العربية نستعمل «في» لكل شيء تقريباً. أما الإنجليزية فتفرّق بين in وon وat. تحتاج إلى حفظ الأنماط.",
+  "rules": [
+   {
+    "ar": "للزمان: at للساعة واللحظة، on للأيام والتواريخ، in للشهور والفصول والسنوات والأجزاء الكبيرة من اليوم.",
+    "form": "at + time | on + day/date | in + month/year/season",
+    "ex": [
+     {
+      "en": "The lesson starts at nine o'clock.",
+      "ar": "يبدأ الدرس في التاسعة."
+     },
+     {
+      "en": "We have a meeting on Monday.",
+      "ar": "لدينا اجتماع يوم الاثنين."
+     },
+     {
+      "en": "My birthday is in March.",
+      "ar": "عيد ميلادي في مارس."
+     }
+    ]
+   },
+   {
+    "ar": "هناك تعابير ثابتة: at night, at the weekend، لكن in the morning وin the afternoon وin the evening.",
+    "form": "at night | in the morning",
+    "ex": [
+     {
+      "en": "I study at night.",
+      "ar": "أدرس في الليل."
+     },
+     {
+      "en": "She works in the morning.",
+      "ar": "هي تعمل في الصباح."
+     }
+    ]
+   },
+   {
+    "ar": "للمكان: at لنقطة محددة، on لسطح، in لمكان محاط أو مدينة أو بلد.",
+    "form": "at + point | on + surface | in + enclosed area/city/country",
+    "ex": [
+     {
+      "en": "He is waiting at the bus stop.",
+      "ar": "هو ينتظر عند محطة الحافلة."
+     },
+     {
+      "en": "The keys are on the table.",
+      "ar": "المفاتيح على الطاولة."
+     },
+     {
+      "en": "She lives in a small town.",
+      "ar": "هي تعيش في بلدة صغيرة."
+     }
+    ]
+   },
+   {
+    "ar": "بعد arrive نستعمل at للمكان الصغير وin للمدينة. ولا نستعمل to.",
+    "form": "arrive at / arrive in",
+    "ex": [
+     {
+      "en": "She arrived at the station at six.",
+      "ar": "وصلت إلى المحطة في السادسة."
+     },
+     {
+      "en": "We arrived in Oran in the evening.",
+      "ar": "وصلنا إلى وهران مساءً."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I will see you in Monday.",
+    "ok": "I will see you on Monday.",
+    "ar": "في العربية «في يوم الاثنين». في الإنجليزية للأيام نستعمل on."
+   },
+   {
+    "x": "She arrived to the station.",
+    "ok": "She arrived at the station.",
+    "ar": "arrive لا تأخذ to. نستعمل at أو in."
+   },
+   {
+    "x": "I study in night.",
+    "ok": "I study at night.",
+    "ar": "night استثناء: نقول at night وليس in night."
+   }
+  ],
+  "tip": "at = نقطة. on = سطح/يوم. in = داخل/مدة طويلة.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The lesson starts ___ nine o'clock.",
+    "o": [
+     "in",
+     "on",
+     "at"
+    ],
+    "a": 2,
+    "why": "مع الساعة نستعمل at."
+   },
+   {
+    "k": "mc",
+    "q": "My birthday is ___ March.",
+    "o": [
+     "in",
+     "at",
+     "on"
+    ],
+    "a": 0,
+    "why": "مع الشهور نستعمل in."
+   },
+   {
+    "k": "mc",
+    "q": "We have a meeting ___ Monday.",
+    "o": [
+     "at",
+     "on",
+     "in"
+    ],
+    "a": 1,
+    "why": "مع الأيام نستعمل on."
+   },
+   {
+    "k": "mc",
+    "q": "The keys are ___ the table.",
+    "o": [
+     "at",
+     "in",
+     "on"
+    ],
+    "a": 2,
+    "why": "مفاتيح على السطح، فنستعمل on."
+   },
+   {
+    "k": "mc",
+    "q": "He is waiting ___ the bus stop.",
+    "o": [
+     "in",
+     "at",
+     "on"
+    ],
+    "a": 1,
+    "why": "مكان محدد كنقطة، فنستعمل at."
+   },
+   {
+    "k": "mc",
+    "q": "She lives ___ a small town near Oran.",
+    "o": [
+     "in",
+     "at",
+     "on"
+    ],
+    "a": 0,
+    "why": "مع البلدة أو المدينة نستعمل in."
+   },
+   {
+    "k": "gap",
+    "q": "I usually study ___ night.",
+    "a": [
+     "at"
+    ],
+    "why": "نقول at night."
+   },
+   {
+    "k": "gap",
+    "q": "Her exam is ___ Friday.",
+    "a": [
+     "on"
+    ],
+    "why": "مع الأيام نستعمل on."
+   },
+   {
+    "k": "gap",
+    "q": "We go to the beach ___ summer.",
+    "a": [
+     "in"
+    ],
+    "why": "مع الفصول نستعمل in."
+   },
+   {
+    "k": "gap",
+    "q": "The picture is ___ the wall.",
+    "a": [
+     "on"
+    ],
+    "why": "الصورة على سطح الجدار، فنستعمل on."
+   },
+   {
+    "k": "fix",
+    "q": "I will see you in Monday.",
+    "bad": "in",
+    "good": [
+     "on"
+    ],
+    "why": "مع الأيام نستعمل on."
+   },
+   {
+    "k": "fix",
+    "q": "She arrived to the station at six.",
+    "bad": "to",
+    "good": [
+     "at"
+    ],
+    "why": "بعد arrive نستعمل at وليس to."
+   },
+   {
+    "k": "order",
+    "a": "The meeting is on Tuesday morning.",
+    "ar": "الاجتماع صباح يوم الثلاثاء."
+   },
+   {
+    "k": "order",
+    "a": "My exam is in June.",
+    "ar": "امتحاني في يونيو."
+   }
+  ]
+ }
+]

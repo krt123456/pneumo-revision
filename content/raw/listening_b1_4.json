@@ -1,0 +1,728 @@
+[
+ {
+  "id": "l-b1-18",
+  "l": "B1",
+  "title": "A short lecture: what artificial intelligence is",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, everyone. In today's lecture, I would like to explain what artificial intelligence is, and what it is not."
+   },
+   {
+    "s": "A",
+    "t": "Artificial intelligence, or AI, is the ability of a computer system to do tasks that normally need human thinking."
+   },
+   {
+    "s": "A",
+    "t": "For example, it can recognise a face in a photo, translate a sentence, or suggest a film that you might like."
+   },
+   {
+    "s": "A",
+    "t": "Most AI today is based on machine learning. In traditional programming, a person writes exact rules."
+   },
+   {
+    "s": "A",
+    "t": "In machine learning, the computer receives thousands or millions of examples and finds the patterns by itself."
+   },
+   {
+    "s": "A",
+    "t": "If you show it a million photos of cats, it learns what a cat looks like."
+   },
+   {
+    "s": "A",
+    "t": "That means that the quality of the data is very important. If the examples are poor or unfair, the system will make poor or unfair decisions."
+   },
+   {
+    "s": "A",
+    "t": "This problem is called bias."
+   },
+   {
+    "s": "A",
+    "t": "Today, AI is used in many fields. In medicine, it helps doctors to read scans. In law, it can search thousands of documents in minutes."
+   },
+   {
+    "s": "A",
+    "t": "In banks, it can spot unusual payments that may be fraud."
+   },
+   {
+    "s": "A",
+    "t": "However, AI does not understand the world like a person. It does not have feelings, and it can make mistakes with great confidence."
+   },
+   {
+    "s": "A",
+    "t": "So, humans must check important decisions."
+   },
+   {
+    "s": "A",
+    "t": "In the next lecture, we will look at some ethical questions. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "artificial intelligence",
+    "ar": "ذكاء اصطناعي"
+   },
+   {
+    "w": "pattern",
+    "ar": "نمط"
+   },
+   {
+    "w": "bias",
+    "ar": "تحيّز"
+   },
+   {
+    "w": "fraud",
+    "ar": "احتيال"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How does the lecturer define AI?",
+    "o": [
+     "A computer system doing tasks that need human thinking",
+     "A robot with feelings",
+     "A type of internet"
+    ],
+    "a": 0,
+    "why": "نظام حاسوبي يؤدي مهام تحتاج تفكيراً بشرياً."
+   },
+   {
+    "k": "mc",
+    "q": "What happens in machine learning?",
+    "o": [
+     "A person writes every rule",
+     "The computer finds patterns in examples",
+     "The computer copies a human"
+    ],
+    "a": 1,
+    "why": "الحاسوب يجد الأنماط من أمثلة كثيرة."
+   },
+   {
+    "k": "gap",
+    "q": "If you show a computer a million photos of ___, it learns what they look like.",
+    "a": [
+     "cats"
+    ],
+    "why": "استخدم مثال القطط."
+   },
+   {
+    "k": "mc",
+    "q": "What is bias?",
+    "o": [
+     "Unfair decisions caused by poor data",
+     "A fast computer",
+     "A kind of photo"
+    ],
+    "a": 0,
+    "why": "قرارات غير عادلة بسبب بيانات سيئة."
+   },
+   {
+    "k": "gap",
+    "q": "In medicine, AI helps doctors to read ___.",
+    "a": [
+     "scans"
+    ],
+    "why": "يساعد الأطباء على قراءة الصور الطبية."
+   },
+   {
+    "k": "tfng",
+    "q": "AI can search thousands of legal documents in minutes.",
+    "a": "T",
+    "why": "قال ذلك عن مجال القانون."
+   },
+   {
+    "k": "tfng",
+    "q": "The lecturer says AI understands the world like a person.",
+    "a": "F",
+    "why": "قال إنه لا يفهم العالم مثل الإنسان."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-19",
+  "l": "B1",
+  "title": "Arranging a doctor's appointment",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, Oakfield Medical Centre. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hello. I would like to make an appointment with Doctor Evans, please. I have had a bad cough for ten days, and it is not getting better."
+   },
+   {
+    "s": "A",
+    "t": "I am sorry to hear that. Are you a patient with us?"
+   },
+   {
+    "s": "B",
+    "t": "Yes. My name is Salma Karim. That is S, A, L, M, A, and K, A, R, I, M."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Salma. Doctor Evans is very busy this week. The first appointment is on Thursday at two fifteen."
+   },
+   {
+    "s": "B",
+    "t": "Thursday is a problem for me, because I have an exam in the afternoon. Is there anything earlier?"
+   },
+   {
+    "s": "A",
+    "t": "There is one free time tomorrow at nine forty, but it is with Doctor Brown, not Doctor Evans."
+   },
+   {
+    "s": "B",
+    "t": "That is fine. I only want to see a doctor soon."
+   },
+   {
+    "s": "A",
+    "t": "Do you have a high temperature or trouble breathing?"
+   },
+   {
+    "s": "B",
+    "t": "No, but I wake up at night because of the cough."
+   },
+   {
+    "s": "A",
+    "t": "Okay. Please arrive ten minutes early, and bring your medical card. If it gets worse before tomorrow, call us at once or go to the emergency department."
+   },
+   {
+    "s": "B",
+    "t": "I will. Thank you."
+   },
+   {
+    "s": "A",
+    "t": "You're welcome. See you tomorrow, Salma."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "appointment",
+    "ar": "موعد"
+   },
+   {
+    "w": "cough",
+    "ar": "سعال"
+   },
+   {
+    "w": "patient",
+    "ar": "مريض"
+   },
+   {
+    "w": "emergency",
+    "ar": "طوارئ"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The patient has had a cough for ___ days.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "قالت: for ten days."
+   },
+   {
+    "k": "mc",
+    "q": "When is the first appointment with Doctor Evans?",
+    "o": [
+     "Tomorrow at 9.40",
+     "Thursday at 2.15",
+     "Friday at 9.15"
+    ],
+    "a": 1,
+    "why": "أقرب موعد الخميس الساعة 2:15."
+   },
+   {
+    "k": "tfng",
+    "q": "Salma chooses the Thursday appointment.",
+    "a": "F",
+    "why": "لديها امتحان بعد الظهر يوم الخميس."
+   },
+   {
+    "k": "mc",
+    "q": "Who will she see?",
+    "o": [
+     "Doctor Evans",
+     "Doctor Brown",
+     "A nurse"
+    ],
+    "a": 1,
+    "why": "ستقابل الدكتور براون غداً."
+   },
+   {
+    "k": "mc",
+    "q": "Why does she wake up at night?",
+    "o": [
+     "Because of the cough",
+     "Because of a headache",
+     "Because of a fever"
+    ],
+    "a": 0,
+    "why": "بسبب السعال."
+   },
+   {
+    "k": "gap",
+    "q": "She must arrive ___ minutes early.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "عليها الوصول قبل عشر دقائق."
+   },
+   {
+    "k": "gap",
+    "q": "She should bring her ___ card.",
+    "a": [
+     "medical"
+    ],
+    "why": "تحضر بطاقتها الطبية."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-20",
+  "l": "B1",
+  "title": "A volunteer coordinator explains tasks",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello, everyone, and thank you for volunteering for the Community Food Day. My name is Rachel, and I am the volunteer coordinator."
+   },
+   {
+    "s": "A",
+    "t": "Let me explain what you will be doing."
+   },
+   {
+    "s": "A",
+    "t": "The event takes place this Saturday at the community hall, from eight in the morning until four in the afternoon."
+   },
+   {
+    "s": "A",
+    "t": "Please arrive by seven thirty so that we can give you a short briefing."
+   },
+   {
+    "s": "A",
+    "t": "There are four main jobs. The first team will unload the trucks and sort the food into boxes."
+   },
+   {
+    "s": "A",
+    "t": "This work is heavy, so we need strong volunteers, and please wear comfortable shoes."
+   },
+   {
+    "s": "A",
+    "t": "The second team will work at the registration table. They will welcome families and write down their names and the number of people in each household."
+   },
+   {
+    "s": "A",
+    "t": "The third team will pack the boxes. Each box should include rice, pasta, oil, canned vegetables and one fruit item. A checklist will be on the wall."
+   },
+   {
+    "s": "A",
+    "t": "The fourth team will help elderly people to carry their boxes to their cars or to the bus stop."
+   },
+   {
+    "s": "A",
+    "t": "Lunch will be provided at noon, and you will have a thirty-minute break. Everyone will receive a green T-shirt."
+   },
+   {
+    "s": "A",
+    "t": "Please wear it all day, so people can recognise you."
+   },
+   {
+    "s": "A",
+    "t": "If you can't come, please call me on Thursday at the latest. Thank you, and see you on Saturday."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "volunteer",
+    "ar": "متطوع"
+   },
+   {
+    "w": "briefing",
+    "ar": "إحاطة موجزة"
+   },
+   {
+    "w": "household",
+    "ar": "أسرة"
+   },
+   {
+    "w": "elderly",
+    "ar": "كبار السن"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The volunteer coordinator's name is ___.",
+    "a": [
+     "Rachel"
+    ],
+    "why": "قالت: My name is Rachel."
+   },
+   {
+    "k": "mc",
+    "q": "What time should volunteers arrive?",
+    "o": [
+     "At 7.30",
+     "At 8.00",
+     "At 8.30"
+    ],
+    "a": 0,
+    "why": "الوصول قبل السابعة والنصف."
+   },
+   {
+    "k": "mc",
+    "q": "What will the first team do?",
+    "o": [
+     "Unload trucks and sort food",
+     "Pack boxes",
+     "Welcome families"
+    ],
+    "a": 0,
+    "why": "تفريغ الشاحنات وفرز الطعام."
+   },
+   {
+    "k": "mc",
+    "q": "What does the registration team write down?",
+    "o": [
+     "Phone numbers",
+     "Names and the number of people in each household",
+     "Car numbers"
+    ],
+    "a": 1,
+    "why": "أسماء الأسر وعدد أفرادها."
+   },
+   {
+    "k": "tfng",
+    "q": "Each box contains meat and fruit juice.",
+    "a": "F",
+    "why": "الصندوق فيه أرز ومعكرونة وزيت وخضار معلبة وثمرة فاكهة."
+   },
+   {
+    "k": "gap",
+    "q": "Lunch is at ___.",
+    "a": [
+     "noon",
+     "12",
+     "twelve",
+     "12.00",
+     "12:00"
+    ],
+    "why": "الغداء عند الظهر."
+   },
+   {
+    "k": "mc",
+    "q": "What colour is the T-shirt?",
+    "o": [
+     "Blue",
+     "Green",
+     "White"
+    ],
+    "a": 1,
+    "why": "القميص أخضر."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-21",
+  "l": "B1",
+  "title": "A short lecture: how a trial works",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello, and welcome to this introduction to the law. Today, I will explain, step by step, how a criminal trial works."
+   },
+   {
+    "s": "A",
+    "t": "A trial begins when the prosecutor presents the charge. The prosecutor represents the state, and must prove that the accused person is guilty."
+   },
+   {
+    "s": "A",
+    "t": "In most legal systems, the accused is considered innocent until this is proved."
+   },
+   {
+    "s": "A",
+    "t": "Next, the defence lawyer speaks. This lawyer protects the rights of the accused, and may ask the court to reject weak evidence."
+   },
+   {
+    "s": "A",
+    "t": "After that, both sides call witnesses. A witness is a person who saw something or knows something about the case."
+   },
+   {
+    "s": "A",
+    "t": "Each witness gives evidence under oath, which means that he or she promises to tell the truth."
+   },
+   {
+    "s": "A",
+    "t": "Then the lawyers can question the witness, and this is called cross-examination."
+   },
+   {
+    "s": "A",
+    "t": "Experts may also be invited. For example, a doctor may explain an injury, or a specialist may explain bank records."
+   },
+   {
+    "s": "A",
+    "t": "When all the evidence has been heard, each side gives a closing speech. Finally, the judge, or in some systems a jury of ordinary citizens, decides."
+   },
+   {
+    "s": "A",
+    "t": "If the person is found guilty, the judge decides on the punishment. If not, the accused goes free."
+   },
+   {
+    "s": "A",
+    "t": "The accused may appeal to a higher court if he or she believes that there was a mistake."
+   },
+   {
+    "s": "A",
+    "t": "In the next lecture, we will study appeals in more detail."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "prosecutor",
+    "ar": "المدّعي العام"
+   },
+   {
+    "w": "witness",
+    "ar": "شاهد"
+   },
+   {
+    "w": "oath",
+    "ar": "قَسَم"
+   },
+   {
+    "w": "appeal",
+    "ar": "استئناف"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Who must prove that the accused is guilty?",
+    "o": [
+     "The defence lawyer",
+     "The prosecutor",
+     "The witness"
+    ],
+    "a": 1,
+    "why": "المدعي العام هو من يثبت الذنب."
+   },
+   {
+    "k": "tfng",
+    "q": "The accused is considered innocent until proved guilty.",
+    "a": "T",
+    "why": "هذا هو المبدأ في معظم النظم."
+   },
+   {
+    "k": "mc",
+    "q": "What is the job of the defence lawyer?",
+    "o": [
+     "To protect the rights of the accused",
+     "To decide the punishment",
+     "To explain bank records"
+    ],
+    "a": 0,
+    "why": "يحمي حقوق المتهم."
+   },
+   {
+    "k": "gap",
+    "q": "A witness gives evidence under ___.",
+    "a": [
+     "oath"
+    ],
+    "why": "الشاهد يدلي بشهادته تحت القسم."
+   },
+   {
+    "k": "gap",
+    "q": "Questioning a witness is called ___-examination.",
+    "a": [
+     "cross"
+    ],
+    "why": "يُسمى استجواب الشهود cross-examination."
+   },
+   {
+    "k": "mc",
+    "q": "Who decides the verdict in some systems?",
+    "o": [
+     "A jury",
+     "A police officer",
+     "A teacher"
+    ],
+    "a": 0,
+    "why": "في بعض النظم هيئة محلفين."
+   },
+   {
+    "k": "mc",
+    "q": "What may the accused do if he thinks there was a mistake?",
+    "o": [
+     "Appeal to a higher court",
+     "Leave the court",
+     "Call the police"
+    ],
+    "a": 0,
+    "why": "يستأنف أمام محكمة أعلى."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-22",
+  "l": "B1",
+  "title": "Two friends compare phones",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hey, Yasmin, is that a new phone? It looks different from your old one."
+   },
+   {
+    "s": "B",
+    "t": "Yes, I bought it last month. My old one was four years old, and the battery was terrible. It only lasted half a day."
+   },
+   {
+    "s": "A",
+    "t": "How is the new one?"
+   },
+   {
+    "s": "B",
+    "t": "Much better. The battery lasts almost two days, and the camera is excellent. Look at this photo of the sea."
+   },
+   {
+    "s": "A",
+    "t": "Wow, it is really clear. I have the same brand, but mine takes poor pictures at night."
+   },
+   {
+    "s": "B",
+    "t": "How old is yours?"
+   },
+   {
+    "s": "A",
+    "t": "Two years. The screen is cracked, as you can see, and it is getting slower and slower."
+   },
+   {
+    "s": "B",
+    "t": "Why don't you change it? Are the new models very expensive?"
+   },
+   {
+    "s": "A",
+    "t": "Mine would be about six hundred pounds, which is too much for me. I am thinking about buying a second-hand one for two hundred."
+   },
+   {
+    "s": "B",
+    "t": "That is a good idea, but be careful. Make sure that the battery is still in good condition and that the phone is not locked to one network."
+   },
+   {
+    "s": "A",
+    "t": "Thanks, I will remember that. How much was yours?"
+   },
+   {
+    "s": "B",
+    "t": "It cost four hundred and fifty, but I paid in monthly instalments, so it didn't feel so expensive."
+   },
+   {
+    "s": "A",
+    "t": "Maybe I should do the same."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "battery",
+    "ar": "بطارية"
+   },
+   {
+    "w": "cracked",
+    "ar": "مشقوق"
+   },
+   {
+    "w": "second-hand",
+    "ar": "مستعمل"
+   },
+   {
+    "w": "instalment",
+    "ar": "قسط"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why did Yasmin change her phone?",
+    "o": [
+     "The battery was terrible",
+     "The screen broke",
+     "She lost it"
+    ],
+    "a": 0,
+    "why": "البطارية كانت سيئة."
+   },
+   {
+    "k": "gap",
+    "q": "Her new battery lasts almost ___ days.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "تدوم نحو يومين."
+   },
+   {
+    "k": "tfng",
+    "q": "Her friend's camera works well at night.",
+    "a": "F",
+    "why": "صور صديقها سيئة في الليل."
+   },
+   {
+    "k": "mc",
+    "q": "What is wrong with the friend's phone?",
+    "o": [
+     "The screen is cracked and it is slow",
+     "It has no camera",
+     "It is too heavy"
+    ],
+    "a": 0,
+    "why": "الشاشة مشقوقة والهاتف بطيء."
+   },
+   {
+    "k": "gap",
+    "q": "A new model would cost about ___ pounds.",
+    "a": [
+     "600",
+     "six hundred"
+    ],
+    "why": "قال: about six hundred pounds."
+   },
+   {
+    "k": "mc",
+    "q": "What advice does Yasmin give about second-hand phones?",
+    "o": [
+     "Check the battery and that it is not locked",
+     "Buy the cheapest",
+     "Buy only in shops"
+    ],
+    "a": 0,
+    "why": "تأكد من البطارية وأنه غير مقفل على شبكة."
+   },
+   {
+    "k": "gap",
+    "q": "Yasmin's phone cost ___ pounds.",
+    "a": [
+     "450",
+     "four hundred and fifty",
+     "four hundred fifty"
+    ],
+    "why": "سعره أربعمئة وخمسون جنيهاً."
+   }
+  ]
+ }
+]

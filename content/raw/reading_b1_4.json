@@ -1,0 +1,434 @@
+[
+ {
+  "id": "r-b1-13",
+  "l": "B1",
+  "title": "Why Honesty Matters in Public Service",
+  "topic": "government",
+  "paras": [
+   "Public servants work for everyone. They collect taxes, run hospitals, issue licences and build roads. Because they look after public money and make decisions that change people's lives, honesty is not an extra quality in their job. It is the foundation of it. When a public servant is honest, citizens can trust that the rules are the same for every person, rich or poor.",
+   "Imagine a clerk who asks for a small gift before he signs a building permit. One person pays, and his project moves forward. Another person refuses, and his papers stay on the desk for months. This is unfair, and it also makes the whole system slow and expensive. Over time, people stop believing that the office exists to help them, and they start to look for shortcuts instead.",
+   "Dishonesty also wastes money. If a manager chooses a company because it is owned by a friend, and not because it offers the best price, the government pays more for a worse road or a weaker bridge. The extra cost comes from the pockets of ordinary taxpayers. In the end, schools, clinics and public transport receive less money than they need.",
+   "Fortunately, there are ways to protect honesty. Clear rules make it easier to see what is allowed. Public contracts can be published online, so that journalists and citizens can check them. Workers who report wrongdoing should be protected from punishment, and officials should explain their decisions in simple language. Training also helps, but the most important factor is the example set by leaders. When a director follows the rules every day, the staff understand that honesty is expected, not optional. Trust takes years to build, but it can be lost in a single scandal."
+  ],
+  "gloss": [
+   {
+    "w": "licence",
+    "ar": "رخصة"
+   },
+   {
+    "w": "permit",
+    "ar": "تصريح، ترخيص"
+   },
+   {
+    "w": "shortcut",
+    "ar": "طريق مختصر"
+   },
+   {
+    "w": "taxpayer",
+    "ar": "دافع الضرائب"
+   },
+   {
+    "w": "wrongdoing",
+    "ar": "مخالفة، سلوك خاطئ"
+   },
+   {
+    "w": "scandal",
+    "ar": "فضيحة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "According to the text, why is honesty so important for public servants?",
+    "o": [
+     "They earn more money than other workers.",
+     "They look after public money and affect people's lives.",
+     "They work only with foreign companies."
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: يديرون المال العام وقراراتهم تؤثر في حياة الناس."
+   },
+   {
+    "k": "mc",
+    "q": "What happens when one person pays for a permit and another refuses?",
+    "o": [
+     "Both projects move forward.",
+     "Both people get a refund.",
+     "One project moves and the other is delayed."
+    ],
+    "a": 2,
+    "why": "الفقرة الثانية: من يدفع تتقدم معاملته ومن يرفض تتأخر أوراقه."
+   },
+   {
+    "k": "mc",
+    "q": "Which of these helps to protect honesty?",
+    "o": [
+     "Keeping contracts secret",
+     "Protecting workers who report wrongdoing",
+     "Giving officials larger gifts"
+    ],
+    "a": 1,
+    "why": "الفقرة الرابعة: يجب حماية من يبلّغ عن المخالفات."
+   },
+   {
+    "k": "tfng",
+    "q": "Dishonest choices can make the government pay more for public works.",
+    "a": "T",
+    "why": "الفقرة الثالثة: اختيار شركة صديق قد يرفع التكلفة."
+   },
+   {
+    "k": "tfng",
+    "q": "Honest rules are the same in every country in the world.",
+    "a": "NG",
+    "why": "النص لا يتحدث عن القواعد في كل دول العالم."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer says that training is more important than the example of leaders.",
+    "a": "F",
+    "why": "الفقرة الرابعة: أهم عامل هو قدوة القادة وليس التدريب."
+   },
+   {
+    "k": "gap",
+    "q": "Public contracts can be published ___ so that citizens can check them.",
+    "a": [
+     "online"
+    ],
+    "why": "الفقرة الرابعة: تُنشر العقود على الإنترنت."
+   },
+   {
+    "k": "gap",
+    "q": "Trust takes years to build, but it can be lost in a single ___.",
+    "a": [
+     "scandal"
+    ],
+    "why": "الجملة الأخيرة من الفقرة الرابعة."
+   }
+  ],
+  "sumAr": "النزاهة أساس العمل في الخدمة العامة لأن الموظفين يديرون المال العام ويؤثرون في حياة الناس. الفساد يسبب الظلم وهدر المال، ويمكن حمايتها بقواعد واضحة وشفافية وحماية المبلّغين وقدوة القادة."
+ },
+ {
+  "id": "r-b1-14",
+  "l": "B1",
+  "title": "What Does a Defence Lawyer Do?",
+  "topic": "law",
+  "paras": [
+   "When a person is accused of a crime, he or she does not have to face the court alone. A defence lawyer is a professional who protects the rights of the accused. Many people think that a defence lawyer simply tries to free guilty people, but this is a wrong idea. The real aim is to make sure that the trial is fair and that the law is followed at every step.",
+   "The work begins long before the hearing. First, the lawyer meets the client and listens carefully to his or her version of events. Then the lawyer reads the police reports, studies the evidence and talks to witnesses. Sometimes he finds mistakes, for example a document that is missing or a statement that does not match other facts. These details can change the result of a case.",
+   "In court, the lawyer speaks for the client. She asks questions to the witnesses of the other side and tests whether their stories are reliable. She also explains the law to the judge and argues that the evidence is not strong enough. If the client is found guilty, the lawyer can ask for a lighter punishment or help to prepare an appeal to a higher court.",
+   "A good defence lawyer needs several skills. She must be calm under pressure, write clearly and speak with confidence. She must also keep everything the client says secret, because trust is essential in this job. Society needs defence lawyers because an innocent person can be accused by mistake. Without proper defence, courts could make serious errors, and nobody would feel safe. For this reason, a fair legal system gives every accused person the right to a lawyer, even if he cannot pay for one."
+  ],
+  "gloss": [
+   {
+    "w": "accused",
+    "ar": "المتَّهم"
+   },
+   {
+    "w": "trial",
+    "ar": "محاكمة"
+   },
+   {
+    "w": "witness",
+    "ar": "شاهد"
+   },
+   {
+    "w": "reliable",
+    "ar": "موثوق"
+   },
+   {
+    "w": "appeal",
+    "ar": "استئناف"
+   },
+   {
+    "w": "innocent",
+    "ar": "بريء"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the real aim of a defence lawyer, according to the text?",
+    "o": [
+     "To free every client",
+     "To make sure the trial is fair",
+     "To punish the witnesses"
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: الهدف ضمان محاكمة عادلة واتباع القانون."
+   },
+   {
+    "k": "mc",
+    "q": "What does the lawyer do first?",
+    "o": [
+     "Meets the client and listens to his or her story",
+     "Asks the judge for a lighter punishment",
+     "Prepares an appeal"
+    ],
+    "a": 0,
+    "why": "الفقرة الثانية: يبدأ العمل بلقاء الموكّل والاستماع إليه."
+   },
+   {
+    "k": "mc",
+    "q": "Why must a defence lawyer keep the client's words secret?",
+    "o": [
+     "Because the law is difficult",
+     "Because the police ask for it",
+     "Because trust is essential"
+    ],
+    "a": 2,
+    "why": "الفقرة الرابعة: الثقة أساسية في هذه المهنة."
+   },
+   {
+    "k": "tfng",
+    "q": "A lawyer may find a mistake in the police documents.",
+    "a": "T",
+    "why": "الفقرة الثانية: قد يجد المحامي أخطاء في المستندات."
+   },
+   {
+    "k": "tfng",
+    "q": "Defence lawyers earn more money than other lawyers.",
+    "a": "NG",
+    "why": "النص لا يذكر دخل المحامين."
+   },
+   {
+    "k": "tfng",
+    "q": "If the client is found guilty, the lawyer can do nothing more.",
+    "a": "F",
+    "why": "الفقرة الثالثة: يمكنه طلب عقوبة أخف أو تحضير استئناف."
+   },
+   {
+    "k": "gap",
+    "q": "The lawyer reads the police reports and talks to ___.",
+    "a": [
+     "witnesses"
+    ],
+    "why": "الفقرة الثانية: يقرأ التقارير ويتحدث إلى الشهود."
+   },
+   {
+    "k": "gap",
+    "q": "A lawyer can prepare an appeal to a ___ court.",
+    "a": [
+     "higher"
+    ],
+    "why": "الفقرة الثالثة: استئناف أمام محكمة أعلى."
+   }
+  ],
+  "sumAr": "محامي الدفاع يحمي حقوق المتهم ويضمن عدالة المحاكمة، فيدرس الأدلة ويستجوب الشهود ويشرح القانون للقاضي. يحتاج إلى الهدوء والسرية، ووجوده يحمي الأبرياء من الأخطاء القضائية."
+ },
+ {
+  "id": "r-b1-15",
+  "l": "B1",
+  "title": "Staying Safe Online",
+  "topic": "technology",
+  "paras": [
+   "We use the internet to study, work, shop and talk to our families. It is a wonderful tool, but it also brings risks. Criminals know that many people are careless online, and they use simple tricks to steal money and personal information. The good news is that a few easy habits can protect you from most of these problems.",
+   "The first habit concerns passwords. A short password like a birthday or a name is easy to guess. A strong password is long and mixes letters, numbers and symbols. You should also use a different password for each account. If one website is attacked, the thieves cannot open your other accounts. A password manager can remember all of them for you, so you only need to remember one.",
+   "The second habit is to be careful with messages. A common trick is called phishing. You receive an email that looks like it comes from your bank. It says that your account has a problem and asks you to click a link. The page you see looks real, but it is false, and anything you type goes straight to the criminal. Before you click, check the address of the sender and look for spelling mistakes. If you are not sure, go to the official website yourself.",
+   "Finally, keep your devices up to date. Updates often repair weaknesses that hackers use. Do not connect to public Wi-Fi when you send private information, because other users of the network may be able to see it. It is also wise to turn on two-step login, which sends a code to your phone. With these simple steps, you can enjoy the internet with much less worry. Remember that no company will ever ask you for your password by email."
+  ],
+  "gloss": [
+   {
+    "w": "careless",
+    "ar": "مهمِل، غير حذر"
+   },
+   {
+    "w": "password",
+    "ar": "كلمة مرور"
+   },
+   {
+    "w": "phishing",
+    "ar": "تصيّد احتيالي"
+   },
+   {
+    "w": "link",
+    "ar": "رابط"
+   },
+   {
+    "w": "weakness",
+    "ar": "ثغرة، نقطة ضعف"
+   },
+   {
+    "w": "device",
+    "ar": "جهاز"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What makes a password strong?",
+    "o": [
+     "It is long and mixes letters, numbers and symbols.",
+     "It is your birthday.",
+     "It is the same for all accounts."
+    ],
+    "a": 0,
+    "why": "الفقرة الثانية: كلمة المرور القوية طويلة ومتنوعة الرموز."
+   },
+   {
+    "k": "mc",
+    "q": "In a phishing message, the page you see is usually",
+    "o": [
+     "sent by your bank",
+     "false",
+     "very slow"
+    ],
+    "a": 1,
+    "why": "الفقرة الثالثة: الصفحة تبدو حقيقية لكنها مزيفة."
+   },
+   {
+    "k": "mc",
+    "q": "Why should you avoid public Wi-Fi for private information?",
+    "o": [
+     "It is always expensive.",
+     "It makes your phone slower.",
+     "Other users may see what you send."
+    ],
+    "a": 2,
+    "why": "الفقرة الرابعة: قد يرى مستخدمون آخرون بياناتك."
+   },
+   {
+    "k": "tfng",
+    "q": "You should use a different password for each account.",
+    "a": "T",
+    "why": "الفقرة الثانية: كلمة مرور مختلفة لكل حساب."
+   },
+   {
+    "k": "tfng",
+    "q": "Phishing emails never contain spelling mistakes.",
+    "a": "F",
+    "why": "الفقرة الثالثة: ابحث عن الأخطاء الإملائية، فهي قد تظهر."
+   },
+   {
+    "k": "tfng",
+    "q": "Most people in the world use a password manager.",
+    "a": "NG",
+    "why": "النص لا يذكر نسبة المستخدمين."
+   },
+   {
+    "k": "gap",
+    "q": "Updates often repair ___ that hackers use.",
+    "a": [
+     "weaknesses"
+    ],
+    "why": "الفقرة الرابعة: التحديثات تصلح الثغرات."
+   },
+   {
+    "k": "gap",
+    "q": "Two-step login sends a ___ to your phone.",
+    "a": [
+     "code"
+    ],
+    "why": "الفقرة الرابعة: يرسل رمزاً إلى هاتفك."
+   }
+  ],
+  "sumAr": "للإنترنت مخاطر، لكن عادات بسيطة تحمي المستخدم: كلمات مرور قوية ومختلفة، والحذر من رسائل التصيّد، وتحديث الأجهزة، وتجنب الشبكات العامة، وتفعيل الدخول بخطوتين."
+ },
+ {
+  "id": "r-b1-16",
+  "l": "B1",
+  "title": "AI Assistants in Daily Life",
+  "topic": "ai",
+  "paras": [
+   "A few years ago, talking to a computer sounded like science fiction. Today, millions of people do it every morning. AI assistants on phones and in homes can answer questions, set alarms, translate sentences and write short messages. They learn from huge amounts of text, so they can understand ordinary language and reply in a natural way.",
+   "Students are among the most active users. An assistant can explain a difficult idea in simpler words, suggest a plan for revision or check the grammar of an essay. Workers use it, too. A manager can ask for a summary of a long report, and a shop owner can prepare a friendly answer for a customer in a few seconds. In this way, the assistant saves time on boring tasks.",
+   "However, these tools are not perfect. Sometimes an assistant gives an answer that sounds confident but is wrong. For this reason, important facts, such as dates, laws or medical advice, should always be checked in a reliable source. There is also the question of privacy. Anything you type may be stored, so it is better not to share passwords or private documents.",
+   "The best way to use an assistant is to treat it as a helper, not as a replacement for your own thinking. If a student asks it to write a whole essay, he learns very little. If he asks it to give feedback on his own draft, he learns a lot. People who understand both the strengths and the limits of AI will gain the most from it. In the future, these assistants will probably become even more common, so it is wise to learn how to use them carefully today."
+  ],
+  "gloss": [
+   {
+    "w": "assistant",
+    "ar": "مساعد"
+   },
+   {
+    "w": "alarm",
+    "ar": "منبّه"
+   },
+   {
+    "w": "revision",
+    "ar": "مراجعة (للدراسة)"
+   },
+   {
+    "w": "confident",
+    "ar": "واثق"
+   },
+   {
+    "w": "privacy",
+    "ar": "الخصوصية"
+   },
+   {
+    "w": "feedback",
+    "ar": "ملاحظات تقييمية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How do AI assistants understand ordinary language?",
+    "o": [
+     "They learn from huge amounts of text.",
+     "They copy the user's voice.",
+     "They ask a teacher."
+    ],
+    "a": 0,
+    "why": "الفقرة الأولى: يتعلمون من كميات ضخمة من النصوص."
+   },
+   {
+    "k": "mc",
+    "q": "What is one use of an assistant for a manager?",
+    "o": [
+     "Driving to work",
+     "Summarising a long report",
+     "Repairing a computer"
+    ],
+    "a": 1,
+    "why": "الفقرة الثانية: يمكن للمدير طلب ملخص لتقرير طويل."
+   },
+   {
+    "k": "mc",
+    "q": "Why should important facts be checked?",
+    "o": [
+     "Assistants never answer questions.",
+     "Assistants are always slow.",
+     "An answer can sound confident but be wrong."
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة: قد تبدو الإجابة واثقة لكنها خاطئة."
+   },
+   {
+    "k": "tfng",
+    "q": "AI assistants can translate sentences.",
+    "a": "T",
+    "why": "الفقرة الأولى: من وظائفهم ترجمة الجمل."
+   },
+   {
+    "k": "tfng",
+    "q": "It is safe to share passwords with an assistant.",
+    "a": "F",
+    "why": "الفقرة الثالثة: يُفضَّل ألا تشارك كلمات المرور."
+   },
+   {
+    "k": "tfng",
+    "q": "Most students in the world use AI assistants every day.",
+    "a": "NG",
+    "why": "النص لا يعطي نسبة للطلاب."
+   },
+   {
+    "k": "gap",
+    "q": "A student can ask an assistant for ___ on his own draft.",
+    "a": [
+     "feedback"
+    ],
+    "why": "الفقرة الرابعة: يطلب ملاحظات على مسودته."
+   },
+   {
+    "k": "gap",
+    "q": "Anything you type may be ___, so privacy is important.",
+    "a": [
+     "stored"
+    ],
+    "why": "الفقرة الثالثة: قد يُخزَّن ما تكتبه."
+   }
+  ],
+  "sumAr": "تُستعمل مساعدات الذكاء الاصطناعي يومياً للإجابة والترجمة والتلخيص والدراسة، لكنها قد تخطئ وتثير مسألة الخصوصية. الأفضل اعتبارها مساعداً لا بديلاً عن تفكيرنا."
+ }
+]

@@ -1,0 +1,867 @@
+[
+ {
+  "id": "g-b1-21",
+  "l": "B1",
+  "title": "-ed/-ing adjectives, adjective order, the more… the more",
+  "titleAr": "الصفات المنتهية بـ -ed و-ing، وترتيب الصفات، وthe more… the more",
+  "why": "هذه ثلاث نقاط صغيرة لكنها تظهر في كل كتابة: صفات المشاعر، وترتيب الصفات قبل الاسم، والتعبير عن علاقة بين شيئين يزدادان معا.",
+  "rules": [
+   {
+    "ar": "صفة -ing تصف الشيء أو الشخص الذي يسبب الشعور. صفة -ed تصف الشعور عند الإنسان نفسه.",
+    "form": "-ing = cause / -ed = feeling",
+    "ex": [
+     {
+      "en": "The lecture was boring.",
+      "ar": "كانت المحاضرة مملة."
+     },
+     {
+      "en": "I was bored.",
+      "ar": "شعرت بالملل."
+     }
+    ]
+   },
+   {
+    "ar": "أمثلة أخرى: interesting / interested، surprising / surprised، exciting / excited، confusing / confused. السؤال: من يشعر؟ إذا الإنسان يشعر فنستعمل -ed.",
+    "form": "interesting / interested",
+    "ex": [
+     {
+      "en": "The news was shocking.",
+      "ar": "كانت الأخبار صادمة."
+     },
+     {
+      "en": "We were shocked.",
+      "ar": "صُدمنا."
+     }
+    ]
+   },
+   {
+    "ar": "إذا جاءت أكثر من صفة قبل الاسم فلها ترتيب عادة: الرأي، الحجم، العمر، الشكل، اللون، الأصل، المادة، ثم الاسم.",
+    "form": "opinion – size – age – colour – origin – material + noun",
+    "ex": [
+     {
+      "en": "a beautiful old Algerian carpet",
+      "ar": "سجادة جزائرية قديمة جميلة"
+     },
+     {
+      "en": "a small brown leather bag",
+      "ar": "حقيبة جلدية بنية صغيرة"
+     }
+    ]
+   },
+   {
+    "ar": "للتعبير عن علاقة بين شيئين يزدادان معا نستعمل the + مقارنة، the + مقارنة.",
+    "form": "The + comparative, the + comparative",
+    "ex": [
+     {
+      "en": "The more you practise, the better you speak.",
+      "ar": "كلما تدربت أكثر، تكلمت أفضل."
+     },
+     {
+      "en": "The earlier we leave, the sooner we arrive.",
+      "ar": "كلما غادرنا أبكر، وصلنا أسرع."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I am very boring in this lesson.",
+    "ok": "I am very bored in this lesson.",
+    "ar": "نحن نشعر بالملل (bored). الدرس هو المُمِلّ (boring)."
+   },
+   {
+    "x": "a red big car",
+    "ok": "a big red car",
+    "ar": "في العربية الصفة بعد الاسم وبلا ترتيب ثابت. في الإنجليزية الحجم قبل اللون."
+   },
+   {
+    "x": "The more you study, you get better.",
+    "ok": "The more you study, the better you get.",
+    "ar": "نحتاج the في الجزأين."
+   },
+   {
+    "x": "She is interesting in music.",
+    "ok": "She is interested in music.",
+    "ar": "هي تشعر بالاهتمام فنستعمل interested."
+   }
+  ],
+  "tip": "السؤال: من يشعر؟ إنسان = -ed. من يسبب؟ شيء = -ing. ترتيب الصفات: رأي، حجم، عمر، لون، أصل، مادة.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "The lecture was ___, so I almost fell asleep.",
+    "o": [
+     "boring",
+     "bored",
+     "bore"
+    ],
+    "a": 0,
+    "why": "المحاضرة هي السبب، فنستعمل -ing."
+   },
+   {
+    "k": "mc",
+    "q": "I was ___ when I heard the news.",
+    "o": [
+     "shocking",
+     "shocked",
+     "shock"
+    ],
+    "a": 1,
+    "why": "أنا أشعر، فنستعمل -ed."
+   },
+   {
+    "k": "mc",
+    "q": "She has a ___ bag.",
+    "o": [
+     "leather brown big",
+     "big brown leather",
+     "brown big leather"
+    ],
+    "a": 1,
+    "why": "الترتيب: الحجم، ثم اللون، ثم المادة."
+   },
+   {
+    "k": "mc",
+    "q": "The more you practise, ___ you speak.",
+    "o": [
+     "the better",
+     "better",
+     "the best"
+    ],
+    "a": 0,
+    "why": "نحتاج the + مقارنة."
+   },
+   {
+    "k": "mc",
+    "q": "It was an ___ film, so I watched it twice.",
+    "o": [
+     "interested",
+     "interesting",
+     "interest"
+    ],
+    "a": 1,
+    "why": "الفيلم هو السبب، فنستعمل -ing."
+   },
+   {
+    "k": "mc",
+    "q": "We stayed in a ___ hotel.",
+    "o": [
+     "old beautiful",
+     "beautiful old",
+     "beautifully old"
+    ],
+    "a": 1,
+    "why": "الرأي (beautiful) قبل العمر (old)."
+   },
+   {
+    "k": "gap",
+    "q": "The results were very ___ (surprise); nobody expected them.",
+    "a": [
+     "surprising"
+    ],
+    "why": "النتائج هي السبب."
+   },
+   {
+    "k": "gap",
+    "q": "The children were ___ (excite) about the trip.",
+    "a": [
+     "excited"
+    ],
+    "why": "الأطفال يشعرون."
+   },
+   {
+    "k": "gap",
+    "q": "The harder you work, the ___ (good) your results will be.",
+    "a": [
+     "better"
+    ],
+    "why": "المقارنة من good هي better."
+   },
+   {
+    "k": "gap",
+    "q": "The instructions were ___ (confuse), so I asked for help.",
+    "a": [
+     "confusing"
+    ],
+    "why": "التعليمات هي السبب."
+   },
+   {
+    "k": "fix",
+    "q": "I am very boring in this lesson.",
+    "bad": "boring",
+    "good": [
+     "bored"
+    ],
+    "why": "أنا أشعر بالملل، فنستعمل bored."
+   },
+   {
+    "k": "fix",
+    "q": "She wore a silk red dress.",
+    "bad": "silk red",
+    "good": [
+     "red silk"
+    ],
+    "why": "اللون يأتي قبل المادة."
+   },
+   {
+    "k": "order",
+    "a": "The harder you study, the better your results will be.",
+    "ar": "كلما درست أكثر، كانت نتائجك أفضل."
+   },
+   {
+    "k": "order",
+    "a": "He bought a beautiful old wooden table.",
+    "ar": "اشترى طاولة خشبية قديمة جميلة."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-22",
+  "l": "B1",
+  "title": "Indirect questions and question tags",
+  "titleAr": "الأسئلة غير المباشرة وأسئلة الذيل",
+  "why": "الأسئلة غير المباشرة أكثر أدبا، ونستعملها كثيرا عند طلب معلومة. أما question tags فنضيفها آخر الجملة لنؤكد أو نسأل.",
+  "rules": [
+   {
+    "ar": "في السؤال غير المباشر نبدأ بعبارة مثل Could you tell me… ثم نرتب الكلمات كالجملة الخبرية: الفاعل ثم الفعل. لا نستعمل do أو does.",
+    "form": "Could you tell me + wh-word + subject + verb",
+    "ex": [
+     {
+      "en": "Could you tell me where the station is?",
+      "ar": "هل يمكنك أن تخبرني أين المحطة؟"
+     },
+     {
+      "en": "Do you know what time the bank opens?",
+      "ar": "هل تعرف متى يفتح المصرف؟"
+     }
+    ]
+   },
+   {
+    "ar": "إذا كان السؤال الأصلي جوابه نعم أو لا نستعمل if أو whether.",
+    "form": "… if / whether + subject + verb",
+    "ex": [
+     {
+      "en": "I wonder if he will come.",
+      "ar": "أتساءل هل سيأتي."
+     },
+     {
+      "en": "Can you tell me whether the shop is open?",
+      "ar": "هل يمكنك أن تخبرني إن كان المتجر مفتوحا؟"
+     }
+    ]
+   },
+   {
+    "ar": "question tag قصير نضيفه بعد الجملة. إذا كانت الجملة مثبتة فالذيل منفي، وإذا كانت منفية فالذيل مثبت. نستعمل المساعد نفسه، وإذا لم يوجد نستعمل do أو does أو did.",
+    "form": "positive, negative tag? / negative, positive tag?",
+    "ex": [
+     {
+      "en": "She works here, doesn't she?",
+      "ar": "هي تعمل هنا، أليس كذلك؟"
+     },
+     {
+      "en": "They haven't finished, have they?",
+      "ar": "لم ينتهوا، أليس كذلك؟"
+     }
+    ]
+   },
+   {
+    "ar": "حالات خاصة: مع I am نقول aren't I. مع Let's نقول shall we. ومع الأمر نقول will you.",
+    "form": "I'm late, aren't I? / Let's start, shall we?",
+    "ex": [
+     {
+      "en": "I'm right, aren't I?",
+      "ar": "أنا على صواب، أليس كذلك؟"
+     },
+     {
+      "en": "Let's go, shall we?",
+      "ar": "لنذهب، هل نذهب؟"
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Can you tell me where is the post office?",
+    "ok": "Can you tell me where the post office is?",
+    "ar": "في السؤال المباشر نقلب الترتيب. في غير المباشر نعود للترتيب العادي."
+   },
+   {
+    "x": "Do you know what time does it start?",
+    "ok": "Do you know what time it starts?",
+    "ar": "لا نستعمل does مرة ثانية في السؤال غير المباشر."
+   },
+   {
+    "x": "She is a lawyer, isn't it?",
+    "ok": "She is a lawyer, isn't she?",
+    "ar": "في العربية «أليس كذلك؟» ثابتة. في الإنجليزية الذيل يتغير بحسب الفاعل والفعل."
+   },
+   {
+    "x": "You like tea, you don't?",
+    "ok": "You like tea, don't you?",
+    "ar": "الذيل يبدأ بالمساعد ثم الضمير."
+   }
+  ],
+  "tip": "السؤال غير المباشر = ترتيب جملة خبرية. الذيل عكس الجملة: مثبت ينتهي بمنفي، ومنفي ينتهي بمثبت.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Could you tell me where ___?",
+    "o": [
+     "is the library",
+     "the library is",
+     "does the library is"
+    ],
+    "a": 1,
+    "why": "في السؤال غير المباشر نستعمل ترتيب الجملة الخبرية."
+   },
+   {
+    "k": "mc",
+    "q": "I wonder ___ he will come.",
+    "o": [
+     "if",
+     "what",
+     "do"
+    ],
+    "a": 0,
+    "why": "السؤال جوابه نعم أو لا، فنستعمل if."
+   },
+   {
+    "k": "mc",
+    "q": "She works here, ___?",
+    "o": [
+     "doesn't she",
+     "isn't she",
+     "does she"
+    ],
+    "a": 0,
+    "why": "الجملة مثبتة بالمضارع البسيط، فالذيل doesn't she."
+   },
+   {
+    "k": "mc",
+    "q": "They haven't finished, ___?",
+    "o": [
+     "haven't they",
+     "have they",
+     "did they"
+    ],
+    "a": 1,
+    "why": "الجملة منفية، فالذيل مثبت بالمساعد نفسه."
+   },
+   {
+    "k": "mc",
+    "q": "Let's start, ___?",
+    "o": [
+     "will we",
+     "shall we",
+     "don't we"
+    ],
+    "a": 1,
+    "why": "مع Let's نستعمل shall we."
+   },
+   {
+    "k": "mc",
+    "q": "I'm late, ___?",
+    "o": [
+     "amn't I",
+     "aren't I",
+     "am not I"
+    ],
+    "a": 1,
+    "why": "مع I am نقول aren't I."
+   },
+   {
+    "k": "gap",
+    "q": "Do you know what time the bank ___ (open)?",
+    "a": [
+     "opens"
+    ],
+    "why": "ترتيب خبري، والفاعل مفرد."
+   },
+   {
+    "k": "gap",
+    "q": "You can swim, ___ you?",
+    "a": [
+     "can't",
+     "cannot"
+    ],
+    "why": "الجملة مثبتة فالذيل منفي."
+   },
+   {
+    "k": "gap",
+    "q": "Can you tell me how much this ___ (cost)?",
+    "a": [
+     "costs"
+    ],
+    "why": "ترتيب خبري بلا do."
+   },
+   {
+    "k": "gap",
+    "q": "He didn't call, ___ he?",
+    "a": [
+     "did"
+    ],
+    "why": "الجملة منفية فالذيل مثبت بـ did."
+   },
+   {
+    "k": "fix",
+    "q": "Can you tell me where is the post office?",
+    "bad": "where is the post office",
+    "good": [
+     "where the post office is"
+    ],
+    "why": "في السؤال غير المباشر الفاعل قبل الفعل."
+   },
+   {
+    "k": "fix",
+    "q": "She is a lawyer, isn't it?",
+    "bad": "isn't it",
+    "good": [
+     "isn't she"
+    ],
+    "why": "الذيل يعود على الفاعل she."
+   },
+   {
+    "k": "order",
+    "a": "Do you know where the court is?",
+    "ar": "هل تعرف أين المحكمة؟"
+   },
+   {
+    "k": "order",
+    "a": "You haven't seen my keys, have you?",
+    "ar": "لم ترَ مفاتيحي، أليس كذلك؟"
+   }
+  ]
+ },
+ {
+  "id": "g-b1-23",
+  "l": "B1",
+  "title": "Dependent prepositions: adjective, verb and noun + preposition",
+  "titleAr": "حروف الجر التابعة بعد الصفات والأفعال والأسماء",
+  "why": "كثير من الكلمات تأخذ حرف جر معينا بعدها. لا نختاره بالمنطق ولا نترجمه من العربية. نحفظه مع الكلمة.",
+  "rules": [
+   {
+    "ar": "بعض الصفات تأخذ حرفا ثابتا: interested in، good at، afraid of، responsible for، proud of، aware of، different from، keen on، similar to.",
+    "form": "adjective + preposition",
+    "ex": [
+     {
+      "en": "She is responsible for the budget.",
+      "ar": "هي مسؤولة عن الميزانية."
+     },
+     {
+      "en": "I'm interested in law.",
+      "ar": "أنا مهتم بالقانون."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال تأخذ حرفا ثابتا: depend on، apply for، believe in، complain about، belong to، suffer from، agree with، listen to.",
+    "form": "verb + preposition",
+    "ex": [
+     {
+      "en": "Many people suffer from stress.",
+      "ar": "كثير من الناس يعانون من التوتر."
+     },
+     {
+      "en": "I agree with you.",
+      "ar": "أنا أوافقك."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأسماء تأخذ حرفا ثابتا: reason for، increase in، solution to، answer to، damage to، cause of.",
+    "form": "noun + preposition",
+    "ex": [
+     {
+      "en": "There was an increase in prices.",
+      "ar": "كان هناك ارتفاع في الأسعار."
+     },
+     {
+      "en": "This is the solution to the problem.",
+      "ar": "هذا هو الحل للمشكلة."
+     }
+    ]
+   },
+   {
+    "ar": "بعد حرف الجر نستعمل اسما أو ضميرا أو -ing، وليس to + فعل. وبعض الأفعال في الإنجليزية لا تحتاج حرفا مع أن العربية تحتاجه: discuss, enter, marry.",
+    "form": "preposition + noun / -ing",
+    "ex": [
+     {
+      "en": "He is good at solving problems.",
+      "ar": "هو بارع في حل المشكلات."
+     },
+     {
+      "en": "We discussed the problem.",
+      "ar": "ناقشنا المشكلة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She is afraid from spiders.",
+    "ok": "She is afraid of spiders.",
+    "ar": "في العربية «تخاف من». في الإنجليزية afraid of."
+   },
+   {
+    "x": "We discussed about the plan.",
+    "ok": "We discussed the plan.",
+    "ar": "discuss لا تأخذ about. في العربية «ناقشنا في» أحيانا، لكن في الإنجليزية لا نضيف حرفا."
+   },
+   {
+    "x": "I am interested on music.",
+    "ok": "I am interested in music.",
+    "ar": "interested دائما مع in."
+   },
+   {
+    "x": "He entered to the room.",
+    "ok": "He entered the room.",
+    "ar": "enter فعل متعد مباشرة ولا يحتاج to."
+   }
+  ],
+  "tip": "احفظ الكلمة مع حرفها كقطعة واحدة: afraid of، good at، interested in. ولا تترجم الحرف من العربية.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She is responsible ___ the budget.",
+    "o": [
+     "of",
+     "for",
+     "to"
+    ],
+    "a": 1,
+    "why": "التعبير الصحيح: responsible for."
+   },
+   {
+    "k": "mc",
+    "q": "I'm interested ___ learning about law.",
+    "o": [
+     "on",
+     "at",
+     "in"
+    ],
+    "a": 2,
+    "why": "التعبير الصحيح: interested in."
+   },
+   {
+    "k": "mc",
+    "q": "He apologised ___ the delay.",
+    "o": [
+     "for",
+     "of",
+     "to"
+    ],
+    "a": 0,
+    "why": "التعبير الصحيح: apologise for."
+   },
+   {
+    "k": "mc",
+    "q": "This result is different ___ the last one.",
+    "o": [
+     "from",
+     "with",
+     "of"
+    ],
+    "a": 0,
+    "why": "التعبير الصحيح: different from."
+   },
+   {
+    "k": "mc",
+    "q": "There has been an increase ___ prices.",
+    "o": [
+     "of",
+     "in",
+     "on"
+    ],
+    "a": 1,
+    "why": "التعبير الصحيح: increase in."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "We discussed about the problem.",
+     "We discussed the problem.",
+     "We discussed on the problem."
+    ],
+    "a": 1,
+    "why": "discuss لا تأخذ حرف جر."
+   },
+   {
+    "k": "gap",
+    "q": "Many people suffer ___ stress during exams.",
+    "a": [
+     "from"
+    ],
+    "why": "التعبير الصحيح: suffer from."
+   },
+   {
+    "k": "gap",
+    "q": "He is very good ___ solving problems.",
+    "a": [
+     "at"
+    ],
+    "why": "التعبير الصحيح: good at."
+   },
+   {
+    "k": "gap",
+    "q": "The solution ___ this problem is simple.",
+    "a": [
+     "to"
+    ],
+    "why": "التعبير الصحيح: solution to."
+   },
+   {
+    "k": "gap",
+    "q": "I agree ___ you completely.",
+    "a": [
+     "with"
+    ],
+    "why": "التعبير الصحيح: agree with."
+   },
+   {
+    "k": "fix",
+    "q": "She is afraid from spiders.",
+    "bad": "from",
+    "good": [
+     "of"
+    ],
+    "why": "التعبير الصحيح: afraid of."
+   },
+   {
+    "k": "fix",
+    "q": "We are waiting you outside the court.",
+    "bad": "waiting you",
+    "good": [
+     "waiting for you"
+    ],
+    "why": "wait for + مفعول."
+   },
+   {
+    "k": "order",
+    "a": "He is proud of his daughter's success.",
+    "ar": "هو فخور بنجاح ابنته."
+   },
+   {
+    "k": "order",
+    "a": "She applied for a job at the ministry.",
+    "ar": "تقدمت لوظيفة في الوزارة."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-24",
+  "l": "B1",
+  "title": "Noun phrases, compound nouns, 's vs of",
+  "titleAr": "العبارات الاسمية، والأسماء المركبة، و's مقابل of",
+  "why": "في الإنجليزية نبني معنى الاسم بإضافة كلمات قبله. لهذا نحتاج لمعرفة الأسماء المركبة وملكية 's وأين نستعمل of.",
+  "rules": [
+   {
+    "ar": "نستعمل 's مع الأشخاص والحيوانات والمؤسسات. وفي الجمع المنتهي بـ s نضع الفاصلة العليا (') فقط بعدها: the students' room. أما الجمع غير المنتهي بـ s فنضع 's: children's books.",
+    "form": "person + 's + noun",
+    "ex": [
+     {
+      "en": "This is my sister's car.",
+      "ar": "هذه سيارة أختي."
+     },
+     {
+      "en": "These are children's books.",
+      "ar": "هذه كتب أطفال."
+     }
+    ]
+   },
+   {
+    "ar": "مع الأشياء غالبا نستعمل of: the end of the road، the cover of the book، the door of the car.",
+    "form": "the + noun + of + the + noun",
+    "ex": [
+     {
+      "en": "The cover of the book is red.",
+      "ar": "غلاف الكتاب أحمر."
+     },
+     {
+      "en": "The name of the street is long.",
+      "ar": "اسم الشارع طويل."
+     }
+    ]
+   },
+   {
+    "ar": "الاسم المركب (compound noun) اسمان معا. الاسم الأول يعمل كصفة ويبقى مفردا دائما: bus ticket، car key، news report.",
+    "form": "noun + noun",
+    "ex": [
+     {
+      "en": "I lost my bus ticket.",
+      "ar": "أضعت تذكرة الحافلة."
+     },
+     {
+      "en": "Where is the car key?",
+      "ar": "أين مفتاح السيارة؟"
+     }
+    ]
+   },
+   {
+    "ar": "عندما نذكر عددا مع الاسم المركب نستعمل شرطة ويبقى الاسم مفردا: a five-minute walk، a seven-year-old girl. وفي العبارة الاسمية الطويلة الاسم الأساسي في آخرها.",
+    "form": "number-singular noun + noun",
+    "ex": [
+     {
+      "en": "It was a ten-minute walk.",
+      "ar": "كان مشيا لعشر دقائق."
+     },
+     {
+      "en": "She is a seven-year-old girl.",
+      "ar": "هي بنت عمرها سبع سنوات."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I need a ticket of bus.",
+    "ok": "I need a bus ticket.",
+    "ar": "في العربية «تذكرة الحافلة» بترتيب مضاف ومضاف إليه. في الإنجليزية الاسم الأول يصف الثاني بلا of."
+   },
+   {
+    "x": "It was a three-days course.",
+    "ok": "It was a three-day course.",
+    "ar": "الاسم داخل الاسم المركب يبقى مفردا."
+   },
+   {
+    "x": "the book of Ali",
+    "ok": "Ali's book",
+    "ar": "مع الأشخاص نستعمل 's في الغالب."
+   },
+   {
+    "x": "a seven years old girl",
+    "ok": "a seven-year-old girl",
+    "ar": "نستعمل شرطات والاسم مفرد."
+   }
+  ],
+  "tip": "مع الشخص: 's. مع الشيء: of أو اسم مركب. وقبل الاسم المركب: الاسم الأول مفرد دائما.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I lost my ___.",
+    "o": [
+     "bus's ticket",
+     "bus ticket",
+     "ticket bus"
+    ],
+    "a": 1,
+    "why": "الاسم المركب: bus ticket."
+   },
+   {
+    "k": "mc",
+    "q": "This is ___ office.",
+    "o": [
+     "the director's",
+     "the director",
+     "of the director"
+    ],
+    "a": 0,
+    "why": "المدير شخص، فنستعمل 's."
+   },
+   {
+    "k": "mc",
+    "q": "She is a ___ girl.",
+    "o": [
+     "seven-year-old",
+     "seven-years-old",
+     "seven-year olds"
+    ],
+    "a": 0,
+    "why": "الاسم داخل الصفة يبقى مفردا مع شرطات."
+   },
+   {
+    "k": "mc",
+    "q": "Whose book is it? It is ___ book.",
+    "o": [
+     "Maryam's",
+     "of Maryam",
+     "Maryam"
+    ],
+    "a": 0,
+    "why": "الملكية مع الأشخاص بـ 's."
+   },
+   {
+    "k": "mc",
+    "q": "These are ___ books.",
+    "o": [
+     "children's",
+     "childrens'",
+     "childrens"
+    ],
+    "a": 0,
+    "why": "children جمع بلا s فنضيف 's."
+   },
+   {
+    "k": "mc",
+    "q": "The rooms belong to all the students: they are the ___ rooms.",
+    "o": [
+     "students'",
+     "student's",
+     "students"
+    ],
+    "a": 0,
+    "why": "جمع منتهٍ بـ s فنضيف الفاصلة العليا بعده."
+   },
+   {
+    "k": "gap",
+    "q": "It was a ten-___ (minute) walk to the station.",
+    "a": [
+     "minute"
+    ],
+    "why": "الاسم في الصفة المركبة يبقى مفردا."
+   },
+   {
+    "k": "gap",
+    "q": "This is my ___ (sister) car.",
+    "a": [
+     "sister's"
+    ],
+    "why": "الملكية مع الشخص."
+   },
+   {
+    "k": "gap",
+    "q": "The cover ___ the book is red.",
+    "a": [
+     "of"
+    ],
+    "why": "مع الشيء نستعمل of."
+   },
+   {
+    "k": "gap",
+    "q": "Where is the ___ (car) key?",
+    "a": [
+     "car"
+    ],
+    "why": "اسم مركب."
+   },
+   {
+    "k": "fix",
+    "q": "I need a ticket of bus.",
+    "bad": "ticket of bus",
+    "good": [
+     "bus ticket"
+    ],
+    "why": "نستعمل الاسم المركب."
+   },
+   {
+    "k": "fix",
+    "q": "It was a three-days course.",
+    "bad": "three-days",
+    "good": [
+     "three-day"
+    ],
+    "why": "الاسم يبقى مفردا."
+   },
+   {
+    "k": "order",
+    "a": "The teacher's room is on the second floor.",
+    "ar": "غرفة المعلم في الطابق الثاني."
+   },
+   {
+    "k": "order",
+    "a": "She is reading a new anti-corruption report.",
+    "ar": "هي تقرأ تقريرا جديدا عن مكافحة الفساد."
+   }
+  ]
+ }
+]

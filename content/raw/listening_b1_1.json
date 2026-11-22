@@ -1,0 +1,880 @@
+[
+ {
+  "id": "l-b1-01",
+  "l": "B1",
+  "title": "Registering for an English course",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. Welcome to Bridge Language School. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Good morning. I would like to register for an English course, please."
+   },
+   {
+    "s": "A",
+    "t": "Certainly. Have you studied English before?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, I studied it at school for six years, but I haven't practised much since then. I think my level is intermediate."
+   },
+   {
+    "s": "A",
+    "t": "We will check that with a short test. We have two types of course."
+   },
+   {
+    "s": "A",
+    "t": "The evening course meets three times a week, and the intensive course meets every morning."
+   },
+   {
+    "s": "B",
+    "t": "I work in the afternoons, so the intensive course would suit me better. When does it start?"
+   },
+   {
+    "s": "A",
+    "t": "The next one starts on the third of October and lasts ten weeks. Each lesson is two and a half hours."
+   },
+   {
+    "s": "B",
+    "t": "How much does it cost?"
+   },
+   {
+    "s": "A",
+    "t": "It is five hundred and eighty pounds, and that includes the books. If you register this week, you get ten percent off."
+   },
+   {
+    "s": "B",
+    "t": "That sounds good. What do I need to do now?"
+   },
+   {
+    "s": "A",
+    "t": "Please fill in this form and bring a passport photo tomorrow. The placement test is on Friday at nine thirty, in room fourteen."
+   },
+   {
+    "s": "B",
+    "t": "Can I pay in two parts?"
+   },
+   {
+    "s": "A",
+    "t": "Yes. You can pay half now and half in the first week of the course."
+   },
+   {
+    "s": "B",
+    "t": "Perfect. Thank you for your help."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "register",
+    "ar": "يسجّل"
+   },
+   {
+    "w": "intensive",
+    "ar": "مكثّف"
+   },
+   {
+    "w": "placement test",
+    "ar": "اختبار تحديد المستوى"
+   },
+   {
+    "w": "intermediate",
+    "ar": "متوسط"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why does the student choose the intensive course?",
+    "o": [
+     "It is cheaper",
+     "He works in the afternoons",
+     "It has fewer students"
+    ],
+    "a": 1,
+    "why": "قال إنه يعمل بعد الظهر فتناسبه الدورة الصباحية."
+   },
+   {
+    "k": "mc",
+    "q": "How often does the evening course meet?",
+    "o": [
+     "Every day",
+     "Twice a week",
+     "Three times a week"
+    ],
+    "a": 2,
+    "why": "دورة المساء ثلاث مرات أسبوعياً."
+   },
+   {
+    "k": "gap",
+    "q": "The next course starts on the ___ of October.",
+    "a": [
+     "3rd",
+     "third",
+     "3"
+    ],
+    "why": "تبدأ الدورة في الثالث من أكتوبر."
+   },
+   {
+    "k": "gap",
+    "q": "The course costs ___ pounds.",
+    "a": [
+     "580",
+     "five hundred and eighty",
+     "five hundred eighty"
+    ],
+    "why": "السعر خمسمئة وثمانون جنيهاً."
+   },
+   {
+    "k": "tfng",
+    "q": "The price includes the books.",
+    "a": "T",
+    "why": "قالت: that includes the books."
+   },
+   {
+    "k": "mc",
+    "q": "When is the placement test?",
+    "o": [
+     "On Friday morning",
+     "On Friday afternoon",
+     "Tomorrow evening"
+    ],
+    "a": 0,
+    "why": "الاختبار يوم الجمعة الساعة التاسعة والنصف."
+   },
+   {
+    "k": "tfng",
+    "q": "He must pay the full price today.",
+    "a": "F",
+    "why": "يمكنه دفع النصف الآن والنصف لاحقاً."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-02",
+  "l": "B1",
+  "title": "A job interview for a part-time job",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Thank you for coming in, Layla. Please sit down. Can you tell me a little about yourself?"
+   },
+   {
+    "s": "B",
+    "t": "Of course. I am a second-year student, and I study business. I am looking for a part-time job because I want some experience and a little extra money."
+   },
+   {
+    "s": "A",
+    "t": "Why do you want to work in our bookshop?"
+   },
+   {
+    "s": "B",
+    "t": "I love reading, and I enjoy talking to people. Last summer, I worked in a clothes shop, so I know how to help customers."
+   },
+   {
+    "s": "A",
+    "t": "That is useful. What was the hardest part of that job?"
+   },
+   {
+    "s": "B",
+    "t": "Probably the busy weekends. There were long lines, but I learned to stay calm and work quickly."
+   },
+   {
+    "s": "A",
+    "t": "Good. We need someone for twelve hours a week. Could you work on Saturdays?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, I could work all day Saturday. I have classes from Monday to Thursday, but I am free on Friday afternoon, too."
+   },
+   {
+    "s": "A",
+    "t": "Excellent. The pay is eleven dollars an hour. You would start with a one-week training period."
+   },
+   {
+    "s": "B",
+    "t": "That sounds fine. Will I work with a team?"
+   },
+   {
+    "s": "A",
+    "t": "Yes. There are four of us, and we all share the tasks. If you are successful, I will call you by Wednesday."
+   },
+   {
+    "s": "B",
+    "t": "Thank you. I look forward to hearing from you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "part-time",
+    "ar": "بدوام جزئي"
+   },
+   {
+    "w": "experience",
+    "ar": "خبرة"
+   },
+   {
+    "w": "training period",
+    "ar": "فترة تدريب"
+   },
+   {
+    "w": "customer",
+    "ar": "زبون"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does Layla study?",
+    "o": [
+     "Business",
+     "Literature",
+     "Law"
+    ],
+    "a": 0,
+    "why": "قالت: I study business."
+   },
+   {
+    "k": "mc",
+    "q": "Where did she work last summer?",
+    "o": [
+     "In a bookshop",
+     "In a clothes shop",
+     "In a cafe"
+    ],
+    "a": 1,
+    "why": "عملت في متجر ملابس."
+   },
+   {
+    "k": "tfng",
+    "q": "She found quiet days the hardest part of her last job.",
+    "a": "F",
+    "why": "الأصعب كان عطلات نهاية الأسبوع المزدحمة."
+   },
+   {
+    "k": "gap",
+    "q": "The job is for ___ hours a week.",
+    "a": [
+     "12",
+     "twelve"
+    ],
+    "why": "قال: twelve hours a week."
+   },
+   {
+    "k": "mc",
+    "q": "When is she free besides Saturday?",
+    "o": [
+     "Monday morning",
+     "Friday afternoon",
+     "Thursday evening"
+    ],
+    "a": 1,
+    "why": "قالت إنها متفرغة بعد ظهر الجمعة."
+   },
+   {
+    "k": "gap",
+    "q": "The pay is ___ dollars an hour.",
+    "a": [
+     "11",
+     "eleven"
+    ],
+    "why": "الأجر أحد عشر دولاراً."
+   },
+   {
+    "k": "gap",
+    "q": "The manager will call by ___.",
+    "a": [
+     "Wednesday"
+    ],
+    "why": "قال: I will call you by Wednesday."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-03",
+  "l": "B1",
+  "title": "A radio item about a new city park",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, and welcome to City Radio. Our top story today is the opening of Riverside Park, the biggest new green space in our city for thirty years."
+   },
+   {
+    "s": "A",
+    "t": "The park opens this Saturday at ten o'clock. It covers about twenty hectares along the river, in a place where an old factory stood until 2015."
+   },
+   {
+    "s": "A",
+    "t": "The city council spent four years planning the project."
+   },
+   {
+    "s": "A",
+    "t": "It planted more than two thousand trees, and it built a lake, three playgrounds and a ten-kilometre path for cyclists and walkers."
+   },
+   {
+    "s": "A",
+    "t": "There is also a small cafe, which is run by local students, and a library of outdoor books for children."
+   },
+   {
+    "s": "A",
+    "t": "The council says that the park will reduce traffic noise and make the air cleaner in nearby streets."
+   },
+   {
+    "s": "A",
+    "t": "Entry is free, but cars are not allowed inside."
+   },
+   {
+    "s": "A",
+    "t": "Visitors can leave their cars at the car park on Mill Road, which costs two pounds for the whole day. Bicycles can be rented at the main gate."
+   },
+   {
+    "s": "A",
+    "t": "On opening day, there will be music from eleven, and a free picnic for families at one o'clock."
+   },
+   {
+    "s": "A",
+    "t": "Remember to bring a hat, because there is not much shade yet. The young trees will need a few years to grow."
+   },
+   {
+    "s": "A",
+    "t": "That was the news. Now, here is the traffic."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "hectare",
+    "ar": "هكتار"
+   },
+   {
+    "w": "council",
+    "ar": "مجلس البلدية"
+   },
+   {
+    "w": "playground",
+    "ar": "ملعب أطفال"
+   },
+   {
+    "w": "shade",
+    "ar": "ظل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The park opens this ___.",
+    "a": [
+     "Saturday"
+    ],
+    "why": "ستفتتح الحديقة يوم السبت."
+   },
+   {
+    "k": "mc",
+    "q": "What was on the land before the park?",
+    "o": [
+     "A hospital",
+     "An old factory",
+     "A market"
+    ],
+    "a": 1,
+    "why": "كان في المكان مصنع قديم حتى عام 2015."
+   },
+   {
+    "k": "gap",
+    "q": "The council planted more than ___ trees.",
+    "a": [
+     "2000",
+     "two thousand",
+     "2,000"
+    ],
+    "why": "زُرع أكثر من ألفي شجرة."
+   },
+   {
+    "k": "mc",
+    "q": "Who runs the cafe?",
+    "o": [
+     "The council",
+     "Local students",
+     "A big company"
+    ],
+    "a": 1,
+    "why": "المقهى يديره طلاب محليون."
+   },
+   {
+    "k": "tfng",
+    "q": "Cars are allowed inside the park.",
+    "a": "F",
+    "why": "السيارات غير مسموحة داخل الحديقة."
+   },
+   {
+    "k": "gap",
+    "q": "The car park costs ___ pounds for the day.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "موقف السيارات بجنيهين لليوم."
+   },
+   {
+    "k": "mc",
+    "q": "Why should visitors bring a hat?",
+    "o": [
+     "It may rain",
+     "There is little shade",
+     "The sun is very hot in winter"
+    ],
+    "a": 1,
+    "why": "الأشجار صغيرة ولا ظل كافياً بعد."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-04",
+  "l": "B1",
+  "title": "Two students plan a presentation",
+  "part": 3,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hi, Nadia. Shall we decide how to organise our presentation on renewable energy? We have only ten minutes."
+   },
+   {
+    "s": "B",
+    "t": "Yes. I think we should start with a short introduction, and then talk about solar power and wind power."
+   },
+   {
+    "s": "A",
+    "t": "Good idea. I can do the solar part, because I read a lot about it for my last essay. Can you take wind power?"
+   },
+   {
+    "s": "B",
+    "t": "Sure. But I would like to add a slide about costs, because many people think that renewable energy is too expensive."
+   },
+   {
+    "s": "A",
+    "t": "Right. Maybe we can show a simple graph. Do you know where we can find some reliable data?"
+   },
+   {
+    "s": "B",
+    "t": "The library has a report from the energy ministry. I borrowed it last week, and I can scan the main table."
+   },
+   {
+    "s": "A",
+    "t": "Perfect. How many slides should we have?"
+   },
+   {
+    "s": "B",
+    "t": "About eight. If we have more, we will speak too quickly."
+   },
+   {
+    "s": "A",
+    "t": "Agreed. Let's practise on Thursday afternoon. Professor Hall is free at four, so we could ask him for some feedback."
+   },
+   {
+    "s": "B",
+    "t": "Good. I will send him an email tonight. Shall I also book a room with a projector?"
+   },
+   {
+    "s": "A",
+    "t": "Yes, please. And let's finish with a question for the audience. It makes people think."
+   },
+   {
+    "s": "B",
+    "t": "Great. I will write one tomorrow."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "renewable energy",
+    "ar": "طاقة متجددة"
+   },
+   {
+    "w": "reliable",
+    "ar": "موثوق"
+   },
+   {
+    "w": "projector",
+    "ar": "جهاز عرض"
+   },
+   {
+    "w": "audience",
+    "ar": "الجمهور"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the presentation about?",
+    "o": [
+     "Renewable energy",
+     "Public transport",
+     "Water pollution"
+    ],
+    "a": 0,
+    "why": "عن الطاقة المتجددة."
+   },
+   {
+    "k": "gap",
+    "q": "The presentation lasts ___ minutes.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "لديهما عشر دقائق فقط."
+   },
+   {
+    "k": "mc",
+    "q": "Who will talk about wind power?",
+    "o": [
+     "The man",
+     "Nadia",
+     "Professor Hall"
+    ],
+    "a": 1,
+    "why": "نادية ستتولى طاقة الرياح."
+   },
+   {
+    "k": "mc",
+    "q": "What extra slide does Nadia want?",
+    "o": [
+     "A slide about costs",
+     "A slide about history",
+     "A slide about jobs"
+    ],
+    "a": 0,
+    "why": "تريد شريحة عن التكاليف."
+   },
+   {
+    "k": "gap",
+    "q": "They plan to use about ___ slides.",
+    "a": [
+     "8",
+     "eight"
+    ],
+    "why": "قالت: About eight."
+   },
+   {
+    "k": "tfng",
+    "q": "They will practise on Thursday morning.",
+    "a": "F",
+    "why": "سيتدربان بعد الظهر الساعة الرابعة يوم الخميس."
+   },
+   {
+    "k": "mc",
+    "q": "How will they end the presentation?",
+    "o": [
+     "With a video",
+     "With a question for the audience",
+     "With a summary slide"
+    ],
+    "a": 1,
+    "why": "سينهيان بسؤال للجمهور."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-05",
+  "l": "B1",
+  "title": "Reporting a lost bag",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Lost property office. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hello. I lost my bag on the train this afternoon, and I am very worried."
+   },
+   {
+    "s": "A",
+    "t": "I am sorry to hear that. Can you describe it, please?"
+   },
+   {
+    "s": "B",
+    "t": "It is a black backpack, quite big, with a red label on the front. It also has a broken zip on the side pocket."
+   },
+   {
+    "s": "A",
+    "t": "What was inside?"
+   },
+   {
+    "s": "B",
+    "t": "My laptop, a blue notebook, a pair of glasses and a bottle of water. Most importantly, my charger was in there."
+   },
+   {
+    "s": "A",
+    "t": "Which train were you on?"
+   },
+   {
+    "s": "B",
+    "t": "The two forty-five from Chicago to Detroit. I sat in coach three, next to the window, and I got off at about five."
+   },
+   {
+    "s": "A",
+    "t": "Okay. Let me write that down. What is your name and phone number?"
+   },
+   {
+    "s": "B",
+    "t": "Daniel Ross. That is R, O, S, S. My number is five five five, three two zero, seven seven one."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Mr Ross. Is there anything valuable in the bag, like money or documents?"
+   },
+   {
+    "s": "B",
+    "t": "No money, thank goodness, but my university card is in the front pocket."
+   },
+   {
+    "s": "A",
+    "t": "I will note that on the form. We will search the train tonight. If we find the bag, we will phone you tomorrow morning."
+   },
+   {
+    "s": "B",
+    "t": "How long do you keep lost bags?"
+   },
+   {
+    "s": "A",
+    "t": "For thirty days. After that, we give them to charity."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "lost property",
+    "ar": "المفقودات"
+   },
+   {
+    "w": "backpack",
+    "ar": "حقيبة ظهر"
+   },
+   {
+    "w": "zip",
+    "ar": "سحّاب"
+   },
+   {
+    "w": "charity",
+    "ar": "جمعية خيرية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Where did the man lose his bag?",
+    "o": [
+     "On a bus",
+     "On a train",
+     "At the airport"
+    ],
+    "a": 1,
+    "why": "فقدها في القطار."
+   },
+   {
+    "k": "gap",
+    "q": "The label on the front is ___.",
+    "a": [
+     "red"
+    ],
+    "why": "قال: a red label on the front."
+   },
+   {
+    "k": "mc",
+    "q": "What is wrong with the bag?",
+    "o": [
+     "A broken zip",
+     "A hole",
+     "A missing strap"
+    ],
+    "a": 0,
+    "why": "السحّاب في الجيب الجانبي مكسور."
+   },
+   {
+    "k": "gap",
+    "q": "The train left at ___.",
+    "a": [
+     "2.45",
+     "2:45",
+     "two forty-five",
+     "two forty five",
+     "245"
+    ],
+    "why": "القطار انطلق الساعة 2:45."
+   },
+   {
+    "k": "tfng",
+    "q": "The man sat in coach five.",
+    "a": "F",
+    "why": "جلس في العربة الثالثة."
+   },
+   {
+    "k": "gap",
+    "q": "His surname is spelt R, O, S, S: ___.",
+    "a": [
+     "Ross"
+    ],
+    "why": "تهجئة الاسم R, O, S, S."
+   },
+   {
+    "k": "mc",
+    "q": "How long does the office keep lost bags?",
+    "o": [
+     "Seven days",
+     "Fourteen days",
+     "Thirty days"
+    ],
+    "a": 2,
+    "why": "تحتفظ بها لمدة ثلاثين يوماً."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-06",
+  "l": "B1",
+  "title": "A talk on healthy sleep",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon, everyone. Today I would like to talk about sleep, and why it is so important for students."
+   },
+   {
+    "s": "A",
+    "t": "Most adults need between seven and nine hours of sleep every night. When we sleep, our brain stores new information, and our body repairs itself."
+   },
+   {
+    "s": "A",
+    "t": "If we do not sleep enough, we find it difficult to concentrate, and we feel more stressed."
+   },
+   {
+    "s": "A",
+    "t": "So, what can we do to sleep better?"
+   },
+   {
+    "s": "A",
+    "t": "My first tip is to go to bed and get up at the same time every day, even at the weekend."
+   },
+   {
+    "s": "A",
+    "t": "This helps the body to build a routine."
+   },
+   {
+    "s": "A",
+    "t": "Second, avoid screens for at least one hour before bed. The light from phones and laptops tells the brain that it is still daytime."
+   },
+   {
+    "s": "A",
+    "t": "Third, be careful with caffeine."
+   },
+   {
+    "s": "A",
+    "t": "Coffee, tea and energy drinks can stay in the body for up to eight hours, so it is better not to drink them after three o'clock in the afternoon."
+   },
+   {
+    "s": "A",
+    "t": "Finally, keep your bedroom cool, dark and quiet. A temperature of about eighteen degrees is ideal."
+   },
+   {
+    "s": "A",
+    "t": "Many students believe that they can catch up on sleep at the weekend, but research shows that this does not work well. A regular routine is much better."
+   },
+   {
+    "s": "A",
+    "t": "Thank you for listening."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "concentrate",
+    "ar": "يركّز"
+   },
+   {
+    "w": "routine",
+    "ar": "روتين"
+   },
+   {
+    "w": "caffeine",
+    "ar": "كافيين"
+   },
+   {
+    "w": "stressed",
+    "ar": "متوتر"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "Most adults need seven to ___ hours of sleep.",
+    "a": [
+     "9",
+     "nine"
+    ],
+    "why": "يحتاج البالغون من سبع إلى تسع ساعات."
+   },
+   {
+    "k": "mc",
+    "q": "What does the brain do during sleep?",
+    "o": [
+     "It stops working",
+     "It stores new information",
+     "It makes more energy"
+    ],
+    "a": 1,
+    "why": "الدماغ يخزّن المعلومات الجديدة."
+   },
+   {
+    "k": "mc",
+    "q": "What is the first tip?",
+    "o": [
+     "Sleep at the same times every day",
+     "Sleep late at weekends",
+     "Take a short nap"
+    ],
+    "a": 0,
+    "why": "أول نصيحة: نفس موعد النوم والاستيقاظ يومياً."
+   },
+   {
+    "k": "gap",
+    "q": "Avoid screens for at least ___ hour before bed.",
+    "a": [
+     "1",
+     "one",
+     "an",
+     "one hour"
+    ],
+    "why": "تجنب الشاشات ساعة قبل النوم."
+   },
+   {
+    "k": "tfng",
+    "q": "Caffeine can stay in the body for up to eight hours.",
+    "a": "T",
+    "why": "قال: up to eight hours."
+   },
+   {
+    "k": "mc",
+    "q": "After what time should students avoid coffee?",
+    "o": [
+     "Noon",
+     "Three o'clock",
+     "Eight o'clock"
+    ],
+    "a": 1,
+    "why": "لا قهوة بعد الثالثة عصراً."
+   },
+   {
+    "k": "tfng",
+    "q": "Research shows that catching up on sleep at weekends works very well.",
+    "a": "F",
+    "why": "قال إن هذا لا يعمل جيداً."
+   }
+  ]
+ }
+]

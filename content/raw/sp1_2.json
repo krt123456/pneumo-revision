@@ -1,0 +1,326 @@
+[
+ {
+  "id": "sp1-13",
+  "l": "B1",
+  "topic": "Friends",
+  "qs": [
+   {
+    "q": "Do you have many friends?",
+    "a": "I have a few close friends and many acquaintances. I met most of my close friends at university.",
+    "tip": "فرّق بين close friends وacquaintances لتظهر مفردات أدق."
+   },
+   {
+    "q": "What do you usually do with your friends?",
+    "a": "We often study together, play football or just have tea and talk. It's a good way to relax after a busy week.",
+    "tip": "اذكر ثلاثة أنشطة بسيطة."
+   },
+   {
+    "q": "What makes a good friend?",
+    "a": "A good friend is honest and loyal, and listens when you have a problem. Trust is the most important thing for me.",
+    "tip": "استعمل صفات مثل honest وloyal وreliable."
+   },
+   {
+    "q": "Do you keep in touch with old friends?",
+    "a": "Yes, mostly by messages and sometimes by video calls. We try to meet up whenever I go back to my hometown.",
+    "tip": "keep in touch وmeet up عبارتان مفيدتان."
+   }
+  ]
+ },
+ {
+  "id": "sp1-14",
+  "l": "B1",
+  "topic": "Shopping",
+  "qs": [
+   {
+    "q": "Do you enjoy shopping?",
+    "a": "Not really. I find it tiring to walk around crowded shops, so I only go when I need something specific.",
+    "tip": "اشرح رأيك السلبي بلطف دون مبالغة."
+   },
+   {
+    "q": "Do you prefer shopping online or in shops?",
+    "a": "I usually shop online because it saves time and prices are easy to compare. For clothes, though, I prefer trying things on in a shop.",
+    "tip": "though في نهاية الجملة طبيعية جدًا في الكلام."
+   },
+   {
+    "q": "What was the last thing you bought?",
+    "a": "I bought a new pair of headphones last week. They have good sound, and they help me concentrate while I study.",
+    "tip": "الماضي البسيط مع الزمن last week."
+   },
+   {
+    "q": "Do you usually spend a lot of money when you shop?",
+    "a": "No, I try to stick to a budget. I make a list before I go out so that I don't buy things I don't need.",
+    "tip": "stick to a budget وso that جملتان مفيدتان."
+   }
+  ]
+ },
+ {
+  "id": "sp1-15",
+  "l": "B1",
+  "topic": "Transport",
+  "qs": [
+   {
+    "q": "How do you usually get to the university?",
+    "a": "I usually take the bus because it's cheap and direct. When the weather is nice, I sometimes walk.",
+    "tip": "اذكر الوسيلة والسبب ثم استثناءً."
+   },
+   {
+    "q": "What is public transport like in your city?",
+    "a": "It's quite basic. Buses are fairly cheap, but they aren't always on time and they get crowded in the morning.",
+    "tip": "fairly وquite تخفف الحكم وتجعله واقعيًا."
+   },
+   {
+    "q": "Do you prefer travelling by car or by train?",
+    "a": "I prefer the train because I can read or work during the journey. A car is more flexible, though, especially for short trips.",
+    "tip": "اربط تفضيلك بشيء تفعله أثناء الرحلة."
+   },
+   {
+    "q": "How could transport in your area be improved?",
+    "a": "There should be more frequent buses and better bus stops. A tram or a train line would also reduce traffic.",
+    "tip": "should وwould تناسبان الاقتراحات."
+   }
+  ]
+ },
+ {
+  "id": "sp1-16",
+  "l": "B1",
+  "topic": "Sleep",
+  "qs": [
+   {
+    "q": "How many hours do you usually sleep?",
+    "a": "I usually sleep about seven hours. During exams, I sleep less, but I try to catch up at the weekend.",
+    "tip": "catch up عبارة تعني التعويض."
+   },
+   {
+    "q": "Do you have any problems sleeping?",
+    "a": "Sometimes I find it hard to fall asleep if I've used my phone late. I'm trying to read a book instead.",
+    "tip": "fall asleep تُستعمل بدل sleep عند الحديث عن بدء النوم."
+   },
+   {
+    "q": "Do you ever take naps during the day?",
+    "a": "Yes, a short nap after lunch helps me feel fresh again. I try not to sleep for more than twenty minutes.",
+    "tip": "take a nap تعبير شائع."
+   },
+   {
+    "q": "Why do you think sleep is important?",
+    "a": "Without enough sleep, it's difficult to concentrate or remember things. It also affects your health and your mood.",
+    "tip": "اذكر أثرين: العقل والصحة."
+   }
+  ]
+ },
+ {
+  "id": "sp1-17",
+  "l": "B1",
+  "topic": "Mornings",
+  "qs": [
+   {
+    "q": "Are you a morning person?",
+    "a": "Not really. I'm more productive in the evening, but I'm trying to get up earlier so that I can study in the quiet hours.",
+    "tip": "morning person تعني شخصًا نشيطًا في الصباح."
+   },
+   {
+    "q": "What do you usually do in the morning?",
+    "a": "I have a light breakfast, check my messages and then leave for the university. I never skip breakfast because it gives me energy.",
+    "tip": "استخدم never مع المضارع البسيط للعادات."
+   },
+   {
+    "q": "What time do you normally get up?",
+    "a": "I get up at about six on weekdays, but at the weekend, I stay in bed until eight.",
+    "tip": "about لتقريب الأرقام."
+   },
+   {
+    "q": "Do you think getting up early is a good habit?",
+    "a": "I do. You have more time to plan your day, and the morning is a good time to study when your mind is fresh.",
+    "tip": "I do جواب مختصر ثم سبب."
+   }
+  ]
+ },
+ {
+  "id": "sp1-18",
+  "l": "B1",
+  "topic": "Languages",
+  "qs": [
+   {
+    "q": "What languages do you speak?",
+    "a": "I speak Arabic and French, and I'm learning English. I'd like to improve my English because I need it for my research.",
+    "tip": "اذكر لغاتك ثم الدافع للتعلم."
+   },
+   {
+    "q": "Why are you learning English?",
+    "a": "I need it to read academic papers and to study abroad. English is also the language of most international research.",
+    "tip": "اذكر سببين: الدراسة والبحث."
+   },
+   {
+    "q": "What do you find difficult about learning a language?",
+    "a": "Speaking is the hardest part for me. I know many words, but I'm sometimes nervous about making mistakes.",
+    "tip": "اعترف بصعوبة محددة وليس بشكل عام."
+   },
+   {
+    "q": "How do you practise your English?",
+    "a": "I read articles, listen to podcasts and repeat sentences aloud. I also try to write short texts every day.",
+    "tip": "اذكر ثلاثة أنشطة بصيغة مضارع."
+   }
+  ]
+ },
+ {
+  "id": "sp1-19",
+  "l": "B1",
+  "topic": "The internet",
+  "qs": [
+   {
+    "q": "How often do you use the internet?",
+    "a": "I use it every day, for several hours. Most of the time, it's for study, but I also watch videos and talk to friends.",
+    "tip": "for several hours وmost of the time تعبيرات للتكرار."
+   },
+   {
+    "q": "What do you mostly use the internet for?",
+    "a": "Mostly for research and learning. I look up articles, watch online lectures and sometimes read the news.",
+    "tip": "look up عبارة فعلية تعني بحث عن معلومة."
+   },
+   {
+    "q": "Do you think the internet has any disadvantages?",
+    "a": "Yes, there's a lot of false information and it can waste a lot of time. People also need to protect their personal data.",
+    "tip": "اذكر عيبين ثم لا تطل."
+   },
+   {
+    "q": "How did people live before the internet?",
+    "a": "They used books, libraries and letters. Life was slower, but finding information took much more effort.",
+    "tip": "استعمل الماضي البسيط لوصف الماضي."
+   }
+  ]
+ },
+ {
+  "id": "sp1-20",
+  "l": "B1",
+  "topic": "Your home",
+  "qs": [
+   {
+    "q": "Do you live in a house or an apartment?",
+    "a": "I live in an apartment on the third floor. It has three rooms and a small balcony.",
+    "tip": "صف البيت بعدد الغرف وميزة واحدة."
+   },
+   {
+    "q": "What is your favourite room in your home?",
+    "a": "My favourite room is my study. It has a big desk and a window, and it's the quietest place in the house.",
+    "tip": "اذكر الغرفة ثم أسباب تحبها."
+   },
+   {
+    "q": "Would you like to change anything about your home?",
+    "a": "I'd like a bigger desk and more shelves for my books. A garden would be wonderful, but it's not possible in an apartment.",
+    "tip": "الشرط الثاني تعبير جيد عن الأمنية."
+   },
+   {
+    "q": "Do you want to stay there in the future?",
+    "a": "For now, yes, but I might move abroad for my studies. Then I'd probably rent a small flat near the university.",
+    "tip": "might وprobably تعبران عن عدم اليقين."
+   }
+  ]
+ },
+ {
+  "id": "sp1-21",
+  "l": "B1",
+  "topic": "Weekends",
+  "qs": [
+   {
+    "q": "What do you usually do at weekends?",
+    "a": "I usually relax and catch up with my family. On Fridays, we have a big lunch together, and in the evening I see my friends.",
+    "tip": "اذكر نشاطين ثم زمنًا محددًا."
+   },
+   {
+    "q": "Do you prefer to be busy or relaxed at the weekend?",
+    "a": "A bit of both. I like to study for a couple of hours in the morning, and after that I want to relax.",
+    "tip": "A bit of both إجابة ذكية عندما يكون الخياران صحيحين."
+   },
+   {
+    "q": "What did you do last weekend?",
+    "a": "I went to the market with my mother and then watched a football match with my brother. It was a simple but enjoyable weekend.",
+    "tip": "استعمل الماضي البسيط وكلمات الربط then."
+   },
+   {
+    "q": "What would be your perfect weekend?",
+    "a": "A perfect weekend would be a short trip to the mountains with friends, followed by a good meal. No work and no alarm clock!",
+    "tip": "would be لوصف الحلم أو المثال الأعلى."
+   }
+  ]
+ },
+ {
+  "id": "sp1-22",
+  "l": "B1",
+  "topic": "Nature",
+  "qs": [
+   {
+    "q": "Do you like spending time in nature?",
+    "a": "Yes, I do. Walking in the forest clears my mind and helps me forget about my work for a while.",
+    "tip": "clear your mind عبارة طبيعية."
+   },
+   {
+    "q": "Are there any natural places near where you live?",
+    "a": "There's a beautiful forest of cedar trees about thirty minutes from my city. In spring, many families go there for picnics.",
+    "tip": "استعمل there is لتقديم مكان."
+   },
+   {
+    "q": "Do you think people care enough about nature?",
+    "a": "Not enough, in my opinion. There's a lot of rubbish in public places, and people often waste water.",
+    "tip": "not enough تعبير مهذب عن النقد."
+   },
+   {
+    "q": "What can ordinary people do to protect the environment?",
+    "a": "They can recycle, use less plastic and save water and electricity. Planting trees together is also a great idea.",
+    "tip": "can مع قائمة من الحلول العملية."
+   }
+  ]
+ },
+ {
+  "id": "sp1-23",
+  "l": "B1",
+  "topic": "Holidays",
+  "qs": [
+   {
+    "q": "What do you usually do on holidays?",
+    "a": "I usually visit my relatives and spend time at home. If I have a longer break, I go on a short trip with my friends.",
+    "tip": "If مع المضارع البسيط لحالة محتملة."
+   },
+   {
+    "q": "What is your favourite holiday or festival?",
+    "a": "I love Eid because the whole family gets together. We share special food, and the children get gifts.",
+    "tip": "اذكر مناسبة عامة محايدة وسببًا اجتماعيًا."
+   },
+   {
+    "q": "Do you prefer holidays by the sea or in the mountains?",
+    "a": "The sea, definitely. I love swimming and relaxing on the beach, although the mountains are cooler in summer.",
+    "tip": "definitely لتقوية الاختيار."
+   },
+   {
+    "q": "Where did you go on your last holiday?",
+    "a": "I went to the coast with my family last summer. We rented a small flat near the beach and stayed for five days.",
+    "tip": "الماضي البسيط وتفاصيل صغيرة: كم يومًا وأين."
+   }
+  ]
+ },
+ {
+  "id": "sp1-24",
+  "l": "B1",
+  "topic": "Future plans",
+  "qs": [
+   {
+    "q": "What are you going to do after you finish your studies?",
+    "a": "I'm going to continue with a PhD abroad. After that, I'd like to work in research and teaching.",
+    "tip": "be going to للخطط المحددة."
+   },
+   {
+    "q": "Where do you see yourself in ten years?",
+    "a": "I hope to be a researcher at a university, working on projects that help make public institutions fairer.",
+    "tip": "I hope to be + صفة أو مهنة صيغة مفيدة."
+   },
+   {
+    "q": "Is there anything you want to achieve this year?",
+    "a": "I want to improve my English enough to take the IELTS exam. I also plan to publish my first research article.",
+    "tip": "want to وplan to بصيغتين مختلفتين."
+   },
+   {
+    "q": "What could stop you from achieving your goals?",
+    "a": "Money could be a problem, and so could lack of time. But I'm determined to find scholarships and organise my time well.",
+    "tip": "could للاحتمال وdetermined لإظهار العزم."
+   }
+  ]
+ }
+]

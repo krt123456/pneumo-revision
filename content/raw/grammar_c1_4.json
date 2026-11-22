@@ -1,0 +1,868 @@
+[
+ {
+  "id": "g-c1-13",
+  "l": "C1",
+  "title": "Register: formal vs informal equivalents (legal and academic register)",
+  "titleAr": "مستوى الأسلوب: الرسمي مقابل غير الرسمي (الأسلوب القانوني والأكاديمي)",
+  "why": "في IELTS Writing والبحث الأكاديمي والعقود نحتاج كلمات رسمية دقيقة. استعمال لغة الحديث اليومي يخفض الدرجة ويضعف الأسلوب.",
+  "rules": [
+   {
+    "ar": "نستبدل الأفعال المركبة (phrasal verbs) بأفعال رسمية مفردة من أصل لاتيني.",
+    "form": "get → obtain | look into → investigate | put off → postpone | start → commence",
+    "ex": [
+     {
+      "en": "Applicants must obtain a licence before trading.",
+      "ar": "على المتقدمين الحصول على رخصة قبل مزاولة التجارة."
+     },
+     {
+      "en": "The committee will investigate the allegations.",
+      "ar": "ستحقق اللجنة في الادعاءات."
+     }
+    ]
+   },
+   {
+    "ar": "نستبدل كلمات الربط والعبارات اليومية بما يناسب الكتابة: but → however، so → therefore، before → prior to، if → in the event of.",
+    "form": "prior to / in the event of / subsequent to / owing to",
+    "ex": [
+     {
+      "en": "Prior to the hearing, the witness was asked to leave.",
+      "ar": "قبل الجلسة طُلب من الشاهد المغادرة."
+     },
+     {
+      "en": "In the event of non-payment, the landlord may terminate the agreement.",
+      "ar": "في حال عدم الدفع يجوز للمؤجر إنهاء العقد."
+     }
+    ]
+   },
+   {
+    "ar": "نتجنب الاختصارات (can't, don't) والكلمات العامية (pretty, a lot of, stuff) والضمير I في الأبحاث. نستعمل المبني للمجهول والأسماء المجردة.",
+    "form": "cannot / considerable / is required",
+    "ex": [
+     {
+      "en": "The court cannot accept the evidence.",
+      "ar": "لا تستطيع المحكمة قبول الدليل."
+     },
+     {
+      "en": "Further evidence is required before a decision can be made.",
+      "ar": "يلزم مزيد من الأدلة قبل اتخاذ قرار."
+     }
+    ]
+   },
+   {
+    "ar": "الأسلوب القانوني يحب shall وhereby وwhereas ويستعمل جملاً طويلة دقيقة. نستعمله في العقود فقط.",
+    "form": "The tenant shall ... / terminate / reserve the right to",
+    "ex": [
+     {
+      "en": "The agreement shall commence on 1 January.",
+      "ar": "يبدأ العقد في الأول من يناير."
+     },
+     {
+      "en": "The landlord may terminate the agreement if rent is unpaid.",
+      "ar": "يجوز للمؤجر إنهاء العقد إذا لم يُدفع الإيجار."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The court can't accept the evidence.",
+    "ok": "The court cannot accept the evidence.",
+    "ar": "في العربية لا اختصار في الكتابة الرسمية، وكذلك الإنجليزية الأكاديمية لا تقبل الاختصارات."
+   },
+   {
+    "x": "The results were pretty bad.",
+    "ok": "The results were unsatisfactory.",
+    "ar": "pretty وbad كلمتان حديثتان. استعمل صفة رسمية دقيقة مثل unsatisfactory أو inadequate."
+   },
+   {
+    "x": "We need to put off the meeting.",
+    "ok": "The meeting must be postponed.",
+    "ar": "العربي يترجم الأفعال المركبة حرفياً. في الكتابة الرسمية استعمل فعلاً واحداً ومبنياً للمجهول."
+   }
+  ],
+  "tip": "اسأل: هل هذه كلمة أستعملها مع صديقي؟ إذن غيّرها. get = obtain، start = commence، need = require، look into = investigate، put off = postpone.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which sentence is the most formal?",
+    "o": [
+     "The firm set up a new unit.",
+     "The firm established a new unit.",
+     "The firm made a new unit."
+    ],
+    "a": 1,
+    "why": "establish أكثر رسمية من set up وmake."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the most formal verb: The court will ___ the claim next week.",
+    "o": [
+     "look into",
+     "examine",
+     "check out"
+    ],
+    "a": 1,
+    "why": "examine فعل رسمي بينما look into وcheck out أفعال مركبة."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the formal expression: ___ the hearing, the witness was asked to leave.",
+    "o": [
+     "Before",
+     "Prior to",
+     "Ahead of time"
+    ],
+    "a": 1,
+    "why": "prior to هي المقابل الرسمي لـ before."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is appropriate for an academic essay?",
+    "o": [
+     "The results were pretty bad.",
+     "The results were unsatisfactory.",
+     "The results were a total mess."
+    ],
+    "a": 1,
+    "why": "unsatisfactory صفة رسمية موضوعية."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the best legal-style wording: The landlord may ___ the agreement if rent is unpaid.",
+    "o": [
+     "scrap",
+     "terminate",
+     "end it for good"
+    ],
+    "a": 1,
+    "why": "terminate هو الفعل القانوني الرسمي لإنهاء العقد."
+   },
+   {
+    "k": "gap",
+    "q": "The committee will ___ (more formal than 'look into') the allegations.",
+    "a": [
+     "investigate",
+     "examine"
+    ],
+    "why": "الفعل الرسمي المقابل لـ look into هو investigate."
+   },
+   {
+    "k": "gap",
+    "q": "Applicants must ___ (more formal than 'get') a licence before trading.",
+    "a": [
+     "obtain",
+     "acquire",
+     "secure"
+    ],
+    "why": "obtain هو المقابل الرسمي لـ get."
+   },
+   {
+    "k": "gap",
+    "q": "The company will ___ (more formal than 'start') operations in March.",
+    "a": [
+     "commence",
+     "initiate",
+     "begin"
+    ],
+    "why": "commence هو المقابل الرسمي لـ start."
+   },
+   {
+    "k": "fix",
+    "q": "The court can't accept the evidence.",
+    "bad": "can't",
+    "good": [
+     "cannot",
+     "can not"
+    ],
+    "why": "لا نستعمل الاختصارات في الكتابة الرسمية."
+   },
+   {
+    "k": "fix",
+    "q": "Researchers carried out a pretty large survey.",
+    "bad": "pretty large",
+    "good": [
+     "large",
+     "considerable",
+     "substantial"
+    ],
+    "why": "pretty كلمة عامية لا تناسب الكتابة الأكاديمية."
+   },
+   {
+    "k": "order",
+    "a": "The agreement shall commence on 1 January.",
+    "ar": "يبدأ العقد في الأول من يناير."
+   },
+   {
+    "k": "order",
+    "a": "Applicants are required to submit proof of identity.",
+    "ar": "يُطلب من المتقدمين تقديم إثبات هوية."
+   },
+   {
+    "k": "trans",
+    "q": "The company put off the meeting because of the storm. (Use a formal passive.)",
+    "start": "The meeting",
+    "a": [
+     "The meeting was postponed due to the storm.",
+     "The meeting was postponed because of the storm.",
+     "The meeting was postponed owing to the storm."
+    ],
+    "why": "put off تصبح was postponed بصيغة المجهول الرسمية."
+   },
+   {
+    "k": "trans",
+    "q": "We need more evidence before we can decide. (Use a formal style.)",
+    "start": "Further evidence",
+    "a": [
+     "Further evidence is required before a decision can be made.",
+     "Further evidence is required before a decision can be reached.",
+     "Further evidence is required before we can decide.",
+     "Further evidence is needed before a decision can be made.",
+     "Further evidence is needed before a decision can be reached."
+    ],
+    "why": "نستعمل المبني للمجهول وكلمات رسمية مثل further وrequired."
+   }
+  ]
+ },
+ {
+  "id": "g-c1-14",
+  "l": "C1",
+  "title": "Formal verb patterns and prepositions (adhere to, comply with, refrain from, be subject to)",
+  "titleAr": "أنماط الأفعال الرسمية وحروف الجر (adhere to, comply with, refrain from, be subject to)",
+  "why": "الأفعال القانونية والأكاديمية تطلب حروف جر محددة، والخطأ فيها يظهر بسرعة. احفظ الفعل مع حرفه كوحدة واحدة.",
+  "rules": [
+   {
+    "ar": "أفعال الالتزام بالقواعد: comply with، abide by، adhere to. وبعدها اسم، وليس فعلاً مباشراً.",
+    "form": "comply with / abide by / adhere to + N",
+    "ex": [
+     {
+      "en": "All staff must comply with the code of conduct.",
+      "ar": "على جميع الموظفين الالتزام بمدونة السلوك."
+     },
+     {
+      "en": "Judges must abide by the rules of procedure.",
+      "ar": "يجب أن يلتزم القضاة بقواعد الإجراءات."
+     }
+    ]
+   },
+   {
+    "ar": "أفعال تأخذ from + -ing: refrain from، prevent X from، be prohibited from، be exempt from.",
+    "form": "refrain from + V-ing / prevent + O + from + V-ing",
+    "ex": [
+     {
+      "en": "Members are asked to refrain from using their phones.",
+      "ar": "يُطلب من الأعضاء الامتناع عن استعمال هواتفهم."
+     },
+     {
+      "en": "The injunction prevented the press from reporting the case.",
+      "ar": "منع الأمر القضائي الصحافة من نشر القضية."
+     }
+    ]
+   },
+   {
+    "ar": "أفعال الاتهام والعقوبة: accuse X of، convict X of، charge X with، sentence X to، deprive X of. نحفظ حرف كل فعل.",
+    "form": "accuse/convict/deprive + O + of | charge + O + with",
+    "ex": [
+     {
+      "en": "The company was accused of falsifying its accounts.",
+      "ar": "اتُّهمت الشركة بتزوير حساباتها."
+     },
+     {
+      "en": "The defendant was convicted of fraud.",
+      "ar": "أُدين المتهم بالاحتيال."
+     }
+    ]
+   },
+   {
+    "ar": "صفات رسمية مع حروف جر: be subject to، be entitled to، be accountable for، be liable for، be exempt from.",
+    "form": "be subject/entitled to + N | be accountable for + N",
+    "ex": [
+     {
+      "en": "Donations are subject to strict disclosure rules.",
+      "ar": "تخضع التبرعات لقواعد إفصاح صارمة."
+     },
+     {
+      "en": "Citizens are entitled to a fair hearing.",
+      "ar": "للمواطنين الحق في جلسة استماع عادلة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The firm failed to comply the regulations.",
+    "ok": "The firm failed to comply with the regulations.",
+    "ar": "comply لا يتعدى مباشرة. العربي يقول (امتثل القواعد) أو (التزم القواعد) بلا حرف فينسى with."
+   },
+   {
+    "x": "He was prevented to attend the hearing.",
+    "ok": "He was prevented from attending the hearing.",
+    "ar": "بعد prevent نستعمل from + -ing وليس to + فعل، لأن العربي يقول (منع أن) فيترجم to."
+   },
+   {
+    "x": "The company was accused for falsifying its accounts.",
+    "ok": "The company was accused of falsifying its accounts.",
+    "ar": "نقول (اتُّهم بـ) فنستعمل for أو with. الصحيح accused of. احفظ كل فعل مع حرفه."
+   }
+  ],
+  "tip": "احفظ الأفعال في أزواج: comply WITH، abide BY، adhere TO، refrain FROM، accused OF، charged WITH، subject TO.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "All staff must comply ___ the code of conduct.",
+    "o": [
+     "with",
+     "to",
+     "by"
+    ],
+    "a": 0,
+    "why": "التركيب الثابت: comply with."
+   },
+   {
+    "k": "mc",
+    "q": "Members are asked to refrain ___ using their phones.",
+    "o": [
+     "of",
+     "to",
+     "from"
+    ],
+    "a": 2,
+    "why": "التركيب الثابت: refrain from + -ing."
+   },
+   {
+    "k": "mc",
+    "q": "The company was accused ___ falsifying its accounts.",
+    "o": [
+     "for",
+     "of",
+     "with"
+    ],
+    "a": 1,
+    "why": "accuse + شخص + of + -ing."
+   },
+   {
+    "k": "mc",
+    "q": "Donations are subject ___ strict disclosure rules.",
+    "o": [
+     "to",
+     "with",
+     "under"
+    ],
+    "a": 0,
+    "why": "التركيب الثابت: be subject to."
+   },
+   {
+    "k": "mc",
+    "q": "The defendant was convicted ___ fraud.",
+    "o": [
+     "by",
+     "for",
+     "of"
+    ],
+    "a": 2,
+    "why": "التركيب الثابت: convicted of + الجريمة."
+   },
+   {
+    "k": "gap",
+    "q": "Judges must abide ___ the rules of procedure.",
+    "a": [
+     "by"
+    ],
+    "why": "abide by تعني الالتزام بالقواعد."
+   },
+   {
+    "k": "gap",
+    "q": "Citizens are entitled ___ a fair hearing.",
+    "a": [
+     "to"
+    ],
+    "why": "be entitled to + اسم."
+   },
+   {
+    "k": "gap",
+    "q": "The directors are ___ for the accuracy of the accounts.",
+    "a": [
+     "accountable",
+     "responsible",
+     "liable"
+    ],
+    "why": "be accountable/responsible/liable for + اسم."
+   },
+   {
+    "k": "fix",
+    "q": "The firm failed to comply the regulations.",
+    "bad": "comply the",
+    "good": [
+     "comply with the"
+    ],
+    "why": "comply يحتاج with قبل المفعول."
+   },
+   {
+    "k": "fix",
+    "q": "He was prevented to attend the hearing.",
+    "bad": "prevented to attend",
+    "good": [
+     "prevented from attending"
+    ],
+    "why": "بعد prevent نستعمل from + -ing."
+   },
+   {
+    "k": "order",
+    "a": "All employees must adhere to the code of conduct.",
+    "ar": "يجب على جميع الموظفين الالتزام بمدونة السلوك."
+   },
+   {
+    "k": "order",
+    "a": "The decision is subject to approval by the board.",
+    "ar": "القرار خاضع لموافقة المجلس."
+   },
+   {
+    "k": "trans",
+    "q": "The firm did not obey the safety rules.",
+    "start": "The firm failed",
+    "a": [
+     "The firm failed to comply with the safety rules.",
+     "The firm failed to adhere to the safety rules.",
+     "The firm failed to abide by the safety rules."
+    ],
+    "why": "obey تعني comply with أو adhere to أو abide by."
+   },
+   {
+    "k": "trans",
+    "q": "Officials must not accept gifts.",
+    "start": "Officials must refrain",
+    "a": [
+     "Officials must refrain from accepting gifts."
+    ],
+    "why": "must not تُستبدل بـ refrain from + -ing."
+   }
+  ]
+ },
+ {
+  "id": "g-c1-15",
+  "l": "C1",
+  "title": "Tense and aspect in academic and legal writing (reporting research; shall in legal texts)",
+  "titleAr": "الأزمنة في الكتابة الأكاديمية والقانونية (عرض الأبحاث، shall في النصوص القانونية)",
+  "why": "اختيار الزمن الصحيح يوضح هل تتحدث عن دراسة محددة أم عن معرفة عامة. وفي القانون يعني shall التزاماً. أخطاء الزمن تقلل علامة Grammatical Range.",
+  "rules": [
+   {
+    "ar": "نستعمل الماضي البسيط لدراسة محددة معروفة التاريخ أو الطريقة. ونستعمل المبني للمجهول في المنهجية.",
+    "form": "In 2019, researchers + V2 / Participants were + V3",
+    "ex": [
+     {
+      "en": "In a 2019 survey, researchers interviewed 500 civil servants.",
+      "ar": "في مسح عام 2019 أجرى باحثون مقابلات مع 500 موظف حكومي."
+     },
+     {
+      "en": "Participants were asked to complete a questionnaire.",
+      "ar": "طُلب من المشاركين ملء استبيان."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل المضارع التام لما قالته الأدبيات عموماً حتى الآن، أو لدراسات متعددة دون تاريخ. ومع so far وover the past decade وrecently.",
+    "form": "Several studies have shown ... / Few studies have examined ...",
+    "ex": [
+     {
+      "en": "Several studies have shown that transparency reduces corruption.",
+      "ar": "أظهرت دراسات عدة أن الشفافية تقلل الفساد."
+     },
+     {
+      "en": "Few studies have examined the long-term effects so far.",
+      "ar": "لم تدرس إلا دراسات قليلة الآثار بعيدة المدى حتى الآن."
+     }
+    ]
+   },
+   {
+    "ar": "نستعمل المضارع البسيط للحقائق العامة وللنتائج التي ما زالت صحيحة ولوصف الجداول والرسوم. وكذلك للتقارير: The data suggest.",
+    "form": "Transparency reduces corruption. / Table 2 shows ...",
+    "ex": [
+     {
+      "en": "Table 2 shows the number of complaints by region.",
+      "ar": "يبين الجدول 2 عدد الشكاوى حسب المنطقة."
+     },
+     {
+      "en": "The evidence suggests that oversight improves public trust.",
+      "ar": "تشير الأدلة إلى أن الرقابة تحسّن ثقة الجمهور."
+     }
+    ]
+   },
+   {
+    "ar": "في العقود والقوانين shall تعبر عن التزام قانوني بعده الفعل الأساسي. وshall not تعني المنع. وshall be deemed تعني يُعتبر.",
+    "form": "S + shall (not) + V (base)",
+    "ex": [
+     {
+      "en": "The tenant shall pay the rent on the first day of each month.",
+      "ar": "يدفع المستأجر الإيجار في أول يوم من كل شهر."
+     },
+     {
+      "en": "The parties shall resolve any dispute by arbitration.",
+      "ar": "يحل الطرفان أي نزاع بالتحكيم."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "In 2018, the study has found a link between income and trust.",
+    "ok": "In 2018, the study found a link between income and trust.",
+    "ar": "العربي يقول (وجدت الدراسة) فيحاول المضارع التام. مع تاريخ محدد نستعمل الماضي البسيط."
+   },
+   {
+    "x": "The seller shall to deliver the goods within 30 days.",
+    "ok": "The seller shall deliver the goods within 30 days.",
+    "ar": "shall فعل ناقص فلا يحتاج to. نقول shall + الفعل الأساسي."
+   },
+   {
+    "x": "Few studies examined the long-term effects so far.",
+    "ok": "Few studies have examined the long-term effects so far.",
+    "ar": "so far تدل على فترة مستمرة حتى الآن، فنحتاج have examined."
+   }
+  ],
+  "tip": "دراسة محددة وتاريخ = ماضٍ بسيط. أدبيات عامة وحتى الآن = مضارع تام. حقيقة أو جدول = مضارع بسيط. التزام قانوني = shall.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Over the past decade, several studies ___ that transparency reduces corruption.",
+    "o": [
+     "showed",
+     "have shown",
+     "are showing"
+    ],
+    "a": 1,
+    "why": "الأدبيات حتى الآن: مضارع تام have shown."
+   },
+   {
+    "k": "mc",
+    "q": "In a 2019 survey, researchers ___ 500 civil servants.",
+    "o": [
+     "have interviewed",
+     "interviewed",
+     "interview"
+    ],
+    "a": 1,
+    "why": "دراسة محددة بتاريخ: الماضي البسيط."
+   },
+   {
+    "k": "mc",
+    "q": "The tenant ___ pay the rent on the first day of each month.",
+    "o": [
+     "is going to",
+     "shall",
+     "would"
+    ],
+    "a": 1,
+    "why": "shall تعبر عن التزام قانوني في العقود."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is typical of a methodology section?",
+    "o": [
+     "Participants ask to complete a questionnaire.",
+     "Participants will have asked to complete a questionnaire.",
+     "Participants were asked to complete a questionnaire."
+    ],
+    "a": 2,
+    "why": "المنهجية تُكتب بالماضي المبني للمجهول."
+   },
+   {
+    "k": "mc",
+    "q": "Previous research ___ largely on urban populations; this study addresses rural areas.",
+    "o": [
+     "has focused",
+     "focusing",
+     "has been focusing at"
+    ],
+    "a": 0,
+    "why": "عرض الأدبيات حتى الآن يأتي بالمضارع التام."
+   },
+   {
+    "k": "gap",
+    "q": "A recent review ___ (conclude) that accountability measures work best when enforced.",
+    "a": [
+     "concluded",
+     "has concluded"
+    ],
+    "why": "عرض دراسة حديثة: ماضٍ بسيط أو مضارع تام."
+   },
+   {
+    "k": "gap",
+    "q": "The employee ___ not disclose confidential information.",
+    "a": [
+     "shall"
+    ],
+    "why": "shall not للمنع الإلزامي في النصوص القانونية."
+   },
+   {
+    "k": "gap",
+    "q": "Few studies ___ (examine) the long-term effects so far.",
+    "a": [
+     "have examined"
+    ],
+    "why": "so far تتطلب المضارع التام."
+   },
+   {
+    "k": "fix",
+    "q": "In 2018, the study has found a link between income and trust.",
+    "bad": "has found",
+    "good": [
+     "found"
+    ],
+    "why": "مع تاريخ محدد (2018) نستعمل الماضي البسيط."
+   },
+   {
+    "k": "fix",
+    "q": "The seller shall to deliver the goods within 30 days.",
+    "bad": "shall to deliver",
+    "good": [
+     "shall deliver"
+    ],
+    "why": "shall فعل ناقص لا يأخذ to."
+   },
+   {
+    "k": "order",
+    "a": "The parties shall resolve any dispute by arbitration.",
+    "ar": "يحل الطرفان أي نزاع بالتحكيم."
+   },
+   {
+    "k": "order",
+    "a": "Several studies have shown that transparency reduces corruption.",
+    "ar": "أظهرت دراسات عدة أن الشفافية تقلل الفساد."
+   },
+   {
+    "k": "trans",
+    "q": "Several researchers have shown that audits reduce fraud. (Use an impersonal passive.)",
+    "start": "It has been shown",
+    "a": [
+     "It has been shown that audits reduce fraud.",
+     "It has been shown by several researchers that audits reduce fraud."
+    ],
+    "why": "المبني للمجهول غير الشخصي شائع في الكتابة الأكاديمية."
+   },
+   {
+    "k": "trans",
+    "q": "The tenant must pay the rent monthly. (Use legal style.)",
+    "start": "The tenant shall",
+    "a": [
+     "The tenant shall pay the rent monthly.",
+     "The tenant shall pay the rent on a monthly basis."
+    ],
+    "why": "must في العقود تصبح shall + الفعل الأساسي."
+   }
+  ]
+ },
+ {
+  "id": "g-c1-16",
+  "l": "C1",
+  "title": "Sentence variety and punctuation for band 7+ (colons, dashes, parallelism)",
+  "titleAr": "تنويع الجمل وعلامات الترقيم لدرجة 7+ (النقطتان، الشرطة، التوازي)",
+  "why": "المصحح يبحث عن جمل متنوعة وعلامات ترقيم دقيقة وتوازن في البناء. هذه الأدوات الصغيرة ترفع Grammatical Range and Accuracy.",
+  "rules": [
+   {
+    "ar": "النقطتان (colon) تقدمان شرحاً أو قائمة أو نتيجة بعد جملة كاملة. ما قبل النقطتين جملة مكتملة.",
+    "form": "complete sentence: explanation / list",
+    "ex": [
+     {
+      "en": "The audit revealed one serious flaw: the absence of independent review.",
+      "ar": "كشف التدقيق عن عيب خطير واحد: غياب المراجعة المستقلة."
+     },
+     {
+      "en": "The plan had one aim: to restore public trust.",
+      "ar": "كان للخطة هدف واحد: استعادة ثقة الجمهور."
+     }
+    ]
+   },
+   {
+    "ar": "الشرطة (dash) تضيف توضيحاً أو تأكيداً. نستعمل شرطتين لجملة اعتراضية وشرطة واحدة للتأكيد في آخر الجملة.",
+    "form": "S — aside — V / S V — emphasis",
+    "ex": [
+     {
+      "en": "The new law — which took five years to draft — came into force in January.",
+      "ar": "دخل القانون الجديد، الذي استغرقت صياغته خمس سنوات، حيز التنفيذ في يناير."
+     },
+     {
+      "en": "The reform, long overdue, was finally approved.",
+      "ar": "أُقرّ الإصلاح أخيراً بعد أن تأخر طويلاً."
+     }
+    ]
+   },
+   {
+    "ar": "الفاصلة المنقوطة (semicolon) تربط جملتين مستقلتين مرتبطتين في المعنى. وبعدها قد تأتي كلمة ربط مع فاصلة: however, moreover.",
+    "form": "S V; however, S V",
+    "ex": [
+     {
+      "en": "The audit was thorough; however, several errors escaped notice.",
+      "ar": "كان التدقيق شاملاً؛ ومع ذلك فاتت عدة أخطاء."
+     },
+     {
+      "en": "The scheme was expensive; moreover, it was ineffective.",
+      "ar": "كان المشروع مكلفاً؛ والأسوأ أنه غير فعال."
+     }
+    ]
+   },
+   {
+    "ar": "التوازي (parallelism): نستعمل الشكل النحوي نفسه في عناصر القائمة: كلها -ing أو كلها to أو كلها أسماء.",
+    "form": "V-ing, V-ing and V-ing / to V, to V and to V",
+    "ex": [
+     {
+      "en": "She enjoys reading, writing and analysing data.",
+      "ar": "تستمتع بالقراءة والكتابة وتحليل البيانات."
+     },
+     {
+      "en": "The programme aims to reduce costs, improve quality and increase access.",
+      "ar": "يهدف البرنامج إلى خفض التكاليف وتحسين الجودة وزيادة فرص الوصول."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "The policy aims to reduce delays, improving access and to cut costs.",
+    "ok": "The policy aims to reduce delays, improve access and cut costs.",
+    "ar": "العربي يعطف بالواو دون الانتباه للشكل النحوي. في الإنجليزية يجب أن تتشابه الأفعال في القائمة."
+   },
+   {
+    "x": "The audit was thorough, however, several errors escaped notice.",
+    "ok": "The audit was thorough; however, several errors escaped notice.",
+    "ar": "However ليست حرف عطف، فلا تكفي الفاصلة قبلها. نستعمل نقطة أو فاصلة منقوطة."
+   },
+   {
+    "x": "The study had: one aim to measure public trust.",
+    "ok": "The study had one aim: to measure public trust.",
+    "ar": "نضع النقطتين بعد جملة كاملة، وليس بعد الفعل مباشرة."
+   }
+  ],
+  "tip": "اكتب جملة كاملة ثم النقطتان للشرح. وبعد كلمة مثل however استعمل فاصلة منقوطة قبلها. وفي كل قائمة أبقِ الشكل نفسه: -ing, -ing, -ing.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which sentence uses a colon correctly?",
+    "o": [
+     "The ministry faced one major problem: a lack of trained auditors.",
+     "The ministry faced: one major problem, which was a lack.",
+     "The ministry: faced a problem which lacked auditors."
+    ],
+    "a": 0,
+    "why": "النقطتان تأتيان بعد جملة كاملة وتقدمان الشرح."
+   },
+   {
+    "k": "mc",
+    "q": "The audit was thorough; ___, several errors escaped notice.",
+    "o": [
+     "because",
+     "and",
+     "however"
+    ],
+    "a": 2,
+    "why": "بعد الفاصلة المنقوطة يأتي رابط التعارض however."
+   },
+   {
+    "k": "mc",
+    "q": "She enjoys reading, writing and ___ data.",
+    "o": [
+     "to analyse",
+     "analysing",
+     "analyse"
+    ],
+    "a": 1,
+    "why": "التوازي: كل العناصر بصيغة -ing."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is punctuated correctly?",
+    "o": [
+     "The study, had one aim and to measure public trust.",
+     "The study had one aim, measuring: public trust.",
+     "The study had one aim: to measure public trust."
+    ],
+    "a": 2,
+    "why": "النقطتان بعد جملة كاملة تقدمان الشرح (الفاصلة المنقوطة تتطلب جملة مستقلة)."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence uses parallel structure?",
+    "o": [
+     "The programme aims to reduce costs, improving quality and to increase access.",
+     "The programme aims to reduce costs, improve quality and increase access.",
+     "The programme aims to reduce costs, improve quality and increasing access."
+    ],
+    "a": 1,
+    "why": "الأفعال الثلاثة بالصيغة نفسها: reduce, improve, increase."
+   },
+   {
+    "k": "gap",
+    "q": "She enjoys reading, writing and ___ (analyse) data.",
+    "a": [
+     "analysing"
+    ],
+    "why": "التوازي مع reading وwriting: analysing."
+   },
+   {
+    "k": "gap",
+    "q": "The audit was thorough; ___, several errors escaped notice.",
+    "a": [
+     "however",
+     "nevertheless",
+     "nonetheless"
+    ],
+    "why": "رابط تعارض بعد الفاصلة المنقوطة."
+   },
+   {
+    "k": "gap",
+    "q": "He promised to listen, to learn and ___ act.",
+    "a": [
+     "to"
+    ],
+    "why": "التوازي: to listen, to learn, to act."
+   },
+   {
+    "k": "fix",
+    "q": "The policy aims to reduce delays, improving access and to cut costs.",
+    "bad": "improving access",
+    "good": [
+     "improve access",
+     "to improve access"
+    ],
+    "why": "يجب أن تتشابه عناصر القائمة بصيغة المصدر."
+   },
+   {
+    "k": "fix",
+    "q": "The audit was thorough, however, several errors escaped notice.",
+    "bad": "thorough, however,",
+    "good": [
+     "thorough; however,"
+    ],
+    "why": "however لا تربط جملتين بفاصلة، نحتاج فاصلة منقوطة."
+   },
+   {
+    "k": "order",
+    "a": "The plan had one aim: to restore public trust.",
+    "ar": "كان للخطة هدف واحد: استعادة ثقة الجمهور."
+   },
+   {
+    "k": "order",
+    "a": "The reform, long overdue, was finally approved.",
+    "ar": "أُقرّ الإصلاح أخيراً بعد أن تأخر طويلاً."
+   },
+   {
+    "k": "trans",
+    "q": "The scheme was expensive. It was also ineffective. (Combine using a semicolon.)",
+    "start": "The scheme was expensive",
+    "a": [
+     "The scheme was expensive; it was also ineffective.",
+     "The scheme was expensive; moreover, it was ineffective.",
+     "The scheme was expensive; furthermore, it was ineffective."
+    ],
+    "why": "الفاصلة المنقوطة تربط جملتين مستقلتين مرتبطتين في المعنى."
+   },
+   {
+    "k": "trans",
+    "q": "The audit revealed one serious flaw. The flaw was the absence of independent review. (Use a colon.)",
+    "start": "The audit revealed one serious flaw",
+    "a": [
+     "The audit revealed one serious flaw: the absence of independent review."
+    ],
+    "why": "النقطتان تقدمان الشرح بعد جملة كاملة."
+   }
+  ]
+ }
+]

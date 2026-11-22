@@ -1,0 +1,440 @@
+[
+ {
+  "id": "r-b1-01",
+  "l": "B1",
+  "title": "Recycling in a Modern City",
+  "topic": "environment",
+  "paras": [
+   "In many modern cities, rubbish is no longer simply thrown away. Every week, thousands of tonnes of paper, glass, plastic and metal are collected, sorted and sent to factories to be used again. City councils say that recycling saves energy, protects the countryside and creates jobs, but it only works when ordinary residents take part.",
+   "Most households now have several bins in different colours. Blue is for paper, green is for glass, and yellow is for plastic bottles and cans. Food waste goes into a small brown bin, and everything else goes into a grey one. At first, many people found the system confusing, so the council sent leaflets to every home and put clear pictures on each lid.",
+   "After collection, the waste travels to a large sorting centre. There, magnets pull steel cans out of the stream, and machines blow light paper away from heavy bottles. Workers stand beside the moving belts and remove anything that should not be there, such as plastic bags or dirty food boxes. Even one wrong item can spoil a whole load of clean material.",
+   "Food waste is treated in a different way. It is taken to a special plant, where it is turned into compost and a gas that can heat buildings. Some schools now use this compost in their gardens, and pupils grow vegetables for the canteen. Teachers say that this helps children understand where waste ends up.",
+   "Recycling is not perfect, however. Some materials, such as greasy pizza boxes or broken mirrors, cannot be processed. Experts therefore advise people to reduce what they buy and to reuse things whenever possible. A glass jar, for example, can hold pasta for years. Recycling, they say, should be the last step, not the first."
+  ],
+  "gloss": [
+   {
+    "w": "recycling",
+    "ar": "إعادة التدوير"
+   },
+   {
+    "w": "sorted",
+    "ar": "مفروزة / مصنّفة"
+   },
+   {
+    "w": "leaflet",
+    "ar": "منشور / كتيّب"
+   },
+   {
+    "w": "compost",
+    "ar": "سماد عضوي"
+   },
+   {
+    "w": "canteen",
+    "ar": "مقصف"
+   },
+   {
+    "w": "processed",
+    "ar": "تتم معالجتها"
+   },
+   {
+    "w": "reuse",
+    "ar": "إعادة الاستخدام"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why did the council send leaflets to every home?",
+    "o": [
+     "To ask residents for money",
+     "To help people understand the bin system",
+     "To announce a new factory"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: كان النظام محيّرًا فأُرسلت منشورات وصور للتوضيح."
+   },
+   {
+    "k": "mc",
+    "q": "What do magnets do at the sorting centre?",
+    "o": [
+     "They separate light paper from bottles",
+     "They carry the waste to the factory",
+     "They pull steel cans out of the stream"
+    ],
+    "a": 2,
+    "why": "الفقرة 3: المغناطيس يسحب علب الصلب من التيار."
+   },
+   {
+    "k": "tfng",
+    "q": "Yellow bins are used for glass.",
+    "a": "F",
+    "why": "الفقرة 2: الأخضر للزجاج والأصفر للبلاستيك والعلب."
+   },
+   {
+    "k": "tfng",
+    "q": "Workers at the sorting centre remove wrong items from the belts.",
+    "a": "T",
+    "why": "الفقرة 3: العمال يزيلون كل ما لا ينبغي وجوده."
+   },
+   {
+    "k": "tfng",
+    "q": "The sorting centre employs more than five hundred people.",
+    "a": "NG",
+    "why": "النص لا يذكر عدد العاملين."
+   },
+   {
+    "k": "gap",
+    "q": "Food waste is turned into compost and a ___ that can heat buildings.",
+    "a": [
+     "gas"
+    ],
+    "why": "الفقرة 4: السماد وغاز يمكنه تدفئة المباني."
+   },
+   {
+    "k": "gap",
+    "q": "Experts advise people to ___ what they buy.",
+    "a": [
+     "reduce"
+    ],
+    "why": "الفقرة 5: ينصح الخبراء بتقليل ما نشتريه."
+   },
+   {
+    "k": "tfng",
+    "q": "Greasy pizza boxes can be recycled easily.",
+    "a": "F",
+    "why": "الفقرة 5: لا يمكن معالجة علب البيتزا الدهنية."
+   }
+  ],
+  "sumAr": "تعمل المدن الحديثة على جمع النفايات وفرزها وإعادة استخدامها بمساعدة السكان وصناديق ملوّنة ومراكز فرز. ومع ذلك لا تُعالَج كل المواد، لذا ينصح الخبراء بالتقليل وإعادة الاستخدام قبل التدوير."
+ },
+ {
+  "id": "r-b1-02",
+  "l": "B1",
+  "title": "Learning a Language as an Adult",
+  "topic": "education",
+  "paras": [
+   "Many adults believe they are too old to learn a new language. They remember difficult school lessons and think that children have a magical advantage. Research, however, suggests a more balanced picture. Children often reach a natural accent more easily, but adults have strengths of their own that can make them faster learners in the first months.",
+   "One strength is experience. Adults already know how language works, so they understand ideas such as verbs, tenses and polite requests. They can also use reading skills and dictionaries, and they can explain to themselves why a sentence is wrong. A ten-year-old rarely does this. Adults also have clear reasons to learn, such as a better job, a university place or a move abroad.",
+   "Of course, adults face problems that children do not. They are usually tired after work, they have family duties, and they feel embarrassed when they make mistakes. Many stop after a few weeks because progress seems slow. Teachers often say that the biggest enemy is not age but irregular practice.",
+   "Successful learners usually follow a few simple habits. They study for twenty minutes every day instead of three hours once a week. They listen to podcasts on the bus, read short news stories, and write a few lines in a notebook before sleep. They also speak as early as possible, even if their sentences are simple. A language exchange partner, who speaks your target language and wants to learn yours, can be very helpful.",
+   "Finally, it helps to measure progress in a kind way. Instead of asking, \"Am I fluent yet?\", ask, \"What can I do now that I could not do last month?\" Ordering a meal, understanding a short film or writing a polite email are real achievements. Small wins keep motivation high, and motivation is what carries an adult learner to the end."
+  ],
+  "gloss": [
+   {
+    "w": "advantage",
+    "ar": "ميزة"
+   },
+   {
+    "w": "accent",
+    "ar": "لكنة"
+   },
+   {
+    "w": "embarrassed",
+    "ar": "محرَج"
+   },
+   {
+    "w": "irregular",
+    "ar": "غير منتظم"
+   },
+   {
+    "w": "habit",
+    "ar": "عادة"
+   },
+   {
+    "w": "fluent",
+    "ar": "طليق في الكلام"
+   },
+   {
+    "w": "motivation",
+    "ar": "الدافعية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Which strength do adults have, according to the text?",
+    "o": [
+     "They understand how language works",
+     "They have more free time",
+     "They hear sounds more clearly"
+    ],
+    "a": 0,
+    "why": "الفقرة 2: يعرف الكبار كيف تعمل اللغة."
+   },
+   {
+    "k": "mc",
+    "q": "What do teachers say is the biggest enemy of adult learners?",
+    "o": [
+     "Old age",
+     "Expensive books",
+     "Irregular practice"
+    ],
+    "a": 2,
+    "why": "الفقرة 3: العدو الأكبر هو الممارسة غير المنتظمة."
+   },
+   {
+    "k": "tfng",
+    "q": "Children often find it easier to get a natural accent.",
+    "a": "T",
+    "why": "الفقرة 1: الأطفال غالبًا يكتسبون اللكنة الطبيعية بسهولة أكبر."
+   },
+   {
+    "k": "tfng",
+    "q": "The text says that children are better than adults in every way.",
+    "a": "F",
+    "why": "الفقرة 1: للكبار نقاط قوة خاصة بهم."
+   },
+   {
+    "k": "tfng",
+    "q": "Most adult learners prefer online lessons to classes.",
+    "a": "NG",
+    "why": "النص لا يقارن بين الدروس الإلكترونية والصفوف."
+   },
+   {
+    "k": "gap",
+    "q": "Successful learners study for ___ every day.",
+    "a": [
+     "twenty minutes",
+     "20 minutes"
+    ],
+    "why": "الفقرة 4: يدرسون عشرين دقيقة يوميًا."
+   },
+   {
+    "k": "gap",
+    "q": "A language ___ partner wants to learn your language.",
+    "a": [
+     "exchange"
+    ],
+    "why": "الفقرة 4: شريك تبادل اللغة."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer advises waiting until your sentences are perfect before you speak.",
+    "a": "F",
+    "why": "الفقرة 4: ينصح بالكلام مبكرًا حتى لو كانت الجمل بسيطة."
+   }
+  ],
+  "sumAr": "للكبار نقاط قوة في تعلّم اللغات، مثل الخبرة وفهم القواعد ووضوح الهدف، لكن التعب وقلة الانتظام يعيقانهم. النجاح يأتي من عادات يومية بسيطة والكلام المبكر وقياس التقدم بلطف."
+ },
+ {
+  "id": "r-b1-03",
+  "l": "B1",
+  "title": "A Day in a Courtroom",
+  "topic": "law",
+  "paras": [
+   "Courtroom 4 opens at half past eight, long before the public arrives. A clerk checks the microphones, places files on the judge's desk and makes sure that there is enough water for everyone. Today there are five cases on the list, from a minor traffic offence to a dispute between a tenant and a landlord.",
+   "At nine o'clock, everyone stands as the judge enters. The first case is a man accused of driving without insurance. His lawyer explains that the insurance ended only two days earlier and that he was already arranging a new policy. The prosecutor shows a document from the insurance company. The judge listens carefully, asks two short questions, and then announces a fine.",
+   "The second case takes longer. A tenant says that his landlord kept his deposit without a good reason. The landlord says that the flat was left damaged. Both sides bring photographs, and a witness, the tenant's neighbour, describes the state of the flat when he moved out. The landlord's lawyer questions the witness closely, but the witness stays calm and gives the same answers every time.",
+   "After lunch, the judge hears a request to delay a trial because an important witness is ill. The lawyers discuss dates, and a new hearing is set for next month. Meanwhile, in the public seats, a group of law students takes notes. One of them whispers that real courts are much quieter than those on television. There is no shouting, and decisions are made by reading rules and weighing evidence.",
+   "By half past four, the list is finished. The judge writes the final decisions, and the clerk files the documents so that every party can receive a copy. Behind the calm routine is a simple principle: everyone has the right to be heard, and the decision must be based on facts and law, not on opinion. The room is then cleaned for the next day."
+  ],
+  "gloss": [
+   {
+    "w": "clerk",
+    "ar": "كاتب المحكمة"
+   },
+   {
+    "w": "dispute",
+    "ar": "نزاع"
+   },
+   {
+    "w": "tenant",
+    "ar": "مستأجر"
+   },
+   {
+    "w": "deposit",
+    "ar": "وديعة / مبلغ تأمين"
+   },
+   {
+    "w": "witness",
+    "ar": "شاهد"
+   },
+   {
+    "w": "prosecutor",
+    "ar": "المدّعي العام"
+   },
+   {
+    "w": "hearing",
+    "ar": "جلسة استماع"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What does the clerk do first in the morning?",
+    "o": [
+     "Questions a witness",
+     "Prepares the room for the judge",
+     "Announces a fine"
+    ],
+    "a": 1,
+    "why": "الفقرة 1: يفحص الميكروفونات ويجهز المكتب والماء."
+   },
+   {
+    "k": "mc",
+    "q": "Why does the landlord keep the deposit?",
+    "o": [
+     "He says the flat was damaged",
+     "He says the rent was late",
+     "He says the tenant left early"
+    ],
+    "a": 0,
+    "why": "الفقرة 3: يقول المالك إن الشقة تركت متضررة."
+   },
+   {
+    "k": "tfng",
+    "q": "The man accused of driving without insurance receives a fine.",
+    "a": "T",
+    "why": "الفقرة 2: القاضي يعلن غرامة."
+   },
+   {
+    "k": "tfng",
+    "q": "The neighbour changes his answers during questioning.",
+    "a": "F",
+    "why": "الفقرة 3: الشاهد يبقى هادئًا ويعطي الإجابات نفسها."
+   },
+   {
+    "k": "tfng",
+    "q": "The tenant wins his case against the landlord.",
+    "a": "NG",
+    "why": "النص لا يذكر نتيجة القضية الثانية."
+   },
+   {
+    "k": "gap",
+    "q": "A new hearing is set for next ___.",
+    "a": [
+     "month"
+    ],
+    "why": "الفقرة 4: الجلسة الجديدة الشهر القادم."
+   },
+   {
+    "k": "gap",
+    "q": "In the public seats, law students take ___.",
+    "a": [
+     "notes"
+    ],
+    "why": "الفقرة 4: الطلاب يدوّنون ملاحظات."
+   },
+   {
+    "k": "mc",
+    "q": "What must a decision be based on?",
+    "o": [
+     "Opinion and feeling",
+     "Facts and law",
+     "Speed and cost"
+    ],
+    "a": 1,
+    "why": "الفقرة 5: القرار يبنى على الوقائع والقانون."
+   }
+  ],
+  "sumAr": "يصف النص يومًا في قاعة محكمة: تحضير القاعة، قضية مخالفة مرورية، ونزاع بين مستأجر ومالك، وتأجيل محاكمة. ويؤكد أن لكل شخص حقّ الاستماع إليه وأن القرارات تُبنى على الوقائع والقانون."
+ },
+ {
+  "id": "r-b1-04",
+  "l": "B1",
+  "title": "The History of Paper",
+  "topic": "history",
+  "paras": [
+   "Paper is so common today that we rarely think about it. Yet for most of history, people wrote on much more difficult materials. In Egypt, writers used papyrus, made from a tall water plant. In other regions, they used animal skins, wood or clay. These materials were heavy, expensive or hard to make, so writing stayed in the hands of a few people.",
+   "According to historical tradition, paper was developed in China about two thousand years ago. Workers mixed old cloth, plant fibres and water into a soft pulp. They spread the pulp on a fine screen, pressed out the water and left the thin sheet to dry. The result was light, cheap and smooth, and it took ink well.",
+   "For several centuries, the method stayed mostly inside China. Then it travelled along trade routes to Central Asia and the Middle East. Cities such as Samarkand and Baghdad became famous for their paper mills, and scholars wrote and copied thousands of books. Libraries grew, and knowledge of medicine, mathematics and geography spread more widely than before.",
+   "Paper reached Europe much later, in the Middle Ages. At first, each sheet was made by hand, so books remained costly. The great change came with the printing press in the fifteenth century. Printers needed large amounts of cheap paper, and mills multiplied. Later, in the nineteenth century, machines began to make paper from wood pulp, and prices fell again.",
+   "Today we use paper for books, packaging, money and tickets, even though screens are everywhere. Modern factories also recycle huge amounts of old paper, which saves trees and water. Many people predicted that computers would end paper, yet we still print and write on it every day. The story of paper shows how a simple, cheap invention can change the way humans share ideas."
+  ],
+  "gloss": [
+   {
+    "w": "papyrus",
+    "ar": "البردي"
+   },
+   {
+    "w": "fibre",
+    "ar": "ألياف"
+   },
+   {
+    "w": "pulp",
+    "ar": "عجينة / لبّ"
+   },
+   {
+    "w": "screen",
+    "ar": "شبكة / غربال"
+   },
+   {
+    "w": "mill",
+    "ar": "مصنع / معمل"
+   },
+   {
+    "w": "scholar",
+    "ar": "عالِم / باحث"
+   },
+   {
+    "w": "costly",
+    "ar": "باهظ الثمن"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why did writing stay in the hands of a few people for a long time?",
+    "o": [
+     "Few people wanted to learn",
+     "Early materials were hard to get or make",
+     "Ink was not invented"
+    ],
+    "a": 1,
+    "why": "الفقرة 1: المواد ثقيلة أو غالية أو صعبة الصنع."
+   },
+   {
+    "k": "mc",
+    "q": "What was early Chinese paper made from?",
+    "o": [
+     "Wood and clay",
+     "Animal skins",
+     "Old cloth and plant fibres"
+    ],
+    "a": 2,
+    "why": "الفقرة 2: خُلطت الأقمشة القديمة وألياف النبات والماء."
+   },
+   {
+    "k": "tfng",
+    "q": "Papyrus was made from a tall water plant.",
+    "a": "T",
+    "why": "الفقرة 1: البردي يُصنع من نبات مائي طويل."
+   },
+   {
+    "k": "tfng",
+    "q": "Paper was first made in Europe.",
+    "a": "F",
+    "why": "الفقرة 2: ظهر الورق في الصين أولًا."
+   },
+   {
+    "k": "tfng",
+    "q": "The Chinese kept the method secret by law.",
+    "a": "NG",
+    "why": "النص لا يذكر أي قانون للسرية."
+   },
+   {
+    "k": "gap",
+    "q": "In the nineteenth century, machines began to make paper from wood ___.",
+    "a": [
+     "pulp"
+    ],
+    "why": "الفقرة 4: من لب الخشب."
+   },
+   {
+    "k": "gap",
+    "q": "Samarkand and Baghdad became famous for paper ___.",
+    "a": [
+     "mills"
+    ],
+    "why": "الفقرة 3: اشتهرتا بمصانع الورق."
+   },
+   {
+    "k": "tfng",
+    "q": "The printing press increased the demand for paper.",
+    "a": "T",
+    "why": "الفقرة 4: احتاج الطباعون كميات كبيرة من الورق."
+   }
+  ],
+  "sumAr": "نشأ الورق في الصين من الأقمشة والألياف ثم انتقل عبر طرق التجارة إلى آسيا الوسطى والشرق الأوسط ثم أوروبا. ساعدت المطبعة والآلات على خفض سعره، وما زلنا نستعمله رغم الشاشات."
+ }
+]

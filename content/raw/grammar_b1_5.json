@@ -1,0 +1,874 @@
+[
+ {
+  "id": "g-b1-17",
+  "l": "B1",
+  "title": "so/such, too/enough",
+  "titleAr": "so وsuch وtoo وenough",
+  "why": "نستعمل هذه الكلمات لنقول «جدا» أو «أكثر من اللازم» أو «بما يكفي». لكل واحدة مكانها الخاص في الجملة.",
+  "rules": [
+   {
+    "ar": "so تأتي قبل الصفة أو الظرف مباشرة: so tired, so quickly. مع الاسم نستعمل so much / so many.",
+    "form": "so + adjective / adverb; so much / many + noun",
+    "ex": [
+     {
+      "en": "I was so tired that I slept early.",
+      "ar": "كنت متعبا جدا حتى نمت باكرا."
+     },
+     {
+      "en": "There were so many people.",
+      "ar": "كان هناك أناس كثيرون جدا."
+     }
+    ]
+   },
+   {
+    "ar": "such تأتي قبل الاسم (مع صفة أو بدونها). إذا كان الاسم مفردا معدودا نضع a/an بعد such.",
+    "form": "such + (a/an) + (adjective) + noun",
+    "ex": [
+     {
+      "en": "It was such a long day.",
+      "ar": "كان يوما طويلا جدا."
+     },
+     {
+      "en": "They are such interesting books.",
+      "ar": "هي كتب مثيرة جدا."
+     }
+    ]
+   },
+   {
+    "ar": "too تعني «أكثر من اللازم» وفيها معنى سلبي: too heavy = ثقيل جدا فلا أستطيع حمله. نستعمل too قبل الصفة، وtoo much / too many قبل الاسم.",
+    "form": "too + adjective (+ to + verb)",
+    "ex": [
+     {
+      "en": "The bag is too heavy to carry.",
+      "ar": "الحقيبة ثقيلة جدا لا يمكن حملها."
+     },
+     {
+      "en": "There is too much noise here.",
+      "ar": "هناك ضجيج كثير جدا هنا."
+     }
+    ]
+   },
+   {
+    "ar": "enough تعني «بما يكفي». بعد الصفة: old enough. وقبل الاسم: enough time. وفي النفي تعني «لا يكفي».",
+    "form": "adjective + enough / enough + noun",
+    "ex": [
+     {
+      "en": "She is old enough to drive.",
+      "ar": "هي كبيرة بما يكفي لتقود."
+     },
+     {
+      "en": "We have enough time.",
+      "ar": "لدينا وقت كاف."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "It was too much hot.",
+    "ok": "It was too hot.",
+    "ar": "في العربية نقول «حار جدا». too لا تأخذ much قبل الصفة."
+   },
+   {
+    "x": "He is enough old to vote.",
+    "ok": "He is old enough to vote.",
+    "ar": "في العربية «كاف» تأتي قبل الصفة أحيانا. في الإنجليزية enough بعد الصفة."
+   },
+   {
+    "x": "The soup is too good.",
+    "ok": "The soup is very good.",
+    "ar": "too فيها معنى سلبي. للمدح نستعمل very أو so."
+   },
+   {
+    "x": "It was so a nice day.",
+    "ok": "It was such a nice day.",
+    "ar": "قبل a/an + اسم نستعمل such وليس so."
+   }
+  ],
+  "tip": "so + صفة. such + (a) + اسم. too + صفة = مشكلة. صفة + enough. وenough قبل الاسم.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "It was ___ a hot day that we stayed inside.",
+    "o": [
+     "so",
+     "such",
+     "too"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ a + صفة + اسم، فنستعمل such."
+   },
+   {
+    "k": "mc",
+    "q": "The exam was ___ difficult that nobody finished.",
+    "o": [
+     "such",
+     "so",
+     "too"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ صفة فقط، فنستعمل so."
+   },
+   {
+    "k": "mc",
+    "q": "She is not old ___ to drive.",
+    "o": [
+     "enough",
+     "too",
+     "so"
+    ],
+    "a": 0,
+    "why": "enough تأتي بعد الصفة."
+   },
+   {
+    "k": "mc",
+    "q": "I can't concentrate. There is ___ noise in this room.",
+    "o": [
+     "too much",
+     "too many",
+     "so many"
+    ],
+    "a": 0,
+    "why": "noise اسم غير معدود، فنستعمل too much."
+   },
+   {
+    "k": "mc",
+    "q": "The bag is ___ heavy for me to carry.",
+    "o": [
+     "too",
+     "very",
+     "enough"
+    ],
+    "a": 0,
+    "why": "لا أستطيع حمله، وهذا معنى سلبي تعبر عنه too."
+   },
+   {
+    "k": "mc",
+    "q": "We didn't have ___ money to buy the house.",
+    "o": [
+     "enough",
+     "too",
+     "such"
+    ],
+    "a": 0,
+    "why": "enough قبل الاسم بمعنى «ما يكفي»."
+   },
+   {
+    "k": "gap",
+    "q": "It was ___ an interesting lecture that I took many notes.",
+    "a": [
+     "such"
+    ],
+    "why": "بعد الفراغ an + صفة + اسم، فنستعمل such."
+   },
+   {
+    "k": "gap",
+    "q": "The coffee was ___ hot to drink.",
+    "a": [
+     "too"
+    ],
+    "why": "ساخنة أكثر من اللازم فلا يمكن شربها."
+   },
+   {
+    "k": "gap",
+    "q": "Is the room big ___ for thirty people?",
+    "a": [
+     "enough"
+    ],
+    "why": "enough بعد الصفة."
+   },
+   {
+    "k": "gap",
+    "q": "There were ___ many people that we couldn't find a seat.",
+    "a": [
+     "so"
+    ],
+    "why": "so many + اسم جمع ثم that للنتيجة."
+   },
+   {
+    "k": "fix",
+    "q": "She was too much tired to continue.",
+    "bad": "too much tired",
+    "good": [
+     "too tired"
+    ],
+    "why": "قبل الصفة نقول too فقط."
+   },
+   {
+    "k": "fix",
+    "q": "He isn't enough old to vote.",
+    "bad": "enough old",
+    "good": [
+     "old enough"
+    ],
+    "why": "enough تأتي بعد الصفة."
+   },
+   {
+    "k": "order",
+    "a": "The test was so easy that everyone passed.",
+    "ar": "كان الاختبار سهلا جدا حتى نجح الجميع."
+   },
+   {
+    "k": "order",
+    "a": "She is not tall enough to reach the shelf.",
+    "ar": "هي ليست طويلة بما يكفي لتصل إلى الرف."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-18",
+  "l": "B1",
+  "title": "Contrast linkers: although, even though, despite, in spite of, however, whereas",
+  "titleAr": "أدوات التناقض: although وdespite وhowever وwhereas",
+  "why": "نستعمل هذه الكلمات لنقول «لكن» بطرق أدق. كل أداة لها ما يأتي بعدها: جملة أو اسم أو جملة جديدة.",
+  "rules": [
+   {
+    "ar": "although وeven though وthough بعدها جملة كاملة (فاعل + فعل). even though أقوى. لا نضع but في الجملة نفسها.",
+    "form": "although + subject + verb",
+    "ex": [
+     {
+      "en": "Although it was raining, we played football.",
+      "ar": "مع أنها كانت تمطر، لعبنا كرة القدم."
+     },
+     {
+      "en": "Even though he was tired, he kept working.",
+      "ar": "مع أنه كان متعبا، واصل العمل."
+     }
+    ]
+   },
+   {
+    "ar": "despite وin spite of بعدهما اسم أو -ing، وليس جملة. نكتب despite بدون of، ونكتب in spite of مع of.",
+    "form": "despite / in spite of + noun / -ing",
+    "ex": [
+     {
+      "en": "Despite the rain, we played football.",
+      "ar": "رغم المطر، لعبنا كرة القدم."
+     },
+     {
+      "en": "She passed despite not studying much.",
+      "ar": "نجحت رغم أنها لم تدرس كثيرا."
+     }
+    ]
+   },
+   {
+    "ar": "إذا أردنا جملة بعد despite نقول despite the fact that + جملة.",
+    "form": "despite the fact that + clause",
+    "ex": [
+     {
+      "en": "Despite the fact that he was ill, he went to work.",
+      "ar": "رغم أنه كان مريضا، ذهب إلى العمل."
+     }
+    ]
+   },
+   {
+    "ar": "however تأتي في أول جملة جديدة، وبعدها فاصلة. تربط جملتين منفصلتين. whereas وwhile نقارن بهما بين شيئين مختلفين.",
+    "form": "Sentence. However, + sentence / A, whereas B",
+    "ex": [
+     {
+      "en": "The test was hard. However, most students passed.",
+      "ar": "كان الاختبار صعبا. ومع ذلك نجح معظم الطلاب."
+     },
+     {
+      "en": "Ali likes the city, whereas his wife prefers the countryside.",
+      "ar": "يحب علي المدينة، بينما تفضل زوجته الريف."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "Although it was cold, but we went out.",
+    "ok": "Although it was cold, we went out.",
+    "ar": "في العربية «مع أن... لكن» جائزة أحيانا. في الإنجليزية لا نجمع although وbut."
+   },
+   {
+    "x": "Despite he was tired, he worked.",
+    "ok": "Although he was tired, he worked.",
+    "ar": "بعد despite لا تأتي جملة. نستعمل although مع الجملة."
+   },
+   {
+    "x": "Despite of the rain, we left.",
+    "ok": "Despite the rain, we left.",
+    "ar": "despite لا تأخذ of. فقط in spite of تأخذها."
+   },
+   {
+    "x": "It was cold, however we went out.",
+    "ok": "It was cold. However, we went out.",
+    "ar": "however تبدأ جملة جديدة بنقطة قبلها وفاصلة بعدها."
+   }
+  ],
+  "tip": "although + جملة. despite + اسم. however في بداية جملة جديدة. whereas للمقارنة.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "___ it was raining, we played football.",
+    "o": [
+     "Despite",
+     "Although",
+     "However"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ جملة كاملة، فنستعمل although."
+   },
+   {
+    "k": "mc",
+    "q": "___ the rain, we played football.",
+    "o": [
+     "Although",
+     "Despite",
+     "However"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ اسم (the rain)، فنستعمل despite."
+   },
+   {
+    "k": "mc",
+    "q": "The test was hard. ___, most students passed.",
+    "o": [
+     "Although",
+     "However",
+     "Despite"
+    ],
+    "a": 1,
+    "why": "بعد النقطة نبدأ جملة جديدة بـ however."
+   },
+   {
+    "k": "mc",
+    "q": "Ali likes the city, ___ his wife prefers the countryside.",
+    "o": [
+     "whereas",
+     "despite",
+     "however"
+    ],
+    "a": 0,
+    "why": "نقارن بين شخصين مختلفين، فنستعمل whereas."
+   },
+   {
+    "k": "mc",
+    "q": "She passed the exam ___ not studying much.",
+    "o": [
+     "although",
+     "despite",
+     "however"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ -ing وليس جملة، فنستعمل despite."
+   },
+   {
+    "k": "mc",
+    "q": "He kept working ___ he was very tired.",
+    "o": [
+     "in spite of",
+     "even though",
+     "however"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ جملة (he was)، فنستعمل even though."
+   },
+   {
+    "k": "gap",
+    "q": "___ the fact that he was ill, he went to work.",
+    "a": [
+     "Despite",
+     "In spite of"
+    ],
+    "why": "قبل the fact that نستعمل despite أو in spite of."
+   },
+   {
+    "k": "gap",
+    "q": "She is only twenty. ___, she is already a good lawyer.",
+    "a": [
+     "However",
+     "however"
+    ],
+    "why": "جملة جديدة تعبر عن تناقض، فنستعمل however."
+   },
+   {
+    "k": "gap",
+    "q": "___ she studied hard, she failed the test.",
+    "a": [
+     "Although",
+     "Even though",
+     "Though"
+    ],
+    "why": "بعد الفراغ جملة كاملة."
+   },
+   {
+    "k": "gap",
+    "q": "In ___ of the heavy traffic, we arrived on time.",
+    "a": [
+     "spite"
+    ],
+    "why": "العبارة in spite of."
+   },
+   {
+    "k": "fix",
+    "q": "Despite he was tired, he finished the report.",
+    "bad": "Despite",
+    "good": [
+     "Although",
+     "Even though",
+     "Though"
+    ],
+    "why": "بعد despite لا تأتي جملة. نستعمل although."
+   },
+   {
+    "k": "fix",
+    "q": "Although the delay, the flight arrived safely.",
+    "bad": "Although",
+    "good": [
+     "Despite",
+     "In spite of"
+    ],
+    "why": "بعد the delay (اسم) نستعمل despite."
+   },
+   {
+    "k": "order",
+    "a": "Although it was cold, we walked to the station.",
+    "ar": "مع أن الجو كان باردا، مشينا إلى المحطة."
+   },
+   {
+    "k": "order",
+    "a": "Despite the rain, the match started on time.",
+    "ar": "رغم المطر، بدأت المباراة في وقتها."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-19",
+  "l": "B1",
+  "title": "Purpose, reason, result: to, in order to, so that, because of, due to, therefore",
+  "titleAr": "الغرض والسبب والنتيجة",
+  "why": "نستعمل هذه الأدوات لنشرح لماذا فعلنا شيئا وماذا حدث بعده. اختر الأداة بحسب ما يأتي بعدها: فعل أو اسم أو جملة.",
+  "rules": [
+   {
+    "ar": "للغرض (الهدف) نستعمل to أو in order to أو so as to + فعل. لا نقول for to أبدا.",
+    "form": "to / in order to / so as to + base verb",
+    "ex": [
+     {
+      "en": "I went to the library to borrow a book.",
+      "ar": "ذهبت إلى المكتبة لأستعير كتابا."
+     },
+     {
+      "en": "We left early in order to avoid the traffic.",
+      "ar": "غادرنا باكرا لكي نتجنب الازدحام."
+     }
+    ]
+   },
+   {
+    "ar": "so that + جملة، وغالبا مع can أو could أو will أو would. بعدها فاعل وفعل كاملان، وهي مناسبة عندما يختلف الفاعل في الجملتين.",
+    "form": "so that + subject + can / could / would",
+    "ex": [
+     {
+      "en": "She spoke slowly so that everyone could understand.",
+      "ar": "تكلمت ببطء لكي يفهم الجميع."
+     },
+     {
+      "en": "He wrote it down so that he wouldn't forget.",
+      "ar": "كتبه لكي لا ينساه."
+     }
+    ]
+   },
+   {
+    "ar": "للسبب: because + جملة. because of أو due to + اسم. as وsince + جملة أيضا.",
+    "form": "because + clause / because of, due to + noun",
+    "ex": [
+     {
+      "en": "The match was cancelled because there was a storm.",
+      "ar": "أُلغيت المباراة لأن هناك عاصفة."
+     },
+     {
+      "en": "The flight was late due to fog.",
+      "ar": "تأخرت الرحلة بسبب الضباب."
+     }
+    ]
+   },
+   {
+    "ar": "للنتيجة: so + جملة (بعد فاصلة). therefore وas a result في بداية جملة جديدة وبعدها فاصلة.",
+    "form": "…, so + clause / Therefore, + clause",
+    "ex": [
+     {
+      "en": "It was very cold, so we stayed home.",
+      "ar": "كان البرد شديدا فبقينا في البيت."
+     },
+     {
+      "en": "The company was unfair. Therefore, many workers left.",
+      "ar": "كانت الشركة ظالمة. لذلك غادر عمال كثيرون."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "I came here for to study.",
+    "ok": "I came here to study.",
+    "ar": "في العربية «لِـ» تعني الغرض. في الإنجليزية نقول to وحدها قبل الفعل."
+   },
+   {
+    "x": "He stayed home because of he was ill.",
+    "ok": "He stayed home because he was ill.",
+    "ar": "because of بعدها اسم. إذا جاءت جملة نستعمل because."
+   },
+   {
+    "x": "We left early so that avoid traffic.",
+    "ok": "We left early to avoid traffic.",
+    "ar": "so that تحتاج جملة كاملة. للفعل مباشرة نستعمل to."
+   },
+   {
+    "x": "It was cold, therefore, we stayed.",
+    "ok": "It was cold. Therefore, we stayed.",
+    "ar": "therefore تبدأ جملة جديدة، ولا نصل بها جملتين بفاصلة فقط."
+   }
+  ],
+  "tip": "to + فعل. so that + جملة. because + جملة. because of + اسم. therefore في أول جملة جديدة.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "I went to the library ___ borrow a book.",
+    "o": [
+     "for",
+     "to",
+     "so that"
+    ],
+    "a": 1,
+    "why": "الغرض + فعل مباشر، فنستعمل to."
+   },
+   {
+    "k": "mc",
+    "q": "She spoke slowly ___ everyone could understand.",
+    "o": [
+     "in order to",
+     "so that",
+     "because of"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ جملة فيها فاعل جديد وcould، فنستعمل so that."
+   },
+   {
+    "k": "mc",
+    "q": "The match was cancelled ___ the storm.",
+    "o": [
+     "because",
+     "because of",
+     "so"
+    ],
+    "a": 1,
+    "why": "بعد الفراغ اسم (the storm)، فنستعمل because of."
+   },
+   {
+    "k": "mc",
+    "q": "The match was cancelled ___ there was a storm.",
+    "o": [
+     "because",
+     "because of",
+     "due to"
+    ],
+    "a": 0,
+    "why": "بعد الفراغ جملة كاملة، فنستعمل because."
+   },
+   {
+    "k": "mc",
+    "q": "The company was unfair. ___, many workers left.",
+    "o": [
+     "Therefore",
+     "Because",
+     "Due to"
+    ],
+    "a": 0,
+    "why": "النتيجة تبدأ جملة جديدة، فنستعمل therefore."
+   },
+   {
+    "k": "mc",
+    "q": "He saved money ___ buy a laptop.",
+    "o": [
+     "in order to",
+     "so that",
+     "because"
+    ],
+    "a": 0,
+    "why": "الغرض + فعل، فنستعمل in order to."
+   },
+   {
+    "k": "gap",
+    "q": "We left early ___ avoid the traffic.",
+    "a": [
+     "to",
+     "in order to",
+     "so as to"
+    ],
+    "why": "الغرض + فعل."
+   },
+   {
+    "k": "gap",
+    "q": "He wrote the number down ___ that he wouldn't forget it.",
+    "a": [
+     "so"
+    ],
+    "why": "الأداة so that للغرض."
+   },
+   {
+    "k": "gap",
+    "q": "The flight was late ___ to fog.",
+    "a": [
+     "due"
+    ],
+    "why": "التعبير due to + اسم."
+   },
+   {
+    "k": "gap",
+    "q": "It was very cold, ___ we stayed home.",
+    "a": [
+     "so"
+    ],
+    "why": "للنتيجة بعد فاصلة نستعمل so."
+   },
+   {
+    "k": "fix",
+    "q": "I called the bank for to change my address.",
+    "bad": "for to",
+    "good": [
+     "to",
+     "in order to"
+    ],
+    "why": "لا نقول for to. نقول to + فعل."
+   },
+   {
+    "k": "fix",
+    "q": "The road was closed because of there was an accident.",
+    "bad": "because of",
+    "good": [
+     "because"
+    ],
+    "why": "بعد الفراغ جملة، فنستعمل because."
+   },
+   {
+    "k": "order",
+    "a": "He studied hard in order to pass the exam.",
+    "ar": "درس بجد لكي ينجح في الامتحان."
+   },
+   {
+    "k": "order",
+    "a": "We took a taxi so that we would not be late.",
+    "ar": "استقللنا سيارة أجرة لكي لا نتأخر."
+   }
+  ]
+ },
+ {
+  "id": "g-b1-20",
+  "l": "B1",
+  "title": "Phrasal verbs grammar: separable and inseparable",
+  "titleAr": "قواعد الأفعال المركبة: القابلة للفصل وغير القابلة",
+  "why": "الفعل المركب (phrasal verb) فعل + حرف، ومعناه يختلف عن الفعل وحده. المهم أن نعرف أين نضع المفعول به.",
+  "rules": [
+   {
+    "ar": "الفعل المركب له معنى خاص. تعلمه كأنه كلمة واحدة. مثال: look up = يبحث عن معلومة، turn off = يطفئ.",
+    "form": "verb + particle = new meaning",
+    "ex": [
+     {
+      "en": "Please turn off the light.",
+      "ar": "من فضلك أطفئ الضوء."
+     },
+     {
+      "en": "She looked up the word in a dictionary.",
+      "ar": "بحثت عن الكلمة في القاموس."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال قابلة للفصل (separable). إذا كان المفعول اسما فلنا خياران. وإذا كان المفعول ضميرا (it, them, him) فيجب أن يأتي في الوسط.",
+    "form": "pick it up (not pick up it)",
+    "ex": [
+     {
+      "en": "She picked up the book. / She picked the book up.",
+      "ar": "رفعت الكتاب."
+     },
+     {
+      "en": "She picked it up.",
+      "ar": "رفعته."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال غير قابلة للفصل (inseparable). المفعول يأتي دائما بعد الفعل المركب كله، حتى لو كان ضميرا: look after, look for, run into, get over.",
+    "form": "look after + object",
+    "ex": [
+     {
+      "en": "He looks after his grandmother.",
+      "ar": "هو يعتني بجدته."
+     },
+     {
+      "en": "I ran into an old friend.",
+      "ar": "صادفت صديقا قديما."
+     }
+    ]
+   },
+   {
+    "ar": "بعض الأفعال المركبة من ثلاث كلمات، وبعدها اسم أو -ing: look forward to, put up with, get on with. وبعض الأفعال لا تأخذ مفعولا: take off, sit down, wake up.",
+    "form": "verb + particle + preposition",
+    "ex": [
+     {
+      "en": "I'm looking forward to meeting you.",
+      "ar": "أتطلع إلى لقائك."
+     },
+     {
+      "en": "The plane took off at six.",
+      "ar": "أقلعت الطائرة في السادسة."
+     }
+    ]
+   }
+  ],
+  "mistakes": [
+   {
+    "x": "She turned off it.",
+    "ok": "She turned it off.",
+    "ar": "في العربية الضمير يلتصق بالفعل. في الإنجليزية الضمير يدخل بين الفعل والحرف في الأفعال القابلة للفصل."
+   },
+   {
+    "x": "He looks his grandmother after.",
+    "ok": "He looks after his grandmother.",
+    "ar": "look after غير قابل للفصل: لا نفصل بينهما."
+   },
+   {
+    "x": "I look forward to see you.",
+    "ok": "I look forward to seeing you.",
+    "ar": "to هنا حرف جر، وبعده اسم أو -ing."
+   },
+   {
+    "x": "I can't put up it.",
+    "ok": "I can't put up with it.",
+    "ar": "put up with ثلاث كلمات. لا نحذف with."
+   }
+  ],
+  "tip": "الضمير في الوسط: turn it off. look after وlook for: لا فصل أبدا. ثلاث كلمات: لا تحذف الحرف الأخير.",
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Here is the form. Please fill ___ now.",
+    "o": [
+     "it in",
+     "in it",
+     "out it"
+    ],
+    "a": 0,
+    "why": "الضمير it يأتي بين fill وin."
+   },
+   {
+    "k": "mc",
+    "q": "I can't find my keys. I have been looking ___ them all morning.",
+    "o": [
+     "at",
+     "for",
+     "after"
+    ],
+    "a": 1,
+    "why": "look for = يبحث عن."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "She picked up it.",
+     "She picked it up.",
+     "She picked up them."
+    ],
+    "a": 1,
+    "why": "الضمير it في الوسط."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "He looks after her.",
+     "He looks her after.",
+     "He looks after she."
+    ],
+    "a": 0,
+    "why": "look after غير قابل للفصل، والضمير المفعول her."
+   },
+   {
+    "k": "mc",
+    "q": "I'm really looking forward ___ you next week.",
+    "o": [
+     "to see",
+     "to seeing",
+     "for seeing"
+    ],
+    "a": 1,
+    "why": "to حرف جر، وبعده -ing."
+   },
+   {
+    "k": "mc",
+    "q": "The plane ___ at six o'clock.",
+    "o": [
+     "took off",
+     "took off it",
+     "took it off"
+    ],
+    "a": 0,
+    "why": "take off هنا لازم بمعنى أقلعت، ولا مفعول له."
+   },
+   {
+    "k": "gap",
+    "q": "The light is on. Turn ___ off, please.",
+    "a": [
+     "it"
+    ],
+    "why": "الضمير يأتي في الوسط."
+   },
+   {
+    "k": "gap",
+    "q": "He ran ___ an old friend in the street.",
+    "a": [
+     "into",
+     "across"
+    ],
+    "why": "run into = يصادف."
+   },
+   {
+    "k": "gap",
+    "q": "I can't put ___ with this noise any longer.",
+    "a": [
+     "up"
+    ],
+    "why": "put up with = يتحمل."
+   },
+   {
+    "k": "gap",
+    "q": "Where is my pen? Did you throw it ___?",
+    "a": [
+     "away",
+     "out"
+    ],
+    "why": "throw away / throw out = يرمي."
+   },
+   {
+    "k": "fix",
+    "q": "She turned off it quickly.",
+    "bad": "turned off it",
+    "good": [
+     "turned it off"
+    ],
+    "why": "الضمير it يأتي في الوسط."
+   },
+   {
+    "k": "fix",
+    "q": "He looks his grandmother after every weekend.",
+    "bad": "looks his grandmother after",
+    "good": [
+     "looks after his grandmother"
+    ],
+    "why": "look after غير قابل للفصل."
+   },
+   {
+    "k": "order",
+    "a": "Please turn it off before you leave.",
+    "ar": "من فضلك أطفئه قبل أن تغادر."
+   },
+   {
+    "k": "order",
+    "a": "I am looking forward to meeting you.",
+    "ar": "أتطلع إلى لقائك."
+   }
+  ]
+ }
+]

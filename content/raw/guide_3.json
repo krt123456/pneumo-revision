@@ -1,0 +1,386 @@
+[
+ {
+  "id": "gd-ielts-17",
+  "cat": "ielts",
+  "title": "Writing: the four criteria and what band 7 means",
+  "titleAr": "Writing: المعايير الأربعة وماذا يعني Band 7",
+  "bodyAr": "يقيّم الممتحن كتابتك بأربعة معايير. **Task Achievement** في Task 1 (و**Task Response** في Task 2): هل أجبت عن المطلوب بالضبط وبالطول الكافي؟ **Coherence and Cohesion**: هل الأفكار مرتبة وهل الجمل مترابطة؟ **Lexical Resource**: هل مفرداتك متنوعة ودقيقة؟ **Grammatical Range and Accuracy**: هل تستعمل تراكيب متنوعة وبأخطاء قليلة؟ ويُنشر الوصف الرسمي لهذه المعايير على موقع ielts.org، وتستطيع الاطلاع عليه، لكننا هنا نشرحها بكلماتنا.\n\n**ماذا يعني Band 7 تقريباً؟** أن مقالك يجيب عن السؤال بوضوح، وموقفك ظاهر في المقال كله، والأفكار مرتبة في فقرات منطقية. وتستعمل مفردات أوسع من المألوف وببعض الكلمات الأقل شيوعاً، مع أخطاء قليلة في الاختيار أو الإملاء. وتستعمل جملاً بسيطة وأخرى معقدة، ومعظم جملك سليمة، وقد تبقى أخطاء صغيرة لا تعطّل الفهم.\n\n**أين يضيع الطلاب الدرجات؟** غالباً في الأفكار غير المشروحة، وفي تكرار الكلمات نفسها، وفي جمل طويلة غير صحيحة نحوياً. الجملة الصحيحة البسيطة أفضل من جملة معقدة خاطئة.\n\nلتتحسن: اختر معياراً واحداً كل أسبوع، وراجع مقالك على أساسه فقط. وقيّم مقالك بنفسك بعد أن تتركه يوماً كاملاً، فالعين الجديدة ترى الأخطاء بوضوح.",
+  "keyPoints": [
+   "أربعة معايير: الإجابة عن المطلوب، الترابط، المفردات، والنحو.",
+   "Band 7: إجابة واضحة وموقف ثابت وتنظيم جيد وتنوع معقول.",
+   "جملة بسيطة صحيحة أفضل من جملة معقدة خاطئة.",
+   "راجع معياراً واحداً في كل أسبوع."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "Which is NOT one of the four Writing criteria?",
+    "o": [
+     "Lexical Resource",
+     "Coherence and Cohesion",
+     "Handwriting speed"
+    ],
+    "a": 2,
+    "why": "سرعة الخط ليست معياراً؛ المعايير هي ما ذكرنا الأربعة."
+   },
+   {
+    "k": "mc",
+    "q": "What does Grammatical Range and Accuracy measure?",
+    "o": [
+     "Variety of structures and how correct they are",
+     "Only the length of the essay",
+     "The number of linking words"
+    ],
+    "a": 0,
+    "why": "المعيار يقيس تنوع التراكيب ودقتها معاً."
+   },
+   {
+    "k": "mc",
+    "q": "Which is better for your score?",
+    "o": [
+     "A long, complex sentence with errors",
+     "A shorter sentence that is clear and correct",
+     "A sentence copied from a model essay"
+    ],
+    "a": 1,
+    "why": "الجملة الصحيحة الواضحة أفضل من جملة معقدة مليئة بالأخطاء."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-18",
+  "cat": "ielts",
+  "title": "Writing: typical mistakes of Arabic speakers",
+  "titleAr": "Writing: أخطاء شائعة عند الناطقين بالعربية",
+  "bodyAr": "بعض الأخطاء تتكرر عند متعلمي الإنجليزية الناطقين بالعربية لأن بنية اللغتين تختلف. معرفتها مسبقاً تختصر عليك أشهراً.\n\n**1) الفعل to be:** في العربية نقول «هو طالب» بلا فعل، لكن الإنجليزية تحتاجه: He is a student، وليس He a student. ومثله I am agree خطأ، والصحيح I agree.\n\n**2) المفرد والجمع:** بعد each وevery نستعمل المفرد: every student وليس every students. وكلمات مثل information وadvice وresearch لا تُجمع: much information.\n\n**3) أدوات التعريف:** العربية تستعمل «ال» بشكل يختلف، فيكتب بعضهم The life is hard. والصحيح Life is hard حين نتحدث عن الحياة عموماً.\n\n**4) حروف الجر:** نقول depend on وlisten to وdiscuss the problem، وليس discuss about the problem.\n\n**5) ترتيب الجملة والفاصلة:** الجملة الإنجليزية تبدأ بالفاعل ثم الفعل، ولا نكرر الضمير: The government it decided خطأ. ولا نصل الجمل الطويلة بفاصلة فقط، بل نستعمل نقطة أو رابطاً.\n\n**6) الإملاء:** راجع الكلمات الشائعة مثل environment وgovernment، فنطقها لا يكشف كل حروفها.\n\nاكتب قائمة بأخطائك الشخصية وراجعها قبل كل مقال، فهي أسرع طريقة للتحسّن.",
+  "keyPoints": [
+   "لا تحذف الفعل to be: He is a student.",
+   "بعد each وevery نستعمل المفرد، وinformation لا تُجمع.",
+   "انتبه إلى أدوات التعريف وحروف الجر مثل discuss the problem.",
+   "لا تكرر الفاعل بضمير، ولا تصل جملتين بفاصلة فقط."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "He a teacher.",
+     "He is a teacher.",
+     "He teacher is."
+    ],
+    "a": 1,
+    "why": "الإنجليزية تحتاج فعل to be في الجملة الاسمية."
+   },
+   {
+    "k": "mc",
+    "q": "Which is correct?",
+    "o": [
+     "We discussed about the problem.",
+     "We discussed the problem.",
+     "We discussed of the problem."
+    ],
+    "a": 1,
+    "why": "فعل discuss يأخذ مفعولاً مباشراً بلا حرف جر."
+   },
+   {
+    "k": "mc",
+    "q": "Which is correct?",
+    "o": [
+     "Every students must register.",
+     "Every student must register.",
+     "Every of students must register."
+    ],
+    "a": 1,
+    "why": "بعد every نستعمل اسماً مفرداً."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-19",
+  "cat": "ielts",
+  "title": "Speaking Part 1",
+  "titleAr": "Speaking الجزء الأول: أسئلة تعارف",
+  "bodyAr": "الجزء الأول من Speaking يبدأ بتعارف قصير، ثم أسئلة عن موضوعات مألوفة: الدراسة والعمل والمدينة والهوايات والطعام والسفر. الجزء كله يستغرق عدة دقائق، والأسئلة بسيطة، لكن كثيرين يجيبون بكلمة واحدة.\n\n**القاعدة:** أجب بجملتين إلى ثلاث، وليس بكلمة واحدة. استعمل صيغة بسيطة: **جواب مباشر + سبب أو تفصيل + مثال قصير**. مثال: السؤال: «Do you enjoy cooking?» الجواب: «Yes, I do, mainly because it helps me relax after a long day. Last weekend, for example, I made a vegetable soup for my family.»\n\n**لا تحفظ إجابات كاملة.** الممتحن يلاحظ الحفظ، والجملة المحفوظة تبدو غير طبيعية. بدلاً من ذلك تدرّب على مواضيع شائعة وفكّر في كلمات أساسية فقط.\n\n**إذا لم تفهم السؤال** فاطلب الإعادة بأدب: «Sorry, could you repeat that?». وإن لم تعرف كلمة فاشرحها بكلمات أخرى.\n\n**نبرة طبيعية:** ابتسم، وانظر إلى الممتحن، وتحدث بوتيرة هادئة. الأخطاء الصغيرة طبيعية، فلا تتوقف لتصحيح كل خطأ.\n\nتدرّب بتسجيل صوتك وأنت تجيب عن ثلاثة أسئلة يومياً، ثم استمع وانتبه إلى الإطالة والوضوح.",
+  "keyPoints": [
+   "أسئلة مألوفة عن الدراسة والعمل والمدينة والهوايات.",
+   "أجب بجملتين إلى ثلاث: جواب ثم سبب ثم مثال.",
+   "لا تحفظ إجابات كاملة؛ تدرّب على أفكار وكلمات أساسية.",
+   "اطلب الإعادة بأدب إن لم تفهم، وسجّل صوتك للتدريب."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "How long should a typical Part 1 answer be?",
+    "o": [
+     "One word",
+     "Two or three sentences",
+     "A five-minute speech"
+    ],
+    "a": 1,
+    "why": "الجواب الجيد يضيف سبباً أو مثالاً، وليس كلمة واحدة."
+   },
+   {
+    "k": "mc",
+    "q": "What should you say if you did not hear the question?",
+    "o": [
+     "Sorry, could you repeat that?",
+     "Nothing",
+     "I do not like this test."
+    ],
+    "a": 0,
+    "why": "طلب الإعادة بأدب مقبول تماماً ويُظهر لباقة."
+   },
+   {
+    "k": "mc",
+    "q": "Why is it risky to memorise full answers?",
+    "o": [
+     "They sound unnatural and the examiner notices",
+     "They are too short",
+     "They are forbidden by law"
+    ],
+    "a": 0,
+    "why": "الإجابات المحفوظة تبدو غير طبيعية وقد تؤثر سلباً."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-20",
+  "cat": "ielts",
+  "title": "Speaking Part 2 and the one-minute notes",
+  "titleAr": "Speaking الجزء الثاني ودقيقة التحضير",
+  "bodyAr": "في الجزء الثاني تتسلّم بطاقة (cue card) فيها موضوع مثل Describe a place you visited وأربع نقاط ترشدك. تحصل على **دقيقة واحدة** للتحضير وتستطيع كتابة ملاحظات، ثم تتحدث بين **دقيقة وحتى دقيقتين**. الممتحن يوقفك حين ينتهي الوقت، وقد يسأل سؤالاً أو اثنين بعد ذلك.\n\n**كيف تستغل الدقيقة؟** لا تكتب جملاً كاملة، بل **كلمات مفتاحية** فقط تحت كل نقطة من البطاقة: ما؟ أين؟ متى؟ لماذا؟ اكتب ثلاث كلمات لكل نقطة وفكرة تضيفها في النهاية.\n\n**نظّم الحديث:** ابدأ بتقديم الموضوع، ثم امشِ على النقاط الأربع بالترتيب، ثم اختم بمشاعرك أو بدرس تعلمته. مثال على بداية: «I'd like to talk about a city I visited last year...».\n\n**إن توقفت** فلا تصمت. استعمل عبارات حشو مفيدة: «Let me think...» أو «What I mean is...». وتابع بالتفاصيل: الألوان والأصوات والأشخاص والمشاعر، فالتفاصيل تطيل حديثك بشكل طبيعي.\n\n**تدرّب بمؤقّت:** ضع هدفاً أن تصل إلى دقيقة ونصف على الأقل. سجّل نفسك، وأعد المحاولة بعد يوم لتلاحظ التحسّن.",
+  "keyPoints": [
+   "دقيقة تحضير ثم حديث بين دقيقة ودقيقتين.",
+   "اكتب كلمات مفتاحية وليس جملاً كاملة.",
+   "سِر على نقاط البطاقة بالترتيب واختم بمشاعرك أو درس تعلمته.",
+   "إذا توقفت فاستعمل عبارة حشو وتابع بالتفاصيل."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What is the best way to use the one minute of preparation?",
+    "o": [
+     "Write full sentences",
+     "Write key words under each point on the card",
+     "Sit and do nothing"
+    ],
+    "a": 1,
+    "why": "الكلمات المفتاحية أسرع وتذكّرك بالنقاط وتترك لك حرية الكلام."
+   },
+   {
+    "k": "mc",
+    "q": "How long do you speak in Part 2?",
+    "o": [
+     "About 20 seconds",
+     "Between one and two minutes",
+     "Ten minutes"
+    ],
+    "a": 1,
+    "why": "المدة بين دقيقة ودقيقتين، والممتحن يوقفك عند الانتهاء."
+   },
+   {
+    "k": "mc",
+    "q": "What should you do if you run out of ideas?",
+    "o": [
+     "Stop completely",
+     "Say 'Let me think...' and add more details",
+     "Start Part 3 yourself"
+    ],
+    "a": 1,
+    "why": "عبارات الحشو تمنحك لحظة، والتفاصيل تُكمل الحديث."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-21",
+  "cat": "ielts",
+  "title": "Speaking Part 3",
+  "titleAr": "Speaking الجزء الثالث: نقاش أعمق",
+  "bodyAr": "الجزء الثالث حوار أعمق مع الممتحن عن موضوع الجزء الثاني، لكن بصورة أعم: المجتمع والتعليم والتقنية والمستقبل. الأسئلة تطلب رأياً وتحليلاً ومقارنة وتوقعاً، وليس مجرد تجربة شخصية. لهذا يحتاج هذا الجزء إلى أفكار منظمة ولغة أكثر تنوعاً.\n\n**صيغة مساعدة:** **رأيك + سبب + مثال + رأي مقابل أو توقّع**. مثال: السؤال: «How has technology changed the way people study?» الجواب: «I think it has made learning more flexible. For example, students can watch lectures online at any time. However, some people find it harder to stay focused, so the effect depends on the learner.»\n\n**عبارات مفيدة:** In my view, وOn the one hand... on the other hand, وIt depends on... وI would say that... وOne possible reason is...\n\n**لا تخف من عدم المعرفة:** لا يُختبر علمك بالموضوع بل لغتك. ويمكنك أن تقول: «I haven't thought about it much, but I suppose...» ثم تكمل.\n\n**راجع الأزمنة:** تحدث بالماضي عن التغيّرات، وبالمضارع عن الواقع، وبـ will أو might عن التوقعات.\n\nتدرّب على جمع ثلاثة أفكار عامة في كل موضوع شائع: الدراسة، العمل، التقنية، البيئة. وهذا يساعدك على الإجابة بسرعة وبثقة.",
+  "keyPoints": [
+   "أسئلة عامة تطلب رأياً وتحليلاً وتوقعاً.",
+   "رتّب الجواب: رأي، سبب، مثال، ثم رأي مقابل أو توقع.",
+   "استعمل عبارات مثل In my view وIt depends on.",
+   "اللغة هي المختبَرة وليست معلوماتك عن الموضوع."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What do Part 3 questions usually ask for?",
+    "o": [
+     "Only your name",
+     "Opinions, comparisons and predictions",
+     "A memorised story"
+    ],
+    "a": 1,
+    "why": "الجزء الثالث يختبر قدرتك على التحليل وإبداء الرأي."
+   },
+   {
+    "k": "mc",
+    "q": "Which phrase is useful when you are not sure?",
+    "o": [
+     "It depends on...",
+     "I will not answer.",
+     "Next question."
+    ],
+    "a": 0,
+    "why": "It depends on تتيح لك أن تشرح الاحتمالات بدل الصمت."
+   },
+   {
+    "k": "mc",
+    "q": "What is actually tested in Speaking Part 3?",
+    "o": [
+     "Your general knowledge about the world",
+     "Your English and how you organise ideas",
+     "Your typing speed"
+    ],
+    "a": 1,
+    "why": "الاختبار يقيّم الإنجليزية، وليس معرفتك بالموضوع."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-22",
+  "cat": "ielts",
+  "title": "Speaking: the four criteria and fluency",
+  "titleAr": "Speaking: المعايير الأربعة والطلاقة",
+  "bodyAr": "يُقيَّم Speaking بأربعة معايير، وليس ثلاثة. **Fluency and Coherence**: هل تتحدث بتواصل وبترتيب منطقي دون توقف طويل؟ **Lexical Resource**: هل مفرداتك متنوعة وهل تستطيع التعبير عن الفكرة بطرق مختلفة؟ **Grammatical Range and Accuracy**: هل تستعمل جملاً بسيطة ومعقدة بدقة جيدة؟ **Pronunciation**: هل يُفهم نطقك بسهولة، من حيث الأصوات والنبرة والإيقاع؟ وتُنشر الأوصاف الرسمية على موقع ielts.org.\n\n**الطلاقة لا تعني السرعة.** الطلاقة أن تستمر في الكلام دون توقف طويل ودون تكرار مستمر لنفس الجملة. من المفيد أن تستعمل عبارات ربط بسيطة: Well... وActually... وTo be honest... وBecause of that...\n\n**التصحيح الذاتي:** إن أخطأت فصحّح بسرعة وتابع. هذا طبيعي حتى عند أهل اللغة.\n\n**المفردات:** تعوّد قول المعنى بطريقتين، مثلاً: very good → excellent أو really helpful. وإن نسيت كلمة فاشرحها بما تعرف.\n\n**النطق:** لا يلزمك لكنة بريطانية أو أمريكية معينة، بل نطق **مفهوم** مع نبرة وإيقاع جيدين. ركّز على النبر في الكلمات الطويلة وعلى نغمة الجملة.\n\nسجّل صوتك أسبوعياً وقارن، فهذه أسهل وسيلة لقياس تقدمك.",
+  "keyPoints": [
+   "أربعة معايير: الطلاقة والترابط، المفردات، النحو، النطق.",
+   "الطلاقة استمرار وترابط وليست سرعة.",
+   "صحّح خطأك بسرعة وتابع، ولا تتوقف طويلاً.",
+   "المطلوب نطق مفهوم لا لكنة معينة."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "How many criteria are used to assess Speaking?",
+    "o": [
+     "Three",
+     "Four",
+     "Six"
+    ],
+    "a": 1,
+    "why": "أربعة معايير: الطلاقة، المفردات، النحو، النطق."
+   },
+   {
+    "k": "mc",
+    "q": "Fluency mainly means...",
+    "o": [
+     "Speaking as fast as possible",
+     "Speaking smoothly without long pauses",
+     "Using only difficult words"
+    ],
+    "a": 1,
+    "why": "الطلاقة استمرار وانسياب دون توقف طويل، وليست سرعة."
+   },
+   {
+    "k": "mc",
+    "q": "What matters most for pronunciation?",
+    "o": [
+     "Being easy to understand",
+     "Having a perfect British accent",
+     "Whispering"
+    ],
+    "a": 0,
+    "why": "المعيار هو وضوح النطق ونبرته وليس تقليد لكنة معينة."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-23",
+  "cat": "ielts",
+  "title": "Test day on a computer: practical tips",
+  "titleAr": "يوم الاختبار على الحاسوب: نصائح عملية",
+  "bodyAr": "في الجزائر تُظهر قوائم المراكز على موقع ielts.org أن الاختبار يُجرى على الحاسوب، لكن اطلب من مركزك تفاصيل يومك بالتحديد، فقد تختلف الإجراءات. والرسوم المعلنة في صفحات المراكز كانت نحو 37,000 إلى 40,000 دينار في أواخر 2026؛ فتحقّق من المبلغ قبل الحجز لأنه قد يتغير.\n\n**قبل اليوم:** تدرّب بالحاسوب نفسه: اكتب مقالك على لوحة المفاتيح، وتمرّن على التمرير والقراءة من الشاشة، وجرّب سماعات الرأس. وجرّب أيضاً الاختبارات المجانية على موقع British Council.\n\n**يوم الاختبار:** احضر قبل الموعد بوقت كافٍ ومعك وثيقة الهوية التي سجّلت بها. نم جيداً وتناول إفطاراً خفيفاً. ولا تجرّب شيئاً جديداً في الطعام أو الشراب.\n\n**أثناء الاختبار:** اضبط مستوى الصوت في Listening قبل أن يبدأ التسجيل. في Reading وWriting راقب الوقت، واستعمل أدوات الشاشة مثل تظليل الكلمات إن وفّرها النظام. وفي Writing راجع الإملاء، فقد لا يساعدك المدقق.\n\n**إدارة التوتر:** تنفّس ببطء، وإن أخطأت في سؤال فانتقل ولا تحمل الخطأ معك إلى الأسئلة التالية.\n\nأما Speaking فقد يقع في اليوم نفسه أو خلال سبعة أيام، فاسأل مركزك عن موعده.",
+  "keyPoints": [
+   "اطلب من المركز تفاصيل الحاسوب وموعد Speaking.",
+   "الرسوم المعلنة كانت نحو 37,000 إلى 40,000 دينار في أواخر 2026، فتحقق قبل الحجز.",
+   "تدرّب بالكتابة على لوحة المفاتيح والقراءة من الشاشة وبسماعات الرأس.",
+   "احضر مبكراً بالهوية، وانتقل من السؤال الصعب ولا تتوقف عنده."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What should you do before booking in Algeria?",
+    "o": [
+     "Check the current fee at your test centre",
+     "Assume the fee never changes",
+     "Book without reading anything"
+    ],
+    "a": 0,
+    "why": "الرسوم المعلنة تتغير، والمصدر الأحدث هو صفحة المركز."
+   },
+   {
+    "k": "mc",
+    "q": "How can you prepare for typing your essay on a computer?",
+    "o": [
+     "Practise typing on a keyboard",
+     "Practise only with a pen",
+     "Do not practise"
+    ],
+    "a": 0,
+    "why": "التدرّب على الكتابة بلوحة المفاتيح يجعل الأداء أسرع في الاختبار."
+   },
+   {
+    "k": "mc",
+    "q": "When may the Speaking test take place?",
+    "o": [
+     "Two months later",
+     "On the same day or within 7 days of the other sections",
+     "Only a year before"
+    ],
+    "a": 1,
+    "why": "قد يكون Speaking في اليوم نفسه أو خلال سبعة أيام من بقية الاختبار."
+   }
+  ]
+ },
+ {
+  "id": "gd-ielts-24",
+  "cat": "ielts",
+  "title": "The last eight weeks before the test",
+  "titleAr": "آخر ثمانية أسابيع قبل الاختبار",
+  "bodyAr": "هذه خطة عملية للأسابيع الثمانية الأخيرة، وهي إطار يمكنك تعديله حسب وقتك. الهدف أن تتحول من تعلّم اللغة عموماً إلى التدرّب على شكل الاختبار.\n\n**الأسبوعان الأول والثاني:** أجرِ اختباراً تجريبياً كاملاً في ظروف الامتحان (الوقت نفسه والصمت). حدّد ضعفك في كل مهارة. تتوافر اختبارات مجانية على موقع British Council، كما يُفتح لمن يحجز عند British Council نحو 40 اختبار IELTS Ready.\n\n**الأسابيع من الثالث إلى السادس:** ركّز على أضعف مهارة يومياً بنحو ثلاثين دقيقة، وعلى مهارة أخرى بعدها. اكتب مقالاً أو تقريراً كل ثلاثة أيام وراجع أخطاءك بالمعايير الأربعة. وسجّل إجاباتك في Speaking أسبوعياً.\n\n**الأسبوع السابع:** اختبار تجريبي كامل ثانٍ، وقارنه بالأول. إن كانت درجتك قريبة من هدفك فثبّت ما تعرف، وإن كانت بعيدة فركّز على أكثر ما يرفع درجتك بسرعة.\n\n**الأسبوع الثامن:** خفّف الجهد. راجع أخطاءك ومفرداتك، وتدرّب على الحاسوب، ونم باكراً. ولا تبدأ مصادر جديدة.\n\nوتذكّر أن الأرقام التي ذكرناها عن عدد الإجابات الصحيحة لـ band 7 تقريبية وتختلف من اختبار لآخر. لذلك اجعل هدفك التدريبي أعلى بقليل لتبقى لك مساحة أمان.",
+  "keyPoints": [
+   "اختبار تجريبي كامل في الأسبوع الأول لتحديد نقاط الضعف.",
+   "اختبارات مجانية على موقع British Council، وIELTS Ready لمن يحجز عندهم.",
+   "اكتب بانتظام وراجع الأخطاء بالمعايير الأربعة وسجّل Speaking.",
+   "في الأسبوع الأخير خفّف الجهد وراجع ما تعرفه فقط."
+  ],
+  "quiz": [
+   {
+    "k": "mc",
+    "q": "What is a good use of the first two weeks?",
+    "o": [
+     "Take a full mock test and find your weak points",
+     "Start learning a new language",
+     "Stop practising"
+    ],
+    "a": 0,
+    "why": "الاختبار التجريبي يحدد نقاط الضعف لتبني عليها الخطة."
+   },
+   {
+    "k": "mc",
+    "q": "What should you do in the final week?",
+    "o": [
+     "Start many new materials",
+     "Reduce effort and review mistakes",
+     "Study all night"
+    ],
+    "a": 1,
+    "why": "التخفيف والمراجعة أفضل من مصادر جديدة ومن السهر."
+   },
+   {
+    "k": "mc",
+    "q": "Where can you find free IELTS practice tests?",
+    "o": [
+     "On the British Council website",
+     "Only on paper at the airport",
+     "Nowhere"
+    ],
+    "a": 0,
+    "why": "موقع British Council يوفّر اختبارات مجانية للمهارات الأربع."
+   }
+  ]
+ }
+]

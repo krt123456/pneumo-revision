@@ -1,0 +1,1056 @@
+[
+{
+"id": "l-c1-06",
+"l": "C1",
+"title": "Why people trust or distrust institutions",
+"part": 4,
+"accent": "AU",
+"lines": [
+{
+"s": "A",
+"t": "Good afternoon, everyone. Today I want to look at a question that sits at the centre of public administration: why do people trust some institutions and distrust others?"
+},
+{
+"s": "A",
+"t": "Researchers usually begin by separating two ideas that are often confused."
+},
+{
+"s": "A",
+"t": "Trust is a belief about what an institution will do, while trustworthiness is a fact about whether it deserves that belief. The two do not always match."
+},
+{
+"s": "A",
+"t": "A hospital can be excellent and still distrusted, and a careless agency can be trusted for years."
+},
+{
+"s": "A",
+"t": "The first explanation is performance. People judge institutions by what they deliver: clean water, punctual trains, a pension that arrives on time."
+},
+{
+"s": "A",
+"t": "Studies in several countries show that when services improve, trust rises, but slowly. The reverse is quicker."
+},
+{
+"s": "A",
+"t": "A single visible failure, such as a bridge collapse, can erase years of gradual gains."
+},
+{
+"s": "A",
+"t": "Psychologists call this negativity bias, and it explains why bad news travels so much further than good news."
+},
+{
+"s": "A",
+"t": "The second explanation concerns process rather than results. Procedural fairness means that people accept an unwelcome decision if they believe it was reached honestly."
+},
+{
+"s": "A",
+"t": "In one well-known type of experiment, participants who lost a dispute were more satisfied if they had explained their side than if they had won unheard."
+},
+{
+"s": "A",
+"t": "So being listened to matters at least as much as the outcome."
+},
+{
+"s": "A",
+"t": "The third explanation is transparency, and here the picture is more complicated than most reformers expect. It seems obvious that publishing information should increase trust. Often it does."
+},
+{
+"s": "A",
+"t": "But when an institution publishes data that reveal mistakes, trust can fall in the short term."
+},
+{
+"s": "A",
+"t": "The advantage appears later, because people begin to believe that problems will be found and corrected rather than hidden."
+},
+{
+"s": "A",
+"t": "So transparency is a long-term investment, not a quick repair."
+},
+{
+"s": "A",
+"t": "A fourth factor is closeness. People tend to trust local institutions more than national ones, partly because they can see the people who work there."
+},
+{
+"s": "A",
+"t": "A town clerk is a neighbour; a ministry is an abstraction. Personal contact is usually, though not always, positive."
+},
+{
+"s": "A",
+"t": "Finally, we must consider history and culture. In societies where public officials have long taken bribes, citizens learn to expect corruption and behave accordingly."
+},
+{
+"s": "A",
+"t": "They pay, because everyone pays. That behaviour then confirms the expectation, and a cycle forms. Breaking it is difficult, because trust cannot be ordered by law."
+},
+{
+"s": "A",
+"t": "Reformers who succeed tend to do three things. They start with one visible service and fix it completely. They punish a few high-profile offenders fairly and openly."
+},
+{
+"s": "A",
+"t": "And they keep going for years, as one campaign is never enough."
+},
+{
+"s": "A",
+"t": "To summarise, trust is built slowly through performance, fairness, openness and personal contact, and it is lost quickly."
+},
+{
+"s": "A",
+"t": "For your assignment, choose one institution you know well and explain which of these factors is the most important in its case."
+},
+{
+"s": "A",
+"t": "Please submit it in two weeks, and keep it under one thousand five hundred words."
+}
+],
+"gloss": [
+{
+"w": "trustworthiness",
+"ar": "جدارة بالثقة"
+},
+{
+"w": "negativity bias",
+"ar": "الانحياز للسلبي"
+},
+{
+"w": "procedural fairness",
+"ar": "عدالة الإجراءات"
+},
+{
+"w": "cycle",
+"ar": "حلقة مفرغة، دورة"
+},
+{
+"w": "high-profile",
+"ar": "بارز، مشهور"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "How does the lecturer distinguish trust from trustworthiness?",
+"o": [
+"Trust is a belief, while trustworthiness is whether the belief is deserved.",
+"Trust is earned by results, while trustworthiness comes from laws.",
+"Trust belongs to citizens, while trustworthiness belongs to ministers."
+],
+"a": 0,
+"why": "الثقة اعتقاد بما ستفعله المؤسسة، أما الجدارة بالثقة فحقيقة عن استحقاقها."
+},
+{
+"k": "mc",
+"q": "What effect does one highly visible failure have on trust?",
+"o": [
+"It rises slowly afterwards.",
+"It destroys gains built up over many years.",
+"It affects only local institutions."
+],
+"a": 1,
+"why": "فشل واحد ظاهر قد يمحو مكاسب سنوات، وهذا هو التحيز السلبي."
+},
+{
+"k": "tfng",
+"q": "Participants who lost a dispute were happier if they had been allowed to present their case.",
+"a": "T",
+"why": "أشار إلى أن من أتيح له شرح موقفه كان أكثر رضا حتى مع الخسارة."
+},
+{
+"k": "mc",
+"q": "What can happen when an institution publishes data that reveal its mistakes?",
+"o": [
+"Trust grows at once.",
+"Trust falls at first but may recover later.",
+"Trust stays exactly the same."
+],
+"a": 1,
+"why": "قد تنخفض الثقة قصيرا المدى ثم تزداد حين يصدق الناس أن المشكلات تُصحَّح."
+},
+{
+"k": "gap",
+"q": "People often trust ___ institutions more than national ones.",
+"a": [
+"local"
+],
+"why": "ذكر أن الناس يثقون بالمؤسسات المحلية أكثر لأنهم يرون العاملين فيها."
+},
+{
+"k": "mc",
+"q": "Why is it hard to break the cycle in societies with long-standing bribery?",
+"o": [
+"Officials refuse any investigation.",
+"Laws against bribery do not exist.",
+"Paying bribes confirms people's expectations."
+],
+"a": 2,
+"why": "الدفع يؤكد التوقع فتتكرر الدائرة، والثقة لا تُفرض بقانون."
+},
+{
+"k": "gap",
+"q": "Successful reformers begin by fully fixing one visible ___.",
+"a": [
+"service"
+],
+"why": "قال إنهم يبدؤون بخدمة واحدة ظاهرة ويصلحونها تماما."
+},
+{
+"k": "gap",
+"q": "The students' assignment must be shorter than ___ words.",
+"a": [
+"1500",
+"1,500",
+"one thousand five hundred"
+],
+"why": "قال أبقوه أقل من ألف وخمسمئة كلمة، والأسبوعان موعد التسليم."
+}
+]
+},
+{
+"id": "l-c1-07",
+"l": "C1",
+"title": "Bias in human and machine decisions",
+"part": 4,
+"accent": "GB",
+"lines": [
+{
+"s": "A",
+"t": "Welcome back. Last week we asked whether machines can be fair."
+},
+{
+"s": "A",
+"t": "This week I want to put that question next to an uncomfortable fact: human decision makers are not especially fair either. Any honest comparison has to start there."
+},
+{
+"s": "A",
+"t": "Let me begin with people. Decades of research show that human judgement is affected by things that have nothing to do with the case."
+},
+{
+"s": "A",
+"t": "A well-known study of parole hearings reported that decisions varied with the time since the judges' last break."
+},
+{
+"s": "A",
+"t": "I should say that later researchers argued the pattern might partly come from the order in which cases were scheduled, so we should treat the original claim cautiously."
+},
+{
+"s": "A",
+"t": "Even so, the broader finding is solid: the same person can reach different conclusions about identical cases on different days."
+},
+{
+"s": "A",
+"t": "Psychologists call this noise, and distinguish it from bias. Bias is a consistent push in one direction. Noise is random scatter."
+},
+{
+"s": "A",
+"t": "A scale that always reads two kilos too heavy is biased; a scale that gives a different number each time is noisy. Human systems suffer from both."
+},
+{
+"s": "A",
+"t": "Now to machines. A common first reaction is that an algorithm is neutral because it has no feelings. That is mistaken."
+},
+{
+"s": "A",
+"t": "A model learns from historical data, and if the data record past discrimination, the model can reproduce it."
+},
+{
+"s": "A",
+"t": "A famous kind of example involves hiring tools trained on the résumés of previous successful employees."
+},
+{
+"s": "A",
+"t": "If most of those employees were men, the system may learn to prefer features that correlate with being male, even when gender is never mentioned."
+},
+{
+"s": "A",
+"t": "This is called proxy discrimination."
+},
+{
+"s": "A",
+"t": "However, machines have one real advantage: consistency. Given the same input, a model returns the same output every time. So it removes noise, even if it keeps bias."
+},
+{
+"s": "A",
+"t": "Furthermore, a model can be audited. We can test it with thousands of artificial cases, change one detail at a time, and see whether the result changes."
+},
+{
+"s": "A",
+"t": "We cannot do this with a human judge, who will remember the experiment and may change behaviour."
+},
+{
+"s": "A",
+"t": "There is a catch, though. Researchers have shown that there are several mathematical definitions of fairness, and in most real situations they cannot all be satisfied at once."
+},
+{
+"s": "A",
+"t": "For example, you can demand that the error rate is the same for two groups, or that a given score means the same risk for both groups."
+},
+{
+"s": "A",
+"t": "If the groups differ in the underlying rate of the event, you cannot have both. This does not mean that fairness is impossible."
+},
+{
+"s": "A",
+"t": "It means that someone must choose which definition matters, and that choice is a moral and legal one, not a technical one."
+},
+{
+"s": "A",
+"t": "So what is the practical conclusion? Most experts now favour what is called human oversight, but we have to be careful with that phrase."
+},
+{
+"s": "A",
+"t": "Studies suggest that people supervising a system often follow its recommendation even when it is wrong, a habit known as automation bias."
+},
+{
+"s": "A",
+"t": "Oversight works only if the human has time, training and the genuine power to disagree."
+},
+{
+"s": "A",
+"t": "In short: people are noisy and biased, machines are consistent and biased, and the sensible question is not which is perfect but which can be examined, challenged and improved."
+},
+{
+"s": "A",
+"t": "For next week, read the two articles on the course page, and think about which definition of fairness you would choose for a court."
+}
+],
+"gloss": [
+{
+"w": "parole",
+"ar": "إفراج مشروط"
+},
+{
+"w": "noise",
+"ar": "تشتت عشوائي"
+},
+{
+"w": "audit",
+"ar": "يدقق، يفحص"
+},
+{
+"w": "proxy",
+"ar": "بديل غير مباشر"
+},
+{
+"w": "oversight",
+"ar": "إشراف ورقابة"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What is the lecturer's starting point for comparing humans and machines?",
+"o": [
+"Machines are always more accurate than people.",
+"People are not particularly fair decision makers either.",
+"Algorithms have already replaced judges."
+],
+"a": 1,
+"why": "بدأ بحقيقة غير مريحة: البشر أيضا ليسوا عادلين بشكل خاص."
+},
+{
+"k": "mc",
+"q": "How does the lecturer treat the parole hearing study?",
+"o": [
+"As proof that judges are corrupt.",
+"As a result that should be handled cautiously.",
+"As a study that has been completely disproved."
+],
+"a": 1,
+"why": "ذكر أن باحثين لاحقين فسّروا النمط جزئيا بترتيب الجلسات، فيجب الحذر."
+},
+{
+"k": "gap",
+"q": "A scale that always reads two kilos too heavy is an example of ___.",
+"a": [
+"bias"
+],
+"why": "الانحياز دفع ثابت في اتجاه واحد، أما التشتت العشوائي فهو الضجيج."
+},
+{
+"k": "mc",
+"q": "Why might a hiring tool disadvantage women?",
+"o": [
+"It was told to ignore gender completely.",
+"It learns features linked to male employees in past data.",
+"It cannot read women's résumés."
+],
+"a": 1,
+"why": "تتعلم من بيانات سابقة فتفضّل سمات مرتبطة بالذكور دون ذكر الجنس."
+},
+{
+"k": "tfng",
+"q": "A trained model may give a different answer to the same input on different days.",
+"a": "F",
+"why": "قال إن النموذج يعطي المخرجات نفسها في كل مرة، فيزيل الضجيج."
+},
+{
+"k": "mc",
+"q": "Why can the different definitions of fairness not all be met together?",
+"o": [
+"The groups differ in the underlying rate of the event.",
+"Computers cannot compare two groups.",
+"Courts have not defined fairness."
+],
+"a": 0,
+"why": "إذا اختلفت المعدلات الأساسية بين المجموعتين تعذّر تحقيق التعريفين معا."
+},
+{
+"k": "gap",
+"q": "Following a system's wrong recommendation is called ___ bias.",
+"a": [
+"automation"
+],
+"why": "سمّى هذه العادة انحياز الأتمتة عند من يشرف على النظام."
+},
+{
+"k": "mc",
+"q": "When does human oversight of a system work?",
+"o": [
+"When the person has time, training and real power to disagree.",
+"When the person checks every case twice.",
+"When the system explains its mathematics."
+],
+"a": 0,
+"why": "الإشراف مفيد فقط إن توفر للمشرف الوقت والتدريب وقدرة حقيقية على الاعتراض."
+}
+]
+},
+{
+"id": "l-c1-08",
+"l": "C1",
+"title": "How corruption is measured",
+"part": 4,
+"accent": "US",
+"lines": [
+{
+"s": "A",
+"t": "Good morning. Today's topic sounds simple: how do we measure corruption? The difficulty is obvious."
+},
+{
+"s": "A",
+"t": "People who pay or accept bribes do not report them, so there is no direct count."
+},
+{
+"s": "A",
+"t": "Researchers have therefore developed several indirect methods, and each has strengths and weaknesses."
+},
+{
+"s": "A",
+"t": "The first and most famous approach is the perception index. These indices combine surveys of business people and country experts to produce a score."
+},
+{
+"s": "A",
+"t": "They are popular because they cover almost every country and can be compared across years. But they measure what people think, not what happens."
+},
+{
+"s": "A",
+"t": "And perceptions can lag behind reality: a country may clean up its customs service, yet continue to be seen as corrupt for years."
+},
+{
+"s": "A",
+"t": "The second approach is experience surveys. Instead of asking what people believe, interviewers ask households whether they paid a bribe to any official during the previous twelve months."
+},
+{
+"s": "A",
+"t": "This is closer to real behaviour. The weakness is honesty: people may be ashamed or afraid to answer, so the numbers are probably too low."
+},
+{
+"s": "A",
+"t": "To reduce this problem, some researchers use a technique called a list experiment."
+},
+{
+"s": "A",
+"t": "Half of the respondents see a list of four harmless activities and say how many they did."
+},
+{
+"s": "A",
+"t": "The other half see the same list plus a fifth item, paying a bribe."
+},
+{
+"s": "A",
+"t": "The difference in averages between the groups estimates the share of bribe payers, though nobody has to admit to anything."
+},
+{
+"s": "A",
+"t": "A third family of methods uses hard data. Take public procurement."
+},
+{
+"s": "A",
+"t": "Analysts can examine contracts and look for warning signs: only one bidder, a very short advertising period, or frequent changes to the price after signing."
+},
+{
+"s": "A",
+"t": "None of these proves a crime, but a pattern of red flags points investigators to where they should look."
+},
+{
+"s": "A",
+"t": "The huge advantage is that the data already exist and can be analysed every day. The disadvantage is that corrupt officials learn which signs are watched and adapt."
+},
+{
+"s": "A",
+"t": "The fourth approach is more creative. Economists have estimated corruption by measuring leakage."
+},
+{
+"s": "A",
+"t": "For example, if a government budget says that one hundred schools should receive textbooks, researchers visit the schools to check what arrived."
+},
+{
+"s": "A",
+"t": "The gap between the budget and the delivery is the loss."
+},
+{
+"s": "A",
+"t": "This is a good method for specific programmes, but it cannot show how much of the loss is theft and how much is simple waste or poor record keeping."
+},
+{
+"s": "A",
+"t": "Finally, some studies use natural experiments. When auditors visit a randomly chosen municipality, the amount of misused money they find can be compared with that in similar places."
+},
+{
+"s": "A",
+"t": "Such studies show that audits do reduce misuse in the places they visit, and sometimes in neighbouring places too."
+},
+{
+"s": "A",
+"t": "What should we conclude? No single measure is reliable on its own."
+},
+{
+"s": "A",
+"t": "The best practice is to combine them, so that the weaknesses of one are covered by the strengths of another."
+},
+{
+"s": "A",
+"t": "And whichever indicator you use, always ask what exactly it measures. Is it perception, experience or a statistical sign?"
+},
+{
+"s": "A",
+"t": "For the next session, please bring an example of an indicator from a report you have read, and be ready to explain which of these approaches it belongs to."
+}
+],
+"gloss": [
+{
+"w": "perception",
+"ar": "انطباع، إدراك"
+},
+{
+"w": "bidder",
+"ar": "مقدِّم عطاء"
+},
+{
+"w": "red flag",
+"ar": "مؤشر إنذار"
+},
+{
+"w": "leakage",
+"ar": "تسرّب الأموال"
+},
+{
+"w": "municipality",
+"ar": "بلدية"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "Why is there no direct count of corruption?",
+"o": [
+"Governments refuse to publish budgets.",
+"Those involved do not report it.",
+"Courts hide the statistics."
+],
+"a": 1,
+"why": "من يدفع الرشوة أو يقبلها لا يبلّغ عنها، فلا عدّ مباشرا."
+},
+{
+"k": "mc",
+"q": "What is a weakness of perception indices?",
+"o": [
+"They cover too few countries.",
+"They cannot be compared across years.",
+"They may be slow to reflect real improvements."
+],
+"a": 2,
+"why": "قد تتأخر الانطباعات عن الواقع، فتبقى الدولة موصومة بعد الإصلاح."
+},
+{
+"k": "gap",
+"q": "Experience surveys ask about bribes paid in the previous ___ months.",
+"a": [
+"twelve",
+"12"
+],
+"why": "ذكر أن الأسئلة تخص الأشهر الاثني عشر السابقة."
+},
+{
+"k": "mc",
+"q": "What is the purpose of a list experiment?",
+"o": [
+"To count bribes in official records.",
+"To let people answer without admitting a bribe directly.",
+"To compare two lists of countries."
+],
+"a": 1,
+"why": "الفرق في المتوسطات يقدّر نسبة دافعي الرشوة دون أن يعترف أحد."
+},
+{
+"k": "mc",
+"q": "Which warning sign in public procurement is mentioned?",
+"o": [
+"A contract signed at night.",
+"A foreign company winning.",
+"Only one bidder."
+],
+"a": 2,
+"why": "ذكر من العلامات: مزايد واحد، ومدة إعلان قصيرة جدا، وتغيير السعر بعد التوقيع."
+},
+{
+"k": "tfng",
+"q": "The leakage method can show exactly how much of the loss is theft.",
+"a": "F",
+"why": "قال إنها لا تبيّن حصة السرقة من الهدر أو سوء التوثيق."
+},
+{
+"k": "gap",
+"q": "Audits reduce the ___ of public money in the places they visit.",
+"a": [
+"misuse"
+],
+"why": "أوضحت دراسات التجارب الطبيعية أن المراجعة تقلل إساءة استعمال المال العام."
+},
+{
+"k": "mc",
+"q": "What does the lecturer conclude?",
+"o": [
+"Perception indices should be abandoned.",
+"Several measures should be combined.",
+"Experience surveys are the most reliable."
+],
+"a": 1,
+"why": "خلص إلى أن لا مقياس وحده يكفي والأفضل الجمع بينها."
+}
+]
+},
+{
+"id": "l-c1-09",
+"l": "C1",
+"title": "The psychology of persuasion in the courtroom",
+"part": 4,
+"accent": "AU",
+"lines": [
+{
+"s": "A",
+"t": "Good evening."
+},
+{
+"s": "A",
+"t": "Tonight we look at a question that lawyers have asked for centuries, and psychologists for about a hundred years: what makes a jury believe one story rather than another?"
+},
+{
+"s": "A",
+"t": "Let me start with a common belief, which is that jurors weigh up each piece of evidence like accountants adding up numbers. Research suggests otherwise."
+},
+{
+"s": "A",
+"t": "Most jurors build a story. They take the facts they hear and arrange them into an account of what happened, with a beginning, a motive and an ending."
+},
+{
+"s": "A",
+"t": "The story that is most complete and consistent tends to win, even if some of its details are weaker than those in the competing version."
+},
+{
+"s": "A",
+"t": "Second, order matters. Experiments with mock juries find a primacy effect: information heard first leaves a strong impression."
+},
+{
+"s": "A",
+"t": "Yet there is also a recency effect, since the last thing heard is easiest to remember. Which dominates depends on the length of the trial."
+},
+{
+"s": "A",
+"t": "In short trials, the final speech has more influence."
+},
+{
+"s": "A",
+"t": "In long trials, where jurors hear weeks of evidence, the opening statement tends to shape how everything afterwards is understood."
+},
+{
+"s": "A",
+"t": "So experienced lawyers use their openings to give jurors a frame."
+},
+{
+"s": "A",
+"t": "Third, the way witnesses speak. Many people assume that a confident witness is an accurate one."
+},
+{
+"s": "A",
+"t": "In fact, studies of eyewitnesses show only a weak connection between confidence and accuracy, particularly when the confidence is expressed long after the event."
+},
+{
+"s": "A",
+"t": "Nevertheless, jurors are strongly influenced by confidence."
+},
+{
+"s": "A",
+"t": "A witness who hesitates and says, I think, perhaps, may be completely right and still be believed less than one who speaks firmly and is wrong."
+},
+{
+"s": "A",
+"t": "Fourth, the effect of expert witnesses. Jurors usually treat a scientist as especially credible, but credibility is not the same as clarity."
+},
+{
+"s": "A",
+"t": "An expert who uses technical language may seem impressive at first yet be less persuasive than one who explains a result with an everyday comparison."
+},
+{
+"s": "A",
+"t": "In several experiments, an expert who used a simple analogy produced greater understanding and also greater agreement."
+},
+{
+"s": "A",
+"t": "Fifth, emotion. Photographs of injuries, for example, can make jurors angrier at the defendant."
+},
+{
+"s": "A",
+"t": "Courts know this, so judges are expected to weigh how much a picture proves against how much it might inflame."
+},
+{
+"s": "A",
+"t": "Interestingly, studies suggest that instructions to disregard something a juror has already heard often fail."
+},
+{
+"s": "A",
+"t": "In some cases they make the information more memorable, a result known as the backfire effect, although the evidence for this is mixed."
+},
+{
+"s": "A",
+"t": "What does this mean for justice? Not that persuasion is a trick. Clear stories, fair order and honest explanation help jurors understand a case."
+},
+{
+"s": "A",
+"t": "The danger lies in techniques that exploit weaknesses rather than helping understanding. That is why many legal systems regulate what lawyers may say in closing arguments."
+},
+{
+"s": "A",
+"t": "For the assignment, take a famous trial from any country, read the summary, and identify which of the five influences we discussed was most visible."
+},
+{
+"s": "A",
+"t": "You have until the fifteenth of next month."
+}
+],
+"gloss": [
+{
+"w": "jury",
+"ar": "هيئة المحلفين"
+},
+{
+"w": "primacy effect",
+"ar": "أثر الأسبقية"
+},
+{
+"w": "eyewitness",
+"ar": "شاهد عيان"
+},
+{
+"w": "analogy",
+"ar": "تشبيه، قياس"
+},
+{
+"w": "inflame",
+"ar": "يثير الغضب"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "According to the lecturer, how do most jurors handle evidence?",
+"o": [
+"They add up each item separately.",
+"They arrange the facts into a story.",
+"They follow the first witness."
+],
+"a": 1,
+"why": "يبني معظم المحلفين رواية متماسكة من الوقائع لا حسابا لكل دليل."
+},
+{
+"k": "mc",
+"q": "In very long trials, which part tends to shape understanding?",
+"o": [
+"The closing speech.",
+"The final witness.",
+"The opening statement."
+],
+"a": 2,
+"why": "في المحاكمات الطويلة يشكّل البيان الافتتاحي فهم كل ما بعده."
+},
+{
+"k": "tfng",
+"q": "Studies show that a witness's confidence is a very reliable sign of accuracy.",
+"a": "F",
+"why": "وجدت الدراسات صلة ضعيفة فقط بين الثقة والدقة."
+},
+{
+"k": "mc",
+"q": "What can happen to a witness who hesitates?",
+"o": [
+"They may be right but still believed less.",
+"They are always found to be lying.",
+"They are replaced by an expert."
+],
+"a": 0,
+"why": "قد يكون الشاهد المتردد محقا ومع ذلك يُصدَّق أقل من شاهد حازم مخطئ."
+},
+{
+"k": "mc",
+"q": "What makes an expert witness more persuasive in the experiments mentioned?",
+"o": [
+"A longer career.",
+"More technical vocabulary.",
+"An everyday comparison."
+],
+"a": 2,
+"why": "الخبير الذي استعمل تشبيها بسيطا حقق فهما واتفاقا أكبر."
+},
+{
+"k": "gap",
+"q": "The tendency of ignored information to become more memorable is the ___ effect.",
+"a": [
+"backfire"
+],
+"why": "سمّاه أثر الارتداد، مع أن الأدلة عليه متباينة."
+},
+{
+"k": "mc",
+"q": "Why must judges consider carefully whether to show certain photographs?",
+"o": [
+"They cost too much to print.",
+"They might anger jurors more than they prove.",
+"They are usually inaccurate."
+],
+"a": 1,
+"why": "يوازن القاضي بين ما تثبته الصورة وما قد تثيره من غضب."
+},
+{
+"k": "gap",
+"q": "The assignment is due on the ___ of next month.",
+"a": [
+"fifteenth",
+"15th",
+"15"
+],
+"why": "قال أمامكم حتى الخامس عشر من الشهر القادم."
+}
+]
+},
+{
+"id": "l-c1-10",
+"l": "C1",
+"title": "How the brain consolidates memory during sleep",
+"part": 4,
+"accent": "GB",
+"lines": [
+{
+"s": "A",
+"t": "Good morning. Most students believe that sleep is time off for the brain, a period when nothing useful happens."
+},
+{
+"s": "A",
+"t": "Today I want to show you that the reverse is closer to the truth: sleep is when much of what you learned during the day is stored."
+},
+{
+"s": "A",
+"t": "The key idea is memory consolidation, the process by which a fragile new memory becomes stable and long lasting."
+},
+{
+"s": "A",
+"t": "When you learn something, a region deep in the brain called the hippocampus records it quickly. You can think of the hippocampus as a temporary notebook."
+},
+{
+"s": "A",
+"t": "It writes fast but has limited space. The cortex, the outer layer of the brain, is more like a library."
+},
+{
+"s": "A",
+"t": "It stores information for decades, but it learns slowly. Consolidation is the transfer of information from the notebook to the library, and it happens mainly while you sleep."
+},
+{
+"s": "A",
+"t": "Sleep is not a single state. It has stages, and they appear in cycles of about ninety minutes."
+},
+{
+"s": "A",
+"t": "Early in the night, most of the time is spent in deep sleep, sometimes called slow wave sleep because the brain's electrical activity forms long, slow waves."
+},
+{
+"s": "A",
+"t": "Later in the night, rapid eye movement sleep, or REM, becomes longer. Researchers believe the stages play different roles."
+},
+{
+"s": "A",
+"t": "Deep sleep seems especially important for facts and events, what psychologists call declarative memory."
+},
+{
+"s": "A",
+"t": "During slow waves, the hippocampus replays the pattern of activity it showed during learning, in a compressed form, and sends it to the cortex."
+},
+{
+"s": "A",
+"t": "Short bursts of fast activity, called sleep spindles, appear at the same time and seem to help with the transfer."
+},
+{
+"s": "A",
+"t": "In one classic design, volunteers learned pairs of words in the evening."
+},
+{
+"s": "A",
+"t": "Those who slept remembered considerably more pairs the next morning than those who stayed awake for the same period."
+},
+{
+"s": "A",
+"t": "REM sleep, by contrast, seems to be more important for emotional memories and for skills. It may also help the brain to combine information in new ways."
+},
+{
+"s": "A",
+"t": "Volunteers who were given a puzzle with a hidden shortcut were more likely to discover it after a night's sleep than after the same time awake."
+},
+{
+"s": "A",
+"t": "I should mention that these studies involve small groups, and scientists are still debating how strongly each stage is tied to each type of memory."
+},
+{
+"s": "A",
+"t": "What does this mean in practice? First, an all-night revision session before an exam may be counterproductive."
+},
+{
+"s": "A",
+"t": "You may gain a few extra hours of study, but you lose the processing that makes the information stable."
+},
+{
+"s": "A",
+"t": "Second, a short nap of around twenty minutes can improve alertness, while a longer nap of ninety minutes can include a full cycle and help consolidation."
+},
+{
+"s": "A",
+"t": "Third, studying difficult material shortly before bedtime might give the brain more to work on."
+},
+{
+"s": "A",
+"t": "The evidence for this is weaker, so I would not rely on it alone."
+},
+{
+"s": "A",
+"t": "Finally, a word of caution. Sleep does not replace practice. Consolidation strengthens what you have already learned; it does not create knowledge from nothing."
+},
+{
+"s": "A",
+"t": "So the formula for good learning is simple: study with attention, sleep well, and review the next day."
+},
+{
+"s": "A",
+"t": "For the next lecture, please keep a sleep diary for one week and note your study times. We will use them as a class data set."
+}
+],
+"gloss": [
+{
+"w": "consolidation",
+"ar": "ترسيخ الذاكرة"
+},
+{
+"w": "hippocampus",
+"ar": "الحُصين"
+},
+{
+"w": "cortex",
+"ar": "القشرة الدماغية"
+},
+{
+"w": "sleep spindle",
+"ar": "مغزل النوم"
+},
+{
+"w": "counterproductive",
+"ar": "يأتي بنتيجة عكسية"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "How does the lecturer compare the hippocampus?",
+"o": [
+"To a library with permanent shelves.",
+"To a temporary notebook.",
+"To a filing cabinet."
+],
+"a": 1,
+"why": "شبّهه بدفتر مؤقت يكتب بسرعة ومساحته محدودة."
+},
+{
+"k": "mc",
+"q": "What is the main feature of the cortex?",
+"o": [
+"It stores information for a long time but learns slowly.",
+"It records new events very quickly.",
+"It is active only during REM sleep."
+],
+"a": 0,
+"why": "القشرة كمكتبة: تحفظ لعقود لكنها تتعلم ببطء."
+},
+{
+"k": "gap",
+"q": "Sleep cycles last about ___ minutes.",
+"a": [
+"ninety",
+"90"
+],
+"why": "ذكر أن الدورات تدوم نحو تسعين دقيقة."
+},
+{
+"k": "mc",
+"q": "Which kind of memory depends especially on deep sleep?",
+"o": [
+"Memories of skills only.",
+"Facts and events.",
+"Feelings about the past."
+],
+"a": 1,
+"why": "النوم العميق مهم خاصة للحقائق والأحداث، أي الذاكرة التصريحية."
+},
+{
+"k": "tfng",
+"q": "In the word pairs experiment, the volunteers who stayed awake remembered more pairs than those who slept.",
+"a": "F",
+"why": "من ناموا تذكروا أزواجا أكثر بكثير في الصباح."
+},
+{
+"k": "mc",
+"q": "What did the puzzle experiment suggest about REM sleep?",
+"o": [
+"It helps people notice a hidden shortcut.",
+"It stops emotional memories.",
+"It replaces the need for practice."
+],
+"a": 0,
+"why": "بعد النوم كان الأفراد أكثر اكتشافا للحل المختصر الخفي."
+},
+{
+"k": "mc",
+"q": "What does the lecturer say about studying difficult material just before bedtime?",
+"o": [
+"It is proven to double memory.",
+"It is dangerous for the brain.",
+"The evidence is weaker, so it should not be the only strategy."
+],
+"a": 2,
+"why": "وصف الدليل بأنه أضعف فلا ينبغي الاعتماد عليه وحده."
+},
+{
+"k": "gap",
+"q": "A nap of about ___ minutes can improve alertness.",
+"a": [
+"twenty",
+"20"
+],
+"why": "القيلولة القصيرة نحو عشرين دقيقة تحسّن اليقظة."
+}
+]
+}
+]

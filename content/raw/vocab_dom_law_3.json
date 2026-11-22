@@ -1,0 +1,1040 @@
+[
+{
+"w": "legislation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تشريع، قوانين",
+"d": "the laws made by a government",
+"ex": "New legislation protects people who report corruption.",
+"x": "legislation",
+"c": [
+"pass legislation",
+"new legislation"
+],
+"f": [
+"legislate",
+"legislator"
+]
+},
+{
+"w": "statute",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "قانون، نص تشريعي",
+"d": "a written law passed by a parliament",
+"ex": "The statute clearly forbids the sale of land without a permit.",
+"x": "statute",
+"c": [
+"statute book"
+],
+"f": [
+"statutory"
+]
+},
+{
+"w": "clause",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "بند",
+"d": "one separate part of a contract or law",
+"ex": "The contract has a clause about late payment.",
+"x": "clause",
+"c": [
+"a clause in the contract"
+]
+},
+{
+"w": "provision",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "حكم، نص قانوني",
+"d": "a condition or rule inside a law or contract",
+"ex": "A provision in the law protects public workers from dismissal.",
+"x": "provision",
+"c": [
+"legal provision",
+"under the provisions of"
+],
+"f": [
+"provide"
+]
+},
+{
+"w": "case file",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "ملف القضية",
+"d": "all the papers and records of one legal case",
+"ex": "The lawyer spent the night reading the case file.",
+"x": "case file",
+"c": [
+"open a case file",
+"review the case file"
+]
+},
+{
+"w": "legal ground",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "سبب قانوني، أساس قانوني",
+"d": "a reason accepted by law for an action or claim",
+"ex": "The client had no legal ground to refuse the payment.",
+"x": "legal ground",
+"c": [
+"legal grounds for appeal"
+]
+},
+{
+"w": "legal basis",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "الأساس القانوني",
+"d": "the law or rule that allows or supports an action",
+"ex": "The ministry could not explain the legal basis for the decision.",
+"x": "legal basis",
+"c": [
+"no legal basis"
+]
+},
+{
+"w": "obligation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "التزام، واجب",
+"d": "something that you must do by law or agreement",
+"ex": "The company has an obligation to pay its workers on time.",
+"x": "obligation",
+"c": [
+"legal obligation",
+"fulfil an obligation"
+],
+"f": [
+"oblige",
+"obligatory"
+]
+},
+{
+"w": "comply",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يمتثل، يلتزم",
+"d": "to obey a rule, law or order",
+"ex": "All suppliers must comply with the safety rules.",
+"x": "comply",
+"c": [
+"comply with"
+],
+"f": [
+"compliant"
+]
+},
+{
+"w": "binding",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "ملزم",
+"d": "that must be obeyed by law",
+"ex": "The agreement is binding on both companies.",
+"x": "binding",
+"c": [
+"legally binding",
+"binding contract"
+],
+"f": [
+"bind"
+]
+},
+{
+"w": "valid",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "صحيح، ساري المفعول",
+"d": "accepted by law because it is correct and official",
+"ex": "The contract is not valid without both signatures.",
+"x": "valid",
+"c": [
+"valid contract",
+"valid reason"
+],
+"f": [
+"validity",
+"invalid"
+]
+},
+{
+"w": "invalid",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "باطل، غير صالح",
+"d": "not accepted by law because it is wrong or out of date",
+"ex": "The court declared the will invalid because it was unsigned.",
+"x": "invalid",
+"c": [
+"declare invalid"
+],
+"f": [
+"invalidate"
+]
+},
+{
+"w": "party",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "طرف (في عقد أو دعوى)",
+"d": "one of the people or groups in a contract or case",
+"ex": "Each party to the contract must keep its promises.",
+"x": "party",
+"c": [
+"the other party",
+"third party"
+]
+},
+{
+"w": "terms and conditions",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "الشروط والأحكام",
+"d": "the rules that both sides accept in an agreement",
+"ex": "Read the terms and conditions before you sign.",
+"x": "terms and conditions",
+"c": [
+"accept the terms and conditions"
+]
+},
+{
+"w": "enact",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يسنّ (قانونًا)",
+"d": "to make a bill into a law",
+"ex": "Parliament enacted a law to protect witnesses.",
+"x": "enacted",
+"c": [
+"enact a law"
+],
+"f": [
+"enactment"
+]
+},
+{
+"w": "amend",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يعدّل (نصًّا قانونيًّا)",
+"d": "to change the words of a law or document",
+"ex": "The parliament amended the law to include small companies.",
+"x": "amended",
+"c": [
+"amend a law"
+],
+"f": [
+"amendment"
+]
+},
+{
+"w": "amendment",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "تعديل",
+"d": "a change made to a law or document",
+"ex": "The committee proposed an amendment to the third article.",
+"x": "amendment",
+"c": [
+"propose an amendment"
+],
+"f": [
+"amend"
+]
+},
+{
+"w": "repeal",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يلغي (قانونًا)",
+"d": "to officially end a law",
+"ex": "The government repealed the old law on public tenders.",
+"x": "repealed"
+},
+{
+"w": "decree",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "مرسوم",
+"d": "an official order made by a ruler or government",
+"ex": "A presidential decree set up the new audit office.",
+"x": "decree",
+"c": [
+"issue a decree",
+"by decree"
+]
+},
+{
+"w": "enforce",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "ينفّذ، يطبّق (القانون)",
+"d": "to make people obey a law or rule",
+"ex": "The police cannot enforce a law that is unclear.",
+"x": "enforce",
+"c": [
+"enforce the law"
+],
+"f": [
+"enforcement"
+]
+},
+{
+"w": "law enforcement",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "إنفاذ القانون، أجهزة الأمن",
+"d": "the work of making people obey the law",
+"ex": "Law enforcement agencies shared information about the stolen goods.",
+"x": "law enforcement",
+"c": [
+"law enforcement agency"
+]
+},
+{
+"w": "entitle",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يخوّل، يمنح الحق",
+"d": "to give someone the legal right to something",
+"ex": "This contract entitles you to thirty days of paid leave.",
+"x": "entitles",
+"c": [
+"be entitled to"
+],
+"f": [
+"entitlement"
+]
+},
+{
+"w": "liable",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "مسؤول قانونيًا",
+"d": "legally responsible for something",
+"ex": "The builder is liable for the damage to the roof.",
+"x": "liable",
+"c": [
+"be liable for",
+"held liable"
+],
+"f": [
+"liability"
+]
+},
+{
+"w": "liability",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "مسؤولية قانونية",
+"d": "legal responsibility for harm or debt",
+"ex": "The company denied liability for the accident.",
+"x": "liability",
+"c": [
+"admit liability",
+"criminal liability"
+],
+"f": [
+"liable"
+]
+},
+{
+"w": "negligence",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إهمال، تقصير",
+"d": "failure to take proper care that causes harm",
+"ex": "The hospital was sued for negligence after the mistake.",
+"x": "negligence",
+"c": [
+"gross negligence",
+"medical negligence"
+],
+"f": [
+"negligent"
+]
+},
+{
+"w": "breach",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إخلال، خرق",
+"d": "the act of breaking a law, rule or agreement",
+"ex": "Late delivery is a breach of the contract.",
+"x": "breach",
+"c": [
+"breach of contract",
+"breach of duty"
+],
+"f": [
+"breach"
+]
+},
+{
+"w": "breach of contract",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "الإخلال بالعقد",
+"d": "failure to do what a contract says",
+"ex": "The supplier was sued for breach of contract.",
+"x": "breach of contract",
+"c": [
+"sue for breach of contract"
+]
+},
+{
+"w": "allegation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "ادعاء، مزاعم",
+"d": "a claim that someone did wrong, not yet proved",
+"ex": "The minister denied the allegation of corruption.",
+"x": "allegation",
+"c": [
+"make an allegation",
+"serious allegation"
+],
+"f": [
+"allege",
+"alleged"
+]
+},
+{
+"w": "alleged",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "مزعوم، مدّعى",
+"d": "said to be true but not yet proved",
+"ex": "The alleged thief was seen near the shop.",
+"x": "alleged",
+"c": [
+"the alleged offence"
+],
+"f": [
+"allegedly"
+]
+},
+{
+"w": "burden of proof",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "عبء الإثبات",
+"d": "the duty to show that a claim is true",
+"ex": "In a criminal trial, the burden of proof lies with the prosecution.",
+"x": "burden of proof",
+"c": [
+"bear the burden of proof"
+]
+},
+{
+"w": "admissible",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "مقبول (كدليل)",
+"d": "allowed to be used as evidence in court",
+"ex": "The judge decided that the recording was admissible.",
+"x": "admissible",
+"c": [
+"admissible evidence"
+],
+"f": [
+"inadmissible"
+]
+},
+{
+"w": "inadmissible",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "غير مقبول (كدليل)",
+"d": "not allowed to be used as evidence in court",
+"ex": "The document was inadmissible because it was a copy.",
+"x": "inadmissible",
+"c": [
+"inadmissible evidence"
+],
+"f": [
+"admissible"
+]
+},
+{
+"w": "legal standing",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "الصفة القانونية، أهلية التقاضي",
+"d": "the right to bring a case before a court",
+"ex": "The association had no legal standing to bring the case.",
+"x": "legal standing",
+"c": [
+"have legal standing"
+]
+},
+{
+"w": "interpret",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يفسّر (نصًّا)",
+"d": "to explain what a law or text means",
+"ex": "Judges must interpret the law, not rewrite it.",
+"x": "interpret",
+"c": [
+"interpret a clause"
+],
+"f": [
+"interpretation"
+]
+},
+{
+"w": "ambiguous",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "غامض، ملتبس",
+"d": "having more than one possible meaning",
+"ex": "The clause is ambiguous, so both sides read it differently.",
+"x": "ambiguous",
+"c": [
+"ambiguous wording"
+],
+"f": [
+"ambiguity"
+]
+},
+{
+"w": "contradict",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يناقض",
+"d": "to say the opposite of what was said before",
+"ex": "The second witness contradicted the first one.",
+"x": "contradicted",
+"c": [
+"contradict a statement"
+],
+"f": [
+"contradiction"
+]
+},
+{
+"w": "refute",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يدحض",
+"d": "to prove that a claim is wrong",
+"ex": "The lawyer refuted the claim with a bank record.",
+"x": "refuted",
+"c": [
+"refute an allegation"
+],
+"f": [
+"refutation"
+]
+},
+{
+"w": "cite",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يستشهد بـ، يحتج بـ",
+"d": "to mention a law or case as support",
+"ex": "The lawyer cited an earlier case to support her argument.",
+"x": "cited",
+"c": [
+"cite a case",
+"cite a source"
+],
+"f": [
+"citation"
+]
+},
+{
+"w": "uphold",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يؤيّد، يُقرّ",
+"d": "to confirm that a decision is correct",
+"ex": "The court of appeal upheld the original sentence.",
+"x": "upheld",
+"c": [
+"uphold a decision",
+"uphold the law"
+]
+},
+{
+"w": "overturn",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "ينقض، يلغي (حكمًا)",
+"d": "to cancel a court decision",
+"ex": "The higher court overturned the verdict.",
+"x": "overturned",
+"c": [
+"overturn a verdict"
+]
+},
+{
+"w": "rule in favour of",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "يحكم لصالح",
+"d": "to decide that one side is right",
+"ex": "The judge ruled in favour of the tenant.",
+"x": "ruled in favour of"
+},
+{
+"w": "proceedings",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "إجراءات قضائية، دعوى",
+"d": "the steps of a case in court",
+"ex": "The court began proceedings against the supplier in March.",
+"x": "proceedings",
+"c": [
+"legal proceedings",
+"start proceedings"
+],
+"f": [
+"proceed"
+]
+},
+{
+"w": "intent",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "قصد، نية جرمية",
+"d": "the plan or purpose to do something",
+"ex": "The prosecution must prove that he acted with intent.",
+"x": "intent",
+"c": [
+"criminal intent",
+"with intent to"
+],
+"f": [
+"intentional"
+]
+},
+{
+"w": "motive",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "دافع",
+"d": "the reason why someone commits a crime",
+"ex": "The police could not find a motive for the theft.",
+"x": "motive",
+"c": [
+"a strong motive"
+]
+},
+{
+"w": "accomplice",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "شريك في الجريمة",
+"d": "a person who helps another person commit a crime",
+"ex": "The thief and his accomplice escaped through the back door.",
+"x": "accomplice"
+},
+{
+"w": "perpetrator",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "مرتكب الجريمة، الجاني",
+"d": "a person who commits a crime",
+"ex": "The perpetrator was identified from a camera recording.",
+"x": "perpetrator",
+"c": [
+"perpetrator of a crime"
+],
+"f": [
+"perpetrate"
+]
+},
+{
+"w": "legitimate",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "مشروع، شرعي",
+"d": "allowed by law or accepted as fair",
+"ex": "Self-defence can be a legitimate reason for using force.",
+"x": "legitimate",
+"c": [
+"legitimate claim",
+"legitimate interest"
+],
+"f": [
+"legitimacy"
+]
+},
+{
+"w": "authorise",
+"p": "v",
+"l": "B2",
+"t": "law",
+"ar": "يرخّص، يفوّض",
+"d": "to give official permission for something",
+"ex": "Only a judge can authorise the search of a home.",
+"x": "authorise",
+"f": [
+"authorisation"
+]
+},
+{
+"w": "sanction",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "عقوبة، جزاء",
+"d": "a penalty for breaking a rule or law",
+"ex": "The company faced a heavy sanction for hiding its accounts.",
+"x": "sanction",
+"c": [
+"impose a sanction",
+"financial sanction"
+],
+"f": [
+"sanction"
+]
+},
+{
+"w": "remedy",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "وسيلة انتصاف، جبر الضرر",
+"d": "a way the law gives to correct a wrong",
+"ex": "Compensation is the usual legal remedy for a broken contract.",
+"x": "remedy",
+"c": [
+"legal remedy",
+"seek a remedy"
+]
+},
+{
+"w": "loophole",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "ثغرة قانونية",
+"d": "a gap in a law that lets people avoid its rules",
+"ex": "The company used a loophole to avoid paying tax.",
+"x": "loophole",
+"c": [
+"exploit a loophole",
+"close a loophole"
+]
+},
+{
+"w": "precedent",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "سابقة قضائية",
+"d": "an earlier court decision used as a guide for later cases",
+"ex": "The judge followed a precedent set ten years earlier.",
+"x": "precedent",
+"c": [
+"set a precedent",
+"legal precedent"
+]
+},
+{
+"w": "case law",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "السوابق القضائية، الاجتهاد القضائي",
+"d": "law made from the decisions of judges in earlier cases",
+"ex": "Case law shows how courts have read this article before.",
+"x": "case law",
+"c": [
+"rely on case law"
+]
+},
+{
+"w": "hearsay",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "شهادة سماعية",
+"d": "a statement about what someone else said, not seen directly",
+"ex": "The judge refused to accept hearsay as proof.",
+"x": "hearsay",
+"c": [
+"hearsay evidence"
+]
+},
+{
+"w": "circumstantial evidence",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "قرائن، أدلة ظرفية",
+"d": "indirect evidence that suggests a fact but does not prove it",
+"ex": "The case rested on circumstantial evidence only.",
+"x": "circumstantial evidence",
+"c": [
+"rely on circumstantial evidence"
+]
+},
+{
+"w": "forensic",
+"p": "adj",
+"l": "C1",
+"t": "crime",
+"ar": "جنائي، شرعي (علميًا)",
+"d": "using scientific methods to investigate a crime",
+"ex": "A forensic expert examined the signature on the document.",
+"x": "forensic",
+"c": [
+"forensic evidence",
+"forensic audit"
+]
+},
+{
+"w": "exhibit",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "مستند مقدَّم، دليل مادي",
+"d": "an object or document shown in court as evidence",
+"ex": "The lawyer handed Exhibit A, a bank statement, to the judge.",
+"x": "exhibit",
+"c": [
+"an exhibit in court"
+]
+},
+{
+"w": "affidavit",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "إفادة مشفوعة بيمين",
+"d": "a written statement that a person swears is true",
+"ex": "The manager signed an affidavit before a notary.",
+"x": "affidavit",
+"c": [
+"swear an affidavit"
+]
+},
+{
+"w": "deposition",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "إفادة خطية، شهادة مسجّلة",
+"d": "a witness's sworn statement recorded before a trial",
+"ex": "The deposition of the accountant took four hours.",
+"x": "deposition",
+"c": [
+"take a deposition"
+]
+},
+{
+"w": "legal framework",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "الإطار القانوني",
+"d": "the system of laws that controls a subject",
+"ex": "The country needs a clear legal framework for public tenders.",
+"x": "legal framework",
+"c": [
+"establish a legal framework"
+]
+},
+{
+"w": "legal opinion",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "رأي قانوني",
+"d": "an expert lawyer's written view on a legal question",
+"ex": "The ministry asked for a legal opinion before signing.",
+"x": "legal opinion",
+"c": [
+"seek a legal opinion"
+]
+},
+{
+"w": "null and void",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "باطل وعديم الأثر",
+"d": "having no legal effect",
+"ex": "The court declared the contract null and void.",
+"x": "null and void",
+"c": [
+"declare null and void"
+]
+},
+{
+"w": "signatory",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "موقِّع، طرف موقّع",
+"d": "a person or state that signs an agreement",
+"ex": "Every signatory to the treaty must report each year.",
+"x": "signatory",
+"c": [
+"a signatory to"
+],
+"f": [
+"sign"
+]
+},
+{
+"w": "stipulate",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "ينص على، يشترط",
+"d": "to state clearly as a condition of an agreement",
+"ex": "The contract stipulates that payment must be made within thirty days.",
+"x": "stipulates",
+"c": [
+"stipulate a condition"
+],
+"f": [
+"stipulation"
+]
+},
+{
+"w": "waive",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يتنازل عن (حق)",
+"d": "to give up a right or a rule officially",
+"ex": "He waived his right to a lawyer.",
+"x": "waived",
+"c": [
+"waive a right"
+],
+"f": [
+"waiver"
+]
+},
+{
+"w": "enforceable",
+"p": "adj",
+"l": "C1",
+"t": "law",
+"ar": "قابل للتنفيذ",
+"d": "able to be made effective by law",
+"ex": "An oral promise is hard to make enforceable in court.",
+"x": "enforceable",
+"c": [
+"legally enforceable"
+],
+"f": [
+"enforce"
+]
+},
+{
+"w": "premeditated",
+"p": "adj",
+"l": "C1",
+"t": "crime",
+"ar": "مع سبق الإصرار",
+"d": "planned in advance",
+"ex": "The prosecutor said the attack was premeditated.",
+"x": "premeditated",
+"c": [
+"premeditated murder"
+],
+"f": [
+"premeditation"
+]
+},
+{
+"w": "set aside",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "يبطل، يلغي (حكمًا)",
+"d": "to cancel a decision officially",
+"ex": "The court set aside the decision because of a procedural error.",
+"x": "set aside"
+},
+{
+"w": "discretion",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "سلطة تقديرية",
+"d": "the freedom to decide what to do in a case",
+"ex": "Judges have discretion to reduce a sentence.",
+"x": "discretion",
+"c": [
+"at the judge's discretion",
+"judicial discretion"
+],
+"f": [
+"discretionary"
+]
+},
+{
+"w": "mandate",
+"p": "n",
+"l": "C1",
+"t": "government",
+"ar": "تفويض، ولاية",
+"d": "the official power to act given to a person or body",
+"ex": "The commission has a mandate to investigate public contracts.",
+"x": "mandate",
+"c": [
+"have a mandate",
+"give a mandate"
+]
+}
+]

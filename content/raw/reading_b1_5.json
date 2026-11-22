@@ -1,0 +1,434 @@
+[
+ {
+  "id": "r-b1-17",
+  "l": "B1",
+  "title": "Why Bees Matter",
+  "topic": "nature",
+  "paras": [
+   "Bees are small, but their work is enormous. When a bee visits a flower to drink nectar, grains of pollen stick to its body. At the next flower, some of this pollen falls off. This process is called pollination, and many plants need it to produce fruit and seeds. Without it, a flower can finish its life without making anything new.",
+   "Much of the food on our tables depends on this simple service. Apples, almonds, tomatoes, pumpkins and many other crops grow better when bees visit them. Farmers know this very well. Some of them even rent boxes of bees and place them in their fields during the flowering season. Scientists say that a large part of the world's food crops benefit from animal pollinators, and bees are the most important group.",
+   "Unfortunately, bees are in danger in many places. Farmers sometimes spray strong chemicals to kill insects that damage crops, and these chemicals can also harm bees. Cities and large farms have replaced meadows full of wild flowers with concrete and a single kind of plant, so bees find less food. Changes in the climate can also confuse them, because flowers may open earlier or later than usual.",
+   "The good news is that ordinary people can help. You can plant flowers on a balcony or in a garden, choosing different kinds that bloom in different months. You can leave a small corner of grass uncut and avoid chemical sprays. Another idea is to buy honey from local beekeepers, who look after their bees with care. If a bee lands on you, stay calm, because it only stings when it feels threatened. Protecting bees means protecting our own food. Even a small garden can become a safe home for many bees."
+  ],
+  "gloss": [
+   {
+    "w": "nectar",
+    "ar": "رحيق"
+   },
+   {
+    "w": "pollen",
+    "ar": "حبوب اللقاح"
+   },
+   {
+    "w": "pollination",
+    "ar": "التلقيح"
+   },
+   {
+    "w": "crop",
+    "ar": "محصول"
+   },
+   {
+    "w": "meadow",
+    "ar": "مرج"
+   },
+   {
+    "w": "beekeeper",
+    "ar": "مربّي نحل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is pollination?",
+    "o": [
+     "Pollen moving from one flower to another",
+     "Bees making honey",
+     "Flowers closing at night"
+    ],
+    "a": 0,
+    "why": "الفقرة الأولى: انتقال حبوب اللقاح من زهرة إلى أخرى."
+   },
+   {
+    "k": "mc",
+    "q": "Why do some farmers rent boxes of bees?",
+    "o": [
+     "To sell honey in the market",
+     "To help crops during the flowering season",
+     "To keep insects away"
+    ],
+    "a": 1,
+    "why": "الفقرة الثانية: يضعونها في الحقول وقت الإزهار."
+   },
+   {
+    "k": "mc",
+    "q": "Which of these is a danger to bees?",
+    "o": [
+     "Too many beekeepers",
+     "Cold water",
+     "Strong chemical sprays"
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة: المواد الكيميائية تضر بالنحل."
+   },
+   {
+    "k": "tfng",
+    "q": "Bees are the most important group of animal pollinators.",
+    "a": "T",
+    "why": "الفقرة الثانية: النحل هو المجموعة الأهم."
+   },
+   {
+    "k": "tfng",
+    "q": "A bee always stings when a person comes near.",
+    "a": "F",
+    "why": "الفقرة الرابعة: تلدغ فقط عندما تشعر بالتهديد."
+   },
+   {
+    "k": "tfng",
+    "q": "Bees live longer in cities than in the countryside.",
+    "a": "NG",
+    "why": "النص لا يقارن أعمار النحل."
+   },
+   {
+    "k": "gap",
+    "q": "Wild flower meadows have been replaced by ___ and a single kind of plant.",
+    "a": [
+     "concrete"
+    ],
+    "why": "الفقرة الثالثة: حلّ الإسمنت محل المروج."
+   },
+   {
+    "k": "gap",
+    "q": "You can buy honey from local ___ who look after their bees.",
+    "a": [
+     "beekeepers"
+    ],
+    "why": "الفقرة الرابعة: اشترِ العسل من مربّي النحل المحليين."
+   }
+  ],
+  "sumAr": "يلقّح النحل الأزهار فيساعد على إنتاج كثير من الغذاء، لكنه مهدد بالمبيدات وفقدان المروج وتغيّر المناخ. يمكننا حمايته بزراعة الأزهار وتجنب الرش وشراء العسل المحلي."
+ },
+ {
+  "id": "r-b1-18",
+  "l": "B1",
+  "title": "The Deep Ocean",
+  "topic": "nature",
+  "paras": [
+   "The ocean covers more than two thirds of our planet, yet we know less about its deepest parts than about the surface of the Moon. The deep ocean begins about two hundred metres under the water, where sunlight slowly disappears. Below one thousand metres, there is no light at all. It is a world of darkness, great pressure and very cold water.",
+   "The pressure in the deep sea is so strong that it would crush a human body. To visit these places, scientists use special submarines with thick walls, or robots controlled from a ship. These machines carry lights and cameras, and they often bring back surprising pictures. Each journey shows new animals that nobody has seen before.",
+   "Animals in the deep have found clever ways to live without sunlight. Some fish make their own light, which is called bioluminescence. They use it to attract food, to find a partner or to scare enemies. Others have huge mouths and sharp teeth, because food is rare and they must catch whatever passes by. Many creatures are soft, slow and pale, and they save energy by moving as little as possible.",
+   "The deep ocean is also important for people. It stores a large amount of carbon and helps to control the climate. Unfortunately, it is under threat. Rubbish sinks to the bottom, and some companies want to dig the seabed for metals. Because deep animals grow slowly, damaged areas may need hundreds of years to recover. Many scientists therefore ask governments to protect the deep sea before it is too late. Every new discovery reminds us how much there still is to learn. Although the journey is difficult, it is one of the most exciting areas of science today."
+  ],
+  "gloss": [
+   {
+    "w": "pressure",
+    "ar": "ضغط"
+   },
+   {
+    "w": "submarine",
+    "ar": "غوّاصة"
+   },
+   {
+    "w": "bioluminescence",
+    "ar": "التوهج الحيوي"
+   },
+   {
+    "w": "creature",
+    "ar": "كائن حي"
+   },
+   {
+    "w": "seabed",
+    "ar": "قاع البحر"
+   },
+   {
+    "w": "recover",
+    "ar": "يتعافى"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Where does the deep ocean begin?",
+    "o": [
+     "About two hundred metres under the water",
+     "At the beach",
+     "One thousand metres under the water"
+    ],
+    "a": 0,
+    "why": "الفقرة الأولى: يبدأ المحيط العميق نحو مئتي متر."
+   },
+   {
+    "k": "mc",
+    "q": "How do scientists visit the deep sea?",
+    "o": [
+     "They swim with simple masks.",
+     "They use submarines or robots.",
+     "They use aeroplanes."
+    ],
+    "a": 1,
+    "why": "الفقرة الثانية: غواصات خاصة أو روبوتات."
+   },
+   {
+    "k": "mc",
+    "q": "Why do many deep sea animals move very little?",
+    "o": [
+     "They like the cold.",
+     "They are afraid of light.",
+     "They need to save energy."
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة: يوفّرون الطاقة بقلة الحركة."
+   },
+   {
+    "k": "tfng",
+    "q": "There is no light below one thousand metres.",
+    "a": "T",
+    "why": "الفقرة الأولى: لا ضوء تحت ألف متر."
+   },
+   {
+    "k": "tfng",
+    "q": "All deep sea fish have huge mouths.",
+    "a": "F",
+    "why": "الفقرة الثالثة: بعضها فقط له أفواه ضخمة."
+   },
+   {
+    "k": "tfng",
+    "q": "The deepest fish in the ocean lives near the North Pole.",
+    "a": "NG",
+    "why": "النص لا يذكر مكان أعمق سمكة."
+   },
+   {
+    "k": "gap",
+    "q": "Some fish make their own light, which is called ___.",
+    "a": [
+     "bioluminescence"
+    ],
+    "why": "الفقرة الثالثة: التوهج الحيوي."
+   },
+   {
+    "k": "gap",
+    "q": "The deep ocean stores a large amount of ___ and helps to control the climate.",
+    "a": [
+     "carbon"
+    ],
+    "why": "الفقرة الرابعة: يخزّن كمية كبيرة من الكربون."
+   }
+  ],
+  "sumAr": "المحيط العميق عالم مظلم شديد الضغط والبرودة تعيش فيه كائنات غريبة تنتج ضوءها. يزور العلماء أعماقه بغواصات وروبوتات، وهو مهم للمناخ لكنه مهدد بالنفايات والتعدين."
+ },
+ {
+  "id": "r-b1-19",
+  "l": "B1",
+  "title": "A Night at the Museum",
+  "topic": "arts",
+  "paras": [
+   "When the visitors go home and the lights go down, a museum does not go to sleep. At night, a small team of workers walks quietly through the halls. They check the rooms, look at the thermometers and make sure that nothing has changed. Their job is to protect objects that may be hundreds or even thousands of years old.",
+   "Old objects are very delicate, and their worst enemies are light, heat and damp air. Strong light slowly changes the colour of paper, cloth and paintings. Heat can make wood crack, and too much moisture helps mould to grow. For this reason, many rooms are kept dim, and the temperature and humidity stay almost the same all day and all night. Machines measure them every minute and send a warning if the numbers change.",
+   "Some objects are kept in special glass cases with their own air. A very old book, for example, may lie open on a soft support so that its pages are not bent. Staff are not allowed to touch most items with bare hands, because the natural oils on the skin can leave marks. They wear thin gloves and carry objects with great care. Insects such as moths can also eat cloth and paper, so the museum checks traps every week.",
+   "Another important job is repair work, which is called conservation. A conservator cleans a statue gently, fills a small crack or removes old glue. The aim is not to make the object look new, but to stop it from becoming worse. Every action is written in a report, so that future experts know what was done. Thanks to this patient work, children today can look at the same objects that people admired long ago, and so can their grandchildren."
+  ],
+  "gloss": [
+   {
+    "w": "delicate",
+    "ar": "هشّ، دقيق"
+   },
+   {
+    "w": "damp",
+    "ar": "رطب"
+   },
+   {
+    "w": "humidity",
+    "ar": "الرطوبة"
+   },
+   {
+    "w": "mould",
+    "ar": "عفن"
+   },
+   {
+    "w": "conservation",
+    "ar": "الترميم والحفظ"
+   },
+   {
+    "w": "glue",
+    "ar": "غراء"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What do night workers do in a museum?",
+    "o": [
+     "They clean the street.",
+     "They check the rooms and protect the objects.",
+     "They sell tickets."
+    ],
+    "a": 1,
+    "why": "الفقرة الأولى: يتفقدون القاعات ويحمون القطع."
+   },
+   {
+    "k": "mc",
+    "q": "What can strong light do to paper and paintings?",
+    "o": [
+     "It makes them stronger.",
+     "It makes them grow mould.",
+     "It slowly changes their colour."
+    ],
+    "a": 2,
+    "why": "الفقرة الثانية: الضوء القوي يغيّر اللون ببطء."
+   },
+   {
+    "k": "mc",
+    "q": "Why do staff wear thin gloves?",
+    "o": [
+     "Skin oils can leave marks on objects.",
+     "The objects are very hot.",
+     "The gloves are a uniform."
+    ],
+    "a": 0,
+    "why": "الفقرة الثالثة: زيوت الجلد قد تترك آثاراً."
+   },
+   {
+    "k": "tfng",
+    "q": "Machines measure the temperature and humidity every minute.",
+    "a": "T",
+    "why": "الفقرة الثانية: الأجهزة تقيس كل دقيقة."
+   },
+   {
+    "k": "tfng",
+    "q": "Conservators try to make old objects look new.",
+    "a": "F",
+    "why": "الفقرة الرابعة: الهدف منع التدهور لا جعلها تبدو جديدة."
+   },
+   {
+    "k": "tfng",
+    "q": "The largest museum in the world has a thousand night workers.",
+    "a": "NG",
+    "why": "النص لا يذكر هذه المعلومة."
+   },
+   {
+    "k": "gap",
+    "q": "Moths can eat cloth and ___.",
+    "a": [
+     "paper"
+    ],
+    "why": "الفقرة الثالثة: العث يأكل القماش والورق."
+   },
+   {
+    "k": "gap",
+    "q": "Every action is written in a ___ so that future experts know what was done.",
+    "a": [
+     "report"
+    ],
+    "why": "الفقرة الرابعة: يُكتب كل إجراء في تقرير."
+   }
+  ],
+  "sumAr": "في الليل يراقب موظفو المتحف القاعات ويحمون القطع القديمة من الضوء والحرارة والرطوبة والحشرات. ويقوم المرمّمون بإصلاحها بعناية وتوثيق كل خطوة لتبقى للأجيال القادمة."
+ },
+ {
+  "id": "r-b1-20",
+  "l": "B1",
+  "title": "Healthy Habits for Students",
+  "topic": "health",
+  "paras": [
+   "Student life is busy. There are lectures, homework, exams and often a part-time job. Many students think that they have no time to look after their health, but small daily habits can make a big difference. A healthy body helps the brain to learn, to remember and to stay calm during difficult weeks.",
+   "The first habit is sleep. Most young adults need between seven and nine hours every night. During sleep, the brain organises what you studied during the day. Students who stay awake all night before an exam often forget more than they learn. It is better to finish studying early and go to bed at a regular time. Switching off the phone an hour before bed also helps you to fall asleep.",
+   "The second habit is eating well. Breakfast gives energy for the morning, and fruit, vegetables, eggs and whole grains are good choices. Sugary drinks and fast food may give quick energy, but you soon feel tired again. Drinking enough water is just as important, because even a little dryness in the body can make it hard to concentrate.",
+   "Finally, move your body and rest your mind. A thirty-minute walk, a short game of football or a few exercises in your room reduce stress and improve your mood. When you study, take a five-minute break every hour and look away from the screen. Talk to friends and family when you feel under pressure, because sharing a problem makes it lighter. You do not need to change everything at once. Choose one habit this week, and add another next week. These habits cost little money, and they will help you to feel stronger and more confident during the whole year, not only before exams."
+  ],
+  "gloss": [
+   {
+    "w": "lecture",
+    "ar": "محاضرة"
+   },
+   {
+    "w": "organise",
+    "ar": "ينظّم"
+   },
+   {
+    "w": "whole grains",
+    "ar": "حبوب كاملة"
+   },
+   {
+    "w": "concentrate",
+    "ar": "يركّز"
+   },
+   {
+    "w": "stress",
+    "ar": "توتر، ضغط نفسي"
+   },
+   {
+    "w": "mood",
+    "ar": "مزاج"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How much sleep do most young adults need?",
+    "o": [
+     "Four to five hours",
+     "Seven to nine hours",
+     "Ten to twelve hours"
+    ],
+    "a": 1,
+    "why": "الفقرة الثانية: من سبع إلى تسع ساعات."
+   },
+   {
+    "k": "mc",
+    "q": "What happens during sleep, according to the text?",
+    "o": [
+     "The brain organises what you studied.",
+     "The body stops using energy.",
+     "The phone charges your memory."
+    ],
+    "a": 0,
+    "why": "الفقرة الثانية: الدماغ ينظّم ما درسته."
+   },
+   {
+    "k": "mc",
+    "q": "Why is drinking water important for students?",
+    "o": [
+     "It makes food cheaper.",
+     "It replaces sleep.",
+     "It helps them to concentrate."
+    ],
+    "a": 2,
+    "why": "الفقرة الثالثة: قلة الماء تصعّب التركيز."
+   },
+   {
+    "k": "tfng",
+    "q": "Sugary drinks can make you feel tired again soon.",
+    "a": "T",
+    "why": "الفقرة الثالثة: طاقة سريعة ثم تعب."
+   },
+   {
+    "k": "tfng",
+    "q": "The writer advises students to change all their habits at once.",
+    "a": "F",
+    "why": "الفقرة الرابعة: اختر عادة واحدة هذا الأسبوع."
+   },
+   {
+    "k": "tfng",
+    "q": "Students who exercise get better marks than other students.",
+    "a": "NG",
+    "why": "النص لا يقارن الدرجات."
+   },
+   {
+    "k": "gap",
+    "q": "A thirty-minute walk can reduce ___ and improve your mood.",
+    "a": [
+     "stress"
+    ],
+    "why": "الفقرة الرابعة: المشي يخفف التوتر."
+   },
+   {
+    "k": "gap",
+    "q": "Take a five-minute ___ every hour when you study.",
+    "a": [
+     "break"
+    ],
+    "why": "الفقرة الرابعة: خذ استراحة كل ساعة."
+   }
+  ],
+  "sumAr": "العادات الصحية تساعد الطالب على التعلّم: نوم كافٍ بانتظام، وطعام جيد وماء كثير، وحركة يومية، واستراحات أثناء الدراسة، والحديث مع الأصدقاء. ويُنصح بتغيير عادة واحدة كل أسبوع."
+ }
+]

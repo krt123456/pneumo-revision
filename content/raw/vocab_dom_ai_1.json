@@ -1,0 +1,1044 @@
+[
+{
+"w": "data",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "بيانات، معطيات",
+"ex": "The app stores all case data on one secure server.",
+"x": "data",
+"exar": "يخزّن التطبيق كل بيانات القضية على خادم آمن واحد.",
+"c": [
+"big data",
+"personal data"
+]
+},
+{
+"w": "software",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "برمجيات، برنامج حاسوبي",
+"ex": "Our software reads a long contract in seconds.",
+"x": "software",
+"exar": "يقرأ برنامجنا عقدًا طويلًا في ثوانٍ.",
+"c": [
+"legal software"
+]
+},
+{
+"w": "user",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "مستخدم",
+"ex": "Each user logs in with a private password.",
+"x": "user",
+"exar": "يسجّل كل مستخدم دخوله بكلمة مرور خاصة.",
+"c": [
+"new user",
+"user friendly"
+],
+"f": [
+"use",
+"useful"
+]
+},
+{
+"w": "file",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "ملف",
+"ex": "The lawyer opened the file and read the first page.",
+"x": "file",
+"exar": "فتح المحامي الملف وقرأ الصفحة الأولى.",
+"c": [
+"open a file",
+"save a file"
+]
+},
+{
+"w": "password",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "كلمة مرور، كلمة سر",
+"ex": "Never share your password with anyone.",
+"x": "password",
+"exar": "لا تشارك كلمة مرورك مع أحد أبدًا.",
+"c": [
+"strong password"
+]
+},
+{
+"w": "app",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "تطبيق",
+"ex": "He downloaded the app to his phone.",
+"x": "app",
+"exar": "نزّل التطبيق على هاتفه.",
+"c": [
+"mobile app"
+]
+},
+{
+"w": "website",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "موقع إلكتروني",
+"ex": "Our website explains how the tool works.",
+"x": "website",
+"exar": "يشرح موقعنا الإلكتروني كيف تعمل الأداة.",
+"c": [
+"visit a website"
+]
+},
+{
+"w": "online",
+"p": "adj",
+"l": "B1",
+"t": "technology",
+"ar": "عبر الإنترنت، على الخط",
+"ex": "She attended an online course about legal research.",
+"x": "online",
+"exar": "حضرت دورة عبر الإنترنت عن البحث القانوني.",
+"c": [
+"online course",
+"go online"
+]
+},
+{
+"w": "digital",
+"p": "adj",
+"l": "B1",
+"t": "technology",
+"ar": "رقمي",
+"ex": "All the documents are now in digital form.",
+"x": "digital",
+"exar": "أصبحت كل الوثائق الآن في شكل رقمي.",
+"c": [
+"digital archive"
+],
+"f": [
+"digitise"
+]
+},
+{
+"w": "device",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "جهاز",
+"ex": "The tool works on any device with a microphone.",
+"x": "device",
+"exar": "تعمل الأداة على أي جهاز فيه ميكروفون.",
+"c": [
+"mobile device"
+]
+},
+{
+"w": "screen",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "شاشة",
+"ex": "The advice appears on the lawyer's screen.",
+"x": "screen",
+"exar": "تظهر النصيحة على شاشة المحامي.",
+"c": [
+"touch screen"
+]
+},
+{
+"w": "click",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "ينقر، يضغط",
+"ex": "Click the button to start the analysis.",
+"x": "Click",
+"exar": "انقر على الزر لبدء التحليل.",
+"c": [
+"click on"
+]
+},
+{
+"w": "install",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يثبّت (برنامجًا)",
+"ex": "You can install the program in two minutes.",
+"x": "install",
+"exar": "يمكنك تثبيت البرنامج في دقيقتين.",
+"c": [
+"install software"
+],
+"f": [
+"installation"
+]
+},
+{
+"w": "account",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "حساب",
+"ex": "Create an account before you upload your files.",
+"x": "account",
+"exar": "أنشئ حسابًا قبل أن ترفع ملفاتك.",
+"c": [
+"create an account",
+"log in to an account"
+]
+},
+{
+"w": "system",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "نظام",
+"ex": "The system sends an alert when a deadline is close.",
+"x": "system",
+"exar": "يرسل النظام تنبيهًا عندما يقترب الموعد النهائي.",
+"c": [
+"computer system"
+],
+"f": [
+"systematic"
+]
+},
+{
+"w": "network",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "شبكة",
+"ex": "The court has a fast internal network.",
+"x": "network",
+"exar": "للمحكمة شبكة داخلية سريعة.",
+"c": [
+"computer network"
+]
+},
+{
+"w": "save",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يحفظ",
+"ex": "Save your work before you close the program.",
+"x": "Save",
+"exar": "احفظ عملك قبل أن تغلق البرنامج.",
+"c": [
+"save a file"
+]
+},
+{
+"w": "delete",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يحذف، يمسح",
+"ex": "Please delete the old drafts from the folder.",
+"x": "delete",
+"exar": "من فضلك احذف المسودات القديمة من المجلد.",
+"c": [
+"delete a file"
+],
+"f": [
+"deletion"
+]
+},
+{
+"w": "copy",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "ينسخ",
+"ex": "He copied the report onto a flash drive.",
+"x": "copied",
+"exar": "نسخ التقرير على قرص تخزين محمول.",
+"c": [
+"copy and paste"
+]
+},
+{
+"w": "upload",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يرفع (ملفًا)",
+"ex": "Upload the case file and wait for the result.",
+"x": "Upload",
+"exar": "ارفع ملف القضية وانتظر النتيجة.",
+"c": [
+"upload a document"
+]
+},
+{
+"w": "download",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "ينزّل (ملفًا)",
+"ex": "You can download the full report as a PDF.",
+"x": "download",
+"exar": "يمكنك تنزيل التقرير الكامل بصيغة PDF.",
+"c": [
+"download a file"
+]
+},
+{
+"w": "search",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يبحث",
+"ex": "The tool can search ten thousand judgments in one second.",
+"x": "search",
+"exar": "تستطيع الأداة البحث في عشرة آلاف حكم في ثانية.",
+"c": [
+"search for",
+"search engine"
+]
+},
+{
+"w": "tool",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "أداة",
+"ex": "This tool helps lawyers prepare for a hearing.",
+"x": "tool",
+"exar": "تساعد هذه الأداة المحامين على التحضير لجلسة.",
+"c": [
+"research tool"
+]
+},
+{
+"w": "update",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "تحديث",
+"ex": "The new update fixed the voice problem.",
+"x": "update",
+"exar": "أصلح التحديث الجديد مشكلة الصوت.",
+"c": [
+"software update"
+]
+},
+{
+"w": "backup",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "نسخة احتياطية",
+"ex": "Always keep a backup of your thesis.",
+"x": "backup",
+"exar": "احتفظ دائمًا بنسخة احتياطية من أطروحتك.",
+"c": [
+"make a backup"
+]
+},
+{
+"w": "scan",
+"p": "v",
+"l": "B1",
+"t": "technology",
+"ar": "يمسح ضوئيًا، يفحص",
+"ex": "The tool scans every page of the case file.",
+"x": "scans",
+"exar": "تفحص الأداة كل صفحة من ملف القضية.",
+"c": [
+"scan a document"
+],
+"f": [
+"scanner"
+]
+},
+{
+"w": "feature",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "ميزة، خاصية",
+"ex": "The best feature is the real-time alert.",
+"x": "feature",
+"exar": "أفضل ميزة هي التنبيه الفوري.",
+"c": [
+"key feature"
+]
+},
+{
+"w": "database",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "قاعدة بيانات",
+"ex": "The database contains thousands of court decisions.",
+"x": "database",
+"exar": "تحتوي قاعدة البيانات على آلاف القرارات القضائية.",
+"c": [
+"search a database"
+]
+},
+{
+"w": "program",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "برنامج",
+"ex": "He wrote a small program to sort the documents.",
+"x": "program",
+"exar": "كتب برنامجًا صغيرًا لفرز الوثائق.",
+"c": [
+"computer program"
+],
+"f": [
+"programmer"
+]
+},
+{
+"w": "artificial intelligence",
+"p": "phr",
+"l": "B1",
+"t": "ai",
+"ar": "الذكاء الاصطناعي",
+"ex": "Artificial intelligence can read a judgment very quickly.",
+"x": "Artificial intelligence",
+"exar": "يستطيع الذكاء الاصطناعي قراءة حكم قضائي بسرعة كبيرة.",
+"c": [
+"use artificial intelligence"
+]
+},
+{
+"w": "robot",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "روبوت، إنسان آلي",
+"ex": "A robot cannot replace a good lawyer.",
+"x": "robot",
+"exar": "لا يمكن للروبوت أن يحل محل محامٍ جيد.",
+"c": [
+"robot lawyer"
+],
+"f": [
+"robotics"
+]
+},
+{
+"w": "voice",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "صوت",
+"ex": "The tool recognises the judge's voice.",
+"x": "voice",
+"exar": "تتعرّف الأداة على صوت القاضي.",
+"c": [
+"voice command"
+]
+},
+{
+"w": "microphone",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "ميكروفون",
+"ex": "The lawyer wears a small microphone during the mock trial.",
+"x": "microphone",
+"exar": "يضع المحامي ميكروفونًا صغيرًا أثناء المحاكمة التجريبية."
+},
+{
+"w": "text",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "نص",
+"ex": "The system turns speech into written text.",
+"x": "text",
+"exar": "يحوّل النظام الكلام إلى نص مكتوب.",
+"c": [
+"text message"
+]
+},
+{
+"w": "image",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "صورة",
+"ex": "The program can read the text in an image.",
+"x": "image",
+"exar": "يستطيع البرنامج قراءة النص داخل صورة.",
+"c": [
+"scanned image"
+]
+},
+{
+"w": "code",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "شيفرة برمجية، كود",
+"ex": "The developer checked the code line by line.",
+"x": "code",
+"exar": "راجع المطوّر الشيفرة البرمجية سطرًا سطرًا.",
+"c": [
+"write code"
+]
+},
+{
+"w": "error",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "خطأ",
+"ex": "The system showed an error on the screen.",
+"x": "error",
+"exar": "أظهر النظام رسالة خطأ على الشاشة.",
+"c": [
+"error message"
+]
+},
+{
+"w": "cloud",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "السحابة الإلكترونية",
+"ex": "We keep all client files in the cloud.",
+"x": "cloud",
+"exar": "نحتفظ بكل ملفات العملاء في السحابة الإلكترونية.",
+"c": [
+"cloud storage"
+]
+},
+{
+"w": "link",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "رابط",
+"ex": "Send me the link to the demo.",
+"x": "link",
+"exar": "أرسل لي رابط العرض التجريبي.",
+"c": [
+"click a link"
+]
+},
+{
+"w": "storage",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "تخزين، سعة تخزين",
+"ex": "The laptop has little storage left.",
+"x": "storage",
+"exar": "لم تبقَ في الحاسوب سعة تخزين كبيرة.",
+"c": [
+"cloud storage"
+],
+"f": [
+"store"
+]
+},
+{
+"w": "login",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "تسجيل الدخول",
+"ex": "A secure login protects the case files.",
+"x": "login",
+"exar": "يحمي تسجيل الدخول الآمن ملفات القضايا.",
+"c": [
+"login page"
+]
+},
+{
+"w": "notification",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "إشعار، تنبيه",
+"ex": "He got a notification when the hearing changed.",
+"x": "notification",
+"exar": "وصله إشعار عندما تغيّر موعد الجلسة.",
+"c": [
+"send a notification"
+],
+"f": [
+"notify"
+]
+},
+{
+"w": "version",
+"p": "n",
+"l": "B1",
+"t": "technology",
+"ar": "نسخة، إصدار",
+"ex": "Use the latest version of the app.",
+"x": "version",
+"exar": "استخدم أحدث إصدار من التطبيق.",
+"c": [
+"latest version"
+]
+},
+{
+"w": "smart",
+"p": "adj",
+"l": "B1",
+"t": "technology",
+"ar": "ذكي",
+"ex": "The court uses a smart system to book hearings.",
+"x": "smart",
+"exar": "تستخدم المحكمة نظامًا ذكيًا لحجز الجلسات.",
+"c": [
+"smart device"
+]
+},
+{
+"w": "model",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "نموذج",
+"d": "a computer program trained to make predictions from data",
+"ex": "A good model can learn from thousands of past cases.",
+"x": "model",
+"c": [
+"AI model"
+]
+},
+{
+"w": "algorithm",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "خوارزمية",
+"d": "a set of clear steps a computer follows to solve a problem",
+"ex": "The algorithm ranks the weak points of the case.",
+"x": "algorithm",
+"c": [
+"search algorithm"
+]
+},
+{
+"w": "train",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يدرّب (نموذجًا)",
+"d": "to teach a computer program by showing it many examples",
+"ex": "We trained the model on ten thousand court decisions.",
+"x": "trained",
+"c": [
+"train a model"
+],
+"f": [
+"training"
+]
+},
+{
+"w": "predict",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يتنبأ، يتوقع",
+"d": "to say what will happen before it happens",
+"ex": "The tool can predict how a judge may react.",
+"x": "predict",
+"f": [
+"prediction",
+"predictable"
+]
+},
+{
+"w": "accuracy",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "دقة",
+"d": "the quality of being exactly correct",
+"ex": "The accuracy of the tool is above ninety per cent.",
+"x": "accuracy",
+"c": [
+"high accuracy"
+],
+"f": [
+"accurate",
+"accurately"
+]
+},
+{
+"w": "automate",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يؤتمت، يجعل آليًا",
+"d": "to make a process work by machine without people doing it",
+"ex": "Start-ups try to automate boring legal tasks.",
+"x": "automate",
+"c": [
+"automate a process"
+],
+"f": [
+"automation",
+"automatic"
+]
+},
+{
+"w": "input",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "مُدخَل، مدخلات",
+"d": "information that you put into a computer",
+"ex": "The model needs good input to give good advice.",
+"x": "input",
+"c": [
+"user input"
+]
+},
+{
+"w": "output",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "مُخرَج، مخرجات",
+"d": "information that a computer produces after processing",
+"ex": "The output is a short list of legal risks.",
+"x": "output"
+},
+{
+"w": "platform",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "منصّة",
+"d": "a base of software on which other tools or services run",
+"ex": "The platform connects lawyers with legal experts online.",
+"x": "platform",
+"c": [
+"online platform"
+]
+},
+{
+"w": "interface",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "واجهة (استخدام)",
+"d": "the screen and controls through which a person uses a program",
+"ex": "The interface is simple, so lawyers learn it quickly.",
+"x": "interface",
+"c": [
+"user interface"
+]
+},
+{
+"w": "secure",
+"p": "adj",
+"l": "B2",
+"t": "technology",
+"ar": "آمن، محمي",
+"d": "protected against attack or unauthorised access",
+"ex": "Only a secure connection can carry confidential files.",
+"x": "secure",
+"c": [
+"secure connection"
+],
+"f": [
+"security",
+"securely"
+]
+},
+{
+"w": "encrypt",
+"p": "v",
+"l": "B2",
+"t": "technology",
+"ar": "يشفّر",
+"d": "to change data into a code so others cannot read it",
+"ex": "The app encrypts every file before it leaves the phone.",
+"x": "encrypts",
+"c": [
+"encrypt data"
+],
+"f": [
+"encryption"
+]
+},
+{
+"w": "privacy",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "خصوصية",
+"d": "the right to keep personal information secret",
+"ex": "Client privacy is the first rule of our product.",
+"x": "privacy",
+"c": [
+"protect privacy"
+],
+"f": [
+"private"
+]
+},
+{
+"w": "detect",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يكشف، يرصد",
+"d": "to discover something that is hidden or hard to see",
+"ex": "The system detects contradictions between two witness statements.",
+"x": "detects",
+"c": [
+"detect errors"
+],
+"f": [
+"detection",
+"detector"
+]
+},
+{
+"w": "filter",
+"p": "v",
+"l": "B2",
+"t": "technology",
+"ar": "يصفّي، يفلتر",
+"d": "to remove what you do not need from a large set",
+"ex": "You can filter the results by date and court.",
+"x": "filter",
+"c": [
+"filter results"
+]
+},
+{
+"w": "label",
+"p": "v",
+"l": "B2",
+"t": "ai",
+"ar": "يضع وسمًا، يصنّف بوسم",
+"d": "to attach a short name to data so a program can learn",
+"ex": "Students labelled each paragraph as fact or argument.",
+"x": "labelled",
+"c": [
+"label data"
+]
+},
+{
+"w": "sensor",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "مستشعر، حسّاس",
+"d": "a device that detects light, sound, heat or movement",
+"ex": "A sensor in the room picks up the speaker's voice.",
+"x": "sensor"
+},
+{
+"w": "dataset",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "مجموعة بيانات",
+"d": "a large collection of data used to train or test a program",
+"ex": "We built a dataset of five thousand anonymous judgments.",
+"x": "dataset",
+"c": [
+"public dataset"
+]
+},
+{
+"w": "pattern",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "نمط",
+"d": "a regular way in which something repeats or happens",
+"ex": "The model found a pattern in the rejected appeals.",
+"x": "pattern",
+"c": [
+"find a pattern"
+]
+},
+{
+"w": "neural network",
+"p": "phr",
+"l": "B2",
+"t": "ai",
+"ar": "شبكة عصبية (اصطناعية)",
+"d": "a computer system built to learn in a way similar to the brain",
+"ex": "A neural network learns to recognise words in speech.",
+"x": "neural network",
+"c": [
+"train a neural network"
+]
+},
+{
+"w": "bug",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "خلل برمجي، علّة برمجية",
+"d": "a mistake in a program that makes it work badly",
+"ex": "The testers found a bug in the alert system.",
+"x": "bug",
+"c": [
+"fix a bug"
+]
+},
+{
+"w": "deploy",
+"p": "v",
+"l": "B2",
+"t": "technology",
+"ar": "ينشر، يطلق (نظامًا)",
+"d": "to put software into use so that people can work with it",
+"ex": "The team will deploy the tool in two courts next year.",
+"x": "deploy",
+"c": [
+"deploy a system"
+],
+"f": [
+"deployment"
+]
+},
+{
+"w": "customise",
+"p": "v",
+"l": "B2",
+"t": "technology",
+"ar": "يخصّص، يكيّف حسب الطلب",
+"d": "to change something to suit a particular person or need",
+"ex": "Law firms can customise the tool for their own cases.",
+"x": "customise",
+"c": [
+"customise settings"
+],
+"f": [
+"customisation"
+]
+},
+{
+"w": "integrate",
+"p": "v",
+"l": "B2",
+"t": "technology",
+"ar": "يدمج، يربط (بنظام)",
+"d": "to combine one system with another so they work together",
+"ex": "We plan to integrate the tool with the court's filing system.",
+"x": "integrate",
+"c": [
+"integrate with"
+],
+"f": [
+"integration"
+]
+},
+{
+"w": "dashboard",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "لوحة المعلومات، لوحة القيادة",
+"d": "a screen that shows the most important information at a glance",
+"ex": "The dashboard shows the risk level of each case.",
+"x": "dashboard"
+},
+{
+"w": "automation",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "الأتمتة",
+"d": "the use of machines to do work without people",
+"ex": "Automation saves clerks many hours of repeated work.",
+"x": "Automation",
+"c": [
+"office automation"
+],
+"f": [
+"automate"
+]
+},
+{
+"w": "capability",
+"p": "n",
+"l": "B2",
+"t": "ai",
+"ar": "قدرة، إمكانية",
+"d": "the ability or power to do something",
+"ex": "The new model has a strong capability for reading contracts.",
+"x": "capability",
+"c": [
+"technical capability"
+],
+"f": [
+"capable"
+]
+},
+{
+"w": "processing power",
+"p": "phr",
+"l": "B2",
+"t": "technology",
+"ar": "قدرة المعالجة",
+"d": "the speed and strength of a computer in handling data",
+"ex": "Training a large model needs a lot of processing power.",
+"x": "processing power"
+},
+{
+"w": "open-source",
+"p": "adj",
+"l": "B2",
+"t": "technology",
+"ar": "مفتوح المصدر",
+"d": "with code that anyone can see, use and change",
+"ex": "Many researchers prefer open-source tools they can check.",
+"x": "open-source",
+"c": [
+"open-source software"
+]
+},
+{
+"w": "server",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "خادم (حاسوب)",
+"d": "a powerful computer that stores data and serves other computers",
+"ex": "The case files stay on a server inside the country.",
+"x": "server",
+"c": [
+"local server"
+]
+},
+{
+"w": "reliable",
+"p": "adj",
+"l": "B2",
+"t": "technology",
+"ar": "موثوق",
+"d": "able to be trusted to work well every time",
+"ex": "A judge will not accept advice from an unreliable tool.",
+"x": "reliable",
+"c": [
+"reliable source"
+],
+"f": [
+"reliability",
+"reliably"
+]
+}
+]

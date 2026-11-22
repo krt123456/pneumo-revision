@@ -1,0 +1,91 @@
+[
+{"id":"r-a2-06","l":"A2","title":"The First Day at Work","topic":"work","paras":[
+"Nadia started her first job on Monday. She is now an assistant in a small engineering office. She was nervous, so she woke up early and checked her bag three times.",
+"At eight thirty she arrived at the office. The manager, Mr Hadi, met her at the door and shook her hand. He showed her the kitchen, the meeting room and her desk. It was next to a big window.",
+"Then she met the team. There are six people, and they were all very kind. A colleague named Lina gave her a notebook, a pen and a password for the computer. Lina said that she could ask anything.",
+"In the morning Nadia learned how to use the filing system. After lunch she wrote two emails and answered the phone twice. She made one small mistake, but nobody was angry.",
+"At five o'clock she was tired but happy. On the bus home she made a list of things to learn. Tomorrow she must arrive on time, and she is going to bring a plant for her desk."
+],"gloss":[{"w":"nervous","ar":"متوتر، قلق"},{"w":"assistant","ar":"مساعد"},{"w":"manager","ar":"مدير"},{"w":"colleague","ar":"زميل عمل"},{"w":"password","ar":"كلمة مرور"},{"w":"filing system","ar":"نظام الأرشفة"},{"w":"mistake","ar":"خطأ"}],
+"qs":[
+{"k":"mc","q":"What is Nadia's job?","o":["Assistant in an engineering office","Manager of a shop","Teacher in a school"],"a":0,"why":"الفقرة 1: هي مساعدة في مكتب هندسي صغير."},
+{"k":"mc","q":"Who gave Nadia a notebook and a pen?","o":["Mr Hadi","Her mother","Lina"],"a":2,"why":"الفقرة 3: الزميلة لينا أعطتها دفترا وقلما."},
+{"k":"mc","q":"What did Nadia do after lunch?","o":["She learned the filing system","She wrote two emails and answered the phone","She went home"],"a":1,"why":"الفقرة 4: بعد الغداء كتبت رسالتين وردت على الهاتف."},
+{"k":"tfng","q":"Nadia felt nervous before work.","a":"T","why":"الفقرة 1: كانت متوترة فاستيقظت مبكرا."},
+{"k":"tfng","q":"The office has twenty people.","a":"F","why":"الفقرة 3: في الفريق ستة أشخاص."},
+{"k":"tfng","q":"Nadia has worked in an office before.","a":"NG","why":"النص يقول إنها وظيفتها الأولى فقط، ولا يذكر خبرة سابقة بالمكاتب."},
+{"k":"gap","q":"Her desk was next to a big ___.","a":["window"],"why":"الفقرة 2: مكتبها بجانب نافذة كبيرة."},
+{"k":"gap","q":"On the bus she made a list of things to ___.","a":["learn"],"why":"الفقرة 5: كتبت قائمة بأشياء تتعلمها."}
+],"sumAr":"بدأت نادية عملها الأول مساعدة في مكتب هندسي. استقبلها المدير وتعرفت إلى الفريق وتعلمت نظام الأرشفة، وعادت متعبة لكنها سعيدة."},
+
+{"id":"r-a2-07","l":"A2","title":"Four Seasons in the Mountains","topic":"nature","paras":[
+"Aziz lives in a small village high in the mountains. There are only eighty houses, one school and one shop. The village is beautiful in every season.",
+"In spring the snow melts and the rivers become loud. The farmers plant potatoes and beans, and wild flowers cover the hills. The children walk to school in their rain boots.",
+"Summer is warm and dry. Tourists come to walk in the forest and sleep in tents. The villagers sell honey, cheese and wool to them. The evenings are cool, so everybody sits outside.",
+"In autumn the leaves turn red and yellow. This is the time to pick apples and walnuts. People also cut wood and store it for winter, because the cold season is long.",
+"Winter is hard. Snow can be one metre deep, and sometimes the road is closed for a week. Then the school closes too, and the children play in the snow. Aziz loves it, and he never wants to leave."
+],"gloss":[{"w":"melt","ar":"يذوب"},{"w":"wool","ar":"صوف"},{"w":"tent","ar":"خيمة"},{"w":"villager","ar":"قروي"},{"w":"store","ar":"يخزّن"},{"w":"deep","ar":"عميق"},{"w":"wild","ar":"بري"}],
+"qs":[
+{"k":"mc","q":"How many houses are there in the village?","o":["Eighty","Eight hundred","Eighteen"],"a":0,"why":"الفقرة 1: في القرية ثمانون بيتا فقط."},
+{"k":"mc","q":"What do the farmers plant in spring?","o":["Apples and walnuts","Wool and honey","Potatoes and beans"],"a":2,"why":"الفقرة 2: يزرع الفلاحون البطاطا والفول."},
+{"k":"mc","q":"Why do people cut wood in autumn?","o":["To build tents","To store it for winter","To sell it to tourists"],"a":1,"why":"الفقرة 4: يخزنونه لفصل الشتاء الطويل."},
+{"k":"tfng","q":"Tourists visit the village in summer.","a":"T","why":"الفقرة 3: يأتي السياح صيفا للمشي والتخييم."},
+{"k":"tfng","q":"The village has two shops.","a":"F","why":"الفقرة 1: في القرية دكان واحد."},
+{"k":"tfng","q":"It snows every day in winter.","a":"NG","why":"الفقرة 5: يذكر عمق الثلج دون أن يقول إنه يسقط كل يوم."},
+{"k":"gap","q":"In autumn people pick apples and ___.","a":["walnuts"],"why":"الفقرة 4: يقطفون التفاح والجوز."},
+{"k":"gap","q":"In winter the road is sometimes closed for a ___.","a":["week"],"why":"الفقرة 5: قد يُغلق الطريق أسبوعا."}
+],"sumAr":"يعيش عزيز في قرية جبلية صغيرة جميلة في كل الفصول. تزرع القرية في الربيع وتستقبل السياح في الصيف وتقطف الثمار في الخريف، ويغطي الثلج طرقها في الشتاء."},
+
+{"id":"r-a2-08","l":"A2","title":"The Story of the Bicycle","topic":"history","paras":[
+"The bicycle is a simple machine, but its story is long. The first bicycle was made in Germany in 1817. It had two wheels and a wooden frame, but it had no pedals.",
+"The rider sat on it and pushed the ground with his feet. It was fun, but it was also slow and tiring. People called it a running machine.",
+"In the 1860s, pedals were added to the front wheel. Later, makers built bicycles with a very big front wheel. They were fast, but they were also dangerous, because the rider sat very high.",
+"The real change came in the 1880s. Makers put the pedals in the middle and used a chain to move the back wheel. Both wheels were now the same size, and the new bicycle was safe and easy to ride. Soon rubber tyres made it more comfortable.",
+"Today millions of people use bicycles. They are cheap, they do not make pollution, and they keep us healthy. Many cities now have special roads for cyclists."
+],"gloss":[{"w":"wheel","ar":"عجلة"},{"w":"frame","ar":"هيكل"},{"w":"pedal","ar":"دوّاسة"},{"w":"chain","ar":"سلسلة"},{"w":"tyre","ar":"إطار العجلة"},{"w":"dangerous","ar":"خطير"},{"w":"pollution","ar":"تلوث"}],
+"qs":[
+{"k":"mc","q":"When was the first bicycle made?","o":["In 1860","In 1817","In 1880"],"a":1,"why":"الفقرة 1: صُنعت أول دراجة عام 1817."},
+{"k":"mc","q":"How did the rider move the first bicycle?","o":["With pedals","With a chain","By pushing the ground with his feet"],"a":2,"why":"الفقرة 2: كان الراكب يدفع الأرض بقدميه."},
+{"k":"mc","q":"What moved the back wheel on the new bicycle?","o":["A chain","A rubber tyre","A big front wheel"],"a":0,"why":"الفقرة 4: استُعملت سلسلة لتحريك العجلة الخلفية."},
+{"k":"tfng","q":"The first bicycle was made in Germany.","a":"T","why":"الفقرة 1: صُنعت في ألمانيا."},
+{"k":"tfng","q":"Bicycles with a very big front wheel were safe.","a":"F","why":"الفقرة 3: كانت سريعة لكنها خطيرة."},
+{"k":"tfng","q":"The first bicycle was expensive.","a":"NG","why":"لا يذكر النص سعر الدراجة الأولى."},
+{"k":"gap","q":"The first bicycle had no ___.","a":["pedals"],"why":"الفقرة 1: لم تكن للدراجة الأولى دواسات."},
+{"k":"gap","q":"Rubber ___ made bicycles more comfortable.","a":["tyres"],"why":"الفقرة 4: الإطارات المطاطية جعلتها أكثر راحة."}
+],"sumAr":"بدأت الدراجة عام 1817 في ألمانيا بلا دواسات، ثم أضيفت الدواسات وصُنعت دراجات بعجلة أمامية كبيرة خطيرة. في ثمانينيات القرن التاسع عشر ظهرت دراجة آمنة بسلسلة وعجلتين متساويتين."},
+
+{"id":"r-a2-09","l":"A2","title":"A Visit to the Doctor","topic":"health","paras":[
+"Last Tuesday I felt terrible. I had a high temperature, a sore throat and a bad cough. I called the clinic and the receptionist gave me an appointment for ten o'clock.",
+"In the waiting room there were four other patients. A little girl was holding a toy rabbit, and an old man was reading a newspaper. After twenty minutes, the doctor called my name.",
+"The doctor was a kind young woman. She asked me some questions. How long did the cough last? Did I have any allergies? Then she looked in my throat and listened to my chest with a stethoscope.",
+"She said I had a bad cold, not a serious illness. She gave me a prescription for some tablets and told me to rest. She told me that I must drink a lot of water and stay at home for three days.",
+"I took the prescription to the pharmacy and bought the medicine. Then I went home, made a hot lemon tea and went to bed. By Friday I felt much better."
+],"gloss":[{"w":"temperature","ar":"حمّى، ارتفاع الحرارة"},{"w":"sore throat","ar":"التهاب الحلق"},{"w":"appointment","ar":"موعد"},{"w":"patient","ar":"مريض"},{"w":"prescription","ar":"وصفة طبية"},{"w":"pharmacy","ar":"صيدلية"},{"w":"allergy","ar":"حساسية"}],
+"qs":[
+{"k":"mc","q":"What time was the appointment?","o":["Nine o'clock","Ten o'clock","Eleven o'clock"],"a":1,"why":"الفقرة 1: كان الموعد في العاشرة."},
+{"k":"mc","q":"What did the doctor use to listen to the writer's chest?","o":["A thermometer","A prescription","A stethoscope"],"a":2,"why":"الفقرة 3: استعملت السماعة الطبية."},
+{"k":"mc","q":"How long must the writer stay at home?","o":["Three days","One week","One day"],"a":0,"why":"الفقرة 4: عليه البقاء في البيت ثلاثة أيام."},
+{"k":"tfng","q":"The doctor was a young woman.","a":"T","why":"الفقرة 3: الطبيبة امرأة شابة لطيفة."},
+{"k":"tfng","q":"The doctor said the writer had a serious illness.","a":"F","why":"الفقرة 4: قالت إنه نزلة برد قوية وليس مرضا خطيرا."},
+{"k":"tfng","q":"The writer took the tablets for a week.","a":"NG","why":"لا يذكر النص مدة تناول الأقراص."},
+{"k":"gap","q":"The writer had a high temperature, a sore throat and a bad ___.","a":["cough"],"why":"الفقرة 1: كان يعاني من سعال شديد."},
+{"k":"gap","q":"The writer bought the medicine at the ___.","a":["pharmacy"],"why":"الفقرة 5: اشترى الدواء من الصيدلية."}
+],"sumAr":"مرض الكاتب بحمّى والتهاب في الحلق وسعال، فزار العيادة. فحصته طبيبة وأعطته وصفة وطلبت منه الراحة وشرب الماء، فتحسن بحلول يوم الجمعة."},
+
+{"id":"r-a2-10","l":"A2","title":"How to Save Money","topic":"money","paras":[
+"Yassine is twenty-three years old. He works in a phone shop and earns about fifty thousand dinars a month. He wants to buy a small car, so he is saving money.",
+"First, he writes down everything he spends. Every Sunday he checks his notebook and sees where the money goes. Last month he found that he spent too much on snacks and coffee.",
+"Second, he makes a plan. On the first day of the month he puts ten thousand dinars into a savings account. After that he never touches it. He lives with his parents, so he does not pay rent. The rest is for food, transport and small things.",
+"Third, he is careful with big purchases. Before he buys something expensive, he waits for one week. Often he decides that he does not really need it. He also looks for discounts and compares prices in three shops.",
+"Yassine says saving is not easy, but it is possible. In about two years he is going to have enough money for his car. He believes that a small habit every day is better than a big dream."
+],"gloss":[{"w":"earn","ar":"يكسب"},{"w":"spend","ar":"ينفق"},{"w":"savings account","ar":"حساب توفير"},{"w":"purchase","ar":"عملية شراء"},{"w":"discount","ar":"تخفيض"},{"w":"habit","ar":"عادة"},{"w":"rent","ar":"إيجار"}],
+"qs":[
+{"k":"mc","q":"Why is Yassine saving money?","o":["To pay his rent","To buy a small car","To open a shop"],"a":1,"why":"الفقرة 1: يريد شراء سيارة صغيرة."},
+{"k":"mc","q":"What does Yassine do every Sunday?","o":["He checks his notebook","He visits the bank","He goes shopping"],"a":0,"why":"الفقرة 2: يراجع دفتره كل أحد."},
+{"k":"mc","q":"What does he do before he buys something expensive?","o":["He asks his father","He borrows money","He waits for one week"],"a":2,"why":"الفقرة 4: ينتظر أسبوعا قبل الشراء."},
+{"k":"tfng","q":"Yassine works in a phone shop.","a":"T","why":"الفقرة 1: يعمل في محل للهواتف."},
+{"k":"tfng","q":"He puts money into his savings account at the end of the month.","a":"F","why":"الفقرة 3: يودع المبلغ في اليوم الأول من الشهر."},
+{"k":"tfng","q":"Yassine's parents give him money every month.","a":"NG","why":"النص يذكر أنه يسكن مع والديه فقط، ولا يذكر أنهما يعطيانه مالا."},
+{"k":"gap","q":"He compares prices in three ___.","a":["shops"],"why":"الفقرة 4: يقارن الأسعار في ثلاثة محلات."},
+{"k":"gap","q":"He is going to have enough money in about two ___.","a":["years"],"why":"الفقرة 5: سيجمع المال الكافي خلال نحو سنتين."}
+],"sumAr":"يدّخر ياسين لشراء سيارة صغيرة، فيسجل مصاريفه ويضع جزءا ثابتا في حساب توفير أول كل شهر. كما ينتظر أسبوعا قبل أي شراء كبير ويقارن الأسعار."}
+]

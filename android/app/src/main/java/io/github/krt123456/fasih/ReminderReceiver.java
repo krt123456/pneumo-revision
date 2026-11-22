@@ -170,7 +170,7 @@ public class ReminderReceiver extends BroadcastReceiver {
 
         if (!done) {
             long snooze = prefs(ctx).getLong("snooze", 0L);
-            if (snooze > now) best = snooze;
+            if (snooze > now) return snooze; // "remind me in 15 minutes" silences earlier slots
             for (int m : times) {
                 long t = slot(day, 0, m);
                 if (t > now && t < best) best = t;

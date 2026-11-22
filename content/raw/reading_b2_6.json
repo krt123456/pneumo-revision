@@ -1,0 +1,416 @@
+[
+ {
+  "id": "r-b2-16",
+  "l": "B2",
+  "title": "How Birds Find Their Way on Long Journeys",
+  "topic": "nature",
+  "paras": [
+   "Every year, billions of birds travel thousands of kilometres between their breeding and wintering grounds. Some Arctic terns fly from one polar region to the other and back, covering distances that exceed those of any other animal. Even small songbirds that weigh less than a pencil can cross deserts and seas. How they find their way without maps has puzzled scientists for centuries. The answer, it turns out, involves a remarkable combination of inherited instinct, physical senses and learning.",
+   "Research suggests that birds do not rely on a single sense but on several, which they combine as conditions change. The most important of these is probably the Earth's magnetic field. Experiments in which captive birds were placed in artificial magnetic fields showed that they shifted the direction in which they tried to fly. Scientists believe that certain light-sensitive molecules in the bird's eye may react to the field, allowing the animal to \"see\" its direction, although the exact mechanism is still debated.",
+   "The sun provides a second source of information. Because the sun moves across the sky at a steady rate, a bird with an internal clock can work out compass direction from its position at a given time of day. Birds that migrate at night appear to use the stars instead. Young birds raised in a planetarium where the pattern of stars was rotated chose a different direction from normal when released, which suggests that they learn the night sky's pattern early in life.",
+   "Smell and sound may also play roles, especially near the end of a journey. Some seabirds seem able to recognise the odours of familiar coastlines, and pigeons that were deprived of their sense of smell often struggled to return home. Low-frequency sounds from ocean waves or mountains might also act as landmarks over long distances, although evidence for this idea is limited.",
+   "Not all knowledge is inherited. Many young birds migrate for the first time on their own and follow an inborn programme: they fly in a particular direction for a particular length of time. Experienced adults, however, build detailed mental maps of landmarks such as rivers, coastlines and mountain ranges. In species that travel in family groups, such as geese and cranes, the young learn the route by following their parents, which means that knowledge can be passed from generation to generation.",
+   "Understanding migration has practical value. Tracking devices small enough for light birds now reveal where they rest and feed, and this information helps conservationists to protect the wetlands and forests on which they depend. Artificial light from cities, however, can confuse night migrants, and tall buildings kill many birds each year. Some cities now switch off lights during the busiest weeks of the migration season, a simple measure that has saved large numbers of lives."
+  ],
+  "gloss": [
+   {
+    "w": "migrate",
+    "ar": "يهاجر (موسمياً)"
+   },
+   {
+    "w": "breeding",
+    "ar": "تكاثر"
+   },
+   {
+    "w": "magnetic field",
+    "ar": "مجال مغناطيسي"
+   },
+   {
+    "w": "mechanism",
+    "ar": "آلية"
+   },
+   {
+    "w": "inborn",
+    "ar": "فطري"
+   },
+   {
+    "w": "landmark",
+    "ar": "معلم بارز"
+   },
+   {
+    "w": "wetland",
+    "ar": "أرض رطبة"
+   },
+   {
+    "w": "conservationist",
+    "ar": "ناشط في حماية البيئة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 2,
+    "o": [
+     "Using the sun and stars as a compass",
+     "Why birds sleep during the day",
+     "The danger of tall buildings",
+     "How planetariums are built"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Arctic terns travel greater distances than any other animal.",
+    "a": "T",
+    "why": "الفقرة 1: مسافاتها تتجاوز مسافات أي حيوان آخر."
+   },
+   {
+    "k": "tfng",
+    "q": "Scientists fully understand how birds sense the magnetic field.",
+    "a": "F",
+    "why": "الفقرة 2: الآلية الدقيقة ما زالت موضع نقاش."
+   },
+   {
+    "k": "tfng",
+    "q": "Birds that migrate in groups fly faster than birds that travel alone.",
+    "a": "NG",
+    "why": "لا يذكر النص سرعة الطيور."
+   },
+   {
+    "k": "tfng",
+    "q": "Small songbirds are more likely to die on migration than large birds.",
+    "a": "NG",
+    "why": "لا يقارن النص معدلات الموت بين الأنواع."
+   },
+   {
+    "k": "mc",
+    "q": "What did experiments with artificial magnetic fields show?",
+    "o": [
+     "Birds stopped flying completely.",
+     "Birds changed the direction they attempted to fly.",
+     "Birds became unable to eat.",
+     "Birds flew faster."
+    ],
+    "a": 1,
+    "why": "الفقرة 2: غيّرت الطيور اتجاه طيرانها."
+   },
+   {
+    "k": "mc",
+    "q": "How do young geese and cranes learn their route?",
+    "o": [
+     "By reading the stars",
+     "By smelling the coast",
+     "By following their parents",
+     "By using tracking devices"
+    ],
+    "a": 2,
+    "why": "الفقرة 5: بتتبع آبائها."
+   },
+   {
+    "k": "gap",
+    "q": "Birds that migrate at night appear to use the ___ instead.",
+    "a": [
+     "stars"
+    ],
+    "why": "الفقرة 3: تستخدم النجوم ليلاً."
+   },
+   {
+    "k": "gap",
+    "q": "Some cities switch off ___ during the busiest weeks of the migration season.",
+    "a": [
+     "lights"
+    ],
+    "why": "الفقرة 6: تطفئ الأضواء."
+   },
+   {
+    "k": "mc",
+    "q": "What can be said about the evidence for sound as a landmark?",
+    "o": [
+     "It is limited.",
+     "It is complete.",
+     "It was proved by pigeons.",
+     "It was rejected by all scientists."
+    ],
+    "a": 0,
+    "why": "الفقرة 4: الأدلة على الأصوات محدودة."
+   }
+  ],
+  "sumAr": "يشرح النص كيف تستعين الطيور المهاجرة بالمجال المغناطيسي والشمس والنجوم والروائح والخرائط الذهنية. كما يبيّن فائدة دراسة الهجرة في حماية الطيور."
+ },
+ {
+  "id": "r-b2-17",
+  "l": "B2",
+  "title": "The Printing Press and the Spread of Knowledge",
+  "topic": "arts",
+  "paras": [
+   "Before the middle of the fifteenth century, books in Europe were copied by hand, usually by monks or professional scribes. A single volume could take months to complete, and its price put it beyond the reach of most families. Only churches, universities and wealthy individuals owned more than a handful of books. Around 1450, a goldsmith in the German city of Mainz developed a printing press that used movable metal type, and the world of information began to change. Within a single lifetime, the idea would reach almost every corner of the continent.",
+   "The idea behind movable type was simple but powerful. Each letter was cast as a separate piece of metal, arranged into lines and pages, inked and pressed onto paper. After printing, the letters could be rearranged and used again. A workshop could now produce hundreds of identical copies in the time a scribe needed for one, and the cost per book fell sharply. For the first time, a student could dream of owning a personal library.",
+   "The technology spread with remarkable speed. Within fifty years, printing workshops had opened in hundreds of European towns, and millions of books had been produced. Many early printed works were religious texts, but printers soon found that there was also a market for calendars, grammar books, maps and works of science. Because printers needed to sell their stock, they chose titles that ordinary readers wanted to buy, which gradually shifted publishing away from the interests of the Church.",
+   "Printing also made knowledge more reliable. Hand copying inevitably introduced mistakes, and each new copy could add more. With printing, scholars in different cities could refer to exactly the same page and number. Scientists could publish tables of measurements and diagrams that others could check and improve. Many historians consider this shared, accurate record to be a foundation of the modern scientific method.",
+   "The social effects were equally significant. As books became cheaper, more people learned to read, and literacy rates rose, first in cities and later in the countryside. Pamphlets allowed new ideas to circulate faster than authorities could control them, and governments in several countries responded by introducing licensing systems and lists of banned books. Such attempts at censorship show how powerful the new medium was perceived to be.",
+   "Comparisons with the internet are common today. Both technologies lowered the cost of copying and sharing information, and both caused anxiety about false or harmful material. There are differences, however. Printing took generations to change society, whereas digital media have done so within a few decades. Whether this faster change will bring similar benefits remains an open question, but the history of print suggests that cheap access to information, combined with the skill to read critically, can transform whole societies."
+  ],
+  "gloss": [
+   {
+    "w": "scribe",
+    "ar": "ناسخ، كاتب مخطوطات"
+   },
+   {
+    "w": "movable type",
+    "ar": "حروف طباعة متحركة"
+   },
+   {
+    "w": "cast",
+    "ar": "سُبك، صُبّ"
+   },
+   {
+    "w": "identical",
+    "ar": "مطابق"
+   },
+   {
+    "w": "literacy",
+    "ar": "القدرة على القراءة والكتابة"
+   },
+   {
+    "w": "pamphlet",
+    "ar": "كُتيّب، نشرة"
+   },
+   {
+    "w": "censorship",
+    "ar": "رقابة، منع النشر"
+   },
+   {
+    "w": "circulate",
+    "ar": "يتداول، ينتشر"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Printing made information more accurate and shareable",
+     "The religious books of the Church",
+     "Why scribes were paid so little",
+     "How paper was invented"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Before printing, most families could not afford to buy books.",
+    "a": "T",
+    "why": "الفقرة 1: سعر الكتاب فوق قدرة معظم الأسر."
+   },
+   {
+    "k": "tfng",
+    "q": "After printing, the metal letters could not be used again.",
+    "a": "F",
+    "why": "الفقرة 2: يمكن إعادة ترتيب الحروف واستخدامها."
+   },
+   {
+    "k": "tfng",
+    "q": "The first book produced by a printing press was a religious text.",
+    "a": "NG",
+    "why": "النص يقول إن كثيراً من الكتب الأولى دينية ولا يحدد أولها."
+   },
+   {
+    "k": "tfng",
+    "q": "Printing workshops reached the Middle East later than they reached Europe.",
+    "a": "NG",
+    "why": "لا يتناول النص الشرق الأوسط."
+   },
+   {
+    "k": "mc",
+    "q": "Why did printers choose titles that ordinary people wanted?",
+    "o": [
+     "The Church ordered it.",
+     "They needed to sell their stock.",
+     "Scholars paid for them.",
+     "Paper was cheap."
+    ],
+    "a": 1,
+    "why": "الفقرة 3: كانوا بحاجة إلى بيع ما يطبعونه."
+   },
+   {
+    "k": "mc",
+    "q": "Why did some governments introduce licensing systems?",
+    "o": [
+     "To teach people to read",
+     "To control the movement of new ideas",
+     "To reduce the price of paper",
+     "To help printers abroad"
+    ],
+    "a": 1,
+    "why": "الفقرة 5: لضبط انتشار الأفكار الجديدة."
+   },
+   {
+    "k": "gap",
+    "q": "Each letter was cast as a separate piece of ___.",
+    "a": [
+     "metal"
+    ],
+    "why": "الفقرة 2: قطعة معدن."
+   },
+   {
+    "k": "gap",
+    "q": "Hand copying inevitably introduced ___.",
+    "a": [
+     "mistakes"
+    ],
+    "why": "الفقرة 4: أخطاء."
+   },
+   {
+    "k": "mc",
+    "q": "What does the writer suggest in the last paragraph?",
+    "o": [
+     "The internet has changed society more slowly than print.",
+     "Cheap information and critical reading can transform societies.",
+     "Digital media are less harmful than books.",
+     "Print is no longer important."
+    ],
+    "a": 1,
+    "why": "الفقرة 6: المعلومات الرخيصة مع القراءة الناقدة تغيّر المجتمعات."
+   }
+  ],
+  "sumAr": "يوضح النص كيف جعلت المطبعة الكتب رخيصة وكثيرة ودقيقة، فانتشرت القراءة والعلم. ويقارن بين أثر الطباعة وأثر الإنترنت في المجتمعات."
+ },
+ {
+  "id": "r-b2-18",
+  "l": "B2",
+  "title": "Fighting Desertification",
+  "topic": "environment",
+  "paras": [
+   "Desertification is the process by which fertile land becomes dry and unproductive. It does not mean that existing deserts are spreading like a tide; rather, it describes the degradation of drylands through a combination of climate change and human activity. Millions of people in Africa, Asia and other regions depend on land that is at risk, which makes the problem a matter of food, health and security. Because the damage builds up slowly over many years, it is easy to ignore until the land has already lost most of its value.",
+   "Several causes are usually involved. Overgrazing removes the plants that bind the soil, and cutting trees for firewood exposes the ground to wind. Farming methods that use the same field year after year without rest exhaust its nutrients, while poorly managed irrigation can leave salt on the surface, making the soil toxic to crops. When prolonged droughts arrive, already weakened land cannot recover.",
+   "The consequences extend beyond farmers. Dust storms damage health and reduce visibility, and lost harvests push up food prices. When families can no longer earn a living from the land, many migrate to cities, which can place pressure on housing and services. In some regions, competition for scarce pastures and water has also increased tension between communities. Governments in affected countries must then spend scarce money on emergency food and housing instead of long-term development.",
+   "One of the best-known responses is the \"green barrier\", a belt of trees planted along the edge of a desert to slow the wind and protect fields behind it. Several countries have attempted such projects. Results have been mixed: where local people were involved in choosing and caring for the trees, many survived, but where seedlings were planted without such cooperation, large numbers died from lack of water.",
+   "Smaller-scale techniques have often proved more effective. Farmers in parts of West Africa dig shallow pits or build low stone lines along the slope of a field to catch rainwater and let it soak into the ground. Others protect young trees that sprout naturally from old roots in their fields, rather than clearing them. These trees add nutrients, offer shade and reduce wind damage, and the cost is little more than patience. Because the methods are cheap and use local knowledge, neighbours copy them readily.",
+   "Experts increasingly stress prevention over repair. Rotating crops, limiting the number of animals on a pasture, and using drip irrigation, which delivers water directly to roots, all reduce the pressure on the land. Satellite images now allow governments to monitor vegetation cover and detect early warning signs. Restoring degraded land is slow and expensive; keeping healthy land healthy is almost always cheaper. International agreements encourage richer countries to fund such work, since the effects of lost farmland, including migration and higher food prices, rarely stay within national borders. Success, in the end, depends on giving farmers both knowledge and a secure right to use their land, so that they have a reason to protect it for the future."
+  ],
+  "gloss": [
+   {
+    "w": "desertification",
+    "ar": "التصحّر"
+   },
+   {
+    "w": "degradation",
+    "ar": "تدهور"
+   },
+   {
+    "w": "overgrazing",
+    "ar": "الرعي الجائر"
+   },
+   {
+    "w": "irrigation",
+    "ar": "ريّ"
+   },
+   {
+    "w": "toxic",
+    "ar": "سام"
+   },
+   {
+    "w": "seedling",
+    "ar": "شتلة"
+   },
+   {
+    "w": "nutrient",
+    "ar": "مادة مغذية"
+   },
+   {
+    "w": "pasture",
+    "ar": "مرعى"
+   }
+  ],
+  "qs": [
+   {
+    "k": "head",
+    "para": 4,
+    "o": [
+     "Cheap local methods that protect the soil",
+     "Why trees are dangerous in deserts",
+     "The history of West African farming",
+     "How satellites replaced farmers"
+    ],
+    "a": 0
+   },
+   {
+    "k": "tfng",
+    "q": "Desertification is caused by a mixture of climate change and human activity.",
+    "a": "T",
+    "why": "الفقرة 1: مزيج من تغيّر المناخ والنشاط البشري."
+   },
+   {
+    "k": "tfng",
+    "q": "Desertification means that existing deserts move forward like a tide.",
+    "a": "F",
+    "why": "الفقرة 1: النص ينفي هذا المعنى صراحة."
+   },
+   {
+    "k": "tfng",
+    "q": "Dust storms are more frequent today than they were fifty years ago.",
+    "a": "NG",
+    "why": "لا يقدم النص مقارنة زمنية لتكرار العواصف."
+   },
+   {
+    "k": "tfng",
+    "q": "Drip irrigation is more expensive than flood irrigation.",
+    "a": "NG",
+    "why": "لا يقارن النص تكلفة الريّ بالتنقيط بغيره."
+   },
+   {
+    "k": "mc",
+    "q": "Why were the results of green barrier projects mixed?",
+    "o": [
+     "Trees survived only where local people helped care for them.",
+     "The trees grew too fast.",
+     "Winds were too weak.",
+     "Farmers refused to plant anything."
+    ],
+    "a": 0,
+    "why": "الفقرة 4: نجحت حيث شارك السكان المحليون."
+   },
+   {
+    "k": "mc",
+    "q": "Why do neighbours readily copy the small-scale methods?",
+    "o": [
+     "They are cheap and rely on local knowledge.",
+     "They are paid by governments.",
+     "They need no water at all.",
+     "They were invented abroad."
+    ],
+    "a": 0,
+    "why": "الفقرة 5: رخيصة وتعتمد على المعرفة المحلية."
+   },
+   {
+    "k": "gap",
+    "q": "Overgrazing removes the plants that ___ the soil.",
+    "a": [
+     "bind"
+    ],
+    "why": "الفقرة 2: النباتات التي تربط التربة."
+   },
+   {
+    "k": "gap",
+    "q": "Poorly managed ___ can leave salt on the surface.",
+    "a": [
+     "irrigation"
+    ],
+    "why": "الفقرة 2: الري السيئ يترك الملح."
+   },
+   {
+    "k": "mc",
+    "q": "What do experts now emphasise?",
+    "o": [
+     "Restoring land after damage",
+     "Preventing damage in the first place",
+     "Moving people to cities",
+     "Planting only trees"
+    ],
+    "a": 1,
+    "why": "الفقرة 6: الوقاية أهم من الإصلاح."
+   }
+  ],
+  "sumAr": "يشرح النص أسباب التصحر ونتائجه على الناس والغذاء. ويعرض الحلول كالأحزمة الخضراء والتقنيات المحلية البسيطة، ويؤكد أن الوقاية أرخص من الإصلاح."
+ }
+]

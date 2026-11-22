@@ -1,0 +1,1001 @@
+[
+{
+"w": "graft",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "رشوة واستغلال منصب، فساد مالي",
+"d": "illegal gain from a position of power, such as bribes",
+"ex": "Years of graft left the city's roads in terrible condition.",
+"x": "graft",
+"c": [
+"rooted in graft"
+]
+},
+{
+"w": "cover up",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يخفي، يطمس (الحقائق)",
+"d": "to hide the truth about a serious mistake or crime",
+"ex": "Officials tried to cover up the missing money.",
+"x": "cover up",
+"f": [
+"cover-up"
+]
+},
+{
+"w": "blackmail",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "ابتزاز",
+"d": "forcing someone to act by threatening to reveal a secret",
+"ex": "The clerk used blackmail to force the supplier to pay him.",
+"x": "blackmail",
+"c": [
+"a blackmail attempt"
+],
+"f": [
+"blackmailer"
+]
+},
+{
+"w": "extortion",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "ابتزاز، انتزاع الأموال بالقوة",
+"d": "getting money by force or threats",
+"ex": "The officer was charged with extortion for demanding cash from shop owners.",
+"x": "extortion",
+"c": [
+"charged with extortion"
+],
+"f": [
+"extort",
+"extortionate"
+]
+},
+{
+"w": "favouritism",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "محاباة",
+"d": "unfair support given to one person or group",
+"ex": "The tender was cancelled because of favouritism towards one firm.",
+"x": "favouritism",
+"c": [
+"show favouritism"
+],
+"f": [
+"favour"
+]
+},
+{
+"w": "nepotism",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "محاباة الأقارب، المحسوبية العائلية",
+"d": "giving jobs or favours to your own relatives",
+"ex": "The director's nepotism meant three cousins joined the department.",
+"x": "nepotism",
+"c": [
+"accused of nepotism"
+],
+"f": [
+"nepotistic"
+]
+},
+{
+"w": "cronyism",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "محاباة الأصدقاء، المحسوبية",
+"d": "giving jobs or contracts to friends without regard to ability",
+"ex": "Cronyism meant the contract went to the mayor's old school friend.",
+"x": "cronyism",
+"c": [
+"rampant cronyism"
+],
+"f": [
+"crony"
+]
+},
+{
+"w": "patronage",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الزبونية، المحسوبية",
+"d": "giving jobs or benefits in return for loyalty or support",
+"ex": "Political patronage filled the agency with unqualified staff.",
+"x": "patronage",
+"c": [
+"political patronage"
+],
+"f": [
+"patron"
+]
+},
+{
+"w": "kickback",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "عمولة غير مشروعة، رشوة مقابل صفقة",
+"d": "an illegal payment to someone who helped arrange a deal",
+"ex": "The engineer received a kickback for approving the contract.",
+"x": "kickback",
+"c": [
+"accept a kickback",
+"take a kickback"
+]
+},
+{
+"w": "embezzle",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يختلس",
+"d": "to steal money that you were trusted to look after",
+"ex": "The treasurer embezzled thousands from the charity.",
+"x": "embezzled",
+"c": [
+"embezzle funds"
+],
+"f": [
+"embezzlement",
+"embezzler"
+]
+},
+{
+"w": "embezzlement",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "اختلاس",
+"d": "the crime of stealing money that you were trusted to manage",
+"ex": "The cashier was convicted of embezzlement.",
+"x": "embezzlement",
+"c": [
+"charged with embezzlement"
+],
+"f": [
+"embezzle"
+]
+},
+{
+"w": "misappropriate",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يبدّد، يستولي بغير وجه حق",
+"d": "to take money or property meant for one purpose and use it for another",
+"ex": "He misappropriated funds meant for a village school.",
+"x": "misappropriated",
+"c": [
+"misappropriate funds"
+],
+"f": [
+"misappropriation"
+]
+},
+{
+"w": "misappropriation",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تبديد، استيلاء على المال العام",
+"d": "the act of using money or property dishonestly for a different purpose",
+"ex": "The misappropriation of aid money shocked the donors.",
+"x": "misappropriation",
+"c": [
+"misappropriation of public funds"
+],
+"f": [
+"misappropriate"
+]
+},
+{
+"w": "falsify",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يزوّر، يحرّف",
+"d": "to change a document or record to make it false",
+"ex": "The accountant falsified the figures in the annual report.",
+"x": "falsified",
+"c": [
+"falsify records"
+],
+"f": [
+"falsification"
+]
+},
+{
+"w": "falsification",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تزييف، تزوير",
+"d": "the act of changing documents or records to make them false",
+"ex": "The falsification of invoices hid the missing payments.",
+"x": "falsification",
+"c": [
+"falsification of accounts"
+],
+"f": [
+"falsify"
+]
+},
+{
+"w": "inflate",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يضخّم (الأسعار أو الفواتير)",
+"d": "to make a price or number higher than it should be",
+"ex": "The contractor inflated the price of the cement.",
+"x": "inflated",
+"c": [
+"inflate prices"
+],
+"f": [
+"inflation"
+]
+},
+{
+"w": "over-invoicing",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تضخيم الفواتير",
+"d": "charging more than the real price on a bill",
+"ex": "Over-invoicing allowed the supplier to share the extra money with an official.",
+"x": "over-invoicing",
+"c": [
+"over-invoicing scheme"
+]
+},
+{
+"w": "ghost worker",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "موظف وهمي",
+"d": "a person who is paid a salary but does not really work",
+"ex": "The audit found forty ghost workers on the council's payroll.",
+"x": "ghost worker",
+"c": [
+"ghost workers on the payroll"
+]
+},
+{
+"w": "slush fund",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "صندوق أسود، أموال سرية للرشاوى",
+"d": "a secret fund of money used for illegal or dishonest payments",
+"ex": "Investigators found a slush fund hidden in the company's accounts.",
+"x": "slush fund",
+"c": [
+"a secret slush fund"
+]
+},
+{
+"w": "hush money",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "مال لشراء الصمت",
+"d": "money paid to someone to stop them revealing a secret",
+"ex": "The employee refused the hush money and reported the case.",
+"x": "hush money",
+"c": [
+"pay hush money"
+]
+},
+{
+"w": "influence peddling",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الاتجار بالنفوذ، استغلال النفوذ",
+"d": "using your connections with powerful people to get money or favours",
+"ex": "He was convicted of influence peddling after selling access to a minister.",
+"x": "influence peddling",
+"c": [
+"accused of influence peddling"
+]
+},
+{
+"w": "undue influence",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تأثير غير مشروع",
+"d": "pressure that unfairly makes a person take a decision",
+"ex": "The contract was cancelled because of undue influence on the committee.",
+"x": "undue influence",
+"c": [
+"exert undue influence"
+]
+},
+{
+"w": "undue advantage",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "منفعة غير مستحقة",
+"d": "a benefit that a person has no right to receive",
+"ex": "Offering an undue advantage to an official is a form of bribery.",
+"x": "undue advantage",
+"c": [
+"give an undue advantage"
+]
+},
+{
+"w": "facilitation payment",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "رشوة تسهيل، دفعة لتسريع الإجراءات",
+"d": "a small illegal payment to make an official do their normal work faster",
+"ex": "A facilitation payment is still a bribe under most laws.",
+"x": "facilitation payment",
+"c": [
+"make a facilitation payment"
+]
+},
+{
+"w": "grand corruption",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الفساد الكبير",
+"d": "corruption by top officials involving very large sums of public money",
+"ex": "Grand corruption robs the country of money for schools and hospitals.",
+"x": "grand corruption",
+"c": [
+"fight grand corruption"
+]
+},
+{
+"w": "petty corruption",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الفساد الصغير، الرشوة الصغيرة",
+"d": "small-scale bribery in everyday dealings with officials",
+"ex": "Petty corruption happens when a clerk asks for a small payment.",
+"x": "petty corruption",
+"c": [
+"everyday petty corruption"
+]
+},
+{
+"w": "systemic corruption",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الفساد المنظّم، فساد بنيوي",
+"d": "corruption that is part of how a whole system or institution works",
+"ex": "Systemic corruption cannot be solved by punishing a few individuals.",
+"x": "systemic corruption",
+"c": [
+"tackle systemic corruption"
+]
+},
+{
+"w": "endemic",
+"p": "adj",
+"l": "C1",
+"t": "anticorruption",
+"ar": "متفشٍّ، مستوطن",
+"d": "very common in a place or group and hard to remove",
+"ex": "Bribery was endemic in the customs service.",
+"x": "endemic",
+"c": [
+"endemic corruption"
+]
+},
+{
+"w": "pervasive",
+"p": "adj",
+"l": "C1",
+"t": "anticorruption",
+"ar": "منتشر، متغلغل",
+"d": "present and spreading through every part of something",
+"ex": "A pervasive fear of retaliation stopped employees from reporting.",
+"x": "pervasive",
+"c": [
+"a pervasive problem"
+],
+"f": [
+"pervade"
+]
+},
+{
+"w": "entrenched",
+"p": "adj",
+"l": "C1",
+"t": "anticorruption",
+"ar": "متجذّر، راسخ",
+"d": "firmly established and very difficult to change",
+"ex": "Entrenched habits of secrecy slow every reform.",
+"x": "entrenched",
+"c": [
+"deeply entrenched"
+],
+"f": [
+"entrench"
+]
+},
+{
+"w": "impunity",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الإفلات من العقاب",
+"d": "freedom from punishment for wrong acts",
+"ex": "Impunity encourages officials to repeat their abuses.",
+"x": "impunity",
+"c": [
+"end impunity",
+"culture of impunity"
+]
+},
+{
+"w": "zero tolerance",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "عدم التسامح مطلقًا",
+"d": "a strict policy of refusing to accept any wrongdoing",
+"ex": "The ministry announced zero tolerance for bribery.",
+"x": "zero tolerance",
+"c": [
+"a zero tolerance policy"
+]
+},
+{
+"w": "collusion",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تواطؤ",
+"d": "a secret agreement between people to cheat or act illegally",
+"ex": "Collusion between bidders pushed the price up.",
+"x": "collusion",
+"c": [
+"in collusion with"
+],
+"f": [
+"collude"
+]
+},
+{
+"w": "collude",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يتواطأ",
+"d": "to make a secret plan with others to cheat",
+"ex": "Three firms colluded to share the contracts.",
+"x": "colluded",
+"c": [
+"collude with"
+],
+"f": [
+"collusion"
+]
+},
+{
+"w": "bid rigging",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "التلاعب بالعروض، التواطؤ في المناقصات",
+"d": "secretly agreeing who will win a tender and at what price",
+"ex": "Bid rigging kept prices artificially high for years.",
+"x": "bid rigging",
+"c": [
+"accused of bid rigging"
+]
+},
+{
+"w": "cartel",
+"p": "n",
+"l": "C1",
+"t": "business",
+"ar": "كارتل، اتحاد احتكاري",
+"d": "a group of companies that agree to control prices",
+"ex": "The cement cartel fixed prices across the region.",
+"x": "cartel",
+"c": [
+"break up a cartel"
+]
+},
+{
+"w": "price fixing",
+"p": "phr",
+"l": "C1",
+"t": "business",
+"ar": "تثبيت الأسعار بالتواطؤ",
+"d": "an illegal agreement between companies to keep prices at the same level",
+"ex": "The competition authority fined the firms for price fixing.",
+"x": "price fixing",
+"c": [
+"accused of price fixing"
+]
+},
+{
+"w": "conspiracy",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "مؤامرة، اتفاق جنائي",
+"d": "a secret plan by several people to commit a crime",
+"ex": "The three officials were charged with conspiracy to commit fraud.",
+"x": "conspiracy",
+"c": [
+"conspiracy to commit fraud"
+],
+"f": [
+"conspire",
+"conspirator"
+]
+},
+{
+"w": "complicity",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "تواطؤ، مشاركة في الجرم",
+"d": "involvement in a crime together with others",
+"ex": "The report found complicity between the contractor and local officials.",
+"x": "complicity",
+"c": [
+"complicity in a crime"
+],
+"f": [
+"complicit"
+]
+},
+{
+"w": "complicit",
+"p": "adj",
+"l": "C1",
+"t": "crime",
+"ar": "متواطئ، شريك",
+"d": "involved in a crime or wrongdoing together with others",
+"ex": "Officials who stayed silent were complicit in the fraud.",
+"x": "complicit",
+"c": [
+"be complicit in"
+],
+"f": [
+"complicity"
+]
+},
+{
+"w": "money laundering",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "تبييض الأموال، غسل الأموال",
+"d": "hiding the illegal source of money by passing it through legal businesses",
+"ex": "The bank reported a case of money laundering to the authorities.",
+"x": "money laundering",
+"c": [
+"anti-money laundering",
+"prevent money laundering"
+],
+"f": [
+"launder"
+]
+},
+{
+"w": "launder",
+"p": "v",
+"l": "C1",
+"t": "anticorruption",
+"ar": "يبيّض، يغسل (الأموال)",
+"d": "to make illegal money look legal",
+"ex": "Criminals laundered the money through a chain of small shops.",
+"x": "laundered",
+"c": [
+"launder money"
+],
+"f": [
+"money laundering"
+]
+},
+{
+"w": "shell company",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "شركة صورية",
+"d": "a company that exists only on paper and hides who really owns money",
+"ex": "Money was moved through a shell company with no staff or office.",
+"x": "shell company",
+"c": [
+"set up a shell company"
+]
+},
+{
+"w": "front company",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "شركة واجهة",
+"d": "a business used to hide illegal activity",
+"ex": "The front company existed only to receive the kickbacks.",
+"x": "front company",
+"c": [
+"operate a front company"
+]
+},
+{
+"w": "offshore account",
+"p": "phr",
+"l": "C1",
+"t": "money",
+"ar": "حساب خارجي (في الملاذات)",
+"d": "a bank account in another country, often to avoid tax or detection",
+"ex": "He hid the bribes in an offshore account.",
+"x": "offshore account",
+"c": [
+"open an offshore account"
+]
+},
+{
+"w": "tax haven",
+"p": "phr",
+"l": "C1",
+"t": "money",
+"ar": "ملاذ ضريبي",
+"d": "a place where taxes are very low and information is kept secret",
+"ex": "The profits were sent to a tax haven.",
+"x": "tax haven",
+"c": [
+"a tax haven jurisdiction"
+]
+},
+{
+"w": "illicit",
+"p": "adj",
+"l": "C1",
+"t": "anticorruption",
+"ar": "غير مشروع، محظور",
+"d": "not allowed by law or by accepted rules",
+"ex": "Illicit payments were hidden as consulting fees.",
+"x": "illicit",
+"c": [
+"illicit gains",
+"illicit payment"
+]
+},
+{
+"w": "illicit enrichment",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الإثراء غير المشروع",
+"d": "a large increase in an official's wealth that he cannot explain legally",
+"ex": "The judge charged him with illicit enrichment because his assets were too large.",
+"x": "illicit enrichment",
+"c": [
+"charged with illicit enrichment"
+]
+},
+{
+"w": "unexplained wealth",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "ثروة غير مبررة",
+"d": "money or property that an official cannot show a legal source for",
+"ex": "The law allows courts to act against unexplained wealth.",
+"x": "unexplained wealth",
+"c": [
+"investigate unexplained wealth"
+]
+},
+{
+"w": "illicit financial flows",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "التدفقات المالية غير المشروعة",
+"d": "illegal movement of money across borders",
+"ex": "Illicit financial flows drain billions from developing countries.",
+"x": "illicit financial flows",
+"c": [
+"curb illicit financial flows"
+]
+},
+{
+"w": "proceeds of crime",
+"p": "phr",
+"l": "C1",
+"t": "crime",
+"ar": "عائدات الجريمة",
+"d": "money or property obtained through criminal acts",
+"ex": "The court froze the proceeds of crime held in his name.",
+"x": "proceeds of crime",
+"c": [
+"seize the proceeds of crime"
+]
+},
+{
+"w": "beneficial ownership",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الملكية المنتفعة، المالك المستفيد الحقيقي",
+"d": "real ownership by the person who finally enjoys the profits",
+"ex": "A public register of beneficial ownership shows who really owns a company.",
+"x": "beneficial ownership",
+"c": [
+"beneficial ownership register"
+]
+},
+{
+"w": "beneficial owner",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "المالك المستفيد",
+"d": "the real person who owns or controls a company and receives its profits",
+"ex": "The beneficial owner was a minister's son.",
+"x": "beneficial owner",
+"c": [
+"identify the beneficial owner"
+]
+},
+{
+"w": "politically exposed person",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "شخص ذو صفة سياسية بارزة",
+"d": "a person with an important public job who needs extra checks by banks",
+"ex": "Banks must check every account of a politically exposed person closely.",
+"x": "politically exposed person",
+"c": [
+"a politically exposed person"
+]
+},
+{
+"w": "know your customer",
+"p": "phr",
+"l": "C1",
+"t": "business",
+"ar": "اعرف عميلك",
+"d": "banking rules that require identity checks on customers",
+"ex": "Know your customer rules help banks spot dirty money.",
+"x": "know your customer",
+"c": [
+"know your customer rules"
+]
+},
+{
+"w": "suspicious transaction",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "عملية مشبوهة",
+"d": "a money transfer that seems linked to crime",
+"ex": "The bank filed a report on a suspicious transaction.",
+"x": "suspicious transaction",
+"c": [
+"report a suspicious transaction"
+]
+},
+{
+"w": "asset freeze",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "تجميد الأصول",
+"d": "an official order that stops a person from using their property",
+"ex": "The court ordered an asset freeze on all his accounts.",
+"x": "asset freeze",
+"c": [
+"impose an asset freeze"
+]
+},
+{
+"w": "confiscate",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يصادر",
+"d": "to take property officially as a punishment or for evidence",
+"ex": "Police confiscated the cash found in his car.",
+"x": "confiscated",
+"c": [
+"confiscate property"
+],
+"f": [
+"confiscation"
+]
+},
+{
+"w": "confiscation",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "مصادرة",
+"d": "the official taking of property by the state",
+"ex": "Confiscation of the luxury villa was part of the sentence.",
+"x": "confiscation",
+"c": [
+"order the confiscation of"
+],
+"f": [
+"confiscate"
+]
+},
+{
+"w": "forfeiture",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "مصادرة، حرمان من الملكية",
+"d": "losing property as a legal punishment",
+"ex": "Forfeiture of his house was ordered by the court.",
+"x": "forfeiture",
+"c": [
+"asset forfeiture"
+],
+"f": [
+"forfeit"
+]
+},
+{
+"w": "asset recovery",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "استرداد الأصول",
+"d": "getting stolen public money or property back, often from abroad",
+"ex": "Asset recovery returned millions to the national treasury.",
+"x": "asset recovery",
+"c": [
+"asset recovery process"
+]
+},
+{
+"w": "mutual legal assistance",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "المساعدة القانونية المتبادلة",
+"d": "cooperation between countries in investigations and trials",
+"ex": "Mutual legal assistance helped investigators trace the bank accounts abroad.",
+"x": "mutual legal assistance",
+"c": [
+"a mutual legal assistance request"
+]
+},
+{
+"w": "organised crime",
+"p": "phr",
+"l": "C1",
+"t": "crime",
+"ar": "جريمة منظمة",
+"d": "serious crime carried out by well-planned criminal groups",
+"ex": "Organised crime groups often depend on corrupt officials.",
+"x": "organised crime",
+"c": [
+"fight organised crime"
+]
+},
+{
+"w": "transnational",
+"p": "adj",
+"l": "C1",
+"t": "crime",
+"ar": "عابر للحدود",
+"d": "involving more than one country",
+"ex": "Corruption is often a transnational crime involving banks abroad.",
+"x": "transnational",
+"c": [
+"transnational crime"
+]
+},
+{
+"w": "revolving door",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الباب الدوّار",
+"d": "movement of people between public posts and private companies they regulated",
+"ex": "The revolving door raises questions about conflicts of interest.",
+"x": "revolving door",
+"c": [
+"the revolving door problem"
+]
+},
+{
+"w": "lobbying",
+"p": "n",
+"l": "C1",
+"t": "government",
+"ar": "ضغط على صنّاع القرار، جماعات الضغط",
+"d": "trying to influence officials or lawmakers on behalf of a group",
+"ex": "Rules on lobbying must be public and clear.",
+"x": "lobbying",
+"c": [
+"lobbying activity"
+],
+"f": [
+"lobby",
+"lobbyist"
+]
+},
+{
+"w": "kleptocracy",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "حكم اللصوص، كليبتوقراطية",
+"d": "a system of government where leaders steal national wealth",
+"ex": "Kleptocracy leaves the population poor while a few leaders grow rich.",
+"x": "kleptocracy",
+"c": [
+"a kleptocracy"
+],
+"f": [
+"kleptocrat"
+]
+},
+{
+"w": "state capture",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "اختطاف الدولة",
+"d": "when private interests control public decisions for their own benefit",
+"ex": "State capture happens when companies buy laws and public jobs.",
+"x": "state capture",
+"c": [
+"an example of state capture"
+]
+},
+{
+"w": "anti-corruption agency",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "هيئة مكافحة الفساد",
+"d": "an official body created to prevent and investigate corruption",
+"ex": "The anti-corruption agency opened an investigation into the contract.",
+"x": "anti-corruption agency",
+"c": [
+"an independent anti-corruption agency"
+]
+},
+{
+"w": "rent-seeking",
+"p": "n",
+"l": "C1",
+"t": "anticorruption",
+"ar": "الريع، السعي إلى الريع",
+"d": "using political influence to gain wealth without producing anything new",
+"ex": "Rent-seeking is common where officials control licences and permits.",
+"x": "rent-seeking",
+"c": [
+"rent-seeking behaviour"
+]
+}
+]

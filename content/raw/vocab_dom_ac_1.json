@@ -1,0 +1,1172 @@
+[
+{
+"w": "government",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "حكومة",
+"ex": "The government built a new road to the village.",
+"x": "government",
+"exar": "بنت الحكومة طريقًا جديدًا إلى القرية.",
+"c": [
+"local government",
+"government official"
+],
+"f": [
+"governmental"
+]
+},
+{
+"w": "minister",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "وزير",
+"ex": "The minister visited the hospital with a team of inspectors.",
+"x": "minister",
+"exar": "زار الوزير المستشفى مع فريق من المفتشين.",
+"c": [
+"prime minister",
+"minister of finance"
+],
+"f": [
+"ministry"
+]
+},
+{
+"w": "official",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "موظف رسمي، مسؤول",
+"ex": "A local official signed the building permit.",
+"x": "official",
+"exar": "وقّع مسؤول محلي رخصة البناء.",
+"c": [
+"government official",
+"senior official"
+],
+"f": [
+"official"
+]
+},
+{
+"w": "tax",
+"p": "n",
+"l": "B1",
+"t": "money",
+"ar": "ضريبة",
+"ex": "Every company must pay tax on its profits.",
+"x": "tax",
+"exar": "يجب على كل شركة أن تدفع ضريبة على أرباحها.",
+"c": [
+"pay tax",
+"tax rate"
+],
+"f": [
+"taxpayer"
+]
+},
+{
+"w": "taxpayer",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "دافع الضرائب",
+"ex": "Taxpayers expect the state to spend their money wisely.",
+"x": "taxpayer",
+"exar": "يتوقع دافعو الضرائب أن تنفق الدولة أموالهم بحكمة.",
+"c": [
+"taxpayers' money"
+],
+"f": [
+"tax"
+]
+},
+{
+"w": "budget",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "ميزانية",
+"ex": "The school has a small budget for new books.",
+"x": "budget",
+"exar": "لدى المدرسة ميزانية صغيرة للكتب الجديدة.",
+"c": [
+"annual budget",
+"state budget"
+]
+},
+{
+"w": "spending",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "إنفاق",
+"ex": "The mayor promised to publish all city spending online.",
+"x": "spending",
+"exar": "وعد العمدة بنشر كل إنفاق المدينة على الإنترنت.",
+"c": [
+"public spending",
+"cut spending"
+],
+"f": [
+"spend"
+]
+},
+{
+"w": "waste",
+"p": "n",
+"l": "B1",
+"t": "government",
+"ar": "هدر، تبذير",
+"ex": "The audit found a lot of waste in the hospital budget.",
+"x": "waste",
+"exar": "وجد التدقيق هدرًا كبيرًا في ميزانية المستشفى.",
+"c": [
+"waste of money"
+],
+"f": [
+"waste",
+"wasteful"
+]
+},
+{
+"w": "honest",
+"p": "adj",
+"l": "B1",
+"t": "anticorruption",
+"ar": "أمين، نزيه، صادق",
+"ex": "An honest clerk returned the money he found.",
+"x": "honest",
+"exar": "أعاد كاتب أمين المال الذي وجده.",
+"c": [
+"an honest answer",
+"be honest"
+],
+"f": [
+"honesty",
+"dishonest"
+]
+},
+{
+"w": "dishonest",
+"p": "adj",
+"l": "B1",
+"t": "anticorruption",
+"ar": "غير أمين، غير نزيه",
+"ex": "The dishonest manager kept part of the money.",
+"x": "dishonest",
+"exar": "احتفظ المدير غير الأمين بجزء من المال.",
+"c": [
+"dishonest behaviour"
+],
+"f": [
+"dishonesty",
+"honest"
+]
+},
+{
+"w": "honesty",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "أمانة، صدق",
+"ex": "Honesty is the first rule for people who work with public money.",
+"x": "honesty",
+"exar": "الأمانة هي القاعدة الأولى لمن يتعاملون مع المال العام.",
+"c": [
+"with honesty"
+],
+"f": [
+"honest"
+]
+},
+{
+"w": "trust",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "ثقة",
+"ex": "Citizens lose trust in the state when officials steal.",
+"x": "trust",
+"exar": "يفقد المواطنون الثقة بالدولة عندما يسرق المسؤولون.",
+"c": [
+"public trust",
+"lose trust"
+],
+"f": [
+"trust",
+"mistrust"
+]
+},
+{
+"w": "secret",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "سرّ",
+"ex": "The contract was a secret, and no one saw its terms.",
+"x": "secret",
+"exar": "كان العقد سرًّا ولم يطّلع أحد على بنوده.",
+"c": [
+"keep a secret",
+"in secret"
+],
+"f": [
+"secretly",
+"secrecy"
+]
+},
+{
+"w": "hide",
+"p": "v",
+"l": "B1",
+"t": "anticorruption",
+"ar": "يخفي، يُخفي",
+"ex": "He hid the documents in a locked drawer.",
+"x": "hid",
+"exar": "أخفى الوثائق في درج مقفل.",
+"c": [
+"hide the truth"
+],
+"f": [
+"hidden"
+]
+},
+{
+"w": "gift",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "هدية",
+"ex": "A small gift from a contractor can become a bribe.",
+"x": "gift",
+"exar": "قد تصبح الهدية الصغيرة من المقاول رشوة.",
+"c": [
+"accept a gift"
+]
+},
+{
+"w": "favour",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "محاباة، خدمة، معاملة تفضيلية",
+"ex": "The mayor did a favour for a friend by giving him the contract.",
+"x": "favour",
+"exar": "منح العمدة صديقه خدمة بإعطائه العقد.",
+"c": [
+"do someone a favour",
+"in favour of"
+],
+"f": [
+"favourable"
+]
+},
+{
+"w": "cheat",
+"p": "v",
+"l": "B1",
+"t": "anticorruption",
+"ar": "يغشّ، يخدع",
+"ex": "Some bidders cheat to win public contracts.",
+"x": "cheat",
+"exar": "يغشّ بعض المتنافسين ليفوزوا بالصفقات العمومية.",
+"c": [
+"cheat in an exam"
+],
+"f": [
+"cheater"
+]
+},
+{
+"w": "fake",
+"p": "adj",
+"l": "B1",
+"t": "anticorruption",
+"ar": "مزوّر، مزيّف",
+"ex": "The inspector found a fake invoice in the file.",
+"x": "fake",
+"exar": "وجد المفتش فاتورة مزوّرة في الملف.",
+"c": [
+"fake document",
+"fake signature"
+]
+},
+{
+"w": "complaint",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "شكوى",
+"ex": "Citizens made a complaint about the hospital's long waiting lists.",
+"x": "complaint",
+"exar": "قدّم المواطنون شكوى بشأن قوائم الانتظار الطويلة في المستشفى.",
+"c": [
+"make a complaint",
+"file a complaint"
+],
+"f": [
+"complain"
+]
+},
+{
+"w": "report",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "تقرير، بلاغ",
+"ex": "The report showed that the money never reached the school.",
+"x": "report",
+"exar": "أظهر التقرير أن المال لم يصل إلى المدرسة.",
+"c": [
+"write a report",
+"annual report"
+],
+"f": [
+"report"
+]
+},
+{
+"w": "investigate",
+"p": "v",
+"l": "B1",
+"t": "anticorruption",
+"ar": "يحقق في",
+"ex": "Police are investigating how the funds disappeared.",
+"x": "investigating",
+"exar": "تحقق الشرطة في كيفية اختفاء الأموال.",
+"c": [
+"investigate a case"
+],
+"f": [
+"investigation",
+"investigator"
+]
+},
+{
+"w": "investigation",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "تحقيق",
+"ex": "The investigation lasted eight months and found many errors.",
+"x": "investigation",
+"exar": "استمر التحقيق ثمانية أشهر ووجد أخطاء كثيرة.",
+"c": [
+"launch an investigation",
+"open an investigation"
+],
+"f": [
+"investigate"
+]
+},
+{
+"w": "expose",
+"p": "v",
+"l": "B1",
+"t": "anticorruption",
+"ar": "يكشف، يفضح",
+"ex": "A journalist exposed the secret payments to the minister.",
+"x": "exposed",
+"exar": "كشف صحفي الدفعات السرية للوزير.",
+"c": [
+"expose corruption"
+],
+"f": [
+"exposure"
+]
+},
+{
+"w": "scandal",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "فضيحة",
+"ex": "The scandal forced the director to resign.",
+"x": "scandal",
+"exar": "أجبرت الفضيحة المدير على الاستقالة.",
+"c": [
+"a corruption scandal",
+"cause a scandal"
+],
+"f": [
+"scandalous"
+]
+},
+{
+"w": "corruption",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "فساد",
+"ex": "Corruption makes it harder for poor people to get services.",
+"x": "corruption",
+"exar": "يجعل الفساد حصول الفقراء على الخدمات أصعب.",
+"c": [
+"fight corruption",
+"widespread corruption"
+],
+"f": [
+"corrupt",
+"corruptly"
+]
+},
+{
+"w": "corrupt",
+"p": "adj",
+"l": "B1",
+"t": "anticorruption",
+"ar": "فاسد",
+"ex": "A corrupt officer asked drivers for money.",
+"x": "corrupt",
+"exar": "طلب شرطي فاسد مالًا من السائقين.",
+"c": [
+"corrupt official"
+],
+"f": [
+"corruption",
+"incorruptible"
+]
+},
+{
+"w": "bribe",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "رشوة",
+"ex": "The inspector refused to take a bribe.",
+"x": "bribe",
+"exar": "رفض المفتش أن يقبل رشوة.",
+"c": [
+"offer a bribe",
+"take a bribe"
+],
+"f": [
+"bribery",
+"bribe"
+]
+},
+{
+"w": "bribery",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "رشوة، ارتشاء",
+"ex": "He was arrested on a charge of bribery.",
+"x": "bribery",
+"exar": "أُلقي القبض عليه بتهمة الرشوة.",
+"c": [
+"accept bribery",
+"bribery case"
+],
+"f": [
+"bribe"
+]
+},
+{
+"w": "fraud",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "احتيال، غش",
+"ex": "The accountant was jailed for fraud.",
+"x": "fraud",
+"exar": "سُجن المحاسب بسبب الاحتيال.",
+"c": [
+"commit fraud",
+"tax fraud"
+],
+"f": [
+"fraudulent",
+"fraudster"
+]
+},
+{
+"w": "transparency",
+"p": "n",
+"l": "B1",
+"t": "anticorruption",
+"ar": "شفافية",
+"ex": "Transparency means that people can see how decisions are made.",
+"x": "transparency",
+"exar": "تعني الشفافية أن يرى الناس كيف تُتخذ القرارات.",
+"c": [
+"greater transparency",
+"lack of transparency"
+],
+"f": [
+"transparent"
+]
+},
+{
+"w": "transparent",
+"p": "adj",
+"l": "B1",
+"t": "anticorruption",
+"ar": "شفاف",
+"ex": "A transparent process lets everyone see the rules.",
+"x": "transparent",
+"exar": "العملية الشفافة تتيح للجميع رؤية القواعد.",
+"c": [
+"a transparent process"
+],
+"f": [
+"transparency",
+"transparently"
+]
+},
+{
+"w": "accountability",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مساءلة",
+"d": "the duty of officials to explain and be responsible for their actions",
+"ex": "Accountability means officials must explain how they spent public money.",
+"x": "accountability",
+"c": [
+"lack of accountability",
+"ensure accountability"
+],
+"f": [
+"accountable"
+]
+},
+{
+"w": "accountable",
+"p": "adj",
+"l": "B2",
+"t": "anticorruption",
+"ar": "خاضع للمساءلة",
+"d": "responsible for your actions and having to explain them",
+"ex": "Public officials must be accountable to the citizens.",
+"x": "accountable",
+"c": [
+"hold someone accountable",
+"be accountable to"
+],
+"f": [
+"accountability"
+]
+},
+{
+"w": "integrity",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "نزاهة",
+"d": "the quality of being honest and having strong moral principles",
+"ex": "The judge was respected for his integrity.",
+"x": "integrity",
+"c": [
+"act with integrity",
+"personal integrity"
+]
+},
+{
+"w": "public funds",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "المال العام، الأموال العمومية",
+"d": "money that belongs to the state and the people",
+"ex": "The mayor spent public funds on his private holiday.",
+"x": "public funds",
+"c": [
+"misuse public funds"
+]
+},
+{
+"w": "audit",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تدقيق، مراجعة حسابات",
+"d": "an official check of accounts to see if they are correct",
+"ex": "An audit of the ministry found missing payments.",
+"x": "audit",
+"c": [
+"conduct an audit",
+"financial audit"
+],
+"f": [
+"audit",
+"auditor"
+]
+},
+{
+"w": "auditor",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مدقّق حسابات، مراجع",
+"d": "a person who checks the accounts of an organisation",
+"ex": "The auditor noticed that two invoices had the same number.",
+"x": "auditor",
+"c": [
+"external auditor"
+],
+"f": [
+"audit"
+]
+},
+{
+"w": "misuse",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "سوء استخدام",
+"d": "using something in the wrong way or for the wrong purpose",
+"ex": "The misuse of official cars is a common complaint.",
+"x": "misuse",
+"c": [
+"misuse of funds",
+"misuse of power"
+],
+"f": [
+"misuse"
+]
+},
+{
+"w": "abuse of power",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "إساءة استعمال السلطة",
+"d": "using an official position in a wrong or unfair way",
+"ex": "Using police officers for private work is an abuse of power.",
+"x": "abuse of power",
+"c": [
+"accused of abuse of power"
+]
+},
+{
+"w": "misconduct",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "سوء سلوك مهني، تجاوز",
+"d": "bad or dishonest behaviour by a person in a position of trust",
+"ex": "The doctor was suspended for serious misconduct.",
+"x": "misconduct",
+"c": [
+"professional misconduct",
+"official misconduct"
+]
+},
+{
+"w": "ethics",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "أخلاقيات، آداب المهنة",
+"d": "moral rules about what is right and wrong in a job",
+"ex": "The ethics of public service forbid accepting gifts.",
+"x": "ethics",
+"c": [
+"professional ethics",
+"ethics committee"
+],
+"f": [
+"ethical"
+]
+},
+{
+"w": "ethical",
+"p": "adj",
+"l": "B2",
+"t": "anticorruption",
+"ar": "أخلاقي",
+"d": "following moral principles about right and wrong",
+"ex": "It is not ethical to give a contract to a relative.",
+"x": "ethical",
+"c": [
+"ethical behaviour"
+],
+"f": [
+"ethics",
+"unethical"
+]
+},
+{
+"w": "code of conduct",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مدونة السلوك، ميثاق أخلاقي",
+"d": "a written set of rules about how people in a job must behave",
+"ex": "Every civil servant must sign the code of conduct.",
+"x": "code of conduct",
+"c": [
+"sign a code of conduct",
+"breach the code of conduct"
+]
+},
+{
+"w": "civil servant",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "موظف عمومي",
+"d": "a person who works for the government administration",
+"ex": "A civil servant must treat all citizens equally.",
+"x": "civil servant",
+"c": [
+"senior civil servant"
+]
+},
+{
+"w": "public service",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "الخدمة العمومية، المرفق العام",
+"d": "work done by the government for the benefit of citizens",
+"ex": "A career in public service requires honesty and patience.",
+"x": "public service",
+"c": [
+"work in public service"
+]
+},
+{
+"w": "ministry",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "وزارة",
+"d": "a government department led by a minister",
+"ex": "The ministry published the list of approved contractors.",
+"x": "ministry",
+"c": [
+"ministry of health"
+],
+"f": [
+"minister"
+]
+},
+{
+"w": "mayor",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "رئيس البلدية، عمدة",
+"d": "the elected head of a town or city council",
+"ex": "The mayor opened the council's accounts to the public.",
+"x": "mayor",
+"c": [
+"the mayor of"
+]
+},
+{
+"w": "local authority",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "السلطة المحلية، الجماعة المحلية",
+"d": "the body that runs services in a town or region",
+"ex": "The local authority repaired the school roof last summer.",
+"x": "local authority",
+"c": [
+"local authorities"
+]
+},
+{
+"w": "authority",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "سلطة، هيئة",
+"d": "the power to give orders, or an official organisation",
+"ex": "The tax authority sent a letter to every business.",
+"x": "authority",
+"c": [
+"public authority",
+"tax authority"
+],
+"f": [
+"authorise",
+"authoritative"
+]
+},
+{
+"w": "monitor",
+"p": "v",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يراقب، يتابع",
+"d": "to watch and check something over a period of time",
+"ex": "Independent observers monitored the opening of the bids.",
+"x": "monitored",
+"c": [
+"monitor progress"
+],
+"f": [
+"monitoring"
+]
+},
+{
+"w": "inspect",
+"p": "v",
+"l": "B2",
+"t": "government",
+"ar": "يفتّش، يتفقّد",
+"d": "to look at something carefully to check it is correct",
+"ex": "Officials inspected the building before paying the contractor.",
+"x": "inspected",
+"c": [
+"inspect a site"
+],
+"f": [
+"inspection",
+"inspector"
+]
+},
+{
+"w": "inspector",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "مفتّش",
+"d": "an official who checks that rules are followed",
+"ex": "The inspector found that the bridge had no safety certificate.",
+"x": "inspector",
+"c": [
+"tax inspector"
+],
+"f": [
+"inspect"
+]
+},
+{
+"w": "reform",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "إصلاح",
+"d": "a change that improves a system or law",
+"ex": "The reform made all public contracts open to competition.",
+"x": "reform",
+"c": [
+"carry out reform",
+"legal reform"
+],
+"f": [
+"reform",
+"reformer"
+]
+},
+{
+"w": "public trust",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "ثقة الجمهور",
+"d": "the confidence that citizens have in public institutions",
+"ex": "Scandals damage public trust in the courts.",
+"x": "public trust",
+"c": [
+"restore public trust"
+]
+},
+{
+"w": "red tape",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "بيروقراطية، تعقيدات إدارية",
+"d": "too many official rules that make things slow",
+"ex": "Red tape made it hard for small firms to get a licence.",
+"x": "red tape",
+"c": [
+"cut red tape"
+]
+},
+{
+"w": "offer a bribe",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يعرض رشوة",
+"d": "to try to give money to an official for an illegal favour",
+"ex": "He tried to offer a bribe to the traffic officer.",
+"x": "offer a bribe"
+},
+{
+"w": "take a bribe",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يقبل رشوة، يرتشي",
+"d": "to accept money in return for an illegal favour",
+"ex": "The clerk was dismissed for taking a bribe.",
+"x": "taking a bribe"
+},
+{
+"w": "fight corruption",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يكافح الفساد",
+"d": "to take action to stop corruption",
+"ex": "Countries fight corruption with clear laws and strong courts.",
+"x": "fight corruption"
+},
+{
+"w": "public official",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "موظف عمومي، مسؤول عمومي",
+"d": "a person who holds a job in the government",
+"ex": "A public official must declare gifts above a certain value.",
+"x": "public official",
+"c": [
+"corrupt public official"
+]
+},
+{
+"w": "forgery",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "تزوير",
+"d": "the crime of making a false copy of a document or signature",
+"ex": "The clerk was caught in forgery of a permit.",
+"x": "forgery",
+"c": [
+"commit forgery"
+],
+"f": [
+"forge"
+]
+},
+{
+"w": "democracy",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "ديمقراطية",
+"d": "a system in which citizens choose their leaders by voting",
+"ex": "Democracy needs free courts and open information.",
+"x": "democracy",
+"c": [
+"a strong democracy"
+],
+"f": [
+"democratic"
+]
+},
+{
+"w": "election",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "انتخابات",
+"d": "an occasion when people vote for their leaders",
+"ex": "Observers watched the election in every polling station.",
+"x": "election",
+"c": [
+"hold an election",
+"local election"
+],
+"f": [
+"elect"
+]
+},
+{
+"w": "journalist",
+"p": "n",
+"l": "B2",
+"t": "media",
+"ar": "صحفي",
+"d": "a person who writes news reports for newspapers or websites",
+"ex": "The journalist studied the contract for weeks before writing.",
+"x": "journalist",
+"c": [
+"investigative journalist"
+],
+"f": [
+"journalism"
+]
+},
+{
+"w": "press freedom",
+"p": "phr",
+"l": "B2",
+"t": "media",
+"ar": "حرية الصحافة",
+"d": "the right of newspapers and journalists to publish without control",
+"ex": "Press freedom helps citizens learn about government mistakes.",
+"x": "press freedom",
+"c": [
+"protect press freedom"
+]
+},
+{
+"w": "responsibility",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مسؤولية",
+"d": "a duty to deal with something and take blame if it goes wrong",
+"ex": "The director took responsibility for the missing funds.",
+"x": "responsibility",
+"c": [
+"take responsibility",
+"accept responsibility"
+],
+"f": [
+"responsible"
+]
+},
+{
+"w": "mismanagement",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "سوء التسيير، سوء الإدارة",
+"d": "bad or careless control of money or an organisation",
+"ex": "The hospital's debts were caused by years of mismanagement.",
+"x": "mismanagement",
+"c": [
+"financial mismanagement"
+],
+"f": [
+"mismanage"
+]
+},
+{
+"w": "irregularity",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مخالفة، خلل، تجاوز",
+"d": "something that does not follow the rules or the normal way",
+"ex": "The audit revealed several irregularities in the payments.",
+"x": "irregularities",
+"c": [
+"financial irregularity"
+],
+"f": [
+"irregular"
+]
+},
+{
+"w": "abuse",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تجاوز، إساءة",
+"d": "wrong or unfair use of something or bad treatment of people",
+"ex": "The commission received many reports of abuse of office.",
+"x": "abuse",
+"c": [
+"abuse of office"
+],
+"f": [
+"abuse",
+"abusive"
+]
+},
+{
+"w": "state-owned",
+"p": "adj",
+"l": "B2",
+"t": "government",
+"ar": "مملوك للدولة، عمومي",
+"d": "owned and controlled by the government",
+"ex": "The state-owned company hired a private firm without a tender.",
+"x": "state-owned",
+"c": [
+"state-owned enterprise"
+]
+},
+{
+"w": "financial statement",
+"p": "phr",
+"l": "B2",
+"t": "money",
+"ar": "كشف مالي، قوائم مالية",
+"d": "an official document showing a company's money and debts",
+"ex": "The company refused to publish its financial statement.",
+"x": "financial statement",
+"c": [
+"publish a financial statement"
+]
+},
+{
+"w": "accountant",
+"p": "n",
+"l": "B2",
+"t": "money",
+"ar": "محاسب",
+"d": "a person whose job is to prepare and check financial records",
+"ex": "The accountant noticed that the total did not match.",
+"x": "accountant",
+"c": [
+"chartered accountant"
+],
+"f": [
+"accounting"
+]
+},
+{
+"w": "invoice",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "فاتورة",
+"d": "a bill sent to ask for payment for goods or services",
+"ex": "The invoice was for work that was never done.",
+"x": "invoice",
+"c": [
+"issue an invoice",
+"a fake invoice"
+]
+},
+{
+"w": "receipt",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "وصل، إيصال",
+"d": "a paper proving that money was paid",
+"ex": "Officials must keep every receipt for public purchases.",
+"x": "receipt",
+"c": [
+"keep a receipt"
+]
+},
+{
+"w": "wrongdoing",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مخالفة، سلوك مشين، تجاوز",
+"d": "illegal or dishonest behaviour",
+"ex": "The employee reported wrongdoing in the purchasing department.",
+"x": "wrongdoing",
+"c": [
+"evidence of wrongdoing",
+"deny any wrongdoing"
+],
+"f": [
+"wrongdoer"
+]
+},
+{
+"w": "public interest",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "المصلحة العامة",
+"d": "the benefit of all citizens, not only a few people",
+"ex": "Publishing the contract was in the public interest.",
+"x": "public interest",
+"c": [
+"in the public interest"
+]
+}
+]

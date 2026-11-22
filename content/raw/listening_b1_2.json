@@ -1,0 +1,879 @@
+[
+ {
+  "id": "l-b1-07",
+  "l": "B1",
+  "title": "Booking a study room at the library",
+  "part": 1,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. University Library, information desk."
+   },
+   {
+    "s": "B",
+    "t": "Hello. I would like to book a study room for a group project, please."
+   },
+   {
+    "s": "A",
+    "t": "Of course. How many students will there be?"
+   },
+   {
+    "s": "B",
+    "t": "Five of us. We need a room for about three hours."
+   },
+   {
+    "s": "A",
+    "t": "Let me see. The small rooms take four people, so you will need a large room. Those have a screen and a whiteboard."
+   },
+   {
+    "s": "B",
+    "t": "That would be perfect. Is anything free on Tuesday?"
+   },
+   {
+    "s": "A",
+    "t": "On Tuesday, there is a room free from ten until twelve, and again from three until six."
+   },
+   {
+    "s": "B",
+    "t": "Could we have the afternoon one? We have classes in the morning."
+   },
+   {
+    "s": "A",
+    "t": "Yes. But the maximum booking is two hours at a time, so I can give you three until five."
+   },
+   {
+    "s": "B",
+    "t": "That is fine. Is there a way to extend it if no one else needs the room?"
+   },
+   {
+    "s": "A",
+    "t": "Yes. Come to the desk before five, and we will check. Can I have a name and a student number?"
+   },
+   {
+    "s": "B",
+    "t": "Ahmed Saidi, S, A, I, D, I. My number is two zero two three, four four one."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Ahmed. It is Room Nine on the second floor. Please remember that you can't eat in the rooms, but you can bring water."
+   },
+   {
+    "s": "B",
+    "t": "Understood. Thank you very much."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "whiteboard",
+    "ar": "سبّورة بيضاء"
+   },
+   {
+    "w": "extend",
+    "ar": "يمدّد"
+   },
+   {
+    "w": "maximum",
+    "ar": "الحد الأقصى"
+   },
+   {
+    "w": "group project",
+    "ar": "مشروع جماعي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The group has ___ students.",
+    "a": [
+     "5",
+     "five"
+    ],
+    "why": "قال: Five of us."
+   },
+   {
+    "k": "mc",
+    "q": "Why can't they use a small room?",
+    "o": [
+     "It has no screen",
+     "It is for four people",
+     "It is too expensive"
+    ],
+    "a": 1,
+    "why": "الغرف الصغيرة تتسع لأربعة فقط."
+   },
+   {
+    "k": "mc",
+    "q": "Which day do they book?",
+    "o": [
+     "Monday",
+     "Tuesday",
+     "Thursday"
+    ],
+    "a": 1,
+    "why": "يحجزون يوم الثلاثاء."
+   },
+   {
+    "k": "mc",
+    "q": "What time is the booking?",
+    "o": [
+     "10 to 12",
+     "3 to 5",
+     "3 to 6"
+    ],
+    "a": 1,
+    "why": "الحد الأقصى ساعتان فيحجزون من الثالثة إلى الخامسة."
+   },
+   {
+    "k": "gap",
+    "q": "They have Room ___ on the second floor.",
+    "a": [
+     "9",
+     "nine"
+    ],
+    "why": "قالت: It is Room Nine."
+   },
+   {
+    "k": "tfng",
+    "q": "Students can bring water into the rooms.",
+    "a": "T",
+    "why": "قالت: you can bring water."
+   },
+   {
+    "k": "tfng",
+    "q": "They must speak to the desk before the booking ends to extend it.",
+    "a": "T",
+    "why": "عليه الحضور إلى المكتب قبل الخامسة."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-08",
+  "l": "B1",
+  "title": "A museum audio guide",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Welcome to the City Science Museum audio guide. Please press the green button when you want to hear the next section."
+   },
+   {
+    "s": "A",
+    "t": "You are now standing in the Hall of Inventions. Straight ahead, you can see a large glass case."
+   },
+   {
+    "s": "A",
+    "t": "Inside is a copy of the first mechanical clock made in this region, around the year thirteen hundred."
+   },
+   {
+    "s": "A",
+    "t": "Notice how big it is. The clockmaker used heavy weights and a system of wheels, and the clock only showed the hour."
+   },
+   {
+    "s": "A",
+    "t": "It did not have a minute hand."
+   },
+   {
+    "s": "A",
+    "t": "On your left, there is a model of an early printing machine. Before this invention, people copied books by hand, and a single book could take months."
+   },
+   {
+    "s": "A",
+    "t": "With the machine, a workshop could print hundreds of pages in a day, and knowledge spread faster than ever before."
+   },
+   {
+    "s": "A",
+    "t": "Please do not touch the models, but children can try the interactive screens near the window. They show how the machine worked."
+   },
+   {
+    "s": "A",
+    "t": "When you are ready, go through the blue door at the end of the hall to the Energy Gallery. The audio guide will start automatically."
+   },
+   {
+    "s": "A",
+    "t": "The cafe is on the ground floor, and the museum closes at five thirty."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "invention",
+    "ar": "اختراع"
+   },
+   {
+    "w": "weights",
+    "ar": "أثقال"
+   },
+   {
+    "w": "workshop",
+    "ar": "ورشة"
+   },
+   {
+    "w": "gallery",
+    "ar": "قاعة عرض"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What should visitors press to hear the next section?",
+    "o": [
+     "The red button",
+     "The green button",
+     "The blue button"
+    ],
+    "a": 1,
+    "why": "اضغط الزر الأخضر."
+   },
+   {
+    "k": "mc",
+    "q": "What is inside the large glass case?",
+    "o": [
+     "A printing machine",
+     "A copy of an early clock",
+     "A computer"
+    ],
+    "a": 1,
+    "why": "نسخة من أول ساعة ميكانيكية."
+   },
+   {
+    "k": "tfng",
+    "q": "The old clock had a minute hand.",
+    "a": "F",
+    "why": "الساعة كانت تُظهر الساعات فقط."
+   },
+   {
+    "k": "mc",
+    "q": "Where is the model of the printing machine?",
+    "o": [
+     "On the left",
+     "On the right",
+     "Behind the clock"
+    ],
+    "a": 0,
+    "why": "قال: On your left."
+   },
+   {
+    "k": "gap",
+    "q": "Before printing, copying a book could take ___.",
+    "a": [
+     "months"
+    ],
+    "why": "نسخ كتاب واحد قد يستغرق شهوراً."
+   },
+   {
+    "k": "gap",
+    "q": "Visitors go through the ___ door to the Energy Gallery.",
+    "a": [
+     "blue"
+    ],
+    "why": "الباب الأزرق في نهاية القاعة."
+   },
+   {
+    "k": "gap",
+    "q": "The museum closes at ___.",
+    "a": [
+     "5.30",
+     "5:30",
+     "five thirty",
+     "half past five"
+    ],
+    "why": "يغلق الخامسة والنصف."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-09",
+  "l": "B1",
+  "title": "An interview with a young lawyer",
+  "part": 3,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Today, I am talking to Samira, a young lawyer who works for a legal aid centre. Samira, why did you choose law?"
+   },
+   {
+    "s": "B",
+    "t": "When I was fifteen, my uncle lost his job unfairly, and nobody explained his rights to him."
+   },
+   {
+    "s": "B",
+    "t": "I decided then that I wanted to help people understand the law."
+   },
+   {
+    "s": "A",
+    "t": "What does a normal day look like?"
+   },
+   {
+    "s": "B",
+    "t": "There is no normal day, really. In the morning, I usually meet clients who cannot afford a private lawyer."
+   },
+   {
+    "s": "B",
+    "t": "Many of them have problems with rent, work contracts or family issues."
+   },
+   {
+    "s": "A",
+    "t": "Is it a stressful job?"
+   },
+   {
+    "s": "B",
+    "t": "Sometimes, yes. There is a lot of paperwork, and some cases take months. But when a family keeps their home because of my work, it is very rewarding."
+   },
+   {
+    "s": "A",
+    "t": "What skills are most important?"
+   },
+   {
+    "s": "B",
+    "t": "Listening, first of all. People often need to tell their story before you can help them. Then, clear writing, because a letter to a court must be precise."
+   },
+   {
+    "s": "A",
+    "t": "Do you use technology?"
+   },
+   {
+    "s": "B",
+    "t": "More and more. We use software to find old cases quickly, which saves hours every week."
+   },
+   {
+    "s": "A",
+    "t": "What is your advice for law students?"
+   },
+   {
+    "s": "B",
+    "t": "Do an internship during your studies. You learn more in one month in a real office than in a whole semester of reading."
+   },
+   {
+    "s": "A",
+    "t": "Thank you, Samira."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "legal aid",
+    "ar": "مساعدة قانونية"
+   },
+   {
+    "w": "rights",
+    "ar": "حقوق"
+   },
+   {
+    "w": "rewarding",
+    "ar": "مجزٍ"
+   },
+   {
+    "w": "internship",
+    "ar": "تدريب عملي"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Why did Samira decide to study law?",
+    "o": [
+     "Her uncle lost his job unfairly",
+     "Her father was a judge",
+     "She liked debates"
+    ],
+    "a": 0,
+    "why": "فقد عمها وظيفته ظلماً."
+   },
+   {
+    "k": "mc",
+    "q": "Who are Samira's clients?",
+    "o": [
+     "Rich companies",
+     "People who cannot afford a private lawyer",
+     "Only students"
+    ],
+    "a": 1,
+    "why": "عملاؤها لا يستطيعون دفع أتعاب محامٍ خاص."
+   },
+   {
+    "k": "tfng",
+    "q": "Her job is never stressful.",
+    "a": "F",
+    "why": "قالت: Sometimes, yes."
+   },
+   {
+    "k": "gap",
+    "q": "She says the most important skill is ___.",
+    "a": [
+     "listening"
+    ],
+    "why": "قالت: Listening, first of all."
+   },
+   {
+    "k": "mc",
+    "q": "How does software help the centre?",
+    "o": [
+     "It writes letters",
+     "It finds old cases quickly",
+     "It meets clients"
+    ],
+    "a": 1,
+    "why": "يجد القضايا القديمة بسرعة."
+   },
+   {
+    "k": "gap",
+    "q": "Her advice is to do an ___ during your studies.",
+    "a": [
+     "internship"
+    ],
+    "why": "نصحت بالتدريب العملي."
+   },
+   {
+    "k": "tfng",
+    "q": "Samira says reading for a semester teaches more than a month in an office.",
+    "a": "F",
+    "why": "قالت العكس تماماً."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-10",
+  "l": "B1",
+  "title": "A podcast about saving money",
+  "part": 2,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello and welcome to Smart Student, the podcast about making life easier on a small budget."
+   },
+   {
+    "s": "A",
+    "t": "I am your host, and today I have four simple ideas for saving money."
+   },
+   {
+    "s": "A",
+    "t": "The first idea is to track your spending. For one month, write down everything you buy, even a small coffee."
+   },
+   {
+    "s": "A",
+    "t": "Most people are surprised to find that these little purchases add up to about thirty or forty pounds a month."
+   },
+   {
+    "s": "A",
+    "t": "The second idea is to plan your meals."
+   },
+   {
+    "s": "A",
+    "t": "When you cook at home and carry your lunch, you can easily save fifty pounds a month compared with eating out."
+   },
+   {
+    "s": "A",
+    "t": "Third, use your student card. Many shops, cinemas and train companies give discounts of ten to twenty percent, but a lot of students forget to ask."
+   },
+   {
+    "s": "A",
+    "t": "My fourth idea is to save first, and spend later. On the day you receive your money, move a small amount, perhaps ten percent, to a separate account."
+   },
+   {
+    "s": "A",
+    "t": "If you don't see it, you won't spend it."
+   },
+   {
+    "s": "A",
+    "t": "Remember, you don't have to change your life in one day. Start with one idea this week, and add another next month."
+   },
+   {
+    "s": "A",
+    "t": "That is all for today. Next time, we will talk about buying second-hand books. Goodbye!"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "budget",
+    "ar": "ميزانية"
+   },
+   {
+    "w": "track",
+    "ar": "يتتبّع"
+   },
+   {
+    "w": "discount",
+    "ar": "خصم"
+   },
+   {
+    "w": "second-hand",
+    "ar": "مستعمل"
+   }
+  ],
+  "qs": [
+   {
+    "k": "gap",
+    "q": "The host has ___ ideas for saving money.",
+    "a": [
+     "4",
+     "four"
+    ],
+    "why": "قال: four simple ideas."
+   },
+   {
+    "k": "mc",
+    "q": "What should listeners write down?",
+    "o": [
+     "Their plans",
+     "Everything they buy",
+     "Their marks"
+    ],
+    "a": 1,
+    "why": "يدوّنون كل ما يشترونه."
+   },
+   {
+    "k": "gap",
+    "q": "Small purchases can add up to about 30 or ___ pounds a month.",
+    "a": [
+     "40",
+     "forty"
+    ],
+    "why": "ثلاثين أو أربعين جنيهاً."
+   },
+   {
+    "k": "mc",
+    "q": "How much can cooking at home save?",
+    "o": [
+     "About 15 pounds",
+     "About 50 pounds",
+     "About 100 pounds"
+    ],
+    "a": 1,
+    "why": "حوالي خمسين جنيهاً شهرياً."
+   },
+   {
+    "k": "tfng",
+    "q": "Student card discounts are usually between 10 and 20 percent.",
+    "a": "T",
+    "why": "قال: ten to twenty percent."
+   },
+   {
+    "k": "mc",
+    "q": "What should you do on the day you receive money?",
+    "o": [
+     "Spend it on bills",
+     "Move a small amount to another account",
+     "Lend it to a friend"
+    ],
+    "a": 1,
+    "why": "حوّل مبلغاً صغيراً إلى حساب منفصل."
+   },
+   {
+    "k": "mc",
+    "q": "What is next week's topic?",
+    "o": [
+     "Cheap flights",
+     "Second-hand books",
+     "Student jobs"
+    ],
+    "a": 1,
+    "why": "الحلقة القادمة عن الكتب المستعملة."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-11",
+  "l": "B1",
+  "title": "Complaining politely about an internet connection",
+  "part": 1,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Customer service, Mark speaking. How can I help you?"
+   },
+   {
+    "s": "B",
+    "t": "Hello, Mark. I am calling about my internet connection. I am afraid it has been very slow for the last two weeks."
+   },
+   {
+    "s": "A",
+    "t": "I am sorry to hear that. Can I have your account number?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, it is four eight one, nine two six."
+   },
+   {
+    "s": "A",
+    "t": "Thank you. Let me look. Which package do you have?"
+   },
+   {
+    "s": "B",
+    "t": "The fifty megabit package. But in the evening, I can hardly watch a video, and my online classes keep stopping."
+   },
+   {
+    "s": "A",
+    "t": "I see. Have you tried restarting the router?"
+   },
+   {
+    "s": "B",
+    "t": "Yes, I turned it off for a minute several times, and I also moved it into the living room. It didn't help."
+   },
+   {
+    "s": "A",
+    "t": "Okay. I can see some problems on your line. I will send an engineer to check it."
+   },
+   {
+    "s": "B",
+    "t": "When could he come? I am at university in the daytime."
+   },
+   {
+    "s": "A",
+    "t": "We have a free slot on Thursday between five and seven in the evening."
+   },
+   {
+    "s": "B",
+    "t": "That works for me. Will I have to pay for the visit?"
+   },
+   {
+    "s": "A",
+    "t": "No, it is free, because the fault is on our side. And I will give you a ten dollar credit on your next bill."
+   },
+   {
+    "s": "B",
+    "t": "Thank you. I appreciate your help."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "connection",
+    "ar": "اتصال"
+   },
+   {
+    "w": "router",
+    "ar": "جهاز التوجيه"
+   },
+   {
+    "w": "engineer",
+    "ar": "فني"
+   },
+   {
+    "w": "credit",
+    "ar": "رصيد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How long has the connection been slow?",
+    "o": [
+     "Two days",
+     "Two weeks",
+     "Two months"
+    ],
+    "a": 1,
+    "why": "منذ أسبوعين."
+   },
+   {
+    "k": "gap",
+    "q": "The customer has the ___ megabit package.",
+    "a": [
+     "50",
+     "fifty"
+    ],
+    "why": "باقة خمسين ميغابت."
+   },
+   {
+    "k": "mc",
+    "q": "What problem does he have in the evening?",
+    "o": [
+     "No connection at all",
+     "Videos and online classes stop",
+     "The router is hot"
+    ],
+    "a": 1,
+    "why": "لا يستطيع مشاهدة فيديو والدروس تتوقف."
+   },
+   {
+    "k": "tfng",
+    "q": "He moved the router to the living room.",
+    "a": "T",
+    "why": "قال إنه نقله إلى غرفة المعيشة."
+   },
+   {
+    "k": "mc",
+    "q": "When can the engineer come?",
+    "o": [
+     "Thursday evening",
+     "Friday morning",
+     "Monday afternoon"
+    ],
+    "a": 0,
+    "why": "يوم الخميس بين الخامسة والسابعة."
+   },
+   {
+    "k": "tfng",
+    "q": "The customer must pay for the engineer's visit.",
+    "a": "F",
+    "why": "الزيارة مجانية لأن العطل من جهة الشركة."
+   },
+   {
+    "k": "gap",
+    "q": "He will get a ___ dollar credit.",
+    "a": [
+     "10",
+     "ten"
+    ],
+    "why": "رصيد عشرة دولارات."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-12",
+  "l": "B1",
+  "title": "A short lecture: how the internet works",
+  "part": 4,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning. Today, I would like to give you a simple picture of how the internet works."
+   },
+   {
+    "s": "A",
+    "t": "First, the internet is not one machine."
+   },
+   {
+    "s": "A",
+    "t": "It is a huge network of millions of computers, phones and servers that are connected with each other by cables, wireless signals and satellites."
+   },
+   {
+    "s": "A",
+    "t": "Most of the data, about ninety-five percent, travels through cables under the sea."
+   },
+   {
+    "s": "A",
+    "t": "When you open a web page, your computer sends a request. Think of it as a letter with an address."
+   },
+   {
+    "s": "A",
+    "t": "This address is called an IP address, and every device has one."
+   },
+   {
+    "s": "A",
+    "t": "The request does not travel in one piece. Instead, it is cut into small packets."
+   },
+   {
+    "s": "A",
+    "t": "Each packet can take a different route, like cars choosing different roads to the same city."
+   },
+   {
+    "s": "A",
+    "t": "At the end, your computer puts the packets back in the correct order."
+   },
+   {
+    "s": "A",
+    "t": "Servers are computers that store web pages and send them to you when you ask."
+   },
+   {
+    "s": "A",
+    "t": "Large companies keep thousands of servers in big buildings called data centres, which need a lot of electricity and cooling."
+   },
+   {
+    "s": "A",
+    "t": "Finally, a word about names. People remember words, not numbers, so a system called the domain name system works like a phone book."
+   },
+   {
+    "s": "A",
+    "t": "It changes a name like a university website into the correct IP address."
+   },
+   {
+    "s": "A",
+    "t": "Next week, we will discuss internet security."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "network",
+    "ar": "شبكة"
+   },
+   {
+    "w": "packet",
+    "ar": "حزمة بيانات"
+   },
+   {
+    "w": "server",
+    "ar": "خادم"
+   },
+   {
+    "w": "data centre",
+    "ar": "مركز بيانات"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "What is the internet, according to the lecturer?",
+    "o": [
+     "One large machine",
+     "A network of many connected devices",
+     "A kind of software"
+    ],
+    "a": 1,
+    "why": "شبكة ضخمة من أجهزة كثيرة متصلة."
+   },
+   {
+    "k": "gap",
+    "q": "About ___ percent of data travels through undersea cables.",
+    "a": [
+     "95",
+     "ninety-five",
+     "ninety five"
+    ],
+    "why": "قال: about ninety-five percent."
+   },
+   {
+    "k": "mc",
+    "q": "What does an IP address resemble?",
+    "o": [
+     "A telephone number",
+     "The address on a letter",
+     "A password"
+    ],
+    "a": 1,
+    "why": "شبّهه بعنوان على رسالة."
+   },
+   {
+    "k": "tfng",
+    "q": "A request travels as one big piece.",
+    "a": "F",
+    "why": "يُقسَّم الطلب إلى حزم صغيرة."
+   },
+   {
+    "k": "mc",
+    "q": "What do data centres need a lot of?",
+    "o": [
+     "Water and paper",
+     "Electricity and cooling",
+     "Workers and cars"
+    ],
+    "a": 1,
+    "why": "تحتاج كهرباء وتبريداً."
+   },
+   {
+    "k": "gap",
+    "q": "The domain name system works like a ___.",
+    "a": [
+     "phone book",
+     "phonebook",
+     "telephone book"
+    ],
+    "why": "يعمل مثل دليل الهاتف."
+   },
+   {
+    "k": "mc",
+    "q": "What is next week's topic?",
+    "o": [
+     "Internet security",
+     "Social media",
+     "Programming"
+    ],
+    "a": 0,
+    "why": "الأسبوع القادم عن أمن الإنترنت."
+   }
+  ]
+ }
+]

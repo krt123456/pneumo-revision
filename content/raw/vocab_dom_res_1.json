@@ -1,0 +1,1156 @@
+[
+{
+"w": "study",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "دراسة",
+"ex": "The study took place in three universities.",
+"x": "study",
+"exar": "تمت الدراسة في ثلاث جامعات.",
+"c": [
+"carry out a study"
+],
+"f": [
+"student"
+]
+},
+{
+"w": "topic",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "موضوع",
+"ex": "She chose a topic that interests her deeply.",
+"x": "topic",
+"exar": "اختارت موضوعًا يهمها كثيرًا.",
+"c": [
+"research topic"
+]
+},
+{
+"w": "essay",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "مقال، بحث قصير",
+"ex": "The students must write an essay on legal ethics.",
+"x": "essay",
+"exar": "يجب على الطلاب كتابة مقال عن أخلاقيات القانون.",
+"c": [
+"write an essay"
+]
+},
+{
+"w": "lecture",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "محاضرة",
+"ex": "The professor gave a lecture on artificial intelligence.",
+"x": "lecture",
+"exar": "ألقى الأستاذ محاضرة عن الذكاء الاصطناعي.",
+"c": [
+"give a lecture"
+],
+"f": [
+"lecturer"
+]
+},
+{
+"w": "library",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "مكتبة",
+"ex": "He spends every evening in the university library.",
+"x": "library",
+"exar": "يقضي كل مساء في مكتبة الجامعة.",
+"c": [
+"university library"
+]
+},
+{
+"w": "professor",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "أستاذ جامعي، بروفيسور",
+"ex": "The professor read my thesis plan carefully.",
+"x": "professor",
+"exar": "قرأ الأستاذ خطة أطروحتي بعناية.",
+"c": [
+"visiting professor"
+]
+},
+{
+"w": "degree",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "شهادة جامعية، درجة علمية",
+"ex": "She earned a degree in accounting and finance.",
+"x": "degree",
+"exar": "حصلت على شهادة في المحاسبة والمالية.",
+"c": [
+"get a degree"
+]
+},
+{
+"w": "master's degree",
+"p": "phr",
+"l": "B1",
+"t": "education",
+"ar": "شهادة الماجستير",
+"ex": "He is studying for a master's degree in law.",
+"x": "master's degree",
+"exar": "يدرس للحصول على شهادة الماجستير في القانون.",
+"c": [
+"do a master's degree"
+]
+},
+{
+"w": "PhD",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "دكتوراه",
+"ex": "He hopes to start a PhD abroad next year.",
+"x": "PhD",
+"exar": "يأمل أن يبدأ الدكتوراه في الخارج العام القادم.",
+"c": [
+"do a PhD"
+]
+},
+{
+"w": "research",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "بحث علمي، أبحاث",
+"ex": "Her research focuses on corruption in public contracts.",
+"x": "research",
+"exar": "تركّز أبحاثها على الفساد في الصفقات العمومية.",
+"c": [
+"carry out research"
+],
+"f": [
+"researcher"
+]
+},
+{
+"w": "aim",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "هدف، غاية",
+"ex": "The aim of this study is to test a new tool.",
+"x": "aim",
+"exar": "هدف هذه الدراسة هو اختبار أداة جديدة.",
+"c": [
+"main aim"
+]
+},
+{
+"w": "survey",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "استبيان، مسح",
+"ex": "We sent a short survey to two hundred lawyers.",
+"x": "survey",
+"exar": "أرسلنا استبيانًا قصيرًا إلى مئتي محامٍ.",
+"c": [
+"conduct a survey"
+]
+},
+{
+"w": "questionnaire",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "استبيان (قائمة أسئلة)",
+"ex": "The questionnaire has ten simple questions.",
+"x": "questionnaire",
+"exar": "يحتوي الاستبيان على عشرة أسئلة بسيطة.",
+"c": [
+"fill in a questionnaire"
+]
+},
+{
+"w": "interview",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "مقابلة",
+"ex": "He recorded an interview with a retired judge.",
+"x": "interview",
+"exar": "سجّل مقابلة مع قاضٍ متقاعد.",
+"c": [
+"conduct an interview"
+],
+"f": [
+"interviewer"
+]
+},
+{
+"w": "participant",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "مشارك",
+"ex": "Each participant signed a consent form.",
+"x": "participant",
+"exar": "وقّع كل مشارك على نموذج موافقة.",
+"c": [
+"study participant"
+],
+"f": [
+"participate"
+]
+},
+{
+"w": "sample",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "عيّنة",
+"ex": "The sample included fifty students from two cities.",
+"x": "sample",
+"exar": "ضمّت العيّنة خمسين طالبًا من مدينتين.",
+"c": [
+"small sample"
+]
+},
+{
+"w": "method",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "منهج، طريقة",
+"ex": "This method is faster than reading every file by hand.",
+"x": "method",
+"exar": "هذه الطريقة أسرع من قراءة كل ملف يدويًا.",
+"c": [
+"research method"
+]
+},
+{
+"w": "experiment",
+"p": "n",
+"l": "B1",
+"t": "science",
+"ar": "تجربة علمية",
+"ex": "The experiment lasted two weeks.",
+"x": "experiment",
+"exar": "استمرت التجربة أسبوعين.",
+"c": [
+"carry out an experiment"
+],
+"f": [
+"experimental"
+]
+},
+{
+"w": "theory",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "نظرية",
+"ex": "This theory explains why people obey the law.",
+"x": "theory",
+"exar": "تفسّر هذه النظرية لماذا يطيع الناس القانون.",
+"c": [
+"in theory"
+],
+"f": [
+"theoretical"
+]
+},
+{
+"w": "evidence",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "دليل، أدلة",
+"ex": "There is strong evidence that the tool saves time.",
+"x": "evidence",
+"exar": "توجد أدلة قوية على أن الأداة توفّر الوقت.",
+"c": [
+"strong evidence"
+],
+"f": [
+"evident"
+]
+},
+{
+"w": "result",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "نتيجة",
+"ex": "The result surprised the whole research team.",
+"x": "result",
+"exar": "فاجأت النتيجة فريق البحث كله.",
+"c": [
+"clear result"
+]
+},
+{
+"w": "source",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مصدر",
+"ex": "Always check that your source is reliable.",
+"x": "source",
+"exar": "تأكد دائمًا من أن مصدرك موثوق.",
+"c": [
+"reliable source"
+]
+},
+{
+"w": "reference",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مرجع، إحالة مرجعية",
+"ex": "Add a reference after each quotation.",
+"x": "reference",
+"exar": "أضف مرجعًا بعد كل اقتباس.",
+"c": [
+"list of references"
+],
+"f": [
+"refer"
+]
+},
+{
+"w": "quote",
+"p": "v",
+"l": "B1",
+"t": "academic",
+"ar": "يقتبس",
+"ex": "You must quote the author's exact words.",
+"x": "quote",
+"exar": "يجب أن تقتبس كلمات المؤلف بالضبط.",
+"c": [
+"quote from"
+],
+"f": [
+"quotation"
+]
+},
+{
+"w": "summary",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "ملخّص",
+"ex": "Write a short summary of each chapter.",
+"x": "summary",
+"exar": "اكتب ملخصًا قصيرًا لكل فصل.",
+"c": [
+"brief summary"
+],
+"f": [
+"summarise"
+]
+},
+{
+"w": "draft",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مسودّة",
+"ex": "He sent the first draft to his supervisor.",
+"x": "draft",
+"exar": "أرسل المسودة الأولى إلى مشرفه.",
+"c": [
+"first draft"
+]
+},
+{
+"w": "deadline",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "موعد نهائي",
+"ex": "The deadline for the scholarship is Friday.",
+"x": "deadline",
+"exar": "الموعد النهائي للمنحة يوم الجمعة.",
+"c": [
+"meet a deadline"
+]
+},
+{
+"w": "introduction",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مقدمة",
+"ex": "The introduction explains why the topic matters.",
+"x": "introduction",
+"exar": "توضّح المقدمة سبب أهمية الموضوع.",
+"c": [
+"write an introduction"
+],
+"f": [
+"introduce"
+]
+},
+{
+"w": "conclusion",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "خاتمة، استنتاج",
+"ex": "The conclusion repeats the main points briefly.",
+"x": "conclusion",
+"exar": "تكرر الخاتمة النقاط الرئيسية باختصار.",
+"c": [
+"draw a conclusion"
+],
+"f": [
+"conclude"
+]
+},
+{
+"w": "compare",
+"p": "v",
+"l": "B1",
+"t": "academic",
+"ar": "يقارن",
+"ex": "The study compares two legal systems.",
+"x": "compares",
+"exar": "تقارن الدراسة بين نظامين قانونيين.",
+"c": [
+"compare with"
+],
+"f": [
+"comparison"
+]
+},
+{
+"w": "average",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "متوسط",
+"ex": "The average age of the participants was thirty.",
+"x": "average",
+"exar": "كان متوسط عمر المشاركين ثلاثين سنة.",
+"c": [
+"on average"
+]
+},
+{
+"w": "percentage",
+"p": "n",
+"l": "B1",
+"t": "research",
+"ar": "نسبة مئوية",
+"ex": "A large percentage of users liked the new feature.",
+"x": "percentage",
+"exar": "أحبّ نسبة كبيرة من المستخدمين الميزة الجديدة.",
+"c": [
+"high percentage"
+]
+},
+{
+"w": "argue",
+"p": "v",
+"l": "B1",
+"t": "academic",
+"ar": "يحاجج، يرى ويبرهن",
+"ex": "The author argues that courts need better data.",
+"x": "argues",
+"exar": "يرى المؤلف أن المحاكم تحتاج إلى بيانات أفضل.",
+"c": [
+"argue that"
+],
+"f": [
+"argument"
+]
+},
+{
+"w": "feedback",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "ملاحظات، تغذية راجعة",
+"ex": "My supervisor gave me useful feedback on chapter two.",
+"x": "feedback",
+"exar": "قدّم لي مشرفي ملاحظات مفيدة على الفصل الثاني.",
+"c": [
+"give feedback"
+]
+},
+{
+"w": "supervisor",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مشرف (على الأطروحة)",
+"ex": "My supervisor meets me every two weeks.",
+"x": "supervisor",
+"exar": "يلتقي بي مشرفي كل أسبوعين.",
+"c": [
+"thesis supervisor"
+],
+"f": [
+"supervise"
+]
+},
+{
+"w": "thesis",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "أطروحة، رسالة جامعية",
+"ex": "He is writing his thesis about transparency.",
+"x": "thesis",
+"exar": "يكتب أطروحته عن الشفافية.",
+"c": [
+"master's thesis"
+]
+},
+{
+"w": "journal",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مجلة علمية",
+"ex": "Her article appeared in a respected law journal.",
+"x": "journal",
+"exar": "ظهر مقالها في مجلة قانونية مرموقة.",
+"c": [
+"academic journal"
+]
+},
+{
+"w": "publish",
+"p": "v",
+"l": "B1",
+"t": "academic",
+"ar": "ينشر",
+"ex": "They want to publish their results next spring.",
+"x": "publish",
+"exar": "يريدون نشر نتائجهم في الربيع القادم.",
+"c": [
+"publish a paper"
+],
+"f": [
+"publication",
+"publisher"
+]
+},
+{
+"w": "scholarship",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "منحة دراسية",
+"ex": "She won a scholarship to study in Europe.",
+"x": "scholarship",
+"exar": "فازت بمنحة دراسية للدراسة في أوروبا.",
+"c": [
+"apply for a scholarship"
+]
+},
+{
+"w": "application",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "طلب التحاق، طلب تقديم",
+"ex": "His application included two letters of recommendation.",
+"x": "application",
+"exar": "تضمّن طلبه رسالتي توصية.",
+"c": [
+"submit an application"
+],
+"f": [
+"apply",
+"applicant"
+]
+},
+{
+"w": "conference",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "مؤتمر",
+"ex": "She presented her results at an international conference.",
+"x": "conference",
+"exar": "عرضت نتائجها في مؤتمر دولي.",
+"c": [
+"attend a conference"
+]
+},
+{
+"w": "presentation",
+"p": "n",
+"l": "B1",
+"t": "academic",
+"ar": "عرض تقديمي",
+"ex": "The presentation lasted fifteen minutes.",
+"x": "presentation",
+"exar": "استمر العرض التقديمي خمس عشرة دقيقة.",
+"c": [
+"give a presentation"
+],
+"f": [
+"present"
+]
+},
+{
+"w": "seminar",
+"p": "n",
+"l": "B1",
+"t": "education",
+"ar": "حلقة دراسية، ندوة",
+"ex": "We discuss new articles every week in the seminar.",
+"x": "seminar",
+"exar": "نناقش مقالات جديدة كل أسبوع في الحلقة الدراسية.",
+"c": [
+"attend a seminar"
+]
+},
+{
+"w": "research question",
+"p": "phr",
+"l": "B2",
+"t": "research",
+"ar": "سؤال البحث",
+"d": "the main question that a study tries to answer",
+"ex": "Our research question is simple: can AI predict a judge's reaction?",
+"x": "research question",
+"c": [
+"formulate a research question"
+]
+},
+{
+"w": "hypothesis",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "فرضية",
+"d": "an idea that is proposed and then tested with evidence",
+"ex": "The hypothesis was that lawyers would work faster with the tool.",
+"x": "hypothesis",
+"c": [
+"test a hypothesis"
+],
+"f": [
+"hypothetical"
+]
+},
+{
+"w": "findings",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "نتائج، ما توصلت إليه الدراسة",
+"d": "the results or discoveries of a piece of research",
+"ex": "The main findings are presented in the next chapter.",
+"x": "findings",
+"c": [
+"key findings"
+]
+},
+{
+"w": "analyse",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يحلّل",
+"d": "to study something in detail to understand it",
+"ex": "We analysed thirty judgments to find common weaknesses.",
+"x": "analysed",
+"c": [
+"analyse results"
+],
+"f": [
+"analysis",
+"analyst"
+]
+},
+{
+"w": "cite",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يستشهد بـ، يوثّق مصدرًا",
+"d": "to mention a source in your writing as evidence or support",
+"ex": "Always cite the author and the year of publication.",
+"x": "cite",
+"c": [
+"cite a source"
+],
+"f": [
+"citation"
+]
+},
+{
+"w": "abstract",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "مستخلص، ملخّص البحث",
+"d": "a short summary of a research paper placed at its beginning",
+"ex": "The abstract must not exceed two hundred and fifty words.",
+"x": "abstract",
+"c": [
+"write an abstract"
+]
+},
+{
+"w": "proposal",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "مقترح بحثي، خطة بحث",
+"d": "a plan that explains what you want to research and how",
+"ex": "His proposal was accepted by the doctoral committee.",
+"x": "proposal",
+"c": [
+"research proposal"
+],
+"f": [
+"propose"
+]
+},
+{
+"w": "objective",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "هدف (محدّد)",
+"d": "a specific thing that a project tries to achieve",
+"ex": "The first objective is to measure the tool's accuracy.",
+"x": "objective",
+"c": [
+"main objective"
+]
+},
+{
+"w": "scholar",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "باحث أكاديمي، عالِم",
+"d": "an expert who studies a subject at an advanced level",
+"ex": "Several scholars have criticised the use of AI in courts.",
+"x": "scholars",
+"c": [
+"leading scholar"
+],
+"f": [
+"scholarly"
+]
+},
+{
+"w": "academic",
+"p": "adj",
+"l": "B2",
+"t": "academic",
+"ar": "أكاديمي",
+"d": "connected with education and research at universities",
+"ex": "He is looking for an academic career abroad.",
+"x": "academic",
+"c": [
+"academic writing"
+]
+},
+{
+"w": "admission",
+"p": "n",
+"l": "B2",
+"t": "education",
+"ar": "قبول (في الجامعة)",
+"d": "the process of being accepted to study at a university",
+"ex": "Admission to the doctoral programme is very competitive.",
+"x": "Admission",
+"c": [
+"admission requirements"
+],
+"f": [
+"admit"
+]
+},
+{
+"w": "tuition fees",
+"p": "phr",
+"l": "B2",
+"t": "education",
+"ar": "الرسوم الدراسية",
+"d": "the money a student pays for teaching at a university",
+"ex": "Some universities offer to cover the tuition fees of doctoral students.",
+"x": "tuition fees",
+"c": [
+"pay tuition fees"
+]
+},
+{
+"w": "grant",
+"p": "n",
+"l": "B2",
+"t": "education",
+"ar": "منحة بحثية، تمويل بحثي",
+"d": "money given for a specific research project",
+"ex": "The team received a grant to build the dataset.",
+"x": "grant",
+"c": [
+"research grant"
+]
+},
+{
+"w": "revise",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يراجع وينقّح",
+"d": "to read and change a text to make it better",
+"ex": "She revised her introduction after reading the comments.",
+"x": "revised",
+"c": [
+"revise a draft"
+],
+"f": [
+"revision"
+]
+},
+{
+"w": "proofread",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يدقّق لغويًا",
+"d": "to check a text for spelling and grammar mistakes",
+"ex": "Please proofread your thesis before you submit it.",
+"x": "proofread",
+"c": [
+"proofread carefully"
+],
+"f": [
+"proofreader"
+]
+},
+{
+"w": "footnote",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "هامش سفلي، حاشية",
+"d": "a note at the bottom of a page giving extra information or a source",
+"ex": "The footnote gives the full reference of the case.",
+"x": "footnote",
+"c": [
+"add a footnote"
+]
+},
+{
+"w": "bibliography",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "قائمة المراجع، ببليوغرافيا",
+"d": "a list of all the books and articles used in a work",
+"ex": "Put the bibliography at the end of the thesis.",
+"x": "bibliography"
+},
+{
+"w": "trend",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "اتجاه عام، توجّه",
+"d": "a general direction in which something is changing",
+"ex": "The data show a clear trend towards digital courts.",
+"x": "trend",
+"c": [
+"upward trend"
+]
+},
+{
+"w": "conclude",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يستنتج",
+"d": "to decide that something is true after thinking about the evidence",
+"ex": "The authors conclude that the tool is useful but not perfect.",
+"x": "conclude",
+"c": [
+"conclude that"
+],
+"f": [
+"conclusion"
+]
+},
+{
+"w": "claim",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "ادّعاء، زعم",
+"d": "a statement that something is true, often without proof",
+"ex": "The claim is not supported by any evidence.",
+"x": "claim",
+"c": [
+"make a claim"
+]
+},
+{
+"w": "argument",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "حجّة",
+"d": "a set of reasons used to show that something is true",
+"ex": "The strongest argument is based on three court decisions.",
+"x": "argument",
+"c": [
+"strong argument"
+],
+"f": [
+"argue"
+]
+},
+{
+"w": "factor",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "عامل",
+"d": "one of several things that influence a result",
+"ex": "Cost is the main factor in the decision.",
+"x": "factor",
+"c": [
+"key factor"
+]
+},
+{
+"w": "impact",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "أثر، تأثير",
+"d": "a strong effect that something has on a person or situation",
+"ex": "The study measured the impact of AI on court delays.",
+"x": "impact",
+"c": [
+"have an impact on"
+]
+},
+{
+"w": "explore",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يستكشف، يدرس بعمق",
+"d": "to examine a subject carefully to learn more about it",
+"ex": "This chapter explores the role of technology in justice.",
+"x": "explores",
+"c": [
+"explore a topic"
+],
+"f": [
+"exploration"
+]
+},
+{
+"w": "investigate",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يحقّق في، يبحث في",
+"d": "to study something carefully to discover facts",
+"ex": "The researchers investigated why some appeals fail.",
+"x": "investigated",
+"c": [
+"investigate a problem"
+],
+"f": [
+"investigation"
+]
+},
+{
+"w": "examine",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يفحص، يدرس",
+"d": "to look at something closely and in detail",
+"ex": "The article examines how courts use electronic evidence.",
+"x": "examines",
+"c": [
+"examine evidence"
+],
+"f": [
+"examination"
+]
+},
+{
+"w": "review",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يستعرض، يراجع",
+"d": "to study and evaluate existing work or documents",
+"ex": "He reviewed twenty articles before he chose his topic.",
+"x": "reviewed",
+"c": [
+"review the literature"
+]
+},
+{
+"w": "define",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يعرّف، يحدّد معنى",
+"d": "to explain exactly what a word or idea means",
+"ex": "The author defines corruption as the abuse of public power.",
+"x": "defines",
+"c": [
+"clearly define"
+],
+"f": [
+"definition"
+]
+},
+{
+"w": "approach",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "مقاربة، نهج",
+"d": "a particular way of dealing with a problem or subject",
+"ex": "We used a new approach to analyse the hearings.",
+"x": "approach",
+"c": [
+"different approach"
+]
+},
+{
+"w": "focus",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يركّز",
+"d": "to give special attention to one subject",
+"ex": "The thesis focuses on algorithmic transparency in courts.",
+"x": "focuses",
+"c": [
+"focus on"
+]
+},
+{
+"w": "context",
+"p": "n",
+"l": "B2",
+"t": "academic",
+"ar": "سياق",
+"d": "the situation in which something happens, needed to understand it",
+"ex": "The article places the results in a legal context.",
+"x": "context",
+"c": [
+"in context"
+]
+},
+{
+"w": "evaluate",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يقيّم",
+"d": "to judge the quality or value of something carefully",
+"ex": "We evaluated the tool with fifty real case files.",
+"x": "evaluated",
+"c": [
+"evaluate results"
+],
+"f": [
+"evaluation"
+]
+},
+{
+"w": "assess",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يقيس، يقدّر",
+"d": "to judge or measure the size, quality or importance of something",
+"ex": "The test assesses how well students understand the law.",
+"x": "assesses",
+"c": [
+"assess risk"
+],
+"f": [
+"assessment"
+]
+},
+{
+"w": "interpret",
+"p": "v",
+"l": "B2",
+"t": "research",
+"ar": "يفسّر، يؤوّل",
+"d": "to explain the meaning of results or texts",
+"ex": "Researchers must interpret the numbers with great care.",
+"x": "interpret",
+"c": [
+"interpret data"
+],
+"f": [
+"interpretation"
+]
+},
+{
+"w": "observation",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "ملاحظة، رصد",
+"d": "the careful watching of people or events to collect information",
+"ex": "Observation of real hearings gave us new ideas.",
+"x": "Observation",
+"c": [
+"direct observation"
+],
+"f": [
+"observe"
+]
+},
+{
+"w": "respondent",
+"p": "n",
+"l": "B2",
+"t": "research",
+"ar": "مجيب (على الاستبيان)",
+"d": "a person who answers the questions of a survey",
+"ex": "Most respondents said that they trust human lawyers more.",
+"x": "respondents",
+"c": [
+"survey respondent"
+],
+"f": [
+"respond"
+]
+},
+{
+"w": "paraphrase",
+"p": "v",
+"l": "B2",
+"t": "academic",
+"ar": "يعيد صياغة",
+"d": "to say something again in different words, keeping the meaning",
+"ex": "Paraphrase the idea and add the source of the author.",
+"x": "Paraphrase",
+"c": [
+"paraphrase a text"
+]
+}
+]

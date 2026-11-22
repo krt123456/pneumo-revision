@@ -1,0 +1,752 @@
+[
+ {
+  "w": "gallery",
+  "p": "n",
+  "l": "B2",
+  "t": "arts",
+  "ar": "معرض فني، صالة عرض",
+  "d": "a room or building where works of art are displayed",
+  "ex": "The gallery displays paintings from local artists every summer.",
+  "x": "gallery"
+ },
+ {
+  "w": "gratitude",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "امتنان، شكر",
+  "d": "the feeling of being thankful for something good",
+  "ex": "She wrote a letter to show her gratitude to the nurses.",
+  "x": "gratitude"
+ },
+ {
+  "w": "greet",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يحيّي، يستقبل",
+  "d": "to say hello to someone when you meet them",
+  "ex": "The receptionist greeted every visitor with a warm smile.",
+  "x": "greeted"
+ },
+ {
+  "w": "gripping",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "مشوِّق، آسر",
+  "d": "so exciting that it holds your full attention",
+  "ex": "The gripping final chapter kept readers awake until dawn.",
+  "x": "gripping"
+ },
+ {
+  "w": "gloomy",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "كئيب، مظلم",
+  "d": "dark and sad, with little hope or light",
+  "ex": "The old library felt gloomy on rainy afternoons in winter.",
+  "x": "gloomy"
+ },
+ {
+  "w": "gratuitous",
+  "p": "adj",
+  "l": "B2",
+  "t": "arts",
+  "ar": "لا مبرّر له، مُفتعَل",
+  "d": "unnecessary and without good reason, often unpleasant",
+  "ex": "Critics condemned the gratuitous violence in the film.",
+  "x": "gratuitous"
+ },
+ {
+  "w": "habitual",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "معتاد، متكرر",
+  "d": "done regularly, often as a settled habit",
+  "ex": "His habitual lateness made his colleagues stop waiting for him.",
+  "x": "habitual"
+ },
+ {
+  "w": "hazy",
+  "p": "adj",
+  "l": "B2",
+  "t": "weather",
+  "ar": "ضبابي، غير واضح",
+  "d": "not clear, covered with mist, or not clearly remembered",
+  "ex": "The mountains looked hazy in the early morning heat.",
+  "x": "hazy"
+ },
+ {
+  "w": "heir",
+  "p": "n",
+  "l": "B2",
+  "t": "society",
+  "ar": "وريث",
+  "d": "a person who will inherit money, property or a title",
+  "ex": "The eldest son is the heir to the family's construction company.",
+  "x": "heir"
+ },
+ {
+  "w": "hoard",
+  "p": "v",
+  "l": "B2",
+  "t": "money",
+  "ar": "يكدّس، يخزن",
+  "d": "to collect and keep large amounts of something secretly",
+  "ex": "During the shortage, some shops began to hoard flour and rice.",
+  "x": "hoard"
+ },
+ {
+  "w": "hostage",
+  "p": "n",
+  "l": "B2",
+  "t": "crime",
+  "ar": "رهينة",
+  "d": "a person held captive until someone meets certain demands",
+  "ex": "The negotiator spoke calmly to protect the hostage in the bank.",
+  "x": "hostage"
+ },
+ {
+  "w": "humble",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "متواضع، بسيط",
+  "d": "not proud, or modest in position or background",
+  "ex": "He came from a humble family but later built a successful company.",
+  "x": "humble"
+ },
+ {
+  "w": "harass",
+  "p": "v",
+  "l": "B2",
+  "t": "society",
+  "ar": "يضايق، يتحرش",
+  "d": "to annoy or threaten someone repeatedly over time",
+  "ex": "Journalists complained that officials harassed them during the inquiry.",
+  "x": "harassed"
+ },
+ {
+  "w": "hearty",
+  "p": "adj",
+  "l": "B2",
+  "t": "food",
+  "ar": "دسم، شهيّ",
+  "d": "large, filling and satisfying, especially a meal",
+  "ex": "After the long hike, they enjoyed a hearty breakfast of eggs and bread.",
+  "x": "hearty"
+ },
+ {
+  "w": "immaculate",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "نظيف تماماً، بلا عيب",
+  "d": "perfectly clean, neat and free from any fault",
+  "ex": "The hotel rooms were immaculate, with fresh linen on every bed.",
+  "x": "immaculate"
+ },
+ {
+  "w": "inclement",
+  "p": "adj",
+  "l": "B2",
+  "t": "weather",
+  "ar": "قاسٍ، سيئ (الطقس)",
+  "d": "unpleasant, especially of weather that is cold or wet",
+  "ex": "The organisers cancelled the match because of inclement weather.",
+  "x": "inclement"
+ },
+ {
+  "w": "incline",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يميل إلى",
+  "d": "to be likely to do something, or to tend towards it",
+  "ex": "The judge was inclined to accept the defendant's explanation.",
+  "x": "inclined"
+ },
+ {
+  "w": "inconsistent",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غير متناسق، متناقض",
+  "d": "not the same over time, or not matching other facts",
+  "ex": "The witness gave inconsistent details about the time of the accident.",
+  "x": "inconsistent"
+ },
+ {
+  "w": "indifferent",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "لامبالٍ",
+  "d": "showing no interest, concern or feeling about something",
+  "ex": "Many voters seemed indifferent to the election results.",
+  "x": "indifferent"
+ },
+ {
+  "w": "induce",
+  "p": "v",
+  "l": "B2",
+  "t": "science",
+  "ar": "يحفّز، يدفع إلى",
+  "d": "to cause something to happen, or to persuade someone to act",
+  "ex": "The drug was designed to induce sleep in patients.",
+  "x": "induce"
+ },
+ {
+  "w": "insecure",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "قلق، غير آمن",
+  "d": "anxious about yourself, or not safe and stable",
+  "ex": "Workers on short contracts often feel insecure about their future.",
+  "x": "insecure"
+ },
+ {
+  "w": "intact",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "سليم، كما هو",
+  "d": "not damaged, broken or missing any part",
+  "ex": "Despite the fire, the old manuscript remained largely intact.",
+  "x": "intact"
+ },
+ {
+  "w": "irrevocable",
+  "p": "adj",
+  "l": "B2",
+  "t": "law",
+  "ar": "لا رجعة فيه، نهائي",
+  "d": "impossible to change, reverse or undo",
+  "ex": "The judge's decision was final and irrevocable.",
+  "x": "irrevocable"
+ },
+ {
+  "w": "interact",
+  "p": "v",
+  "l": "B2",
+  "t": "communication",
+  "ar": "يتفاعل، يتواصل",
+  "d": "to communicate or work together with other people",
+  "ex": "Students should interact with native speakers outside the classroom.",
+  "x": "interact"
+ },
+ {
+  "w": "invigorate",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُنعش، يُنشّط",
+  "d": "to give energy and enthusiasm to someone or something",
+  "ex": "The new coach invigorated the team with fresh ideas and energy.",
+  "x": "invigorated"
+ },
+ {
+  "w": "intimate",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "حميم، وثيق",
+  "d": "very close and personal, or private in nature",
+  "ex": "The two friends shared an intimate knowledge of each other's families.",
+  "x": "intimate"
+ },
+ {
+  "w": "intensify",
+  "p": "v",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يشتدّ، يزداد حدّة",
+  "d": "to become stronger, greater or more severe",
+  "ex": "Public criticism of the plan intensified after the leak.",
+  "x": "intensified"
+ },
+ {
+  "w": "inventive",
+  "p": "adj",
+  "l": "B2",
+  "t": "technology",
+  "ar": "مبتكر، بارع في الاختراع",
+  "d": "good at creating new and clever ideas or devices",
+  "ex": "The inventive engineers designed a cheap water filter for villages.",
+  "x": "inventive"
+ },
+ {
+  "w": "irritate",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُزعج، يُضجر",
+  "d": "to annoy someone or make them slightly angry",
+  "ex": "The constant noise from the building site began to irritate the neighbours.",
+  "x": "irritate"
+ },
+ {
+  "w": "jarring",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "نافر، مزعج",
+  "d": "unpleasant and disturbing because it does not fit well",
+  "ex": "The jarring noise of drills interrupted the quiet meeting.",
+  "x": "jarring"
+ },
+ {
+  "w": "justifiable",
+  "p": "adj",
+  "l": "B2",
+  "t": "law",
+  "ar": "مبرَّر، له ما يسوّغه",
+  "d": "able to be defended with good reasons",
+  "ex": "Raising taxes was justifiable, given the huge public debt.",
+  "x": "justifiable"
+ },
+ {
+  "w": "kiosk",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "كشك، دكّان صغير",
+  "d": "a small stall or booth that sells newspapers or snacks",
+  "ex": "She bought a newspaper from the kiosk outside the station.",
+  "x": "kiosk"
+ },
+ {
+  "w": "lacklustre",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "باهت، دون حماس",
+  "d": "dull and lacking energy, brightness or quality",
+  "ex": "The film received lacklustre reviews despite its famous cast.",
+  "x": "lacklustre"
+ },
+ {
+  "w": "landslide",
+  "p": "n",
+  "l": "B2",
+  "t": "nature",
+  "ar": "انهيار أرضي",
+  "d": "a sudden movement of earth or rock down a slope",
+  "ex": "Heavy rain caused a landslide that blocked the mountain road.",
+  "x": "landslide"
+ },
+ {
+  "w": "languid",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "خامل، فاتر الحركة",
+  "d": "slow, relaxed and lacking energy, often in a pleasant way",
+  "ex": "They spent a languid afternoon reading by the lake.",
+  "x": "languid"
+ },
+ {
+  "w": "linear",
+  "p": "adj",
+  "l": "B2",
+  "t": "academic",
+  "ar": "خطّي، متسلسل",
+  "d": "moving or developing in a straight line or steady sequence",
+  "ex": "The report followed a linear path from the problem to the solution.",
+  "x": "linear"
+ },
+ {
+  "w": "lodge",
+  "p": "v",
+  "l": "B2",
+  "t": "law",
+  "ar": "يقدّم، يرفع (شكوى)",
+  "d": "to officially submit a complaint or formal request",
+  "ex": "The workers decided to lodge a complaint with the labour office.",
+  "x": "lodge"
+ },
+ {
+  "w": "loiter",
+  "p": "v",
+  "l": "B2",
+  "t": "crime",
+  "ar": "يتسكع، يتلكأ",
+  "d": "to stand or wait somewhere for no clear reason",
+  "ex": "Two men were loitering near the entrance for almost an hour.",
+  "x": "loitering"
+ },
+ {
+  "w": "litter",
+  "p": "n",
+  "l": "B2",
+  "t": "environment",
+  "ar": "قمامة، نفايات",
+  "d": "rubbish dropped on the ground in a public place",
+  "ex": "Volunteers collected bags of litter from the beach after the festival.",
+  "x": "litter"
+ },
+ {
+  "w": "landfill",
+  "p": "n",
+  "l": "B2",
+  "t": "environment",
+  "ar": "مكب النفايات، مطمر",
+  "d": "a large site where rubbish is buried under the ground",
+  "ex": "The city plans to close the old landfill near the river.",
+  "x": "landfill"
+ },
+ {
+  "w": "landlord",
+  "p": "n",
+  "l": "B2",
+  "t": "home",
+  "ar": "مالك العقار، المؤجِّر",
+  "d": "a person who owns property and rents it to others",
+  "ex": "The landlord agreed to repair the heating before winter began.",
+  "x": "landlord"
+ },
+ {
+  "w": "kidnap",
+  "p": "v",
+  "l": "B2",
+  "t": "crime",
+  "ar": "يختطف",
+  "d": "to take a person away by force, usually to demand money",
+  "ex": "Police arrested three men accused of trying to kidnap a businessman.",
+  "x": "kidnap"
+ },
+ {
+  "w": "knowledgeable",
+  "p": "adj",
+  "l": "B2",
+  "t": "education",
+  "ar": "ملمّ بالمعرفة، واسع الاطلاع",
+  "d": "having a lot of knowledge about a particular subject",
+  "ex": "The guide was knowledgeable about the history of every monument.",
+  "x": "knowledgeable"
+ },
+ {
+  "w": "investigator",
+  "p": "n",
+  "l": "B2",
+  "t": "crime",
+  "ar": "محقّق، باحث جنائي",
+  "d": "a person whose job is to examine facts about a crime",
+  "ex": "The lead investigator reviewed the bank records for six weeks.",
+  "x": "investigator"
+ },
+ {
+  "w": "instil",
+  "p": "v",
+  "l": "B2",
+  "t": "mind",
+  "ar": "يغرس، يُلقّن",
+  "d": "to gradually teach someone a belief, value or habit",
+  "ex": "Good teachers instil confidence in their students from an early age.",
+  "x": "instil"
+ },
+ {
+  "w": "insightful",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "ثاقب، عميق الفهم",
+  "d": "showing a deep and clear understanding of something",
+  "ex": "The reviewer's comments were insightful and helped me improve the report.",
+  "x": "insightful"
+ },
+ {
+  "w": "intuition",
+  "p": "n",
+  "l": "B2",
+  "t": "mind",
+  "ar": "حدس، بديهة",
+  "d": "an ability to understand something without thinking carefully",
+  "ex": "Her intuition told her that the document was a forgery.",
+  "x": "intuition"
+ },
+ {
+  "w": "inhale",
+  "p": "v",
+  "l": "B2",
+  "t": "health",
+  "ar": "يستنشق",
+  "d": "to breathe air or smoke into your lungs",
+  "ex": "Doctors advise people to inhale slowly when they feel dizzy.",
+  "x": "inhale"
+ },
+ {
+  "w": "inject",
+  "p": "v",
+  "l": "B2",
+  "t": "health",
+  "ar": "يحقن، يضخّ",
+  "d": "to put a substance into the body with a needle, or add energy",
+  "ex": "The nurse prepared to inject the vaccine into the patient's arm.",
+  "x": "inject"
+ },
+ {
+  "w": "indignant",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "مستاء، غاضب من ظلم",
+  "d": "angry because something seems unfair or insulting",
+  "ex": "Parents were indignant when the school changed the exam dates.",
+  "x": "indignant"
+ },
+ {
+  "w": "illiterate",
+  "p": "adj",
+  "l": "B2",
+  "t": "education",
+  "ar": "أمّي، لا يقرأ ولا يكتب",
+  "d": "unable to read and write",
+  "ex": "Many adults in the village were illiterate until the school opened.",
+  "x": "illiterate"
+ },
+ {
+  "w": "immigrant",
+  "p": "n",
+  "l": "B2",
+  "t": "society",
+  "ar": "مهاجر",
+  "d": "a person who has moved permanently to live in another country",
+  "ex": "The immigrant opened a small bakery near the railway station.",
+  "x": "immigrant"
+ },
+ {
+  "w": "imprudent",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غير حكيم، متهوّر",
+  "d": "not sensible, showing poor judgement about risks",
+  "ex": "It was imprudent to invest all the savings in one company.",
+  "x": "imprudent"
+ },
+ {
+  "w": "inept",
+  "p": "adj",
+  "l": "B2",
+  "t": "work",
+  "ar": "غير ماهر، أخرق",
+  "d": "clumsy and not skilled at doing things properly",
+  "ex": "The inept driver missed the turn and blocked the whole street.",
+  "x": "inept"
+ },
+ {
+  "w": "infrequent",
+  "p": "adj",
+  "l": "B2",
+  "t": "quantity",
+  "ar": "نادر، غير متكرر",
+  "d": "happening rarely, or not often",
+  "ex": "Their visits to the dentist were infrequent, so problems grew.",
+  "x": "infrequent"
+ },
+ {
+  "w": "glimmer",
+  "p": "n",
+  "l": "B2",
+  "t": "misc",
+  "ar": "بصيص، ومضة خافتة",
+  "d": "a faint light, or a small sign of hope",
+  "ex": "There was a glimmer of hope when the rescue team heard voices.",
+  "x": "glimmer"
+ },
+ {
+  "w": "gripe",
+  "p": "n",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "شكوى، تذمّر",
+  "d": "a complaint about something you think is unfair",
+  "ex": "Tenants' main gripe is that repairs take months to finish.",
+  "x": "gripe"
+ },
+ {
+  "w": "ghastly",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "فظيع، مروّع",
+  "d": "very unpleasant, shocking or terrible to see or experience",
+  "ex": "The flood left a ghastly smell in the basement for weeks.",
+  "x": "ghastly"
+ },
+ {
+  "w": "gratify",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُسعد، يُرضي",
+  "d": "to please someone, often because their efforts were recognised",
+  "ex": "The students were gratified by the praise from their supervisor.",
+  "x": "gratified"
+ },
+ {
+  "w": "haughty",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "متعالٍ، متكبّر",
+  "d": "proud and behaving as if you are better than others",
+  "ex": "The haughty manager ignored every question from junior staff.",
+  "x": "haughty"
+ },
+ {
+  "w": "hefty",
+  "p": "adj",
+  "l": "B2",
+  "t": "money",
+  "ar": "ضخم، باهظ",
+  "d": "large in size, weight or amount, especially of money",
+  "ex": "The company paid a hefty fine for breaking safety rules.",
+  "x": "hefty"
+ },
+ {
+  "w": "inaccessible",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "يتعذّر الوصول إليه",
+  "d": "impossible or very difficult to reach or obtain",
+  "ex": "The village was inaccessible during the winter storms.",
+  "x": "inaccessible"
+ },
+ {
+  "w": "indulge",
+  "p": "v",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "يُسرف في، يدلل",
+  "d": "to allow yourself or someone else to enjoy something fully",
+  "ex": "On holiday, she likes to indulge in cakes and fresh fruit.",
+  "x": "indulge"
+ },
+ {
+  "w": "inhospitable",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "غير مضياف، قاسٍ",
+  "d": "harsh and difficult, with little comfort for people",
+  "ex": "The desert landscape is inhospitable, with little water or shade.",
+  "x": "inhospitable"
+ },
+ {
+  "w": "likelihood",
+  "p": "n",
+  "l": "B2",
+  "t": "quantity",
+  "ar": "احتمال، ترجيح",
+  "d": "the chance that something will happen or be true",
+  "ex": "The likelihood of rain tomorrow is high, according to the forecast.",
+  "x": "likelihood"
+ },
+ {
+  "w": "lively",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "نشيط، حيوي",
+  "d": "full of energy, movement and interest",
+  "ex": "The market was lively on Friday, with music and crowds of shoppers.",
+  "x": "lively"
+ },
+ {
+  "w": "lurk",
+  "p": "v",
+  "l": "B2",
+  "t": "crime",
+  "ar": "يتربّص، يكمن",
+  "d": "to wait hidden, often with bad intentions, or stay out of sight",
+  "ex": "A suspicious car seemed to lurk outside the warehouse at night.",
+  "x": "lurk"
+ },
+ {
+  "w": "hoist",
+  "p": "v",
+  "l": "B2",
+  "t": "movement",
+  "ar": "يرفع، يُصعد",
+  "d": "to lift something heavy up, usually with ropes or machinery",
+  "ex": "Workers used a crane to hoist the steel beams onto the roof.",
+  "x": "hoist"
+ },
+ {
+  "w": "impulsive",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "اندفاعي، متسرّع",
+  "d": "acting suddenly on a feeling, without careful planning",
+  "ex": "He is so impulsive that he often buys things he does not need.",
+  "x": "impulsive"
+ },
+ {
+  "w": "ignorant",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "جاهل، غير مدرك",
+  "d": "lacking knowledge or not aware of something important",
+  "ex": "Many visitors were ignorant of the local customs before arriving.",
+  "x": "ignorant"
+ },
+ {
+  "w": "immobile",
+  "p": "adj",
+  "l": "B2",
+  "t": "movement",
+  "ar": "ثابت، غير متحرك",
+  "d": "not moving, or unable to move",
+  "ex": "The patient remained immobile on the bed for several days.",
+  "x": "immobile"
+ },
+ {
+  "w": "incremental",
+  "p": "adj",
+  "l": "B2",
+  "t": "academic",
+  "ar": "تدريجي، متزايد",
+  "d": "increasing gradually in small steps over time",
+  "ex": "The project made incremental progress, improving the system each month.",
+  "x": "incremental"
+ },
+ {
+  "w": "insatiable",
+  "p": "adj",
+  "l": "B2",
+  "t": "feelings",
+  "ar": "لا يشبع، نهم",
+  "d": "never satisfied, always wanting more of something",
+  "ex": "The young reader had an insatiable appetite for adventure stories.",
+  "x": "insatiable"
+ },
+ {
+  "w": "jot down",
+  "p": "phr",
+  "l": "B2",
+  "t": "misc",
+  "ar": "يدوّن بسرعة",
+  "d": "to write something quickly so you do not forget it",
+  "ex": "Please jot down the main points before the meeting ends.",
+  "x": "jot down"
+ },
+ {
+  "w": "lurid",
+  "p": "adj",
+  "l": "B2",
+  "t": "description",
+  "ar": "فاضح، صارخ",
+  "d": "shocking or unpleasantly bright, often in a sensational way",
+  "ex": "The newspaper printed lurid details of the crime on its front page.",
+  "x": "lurid"
+ }
+]

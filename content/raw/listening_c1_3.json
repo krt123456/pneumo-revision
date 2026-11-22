@@ -1,0 +1,879 @@
+[
+{
+"id": "l-c1-11",
+"l": "C1",
+"title": "Cities and climate adaptation",
+"part": 4,
+"accent": "US",
+"lines": [
+{
+"s": "A",
+"t": "Hello, everyone. In earlier lectures we spent a lot of time on mitigation, which means reducing the emissions that cause climate change."
+},
+{
+"s": "A",
+"t": "Today we turn to adaptation, which means preparing cities for the changes that are already under way."
+},
+{
+"s": "A",
+"t": "The distinction matters, because the two require different decisions and often compete for the same budget."
+},
+{
+"s": "A",
+"t": "Cities are particularly exposed for three reasons. First, they concentrate people and property, so one flood can affect hundreds of thousands of residents."
+},
+{
+"s": "A",
+"t": "Second, they are built of materials such as concrete and asphalt that absorb heat, which creates the urban heat island effect."
+},
+{
+"s": "A",
+"t": "On a summer night a dense city centre can be several degrees warmer than the surrounding countryside."
+},
+{
+"s": "A",
+"t": "Third, many cities sit on rivers or coasts, because that is where trade began centuries ago."
+},
+{
+"s": "A",
+"t": "Let us look at heat first. The most effective measures are surprisingly modest."
+},
+{
+"s": "A",
+"t": "Planting trees along streets reduces surface temperature, and paler roofs reflect sunlight instead of absorbing it."
+},
+{
+"s": "A",
+"t": "Some cities have opened cooling centres, public buildings with air conditioning, for people who cannot cool their homes."
+},
+{
+"s": "A",
+"t": "The older population, and those living alone, are the most at risk."
+},
+{
+"s": "A",
+"t": "The success of such a scheme depends on whether officials know who these people are and can reach them. A cooling centre nobody visits protects nobody."
+},
+{
+"s": "A",
+"t": "Flooding is a different challenge. The traditional solution was to build bigger pipes and higher walls, an approach called grey infrastructure."
+},
+{
+"s": "A",
+"t": "It works up to a point, but each wall has a limit, and when it is exceeded the damage can be severe."
+},
+{
+"s": "A",
+"t": "Many planners now favour the sponge city idea. Instead of moving water away as fast as possible, the city is designed to hold it."
+},
+{
+"s": "A",
+"t": "That means parks that can safely flood, pavements that let rain soak through, and roofs covered with plants."
+},
+{
+"s": "A",
+"t": "These green solutions are often cheaper to maintain and offer other benefits, such as shade and wildlife."
+},
+{
+"s": "A",
+"t": "However, they need space, and space in a crowded centre is expensive."
+},
+{
+"s": "A",
+"t": "This leads to the hardest question, which is who pays and who benefits."
+},
+{
+"s": "A",
+"t": "Studies from several cities show that wealthy districts tend to receive protection first, partly because they have more political influence and better data about their own needs."
+},
+{
+"s": "A",
+"t": "Poorer districts often have worse drainage and fewer trees. So adaptation can widen inequality unless funding rules are explicit."
+},
+{
+"s": "A",
+"t": "One approach is to rank projects by the number of vulnerable people protected per pound spent, rather than by the value of the property saved."
+},
+{
+"s": "A",
+"t": "There is also the question of timing. Infrastructure lasts fifty years or more, so a decision made today must work in a climate we can only estimate."
+},
+{
+"s": "A",
+"t": "Engineers therefore speak of flexible design: building a wall that can be raised later, instead of building the highest wall at once."
+},
+{
+"s": "A",
+"t": "It costs slightly more at the start, but it avoids paying for protection that may never be needed."
+},
+{
+"s": "A",
+"t": "To conclude, successful adaptation combines physical measures with social planning."
+},
+{
+"s": "A",
+"t": "Cities that do best identify their most vulnerable residents, mix green and grey solutions, and review their plans regularly."
+},
+{
+"s": "A",
+"t": "Your task this week is to choose a city you know and find out one measure it has taken against either heat or flooding."
+}
+],
+"gloss": [
+{
+"w": "mitigation",
+"ar": "التخفيف من الانبعاثات"
+},
+{
+"w": "adaptation",
+"ar": "التكيّف"
+},
+{
+"w": "urban heat island",
+"ar": "الجزيرة الحرارية الحضرية"
+},
+{
+"w": "drainage",
+"ar": "تصريف المياه"
+},
+{
+"w": "vulnerable",
+"ar": "هش، معرّض للخطر"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "How does the lecturer define adaptation?",
+"o": [
+"Cutting the emissions that cause climate change.",
+"Preparing cities for changes already happening.",
+"Moving residents away from coastal areas."
+],
+"a": 1,
+"why": "التكيف يعني تهيئة المدن للتغيرات الجارية، أما التخفيف فخفض الانبعاثات."
+},
+{
+"k": "gap",
+"q": "Dense city centres create the urban heat ___ effect.",
+"a": [
+"island"
+],
+"why": "ذكر تأثير الجزيرة الحرارية الحضرية بسبب الإسمنت والإسفلت."
+},
+{
+"k": "mc",
+"q": "What does the success of a cooling centre depend on?",
+"o": [
+"Reaching the people who are most at risk.",
+"Having the newest air conditioning.",
+"Opening only on summer nights."
+],
+"a": 0,
+"why": "ينجح المركز إن عرف المسؤولون الفئات المعرضة للخطر ووصلوا إليها."
+},
+{
+"k": "mc",
+"q": "What is the limitation of grey infrastructure?",
+"o": [
+"It cannot be built near rivers.",
+"It is always cheaper than green solutions.",
+"Damage can be severe once a wall's limit is exceeded."
+],
+"a": 2,
+"why": "لكل جدار حدّ، وإذا تجاوزه الماء قد يكون الضرر كبيرا."
+},
+{
+"k": "tfng",
+"q": "The lecturer says green flood solutions are usually more expensive to maintain than grey ones.",
+"a": "F",
+"why": "قال إنها غالبا أرخص صيانة وتقدم فوائد أخرى كالظل، لكنها تحتاج مساحة."
+},
+{
+"k": "mc",
+"q": "Why do wealthy districts often receive protection first?",
+"o": [
+"They pay higher taxes only.",
+"They have more influence and better data.",
+"They are always closer to rivers."
+],
+"a": 1,
+"why": "لهم نفوذ سياسي أكبر وبيانات أفضل عن احتياجاتهم."
+},
+{
+"k": "mc",
+"q": "How could funding rules make adaptation fairer?",
+"o": [
+"By ranking projects by vulnerable people protected per pound.",
+"By choosing projects according to property value.",
+"By giving each district equal money."
+],
+"a": 0,
+"why": "اقترح ترتيب المشاريع بعدد الضعفاء المحميين لكل جنيه لا بقيمة العقارات."
+},
+{
+"k": "mc",
+"q": "What is the advantage of flexible design?",
+"o": [
+"The highest wall is built first.",
+"Protection can be increased later if needed.",
+"Maintenance is no longer necessary."
+],
+"a": 1,
+"why": "يمكن رفع الجدار لاحقا فلا يُدفع ثمن حماية قد لا تلزم."
+}
+]
+},
+{
+"id": "l-c1-12",
+"l": "C1",
+"title": "The history of evidence",
+"part": 4,
+"accent": "AU",
+"lines": [
+{
+"s": "A",
+"t": "Good morning. Every legal system must answer one question: how can a court discover what really happened?"
+},
+{
+"s": "A",
+"t": "Today we trace how the answer has changed, from oaths to forensic science."
+},
+{
+"s": "A",
+"t": "In many early societies, a court relied less on what had happened than on who was speaking."
+},
+{
+"s": "A",
+"t": "An accused person might swear an oath, and bring neighbours to swear that his oath was trustworthy."
+},
+{
+"s": "A",
+"t": "These oath helpers had not seen the event; they vouched for his character. The logic was social: a person with many respectable supporters was assumed to be honest."
+},
+{
+"s": "A",
+"t": "Over time, this approach was replaced by testimony. By the later middle ages, courts in many places had begun to question witnesses directly."
+},
+{
+"s": "A",
+"t": "The idea of two eyewitnesses as a standard of proof appeared in several legal traditions. It seems a sensible rule, yet it had a weakness."
+},
+{
+"s": "A",
+"t": "It made it almost impossible to convict anyone when a crime occurred in private, and it gave great power to anyone willing to lie, since two false witnesses were enough."
+},
+{
+"s": "A",
+"t": "The next major change was the rise of documents. As trade expanded, written contracts, receipts and records became the best proof of what people had agreed."
+},
+{
+"s": "A",
+"t": "Courts began to ask for the original paper and to check seals and signatures."
+},
+{
+"s": "A",
+"t": "This created a new problem, forgery, and so the first experts in handwriting appeared in courtrooms."
+},
+{
+"s": "A",
+"t": "In the nineteenth century, science entered the courtroom. Early forensic methods included the comparison of fingerprints and chemical tests for poison."
+},
+{
+"s": "A",
+"t": "Fingerprints were attractive because no two people were thought to have the same pattern."
+},
+{
+"s": "A",
+"t": "A print left at a scene was physical evidence that could not be bribed or frightened. Courts quickly came to value such material."
+},
+{
+"s": "A",
+"t": "Indeed, some lawyers began to complain that jurors were too impressed by anything described as scientific."
+},
+{
+"s": "A",
+"t": "That concern proved to be justified."
+},
+{
+"s": "A",
+"t": "In the twentieth century, a number of forensic techniques, such as hair comparison and bite mark analysis, were accepted for decades before anyone tested how reliable they were."
+},
+{
+"s": "A",
+"t": "When researchers finally measured error rates, several methods performed much worse than expected. Reviews by scientific bodies called for stricter validation."
+},
+{
+"s": "A",
+"t": "Today many courts apply tests before admitting an expert opinion: has the method been tested, has it been reviewed by other scientists, and is its error rate known?"
+},
+{
+"s": "A",
+"t": "The most recent revolution is genetic profiling, which began in the nineteen eighties."
+},
+{
+"s": "A",
+"t": "It was the first method that could both identify a guilty person with extraordinary precision and prove the innocence of someone already in prison."
+},
+{
+"s": "A",
+"t": "Hundreds of wrongful convictions around the world have been corrected as a result. But genetic evidence has also taught a lesson: even excellent evidence can be misunderstood."
+},
+{
+"s": "A",
+"t": "A match statistic, explained badly, can mislead a jury as much as a weak fingerprint."
+},
+{
+"s": "A",
+"t": "So the history of evidence is not simply a story of progress from superstition to science."
+},
+{
+"s": "A",
+"t": "It is a story of changing trust: first in reputation, then in witnesses, then in documents, and now in laboratories. Each stage solved one problem and created another."
+},
+{
+"s": "A",
+"t": "For next week, read the short article on the reading list about admissibility, and prepare two questions."
+}
+],
+"gloss": [
+{
+"w": "oath",
+"ar": "يمين"
+},
+{
+"w": "vouch for",
+"ar": "يزكّي، يشهد بصدق"
+},
+{
+"w": "forgery",
+"ar": "تزوير"
+},
+{
+"w": "forensic",
+"ar": "جنائي، علم الأدلة الجنائية"
+},
+{
+"w": "admissibility",
+"ar": "مقبولية الدليل"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What was the role of oath helpers in early courts?",
+"o": [
+"They had watched the event.",
+"They spoke for the character of the accused.",
+"They examined documents."
+],
+"a": 1,
+"why": "لم يشهدوا الواقعة بل زكّوا شخصية المتهم أمام المحكمة."
+},
+{
+"k": "mc",
+"q": "What was a weakness of the rule requiring two eyewitnesses?",
+"o": [
+"It could not be applied to written contracts.",
+"It was too expensive for courts.",
+"Private crimes were nearly impossible to prove."
+],
+"a": 2,
+"why": "من الصعب إدانة أحد في جريمة وقعت سرا، ويكفي شاهدا زور."
+},
+{
+"k": "mc",
+"q": "Why did handwriting experts appear in courtrooms?",
+"o": [
+"To deal with forged documents.",
+"To teach judges to read.",
+"To replace the use of seals."
+],
+"a": 0,
+"why": "ازدياد الوثائق خلق مشكلة التزوير فظهر خبراء الخط."
+},
+{
+"k": "gap",
+"q": "Fingerprints were valued as physical evidence that could not be ___ or frightened.",
+"a": [
+"bribed"
+],
+"why": "ذكر أن البصمة دليل مادي لا يمكن رشوته أو تخويفه."
+},
+{
+"k": "tfng",
+"q": "Hair comparison was tested for reliability before courts began to accept it.",
+"a": "F",
+"why": "قُبلت هذه التقنيات عقودا قبل أن يختبر أحد مدى موثوقيتها."
+},
+{
+"k": "gap",
+"q": "One question courts now ask is whether the method's ___ rate is known.",
+"a": [
+"error"
+],
+"why": "من أسئلة القبول: هل اختُبرت الطريقة وهل روجعت وهل معدل خطئها معروف."
+},
+{
+"k": "mc",
+"q": "What made genetic profiling special?",
+"o": [
+"It was cheaper than fingerprints.",
+"It could both identify offenders and clear prisoners.",
+"It needed no expert to explain it."
+],
+"a": 1,
+"why": "حدد المذنب بدقة وأثبت براءة سجناء، فصُحّحت مئات الإدانات الخاطئة."
+},
+{
+"k": "mc",
+"q": "What is the lecturer's overall view of the history of evidence?",
+"o": [
+"A simple story of progress to science.",
+"A story of decline in honesty.",
+"A story of changing trust, each stage creating new problems."
+],
+"a": 2,
+"why": "قال إنها ليست تقدما بسيطا بل تغيّر في موضع الثقة، وكل مرحلة حلّت مشكلة وخلقت أخرى."
+}
+]
+},
+{
+"id": "l-c1-13",
+"l": "C1",
+"title": "How language models produce text",
+"part": 4,
+"accent": "GB",
+"lines": [
+{
+"s": "A",
+"t": "Good afternoon. Language models now draft emails, summarise reports and answer questions, and people often describe them as if they understood language the way we do."
+},
+{
+"s": "A",
+"t": "This lecture explains, in simple terms, what these systems actually do when they produce a sentence."
+},
+{
+"s": "A",
+"t": "Let me start with the basic task. A language model is trained to predict the next piece of text."
+},
+{
+"s": "A",
+"t": "Given the words, the cat sat on the, it estimates which word is most likely to come next. Mat is likely; refrigerator is much less so."
+},
+{
+"s": "A",
+"t": "That is the entire training goal. Everything else, including the ability to answer questions, emerges from doing this prediction extremely well over enormous quantities of text."
+},
+{
+"s": "A",
+"t": "The unit is not exactly a word. The text is first cut into tokens, which are short pieces, sometimes whole words, sometimes parts of a word."
+},
+{
+"s": "A",
+"t": "A rare name might be split into three or four tokens, while a common word is usually a single one."
+},
+{
+"s": "A",
+"t": "This explains why models sometimes make odd mistakes with spelling or counting letters: they never see the letters directly."
+},
+{
+"s": "A",
+"t": "Next, how does the model decide? Inside it is a very large network of numbers, called parameters, which were adjusted during training."
+},
+{
+"s": "A",
+"t": "Modern systems use a design called the transformer, whose key component is attention."
+},
+{
+"s": "A",
+"t": "Attention allows the model, at each step, to look back at the earlier tokens and decide which ones matter most for the next prediction."
+},
+{
+"s": "A",
+"t": "In the sentence, the lawyer told the client that she would win, attention helps the model work out who she refers to, based on patterns seen in training."
+},
+{
+"s": "A",
+"t": "The output of the network is not one word but a probability for every possible token. Then comes a choice."
+},
+{
+"s": "A",
+"t": "If the system always chose the most probable token, its text would be dull and repetitive. So a setting called temperature controls the randomness."
+},
+{
+"s": "A",
+"t": "At a low temperature the model plays safe. At a high temperature it takes more risks, which can make the writing more creative but also less accurate."
+},
+{
+"s": "A",
+"t": "This is why asking the same question twice can produce two different answers."
+},
+{
+"s": "A",
+"t": "Training has two main stages. In the first, called pre-training, the model reads vast amounts of text and learns general patterns."
+},
+{
+"s": "A",
+"t": "In the second, the model is refined using examples of good answers and feedback from human reviewers, who rate which responses are more helpful and honest."
+},
+{
+"s": "A",
+"t": "This second stage is why a modern assistant behaves like a polite helper rather than simply continuing a sentence."
+},
+{
+"s": "A",
+"t": "Now, an important limitation. Because the model is built to produce plausible text, it can generate statements that sound confident but are false. These are sometimes called hallucinations."
+},
+{
+"s": "A",
+"t": "The model has no built-in way of checking facts against the world; it knows only patterns."
+},
+{
+"s": "A",
+"t": "Systems connected to a search tool or a trusted database make fewer mistakes, but nothing removes the risk completely."
+},
+{
+"s": "A",
+"t": "For this reason, anyone using a model for legal or academic work should verify every claim and every reference, especially names, dates and citations."
+},
+{
+"s": "A",
+"t": "To sum up: a language model predicts text, one token at a time, using attention to consider the context, and a degree of randomness to avoid repetition."
+},
+{
+"s": "A",
+"t": "It is a powerful tool for drafting and explaining, but it is not a source of truth."
+},
+{
+"s": "A",
+"t": "In the seminar, bring one example of an answer from a model that you checked, and tell us what you found."
+}
+],
+"gloss": [
+{
+"w": "token",
+"ar": "وحدة نصية"
+},
+{
+"w": "parameter",
+"ar": "معامل في النموذج"
+},
+{
+"w": "attention",
+"ar": "آلية الانتباه"
+},
+{
+"w": "plausible",
+"ar": "معقول، مقنع"
+},
+{
+"w": "hallucination",
+"ar": "هلوسة، معلومة مختلقة"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What is the basic training goal of a language model?",
+"o": [
+"To store facts in a database.",
+"To predict the next piece of text.",
+"To translate between languages."
+],
+"a": 1,
+"why": "هدف التدريب كله هو التنبؤ بالجزء التالي من النص."
+},
+{
+"k": "mc",
+"q": "Why do models sometimes make mistakes when counting letters?",
+"o": [
+"They are trained only on short texts.",
+"They work with tokens rather than individual letters.",
+"They ignore rare words."
+],
+"a": 1,
+"why": "النص يُقطّع إلى وحدات، فلا يرى النموذج الحروف مباشرة."
+},
+{
+"k": "mc",
+"q": "What does attention allow the model to do?",
+"o": [
+"Choose a random word.",
+"Correct its own spelling.",
+"Look back at earlier tokens to see which matter most."
+],
+"a": 2,
+"why": "تتيح له مراجعة الرموز السابقة وتحديد الأهم للتنبؤ التالي."
+},
+{
+"k": "gap",
+"q": "A setting that controls how random the output is is called ___.",
+"a": [
+"temperature"
+],
+"why": "الإعداد المسمى درجة الحرارة يتحكم في العشوائية."
+},
+{
+"k": "tfng",
+"q": "A model always gives exactly the same answer when the same question is asked twice.",
+"a": "F",
+"why": "بسبب العشوائية قد يعطي السؤال نفسه جوابين مختلفين."
+},
+{
+"k": "mc",
+"q": "What is the purpose of the second stage of training?",
+"o": [
+"To make the model behave like a helpful assistant using human feedback.",
+"To add more text from the internet.",
+"To remove all parameters."
+],
+"a": 0,
+"why": "يُصقل النموذج بأمثلة جيدة وتقييم بشري فيتصرف كمساعد مهذب."
+},
+{
+"k": "mc",
+"q": "Why can a model produce false statements that sound confident?",
+"o": [
+"It knows only patterns and cannot check facts itself.",
+"It always copies from one source.",
+"It refuses to use a search tool."
+],
+"a": 0,
+"why": "يُنتج نصا معقولا لا حقيقة مؤكدة، وليس له وسيلة داخلية لفحص الوقائع."
+},
+{
+"k": "gap",
+"q": "Users should check names, dates and ___ especially.",
+"a": [
+"citations"
+],
+"why": "أوصى بالتحقق من كل ادعاء ومرجع، خصوصا الأسماء والتواريخ والاستشهادات."
+}
+]
+},
+{
+"id": "l-c1-14",
+"l": "C1",
+"title": "The economics of innovation",
+"part": 4,
+"accent": "US",
+"lines": [
+{
+"s": "A",
+"t": "Good morning. Why do some economies grow steadily richer while others stagnate?"
+},
+{
+"s": "A",
+"t": "Economists have long believed that the answer is largely innovation, meaning new ideas turned into products and methods."
+},
+{
+"s": "A",
+"t": "Today I want to explain the economic logic of innovation, and why it is more puzzling than it first appears."
+},
+{
+"s": "A",
+"t": "Let me begin with a feature that makes ideas different from most goods. If I eat a sandwich, you cannot eat it."
+},
+{
+"s": "A",
+"t": "But if I use an idea, you can use it too, and the idea is not used up. Economists call this non-rivalry."
+},
+{
+"s": "A",
+"t": "The result is that ideas are enormously valuable to society, since one discovery can benefit millions of people."
+},
+{
+"s": "A",
+"t": "Yet they are hard for the creator to profit from, because others can copy them."
+},
+{
+"s": "A",
+"t": "This creates the central problem of innovation policy."
+},
+{
+"s": "A",
+"t": "If copying is easy, firms may not invest in research, since a competitor could imitate the product without paying the cost of developing it."
+},
+{
+"s": "A",
+"t": "The traditional solution is the patent, which gives an inventor the exclusive right to use an invention for a fixed period, usually around twenty years."
+},
+{
+"s": "A",
+"t": "In exchange, the inventor must publish how it works. Patents therefore reward invention while still spreading knowledge."
+},
+{
+"s": "A",
+"t": "But patents are a compromise, not a perfect answer. During the period of protection, the owner can charge higher prices, so fewer people can afford the product."
+},
+{
+"s": "A",
+"t": "Patents can also be used defensively, to block competitors rather than to protect real inventions."
+},
+{
+"s": "A",
+"t": "Some economists argue that in fast-moving industries, such as software, patents slow progress, because every new product may infringe someone's existing patent."
+},
+{
+"s": "A",
+"t": "There is a second challenge, which is risk. Most research projects fail."
+},
+{
+"s": "A",
+"t": "A pharmaceutical company may test thousands of compounds to find one useful medicine, which can take over ten years."
+},
+{
+"s": "A",
+"t": "Private investors are often reluctant to fund such uncertain work, particularly in the early stages. That is one reason why governments pay for basic research in universities."
+},
+{
+"s": "A",
+"t": "The internet, satellite navigation and many medicines were first developed with public funding, although private firms later turned them into commercial products."
+},
+{
+"s": "A",
+"t": "Third, there is the question of who actually innovates. It is tempting to imagine that large firms do most of it, since they have the money."
+},
+{
+"s": "A",
+"t": "Evidence suggests a more mixed picture. Large firms are good at improving existing products step by step."
+},
+{
+"s": "A",
+"t": "Newcomers, by contrast, are more likely to introduce radical changes, since they have nothing to lose from destroying the old way of doing things."
+},
+{
+"s": "A",
+"t": "One famous economist called this creative destruction: new businesses replace old ones, causing losses and gains at the same time."
+},
+{
+"s": "A",
+"t": "Finally, innovation affects people unevenly. A new technology may create skilled jobs while eliminating routine ones."
+},
+{
+"s": "A",
+"t": "Overall employment may recover, but the individuals who lose work are not always the ones who find the new jobs."
+},
+{
+"s": "A",
+"t": "This is why policies for retraining are considered an essential partner of innovation policy."
+},
+{
+"s": "A",
+"t": "To summarise, innovation is valuable because ideas can be shared, difficult to finance because of risk and copying, and uneven in its effects on people."
+},
+{
+"s": "A",
+"t": "Good policy supports research, protects inventors fairly, and helps workers to adapt."
+},
+{
+"s": "A",
+"t": "For next week, find one recent invention and decide whether a patent was important to its success."
+}
+],
+"gloss": [
+{
+"w": "non-rivalry",
+"ar": "عدم التنافسية في الاستعمال"
+},
+{
+"w": "patent",
+"ar": "براءة اختراع"
+},
+{
+"w": "infringe",
+"ar": "ينتهك حقا"
+},
+{
+"w": "radical",
+"ar": "جذري"
+},
+{
+"w": "creative destruction",
+"ar": "التدمير الخلّاق"
+}
+],
+"qs": [
+{
+"k": "mc",
+"q": "What does non-rivalry mean for ideas?",
+"o": [
+"Using an idea does not prevent others from using it.",
+"Ideas can only be owned by firms.",
+"Ideas lose value when they are shared."
+],
+"a": 0,
+"why": "استعمال فكرة لا يستنفدها، فيمكن للآخرين استعمالها أيضا."
+},
+{
+"k": "gap",
+"q": "A patent usually protects an invention for about ___ years.",
+"a": [
+"twenty",
+"20"
+],
+"why": "ذكر أن مدة الحماية المعتادة نحو عشرين عاما."
+},
+{
+"k": "mc",
+"q": "What can happen when patents are used defensively?",
+"o": [
+"They reduce the price of products.",
+"They block competitors rather than protect real inventions.",
+"They force firms to share secrets."
+],
+"a": 1,
+"why": "قد تُستعمل لمنع المنافسين لا لحماية اختراعات حقيقية."
+},
+{
+"k": "tfng",
+"q": "Some economists think patents may slow progress in industries such as software.",
+"a": "T",
+"why": "قالوا إن كل منتج جديد قد ينتهك براءة قائمة فيتباطأ التقدم."
+},
+{
+"k": "mc",
+"q": "Why do governments often fund basic research?",
+"o": [
+"Firms refuse to hire scientists.",
+"Private investors are reluctant to back very uncertain projects.",
+"Universities cannot publish otherwise."
+],
+"a": 1,
+"why": "المشاريع البحثية محفوفة بالمخاطر ولا يتحمس المستثمرون الخواص لتمويلها مبكرا."
+},
+{
+"k": "gap",
+"q": "Developing a new medicine can take more than ___ years.",
+"a": [
+"ten",
+"10"
+],
+"why": "ذكر أن تطوير دواء قد يستغرق أكثر من عشر سنوات."
+},
+{
+"k": "mc",
+"q": "Which firms are more likely to introduce radical changes?",
+"o": [
+"Large established firms.",
+"Government laboratories.",
+"Newcomers with little to lose."
+],
+"a": 2,
+"why": "الشركات الجديدة ليس لديها ما تخسره من هدم الطريقة القديمة."
+},
+{
+"k": "mc",
+"q": "What problem does the lecturer identify about job changes caused by innovation?",
+"o": [
+"Workers who lose jobs are not always those who get new ones.",
+"New technology never creates jobs.",
+"Employment falls permanently."
+],
+"a": 0,
+"why": "قد يتعافى التشغيل عموما لكن المتضررين ليسوا دائما من يجد الوظائف الجديدة."
+}
+]
+}
+]

@@ -1,0 +1,752 @@
+[
+{
+"w": "accidentally",
+"p": "adv",
+"l": "B1",
+"t": "misc",
+"ar": "بالصدفة، عن طريق الخطأ",
+"ex": "He accidentally deleted the file that had all his notes.",
+"x": "accidentally",
+"exar": "حذف الملف الذي يحتوي على كل ملاحظاته بالخطأ."
+},
+{
+"w": "adjust",
+"p": "v",
+"l": "B1",
+"t": "misc",
+"ar": "يعدّل، يكيّف",
+"ex": "She had to adjust the mirror before she started driving.",
+"x": "adjust",
+"exar": "كان عليها أن تعدّل المرآة قبل أن تبدأ القيادة."
+},
+{
+"w": "admire",
+"p": "v",
+"l": "B1",
+"t": "feelings",
+"ar": "يعجب بـ، يُكبر",
+"ex": "I really admire my grandmother for her patience and kindness.",
+"x": "admire",
+"exar": "أنا معجب حقا بجدتي لصبرها وطيبة قلبها."
+},
+{
+"w": "advertise",
+"p": "v",
+"l": "B1",
+"t": "business",
+"ar": "يعلن، يروّج",
+"ex": "The shop advertises its sales on the local radio every week.",
+"x": "advertises",
+"exar": "يعلن المتجر عن تخفيضاته في الإذاعة المحلية كل أسبوع."
+},
+{
+"w": "ahead",
+"p": "adv",
+"l": "B1",
+"t": "travel",
+"ar": "إلى الأمام، مقدما",
+"ex": "The road ahead is closed, so we must take another route.",
+"x": "ahead",
+"exar": "الطريق أمامنا مغلق، لذلك يجب أن نسلك طريقا آخر."
+},
+{
+"w": "alongside",
+"p": "prep",
+"l": "B1",
+"t": "transport",
+"ar": "بجانب، إلى جانب",
+"ex": "He parked the van alongside the river, under a large tree.",
+"x": "alongside",
+"exar": "ركن الشاحنة بجانب النهر، تحت شجرة كبيرة."
+},
+{
+"w": "appear",
+"p": "v",
+"l": "B1",
+"t": "misc",
+"ar": "يظهر، يبدو",
+"ex": "A small red bird suddenly appeared on the branch outside my window.",
+"x": "appeared",
+"exar": "ظهر طائر أحمر صغير فجأة على الغصن خارج نافذتي."
+},
+{
+"w": "army",
+"p": "n",
+"l": "B1",
+"t": "society",
+"ar": "جيش",
+"ex": "Thousands of young men joined the army during the war.",
+"x": "army",
+"exar": "انضم آلاف الشبان إلى الجيش أثناء الحرب."
+},
+{
+"w": "ashamed",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "خجلان، يشعر بالخزي",
+"ex": "I felt ashamed when I forgot my friend's birthday again.",
+"x": "ashamed",
+"exar": "شعرت بالخجل عندما نسيت عيد ميلاد صديقي مرة أخرى."
+},
+{
+"w": "athlete",
+"p": "n",
+"l": "B1",
+"t": "sport",
+"ar": "رياضي، لاعب ألعاب القوى",
+"ex": "The young athlete trains every morning before school, even in winter.",
+"x": "athlete",
+"exar": "يتدرب الرياضي الشاب كل صباح قبل المدرسة، حتى في الشتاء."
+},
+{
+"w": "backwards",
+"p": "adv",
+"l": "B1",
+"t": "movement",
+"ar": "إلى الخلف، بالعكس",
+"ex": "He walked backwards slowly, watching the dog that was following him.",
+"x": "backwards",
+"exar": "مشى إلى الخلف ببطء، يراقب الكلب الذي كان يتبعه."
+},
+{
+"w": "blank",
+"p": "adj",
+"l": "B1",
+"t": "misc",
+"ar": "فارغ، خالٍ",
+"ex": "The page was blank, so I did not know where to begin.",
+"x": "blank",
+"exar": "كانت الصفحة فارغة، فلم أعرف من أين أبدأ."
+},
+{
+"w": "bored",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "مَلول، يشعر بالملل",
+"ex": "The students became bored during the long lecture on history.",
+"x": "bored",
+"exar": "شعر الطلاب بالملل أثناء المحاضرة الطويلة عن التاريخ."
+},
+{
+"w": "bounce",
+"p": "v",
+"l": "B1",
+"t": "movement",
+"ar": "يرتد، يقفز",
+"ex": "The red ball bounced twice and then rolled under the car.",
+"x": "bounced",
+"exar": "ارتدت الكرة الحمراء مرتين ثم تدحرجت تحت السيارة."
+},
+{
+"w": "breath",
+"p": "n",
+"l": "B1",
+"t": "health",
+"ar": "نَفَس، نفس الهواء",
+"ex": "Take a deep breath and count to ten before you answer.",
+"x": "breath",
+"exar": "خذ نفسا عميقا وعدّ حتى العشرة قبل أن تجيب."
+},
+{
+"w": "breeze",
+"p": "n",
+"l": "B1",
+"t": "weather",
+"ar": "نسيم",
+"ex": "A cool breeze came off the sea in the late afternoon.",
+"x": "breeze",
+"exar": "هبّ نسيم بارد من البحر في آخر ساعات العصر."
+},
+{
+"w": "ceiling",
+"p": "n",
+"l": "B1",
+"t": "home",
+"ar": "سقف الغرفة",
+"ex": "A large fan hung from the high ceiling of the old hall.",
+"x": "ceiling",
+"exar": "تدلّت مروحة كبيرة من السقف المرتفع للقاعة القديمة."
+},
+{
+"w": "chain",
+"p": "n",
+"l": "B1",
+"t": "misc",
+"ar": "سلسلة",
+"ex": "He locked his bicycle to the post with a thick metal chain.",
+"x": "chain",
+"exar": "ربط دراجته بالعمود بسلسلة معدنية سميكة."
+},
+{
+"w": "cheer",
+"p": "v",
+"l": "B1",
+"t": "feelings",
+"ar": "يهتف، يشجّع",
+"ex": "The crowd cheered loudly when the team scored the winning goal.",
+"x": "cheered",
+"exar": "هتف الجمهور بصوت عال عندما سجل الفريق هدف الفوز."
+},
+{
+"w": "chef",
+"p": "n",
+"l": "B1",
+"t": "food",
+"ar": "طاهٍ محترف، رئيس الطهاة",
+"ex": "The chef prepared a special soup for the guests on Friday night.",
+"x": "chef",
+"exar": "أعدّ الطاهي حساءً خاصا للضيوف ليلة الجمعة."
+},
+{
+"w": "chest",
+"p": "n",
+"l": "B1",
+"t": "body",
+"ar": "صدر، صندوق كبير",
+"ex": "The doctor listened to my chest with a small metal instrument.",
+"x": "chest",
+"exar": "استمع الطبيب إلى صدري بجهاز معدني صغير."
+},
+{
+"w": "clap",
+"p": "v",
+"l": "B1",
+"t": "arts",
+"ar": "يصفّق",
+"ex": "The audience clapped for several minutes after the singer finished.",
+"x": "clapped",
+"exar": "صفق الجمهور لعدة دقائق بعد أن انتهت المغنية."
+},
+{
+"w": "cliff",
+"p": "n",
+"l": "B1",
+"t": "nature",
+"ar": "منحدر صخري، جرف",
+"ex": "The old lighthouse stands on top of a high cliff above the sea.",
+"x": "cliff",
+"exar": "تقف المنارة القديمة على قمة جرف عالٍ فوق البحر."
+},
+{
+"w": "coach",
+"p": "n",
+"l": "B1",
+"t": "sport",
+"ar": "مدرّب، حافلة كبيرة",
+"ex": "Our football coach gives us a short talk before every match.",
+"x": "coach",
+"exar": "يلقي مدربنا لكرة القدم حديثا قصيرا قبل كل مباراة."
+},
+{
+"w": "combine",
+"p": "v",
+"l": "B1",
+"t": "food",
+"ar": "يمزج، يجمع",
+"ex": "Combine the flour and the eggs in a large bowl and mix well.",
+"x": "Combine",
+"exar": "امزج الدقيق والبيض في وعاء كبير وأحسن الخلط."
+},
+{
+"w": "cook",
+"p": "v",
+"l": "B1",
+"t": "food",
+"ar": "يطبخ",
+"ex": "My father likes to cook fish on Sunday afternoons.",
+"x": "cook",
+"exar": "يحب أبي أن يطبخ السمك في ظهيرة يوم الأحد."
+},
+{
+"w": "cottage",
+"p": "n",
+"l": "B1",
+"t": "home",
+"ar": "كوخ ريفي، بيت صغير",
+"ex": "They rented a small stone cottage in the hills for the summer.",
+"x": "cottage",
+"exar": "استأجروا بيتا حجريا صغيرا في التلال لفصل الصيف."
+},
+{
+"w": "countless",
+"p": "adj",
+"l": "B1",
+"t": "quantity",
+"ar": "لا يُحصى، عدد هائل",
+"ex": "Countless people visited the museum during the summer holidays.",
+"x": "Countless",
+"exar": "زار المتحف عدد لا يُحصى من الناس خلال عطلة الصيف."
+},
+{
+"w": "crack",
+"p": "n",
+"l": "B1",
+"t": "misc",
+"ar": "شق، تصدّع",
+"ex": "A thin crack appeared in the window after the loud storm.",
+"x": "crack",
+"exar": "ظهر شق رفيع في النافذة بعد العاصفة القوية."
+},
+{
+"w": "crew",
+"p": "n",
+"l": "B1",
+"t": "work",
+"ar": "طاقم العمل",
+"ex": "The ship's crew worked all night to repair the broken sail.",
+"x": "crew",
+"exar": "عمل طاقم السفينة طوال الليل لإصلاح الشراع المكسور."
+},
+{
+"w": "cruel",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "قاسٍ، ظالم",
+"ex": "It is cruel to leave a small dog alone in the cold.",
+"x": "cruel",
+"exar": "من القسوة أن تترك كلبا صغيرا وحيدا في البرد."
+},
+{
+"w": "cure",
+"p": "v",
+"l": "B1",
+"t": "health",
+"ar": "يعالج، يشفي",
+"ex": "Doctors hope to cure the disease with a new kind of medicine.",
+"x": "cure",
+"exar": "يأمل الأطباء في علاج المرض بنوع جديد من الدواء."
+},
+{
+"w": "custom",
+"p": "n",
+"l": "B1",
+"t": "society",
+"ar": "عادة، تقليد",
+"ex": "It is a local custom to offer tea to every visitor.",
+"x": "custom",
+"exar": "من العادات المحلية أن يُقدَّم الشاي لكل زائر."
+},
+{
+"w": "decline",
+"p": "v",
+"l": "B1",
+"t": "communication",
+"ar": "يرفض بلباقة، ينخفض",
+"ex": "He politely declined the invitation because he had an exam.",
+"x": "declined",
+"exar": "اعتذر بأدب عن الدعوة لأن لديه امتحانا."
+},
+{
+"w": "defend",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يدافع عن، يحمي",
+"ex": "The lawyer defended her client in court for three long days.",
+"x": "defended",
+"exar": "دافعت المحامية عن موكلتها في المحكمة ثلاثة أيام طويلة."
+},
+{
+"w": "definite",
+"p": "adj",
+"l": "B1",
+"t": "description",
+"ar": "محدد، أكيد",
+"ex": "We need a definite answer by Monday, not maybe.",
+"x": "definite",
+"exar": "نحتاج إلى جواب قاطع يوم الاثنين، لا إلى احتمال."
+},
+{
+"w": "desire",
+"p": "n",
+"l": "B1",
+"t": "feelings",
+"ar": "رغبة، شوق",
+"ex": "Her strong desire to learn English took her to London.",
+"x": "desire",
+"exar": "دفعتها رغبتها القوية في تعلم الإنجليزية إلى السفر إلى لندن."
+},
+{
+"w": "dive",
+"p": "v",
+"l": "B1",
+"t": "sport",
+"ar": "يغوص، يقفز في الماء",
+"ex": "The children dived into the pool as soon as the whistle blew.",
+"x": "dived",
+"exar": "قفز الأطفال في المسبح بمجرد أن صفر الحكم."
+},
+{
+"w": "dull",
+"p": "adj",
+"l": "B1",
+"t": "description",
+"ar": "ممل، باهت",
+"ex": "The film was so dull that half the audience fell asleep.",
+"x": "dull",
+"exar": "كان الفيلم مملا جدا حتى نام نصف الجمهور."
+},
+{
+"w": "eager",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "متحمس، متلهف",
+"ex": "The eager students arrived at the library before it opened.",
+"x": "eager",
+"exar": "وصل الطلاب المتحمسون إلى المكتبة قبل أن تفتح أبوابها."
+},
+{
+"w": "echo",
+"p": "n",
+"l": "B1",
+"t": "nature",
+"ar": "صدى",
+"ex": "Her voice made a soft echo in the empty stone church.",
+"x": "echo",
+"exar": "أحدث صوتها صدى خافتا في الكنيسة الحجرية الفارغة."
+},
+{
+"w": "elect",
+"p": "v",
+"l": "B1",
+"t": "government",
+"ar": "ينتخب",
+"ex": "The members of the club elected Sara as their new president.",
+"x": "elected",
+"exar": "انتخب أعضاء النادي سارة رئيسة جديدة لهم."
+},
+{
+"w": "embarrassed",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "محرج، خجلان",
+"ex": "He felt embarrassed when his phone rang during the exam.",
+"x": "embarrassed",
+"exar": "شعر بالإحراج عندما رنّ هاتفه أثناء الامتحان."
+},
+{
+"w": "employ",
+"p": "v",
+"l": "B1",
+"t": "work",
+"ar": "يوظّف، يستخدم",
+"ex": "The factory employs over two hundred workers from the nearby town.",
+"x": "employs",
+"exar": "يوظّف المصنع أكثر من مئتي عامل من البلدة المجاورة."
+},
+{
+"w": "endure",
+"p": "v",
+"l": "B1",
+"t": "feelings",
+"ar": "يتحمّل، يصمد",
+"ex": "The old soldiers endured many hardships during the long winter.",
+"x": "endured",
+"exar": "تحمّل الجنود القدامى مشاق كثيرة خلال الشتاء الطويل."
+},
+{
+"w": "evil",
+"p": "adj",
+"l": "B1",
+"t": "misc",
+"ar": "شرير، سيئ",
+"ex": "The story describes an evil queen who wanted to destroy the village.",
+"x": "evil",
+"exar": "تصف القصة ملكة شريرة أرادت تدمير القرية."
+},
+{
+"w": "excite",
+"p": "v",
+"l": "B1",
+"t": "feelings",
+"ar": "يثير الحماس، يحمّس",
+"ex": "The news of the new bridge excited everyone in the village.",
+"x": "excited",
+"exar": "أثار خبر الجسر الجديد حماس أهل القرية جميعا."
+},
+{
+"w": "explode",
+"p": "v",
+"l": "B1",
+"t": "misc",
+"ar": "ينفجر",
+"ex": "A firework exploded above the harbour and lit up the night sky.",
+"x": "exploded",
+"exar": "انفجرت ألعاب نارية فوق الميناء فأضاءت سماء الليل."
+},
+{
+"w": "fault",
+"p": "n",
+"l": "B1",
+"t": "misc",
+"ar": "خطأ، ذنب",
+"ex": "It was not my fault that the printer stopped working this morning.",
+"x": "fault",
+"exar": "لم يكن ذلك ذنبي أن توقفت الطابعة هذا الصباح."
+},
+{
+"w": "fear",
+"p": "n",
+"l": "B1",
+"t": "feelings",
+"ar": "خوف، رهبة",
+"ex": "Many children have a fear of the dark when they are young.",
+"x": "fear",
+"exar": "لدى كثير من الأطفال خوف من الظلام في صغرهم."
+},
+{
+"w": "feast",
+"p": "n",
+"l": "B1",
+"t": "food",
+"ar": "وليمة، مأدبة",
+"ex": "The whole family gathered for a big feast after the wedding.",
+"x": "feast",
+"exar": "اجتمعت العائلة كلها على وليمة كبيرة بعد الزفاف."
+},
+{
+"w": "fence",
+"p": "n",
+"l": "B1",
+"t": "home",
+"ar": "سياج",
+"ex": "The farmer built a tall wooden fence around his field.",
+"x": "fence",
+"exar": "بنى الفلاح سياجا خشبيا عاليا حول حقله."
+},
+{
+"w": "firm",
+"p": "adj",
+"l": "B1",
+"t": "description",
+"ar": "ثابت، حازم",
+"ex": "She has a firm belief that hard work always brings success.",
+"x": "firm",
+"exar": "لديها اعتقاد راسخ بأن العمل الجاد يجلب النجاح دائما."
+},
+{
+"w": "flame",
+"p": "n",
+"l": "B1",
+"t": "nature",
+"ar": "لهب",
+"ex": "The candle's small flame moved gently when the door opened.",
+"x": "flame",
+"exar": "تحرّك لهب الشمعة الصغير برفق عندما فُتح الباب."
+},
+{
+"w": "flavour",
+"p": "n",
+"l": "B1",
+"t": "food",
+"ar": "نكهة، مذاق",
+"ex": "This tea has a strong lemon flavour that I really enjoy.",
+"x": "flavour",
+"exar": "لهذا الشاي نكهة قوية من الليمون أحبها كثيرا."
+},
+{
+"w": "float",
+"p": "v",
+"l": "B1",
+"t": "movement",
+"ar": "يطفو",
+"ex": "A small wooden boat floated slowly down the wide river.",
+"x": "floated",
+"exar": "طفا قارب خشبي صغير ببطء على امتداد النهر الواسع."
+},
+{
+"w": "force",
+"p": "v",
+"l": "B1",
+"t": "movement",
+"ar": "يجبر، يرغم",
+"ex": "The heavy rain forced us to cancel the football match.",
+"x": "forced",
+"exar": "أجبرنا المطر الغزير على إلغاء مباراة كرة القدم."
+},
+{
+"w": "fortune",
+"p": "n",
+"l": "B1",
+"t": "money",
+"ar": "ثروة، حظ",
+"ex": "He made a fortune by selling software to large companies.",
+"x": "fortune",
+"exar": "كوّن ثروة كبيرة من بيع البرمجيات للشركات الكبرى."
+},
+{
+"w": "frozen",
+"p": "adj",
+"l": "B1",
+"t": "weather",
+"ar": "متجمّد، مجمّد",
+"ex": "We skated on the frozen lake until the sun went down.",
+"x": "frozen",
+"exar": "تزلجنا على البحيرة المتجمدة حتى غربت الشمس."
+},
+{
+"w": "gear",
+"p": "n",
+"l": "B1",
+"t": "misc",
+"ar": "معدات، جهاز التروس",
+"ex": "The hikers checked their gear before climbing the steep mountain.",
+"x": "gear",
+"exar": "تفقد المتسلقون معداتهم قبل صعود الجبل شديد الانحدار."
+},
+{
+"w": "glow",
+"p": "v",
+"l": "B1",
+"t": "nature",
+"ar": "يتوهج، يشع",
+"ex": "The lamps glowed softly along the narrow street at night.",
+"x": "glowed",
+"exar": "كانت المصابيح تتوهج بهدوء على امتداد الشارع الضيق ليلا."
+},
+{
+"w": "goods",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "بضائع، سلع",
+"ex": "The shop sells household goods, such as plates, pans and towels.",
+"x": "goods",
+"exar": "يبيع المتجر سلعا منزلية، مثل الأطباق والمقالي والمناشف."
+},
+{
+"w": "grab",
+"p": "v",
+"l": "B1",
+"t": "movement",
+"ar": "يمسك بسرعة، يخطف",
+"ex": "She grabbed her bag and ran out before the bus left.",
+"x": "grabbed",
+"exar": "أمسكت حقيبتها بسرعة وركضت إلى الخارج قبل أن تغادر الحافلة."
+},
+{
+"w": "grain",
+"p": "n",
+"l": "B1",
+"t": "food",
+"ar": "حبة، حبوب",
+"ex": "Farmers store grain in large silos to keep it dry.",
+"x": "grain",
+"exar": "يخزن المزارعون الحبوب في صوامع كبيرة لتبقى جافة."
+},
+{
+"w": "greedy",
+"p": "adj",
+"l": "B1",
+"t": "feelings",
+"ar": "جشع، طماع",
+"ex": "The greedy landlord raised the rent again without any reason.",
+"x": "greedy",
+"exar": "رفع المالك الجشع الإيجار مرة أخرى دون أي سبب."
+},
+{
+"w": "grumble",
+"p": "v",
+"l": "B1",
+"t": "communication",
+"ar": "يتذمر، يشكو",
+"ex": "My brother always grumbles when he has to wash the dishes.",
+"x": "grumbles",
+"exar": "يتذمر أخي دائما عندما يضطر إلى غسل الصحون."
+},
+{
+"w": "handy",
+"p": "adj",
+"l": "B1",
+"t": "misc",
+"ar": "مفيد، في المتناول",
+"ex": "Keep a torch in the car, because it is handy during power cuts.",
+"x": "handy",
+"exar": "احتفظ بمصباح يدوي في السيارة، فهو مفيد أثناء انقطاع الكهرباء."
+},
+{
+"w": "hatch",
+"p": "v",
+"l": "B1",
+"t": "nature",
+"ar": "يفقس",
+"ex": "Three small chicks hatched from the eggs on the warm farm.",
+"x": "hatched",
+"exar": "فقست ثلاثة كتاكيت صغيرة من البيض في المزرعة الدافئة."
+},
+{
+"w": "heap",
+"p": "n",
+"l": "B1",
+"t": "quantity",
+"ar": "كومة",
+"ex": "There was a heap of old newspapers in the corner of the room.",
+"x": "heap",
+"exar": "كانت هناك كومة من الجرائد القديمة في زاوية الغرفة."
+},
+{
+"w": "hint",
+"p": "n",
+"l": "B1",
+"t": "communication",
+"ar": "تلميح، إشارة خفيفة",
+"ex": "She gave me a hint about the answer, but I still could not solve it.",
+"x": "hint",
+"exar": "أعطتني تلميحا عن الجواب، لكنني لم أستطع حله."
+},
+{
+"w": "stale",
+"p": "adj",
+"l": "B1",
+"t": "food",
+"ar": "قديم، فقد طراوته",
+"ex": "The bread was stale by the evening, so we used it for soup.",
+"x": "stale",
+"exar": "أصبح الخبز قديما ويابسا بحلول المساء، فاستخدمناه في الحساء."
+},
+{
+"w": "imitate",
+"p": "v",
+"l": "B1",
+"t": "communication",
+"ar": "يقلّد",
+"ex": "Young children often imitate the way their parents speak and move.",
+"x": "imitate",
+"exar": "يقلد الأطفال الصغار في كثير من الأحيان طريقة كلام والديهم وحركتهم."
+},
+{
+"w": "insert",
+"p": "v",
+"l": "B1",
+"t": "misc",
+"ar": "يُدخل، يضع",
+"ex": "Insert your card into the machine and enter your PIN code.",
+"x": "Insert",
+"exar": "أدخل بطاقتك في الجهاز ثم أدخل رمز التعريف الشخصي."
+},
+{
+"w": "intend",
+"p": "v",
+"l": "B1",
+"t": "communication",
+"ar": "ينوي، يقصد",
+"ex": "I intend to finish the report before the end of the week.",
+"x": "intend",
+"exar": "أنوي أن أنهي التقرير قبل نهاية الأسبوع."
+},
+{
+"w": "invent",
+"p": "v",
+"l": "B1",
+"t": "science",
+"ar": "يخترع",
+"ex": "A young engineer invented a simple device that helps farmers save water.",
+"x": "invented",
+"exar": "اخترع مهندس شاب جهازا بسيطا يساعد المزارعين على توفير الماء."
+}
+]

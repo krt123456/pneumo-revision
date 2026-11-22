@@ -1,0 +1,901 @@
+[
+ {
+  "id": "l-b2-01",
+  "l": "B2",
+  "title": "Welcome talk for new university students",
+  "part": 2,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good morning, everyone, and welcome to Hartley University. My name is Dr Nora Finch, and I am the head of student support."
+   },
+   {
+    "s": "A",
+    "t": "I know many of you are nervous today, so I will keep this short and practical."
+   },
+   {
+    "s": "A",
+    "t": "I will talk about four things: your cards, the library, your timetable, and where to find help."
+   },
+   {
+    "s": "A",
+    "t": "First, your student cards. Some of you have already queued at the main office, but that is not where you collect them."
+   },
+   {
+    "s": "A",
+    "t": "Cards are issued at the Student Hub, in the old chapel building."
+   },
+   {
+    "s": "A",
+    "t": "Please bring your passport or national identity card, and the letter confirming your place."
+   },
+   {
+    "s": "A",
+    "t": "The photo will be taken on the spot, so there is no need to bring one."
+   },
+   {
+    "s": "A",
+    "t": "Second, the library. It opens at eight in the morning and closes at ten at night on weekdays. At weekends it closes at six."
+   },
+   {
+    "s": "A",
+    "t": "Sorry, I should say five on Sundays, because the staff finish early."
+   },
+   {
+    "s": "A",
+    "t": "During the exam period in May, the ground floor stays open all night. Please do not bring hot food inside, but drinks with a lid are fine."
+   },
+   {
+    "s": "A",
+    "t": "Third, your timetable. It appears in your online account from Friday. Do not worry if two classes seem to overlap."
+   },
+   {
+    "s": "A",
+    "t": "This happens in the first week because some groups are still being finalised, and you will receive an email by Monday evening with the corrected version."
+   },
+   {
+    "s": "A",
+    "t": "Fourth, getting help. Many students wait until they are in real difficulty before asking. Please do not do that."
+   },
+   {
+    "s": "A",
+    "t": "Our advisers can help with money problems, health, housing and study skills."
+   },
+   {
+    "s": "A",
+    "t": "You can book an appointment online, or simply walk in between ten and one on Tuesdays and Thursdays."
+   },
+   {
+    "s": "A",
+    "t": "There is also a free writing clinic, which I strongly recommend if you have never written an academic essay."
+   },
+   {
+    "s": "A",
+    "t": "One last thing. Tomorrow at two o'clock there will be a campus tour starting outside the library."
+   },
+   {
+    "s": "A",
+    "t": "Actually, we have moved it to half past two, because the sports hall needs the earlier slot."
+   },
+   {
+    "s": "A",
+    "t": "The tour lasts about forty minutes, and you will finish at the student café, where your first coffee is free."
+   },
+   {
+    "s": "A",
+    "t": "Enjoy your first week, and remember that every student here started exactly where you are now."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "issue",
+    "ar": "يُصدر / يمنح"
+   },
+   {
+    "w": "timetable",
+    "ar": "جدول الدروس"
+   },
+   {
+    "w": "overlap",
+    "ar": "يتداخل"
+   },
+   {
+    "w": "finalise",
+    "ar": "يضع الصيغة النهائية"
+   },
+   {
+    "w": "walk in",
+    "ar": "يأتي دون موعد"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Where can students collect their cards?",
+    "o": [
+     "At the main office",
+     "At the Student Hub",
+     "At the library"
+    ],
+    "a": 1,
+    "why": "البطاقات تُصدر في مركز الطلبة وليس في المكتب الرئيسي."
+   },
+   {
+    "k": "gap",
+    "q": "Students must bring a passport or national ___ card.",
+    "a": [
+     "identity",
+     "ID"
+    ],
+    "why": "سمعنا: passport or national identity card."
+   },
+   {
+    "k": "tfng",
+    "q": "Students need to bring their own photo for the card.",
+    "a": "F",
+    "why": "المتحدثة قالت إن الصورة تُلتقط في المكان."
+   },
+   {
+    "k": "mc",
+    "q": "When does the library close on Sundays?",
+    "o": [
+     "At ten at night",
+     "At six in the evening",
+     "At five in the evening"
+    ],
+    "a": 2,
+    "why": "صحّحت المتحدثة نفسها: الخامسة أيام الأحد."
+   },
+   {
+    "k": "gap",
+    "q": "During exams in May, the ground floor of the library stays open ___.",
+    "a": [
+     "all night"
+    ],
+    "why": "الطابق الأرضي يبقى مفتوحاً طوال الليل."
+   },
+   {
+    "k": "tfng",
+    "q": "Overlapping classes in the first week will be fixed in a corrected timetable.",
+    "a": "T",
+    "why": "سيصل بريد إلكتروني بالجدول المصحح مساء الاثنين."
+   },
+   {
+    "k": "mc",
+    "q": "When can students walk in to see an adviser without an appointment?",
+    "o": [
+     "Tuesdays and Thursdays",
+     "Mondays and Fridays",
+     "Every weekday"
+    ],
+    "a": 0,
+    "why": "الإرشاد دون موعد: الثلاثاء والخميس من العاشرة إلى الواحدة."
+   },
+   {
+    "k": "mc",
+    "q": "What time does the campus tour start?",
+    "o": [
+     "Two o'clock",
+     "Three o'clock",
+     "Half past two"
+    ],
+    "a": 2,
+    "why": "تم تأخير الجولة إلى الثانية والنصف."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-02",
+  "l": "B2",
+  "title": "A community recycling scheme",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "This is the Tuesday morning community report, and today I am in the town of Millbrook, where a small recycling scheme has become a big success."
+   },
+   {
+    "s": "A",
+    "t": "The scheme began eighteen months ago with just four hundred households. Today more than two thousand three hundred families take part, which is roughly half the town."
+   },
+   {
+    "s": "A",
+    "t": "The idea is simple. Each home has three bins. Blue is for paper and cardboard, green is for glass, and yellow is for cans and hard plastics."
+   },
+   {
+    "s": "A",
+    "t": "Food scraps go into a small brown container collected every week."
+   },
+   {
+    "s": "A",
+    "t": "Organiser Maria Lopez told me the early months were difficult."
+   },
+   {
+    "s": "A",
+    "t": "Nearly a third of what people put in the bins could not be recycled at all, because it was dirty or in the wrong bin."
+   },
+   {
+    "s": "A",
+    "t": "To fix that, the scheme trained forty volunteers, called street champions. Each one visits a few neighbours, explains the rules, and answers questions over a cup of tea."
+   },
+   {
+    "s": "A",
+    "t": "The result is striking. The share of unusable waste has fallen from thirty percent to just nine percent."
+   },
+   {
+    "s": "A",
+    "t": "There is also a reward system. Households collect points for every bag they recycle correctly."
+   },
+   {
+    "s": "A",
+    "t": "At first the plan was to pay cash, but residents voted instead for vouchers to spend in local shops, and that has helped small businesses on the high street."
+   },
+   {
+    "s": "A",
+    "t": "Money is being saved, too. Because less rubbish goes to landfill, the town pays lower fees, and the council says it saved about sixty thousand dollars last year."
+   },
+   {
+    "s": "A",
+    "t": "All of that has gone into a new playground by the river."
+   },
+   {
+    "s": "A",
+    "t": "Of course, not everyone is happy. Some residents complain that thin plastic film, like the wrapping on magazines, is still not accepted."
+   },
+   {
+    "s": "A",
+    "t": "Maria says the machines at the sorting plant simply cannot handle it, but she is searching for a company that can."
+   },
+   {
+    "s": "A",
+    "t": "The next step is the apartment blocks, which have shared bins and so have been harder to include."
+   },
+   {
+    "s": "A",
+    "t": "Maria hopes to start in the spring, with the first building on Oak Street."
+   },
+   {
+    "s": "A",
+    "t": "Reporting from Millbrook, I'm Jenna Walsh. Back to the studio."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "scheme",
+    "ar": "مشروع / برنامج"
+   },
+   {
+    "w": "landfill",
+    "ar": "مكب النفايات"
+   },
+   {
+    "w": "household",
+    "ar": "أسرة / منزل"
+   },
+   {
+    "w": "voucher",
+    "ar": "قسيمة شراء"
+   },
+   {
+    "w": "scraps",
+    "ar": "بقايا"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "When did the scheme begin?",
+    "o": [
+     "Twelve months ago",
+     "Two years ago",
+     "Eighteen months ago"
+    ],
+    "a": 2,
+    "why": "بدأ المشروع قبل ثمانية عشر شهراً."
+   },
+   {
+    "k": "gap",
+    "q": "The yellow bin is for cans and hard ___.",
+    "a": [
+     "plastics",
+     "plastic"
+    ],
+    "why": "الحاوية الصفراء للعلب والبلاستيك الصلب."
+   },
+   {
+    "k": "mc",
+    "q": "Why were the early months difficult?",
+    "o": [
+     "Collections were often late",
+     "Too much waste was dirty or in the wrong bin",
+     "Not enough people had bins"
+    ],
+    "a": 1,
+    "why": "قرابة الثلث لم يكن قابلاً لإعادة التدوير."
+   },
+   {
+    "k": "gap",
+    "q": "The scheme trained ___ volunteers to visit neighbours.",
+    "a": [
+     "40",
+     "forty"
+    ],
+    "why": "تم تدريب أربعين متطوعاً."
+   },
+   {
+    "k": "tfng",
+    "q": "Unusable waste is now less than a tenth of the total.",
+    "a": "T",
+    "why": "انخفضت النسبة من ثلاثين إلى تسعة بالمئة."
+   },
+   {
+    "k": "mc",
+    "q": "What did residents choose as a reward?",
+    "o": [
+     "Vouchers for local shops",
+     "Cash payments",
+     "Lower bin fees"
+    ],
+    "a": 0,
+    "why": "صوّت السكان للقسائم بدلاً من المال."
+   },
+   {
+    "k": "gap",
+    "q": "The savings paid for a new ___ by the river.",
+    "a": [
+     "playground"
+    ],
+    "why": "وُجّهت الوفورات لملعب أطفال جديد."
+   },
+   {
+    "k": "tfng",
+    "q": "Apartment blocks are already part of the scheme.",
+    "a": "F",
+    "why": "العمارات هي الخطوة التالية في الربيع."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-03",
+  "l": "B2",
+  "title": "Introducing a science museum",
+  "part": 2,
+  "accent": "AU",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Hello, everyone, and welcome to the Riverside Science Museum. My name is Tom, and for the next forty-five minutes I will be your guide."
+   },
+   {
+    "s": "A",
+    "t": "Before we begin, a few practical points. Large bags must go in the lockers by the entrance."
+   },
+   {
+    "s": "A",
+    "t": "You need a two-dollar coin, but do not worry, you get it back when you open the locker again."
+   },
+   {
+    "s": "A",
+    "t": "Photography is welcome everywhere except the planetarium. You may use your phone, but please switch off the flash, because it can damage some of our older exhibits."
+   },
+   {
+    "s": "A",
+    "t": "Let us start here in the entrance hall. The tall swinging weight above you is a pendulum, nine metres long."
+   },
+   {
+    "s": "A",
+    "t": "As the Earth turns, the pendulum slowly knocks down the small wooden blocks on the floor, one about every fifteen minutes."
+   },
+   {
+    "s": "A",
+    "t": "Behind me is the Energy Hall on the ground floor."
+   },
+   {
+    "s": "A",
+    "t": "You can pedal a bicycle to light up a model city, and you will quickly discover how hard it is to power even one street."
+   },
+   {
+    "s": "A",
+    "t": "On the first floor you will find the Human Body gallery. The most popular exhibit is a giant model of the heart that you can walk through."
+   },
+   {
+    "s": "A",
+    "t": "Visitors often tell me they never realised how loud it is inside."
+   },
+   {
+    "s": "A",
+    "t": "The second floor has two attractions. One is the Space gallery, with a real meteorite you may touch."
+   },
+   {
+    "s": "A",
+    "t": "The other is the planetarium, where there are two shows each day, at eleven fifteen and again at half past twelve."
+   },
+   {
+    "s": "A",
+    "t": "Sorry, I mean at twelve forty-five, since we changed the schedule this month."
+   },
+   {
+    "s": "A",
+    "t": "Children under ten must be with an adult in the experiment lab, which is also on the second floor."
+   },
+   {
+    "s": "A",
+    "t": "Today's experiment is making slime, which is always a favourite."
+   },
+   {
+    "s": "A",
+    "t": "When you are tired, head to the café on the top floor."
+   },
+   {
+    "s": "A",
+    "t": "It has wonderful views of the river, but it closes at four, an hour before the museum itself."
+   },
+   {
+    "s": "A",
+    "t": "The lifts are at the back of the building, past the gift shop. If you have any questions, please just ask me."
+   },
+   {
+    "s": "A",
+    "t": "Now, if you would follow me to the Energy Hall."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "exhibit",
+    "ar": "معروضة"
+   },
+   {
+    "w": "pendulum",
+    "ar": "بندول"
+   },
+   {
+    "w": "meteorite",
+    "ar": "نيزك"
+   },
+   {
+    "w": "planetarium",
+    "ar": "قبة سماوية"
+   },
+   {
+    "w": "locker",
+    "ar": "خزانة صغيرة"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How long will the tour last?",
+    "o": [
+     "One hour",
+     "Thirty minutes",
+     "Forty-five minutes"
+    ],
+    "a": 2,
+    "why": "المرشد قال خمساً وأربعين دقيقة."
+   },
+   {
+    "k": "gap",
+    "q": "To use a locker you need a coin worth ___ dollars.",
+    "a": [
+     "2",
+     "two"
+    ],
+    "why": "عملة بدولارين تُسترد لاحقاً."
+   },
+   {
+    "k": "mc",
+    "q": "Why should visitors switch off the flash?",
+    "o": [
+     "It disturbs people in the planetarium",
+     "It uses too much battery",
+     "It can damage older exhibits"
+    ],
+    "a": 2,
+    "why": "الفلاش قد يضر بالمعروضات القديمة."
+   },
+   {
+    "k": "gap",
+    "q": "The pendulum in the entrance hall is ___ metres long.",
+    "a": [
+     "9",
+     "nine"
+    ],
+    "why": "طول البندول تسعة أمتار."
+   },
+   {
+    "k": "mc",
+    "q": "What can visitors do in the Energy Hall?",
+    "o": [
+     "Pedal a bicycle to light a model city",
+     "Walk through a model heart",
+     "Touch a real meteorite"
+    ],
+    "a": 0,
+    "why": "في قاعة الطاقة تُشغَّل مدينة مصغرة بالدراجة."
+   },
+   {
+    "k": "tfng",
+    "q": "The giant model of the heart is on the second floor.",
+    "a": "F",
+    "why": "نموذج القلب في الطابق الأول."
+   },
+   {
+    "k": "gap",
+    "q": "The second planetarium show starts at ___.",
+    "a": [
+     "12.45",
+     "12:45",
+     "twelve forty-five",
+     "12.45pm"
+    ],
+    "why": "صحّح المرشد الوقت إلى الثانية عشرة وخمس وأربعين."
+   },
+   {
+    "k": "mc",
+    "q": "When does the café close?",
+    "o": [
+     "Five o'clock",
+     "Half past four",
+     "Four o'clock"
+    ],
+    "a": 2,
+    "why": "المقهى يُغلق في الرابعة، قبل المتحف بساعة."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-04",
+  "l": "B2",
+  "title": "A new working from home policy",
+  "part": 2,
+  "accent": "GB",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Good afternoon, everyone. Thank you for joining this call. I want to explain our new working from home policy, which begins on the first of March."
+   },
+   {
+    "s": "A",
+    "t": "First, the background. For two years we have allowed home working on a case by case basis."
+   },
+   {
+    "s": "A",
+    "t": "That led to confusion and, frankly, some unfairness, so we are replacing it with one clear policy."
+   },
+   {
+    "s": "A",
+    "t": "The basic rule is this. Everyone may work from home for up to two days a week. The other three days are spent in the office."
+   },
+   {
+    "s": "A",
+    "t": "To make sure teams can meet, Tuesdays and Thursdays are fixed office days for everybody."
+   },
+   {
+    "s": "A",
+    "t": "We first considered Mondays and Thursdays, but the data showed far fewer people travel in on Mondays."
+   },
+   {
+    "s": "A",
+    "t": "When you work from home, you should be online and reachable between ten and four. Outside these core hours, you can organise your day as you wish."
+   },
+   {
+    "s": "A",
+    "t": "Now, equipment. The company will provide a laptop and a second screen, and you may take them home."
+   },
+   {
+    "s": "A",
+    "t": "We will also pay a one-off allowance of a hundred and fifty pounds towards a proper chair or desk. You will need to send us the receipt."
+   },
+   {
+    "s": "A",
+    "t": "We did discuss paying part of your broadband bill. In the end, finance decided it was too complicated to administer, so that will not be included."
+   },
+   {
+    "s": "A",
+    "t": "Please remember security. Always use the company VPN, and avoid working on confidential files in cafés or on public wifi."
+   },
+   {
+    "s": "A",
+    "t": "To apply, log in to the HR portal and choose your two days. Your line manager has five working days to approve or comment."
+   },
+   {
+    "s": "A",
+    "t": "Most requests will be accepted, unless the nature of your job needs you on site, as with the reception team and the laboratory staff."
+   },
+   {
+    "s": "A",
+    "t": "New employees can use the policy only after their three-month probation period ends."
+   },
+   {
+    "s": "A",
+    "t": "Finally, this is a six-month trial. In the fourth month we will send a short survey, and we will decide in September whether to make the policy permanent."
+   },
+   {
+    "s": "A",
+    "t": "If you have questions, email me or visit the HR page. Thank you."
+   }
+  ],
+  "gloss": [
+   {
+    "w": "policy",
+    "ar": "سياسة / نظام"
+   },
+   {
+    "w": "allowance",
+    "ar": "بدل مالي"
+   },
+   {
+    "w": "probation",
+    "ar": "فترة التجربة"
+   },
+   {
+    "w": "confidential",
+    "ar": "سري"
+   },
+   {
+    "w": "permanent",
+    "ar": "دائم"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "How many days a week may staff work from home?",
+    "o": [
+     "One",
+     "Two",
+     "Three"
+    ],
+    "a": 1,
+    "why": "حتى يومين في الأسبوع."
+   },
+   {
+    "k": "mc",
+    "q": "Which days are fixed office days?",
+    "o": [
+     "Mondays and Thursdays",
+     "Wednesdays and Fridays",
+     "Tuesdays and Thursdays"
+    ],
+    "a": 2,
+    "why": "الاثنين تم النظر فيه ثم استُبعد."
+   },
+   {
+    "k": "gap",
+    "q": "When working at home, staff must be online between ten and ___.",
+    "a": [
+     "four",
+     "4"
+    ],
+    "why": "ساعات العمل الأساسية من العاشرة إلى الرابعة."
+   },
+   {
+    "k": "gap",
+    "q": "The one-off allowance for a chair or desk is ___ pounds.",
+    "a": [
+     "150",
+     "a hundred and fifty",
+     "one hundred and fifty"
+    ],
+    "why": "البدل مئة وخمسون جنيهاً."
+   },
+   {
+    "k": "tfng",
+    "q": "The company will pay part of each employee's broadband bill.",
+    "a": "F",
+    "why": "نوقشت الفكرة لكن تم رفضها."
+   },
+   {
+    "k": "mc",
+    "q": "How long does a line manager have to respond to a request?",
+    "o": [
+     "Two days",
+     "Five working days",
+     "One week"
+    ],
+    "a": 1,
+    "why": "للمدير خمسة أيام عمل."
+   },
+   {
+    "k": "tfng",
+    "q": "Some jobs, such as reception work, may need people to be on site.",
+    "a": "T",
+    "why": "طبيعة بعض الوظائف تتطلب الحضور."
+   },
+   {
+    "k": "mc",
+    "q": "When will the company decide whether the policy is permanent?",
+    "o": [
+     "In March",
+     "In the fourth month",
+     "In September"
+    ],
+    "a": 2,
+    "why": "القرار في سبتمبر بعد تجربة ستة أشهر."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-05",
+  "l": "B2",
+  "title": "A talk for legal advice centre volunteers",
+  "part": 2,
+  "accent": "US",
+  "lines": [
+   {
+    "s": "A",
+    "t": "Welcome, everyone, and thank you for volunteering at the Eastside Legal Advice Centre. I am Rachel Moore, the volunteer coordinator."
+   },
+   {
+    "s": "A",
+    "t": "Let me begin with the most important point. Volunteers do not give legal advice, not even simple advice, and not even if you are a law student."
+   },
+   {
+    "s": "A",
+    "t": "Only our qualified lawyers do that. Your role is to help people reach them."
+   },
+   {
+    "s": "A",
+    "t": "In practice, you will greet clients at reception, check their identity, and complete an intake form with their basic details and the nature of their problem."
+   },
+   {
+    "s": "A",
+    "t": "You will also tell them how long they are likely to wait, which is usually about forty minutes."
+   },
+   {
+    "s": "A",
+    "t": "About forty percent of our clients come with housing problems, such as unfair rent increases or a landlord refusing to repair something."
+   },
+   {
+    "s": "A",
+    "t": "The next biggest group, around a quarter, have employment problems, mostly unpaid wages."
+   },
+   {
+    "s": "A",
+    "t": "Many clients are frightened or embarrassed when they arrive, so please be patient. If someone becomes very upset or angry, do not argue."
+   },
+   {
+    "s": "A",
+    "t": "Stay calm and call your supervisor."
+   },
+   {
+    "s": "A",
+    "t": "Confidentiality is essential. Before your first shift you will sign an agreement."
+   },
+   {
+    "s": "A",
+    "t": "You must never discuss a client's situation outside the centre, even without using their name, and you must not put private details in emails."
+   },
+   {
+    "s": "A",
+    "t": "We also help people who do not speak English well."
+   },
+   {
+    "s": "A",
+    "t": "We have a telephone interpreting service for more than thirty languages, so please never ask a family member or child to translate."
+   },
+   {
+    "s": "A",
+    "t": "Now, the practical details. The centre is open Monday to Thursday from nine to five, and we run a free clinic on Saturday mornings."
+   },
+   {
+    "s": "A",
+    "t": "Each shift lasts four hours."
+   },
+   {
+    "s": "A",
+    "t": "We ask volunteers to commit to at least six months. I originally planned three, but training takes time, and clients benefit from familiar faces."
+   },
+   {
+    "s": "A",
+    "t": "Training consists of two evening sessions. The first is next Tuesday at six o'clock in the meeting room upstairs."
+   },
+   {
+    "s": "A",
+    "t": "You will receive an identity badge then, so there is no need to dress formally. Smart casual is fine."
+   },
+   {
+    "s": "A",
+    "t": "Any questions before we begin the first session?"
+   }
+  ],
+  "gloss": [
+   {
+    "w": "client",
+    "ar": "عميل / مراجع"
+   },
+   {
+    "w": "intake form",
+    "ar": "استمارة استقبال"
+   },
+   {
+    "w": "confidentiality",
+    "ar": "السرية"
+   },
+   {
+    "w": "landlord",
+    "ar": "مالك العقار"
+   },
+   {
+    "w": "commit",
+    "ar": "يلتزم"
+   }
+  ],
+  "qs": [
+   {
+    "k": "mc",
+    "q": "Which task are volunteers allowed to do?",
+    "o": [
+     "Give simple advice",
+     "Complete intake forms",
+     "Speak for clients in court"
+    ],
+    "a": 1,
+    "why": "المتطوعون لا يقدمون نصيحة قانونية، بل يملؤون الاستمارات."
+   },
+   {
+    "k": "gap",
+    "q": "Clients usually wait about ___ minutes.",
+    "a": [
+     "40",
+     "forty"
+    ],
+    "why": "زمن الانتظار المعتاد حوالي أربعين دقيقة."
+   },
+   {
+    "k": "mc",
+    "q": "Which problem is the most common among clients?",
+    "o": [
+     "Employment problems",
+     "Family disputes",
+     "Housing problems"
+    ],
+    "a": 2,
+    "why": "حوالي أربعين بالمئة مشاكل سكن."
+   },
+   {
+    "k": "tfng",
+    "q": "If a client becomes angry, a volunteer should call a supervisor.",
+    "a": "T",
+    "why": "يجب الهدوء واستدعاء المشرف وعدم الجدال."
+   },
+   {
+    "k": "gap",
+    "q": "The telephone interpreting service covers more than ___ languages.",
+    "a": [
+     "30",
+     "thirty"
+    ],
+    "why": "أكثر من ثلاثين لغة."
+   },
+   {
+    "k": "tfng",
+    "q": "A volunteer may ask a client's child to translate if necessary.",
+    "a": "F",
+    "why": "طلبت المتحدثة ألا يُطلب ذلك من أحد أفراد الأسرة أو الطفل."
+   },
+   {
+    "k": "mc",
+    "q": "What is the minimum time volunteers must commit to?",
+    "o": [
+     "Six months",
+     "Three months",
+     "One year"
+    ],
+    "a": 0,
+    "why": "غيّرت المتحدثة الخطة الأصلية من ثلاثة أشهر إلى ستة."
+   },
+   {
+    "k": "gap",
+    "q": "The first training session is on Tuesday at ___ o'clock.",
+    "a": [
+     "6",
+     "six"
+    ],
+    "why": "الدورة الأولى الثلاثاء الساعة السادسة."
+   }
+  ]
+ }
+]

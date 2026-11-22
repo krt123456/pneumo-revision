@@ -1,0 +1,397 @@
+[
+ {
+  "id": "w1-01",
+  "l": "B1",
+  "chart": "line",
+  "title": "Daily bus passengers in three cities, 2000-2020",
+  "unit": "thousand",
+  "x": [
+   "2000",
+   "2005",
+   "2010",
+   "2015",
+   "2020"
+  ],
+  "series": [
+   {
+    "name": "City X",
+    "data": [
+     40,
+     45,
+     52,
+     60,
+     70
+    ]
+   },
+   {
+    "name": "City Y",
+    "data": [
+     65,
+     62,
+     55,
+     48,
+     42
+    ]
+   },
+   {
+    "name": "City Z",
+    "data": [
+     30,
+     38,
+     50,
+     58,
+     64
+    ]
+   }
+  ],
+  "prompt": "The line graph below shows the number of people who used buses each day in three cities between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph compares the number of passengers who used buses each day in three cities, City X, City Y and City Z, between 2000 and 2020.\n\nOverall, bus use rose in City X and City Z, whereas it fell in City Y. City Y began with the highest figure, but by 2020 it had the lowest, and City X ended as the busiest city.\n\nIn 2000, City Y had 65 thousand daily passengers, compared with 40 thousand in City X and only 30 thousand in City Z. Over the next ten years, the figure for City Y dropped steadily to 55 thousand, while City X climbed to 52 thousand and City Z rose sharply to 50 thousand.\n\nFrom 2010 onwards, the gap changed completely. City Y continued to decline and reached 42 thousand in 2020. By contrast, City X grew to 70 thousand, and City Z reached 64 thousand after passing City Y between 2010 and 2015. Both of the growing cities therefore finished well above City Y, which lost more than a third of its passengers.",
+  "keyAr": "المدينتان X وZ ارتفع عدد ركاب الحافلات فيهما، بينما انخفض في المدينة Y. بدأت Y بأعلى رقم (65 ألفًا) وانتهت بأدنى رقم (42 ألفًا)، وأصبحت X الأكثر ازدحامًا (70 ألفًا). تجاوزت Z المدينة Y بين 2010 و2015.",
+  "phr": [
+   "The line graph compares …",
+   "Overall, … rose, whereas … fell.",
+   "began with the highest figure",
+   "rose sharply to …",
+   "By contrast, …",
+   "after passing … between … and …"
+  ]
+ },
+ {
+  "id": "w1-02",
+  "l": "B2",
+  "chart": "line",
+  "title": "Electricity from renewable sources in three countries, 2000-2020",
+  "unit": "%",
+  "x": [
+   "2000",
+   "2005",
+   "2010",
+   "2015",
+   "2020"
+  ],
+  "series": [
+   {
+    "name": "Country A",
+    "data": [
+     5,
+     9,
+     16,
+     27,
+     41
+    ]
+   },
+   {
+    "name": "Country B",
+    "data": [
+     22,
+     25,
+     26,
+     28,
+     29
+    ]
+   },
+   {
+    "name": "Country C",
+    "data": [
+     14,
+     18,
+     17,
+     12,
+     9
+    ]
+   }
+  ],
+  "prompt": "The graph below shows the percentage of electricity produced from renewable sources in three countries between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph illustrates the proportion of electricity produced from renewable sources in three countries over a twenty-year period, from 2000 to 2020.\n\nOverall, the share of renewable power rose dramatically in Country A and edged up in Country B, whereas it fell in Country C after an early increase. Country A moved from the lowest figure to the highest.\n\nIn 2000, Country B led with 22%, followed by Country C on 14% and Country A on only 5%. Country A then grew steadily to 16% in 2010 and accelerated to 27% in 2015, before reaching a peak of 41% in 2020, overtaking Country B at some point between 2015 and 2020. Country B, meanwhile, increased only slightly, from 22% to 29%.\n\nCountry C followed a different pattern. Its figure climbed to a high of 18% in 2005 and stayed close to that level in 2010, at 17%, but then declined sharply to 12% in 2015 and just 9% by the end of the period, making it the lowest of the three.",
+  "keyAr": "ارتفعت حصة الطاقة المتجددة بقوة في الدولة A (من 5% إلى 41%) فصارت الأعلى، وزادت قليلًا في B (22% إلى 29%)، أما في C فارتفعت إلى 18% عام 2005 ثم هبطت إلى 9%. تجاوزت A الدولة B بين 2015 و2020.",
+  "phr": [
+   "illustrates the proportion of …",
+   "edged up",
+   "accelerated to …",
+   "reaching a peak of …",
+   "overtaking … at some point between …",
+   "declined sharply to …"
+  ]
+ },
+ {
+  "id": "w1-03",
+  "l": "B2",
+  "chart": "line",
+  "title": "International students at three universities, 2014-2020",
+  "unit": "thousand",
+  "x": [
+   "2014",
+   "2015",
+   "2016",
+   "2017",
+   "2018",
+   "2019",
+   "2020"
+  ],
+  "series": [
+   {
+    "name": "University P",
+    "data": [
+     12,
+     14,
+     15,
+     19,
+     24,
+     28,
+     33
+    ]
+   },
+   {
+    "name": "University Q",
+    "data": [
+     25,
+     26,
+     28,
+     27,
+     25,
+     22,
+     20
+    ]
+   },
+   {
+    "name": "University R",
+    "data": [
+     8,
+     10,
+     13,
+     17,
+     19,
+     20,
+     21
+    ]
+   }
+  ],
+  "prompt": "The line graph below shows the number of international students enrolled at three universities between 2014 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph shows how many international students were enrolled at three universities, P, Q and R, between 2014 and 2020.\n\nOverall, enrolment rose at Universities P and R, while it fell at University Q after peaking in 2016. University P recorded the biggest increase and ended with the highest number.\n\nIn 2014, University Q was the most popular, attracting 25 thousand international students, compared with 12 thousand at P and just 8 thousand at R. Q's figure edged up to a peak of 28 thousand in 2016 and then declined gradually, falling to 20 thousand by 2020.\n\nBy contrast, University P grew every year, rising slowly to 15 thousand in 2016 and then more quickly to reach 33 thousand in 2020. It overtook Q between 2018 and 2019, when its figure moved from 24 to 28 thousand. University R also increased steadily, from 8 thousand to 21 thousand, and it finally surpassed Q in 2020 by a narrow margin of one thousand.",
+  "keyAr": "ارتفع عدد الطلاب الدوليين في الجامعتين P وR وانخفض في Q بعد ذروتها (28 ألفًا) عام 2016. نمت P كل عام حتى 33 ألفًا وتجاوزت Q بين 2018 و2019، وتجاوزتها R عام 2020 بفارق ألف طالب.",
+  "phr": [
+   "was the most popular",
+   "peaked at …",
+   "declined gradually",
+   "grew every year",
+   "overtook … between … and …",
+   "by a narrow margin of …"
+  ]
+ },
+ {
+  "id": "w1-04",
+  "l": "B2",
+  "chart": "line",
+  "title": "Weekly hours teenagers spent on four activities in Country D, 2000-2020",
+  "unit": "hours",
+  "x": [
+   "2000",
+   "2005",
+   "2010",
+   "2015",
+   "2020"
+  ],
+  "series": [
+   {
+    "name": "Online",
+    "data": [
+     3,
+     7,
+     12,
+     18,
+     24
+    ]
+   },
+   {
+    "name": "Television",
+    "data": [
+     20,
+     19,
+     16,
+     11,
+     7
+    ]
+   },
+   {
+    "name": "Reading",
+    "data": [
+     6,
+     5,
+     5,
+     4,
+     3
+    ]
+   },
+   {
+    "name": "Sport",
+    "data": [
+     8,
+     8,
+     9,
+     9,
+     10
+    ]
+   }
+  ],
+  "prompt": "The graph below shows the average number of hours per week that teenagers in Country D spent on four leisure activities between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The graph compares the average number of hours per week that teenagers in Country D spent on four leisure activities between 2000 and 2020.\n\nOverall, time spent online increased dramatically, while time spent watching television fell sharply; reading and sport changed only slightly. By 2020, going online had replaced television as the most time-consuming activity.\n\nIn 2000, television dominated teenagers' free time at 20 hours a week, far more than sport (8 hours), reading (6 hours) or being online (just 3 hours). Over the following decade, television viewing fell gradually to 16 hours, whereas online use quadrupled to 12 hours.\n\nThe trends continued after 2010. Online time rose to 18 hours in 2015 and 24 hours in 2020, overtaking television between 2010 and 2015. Television, in contrast, dropped to just 7 hours by the end of the period. Reading declined slightly from 6 to 3 hours, and sport was the only other activity to grow, edging up from 8 to 10 hours.",
+  "keyAr": "ازداد الوقت على الإنترنت بشدة (من 3 إلى 24 ساعة أسبوعيًا) وانخفض وقت التلفاز بحدة (من 20 إلى 7)، بينما تغيّر القراءة والرياضة قليلًا. تجاوز الإنترنت التلفاز بين 2010 و2015.",
+  "phr": [
+   "increased dramatically",
+   "fell sharply",
+   "dominated teenagers' free time",
+   "quadrupled to …",
+   "in contrast",
+   "edging up from … to …"
+  ]
+ },
+ {
+  "id": "w1-05",
+  "l": "B2",
+  "chart": "line",
+  "title": "Employees working from home in four industries, 2012-2022",
+  "unit": "%",
+  "x": [
+   "2012",
+   "2014",
+   "2016",
+   "2018",
+   "2020",
+   "2022"
+  ],
+  "series": [
+   {
+    "name": "IT",
+    "data": [
+     18,
+     24,
+     30,
+     36,
+     62,
+     55
+    ]
+   },
+   {
+    "name": "Finance",
+    "data": [
+     10,
+     13,
+     17,
+     21,
+     48,
+     40
+    ]
+   },
+   {
+    "name": "Education",
+    "data": [
+     6,
+     7,
+     8,
+     9,
+     30,
+     22
+    ]
+   },
+   {
+    "name": "Manufacturing",
+    "data": [
+     3,
+     3,
+     4,
+     4,
+     9,
+     8
+    ]
+   }
+  ],
+  "prompt": "The line graph below shows the percentage of employees who worked from home at least one day a week in four industries between 2012 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph presents the percentage of employees who worked from home at least one day a week in four industries between 2012 and 2022.\n\nOverall, home working became more common in every industry, with a dramatic jump in 2020 followed by a modest fall. IT had the highest percentage throughout the whole period, whereas manufacturing remained the lowest of the four.\n\nBetween 2012 and 2018, the rise was gradual. In IT, the figure grew from 18% to 36%, and in finance it roughly doubled, from 10% to 21%. Education and manufacturing stayed low, reaching only 9% and 4% respectively in 2018.\n\nAll four lines peaked in 2020. IT reached 62%, finance 48%, education 30% and manufacturing just 9%. The biggest proportional increase occurred in education, where the figure more than tripled from 9% to 30%. In 2022, each industry saw a decline, to 55% in IT, 40% in finance, 22% in education and 8% in manufacturing, but all remained far above their 2018 levels.",
+  "keyAr": "زاد العمل من المنزل في كل القطاعات مع قفزة كبيرة عام 2020 (IT 62%، المالية 48%، التعليم 30%، التصنيع 9%) ثم تراجع طفيف عام 2022. قطاع IT الأعلى دائمًا والتصنيع الأدنى دائمًا.",
+  "phr": [
+   "the percentage of employees who …",
+   "a dramatic jump in …",
+   "throughout the period",
+   "roughly doubled",
+   "more than tripled",
+   "remained far above …"
+  ]
+ },
+ {
+  "id": "w1-06",
+  "l": "C1",
+  "chart": "line",
+  "title": "Annual production of four crops in Country E, 2010-2022",
+  "unit": "million tonnes",
+  "x": [
+   "2010",
+   "2012",
+   "2014",
+   "2016",
+   "2018",
+   "2020",
+   "2022"
+  ],
+  "series": [
+   {
+    "name": "Wheat",
+    "data": [
+     52,
+     55,
+     58,
+     54,
+     49,
+     47,
+     50
+    ]
+   },
+   {
+    "name": "Rice",
+    "data": [
+     38,
+     41,
+     43,
+     47,
+     52,
+     55,
+     57
+    ]
+   },
+   {
+    "name": "Maize",
+    "data": [
+     30,
+     33,
+     31,
+     36,
+     40,
+     38,
+     44
+    ]
+   },
+   {
+    "name": "Barley",
+    "data": [
+     20,
+     19,
+     21,
+     18,
+     17,
+     19,
+     16
+    ]
+   }
+  ],
+  "prompt": "The line graph below shows the annual production of four crops, in million tonnes, in Country E between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+  "model": "The line graph shows the annual production of four crops, in million tonnes, in Country E from 2010 to 2022.\n\nOverall, rice was the only crop to grow in every period, and it replaced wheat as the leading crop. Maize also rose in the long term despite fluctuations, whereas wheat and barley ended below their 2010 levels.\n\nWheat began as the largest crop at 52 million tonnes and climbed to a peak of 58 million in 2014. It then fell steadily to 47 million in 2020, before recovering slightly to 50 million in 2022. Rice, starting from 38 million tonnes, increased in every period and passed wheat between 2016 and 2018, reaching 57 million by 2022.\n\nMaize and barley were the smaller crops. Maize output fluctuated, dipping from 33 to 31 million in 2014 and again from 40 to 38 million in 2020, but it still rose from 30 to 44 million overall. Barley remained the lowest throughout, hovering between 16 and 21 million tonnes, and it ended at its lowest point of 16 million.",
+  "keyAr": "الأرز هو المحصول الوحيد الذي ارتفع في كل الفترات (38 إلى 57 مليون طن) وحلّ محل القمح في الصدارة بين 2016 و2018. بلغ القمح ذروته 58 مليونًا عام 2014 ثم انخفض إلى 50. ارتفع الذرة رغم تذبذبه (30 إلى 44) وبقي الشعير الأدنى (16 مليونًا في النهاية).",
+  "phr": [
+   "in every period",
+   "replaced … as the leading …",
+   "climbed to a peak of …",
+   "recovering slightly to …",
+   "fluctuated",
+   "hovering between … and …"
+  ]
+ }
+]

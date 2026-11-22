@@ -1,0 +1,401 @@
+[
+ {
+  "id": "r-c1-01",
+  "l": "C1",
+  "title": "The Adult Brain and the Second Language",
+  "topic": "science",
+  "paras": [
+   "For decades, it was widely assumed that the window for acquiring a language closes in early adolescence, after which learners are condemned to a heavy accent and halting grammar. This 'critical period' hypothesis drew support from studies of children who migrated abroad and from the everyday observation that young children seem to absorb new languages almost effortlessly. Yet the evidence concerning adults is considerably less bleak than popular belief suggests, and a growing number of researchers now argue that the notion of a sharp biological cut-off is, at best, an oversimplification.",
+   "Brain-imaging studies offer a first corrective. When adults learn a second language, they recruit largely the same network of regions as native speakers, but with revealing differences in efficiency. Beginners show heightened activity in frontal areas associated with effort and self-control, whereas proficient speakers rely more heavily on specialised regions in the temporal lobe, where words are stored and recognised. Over months of practice, activity gradually shifts from the former to the latter, and in some studies the density of grey matter in language-related areas increased measurably among intensive students. The adult brain, in other words, remains remarkably plastic.",
+   "Adults also possess advantages that children lack. They can grasp explicit rules, use their first language as a scaffold, and deploy deliberate strategies such as spaced repetition or the systematic comparison of grammatical structures. In classroom settings, adults and older teenagers frequently outpace young children during the first year of study precisely because they exploit these analytical tools. The child's superiority emerges only in the long term, and chiefly in two areas: pronunciation and the intuitive handling of subtle grammatical patterns that even advanced adult learners find difficult to master.",
+   "One explanation for this long-term difference concerns exposure rather than biology. Children who are immersed in a new country accumulate thousands of hours of meaningful interaction, are corrected gently by patient relatives and teachers, and suffer little social embarrassment when they make mistakes. Adults, by contrast, tend to spend their working days in their first language and use the new one only briefly, often in transactional exchanges with strangers. When researchers compare adults and children who have received equivalent amounts of rich input, the gap narrows considerably, although it rarely disappears altogether.",
+   "Not everyone accepts the exposure account. Sceptics point to the strikingly consistent finding that even highly motivated adults who have lived abroad for decades seldom lose a foreign accent entirely. They argue that sensitivity to speech sounds declines early in life, as neural circuits specialise in the sounds of the native language, making it harder to perceive distinctions that the first language ignores. Defenders of the exposure view reply that a small minority of adults do achieve native-like pronunciation, something a strict biological limit ought to forbid. The dispute remains unresolved, not least because it is almost impossible to measure a lifetime of exposure accurately.",
+   "Whatever the final verdict, several lines of research converge on practical advice. Sleep appears to consolidate newly learnt vocabulary; retrieving words from memory strengthens them far more than rereading a list; and meeting a word in several contexts fixes its meaning more securely than meeting it once. Emotional factors matter as well. Learners who regard errors as information rather than failure tend to speak more, and therefore improve more quickly. Some commentators have gone further, claiming that bilingualism delays the onset of dementia, but the evidence for this is mixed, and such claims should be treated with caution until larger studies are completed. For adult learners with limited time, the practical message is that short, frequent sessions of active recall are likely to be more productive than occasional marathon study days.",
+   "The overall picture, then, is one of gradual change rather than a sudden closing door. Age certainly influences the route a learner takes and, perhaps, the final destination, but motivation, quality of input and sheer time on task exert at least as much influence. Adults who treat their analytical maturity as an asset, rather than an excuse for abandoning the attempt, are likely to progress further than the old hypothesis would predict."
+  ],
+  "gloss": [
+   {
+    "w": "hypothesis",
+    "ar": "فرضية"
+   },
+   {
+    "w": "plastic",
+    "ar": "مرِن، قابل للتشكّل"
+   },
+   {
+    "w": "scaffold",
+    "ar": "دعامة، سند مؤقت"
+   },
+   {
+    "w": "outpace",
+    "ar": "يتفوّق في السرعة على"
+   },
+   {
+    "w": "consolidate",
+    "ar": "يرسّخ، يثبّت"
+   },
+   {
+    "w": "sceptic",
+    "ar": "متشكّك"
+   },
+   {
+    "w": "converge",
+    "ar": "تلتقي، تتقارب"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "Researchers are now unanimous that adult language learning is not limited by any biological factor.",
+    "a": "F",
+    "why": "الفقرة 4 تعرض المتشككين، والنزاع ما زال دون حسم؛ فليس هناك إجماع."
+   },
+   {
+    "k": "tfng",
+    "q": "Proficient speakers depend more than beginners on specialised areas of the temporal lobe.",
+    "a": "T",
+    "why": "الفقرة 1: المتقنون يعتمدون أكثر على مناطق الفص الصدغي المتخصصة."
+   },
+   {
+    "k": "tfng",
+    "q": "Adults who study two foreign languages at once progress more slowly than those who study only one.",
+    "a": "NG",
+    "why": "النص لا يتحدث عن تعلّم لغتين في وقت واحد."
+   },
+   {
+    "k": "tfng",
+    "q": "Adults remember new vocabulary better when they study in the morning than in the evening.",
+    "a": "NG",
+    "why": "الفقرة 5 تذكر النوم والاسترجاع والسياق، لا وقت الدراسة."
+   },
+   {
+    "k": "head",
+    "para": 4,
+    "o": [
+     "A biological argument against the exposure explanation",
+     "Why adults make quicker early progress",
+     "The role of sleep in memory",
+     "Changes in grey matter with age"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "Adults can use their first language as a ___ when they study new grammar.",
+    "a": [
+     "scaffold"
+    ],
+    "why": "الفقرة 2: يستخدمون لغتهم الأولى كدعامة (scaffold)."
+   },
+   {
+    "k": "gap",
+    "q": "Children immersed in a new country suffer little social ___ when they make mistakes.",
+    "a": [
+     "embarrassment"
+    ],
+    "why": "الفقرة 3: الأطفال لا يشعرون بإحراج اجتماعي كبير عند الخطأ."
+   },
+   {
+    "k": "mc",
+    "q": "According to the passage, adults often learn faster than children in the first year because they",
+    "o": [
+     "receive more exposure to the language",
+     "make use of analytical tools",
+     "have more flexible neural circuits"
+    ],
+    "a": 1,
+    "why": "الفقرة 2: يتفوقون لأنهم يستغلون الأدوات التحليلية كالقواعد الصريحة."
+   },
+   {
+    "k": "mc",
+    "q": "What do sceptics of the exposure account use as their main evidence?",
+    "o": [
+     "Children receive less input than adults do.",
+     "Pronunciation cannot be measured reliably.",
+     "Determined adults who live abroad for decades still keep a foreign accent."
+    ],
+    "a": 2,
+    "why": "الفقرة 4: يستشهدون ببقاء اللكنة الأجنبية لدى كبار حتى بعد عقود."
+   },
+   {
+    "k": "mc",
+    "q": "The writer's attitude to the claim that bilingualism delays dementia is",
+    "o": [
+     "cautious, pending further research",
+     "strongly supportive",
+     "entirely dismissive"
+    ],
+    "a": 0,
+    "why": "الفقرة 5: الأدلة متباينة ويجب التعامل مع الادعاء بحذر."
+   }
+  ],
+  "sumAr": "يناقش النص فرضية الفترة الحرجة ويبيّن أن دماغ البالغ لا يزال مرِنًا وأن للكبار مزايا تحليلية، مع بقاء الخلاف حول سبب تفوّق الأطفال في النطق على المدى الطويل."
+ },
+ {
+  "id": "r-c1-02",
+  "l": "C1",
+  "title": "The Paradox of Choice",
+  "topic": "society",
+  "paras": [
+   "Few ideas are as firmly embedded in modern economic thinking as the belief that more choice is always better. If a shopper dislikes one option, the reasoning goes, she may simply ignore it; an additional alternative can therefore make her no worse off and may make her better off. This assumption underpins the way supermarkets, telecom providers and online platforms organise their offerings. Over the past two decades, however, a body of psychological research has challenged it, suggesting that an abundance of options can leave people less satisfied, less decisive and, in some cases, less likely to act at all.",
+   "The classic demonstrations are simple. In experiments of this type, one group of participants is shown a small selection of products while another sees a much larger range of the same goods. The group with the larger range frequently reports greater enjoyment of the browsing, yet is less likely to make a purchase and, when it does, expresses weaker confidence in its decision. Similar patterns have been reported with pension funds, where employees confronted with dozens of schemes sometimes fail to enrol in any of them, thereby forgoing the very benefit the choice was meant to provide.",
+   "Several mechanisms have been proposed to explain this. The first is cognitive overload: comparing many options across many attributes demands more mental effort than people can comfortably invest. The second concerns opportunity cost. Every option selected means a dozen forgone, and the more attractive alternatives there are, the more vividly one imagines what has been lost. The third is escalating expectations. When only three varieties are available, a mediocre result is easily attributed to limited supply; when hundreds are available, disappointment feels like a personal failure, and regret follows. Some researchers add a fourth factor, social comparison: knowing that others have chosen differently makes a person doubt her own selection.",
+   "Individual temperament appears to play a part. Psychologists distinguish between 'maximisers', who search exhaustively for the best possible option, and 'satisficers', who are content with one that meets their requirements. Maximisers often achieve objectively better outcomes, such as higher starting salaries, but they tend to report lower satisfaction and more frequent regret. The satisficer's strategy, which looks modest, may therefore be the more rational one if the goal is wellbeing rather than optimisation.",
+   "The paradox has not gone unchallenged. Attempts to replicate the early experiments have produced inconsistent results, and a major review of the literature concluded that the average effect of larger assortments is close to zero. Closer inspection suggests that the effect depends on circumstances. Choice overload seems most likely when the options are difficult to compare, when the chooser has no clear preference to begin with, and when time is short. A shopper who knows precisely what she wants, or an expert who can instantly rule out most of the alternatives, is largely immune. Critics also note that laboratory choices carry few consequences, which may exaggerate the problem.",
+   "Policy debates have been shaped by these findings, sometimes unhelpfully. Some commentators draw the conclusion that governments and employers should simply reduce the number of options available. Yet restricting choice carries its own dangers, since people value autonomy and resent being steered, particularly in matters concerning health or money. A more defensible response is to improve how choices are presented: sensible default options for those who do not wish to decide, clear categories that allow quick filtering, and comparison tools that highlight the few attributes that really matter. Such measures respect the individual's freedom while sparing her the burden of examining every alternative personally.",
+   "The most plausible reading of the evidence is thus neither that choice is a blessing nor that it is a curse. It is a resource whose value depends on how well people are equipped to use it. Designers who curate options thoughtfully, and consumers who learn to set their criteria before they begin browsing, are likely to gain the benefits of variety without paying its psychological price."
+  ],
+  "gloss": [
+   {
+    "w": "embedded",
+    "ar": "راسخ، متجذّر"
+   },
+   {
+    "w": "abundance",
+    "ar": "وفرة"
+   },
+   {
+    "w": "forgo",
+    "ar": "يتخلّى عن، يفوّت"
+   },
+   {
+    "w": "escalating",
+    "ar": "متصاعد"
+   },
+   {
+    "w": "temperament",
+    "ar": "طبع، مزاج"
+   },
+   {
+    "w": "replicate",
+    "ar": "يكرّر (تجربة) للتحقق"
+   },
+   {
+    "w": "immune",
+    "ar": "محصَّن، غير متأثر"
+   },
+   {
+    "w": "curate",
+    "ar": "ينتقي ويُنظّم بعناية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "Traditional economic theory assumes that adding an extra option can never make a consumer worse off.",
+    "a": "T",
+    "why": "الفقرة 0: خيار إضافي لا يجعلها أسوأ حالًا حسب الافتراض التقليدي."
+   },
+   {
+    "k": "tfng",
+    "q": "Maximisers tend to feel less satisfied with their decisions than satisficers do.",
+    "a": "T",
+    "why": "الفقرة 3: المعظِّمون يبلغون عن رضا أقل وندم أكثر."
+   },
+   {
+    "k": "tfng",
+    "q": "Shoppers in rural areas are more affected by choice overload than shoppers in cities.",
+    "a": "NG",
+    "why": "النص لا يقارن بين الريف والمدينة."
+   },
+   {
+    "k": "tfng",
+    "q": "A review of the research found that large assortments harm decision-making in every situation.",
+    "a": "F",
+    "why": "الفقرة 4: المراجعة وجدت أن الأثر المتوسط قريب من الصفر ويتوقف على الظروف."
+   },
+   {
+    "k": "head",
+    "para": 5,
+    "o": [
+     "The risks of removing choice and better ways of presenting it",
+     "Why pension schemes fail",
+     "The psychology of regret",
+     "How supermarkets arrange products"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "Choosing one option means giving up many others, which is known as ___ cost.",
+    "a": [
+     "opportunity"
+    ],
+    "why": "الفقرة 2: الثاني هو تكلفة الفرصة (opportunity cost)."
+   },
+   {
+    "k": "gap",
+    "q": "People who are content with an option that meets their requirements are called ___.",
+    "a": [
+     "satisficers"
+    ],
+    "why": "الفقرة 3: الذين يقتنعون بما يلبي متطلباتهم هم satisficers."
+   },
+   {
+    "k": "mc",
+    "q": "Why does the writer mention pension funds?",
+    "o": [
+     "To illustrate that too many schemes can prevent people from enrolling",
+     "To show that employees dislike saving money",
+     "To argue that governments should abolish pensions"
+    ],
+    "a": 0,
+    "why": "الفقرة 1: كثرة الخطط قد تدفع الموظفين إلى عدم الاشتراك في أي منها."
+   },
+   {
+    "k": "mc",
+    "q": "According to the passage, choice overload is least likely to affect",
+    "o": [
+     "people who are short of time",
+     "experts who can quickly eliminate most options",
+     "those comparing very similar products"
+    ],
+    "a": 1,
+    "why": "الفقرة 4: الخبير الذي يستبعد معظم البدائل فورًا محصَّن إلى حد كبير."
+   },
+   {
+    "k": "mc",
+    "q": "What is the writer's overall conclusion?",
+    "o": [
+     "Choice is harmful and should be limited.",
+     "Choice is always beneficial to consumers.",
+     "The value of choice depends on how well it is managed and used."
+    ],
+    "a": 2,
+    "why": "الفقرة 6: الخيار مورد تتوقف قيمته على حسن استخدامه وتنظيمه."
+   }
+  ],
+  "sumAr": "يعرض النص فكرة أن كثرة الخيارات قد تُنقص الرضا وتؤخر القرار، ثم يبيّن أن الأثر يتوقف على الظروف، ويخلص إلى أن حسن تقديم الخيارات أهم من تقليلها."
+ },
+ {
+  "id": "r-c1-03",
+  "l": "C1",
+  "title": "Transparency and Trust in Public Institutions",
+  "topic": "government",
+  "paras": [
+   "It seems almost self-evident that openness breeds trust. Citizens who can see how a ministry spends its budget, how a contract was awarded or how a licence was granted will, one assumes, feel more confident that those in power are acting honestly. This belief has inspired a generation of reforms: freedom-of-information laws, public registers of officials' assets, open-data portals and live broadcasts of council meetings. Yet the empirical record is more ambiguous than the slogan implies, and understanding why is essential for anyone designing anti-corruption policy. Whether openness truly delivers the trust it promises is therefore a question of evidence, not of faith.",
+   "The case for transparency rests on two arguments. The first is deterrence. Officials who know that their decisions may be scrutinised are less likely to favour relatives, accept bribes or conceal errors. The second is accountability: published information gives journalists, auditors and ordinary voters the raw material they need to challenge poor decisions and to reward good ones. Where these mechanisms operate, studies have linked greater openness to lower levels of petty corruption and to more efficient public spending. In principle, therefore, sunlight is the cheapest and least intrusive of all anti-corruption instruments, since it asks officials to change nothing except their willingness to be seen.",
+   "Nevertheless, a puzzling finding has emerged in several countries: increased disclosure is sometimes followed by a fall, rather than a rise, in public confidence. One explanation is that transparency exposes imperfection. Before disclosure, citizens may hold a vaguely positive image of an institution; afterwards, they are confronted with a steady stream of mistakes, delays and minor scandals that were previously hidden. The institution has not necessarily become worse, but it now looks worse. Critics sometimes describe this as the price of honesty, and argue that trust built on ignorance was never genuine in the first place.",
+   "A second difficulty is the quality of the information released. Publishing thousands of pages of unsorted spreadsheets technically satisfies a duty of openness, but it may leave the public no wiser. Researchers have coined the term 'opacity by overload' for situations in which relevant facts are buried beneath irrelevant ones. In such cases, disclosure benefits only the well-resourced, such as large media organisations or professional lobbyists, who can afford to analyse it, and may even widen the gap between ordinary citizens and the state.",
+   "A third objection concerns behaviour. When every exchange may be recorded and published, officials have an incentive to avoid candour. Frank discussion of difficult trade-offs migrates from the meeting room to informal conversations, and recorded sessions become theatrical performances in which the real decisions have already been made. Some scholars therefore distinguish between genuine transparency, which clarifies how decisions are reached, and performative transparency, which merely creates an impression of openness. Defenders of disclosure counter that such evasion is itself a sign of reform's effect, since it shows that officials fear exposure, and that the remedy is better design, not less openness.",
+   "What, then, determines whether disclosure strengthens trust? The evidence points to three conditions. Information must be comprehensible and relevant, which requires summary formats and plain language. It must be interpreted by intermediaries, including independent media, audit offices and civil-society groups, who can turn data into judgements. Above all, it must be linked to consequences. If revealing misconduct leads to no sanction, citizens quickly conclude that exposure is pointless, and cynicism deepens. Transparency without enforcement merely informs people of their own powerlessness. Publication alone changes little unless somebody is both able and willing to act on it.",
+   "The lesson is not that governments should retreat from openness; the alternative, secrecy, is far more likely to nurture suspicion and abuse. Rather, transparency should be understood as a necessary but insufficient ingredient. It works best as part of a system in which information flows to capable watchdogs and in which wrongdoing carries a real cost. Only then can openness be expected to earn the trust it is so often assumed to guarantee. Reformers who forget this risk replacing one form of disappointment with another."
+  ],
+  "gloss": [
+   {
+    "w": "self-evident",
+    "ar": "بديهي"
+   },
+   {
+    "w": "deterrence",
+    "ar": "ردع"
+   },
+   {
+    "w": "scrutinise",
+    "ar": "يدقّق في، يفحص بإمعان"
+   },
+   {
+    "w": "candour",
+    "ar": "صراحة"
+   },
+   {
+    "w": "performative",
+    "ar": "شكلي، استعراضي"
+   },
+   {
+    "w": "comprehensible",
+    "ar": "مفهوم، سهل الإدراك"
+   },
+   {
+    "w": "cynicism",
+    "ar": "تشكّك ساخر، فقدان الثقة"
+   },
+   {
+    "w": "watchdog",
+    "ar": "جهة رقابية"
+   }
+  ],
+  "qs": [
+   {
+    "k": "tfng",
+    "q": "The writer believes that secrecy is a safer approach for governments than disclosure.",
+    "a": "F",
+    "why": "الفقرة 6: السرية أكثر احتمالًا لإنتاج الشك والفساد، فالكاتب لا يؤيدها."
+   },
+   {
+    "k": "tfng",
+    "q": "In some countries, more disclosure has been followed by lower public confidence.",
+    "a": "T",
+    "why": "الفقرة 2: وُجد في عدة دول انخفاض الثقة بعد زيادة الإفصاح."
+   },
+   {
+    "k": "tfng",
+    "q": "Freedom-of-information laws are more effective in large countries than in small ones.",
+    "a": "NG",
+    "why": "النص لا يقارن بين الدول الكبيرة والصغيرة."
+   },
+   {
+    "k": "tfng",
+    "q": "Large media organisations are better placed than ordinary citizens to benefit from unsorted data.",
+    "a": "T",
+    "why": "الفقرة 3: الجهات الغنية بالموارد وحدها تستطيع تحليل البيانات الضخمة."
+   },
+   {
+    "k": "tfng",
+    "q": "Most officials who are filmed during meetings choose to resign from their posts.",
+    "a": "NG",
+    "why": "الفقرة 4 تتحدث عن تجنب الصراحة، لا عن الاستقالة."
+   },
+   {
+    "k": "head",
+    "para": 3,
+    "o": [
+     "Data released in forms the public cannot use",
+     "The cost of public broadcasting",
+     "How lobbyists influence officials",
+     "Why journalists distrust governments"
+    ],
+    "a": 0
+   },
+   {
+    "k": "gap",
+    "q": "Researchers use the term 'opacity by ___' when important facts are buried under irrelevant ones.",
+    "a": [
+     "overload"
+    ],
+    "why": "الفقرة 3: opacity by overload أي الغموض بسبب الإفراط في المعلومات."
+   },
+   {
+    "k": "gap",
+    "q": "Transparency that only creates an impression of openness is called ___ transparency.",
+    "a": [
+     "performative"
+    ],
+    "why": "الفقرة 4: الشفافية الشكلية تسمى performative transparency."
+   },
+   {
+    "k": "mc",
+    "q": "How do defenders of disclosure respond to the problem of officials avoiding candour?",
+    "o": [
+     "They accept that disclosure should be reduced.",
+     "They claim it shows reform is working and call for better design.",
+     "They say that recorded meetings are always honest."
+    ],
+    "a": 1,
+    "why": "الفقرة 4: يرون التهرب دليلًا على خشية المسؤولين ويطالبون بتصميم أفضل."
+   },
+   {
+    "k": "mc",
+    "q": "According to the writer, why may disclosure reduce trust?",
+    "o": [
+     "Citizens see flaws that were previously hidden.",
+     "Institutions deliberately publish false data.",
+     "Journalists exaggerate minor mistakes."
+    ],
+    "a": 0,
+    "why": "الفقرة 2: الإفصاح يكشف الأخطاء التي كانت مخفية فيبدو المؤسسة أسوأ."
+   }
+  ],
+  "sumAr": "يبيّن النص أن الشفافية لا تُنتج الثقة تلقائيًا، فقد تكشف العيوب أو تغرق الناس بالبيانات أو تصبح شكلية، وتنجح فقط عندما تكون مفهومة وتفسّرها جهات رقابية وتقترن بعقوبات."
+ }
+]

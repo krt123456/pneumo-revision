@@ -1,0 +1,91 @@
+[
+{"id":"r-a2-01","l":"A2","title":"A Student's Day","topic":"daily","paras":[
+"Sara is a student at a university in Oran. She studies computer science. Every morning she wakes up at six o'clock and has a quick shower.",
+"She leaves home at seven. She takes the tram to the university because it is cheap and fast. On the tram she reads her notes and listens to a podcast.",
+"Her classes start at eight. She has lectures until twelve, then she eats lunch in the cafeteria with her friends. The cafeteria is big and always full of students. She usually has rice with chicken and a glass of water.",
+"In the afternoon she works in the library. She never studies at home because her little brother is very noisy. She goes home at five and helps her mother cook dinner.",
+"In the evening Sara relaxes. She watches a film or calls her grandmother. She goes to bed at ten, because she must wake up early again tomorrow. On Fridays she sleeps late and visits her aunt."
+],"gloss":[{"w":"lecture","ar":"محاضرة"},{"w":"cafeteria","ar":"مقصف، كافيتيريا"},{"w":"tram","ar":"ترام، قطار المدينة"},{"w":"notes","ar":"ملاحظات، مذكرات"},{"w":"noisy","ar":"مزعج، كثير الضجيج"},{"w":"relax","ar":"يسترخي، يرتاح"}],
+"qs":[
+{"k":"mc","q":"How does Sara go to the university?","o":["By bus","By tram","On foot"],"a":1,"why":"الفقرة 2: تركب الترام لأنه رخيص وسريع."},
+{"k":"mc","q":"Why does Sara never study at home?","o":["She has no desk","Her home is far away","Her little brother is very noisy"],"a":2,"why":"الفقرة 4: أخوها الصغير مزعج جدا."},
+{"k":"mc","q":"What does Sara usually eat for lunch?","o":["Rice with chicken","Fish and bread","Soup and salad"],"a":0,"why":"الفقرة 3: عادة تأكل الأرز مع الدجاج."},
+{"k":"tfng","q":"Sara studies medicine.","a":"F","why":"الفقرة 1: تدرس علوم الحاسوب وليس الطب."},
+{"k":"tfng","q":"Sara's classes start at eight o'clock.","a":"T","why":"الفقرة 3: تبدأ حصصها في الثامنة."},
+{"k":"tfng","q":"Sara has a sister.","a":"NG","why":"النص يذكر أخا صغيرا فقط ولا يذكر أختا."},
+{"k":"gap","q":"Sara wakes up at ___ o'clock every morning.","a":["six"],"why":"الفقرة 1: تستيقظ في الساعة السادسة."},
+{"k":"gap","q":"In the evening she calls her ___.","a":["grandmother"],"why":"الفقرة 5: تتصل بجدتها مساء."}
+],"sumAr":"سارة طالبة حاسوب في وهران، تستيقظ مبكرا وتركب الترام إلى الجامعة. تدرس في المكتبة بعد الغداء وتساعد أمها مساء ثم تنام في العاشرة."},
+
+{"id":"r-a2-02","l":"A2","title":"The Saturday Market","topic":"food","paras":[
+"Every Saturday morning, the main square in our small town becomes a busy market. The sellers arrive before sunrise and put up their tables and colourful umbrellas.",
+"On the left you can buy fresh vegetables. Mr Karim sells tomatoes, onions and big green peppers. His oranges are sweet and cost only one hundred dinars a kilo.",
+"In the middle there is a cheese stall and a bread stall. The baker starts work at three in the morning, so the bread is always warm. Children love the small sweet cakes next to it.",
+"At the back of the square, people sell clothes, pots and old books. You must walk slowly, because it is very crowded. Many customers ask for a lower price, and the sellers usually smile and agree.",
+"I go to the market with my grandfather every week. He always buys honey from the same old woman. Last Saturday we stayed for two hours and carried home five heavy bags."
+],"gloss":[{"w":"stall","ar":"كشك، طاولة بيع"},{"w":"sunrise","ar":"شروق الشمس"},{"w":"crowded","ar":"مزدحم"},{"w":"customer","ar":"زبون"},{"w":"baker","ar":"خباز"},{"w":"price","ar":"سعر"},{"w":"umbrella","ar":"مظلة"}],
+"qs":[
+{"k":"mc","q":"Who starts work at three in the morning?","o":["The vegetable seller","The cheese seller","The baker"],"a":2,"why":"الفقرة 3: الخباز يبدأ العمل في الثالثة صباحا."},
+{"k":"mc","q":"What does Mr Karim sell?","o":["Clothes and books","Tomatoes, onions and peppers","Bread and cakes"],"a":1,"why":"الفقرة 2: يبيع الطماطم والبصل والفلفل."},
+{"k":"mc","q":"Why must you walk slowly at the back of the square?","o":["It is very crowded","The ground is wet","It is very hot"],"a":0,"why":"الفقرة 4: المكان مزدحم جدا."},
+{"k":"tfng","q":"The market is open every day.","a":"F","why":"الفقرة 1: السوق يقام كل يوم سبت فقط."},
+{"k":"tfng","q":"Children love the small sweet cakes.","a":"T","why":"الفقرة 3: الأطفال يحبون الكعك الحلو الصغير."},
+{"k":"tfng","q":"The old woman sells honey at a low price.","a":"NG","why":"الفقرة 5: تُذكر العجوز والعسل دون ذكر السعر."},
+{"k":"gap","q":"The sellers arrive before ___.","a":["sunrise"],"why":"الفقرة 1: يصل البائعون قبل شروق الشمس."},
+{"k":"gap","q":"Last Saturday they carried home five heavy ___.","a":["bags"],"why":"الفقرة 5: حملا إلى البيت خمس حقائب ثقيلة."}
+],"sumAr":"في كل يوم سبت تتحول ساحة البلدة الصغيرة إلى سوق مزدحم فيه خضار وخبز وجبن وملابس. يذهب الكاتب مع جده كل أسبوع ويشتريان العسل ويعودان بحقائب ثقيلة."},
+
+{"id":"r-a2-03","l":"A2","title":"An Email from Canada","topic":"communication","paras":[
+"Hi Omar, how are you? I am writing from my new flat in Montreal, Canada. I moved here three weeks ago with my family, and I miss you all very much.",
+"The city is beautiful, but it is very cold! Yesterday it was minus twelve degrees. I wear a big coat, a hat and gloves every day. I can't go out without them.",
+"My new school is big and modern. The students are friendly, but they speak English and French very fast. I understand about half of the words. My teacher says I must practise every day, so I am going to watch films in French.",
+"I have one problem: the food. I can't find our spices in the shops, and my mother is sad about that. Next month we are going to visit an Arabic shop on the other side of the city.",
+"Please write soon and tell me about the football team. Are you still the best player? Say hello to your parents. Your friend, Hamza"
+],"gloss":[{"w":"flat","ar":"شقة"},{"w":"gloves","ar":"قفازات"},{"w":"spices","ar":"توابل، بهارات"},{"w":"practise","ar":"يتمرّن، يتدرّب"},{"w":"modern","ar":"عصري، حديث"},{"w":"friendly","ar":"ودود"}],
+"qs":[
+{"k":"mc","q":"Where does Hamza live now?","o":["In Algiers","In Paris","In Montreal"],"a":2,"why":"الفقرة 1: يكتب من شقته الجديدة في مونتريال."},
+{"k":"mc","q":"When did Hamza move?","o":["Three weeks ago","Three months ago","Yesterday"],"a":0,"why":"الفقرة 1: انتقل قبل ثلاثة أسابيع."},
+{"k":"mc","q":"Why is Hamza's mother sad?","o":["She misses her friends","She can't find their spices","She has no job"],"a":1,"why":"الفقرة 4: لا تجد التوابل التي اعتادوها في المحلات."},
+{"k":"tfng","q":"Hamza's new school is small.","a":"F","why":"الفقرة 3: مدرسته كبيرة وحديثة."},
+{"k":"tfng","q":"Hamza is going to watch films in French.","a":"T","why":"الفقرة 3: ينوي مشاهدة أفلام بالفرنسية ليتمرن."},
+{"k":"tfng","q":"Hamza has a new best friend in Canada.","a":"NG","why":"لا يذكر النص صديقا مقربا جديدا."},
+{"k":"gap","q":"Yesterday it was minus ___ degrees.","a":["twelve"],"why":"الفقرة 2: كانت الحرارة تحت الصفر باثني عشر درجة."},
+{"k":"gap","q":"The students speak English and ___ very fast.","a":["French"],"why":"الفقرة 3: الطلاب يتكلمون الإنجليزية والفرنسية بسرعة."}
+],"sumAr":"يكتب حمزة إلى صديقه عمر من مونتريال بعد انتقاله إليها. يصف البرد الشديد ومدرسته الجديدة ومشكلة التوابل، ويسأل عن فريق كرة القدم."},
+
+{"id":"r-a2-04","l":"A2","title":"A Healthy Breakfast","topic":"food","paras":[
+"Many people skip breakfast, but doctors say it is an important meal. After a night without food, your body needs energy to start the day.",
+"A good breakfast has three parts. First, you need protein, for example eggs, yogurt or a little cheese. Protein keeps you full for a long time.",
+"Second, eat some fibre. Whole bread, oats and fruit are good choices. A banana with a bowl of oats is cheap, quick and tasty.",
+"Third, drink water, milk or fresh orange juice. Try not to drink too much sugary juice or fizzy drinks in the morning. They give you energy for a short time, and then you feel tired again.",
+"Do you have no time in the morning? Don't worry. You can prepare breakfast the night before. Put oats and milk in a jar and leave it in the fridge. In the morning it is ready. Students who eat breakfast often concentrate better in class."
+],"gloss":[{"w":"skip","ar":"يتخطى، يتجاهل"},{"w":"protein","ar":"بروتين"},{"w":"fibre","ar":"ألياف"},{"w":"oats","ar":"شوفان"},{"w":"sugary","ar":"محلّى بالسكر"},{"w":"fizzy","ar":"غازي"},{"w":"concentrate","ar":"يركّز"}],
+"qs":[
+{"k":"mc","q":"What does protein do?","o":["It makes you tired","It keeps you full for a long time","It gives you fibre"],"a":1,"why":"الفقرة 2: البروتين يبقيك شبعانا مدة طويلة."},
+{"k":"mc","q":"Which breakfast is cheap, quick and tasty?","o":["Eggs and cheese","Orange juice and cake","A banana with a bowl of oats"],"a":2,"why":"الفقرة 3: الموز مع الشوفان رخيص وسريع ولذيذ."},
+{"k":"mc","q":"What should you try not to drink too much?","o":["Sugary juice","Water","Milk"],"a":0,"why":"الفقرة 4: تجنب الإكثار من العصير المحلّى."},
+{"k":"tfng","q":"Doctors say breakfast is not important.","a":"F","why":"الفقرة 1: يقول الأطباء إنها وجبة مهمة."},
+{"k":"tfng","q":"You can prepare oats the night before.","a":"T","why":"الفقرة 5: ضع الشوفان والحليب في وعاء في الثلاجة ليلا."},
+{"k":"tfng","q":"Eggs are cheaper than yogurt.","a":"NG","why":"لا يقارن النص بين سعر البيض والزبادي."},
+{"k":"gap","q":"Whole bread, oats and ___ are good choices.","a":["fruit"],"why":"الفقرة 3: الخبز الكامل والشوفان والفاكهة خيارات جيدة."},
+{"k":"gap","q":"You can leave the jar in the ___ overnight.","a":["fridge"],"why":"الفقرة 5: اترك الوعاء في الثلاجة."}
+],"sumAr":"الفطور وجبة مهمة لأن الجسم يحتاج طاقة بعد الليل. الفطور الجيد يضم بروتينا وألياف وشرابا صحيا، ويمكن تحضيره في الليلة السابقة لمن لا وقت لديه."},
+
+{"id":"r-a2-05","l":"A2","title":"A Long Train Journey","topic":"travel","paras":[
+"Last month I took a long train journey from the capital to a town in the south. It takes about twelve hours, so I bought my ticket two weeks before. I chose a seat next to the window.",
+"The train left at seven in the evening. At first I looked at the lights of the city. Then it was dark, and I could only see my own face in the glass.",
+"I had a small bag with sandwiches, water and a book, but I did not read much. A friendly old man sat opposite me. He told me stories about his work as a train driver for thirty years.",
+"At midnight, the train stopped at a small station for twenty minutes. Everyone got off to stretch their legs and buy hot tea. The air was cool and full of stars.",
+"I slept badly, but I woke up at dawn and saw the desert for the first time. The sand was orange and the sky was pink. I forgot that I was tired. Next time I am going to take a blanket."
+],"gloss":[{"w":"journey","ar":"رحلة، سفرة"},{"w":"ticket","ar":"تذكرة"},{"w":"opposite","ar":"مقابل، قبالة"},{"w":"station","ar":"محطة"},{"w":"stretch","ar":"يمدّ، يتمدد"},{"w":"dawn","ar":"فجر"},{"w":"blanket","ar":"بطانية"}],
+"qs":[
+{"k":"mc","q":"When did the train leave?","o":["At seven in the evening","At midnight","At dawn"],"a":0,"why":"الفقرة 2: غادر القطار في السابعة مساء."},
+{"k":"mc","q":"What was the old man's job?","o":["Doctor","Teacher","Train driver"],"a":2,"why":"الفقرة 3: عمل سائق قطار ثلاثين سنة."},
+{"k":"mc","q":"Why did everyone get off the train at midnight?","o":["To buy tickets","To stretch their legs and buy tea","To change trains"],"a":1,"why":"الفقرة 4: نزلوا ليتمددوا ويشتروا الشاي."},
+{"k":"tfng","q":"The journey takes about twelve hours.","a":"T","why":"الفقرة 1: الرحلة تستغرق نحو اثنتي عشرة ساعة."},
+{"k":"tfng","q":"The writer read his book for many hours.","a":"F","why":"الفقرة 3: لم يقرأ كثيرا."},
+{"k":"tfng","q":"The writer travelled with a friend.","a":"NG","why":"النص لا يذكر مرافقا له في السفر."},
+{"k":"gap","q":"He bought his ticket two ___ before.","a":["weeks"],"why":"الفقرة 1: اشترى التذكرة قبل أسبوعين."},
+{"k":"gap","q":"At dawn he saw the ___ for the first time.","a":["desert"],"why":"الفقرة 5: رأى الصحراء لأول مرة عند الفجر."}
+],"sumAr":"يروي الكاتب رحلة قطار طويلة من العاصمة إلى بلدة في الجنوب. التقى رجلا مسنا كان سائق قطار، وتوقف القطار منتصف الليل، ثم رأى الصحراء عند الفجر."}
+]

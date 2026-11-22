@@ -1,0 +1,838 @@
+[
+ {
+  "id": "wl-01",
+  "l": "A2",
+  "title": "Capital letters and punctuation",
+  "titleAr": "الحروف الكبيرة وعلامات الترقيم",
+  "bodyAr": "في العربية لا توجد حروف كبيرة وصغيرة، لذلك ينسى كثير من الطلاب هذه القاعدة المهمة في الإنجليزية. تذكّر ثلاثة أشياء بسيطة.\n**1. الحرف الكبير** نكتبه في بداية كل جملة، وفي أسماء الأشخاص والمدن والبلدان والأيام والأشهر واللغات (Monday, Algeria, English)، وكذلك مع الضمير **I** دائماً.\n**2. النقطة (.)** نضعها في نهاية الجملة الخبرية. وعلامة الاستفهام (?) في نهاية السؤال.\n**3. الفاصلة (,)** نضعها بين عناصر القائمة (I bought apples, bread and milk) وبعد كلمات البداية مثل Yesterday, وقبل but إذا ربطت بها جملتين كاملتين.\nلاحظ أن علامة الترقيم تلتصق بالكلمة التي قبلها ثم تأتي مسافة: Hello, my name is Sara. لا نضع مسافة قبل النقطة أو الفاصلة.\nنصيحة: قبل أن تسلّم أي نص، اقرأه مرة أخيرة وابحث عن ثلاثة أشياء فقط: حرف كبير في أول كل جملة، ونقطة في آخرها، وحرف I كبير.",
+  "examples": [
+   {
+    "bad": "i live in algiers and i like it",
+    "good": "I live in Algiers, and I like it.",
+    "ar": "الحرف الكبير في I وفي Algiers وفي بداية الجملة، والنقطة في النهاية."
+   },
+   {
+    "bad": "Where do you live.",
+    "good": "Where do you live?",
+    "ar": "الجملة سؤال فتنتهي بعلامة استفهام لا بنقطة."
+   },
+   {
+    "bad": "On monday I visit my friends in oran.",
+    "good": "On Monday I visit my friends in Oran.",
+    "ar": "أيام الأسبوع وأسماء المدن تُكتب بحرف كبير."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which word needs a capital letter? \"My brother lives in france.\"",
+    "o": [
+     "brother",
+     "lives",
+     "france"
+    ],
+    "a": 2,
+    "why": "أسماء البلدان تُكتب بحرف كبير."
+   },
+   {
+    "k": "mc",
+    "q": "Which word needs a capital letter? \"Do you speak english?\"",
+    "o": [
+     "Do",
+     "you",
+     "english"
+    ],
+    "a": 2,
+    "why": "أسماء اللغات تُكتب بحرف كبير."
+   },
+   {
+    "k": "gap",
+    "q": "I bought apples___ bread and milk. (write the punctuation mark)",
+    "a": [
+     ","
+    ],
+    "why": "نفصل بين عناصر القائمة بفاصلة."
+   },
+   {
+    "k": "fix",
+    "q": "Yesterday i went to the market.",
+    "bad": "i",
+    "good": [
+     "I"
+    ],
+    "why": "ضمير المتكلم I يُكتب دائماً بحرف كبير."
+   },
+   {
+    "k": "fix",
+    "q": "What is your name.",
+    "bad": "What is your name.",
+    "good": [
+     "What is your name?"
+    ],
+    "why": "السؤال ينتهي بعلامة استفهام."
+   },
+   {
+    "k": "order",
+    "a": "My friend lives in Constantine.",
+    "ar": "صديقي يسكن في قسنطينة."
+   }
+  ]
+ },
+ {
+  "id": "wl-02",
+  "l": "A2",
+  "title": "Joining ideas: and, but, so, because",
+  "titleAr": "ربط الأفكار: and وbut وso وbecause",
+  "bodyAr": "الجمل القصيرة جداً تبدو مملة، لكن الجمل الطويلة بلا ربط تصبح فوضى. أربع كلمات بسيطة تكفي لتبدأ.\n**and** للإضافة: I like tea and I like coffee.\n**but** للتعارض: I like tea, but I don't like coffee.\n**so** للنتيجة: I was tired, so I went to bed. (السبب أولاً ثم النتيجة)\n**because** للسبب: I went to bed because I was tired. (النتيجة أولاً ثم السبب)\nانتبه إلى الفرق: بعد **so** تأتي النتيجة، وبعد **because** يأتي السبب. وبعد because لا نقول so في الجملة نفسها (لا نكتب: Because I was tired, so I slept).\nقاعدة الفاصلة: نضع فاصلة قبل but وso عندما تربطان بين جملتين كاملتين. أما مع and فالفاصلة غير ضرورية في الجمل القصيرة.\nتدريب مفيد: خذ جملتين من يومك واربطهما بكلمة مختلفة كل مرة وانظر كيف يتغير المعنى.",
+  "examples": [
+   {
+    "bad": "I was hungry, because I ate a sandwich.",
+    "good": "I was hungry, so I ate a sandwich.",
+    "ar": "الجوع هو السبب والأكل هو النتيجة، لذلك نستعمل so."
+   },
+   {
+    "bad": "Because it was raining, so we stayed at home.",
+    "good": "Because it was raining, we stayed at home.",
+    "ar": "لا نجمع because وso في جملة واحدة؛ نستعمل واحدة فقط."
+   },
+   {
+    "bad": "I like football and my brother doesn't.",
+    "good": "I like football, but my brother doesn't.",
+    "ar": "الفكرتان متعارضتان فنستعمل but لا and."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "She was ill, ___ she stayed at home.",
+    "o": [
+     "because",
+     "so",
+     "but"
+    ],
+    "a": 1,
+    "why": "المرض سبب والبقاء في البيت نتيجة، فنستعمل so."
+   },
+   {
+    "k": "mc",
+    "q": "I stayed at home ___ I was ill.",
+    "o": [
+     "but",
+     "so",
+     "because"
+    ],
+    "a": 2,
+    "why": "الجملة الثانية تعطي السبب، فنستعمل because."
+   },
+   {
+    "k": "mc",
+    "q": "The film was long, ___ it was interesting.",
+    "o": [
+     "but",
+     "so",
+     "and because"
+    ],
+    "a": 0,
+    "why": "الفكرتان متعارضتان (طويل / ممتع) فنستعمل but."
+   },
+   {
+    "k": "gap",
+    "q": "I have an exam tomorrow, ___ I am studying tonight.",
+    "a": [
+     "so"
+    ],
+    "why": "الامتحان سبب والدراسة نتيجة، فنستعمل so."
+   },
+   {
+    "k": "fix",
+    "q": "He studied hard because he passed the exam.",
+    "bad": "because",
+    "good": [
+     "so"
+    ],
+    "why": "النجاح نتيجة للدراسة، لذلك نستعمل so وليس because."
+   },
+   {
+    "k": "order",
+    "a": "I like tea, but I don't like coffee.",
+    "ar": "أحب الشاي لكنني لا أحب القهوة."
+   }
+  ]
+ },
+ {
+  "id": "wl-03",
+  "l": "A2",
+  "title": "The parts of a paragraph",
+  "titleAr": "أجزاء الفقرة",
+  "bodyAr": "الفقرة الجيدة تشبه بيتاً صغيراً: لها مدخل وغرف وباب أخير. وفي الإنجليزية تتكون من ثلاثة أجزاء.\n**1. جملة الموضوع (topic sentence):** أول جملة، وتقول الفكرة الرئيسية للفقرة. مثال: My town is a good place for students.\n**2. جمل الدعم (supporting sentences):** من جملتين إلى أربع، وتشرح الفكرة بأسباب أو أمثلة أو تفاصيل. مثال: There is a big library. Rents are cheap. The buses are frequent.\n**3. الجملة الختامية (closing sentence):** تعيد الفكرة بكلمات مختلفة أو تعطي خلاصة. مثال: That is why I recommend it.\nكل جمل الدعم يجب أن تتحدث عن الفكرة نفسها فقط. إذا ظهرت فكرة جديدة فابدأ فقرة جديدة.\nاستعمل كلمات تنظيم مثل First, Also, For example, In short لتساعد القارئ على متابعة أفكارك.\nقبل الكتابة اسأل نفسك: ما فكرتي الرئيسية في جملة واحدة؟ ثم اكتبها أولاً.",
+  "examples": [
+   {
+    "bad": "I like my town. My brother has a car. I play football.",
+    "good": "My town is a good place for students. There is a big library. Rents are cheap.",
+    "ar": "الجملة الأولى في المثال الجيد تعلن الفكرة، والباقي يدعمها."
+   },
+   {
+    "bad": "There are many parks. In short, it is a green city.",
+    "good": "My city is green. There are many parks. In short, it is a green city.",
+    "ar": "الفقرة تحتاج جملة موضوع في البداية قبل الدعم والخاتمة."
+   },
+   {
+    "bad": "My school is great. The teachers are kind. My father works in a bank.",
+    "good": "My school is great. The teachers are kind. The library is big.",
+    "ar": "الجملة عن عمل الأب لا تدعم فكرة المدرسة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "What is the job of a topic sentence?",
+    "o": [
+     "It gives the main idea.",
+     "It gives an example.",
+     "It ends the paragraph."
+    ],
+    "a": 0,
+    "why": "جملة الموضوع تعرض الفكرة الرئيسية وتأتي أولاً."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is the best closing sentence?",
+    "o": [
+     "I have a brother.",
+     "In short, exercise is good for your health.",
+     "Football is popular."
+    ],
+    "a": 1,
+    "why": "الجملة الختامية تلخص الفكرة وغالباً تبدأ بعبارة مثل In short."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the best topic sentence for a paragraph about the library.",
+    "o": [
+     "The library is the best place to study in my university.",
+     "I went there yesterday.",
+     "Books are made of paper."
+    ],
+    "a": 0,
+    "why": "جملة الموضوع تقدم الفكرة التي ستدعمها الجمل التالية."
+   },
+   {
+    "k": "gap",
+    "q": "A supporting sentence gives a reason or an ___.",
+    "a": [
+     "example"
+    ],
+    "why": "جمل الدعم تعطي أسباباً أو أمثلة."
+   },
+   {
+    "k": "fix",
+    "q": "My town is quiet. There is a park. My cousin likes pizza.",
+    "bad": "My cousin likes pizza.",
+    "good": [
+     "The people are friendly."
+    ],
+    "why": "الجملة الأخيرة خارج الموضوع؛ استبدلها بجملة تدعم فكرة البلدة."
+   },
+   {
+    "k": "order",
+    "a": "My town is a good place to live.",
+    "ar": "بلدتي مكان جيد للعيش."
+   }
+  ]
+ },
+ {
+  "id": "wl-04",
+  "l": "A2",
+  "title": "Common mistakes of Arabic speakers",
+  "titleAr": "أشهر أخطاء الكتابة عند الناطقين بالعربية",
+  "bodyAr": "هناك أربعة أخطاء يقع فيها العرب كثيراً، وسببها أن العربية تعمل بطريقة مختلفة.\n**1. الجمل الطويلة المربوطة بـ and:** في العربية نستعمل الواو كثيراً، أما الإنجليزية فتفضّل جملاً قصيرة تنتهي بنقطة. اجعل كل فكرة جملة.\n**2. نسيان is/are:** الجملة العربية الاسمية لا تحتاج فعلاً (الجو جميل)، لكن الإنجليزية تحتاج دائماً فعلاً: The weather is nice.\n**3. the الناقصة أو الزائدة:** نستعمل the مع شيء محدد معروف (the sun, the teacher)، ولا نستعملها مع الكلام العام (I like music, not the music). وللمفرد المعدود نحتاج a/an.\n**4. ترتيب الصفة:** الصفة في العربية بعد الاسم (بيت كبير)، وفي الإنجليزية قبله: a big house. وهي لا تتغير مع الجمع: two big houses.\nنصيحة: بعد الكتابة اسأل ثلاثة أسئلة: هل في كل جملة فعل؟ هل الصفة قبل الاسم؟ هل the في مكانها؟",
+  "examples": [
+   {
+    "bad": "My house big.",
+    "good": "My house is big.",
+    "ar": "الإنجليزية تحتاج فعل to be حتى مع الصفة."
+   },
+   {
+    "bad": "I have a car red.",
+    "good": "I have a red car.",
+    "ar": "الصفة تأتي قبل الاسم في الإنجليزية."
+   },
+   {
+    "bad": "I like the football.",
+    "good": "I like football.",
+    "ar": "مع الكلام العام عن شيء نحبه لا نستعمل the."
+   },
+   {
+    "bad": "I woke up and I washed and I ate and I went to school and I met my friend.",
+    "good": "I woke up and washed. I ate breakfast and went to school. There I met my friend.",
+    "ar": "اقسم الجملة الطويلة إلى جمل قصيرة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Choose the correct sentence.",
+    "o": [
+     "The students are happy.",
+     "The students happy.",
+     "The students is happy."
+    ],
+    "a": 0,
+    "why": "نحتاج are مع الجمع."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the correct sentence.",
+    "o": [
+     "She is a teacher kind.",
+     "She is kind a teacher.",
+     "She is a kind teacher."
+    ],
+    "a": 2,
+    "why": "الصفة تأتي قبل الاسم."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is correct?",
+    "o": [
+     "I love the nature.",
+     "I love nature.",
+     "I love a nature."
+    ],
+    "a": 1,
+    "why": "عندما نتحدث عن الطبيعة بشكل عام لا نضع the."
+   },
+   {
+    "k": "gap",
+    "q": "Algeria ___ a big country.",
+    "a": [
+     "is"
+    ],
+    "why": "الجملة تحتاج فعل is حتى لو لم تحتج العربية إلى فعل."
+   },
+   {
+    "k": "fix",
+    "q": "My teacher very nice.",
+    "bad": "My teacher very nice.",
+    "good": [
+     "My teacher is very nice."
+    ],
+    "why": "الجملة تفتقد الفعل is."
+   },
+   {
+    "k": "fix",
+    "q": "I saw a car blue near the school.",
+    "bad": "car blue",
+    "good": [
+     "blue car"
+    ],
+    "why": "الصفة تأتي قبل الاسم."
+   }
+  ]
+ },
+ {
+  "id": "wl-05",
+  "l": "A2",
+  "title": "Writing a clear email",
+  "titleAr": "كتابة رسالة إلكترونية واضحة",
+  "bodyAr": "الرسالة الواضحة تُقرأ بسرعة ويسهل الرد عليها. اتبع هذا الترتيب البسيط.\n**1. التحية:** Dear Mr Hadi, للرسمي وHi Sara, للودي.\n**2. سبب الرسالة في الجملة الأولى:** I am writing to ask about... أو I am writing to invite you to...\n**3. التفاصيل:** اكتب ما يحتاجه القارئ فقط: التاريخ والوقت والمكان والسؤال.\n**4. ما تريده من القارئ:** Please send me... أو Could you tell me...?\n**5. الخاتمة:** Thank you for your help. ثم Best wishes, للودي وYours sincerely, للرسمي مع اسمك.\nاجعل الموضوع (Subject) قصيراً ومحدداً مثل: Question about the exam time.\nلا تكتب بحروف كبيرة كلها، ولا تستعمل الاختصارات مثل plz أو u في الرسائل الرسمية.\nاقرأ رسالتك قبل الإرسال وتأكد أن القارئ يعرف ما المطلوب منه بعد ثلاثين ثانية.",
+  "examples": [
+   {
+    "bad": "Hi teacher, give me the exam date.",
+    "good": "Dear Mr Hadi, could you tell me the date of the exam, please?",
+    "ar": "في الرسالة الرسمية نبدأ بـ Dear ونطلب بأدب بـ could you ... please."
+   },
+   {
+    "bad": "Subject: hello",
+    "good": "Subject: Question about the exam time",
+    "ar": "الموضوع المحدد يساعد القارئ على فهم الرسالة قبل فتحها."
+   },
+   {
+    "bad": "Thanks, Ali",
+    "good": "Thank you for your help. Best wishes, Ali",
+    "ar": "الخاتمة المهذبة وعبارة التوقيع تجعل الرسالة كاملة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which opening is best for a formal email to a teacher?",
+    "o": [
+     "Hey teacher,",
+     "Dear Mrs Amel,",
+     "Hi hi,"
+    ],
+    "a": 1,
+    "why": "Dear + اللقب والاسم هو الأنسب في الرسالة الرسمية."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence states the reason for writing?",
+    "o": [
+     "I am writing to ask about the course.",
+     "See you soon.",
+     "I like my teacher."
+    ],
+    "a": 0,
+    "why": "I am writing to ... تذكر سبب الرسالة مباشرة."
+   },
+   {
+    "k": "mc",
+    "q": "Which ending is formal?",
+    "o": [
+     "Bye bye,",
+     "Yours sincerely,",
+     "Cheers,"
+    ],
+    "a": 1,
+    "why": "Yours sincerely, هي خاتمة الرسالة الرسمية."
+   },
+   {
+    "k": "gap",
+    "q": "Could you ___ me the time of the meeting, please?",
+    "a": [
+     "tell"
+    ],
+    "why": "Could you tell me ... طريقة مهذبة للسؤال."
+   },
+   {
+    "k": "fix",
+    "q": "Dear Mr Hadi, send me the file.",
+    "bad": "send me the file.",
+    "good": [
+     "could you send me the file, please?",
+     "please send me the file."
+    ],
+    "why": "الأمر المباشر غير مهذب في رسالة رسمية؛ أضف please أو could you."
+   },
+   {
+    "k": "order",
+    "a": "I am writing to ask about the exam.",
+    "ar": "أكتب لأسأل عن الامتحان."
+   }
+  ]
+ },
+ {
+  "id": "wl-06",
+  "l": "B1",
+  "title": "Linking words: adding, contrasting, giving examples",
+  "titleAr": "كلمات الربط: الإضافة والتناقض والأمثلة",
+  "bodyAr": "الكتابة الجيدة لا تعرض أفكاراً متفرقة، بل تربطها. تعلّم ثلاث مجموعات.\n**للإضافة:** also, in addition, moreover, as well as. مثال: The course is cheap. In addition, it is online.\n**للتناقض:** but, however, although, whereas, on the other hand. مثال: Cars are fast. However, they cause pollution.\n**للأمثلة:** for example, for instance, such as. مثال: Many cities have problems, such as traffic and noise.\nانتبه إلى علامات الترقيم: كلمات مثل However وIn addition تأتي في بداية جملة جديدة وبعدها فاصلة، أو بعد فاصلة منقوطة (;). ولا نربط بها جملتين بفاصلة عادية فقط.\nأما although فتربط جملتين في جملة واحدة ولا يأتي بعدها but: Although it was cold, we went out.\nلا تفرط في استعمال الروابط؛ يكفي رابط واحد في كل انتقال حقيقي بين فكرتين.",
+  "examples": [
+   {
+    "bad": "The test was hard, however I passed.",
+    "good": "The test was hard. However, I passed.",
+    "ar": "However تبدأ جملة جديدة وبعدها فاصلة."
+   },
+   {
+    "bad": "Although it was expensive, but I bought it.",
+    "good": "Although it was expensive, I bought it.",
+    "ar": "لا نستعمل although وbut معاً."
+   },
+   {
+    "bad": "I like fruit, for example, apples are cheap.",
+    "good": "I like fruit, for example apples and oranges.",
+    "ar": "for example يقدم المثال نفسه وليس جملة جديدة غير مرتبطة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Choose the best linker: Online lessons are flexible. ___, they save travel time.",
+    "o": [
+     "However",
+     "In addition",
+     "For example"
+    ],
+    "a": 1,
+    "why": "الجملة الثانية تضيف ميزة، فنستعمل In addition."
+   },
+   {
+    "k": "mc",
+    "q": "It rained all day. ___, we enjoyed the trip.",
+    "o": [
+     "Moreover",
+     "Nevertheless",
+     "For instance"
+    ],
+    "a": 1,
+    "why": "هنا تناقض بين المطر والاستمتاع، فنحتاج رابط تناقض."
+   },
+   {
+    "k": "mc",
+    "q": "Many fruits are rich in vitamins, ___ oranges and kiwis.",
+    "o": [
+     "such as",
+     "however",
+     "moreover"
+    ],
+    "a": 0,
+    "why": "such as تُدخل أمثلة على الفاكهة."
+   },
+   {
+    "k": "gap",
+    "q": "___ the road was closed, we arrived on time.",
+    "a": [
+     "Although",
+     "Even though"
+    ],
+    "why": "الجملتان متناقضتان ونحتاج رابطاً يبدأ جملة تابعة."
+   },
+   {
+    "k": "fix",
+    "q": "The hotel was cheap, however it was clean.",
+    "bad": "however",
+    "good": [
+     "but"
+    ],
+    "why": "جملة واحدة بفاصلة قبل however غير صحيحة؛ استعمل but أو ابدأ جملة جديدة."
+   },
+   {
+    "k": "order",
+    "a": "Moreover, the course is free for students.",
+    "ar": "علاوة على ذلك، الدورة مجانية للطلاب."
+   }
+  ]
+ },
+ {
+  "id": "wl-07",
+  "l": "B1",
+  "title": "Giving an opinion with reasons and an example",
+  "titleAr": "إبداء الرأي مع الأسباب والمثال",
+  "bodyAr": "الرأي بلا سبب يبدو ضعيفاً. استعمل هذا الهيكل الواضح.\n**1. الرأي:** In my opinion, ... / I believe that ... / I strongly agree that ...\n**2. السبب:** The main reason is that ... / This is because ...\n**3. المثال:** For example, ... / For instance, ...\n**4. الخلاصة:** For this reason, ... / That is why ...\nمثال كامل: In my opinion, public libraries should be free. The main reason is that books are expensive for many families. For example, a student who cannot buy a textbook can borrow it. That is why free libraries help education.\nحاول أن يكون المثال محدداً وسهل التخيل (a student, a small town) بدلاً من الكلام العام.\nويمكنك إظهار أنك تفكر في الرأي الآخر: Some people say ..., but I think ...\nتذكر أن الرأي لا يحتاج كلمة I think في كل جملة؛ جملة واحدة في البداية تكفي.",
+  "examples": [
+   {
+    "bad": "Libraries are good because they are good.",
+    "good": "Libraries are good because they give free access to books.",
+    "ar": "السبب يجب أن يضيف معلومة لا أن يكرر الرأي."
+   },
+   {
+    "bad": "I think cities need parks. It is useful.",
+    "good": "I think cities need parks. The main reason is that people can relax and exercise there.",
+    "ar": "السبب يحتاج جملة كاملة تشرح لماذا."
+   },
+   {
+    "bad": "Online study is better. Everybody knows it.",
+    "good": "In my opinion, online study is better. For example, I can watch a lecture again if I miss something.",
+    "ar": "نستبدل الادعاء العام بمثال شخصي محدد."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which phrase introduces an opinion?",
+    "o": [
+     "In addition,",
+     "For example,",
+     "In my opinion,"
+    ],
+    "a": 2,
+    "why": "In my opinion تُستعمل للتصريح بالرأي."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence gives a reason?",
+    "o": [
+     "I like cars.",
+     "The main reason is that parking is expensive.",
+     "See you tomorrow."
+    ],
+    "a": 1,
+    "why": "The main reason is that ... تقدم السبب."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the best example: Reading helps learners. ___",
+    "o": [
+     "For example, I learnt ten new words from one short article.",
+     "Reading is reading.",
+     "Books exist."
+    ],
+    "a": 0,
+    "why": "المثال المحدد يدعم الفكرة ويسهل تذكرها."
+   },
+   {
+    "k": "gap",
+    "q": "In my ___, school uniforms are a good idea.",
+    "a": [
+     "opinion",
+     "view"
+    ],
+    "why": "عبارة In my opinion أو In my view تُستعمل للتصريح بالرأي."
+   },
+   {
+    "k": "fix",
+    "q": "I believe that homework is useful because it is useful.",
+    "bad": "it is useful",
+    "good": [
+     "it helps students practise",
+     "it helps students to practise"
+    ],
+    "why": "استبدل السبب المكرر بسبب حقيقي يشرح الفكرة."
+   },
+   {
+    "k": "trans",
+    "q": "Many people think that cycling is healthy. I agree.",
+    "start": "In my opinion,",
+    "a": [
+     "In my opinion, cycling is healthy."
+    ],
+    "why": "نبدأ بـ In my opinion ثم نكتب الرأي نفسه."
+   }
+  ]
+ },
+ {
+  "id": "wl-08",
+  "l": "B1",
+  "title": "Avoiding repetition: pronouns and synonyms",
+  "titleAr": "تجنب التكرار: الضمائر والمرادفات",
+  "bodyAr": "تكرار الكلمة نفسها يجعل الفقرة ثقيلة. هناك ثلاث طرق سهلة لتجنب ذلك.\n**1. الضمائر:** he, she, it, they, this. بدل: The teacher is kind. The teacher helps us. اكتب: The teacher is kind. She helps us.\n**2. المرادفات:** كلمات قريبة في المعنى: big / large، buy / purchase، problem / difficulty، important / essential.\n**3. كلمات عامة تلخص الفكرة:** this problem, this idea, these changes. مثال: The city built new roads. These changes reduced traffic.\nانتبه: يجب أن يكون واضحاً إلى ماذا يشير الضمير. إذا كانت هناك امرأتان في الجملة فلا تكتب she بلا توضيح.\nكذلك لا تستبدل كل كلمة بمرادف؛ فالمصطلحات الأساسية (مثل transparency) من الأفضل أن تبقى كما هي حتى لا يختلط المعنى.\nاقرأ فقرتك وضع خطاً تحت أي كلمة ظهرت ثلاث مرات، ثم غيّر مرتين منها.",
+  "examples": [
+   {
+    "bad": "My brother has a car. My brother's car is old. My brother wants a new car.",
+    "good": "My brother has an old car. He wants a new one.",
+    "ar": "نستعمل ضميراً وكلمة one لتجنب التكرار."
+   },
+   {
+    "bad": "The report is long. The report is difficult.",
+    "good": "The report is long. It is also difficult.",
+    "ar": "الضمير it يحل محل the report."
+   },
+   {
+    "bad": "The city has a big problem. The problem is traffic.",
+    "good": "The city has a serious problem. This problem is traffic.",
+    "ar": "نستعمل مرادفاً للصفة ونشير بـ This للفكرة السابقة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Replace the repeated words: Mina is a doctor. Mina works in a hospital.",
+    "o": [
+     "Mina she works in a hospital.",
+     "She works in a hospital.",
+     "Her work in a hospital."
+    ],
+    "a": 1,
+    "why": "الضمير She يحل محل Mina."
+   },
+   {
+    "k": "mc",
+    "q": "Which word is a synonym of 'big'?",
+    "o": [
+     "quiet",
+     "tiny",
+     "large"
+    ],
+    "a": 2,
+    "why": "large بمعنى big أي كبير."
+   },
+   {
+    "k": "mc",
+    "q": "The company hired new workers. ___ decision saved money.",
+    "o": [
+     "This",
+     "Those",
+     "Them"
+    ],
+    "a": 0,
+    "why": "This decision تلخص الفكرة السابقة."
+   },
+   {
+    "k": "gap",
+    "q": "My parents live in Oran. ___ visit us every summer.",
+    "a": [
+     "They"
+    ],
+    "why": "They يحل محل My parents."
+   },
+   {
+    "k": "fix",
+    "q": "The library is big. The library it is quiet.",
+    "bad": "library it",
+    "good": [
+     "library"
+    ],
+    "why": "لا نكرر الفاعل بالاسم والضمير معاً."
+   },
+   {
+    "k": "trans",
+    "q": "Sara bought a laptop. Sara uses the laptop every day.",
+    "start": "Sara bought a laptop and",
+    "a": [
+     "Sara bought a laptop and uses it every day."
+    ],
+    "why": "نحذف تكرار Sara ونستعمل it بدل the laptop."
+   }
+  ]
+ },
+ {
+  "id": "wl-09",
+  "l": "B1",
+  "title": "Formal and informal style",
+  "titleAr": "الأسلوب الرسمي وغير الرسمي",
+  "bodyAr": "الأسلوب هو اختيار الكلمات المناسبة للقارئ. اكتب بأسلوب غير رسمي مع صديق، وبأسلوب رسمي مع أستاذ أو مؤسسة أو في بحث.\n**في الأسلوب الرسمي:**\n- لا نستعمل الاختصارات: I am وليس I'm، cannot وليس can't.\n- نستعمل أفعالاً أطول: ask → enquire، get → receive، need → require، help → assist.\n- نستعمل عبارات مهذبة: I would be grateful if you could ...\n- لا نستعمل كلمات عامية مثل guys وkids وawesome.\n**في الأسلوب غير الرسمي:** يمكنك استعمال الاختصارات والجمل القصيرة وعلامة التعجب: Thanks a lot! See you soon.\nقارن: Informal: Can you send me the file? Formal: Could you please send me the file?\nاختر أسلوباً واحداً وثبّته في النص كله. خلط الأسلوبين يجعل الكلام غريباً: لا تبدأ بـ Dear Professor ثم تقول Hey, thanks!\nعند الشك، اختر الأسلوب الرسمي الأبسط.",
+  "examples": [
+   {
+    "bad": "Hi Professor, I can't come to class, sorry.",
+    "good": "Dear Professor, I am unable to attend class. I apologise.",
+    "ar": "الرسالة للأستاذ تحتاج أسلوباً رسمياً بلا اختصارات."
+   },
+   {
+    "bad": "Can you help me, guys?",
+    "good": "Could you please assist me?",
+    "ar": "كلمة guys غير رسمية والسؤال بـ could أكثر أدباً."
+   },
+   {
+    "bad": "I need the form ASAP!",
+    "good": "I would be grateful if you could send me the form soon.",
+    "ar": "في الأسلوب الرسمي نستعمل صيغة مهذبة بدل الأمر."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "Which sentence is formal?",
+    "o": [
+     "I'd like to ask about the course.",
+     "I would like to enquire about the course.",
+     "Tell me about the course."
+    ],
+    "a": 1,
+    "why": "الصيغة الكاملة وكلمة enquire رسميتان."
+   },
+   {
+    "k": "mc",
+    "q": "Choose the informal ending.",
+    "o": [
+     "Yours faithfully,",
+     "Yours sincerely,",
+     "See you soon!"
+    ],
+    "a": 2,
+    "why": "See you soon! عبارة ودية غير رسمية."
+   },
+   {
+    "k": "mc",
+    "q": "A more formal word for 'get' in 'I got your letter' is:",
+    "o": [
+     "receive",
+     "grab",
+     "find"
+    ],
+    "a": 0,
+    "why": "received أكثر رسمية من got."
+   },
+   {
+    "k": "gap",
+    "q": "___ you please send me the report?",
+    "a": [
+     "Could",
+     "Would"
+    ],
+    "why": "Could أو Would تجعل الطلب مهذباً."
+   },
+   {
+    "k": "fix",
+    "q": "Dear Dr Hadi, I can't attend the meeting.",
+    "bad": "can't",
+    "good": [
+     "cannot",
+     "am unable to"
+    ],
+    "why": "الأسلوب الرسمي لا يستعمل الاختصار."
+   },
+   {
+    "k": "trans",
+    "q": "Can you help me with my homework?",
+    "start": "Could you",
+    "a": [
+     "Could you please help me with my homework?",
+     "Could you help me with my homework?"
+    ],
+    "why": "Could you أكثر تهذيباً من Can you."
+   }
+  ]
+ },
+ {
+  "id": "wl-10",
+  "l": "B1",
+  "title": "From paragraph to essay",
+  "titleAr": "من الفقرة إلى المقال",
+  "bodyAr": "المقال هو عدة فقرات مترابطة حول فكرة واحدة. له ثلاثة أقسام.\n**1. المقدمة (Introduction):** فقرة قصيرة تعرّف الموضوع وتعطي رأيك أو خطة المقال. مثال: Many students use phones in class. In this essay, I will explain why this is a problem.\n**2. الجسم (Body):** فقرة أو فقرتان أو ثلاث، كل فقرة لها جملة موضوع وفكرة واحدة مع دعم ومثال.\n**3. الخاتمة (Conclusion):** فقرة قصيرة تلخص الأفكار وتعيد الرأي بكلمات مختلفة. تبدأ بـ In conclusion, أو To sum up, ولا نضيف فيها فكرة جديدة.\nيمكن أن يكون المقال البسيط من أربع فقرات: مقدمة، فقرتان في الجسم، خاتمة.\nاستعمل روابط بين الفقرات مثل Firstly وSecondly وIn addition وHowever لكي ينتقل القارئ بسهولة.\nقبل الكتابة سجّل خطة من ثلاثة أسطر: رأيي، السبب الأول، السبب الثاني. ثم اكتب المقال حول هذه الخطة.",
+  "examples": [
+   {
+    "bad": "Phones are bad. I hate them. The end.",
+    "good": "Phones in class cause problems. In this essay, I will explain two main reasons.",
+    "ar": "المقدمة الجيدة تعرّف الموضوع وتعد القارئ بخطة."
+   },
+   {
+    "bad": "Also, phones are good for maps.",
+    "good": "In conclusion, phones should be limited in class.",
+    "ar": "الخاتمة تلخص الرأي ولا تضيف فكرة جديدة."
+   },
+   {
+    "bad": "Paragraph 2: Many things. Paragraph 3: More things.",
+    "good": "Paragraph 2: Phones distract students. Paragraph 3: Phones reduce talking between students.",
+    "ar": "كل فقرة في الجسم تعالج فكرة واحدة محددة."
+   }
+  ],
+  "exs": [
+   {
+    "k": "mc",
+    "q": "What belongs in a conclusion?",
+    "o": [
+     "A long example",
+     "A completely new argument",
+     "A summary of the main ideas"
+    ],
+    "a": 2,
+    "why": "الخاتمة تلخص الأفكار ولا تأتي بفكرة جديدة."
+   },
+   {
+    "k": "mc",
+    "q": "Which sentence is the best introduction?",
+    "o": [
+     "Nowadays, many students use AI tools. This essay discusses whether this is helpful.",
+     "I have a cat.",
+     "There are many things in the world and I like them."
+    ],
+    "a": 0,
+    "why": "المقدمة تعرض الموضوع وهدف المقال."
+   },
+   {
+    "k": "mc",
+    "q": "A body paragraph should have",
+    "o": [
+     "five different ideas",
+     "one main idea with support",
+     "only a question"
+    ],
+    "a": 1,
+    "why": "كل فقرة في الجسم لها فكرة رئيسية واحدة مع دعم."
+   },
+   {
+    "k": "gap",
+    "q": "___ conclusion, online learning has more advantages than disadvantages.",
+    "a": [
+     "In"
+    ],
+    "why": "عبارة In conclusion تبدأ الخاتمة."
+   },
+   {
+    "k": "fix",
+    "q": "I will present my opinion in introduction.",
+    "bad": "in introduction",
+    "good": [
+     "in the introduction"
+    ],
+    "why": "نقول in the introduction مع the لأن المقصود مقدمة هذا المقال."
+   },
+   {
+    "k": "order",
+    "a": "In conclusion, cities should publish their budgets.",
+    "ar": "في الخلاصة، ينبغي للمدن أن تنشر ميزانياتها."
+   }
+  ]
+ }
+]

@@ -1,0 +1,1108 @@
+[
+{
+"w": "institution",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "مؤسسة، هيئة",
+"d": "a large organisation with an important public purpose",
+"ex": "Courts and audit offices are institutions that protect public money.",
+"x": "institution",
+"c": [
+"public institution",
+"weak institutions"
+],
+"f": [
+"institutional"
+]
+},
+{
+"w": "mechanism",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "آلية",
+"d": "a system or method for doing something",
+"ex": "The law created a mechanism for citizens to report abuse.",
+"x": "mechanism",
+"c": [
+"complaints mechanism"
+]
+},
+{
+"w": "committee",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "لجنة",
+"d": "a group chosen to study or decide a matter",
+"ex": "A parliamentary committee questioned the minister about the budget.",
+"x": "committee",
+"c": [
+"set up a committee"
+]
+},
+{
+"w": "parliament",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "برلمان",
+"d": "the elected body that makes the laws of a country",
+"ex": "Parliament approved the new law on public contracts.",
+"x": "parliament",
+"c": [
+"member of parliament"
+],
+"f": [
+"parliamentary"
+]
+},
+{
+"w": "contractor",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "مقاول، متعاقد",
+"d": "a person or company hired to do work",
+"ex": "The contractor built the school with poor materials.",
+"x": "contractor",
+"c": [
+"building contractor"
+],
+"f": [
+"contract"
+]
+},
+{
+"w": "supplier",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "مورّد",
+"d": "a company that provides goods or services to others",
+"ex": "The supplier delivered fewer computers than the ministry paid for.",
+"x": "supplier",
+"c": [
+"main supplier"
+],
+"f": [
+"supply"
+]
+},
+{
+"w": "bid",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "عرض (في مناقصة)",
+"d": "an offer of a price to do work or buy something",
+"ex": "Our bid for the road project was the lowest.",
+"x": "bid",
+"c": [
+"submit a bid",
+"win a bid"
+],
+"f": [
+"bidder"
+]
+},
+{
+"w": "bidder",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "المتنافس، مقدّم العرض",
+"d": "a person or company that makes an offer in a tender",
+"ex": "Each bidder received the same documents on the same day.",
+"x": "bidder",
+"c": [
+"the winning bidder"
+],
+"f": [
+"bid"
+]
+},
+{
+"w": "tender",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مناقصة",
+"d": "a formal offer to do work for a fixed price, often for the state",
+"ex": "The city invited tenders for the new market.",
+"x": "tender",
+"c": [
+"call for tenders",
+"win a tender"
+],
+"f": [
+"tender"
+]
+},
+{
+"w": "public procurement",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "الصفقات العمومية، المشتريات العمومية",
+"d": "the way governments buy goods, services and building work",
+"ex": "Public procurement is a risky area because of the large sums involved.",
+"x": "public procurement",
+"c": [
+"public procurement law"
+]
+},
+{
+"w": "award a contract",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يمنح صفقة، يرسي عقدًا",
+"d": "to give a contract to a chosen company",
+"ex": "The committee awarded the contract to the cheapest bidder.",
+"x": "awarded the contract"
+},
+{
+"w": "competition",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "منافسة",
+"d": "a situation in which companies try to win the same business",
+"ex": "Fair competition lowers prices in public tenders.",
+"x": "competition",
+"c": [
+"fair competition",
+"open competition"
+],
+"f": [
+"compete",
+"competitive"
+]
+},
+{
+"w": "eligible",
+"p": "adj",
+"l": "B2",
+"t": "government",
+"ar": "مؤهَّل، يستوفي الشروط",
+"d": "having the right to do or receive something",
+"ex": "Only registered companies are eligible to bid.",
+"x": "eligible",
+"c": [
+"be eligible for"
+],
+"f": [
+"eligibility"
+]
+},
+{
+"w": "shortlist",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "القائمة المختصرة",
+"d": "a short list of the best candidates chosen from a larger group",
+"ex": "Three firms were put on the shortlist for the contract.",
+"x": "shortlist",
+"c": [
+"draw up a shortlist"
+],
+"f": [
+"shortlist"
+]
+},
+{
+"w": "evaluation criteria",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "معايير التقييم",
+"d": "the standards used to judge and compare offers",
+"ex": "The evaluation criteria were published before the tender opened.",
+"x": "evaluation criteria",
+"c": [
+"clear evaluation criteria"
+],
+"f": [
+"evaluate"
+]
+},
+{
+"w": "disclose",
+"p": "v",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يفصح عن، يكشف عن",
+"d": "to make information known officially",
+"ex": "Officials must disclose any gift worth more than fifty euros.",
+"x": "disclose",
+"c": [
+"disclose information"
+],
+"f": [
+"disclosure"
+]
+},
+{
+"w": "disclosure",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "إفصاح، كشف",
+"d": "the act of making secret or private information known",
+"ex": "Full disclosure of the contract terms builds public trust.",
+"x": "disclosure",
+"c": [
+"full disclosure",
+"financial disclosure"
+],
+"f": [
+"disclose"
+]
+},
+{
+"w": "declare",
+"p": "v",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يصرّح بـ، يعلن",
+"d": "to state officially what you own or earn",
+"ex": "Ministers must declare their property every year.",
+"x": "declare",
+"c": [
+"declare assets"
+],
+"f": [
+"declaration"
+]
+},
+{
+"w": "asset declaration",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "التصريح بالممتلكات",
+"d": "an official statement of what an official owns",
+"ex": "The judge filed her asset declaration on time.",
+"x": "asset declaration",
+"c": [
+"file an asset declaration"
+]
+},
+{
+"w": "register",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "سجل",
+"d": "an official list of names or facts",
+"ex": "The register of interests lists every councillor's other jobs.",
+"x": "register",
+"c": [
+"register of interests",
+"public register"
+],
+"f": [
+"register"
+]
+},
+{
+"w": "conflict of interest",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تضارب المصالح",
+"d": "a situation where private interests clash with public duty",
+"ex": "The mayor had a conflict of interest because his brother owned the company.",
+"x": "conflict of interest",
+"c": [
+"declare a conflict of interest"
+]
+},
+{
+"w": "compliance",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "امتثال، مطابقة",
+"d": "the act of obeying laws, rules and standards",
+"ex": "The firm created a compliance team to check every contract.",
+"x": "compliance",
+"c": [
+"in compliance with",
+"compliance officer"
+],
+"f": [
+"comply"
+]
+},
+{
+"w": "due diligence",
+"p": "phr",
+"l": "B2",
+"t": "business",
+"ar": "العناية الواجبة، التحرّي المسبق",
+"d": "careful checking of facts before making a deal",
+"ex": "The bank carried out due diligence on the new client.",
+"x": "due diligence",
+"c": [
+"conduct due diligence"
+]
+},
+{
+"w": "internal audit",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تدقيق داخلي",
+"d": "a check of accounts carried out by the organisation's own staff",
+"ex": "An internal audit found that nobody signed the payments.",
+"x": "internal audit",
+"c": [
+"internal audit department"
+]
+},
+{
+"w": "external audit",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تدقيق خارجي",
+"d": "a check of accounts carried out by an independent body",
+"ex": "An external audit confirmed the missing funds.",
+"x": "external audit",
+"c": [
+"external auditor"
+]
+},
+{
+"w": "internal controls",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "الرقابة الداخلية",
+"d": "rules inside an organisation that prevent errors and fraud",
+"ex": "Weak internal controls allowed one clerk to approve all payments.",
+"x": "internal controls",
+"c": [
+"strengthen internal controls"
+]
+},
+{
+"w": "risk assessment",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تقييم المخاطر",
+"d": "a study of what could go wrong and how serious it would be",
+"ex": "The ministry carried out a risk assessment of its biggest contracts.",
+"x": "risk assessment",
+"c": [
+"carry out a risk assessment"
+]
+},
+{
+"w": "red flag",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مؤشر إنذار، علامة تحذير",
+"d": "a sign that something may be wrong or dishonest",
+"ex": "A single bidder for a huge contract is a red flag.",
+"x": "red flag",
+"c": [
+"raise a red flag"
+]
+},
+{
+"w": "paper trail",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "أثر وثائقي",
+"d": "a set of documents that shows what happened",
+"ex": "The auditors followed the paper trail from the invoice to the bank.",
+"x": "paper trail",
+"c": [
+"leave a paper trail"
+]
+},
+{
+"w": "oversight",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "رقابة، إشراف",
+"d": "the duty to supervise an activity and make sure it is done correctly",
+"ex": "Parliament has oversight of how the budget is spent.",
+"x": "oversight",
+"c": [
+"parliamentary oversight",
+"lack of oversight"
+]
+},
+{
+"w": "oversee",
+"p": "v",
+"l": "B2",
+"t": "government",
+"ar": "يشرف على",
+"d": "to watch and manage an activity to make sure it is done well",
+"ex": "An independent body oversees all public tenders.",
+"x": "oversees",
+"c": [
+"oversee a project"
+],
+"f": [
+"oversight"
+]
+},
+{
+"w": "supervise",
+"p": "v",
+"l": "B2",
+"t": "government",
+"ar": "يشرف على، يراقب",
+"d": "to watch work and make sure it is done correctly",
+"ex": "Engineers supervised the building of the hospital.",
+"x": "supervised",
+"c": [
+"supervise staff"
+],
+"f": [
+"supervision"
+]
+},
+{
+"w": "regulator",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "هيئة تنظيمية، جهة ناظمة",
+"d": "an official body that controls an industry or activity",
+"ex": "The regulator fined the telecom company for hiding its charges.",
+"x": "regulator",
+"c": [
+"financial regulator"
+],
+"f": [
+"regulate"
+]
+},
+{
+"w": "watchdog",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "هيئة رقابية، جهة مراقبة",
+"d": "an organisation that checks that others behave correctly",
+"ex": "A national watchdog published a report on hospital spending.",
+"x": "watchdog",
+"c": [
+"anti-corruption watchdog"
+]
+},
+{
+"w": "ombudsman",
+"p": "n",
+"l": "C1",
+"t": "government",
+"ar": "وسيط الجمهورية، أمين المظالم",
+"d": "an official who investigates complaints against public bodies",
+"ex": "The ombudsman investigated a complaint about a delayed pension.",
+"x": "ombudsman",
+"c": [
+"the national ombudsman"
+]
+},
+{
+"w": "whistleblower",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "المبلّغ عن الفساد",
+"d": "a person who reports illegal or dishonest acts inside an organisation",
+"ex": "The whistleblower sent the documents to the audit court.",
+"x": "whistleblower",
+"c": [
+"protect a whistleblower"
+],
+"f": [
+"whistleblowing"
+]
+},
+{
+"w": "whistleblowing",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "التبليغ عن الفساد",
+"d": "reporting illegal or dishonest acts inside an organisation",
+"ex": "Whistleblowing helped reveal the false invoices.",
+"x": "whistleblowing",
+"c": [
+"whistleblowing policy"
+],
+"f": [
+"whistleblower"
+]
+},
+{
+"w": "retaliation",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "انتقام، إجراء انتقامي",
+"d": "harmful action taken against someone for reporting wrongdoing",
+"ex": "The employee feared retaliation after reporting the fraud.",
+"x": "retaliation",
+"c": [
+"protection from retaliation",
+"fear of retaliation"
+],
+"f": [
+"retaliate"
+]
+},
+{
+"w": "safeguard",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "ضمانة، إجراء وقائي",
+"d": "a rule or measure that protects people or things from harm",
+"ex": "Strong safeguards protect witnesses from threats.",
+"x": "safeguard",
+"c": [
+"legal safeguards"
+],
+"f": [
+"safeguard"
+]
+},
+{
+"w": "anonymous",
+"p": "adj",
+"l": "B2",
+"t": "anticorruption",
+"ar": "مجهول الهوية",
+"d": "without giving a name",
+"ex": "An anonymous letter told the inspector about the fake invoices.",
+"x": "anonymous",
+"c": [
+"anonymous tip",
+"remain anonymous"
+],
+"f": [
+"anonymity"
+]
+},
+{
+"w": "confidential",
+"p": "adj",
+"l": "B2",
+"t": "anticorruption",
+"ar": "سرّي، خاص",
+"d": "meant to be kept secret between a small group of people",
+"ex": "The report was confidential until the court allowed its publication.",
+"x": "confidential",
+"c": [
+"confidential information"
+],
+"f": [
+"confidentiality"
+]
+},
+{
+"w": "confidentiality",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "السرية",
+"d": "the duty to keep private information secret",
+"ex": "The agency guarantees confidentiality for anyone who reports a crime.",
+"x": "confidentiality",
+"c": [
+"breach confidentiality"
+],
+"f": [
+"confidential"
+]
+},
+{
+"w": "reporting channel",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "قناة التبليغ",
+"d": "an official way for people to report wrongdoing",
+"ex": "The ministry opened a safe reporting channel for staff.",
+"x": "reporting channel",
+"c": [
+"set up a reporting channel"
+]
+},
+{
+"w": "hotline",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "خط ساخن للتبليغ",
+"d": "a telephone line for reporting problems or crimes",
+"ex": "Citizens can call a hotline to report bribe requests.",
+"x": "hotline",
+"c": [
+"call a hotline"
+]
+},
+{
+"w": "tip-off",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "معلومة سرية، إخبارية",
+"d": "secret information given to the police or the press",
+"ex": "A tip-off led the police to the hidden documents.",
+"x": "tip-off",
+"c": [
+"receive a tip-off"
+]
+},
+{
+"w": "informant",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "مخبر، مُبلِّغ",
+"d": "a person who gives secret information to the authorities",
+"ex": "The informant told the police where the money was kept.",
+"x": "informant",
+"c": [
+"a police informant"
+],
+"f": [
+"inform"
+]
+},
+{
+"w": "access to information",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "الحق في الحصول على المعلومات",
+"d": "the right of citizens to see official documents",
+"ex": "Access to information helps citizens check how the state spends money.",
+"x": "access to information",
+"c": [
+"right of access to information"
+]
+},
+{
+"w": "freedom of information",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "حرية الاطلاع على المعلومات",
+"d": "the legal right to ask public bodies for their records",
+"ex": "A freedom of information request revealed the cost of the contract.",
+"x": "freedom of information",
+"c": [
+"a freedom of information request"
+]
+},
+{
+"w": "open data",
+"p": "phr",
+"l": "B2",
+"t": "technology",
+"ar": "بيانات مفتوحة",
+"d": "public information that anyone can use and share freely",
+"ex": "The city publishes its budget as open data.",
+"x": "open data",
+"c": [
+"publish open data"
+]
+},
+{
+"w": "public record",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "سجل عمومي، وثيقة عمومية",
+"d": "an official document that anyone has the right to see",
+"ex": "Court decisions are a matter of public record.",
+"x": "public record",
+"c": [
+"a matter of public record"
+]
+},
+{
+"w": "publish",
+"p": "v",
+"l": "B2",
+"t": "media",
+"ar": "ينشر",
+"d": "to make information available to the public",
+"ex": "The ministry must publish the names of all winning bidders.",
+"x": "publish",
+"c": [
+"publish a report"
+],
+"f": [
+"publication"
+]
+},
+{
+"w": "public consultation",
+"p": "phr",
+"l": "B2",
+"t": "government",
+"ar": "استشارة عمومية",
+"d": "a process in which citizens are asked for their views",
+"ex": "A public consultation on the new law lasted two months.",
+"x": "public consultation",
+"c": [
+"hold a public consultation"
+]
+},
+{
+"w": "stakeholder",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "طرف معني، صاحب مصلحة",
+"d": "a person or group affected by a decision or project",
+"ex": "All stakeholders were invited to discuss the road project.",
+"x": "stakeholder",
+"c": [
+"key stakeholders"
+]
+},
+{
+"w": "civil society",
+"p": "phr",
+"l": "B2",
+"t": "society",
+"ar": "المجتمع المدني",
+"d": "groups of citizens who work independently of the government",
+"ex": "Civil society groups monitored the election.",
+"x": "civil society",
+"c": [
+"civil society organisation"
+]
+},
+{
+"w": "non-governmental organisation",
+"p": "phr",
+"l": "B2",
+"t": "society",
+"ar": "منظمة غير حكومية",
+"d": "an independent group that works for social or public aims",
+"ex": "A non-governmental organisation trained local journalists to read budgets.",
+"x": "non-governmental organisation",
+"c": [
+"an international non-governmental organisation"
+]
+},
+{
+"w": "procedure",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "إجراء، مسطرة",
+"d": "an official way of doing something",
+"ex": "The procedure for opening a bid is clearly described in the law.",
+"x": "procedure",
+"c": [
+"follow a procedure",
+"legal procedure"
+],
+"f": [
+"procedural"
+]
+},
+{
+"w": "guidelines",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "توجيهات، إرشادات",
+"d": "official advice on how something should be done",
+"ex": "New guidelines tell officials how to handle gifts.",
+"x": "guidelines",
+"c": [
+"issue guidelines",
+"follow the guidelines"
+]
+},
+{
+"w": "standard",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "معيار",
+"d": "a level of quality or behaviour that is expected",
+"ex": "Public officials must meet high standards of honesty.",
+"x": "standard",
+"c": [
+"high standards",
+"international standards"
+],
+"f": [
+"standardise"
+]
+},
+{
+"w": "monitoring",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "رقابة، متابعة",
+"d": "the regular checking of how something is progressing",
+"ex": "Continuous monitoring of contracts helps prevent waste.",
+"x": "monitoring",
+"c": [
+"close monitoring",
+"monitoring system"
+],
+"f": [
+"monitor"
+]
+},
+{
+"w": "evaluation",
+"p": "n",
+"l": "B2",
+"t": "government",
+"ar": "تقييم",
+"d": "a careful judgement of how well something works",
+"ex": "An independent evaluation of the programme found no improvement.",
+"x": "evaluation",
+"c": [
+"carry out an evaluation"
+],
+"f": [
+"evaluate"
+]
+},
+{
+"w": "mandatory",
+"p": "adj",
+"l": "B2",
+"t": "government",
+"ar": "إلزامي",
+"d": "required by law or rule",
+"ex": "Asset declarations are mandatory for senior officials.",
+"x": "mandatory",
+"c": [
+"mandatory training"
+],
+"f": [
+"mandate"
+]
+},
+{
+"w": "voluntary",
+"p": "adj",
+"l": "B2",
+"t": "government",
+"ar": "طوعي، اختياري",
+"d": "done by choice and not because it is required",
+"ex": "Voluntary codes of conduct are not enough without sanctions.",
+"x": "voluntary",
+"c": [
+"voluntary disclosure"
+],
+"f": [
+"voluntarily"
+]
+},
+{
+"w": "prevention",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "وقاية، منع",
+"d": "action taken to stop something bad from happening",
+"ex": "Prevention is cheaper than investigating a scandal.",
+"x": "prevention",
+"c": [
+"crime prevention",
+"corruption prevention"
+],
+"f": [
+"prevent",
+"preventive"
+]
+},
+{
+"w": "deter",
+"p": "v",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يردع",
+"d": "to make someone decide not to do something",
+"ex": "Heavy fines deter officials from taking bribes.",
+"x": "deter",
+"c": [
+"deter crime"
+],
+"f": [
+"deterrent"
+]
+},
+{
+"w": "deterrent",
+"p": "n",
+"l": "B2",
+"t": "anticorruption",
+"ar": "رادع",
+"d": "something that discourages people from doing wrong",
+"ex": "A long prison sentence is a strong deterrent.",
+"x": "deterrent",
+"c": [
+"act as a deterrent"
+],
+"f": [
+"deter"
+]
+},
+{
+"w": "blacklist",
+"p": "v",
+"l": "B2",
+"t": "anticorruption",
+"ar": "يدرج في القائمة السوداء",
+"d": "to put a company on a list of those not allowed to do business",
+"ex": "The ministry blacklisted the firm after the fraud.",
+"x": "blacklisted",
+"c": [
+"be blacklisted"
+],
+"f": [
+"blacklist"
+]
+},
+{
+"w": "penalise",
+"p": "v",
+"l": "B2",
+"t": "government",
+"ar": "يعاقب، يفرض جزاء",
+"d": "to punish someone for breaking a rule",
+"ex": "The agency penalised the company for late reports.",
+"x": "penalised",
+"c": [
+"be penalised for"
+],
+"f": [
+"penalty"
+]
+},
+{
+"w": "transparency portal",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "بوابة الشفافية",
+"d": "a website where the government publishes official information",
+"ex": "The transparency portal shows every payment above ten thousand euros.",
+"x": "transparency portal",
+"c": [
+"launch a transparency portal"
+]
+},
+{
+"w": "e-procurement",
+"p": "n",
+"l": "B2",
+"t": "technology",
+"ar": "الشراء الإلكتروني، الصفقات الإلكترونية",
+"d": "buying goods and services for the state through an online system",
+"ex": "E-procurement made all tender documents visible to everyone.",
+"x": "e-procurement",
+"c": [
+"an e-procurement platform"
+]
+},
+{
+"w": "direct award",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "منح مباشر، التراضي",
+"d": "giving a contract to one company without a competition",
+"ex": "A direct award for such a large contract needs strong reasons.",
+"x": "direct award",
+"c": [
+"by direct award"
+]
+},
+{
+"w": "integrity pact",
+"p": "phr",
+"l": "C1",
+"t": "anticorruption",
+"ar": "ميثاق النزاهة",
+"d": "an agreement in which all bidders promise not to bribe or cheat",
+"ex": "All bidders signed an integrity pact before the tender began.",
+"x": "integrity pact",
+"c": [
+"sign an integrity pact"
+]
+},
+{
+"w": "public oversight",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "رقابة عمومية، رقابة مجتمعية",
+"d": "supervision of public bodies by citizens or independent groups",
+"ex": "Public oversight of budgets reduces the chance of abuse.",
+"x": "public oversight",
+"c": [
+"strengthen public oversight"
+]
+},
+{
+"w": "audit report",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "تقرير التدقيق",
+"d": "the written results of an official check of accounts",
+"ex": "The audit report was published on the ministry's website.",
+"x": "audit report",
+"c": [
+"publish an audit report"
+]
+},
+{
+"w": "tender notice",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "إعلان المناقصة",
+"d": "a public announcement inviting companies to bid for a contract",
+"ex": "The tender notice appeared in two national newspapers.",
+"x": "tender notice",
+"c": [
+"publish a tender notice"
+]
+},
+{
+"w": "whistleblower protection",
+"p": "phr",
+"l": "B2",
+"t": "anticorruption",
+"ar": "حماية المبلّغين",
+"d": "laws and measures that keep people safe when they report wrongdoing",
+"ex": "Whistleblower protection encourages employees to speak up.",
+"x": "whistleblower protection",
+"c": [
+"strong whistleblower protection"
+]
+}
+]

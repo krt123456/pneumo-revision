@@ -1,0 +1,73 @@
+[
+{"id":"r-a2-11","l":"A2","title":"The Match on Saturday","topic":"sport","paras":[
+"On Saturday afternoon our town team, the Eagles, played against a team from the next village. The match was at the old stadium near the river. About five hundred people came to watch.",
+"The weather was sunny and the pitch was green and dry. Children sat on the steps with flags, and a man sold hot nuts at the gate. When the players ran onto the pitch, everybody stood up and shouted.",
+"For thirty minutes nobody scored. Then the captain, a tall defender, passed the ball to the striker. The striker ran past two players and kicked the ball into the net. It was one-nil!",
+"Just before half time, the other team scored too. After the break the game was fast and exciting. The Eagles' goalkeeper made two great saves, and the referee gave a yellow card to one player for a hard tackle.",
+"In the last minute, the Eagles got a corner. The ball flew into the box and a young midfielder headed it in. The final score was two-one. After the match the players shook hands and the fans sang in the streets."
+],"gloss":[{"w":"stadium","ar":"ملعب"},{"w":"pitch","ar":"أرضية الملعب"},{"w":"striker","ar":"مهاجم"},{"w":"goalkeeper","ar":"حارس مرمى"},{"w":"referee","ar":"حكم"},{"w":"captain","ar":"قائد الفريق"},{"w":"corner","ar":"ركنية"},{"w":"tackle","ar":"تدخّل، افتكاك الكرة"}],
+"qs":[
+{"k":"mc","q":"Where was the match?","o":["In a school yard","At the old stadium near the river","In the main square"],"a":1,"why":"الفقرة 1: أقيمت المباراة في الملعب القديم قرب النهر."},
+{"k":"mc","q":"Who scored the first goal for the Eagles?","o":["The goalkeeper","The captain","The striker"],"a":2,"why":"الفقرة 3: المهاجم سجّل الهدف الأول."},
+{"k":"mc","q":"Who scored the winning goal?","o":["A young midfielder","The striker","A tall defender"],"a":0,"why":"الفقرة 5: لاعب وسط شاب سجّل برأسه."},
+{"k":"tfng","q":"About five hundred people watched the match.","a":"T","why":"الفقرة 1: حضر نحو خمسمئة شخص."},
+{"k":"tfng","q":"It rained during the match.","a":"F","why":"الفقرة 2: كان الجو مشمسا."},
+{"k":"tfng","q":"The Eagles have won every match this year.","a":"NG","why":"لا يذكر النص نتائج الفريق في بقية الموسم."},
+{"k":"gap","q":"The final score was ___.","a":["two-one","2-1"],"why":"الفقرة 5: انتهت المباراة بنتيجة اثنين مقابل واحد."},
+{"k":"gap","q":"The goalkeeper made two great ___.","a":["saves"],"why":"الفقرة 4: تصدّى حارس المرمى لكرتين رائعتين."}
+],"sumAr":"لعب فريق البلدة مباراة أمام فريق القرية المجاورة أمام نحو خمسمئة متفرج. سجّل المهاجم أولا ثم تعادل الخصم، وفي الدقيقة الأخيرة فاز الفريق بهدف من ركنية."},
+
+{"id":"r-a2-12","l":"A2","title":"The Town Library","topic":"education","paras":[
+"The town library is in a beautiful old building next to the post office. It opened in 1965, and today more than three thousand people are members. Membership is free for everyone.",
+"On the ground floor there are novels, newspapers and a big section for children. Every Wednesday a librarian reads stories to the little ones. The children sit on soft cushions and listen carefully.",
+"Upstairs there is a quiet room for students. It has twenty desks, free wifi and plugs for laptops. During exams the room is full from eight in the morning, so you must arrive early to find a seat.",
+"You can borrow up to five books for three weeks. If you forget to return them, you must pay a small fine. You can also renew a book on the internet if nobody is waiting for it.",
+"The library offers more than books. It has computer classes for older people and a small film club on Fridays. Many members say it is the most friendly place in town."
+],"gloss":[{"w":"librarian","ar":"أمين مكتبة"},{"w":"member","ar":"عضو، منتسب"},{"w":"borrow","ar":"يستعير"},{"w":"renew","ar":"يجدّد"},{"w":"fine","ar":"غرامة"},{"w":"section","ar":"قسم"},{"w":"cushion","ar":"وسادة"}],
+"qs":[
+{"k":"mc","q":"Where is the library?","o":["Next to the post office","Next to the school","Near the river"],"a":0,"why":"الفقرة 1: بجانب مكتب البريد."},
+{"k":"mc","q":"How many books can you borrow?","o":["Three","Five","Ten"],"a":1,"why":"الفقرة 4: يمكنك استعارة حتى خمسة كتب."},
+{"k":"mc","q":"When does the librarian read stories to children?","o":["On Fridays","Every day","Every Wednesday"],"a":2,"why":"الفقرة 2: كل أربعاء تقرأ أمينة المكتبة القصص."},
+{"k":"tfng","q":"Membership costs a small fee.","a":"F","why":"الفقرة 1: الاشتراك مجاني للجميع."},
+{"k":"tfng","q":"The quiet room has twenty desks.","a":"T","why":"الفقرة 3: في الغرفة الهادئة عشرون مكتبا."},
+{"k":"tfng","q":"The library has a café.","a":"NG","why":"لا يذكر النص وجود مقهى في المكتبة."},
+{"k":"gap","q":"If you return a book late, you must pay a ___.","a":["small fine","fine"],"why":"الفقرة 4: عند التأخر تدفع غرامة صغيرة."},
+{"k":"gap","q":"The film club meets on ___.","a":["Fridays"],"why":"الفقرة 5: نادي الأفلام يجتمع أيام الجمعة."}
+],"sumAr":"مكتبة البلدة مبنى قديم جميل، اشتراكها مجاني وفيها قسم للأطفال وقاعة هادئة للطلبة. تعير الكتب لثلاثة أسابيع وتنظم دروس حاسوب ونادي أفلام."},
+
+{"id":"r-a2-13","l":"A2","title":"Life Before Mobile Phones","topic":"society","paras":[
+"Thirty years ago, most people did not have a mobile phone. Life was different, and in some ways it was slower. If you wanted to talk to a friend, you had to call his house.",
+"Families had one telephone, and it stood in the hall. Everybody could hear your conversation, so it was difficult to say private things. Many people also used public phones in the street, with coins or special cards.",
+"There was no GPS either. Before a long trip, drivers bought a paper map and planned the road. If they were lost, they stopped and asked a stranger for help. Sometimes this was a good way to meet new people.",
+"People took photographs with a camera and a roll of film. A roll had only twenty-four pictures, and you waited a week to see the results. So people thought carefully before they pressed the button.",
+"Of course, today's phones are very useful. But some people say that in the past we listened more, waited more and looked at each other more. Perhaps we can learn something from those days."
+],"gloss":[{"w":"conversation","ar":"محادثة"},{"w":"private","ar":"خاص، سري"},{"w":"public phone","ar":"هاتف عمومي"},{"w":"stranger","ar":"غريب، شخص لا نعرفه"},{"w":"roll of film","ar":"شريط تصوير"},{"w":"result","ar":"نتيجة"},{"w":"useful","ar":"مفيد"}],
+"qs":[
+{"k":"mc","q":"Where did families keep their telephone?","o":["In the kitchen","In the hall","In the garden"],"a":1,"why":"الفقرة 2: كان الهاتف في الردهة."},
+{"k":"mc","q":"What did drivers buy before a long trip?","o":["A paper map","A GPS","A camera"],"a":0,"why":"الفقرة 3: كان السائقون يشترون خريطة ورقية."},
+{"k":"mc","q":"How many pictures did a roll of film have?","o":["Twelve","Thirty-six","Twenty-four"],"a":2,"why":"الفقرة 4: في الشريط أربع وعشرون صورة فقط."},
+{"k":"tfng","q":"Everybody in the house could hear a conversation on the family phone.","a":"T","why":"الفقرة 2: الجميع يسمع المحادثة في الردهة."},
+{"k":"tfng","q":"Public phones were free.","a":"F","why":"الفقرة 2: كانت تعمل بالقطع النقدية أو بطاقات خاصة."},
+{"k":"tfng","q":"Most people had a computer at home.","a":"NG","why":"النص لا يتحدث عن الحواسيب المنزلية."},
+{"k":"gap","q":"Drivers bought a paper ___ before a long trip.","a":["map"],"why":"الفقرة 3: يشترون خريطة ورقية قبل السفر."},
+{"k":"gap","q":"Public phones used coins or special ___.","a":["cards"],"why":"الفقرة 2: بقطع نقدية أو بطاقات خاصة."}
+],"sumAr":"قبل ثلاثين سنة لم تكن الهواتف المحمولة موجودة، وكان للأسرة هاتف واحد في الردهة. كان الناس يستعملون الخرائط الورقية والكاميرات بالأفلام، ويرى بعضهم أن الحياة آنذاك كانت أبطأ وأكثر إصغاء."},
+
+{"id":"r-a2-14","l":"A2","title":"A Lawyer at Our School","topic":"law","paras":[
+"Last week a lawyer called Mrs Amina visited our school. She was wearing a black robe and she carried a big folder. She talked to our class for forty minutes.",
+"First she explained her job. A lawyer helps people with problems about the law. For example, she helps families who want to buy a house, workers who lose their jobs, and people who go to court.",
+"Then she told us about a normal day. In the morning she reads documents and writes letters. Sometimes she meets clients in her office and listens to their stories. In the afternoon she often goes to court and speaks to the judge.",
+"A student asked if the job was difficult. Mrs Amina smiled. She said that a good lawyer must read a lot, listen carefully and always tell the truth. She studied for five years at university before she started work.",
+"At the end, she explained why laws are important. Laws protect everybody, and they are the same for rich and poor people. Now many of us want to be lawyers, and we are going to visit a real court next month."
+],"gloss":[{"w":"lawyer","ar":"محامية، محامٍ"},{"w":"robe","ar":"رداء، بذلة القضاة والمحامين"},{"w":"court","ar":"محكمة"},{"w":"judge","ar":"قاضٍ"},{"w":"client","ar":"موكّل، زبون"},{"w":"document","ar":"وثيقة، مستند"},{"w":"protect","ar":"يحمي"}],
+"qs":[
+{"k":"mc","q":"What was Mrs Amina wearing?","o":["A white coat","A black robe","A blue suit"],"a":1,"why":"الفقرة 1: كانت ترتدي رداء أسود."},
+{"k":"mc","q":"What does she often do in the afternoon?","o":["She writes letters","She teaches children","She goes to court"],"a":2,"why":"الفقرة 3: بعد الظهر تذهب غالبا إلى المحكمة."},
+{"k":"mc","q":"How long did she study at university?","o":["Five years","Two years","Ten years"],"a":0,"why":"الفقرة 4: درست خمس سنوات في الجامعة."},
+{"k":"tfng","q":"Mrs Amina talked to the class for forty minutes.","a":"T","why":"الفقرة 1: تحدثت أربعين دقيقة."},
+{"k":"tfng","q":"Mrs Amina only helps rich people.","a":"F","why":"الفقرة 5: القوانين واحدة للغني والفقير، وهي تساعد أنواعا كثيرة من الناس."},
+{"k":"tfng","q":"Mrs Amina works with her brother.","a":"NG","why":"لا يذكر النص أي شيء عن أخيها."},
+{"k":"gap","q":"She meets clients in her ___.","a":["office"],"why":"الفقرة 3: تقابل موكليها في مكتبها."},
+{"k":"gap","q":"The students are going to visit a real ___ next month.","a":["court"],"why":"الفقرة 5: سيزورون محكمة حقيقية الشهر القادم."}
+],"sumAr":"زارت محامية تدعى السيدة أمينة مدرستنا وشرحت عملها في مساعدة الناس في مشكلاتهم القانونية. قالت إن المحامي الجيد يقرأ كثيرا ويصغي ويصدق، وإن القوانين تحمي الجميع."}
+]

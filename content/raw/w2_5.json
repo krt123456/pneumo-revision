@@ -1,0 +1,248 @@
+[
+ {
+  "id": "w2-41",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "research",
+  "prompt": "Some people think that universities should spend their money only on research that has a clear practical use, such as new medicines or cheaper energy.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "practical research solves urgent problems and justifies public funding",
+   "many great discoveries began as curiosity without a practical aim",
+   "basic research trains skilled scientists",
+   "it is impossible to predict which idea will become useful",
+   "a mixed budget protects both needs"
+  ],
+  "vocab": [
+   "pure research",
+   "practical applications",
+   "to fund",
+   "a breakthrough",
+   "scientific curiosity",
+   "public funding",
+   "to benefit society"
+  ]
+ },
+ {
+  "id": "w2-42",
+  "l": "B2",
+  "type": "advdis",
+  "topic": "ageing",
+  "prompt": "In many countries, people are living longer and the proportion of elderly citizens is rising.\n\nDo the advantages of this development outweigh the disadvantages?",
+  "planAr": "المقدمة: أعد صياغة السؤال واذكر هل المزايا أكبر من العيوب. الفقرة الأولى: أهم الميزات مع مثال. الفقرة الثانية: أهم العيوب مع مثال، ثم بيّن لماذا تبقى أقل وزناً (أو أكبر). الخاتمة: كرّر حكمك النهائي بعبارات جديدة.",
+  "ideas": [
+   "older people share experience and often help with childcare",
+   "longer lives reflect better health care",
+   "pension and hospital costs rise for the state",
+   "fewer workers support more retired people",
+   "older workers can stay active and fill labour shortages"
+  ],
+  "vocab": [
+   "life expectancy",
+   "an ageing population",
+   "pension system",
+   "retirement age",
+   "healthcare costs",
+   "workforce",
+   "dependency"
+  ]
+ },
+ {
+  "id": "w2-43",
+  "l": "B2",
+  "type": "discuss",
+  "topic": "energy",
+  "prompt": "Some people believe that governments should invest mainly in renewable energy such as solar and wind power. Others think that fossil fuels will remain necessary for many years and should receive most of the investment.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "fossil fuels give steady power in any weather",
+   "a sudden change could cost jobs and raise prices",
+   "renewables have very low running costs",
+   "clean energy protects health and the climate",
+   "batteries and stronger grids are needed first"
+  ],
+  "vocab": [
+   "renewable energy",
+   "fossil fuels",
+   "power station",
+   "to reduce emissions",
+   "a power cut",
+   "storage",
+   "the transition"
+  ],
+  "model": "Energy policy affects everything from electricity bills to the air we breathe. Some people want governments to put nearly all their money into solar and wind power, while others say that oil and gas cannot be replaced yet. I believe that renewable energy should receive the larger share, but not the whole of it.\n\nThose who defend fossil fuels point to reliability. A gas power station produces electricity day and night, in any weather, whereas solar panels stop working after sunset and wind turbines depend on the breeze. A hospital or a steel factory cannot accept sudden power cuts. In addition, many countries have built their economies around cheap fuel or fuel exports, and a rapid change could cost jobs and raise prices for poor families, for example in a region where thousands of workers depend on a single gas field.\n\nHowever, renewable sources are the better long-term investment. Their running costs are very low because sunshine and wind are free, and the price of solar panels has fallen sharply over the past decade. Moreover, they do not release the gases that heat the planet or the smoke that damages the lungs of children in crowded cities. A sunny country that builds large solar farms, for instance, can reduce its fuel imports and sell surplus electricity to its neighbours.\n\nIn conclusion, both views contain some truth, but investment should clearly favour clean energy. Until batteries become cheaper and power grids stronger, existing gas plants can fill the gaps when the sun is not shining, and governments should retrain energy workers for new jobs as the change takes place.",
+  "notesAr": "1) المقدمة تعرض الرأيين وتعلن الموقف مبكراً (أكبر حصة للطاقة المتجددة وليس كلها).\n2) فقرة لكل رأي، وكل فقرة بسبب ومثال محسوس (المستشفى والمصنع، منطقة تعتمد على حقل غاز واحد، رئتا الأطفال في المدن المزدحمة).\n3) الخاتمة تحلّ التعارض بحل انتقالي واقعي بدلاً من تكرار الجمل، وتستعمل ربطاً جيداً (whereas, In addition, Moreover)."
+ },
+ {
+  "id": "w2-44",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "consumerism",
+  "prompt": "Many people buy new phones, clothes and furniture long before the old ones stop working. Some think this habit is harmful to society and the environment.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "constant buying creates a mountain of waste",
+   "advertising makes people feel their things are outdated",
+   "people spend money they do not have",
+   "shops and factories provide jobs",
+   "repairing and reusing saves money and resources"
+  ],
+  "vocab": [
+   "consumer culture",
+   "disposable",
+   "to throw away",
+   "impulse buying",
+   "advertising",
+   "landfill",
+   "second-hand"
+  ]
+ },
+ {
+  "id": "w2-45",
+  "l": "B2",
+  "type": "problem",
+  "topic": "international aid",
+  "prompt": "Wealthy countries and charities send large amounts of financial aid to poorer countries, but in many cases the aid does not improve people's lives as much as expected.\n\nWhat are the causes of this problem, and what could be done to make aid more effective?",
+  "planAr": "المقدمة: اذكر المشكلة بإيجاز وأنك ستشرح أسبابها وحلولها. الفقرة الأولى: سببان للمشكلة مع مثال لكل سبب. الفقرة الثانية: حلان واقعيان مع بيان كيف يعالج كل منهما سبباً مذكوراً. الخاتمة: لخّص الأسباب والحلول.",
+  "ideas": [
+   "money is lost through corruption or poor planning",
+   "projects ignore what local people really need",
+   "aid creates dependence instead of skills",
+   "donors and recipients should publish how money is spent",
+   "train local workers and let communities decide priorities"
+  ],
+  "vocab": [
+   "financial aid",
+   "to depend on",
+   "to misuse funds",
+   "local communities",
+   "long-term development",
+   "donor",
+   "to monitor"
+  ]
+ },
+ {
+  "id": "w2-46",
+  "l": "B2",
+  "type": "twopart",
+  "topic": "sport",
+  "prompt": "Professional footballers and other top athletes often earn far more than doctors or teachers.\n\nWhy is this the case? Is it fair?",
+  "planAr": "المقدمة: أعد صياغة الموضوع وأشر إلى أنك ستجيب عن السؤالين. الفقرة الأولى: أجب عن السؤال الأول بسبب ومثال. الفقرة الثانية: أجب عن السؤال الثاني بموقف واضح مع سبب ومثال. الخاتمة: لخّص الإجابتين. تأكد أن كل سؤال أخذ جواباً مباشراً.",
+  "ideas": [
+   "sport is a huge entertainment business with advertising income",
+   "very few people have top-level talent",
+   "athletes' careers are short and risky",
+   "essential workers train for years and save lives",
+   "higher taxes on huge incomes could support public services"
+  ],
+  "vocab": [
+   "professional athlete",
+   "salary",
+   "to generate profit",
+   "a short career",
+   "advertising revenue",
+   "essential workers",
+   "to tax"
+  ],
+  "model": "Top athletes can earn in a single year what a nurse would earn in a lifetime. This essay will explain the reasons for this gap and argue that, although it is understandable in economic terms, it is not entirely fair.\n\nThe main reason is that sport is a huge entertainment business. Millions of people pay to watch a match or subscribe to a television channel, and advertisers pay enormous sums to appear in front of those viewers. A famous striker therefore brings in far more money for his club than the cost of his salary. In addition, very few people have the talent to play at the highest level. Because the supply of such players is tiny and clubs compete fiercely for them, wages rise. A teacher, by contrast, can be replaced by thousands of equally qualified people, so the market does not push her pay up in the same way.\n\nIs this fair? In terms of effort and risk, athletes do deserve a good income, as their careers are short and one injury can end them overnight. Nevertheless, I believe that the difference with essential workers is excessive. A doctor spends a decade in training and may save hundreds of lives, yet she may earn a fraction of a footballer's weekly wage. Such a gap suggests that society rewards popularity more than usefulness. Governments cannot fix market prices, but they could tax very high earnings more heavily and use the revenue to raise salaries in public hospitals and schools.\n\nIn conclusion, athletes are paid highly because they generate profit and are rare, but a fair society should not let the gap with teachers and doctors grow without limit.",
+  "notesAr": "1) المقدمة تعد بالإجابة عن السؤالين (السبب ثم العدالة) وتحدد الموقف: مفهوم اقتصادياً لكنه غير عادل تماماً.\n2) السبب الاقتصادي مشروح بمنطق واضح (العرض القليل والطلب الضخم) مع مثال المهاجم والمعلمة.\n3) السؤال الثاني يُجاب بإنصاف (يستحقون دخلاً جيداً Nevertheless ...) ثم حل عملي (ضرائب أعلى لدعم المستشفيات والمدارس)."
+ },
+ {
+  "id": "w2-47",
+  "l": "B2",
+  "type": "advdis",
+  "topic": "law",
+  "prompt": "Some courts are starting to use artificial intelligence to search through documents and suggest how similar cases were decided in the past.\n\nDo the advantages of this development outweigh the disadvantages?",
+  "planAr": "المقدمة: أعد صياغة السؤال واذكر هل المزايا أكبر من العيوب. الفقرة الأولى: أهم الميزات مع مثال. الفقرة الثانية: أهم العيوب مع مثال، ثم بيّن لماذا تبقى أقل وزناً (أو أكبر). الخاتمة: كرّر حكمك النهائي بعبارات جديدة.",
+  "ideas": [
+   "AI reads thousands of pages in minutes",
+   "consistent decisions in similar cases",
+   "judges and lawyers save time and costs",
+   "AI may repeat bias hidden in old data",
+   "people need to understand how a suggestion was produced"
+  ],
+  "vocab": [
+   "legal research",
+   "precedent",
+   "to speed up",
+   "consistency",
+   "algorithmic bias",
+   "transparency",
+   "human oversight"
+  ]
+ },
+ {
+  "id": "w2-48",
+  "l": "B2",
+  "type": "discuss",
+  "topic": "art",
+  "prompt": "Some people think that governments should spend public money on museums, theatres and public art. Others believe that this money should be used for more essential services such as hospitals and roads.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "hospitals and roads meet urgent daily needs",
+   "taxpayers may resent funding what they never use",
+   "art builds identity and attracts visitors",
+   "free museums give children cultural experiences",
+   "a small, steady share can serve both aims"
+  ],
+  "vocab": [
+   "public funding",
+   "cultural heritage",
+   "essential services",
+   "to attract visitors",
+   "creativity",
+   "a priority",
+   "a balanced budget"
+  ]
+ },
+ {
+  "id": "w2-49",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "economy",
+  "prompt": "Some economists argue that governments should support small local businesses rather than try to attract large foreign companies.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "local firms keep money circulating inside the community",
+   "foreign firms may send profits abroad",
+   "many small firms make an economy more resilient",
+   "foreign firms bring technology, skills and export markets",
+   "support through loans, training and lower costs"
+  ],
+  "vocab": [
+   "small business",
+   "foreign investment",
+   "to boost the economy",
+   "profit",
+   "resilient",
+   "supplier",
+   "to create jobs"
+  ],
+  "model": "Every government wants more jobs and higher incomes, and it must choose where to direct its support. I largely agree that small local businesses deserve greater attention than large foreign firms, although foreign investment still has a role.\n\nThe first reason is that local businesses keep money inside the community. A family bakery buys flour from nearby farmers, pays rent to a local landlord and employs neighbours, so each dinar earned circulates several times before it leaves the area. A foreign company, by contrast, often sends most of its profit abroad and imports its equipment and managers. In a small town, for example, a new factory owned by outsiders may employ many workers but leave little behind if it closes.\n\nThe second reason is resilience. An economy made of thousands of small firms is less likely to collapse when one of them fails, whereas a country that relies on a single multinational can suffer badly if that company moves to a cheaper location. Small firms are also more flexible: a tailor can start making face masks within a week when demand suddenly rises. Governments can help them with simple tools such as easier loans, lower administrative costs and training in accounting and online marketing. I do not believe, however, that foreign companies should be rejected. They bring technology and skills that local firms may lack, and they can open export markets, so the sensible approach is to welcome them on condition that they train local staff and buy materials from local suppliers.\n\nIn conclusion, supporting small businesses should be the priority because it spreads wealth and builds stability, but it should be combined with carefully managed foreign investment.",
+  "notesAr": "1) الموقف جزئي ودقيق (\"largely agree ... although\") وهذا أفضل من الموافقة المطلقة في السؤال من نوع to what extent.\n2) سبب أول ومثال (المخبز العائلي مقابل مصنع الغرباء)، وسبب ثانٍ ومثال (الخياط الذي ينتج الكمامات خلال أسبوع).\n3) يعالج الرأي المخالف داخل الفقرة الثانية (However ... on condition that) فتبدو الحجة ناضجة ومتوازنة."
+ },
+ {
+  "id": "w2-50",
+  "l": "B2",
+  "type": "problem",
+  "topic": "transparency",
+  "prompt": "In many countries, citizens find it difficult to obtain information about how public money is spent, and as a result they trust their institutions less.\n\nWhat are the causes of this problem, and what measures could be taken to solve it?",
+  "planAr": "المقدمة: اذكر المشكلة بإيجاز وأنك ستشرح أسبابها وحلولها. الفقرة الأولى: سببان للمشكلة مع مثال لكل سبب. الفقرة الثانية: حلان واقعيان مع بيان كيف يعالج كل منهما سبباً مذكوراً. الخاتمة: لخّص الأسباب والحلول.",
+  "ideas": [
+   "officials fear criticism and keep records secret",
+   "information is stored on paper or in confusing formats",
+   "no law forces institutions to answer requests",
+   "publish budgets and contracts online in simple form",
+   "create an independent body to enforce the right to information"
+  ],
+  "vocab": [
+   "freedom of information",
+   "public records",
+   "to disclose",
+   "budget",
+   "to restore trust",
+   "an independent body",
+   "citizens"
+  ]
+ }
+]

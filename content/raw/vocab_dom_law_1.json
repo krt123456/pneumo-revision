@@ -1,0 +1,1042 @@
+[
+{
+"w": "law",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "قانون",
+"ex": "The law says drivers must stop at a red light.",
+"x": "law",
+"exar": "القانون ينص على أن يتوقف السائقون عند الإشارة الحمراء.",
+"c": [
+"break the law",
+"pass a law"
+],
+"f": [
+"lawful",
+"lawyer"
+]
+},
+{
+"w": "court",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "محكمة",
+"ex": "The court will hear the case on Monday morning.",
+"x": "court",
+"exar": "ستنظر المحكمة في القضية صباح يوم الاثنين.",
+"c": [
+"go to court",
+"court case"
+]
+},
+{
+"w": "judge",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "قاضٍ",
+"ex": "The judge listened carefully to both sides.",
+"x": "judge",
+"exar": "أصغى القاضي بانتباه إلى الطرفين.",
+"c": [
+"a fair judge"
+],
+"f": [
+"judgement"
+]
+},
+{
+"w": "lawyer",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "محامٍ",
+"ex": "My lawyer read the contract before I signed it.",
+"x": "lawyer",
+"exar": "قرأ محامي العقد قبل أن أوقّعه.",
+"c": [
+"hire a lawyer"
+]
+},
+{
+"w": "trial",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "محاكمة",
+"ex": "The trial lasted three weeks and many people watched.",
+"x": "trial",
+"exar": "استمرت المحاكمة ثلاثة أسابيع وتابعها كثيرون.",
+"c": [
+"stand trial",
+"fair trial"
+]
+},
+{
+"w": "guilty",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "مذنب، مدان",
+"ex": "The man was found guilty of stealing a car.",
+"x": "guilty",
+"exar": "وُجد الرجل مذنبًا بسرقة سيارة.",
+"c": [
+"find someone guilty",
+"plead guilty"
+],
+"f": [
+"guilt"
+]
+},
+{
+"w": "innocent",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "بريء",
+"ex": "She was innocent, so the judge let her go home.",
+"x": "innocent",
+"exar": "كانت بريئة، فسمح لها القاضي بالعودة إلى بيتها.",
+"c": [
+"prove someone innocent"
+],
+"f": [
+"innocence"
+]
+},
+{
+"w": "evidence",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "دليل، بيّنة",
+"ex": "The police found new evidence in the car.",
+"x": "evidence",
+"exar": "عثرت الشرطة على دليل جديد في السيارة.",
+"c": [
+"strong evidence",
+"evidence of"
+],
+"f": [
+"evident"
+]
+},
+{
+"w": "witness",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "شاهد",
+"ex": "A witness saw the thief run out of the shop.",
+"x": "witness",
+"exar": "رأى شاهد اللص وهو يركض خارج المتجر.",
+"c": [
+"eye witness",
+"call a witness"
+]
+},
+{
+"w": "arrest",
+"p": "v",
+"l": "B1",
+"t": "crime",
+"ar": "يعتقل، يوقف",
+"ex": "Officers arrested two men outside the bank.",
+"x": "arrested",
+"exar": "اعتقل الضباط رجلين أمام البنك.",
+"c": [
+"arrest a suspect"
+],
+"f": [
+"arrest"
+]
+},
+{
+"w": "rights",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "حقوق",
+"ex": "Every worker has the right to a written contract.",
+"x": "right",
+"exar": "لكل عامل الحق في عقد مكتوب.",
+"c": [
+"human rights",
+"know your rights"
+]
+},
+{
+"w": "contract",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "عقد",
+"ex": "I signed a two-year contract with the company.",
+"x": "contract",
+"exar": "وقّعت عقدًا لمدة سنتين مع الشركة.",
+"c": [
+"sign a contract",
+"sign"
+],
+"f": [
+"contractual"
+]
+},
+{
+"w": "legal",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "قانوني، شرعي",
+"ex": "You need legal advice before you buy the land.",
+"x": "legal",
+"exar": "تحتاج إلى استشارة قانونية قبل أن تشتري الأرض.",
+"c": [
+"legal advice",
+"legal system"
+],
+"f": [
+"legally",
+"legality"
+]
+},
+{
+"w": "illegal",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "غير قانوني",
+"ex": "It is illegal to build a house without a permit.",
+"x": "illegal",
+"exar": "من غير القانوني بناء منزل دون رخصة.",
+"c": [
+"illegal act"
+],
+"f": [
+"illegally",
+"illegality"
+]
+},
+{
+"w": "sentence",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "حكم، عقوبة",
+"ex": "The judge gave him a two-year prison sentence.",
+"x": "sentence",
+"exar": "أصدر القاضي بحقه حكمًا بالسجن سنتين.",
+"c": [
+"life sentence",
+"a heavy sentence"
+]
+},
+{
+"w": "fine",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "غرامة",
+"ex": "The driver paid a fine for parking in the wrong place.",
+"x": "fine",
+"exar": "دفع السائق غرامة لأنه أوقف سيارته في مكان خاطئ.",
+"c": [
+"pay a fine",
+"heavy fine"
+]
+},
+{
+"w": "crime",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "جريمة",
+"ex": "Stealing from a hospital is a serious crime.",
+"x": "crime",
+"exar": "السرقة من مستشفى جريمة خطيرة.",
+"c": [
+"commit a crime",
+"crime rate"
+],
+"f": [
+"criminal"
+]
+},
+{
+"w": "criminal",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "مجرم",
+"ex": "The criminal was caught on a security camera.",
+"x": "criminal",
+"exar": "التُقط المجرم على كاميرا المراقبة.",
+"c": [
+"a dangerous criminal"
+],
+"f": [
+"criminally"
+]
+},
+{
+"w": "police",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "شرطة",
+"ex": "The police arrived five minutes after the call.",
+"x": "police",
+"exar": "وصلت الشرطة بعد خمس دقائق من المكالمة.",
+"c": [
+"call the police",
+"police officer"
+]
+},
+{
+"w": "prison",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "سجن",
+"ex": "He spent ten years in prison for fraud.",
+"x": "prison",
+"exar": "قضى عشر سنوات في السجن بسبب الاحتيال.",
+"c": [
+"go to prison",
+"prison guard"
+],
+"f": [
+"prisoner"
+]
+},
+{
+"w": "punishment",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "عقوبة، عقاب",
+"ex": "The punishment for cheating in the exam is a zero.",
+"x": "punishment",
+"exar": "عقوبة الغش في الامتحان هي صفر.",
+"c": [
+"severe punishment"
+],
+"f": [
+"punish"
+]
+},
+{
+"w": "justice",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "عدالة",
+"ex": "Everyone wants justice for the victims of the fire.",
+"x": "justice",
+"exar": "يريد الجميع العدالة لضحايا الحريق.",
+"c": [
+"bring to justice",
+"a sense of justice"
+],
+"f": [
+"just",
+"unjust"
+]
+},
+{
+"w": "case",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "قضية",
+"ex": "The lawyer studied the case for many days.",
+"x": "case",
+"exar": "درس المحامي القضية لأيام طويلة.",
+"c": [
+"win a case",
+"court case"
+]
+},
+{
+"w": "charge",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "تهمة",
+"ex": "He faces a charge of stealing public money.",
+"x": "charge",
+"exar": "يواجه تهمة سرقة المال العام.",
+"c": [
+"face a charge",
+"drop the charges"
+]
+},
+{
+"w": "steal",
+"p": "v",
+"l": "B1",
+"t": "crime",
+"ar": "يسرق",
+"ex": "Someone stole my phone on the bus.",
+"x": "stole",
+"exar": "سرق أحدهم هاتفي في الحافلة.",
+"c": [
+"steal money"
+],
+"f": [
+"theft",
+"thief"
+]
+},
+{
+"w": "theft",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "سرقة",
+"ex": "The shop reported a theft of three laptops.",
+"x": "theft",
+"exar": "أبلغ المتجر عن سرقة ثلاثة حواسيب محمولة.",
+"c": [
+"car theft"
+],
+"f": [
+"thief"
+]
+},
+{
+"w": "thief",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "لص، سارق",
+"ex": "The thief climbed through the open window.",
+"x": "thief",
+"exar": "تسلق اللص عبر النافذة المفتوحة.",
+"c": [
+"catch a thief"
+],
+"f": [
+"thieves"
+]
+},
+{
+"w": "murder",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "جريمة قتل",
+"ex": "The police are investigating a murder in the village.",
+"x": "murder",
+"exar": "تحقق الشرطة في جريمة قتل في القرية.",
+"c": [
+"commit murder"
+],
+"f": [
+"murderer"
+]
+},
+{
+"w": "victim",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "ضحية",
+"ex": "The victim of the robbery called the police at once.",
+"x": "victim",
+"exar": "اتصلت ضحية السطو بالشرطة فورًا.",
+"c": [
+"crime victim"
+],
+"f": [
+"victimise"
+]
+},
+{
+"w": "suspect",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "مشتبه به",
+"ex": "The main suspect was questioned for six hours.",
+"x": "suspect",
+"exar": "استُجوب المشتبه به الرئيسي ست ساعات.",
+"c": [
+"prime suspect"
+],
+"f": [
+"suspicion"
+]
+},
+{
+"w": "accuse",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يتهم",
+"ex": "They accused the manager of taking bribes.",
+"x": "accused",
+"exar": "اتهموا المدير بتلقي الرشاوى.",
+"c": [
+"accuse someone of"
+],
+"f": [
+"accusation",
+"accused"
+]
+},
+{
+"w": "prove",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يثبت",
+"ex": "The lawyer proved that his client was at home.",
+"x": "proved",
+"exar": "أثبت المحامي أن موكّله كان في البيت.",
+"c": [
+"prove a point"
+],
+"f": [
+"proof"
+]
+},
+{
+"w": "jury",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "هيئة المحلفين",
+"ex": "The jury listened to the witnesses for two days.",
+"x": "jury",
+"exar": "استمعت هيئة المحلفين إلى الشهود يومين.",
+"c": [
+"jury member"
+],
+"f": [
+"juror"
+]
+},
+{
+"w": "sue",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يقاضي، يرفع دعوى",
+"ex": "The customer sued the shop for selling a broken machine.",
+"x": "sued",
+"exar": "قاضى الزبون المتجر لأنه باع آلة معطلة.",
+"c": [
+"sue for damages"
+],
+"f": [
+"lawsuit"
+]
+},
+{
+"w": "rule",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "قاعدة، قاعدة قانونية",
+"ex": "The rule says visitors must leave their phones outside.",
+"x": "rule",
+"exar": "تنص القاعدة على أن يترك الزوار هواتفهم في الخارج.",
+"c": [
+"follow the rules",
+"break a rule"
+]
+},
+{
+"w": "regulation",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "لائحة، نظام",
+"ex": "New safety regulations protect workers on building sites.",
+"x": "regulation",
+"exar": "تحمي اللوائح الجديدة للسلامة العمال في مواقع البناء.",
+"c": [
+"safety regulations"
+],
+"f": [
+"regulate"
+]
+},
+{
+"w": "permit",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "رخصة، تصريح",
+"ex": "You need a permit to build a wall here.",
+"x": "permit",
+"exar": "تحتاج إلى رخصة لبناء جدار هنا.",
+"c": [
+"work permit",
+"building permit"
+],
+"f": [
+"permit"
+]
+},
+{
+"w": "licence",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "رخصة، ترخيص",
+"ex": "He lost his driving licence after the accident.",
+"x": "licence",
+"exar": "فقد رخصة القيادة بعد الحادث.",
+"c": [
+"driving licence"
+],
+"f": [
+"license"
+]
+},
+{
+"w": "ban",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يحظر، يمنع",
+"ex": "The city banned cars from the old market.",
+"x": "banned",
+"exar": "حظرت المدينة دخول السيارات إلى السوق القديم.",
+"c": [
+"ban smoking"
+]
+},
+{
+"w": "forbid",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يحرّم، يمنع",
+"ex": "The law forbids children from working in factories.",
+"x": "forbids",
+"exar": "يمنع القانون الأطفال من العمل في المصانع.",
+"c": [
+"strictly forbidden"
+],
+"f": [
+"forbidden"
+]
+},
+{
+"w": "robbery",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "سطو، سرقة بالإكراه",
+"ex": "Two men carried out a robbery at the post office.",
+"x": "robbery",
+"exar": "نفّذ رجلان عملية سطو على مكتب البريد.",
+"c": [
+"bank robbery"
+],
+"f": [
+"robber",
+"rob"
+]
+},
+{
+"w": "violence",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "عنف",
+"ex": "The court punishes violence against women very firmly.",
+"x": "violence",
+"exar": "تعاقب المحكمة العنف ضد النساء بحزم شديد.",
+"c": [
+"domestic violence"
+],
+"f": [
+"violent"
+]
+},
+{
+"w": "weapon",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "سلاح",
+"ex": "The police found a weapon under the seat.",
+"x": "weapon",
+"exar": "وجدت الشرطة سلاحًا تحت المقعد.",
+"c": [
+"carry a weapon"
+]
+},
+{
+"w": "offence",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "مخالفة، جنحة",
+"ex": "Parking here is a minor offence and costs a small fine.",
+"x": "offence",
+"exar": "الوقوف هنا مخالفة بسيطة وتكلّف غرامة صغيرة.",
+"c": [
+"a serious offence",
+"first offence"
+],
+"f": [
+"offender"
+]
+},
+{
+"w": "penalty",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "عقوبة، جزاء",
+"ex": "The penalty for late tax payment is ten percent.",
+"x": "penalty",
+"exar": "جزاء تأخير دفع الضريبة عشرة بالمئة.",
+"c": [
+"death penalty",
+"heavy penalty"
+],
+"f": [
+"penalise"
+]
+},
+{
+"w": "confess",
+"p": "v",
+"l": "B1",
+"t": "crime",
+"ar": "يعترف",
+"ex": "The young man confessed to breaking the window.",
+"x": "confessed",
+"exar": "اعترف الشاب بأنه كسر النافذة.",
+"c": [
+"confess to a crime"
+],
+"f": [
+"confession"
+]
+},
+{
+"w": "truth",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "حقيقة، الحق",
+"ex": "The witness promised to tell the whole truth.",
+"x": "truth",
+"exar": "وعد الشاهد بقول الحقيقة كاملة.",
+"c": [
+"tell the truth",
+"the whole truth"
+],
+"f": [
+"true",
+"truthful"
+]
+},
+{
+"w": "swear",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يقسم، يحلف",
+"ex": "He swore to tell the truth in court.",
+"x": "swore",
+"exar": "أقسم أن يقول الحقيقة في المحكمة.",
+"c": [
+"swear an oath"
+]
+},
+{
+"w": "oath",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "يمين، قسَم",
+"ex": "The witness took an oath before speaking.",
+"x": "oath",
+"exar": "أدّى الشاهد اليمين قبل أن يتكلم.",
+"c": [
+"take an oath",
+"under oath"
+]
+},
+{
+"w": "claim",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "مطالبة، ادعاء",
+"ex": "She made a claim for the money her employer owed her.",
+"x": "claim",
+"exar": "قدّمت مطالبة بالمال الذي يدين به لها صاحب العمل.",
+"c": [
+"make a claim",
+"insurance claim"
+],
+"f": [
+"claim"
+]
+},
+{
+"w": "detective",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "مخبر، محقق جنائي",
+"ex": "The detective studied every photograph from the crime scene.",
+"x": "detective",
+"exar": "درس المحقق كل صورة من مسرح الجريمة.",
+"c": [
+"private detective"
+]
+},
+{
+"w": "fair",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "عادل، منصف",
+"ex": "Everyone has the right to a fair trial.",
+"x": "fair",
+"exar": "لكل شخص الحق في محاكمة عادلة.",
+"c": [
+"fair trial",
+"fair treatment"
+],
+"f": [
+"fairly",
+"fairness"
+]
+},
+{
+"w": "unfair",
+"p": "adj",
+"l": "B1",
+"t": "law",
+"ar": "ظالم، غير عادل",
+"ex": "The workers said the dismissal was unfair.",
+"x": "unfair",
+"exar": "قال العمال إن الفصل كان غير عادل.",
+"c": [
+"unfair dismissal"
+],
+"f": [
+"unfairly",
+"unfairness"
+]
+},
+{
+"w": "obey",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يمتثل، يطيع",
+"ex": "Drivers must obey the traffic laws.",
+"x": "obey",
+"exar": "يجب أن يمتثل السائقون لقوانين المرور.",
+"c": [
+"obey the law"
+],
+"f": [
+"obedience"
+]
+},
+{
+"w": "break the law",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "يخالف القانون",
+"ex": "Anyone who breaks the law must face the consequences.",
+"x": "breaks the law",
+"exar": "كل من يخالف القانون يجب أن يتحمل العواقب."
+},
+{
+"w": "criminal record",
+"p": "phr",
+"l": "B1",
+"t": "crime",
+"ar": "سجل جنائي، سوابق عدلية",
+"ex": "He could not get the job because of his criminal record.",
+"x": "criminal record",
+"exar": "لم يستطع الحصول على الوظيفة بسبب سوابقه العدلية."
+},
+{
+"w": "prison sentence",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "حكم بالسجن",
+"ex": "The thief received a six-month prison sentence.",
+"x": "prison sentence",
+"exar": "تلقى اللص حكمًا بالسجن ستة أشهر."
+},
+{
+"w": "pay a fine",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "يدفع غرامة",
+"ex": "You must pay a fine if you leave litter here.",
+"x": "pay a fine",
+"exar": "يجب أن تدفع غرامة إذا رميت النفايات هنا."
+},
+{
+"w": "under arrest",
+"p": "phr",
+"l": "B1",
+"t": "crime",
+"ar": "قيد التوقيف، موقوف",
+"ex": "The officer said, \"You are under arrest.\"",
+"x": "under arrest",
+"exar": "قال الضابط: \"أنت قيد التوقيف.\""
+},
+{
+"w": "take to court",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "يرفع إلى المحكمة، يقاضي",
+"ex": "The tenant took the landlord to court over the broken heating.",
+"x": "took the landlord to court",
+"exar": "رفع المستأجر المالك إلى المحكمة بسبب تعطل التدفئة."
+},
+{
+"w": "tell the truth",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "يقول الحقيقة",
+"ex": "A witness must tell the truth in court.",
+"x": "tell the truth",
+"exar": "يجب على الشاهد أن يقول الحقيقة في المحكمة."
+},
+{
+"w": "legal advice",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "استشارة قانونية",
+"ex": "She asked a lawyer for legal advice about her lease.",
+"x": "legal advice",
+"exar": "طلبت من محامٍ استشارة قانونية بشأن عقد إيجارها."
+},
+{
+"w": "crime scene",
+"p": "phr",
+"l": "B1",
+"t": "crime",
+"ar": "مسرح الجريمة",
+"ex": "Police tape closed off the crime scene.",
+"x": "crime scene",
+"exar": "أغلق شريط الشرطة مسرح الجريمة."
+},
+{
+"w": "legal action",
+"p": "phr",
+"l": "B1",
+"t": "law",
+"ar": "إجراء قضائي، دعوى",
+"ex": "The company took legal action against the supplier.",
+"x": "legal action",
+"exar": "اتخذت الشركة إجراءً قضائيًا ضد المورّد."
+},
+{
+"w": "prisoner",
+"p": "n",
+"l": "B1",
+"t": "crime",
+"ar": "سجين",
+"ex": "The prisoner studied law books in his cell.",
+"x": "prisoner",
+"exar": "درس السجين كتب القانون في زنزانته.",
+"c": [
+"political prisoner"
+],
+"f": [
+"prison"
+]
+},
+{
+"w": "release",
+"p": "v",
+"l": "B1",
+"t": "law",
+"ar": "يفرج عن، يطلق سراح",
+"ex": "The court released him after one night.",
+"x": "released",
+"exar": "أفرجت المحكمة عنه بعد ليلة واحدة.",
+"c": [
+"release on bail"
+],
+"f": [
+"release"
+]
+},
+{
+"w": "citizen",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "مواطن",
+"ex": "Every citizen has the right to vote.",
+"x": "citizen",
+"exar": "لكل مواطن الحق في التصويت.",
+"c": [
+"ordinary citizen"
+],
+"f": [
+"citizenship"
+]
+},
+{
+"w": "property",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "ملكية، ممتلكات",
+"ex": "The land is private property, so no one may enter.",
+"x": "property",
+"exar": "الأرض ملكية خاصة، فلا يجوز لأحد الدخول.",
+"c": [
+"private property",
+"public property"
+]
+},
+{
+"w": "attorney",
+"p": "n",
+"l": "B1",
+"t": "law",
+"ar": "محامٍ، وكيل قانوني",
+"ex": "The attorney asked the court for more time.",
+"x": "attorney",
+"exar": "طلب المحامي من المحكمة مهلة إضافية.",
+"c": [
+"defence attorney"
+]
+},
+{
+"w": "smuggle",
+"p": "v",
+"l": "B2",
+"t": "crime",
+"ar": "يهرّب",
+"d": "to bring goods into a country secretly and illegally",
+"ex": "Officers caught a man trying to smuggle gold across the border.",
+"x": "smuggle",
+"f": [
+"smuggler",
+"smuggling"
+]
+}
+]

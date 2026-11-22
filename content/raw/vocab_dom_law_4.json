@@ -1,0 +1,1027 @@
+[
+{
+"w": "mediation",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "وساطة",
+"d": "a way to settle a dispute with a neutral helper instead of a trial",
+"ex": "The two companies tried mediation before going to court.",
+"x": "mediation",
+"c": [
+"through mediation",
+"mediation service"
+],
+"f": [
+"mediate",
+"mediator"
+]
+},
+{
+"w": "legal aid",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "مساعدة قضائية",
+"d": "free legal help for people who cannot pay a lawyer",
+"ex": "He could not pay a lawyer, so he asked for legal aid.",
+"x": "legal aid",
+"c": [
+"apply for legal aid"
+]
+},
+{
+"w": "immunity",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "حصانة",
+"d": "protection from being arrested or sued",
+"ex": "Members of parliament may have immunity from prosecution.",
+"x": "immunity",
+"c": [
+"diplomatic immunity",
+"grant immunity"
+],
+"f": [
+"immune"
+]
+},
+{
+"w": "pardon",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "عفو",
+"d": "an official decision to forgive a crime and end the punishment",
+"ex": "The president granted him a pardon after five years in prison.",
+"x": "pardon",
+"c": [
+"grant a pardon",
+"receive a pardon"
+],
+"f": [
+"pardon"
+]
+},
+{
+"w": "felony",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "جناية",
+"d": "a very serious crime, such as murder or armed robbery",
+"ex": "Armed robbery is a felony and carries a long prison term.",
+"x": "felony",
+"c": [
+"commit a felony"
+],
+"f": [
+"felon"
+]
+},
+{
+"w": "misdemeanour",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "جنحة",
+"d": "a less serious crime that has a lighter punishment",
+"ex": "Shouting at an officer was treated as a misdemeanour.",
+"x": "misdemeanour",
+"c": [
+"a minor misdemeanour"
+]
+},
+{
+"w": "indictment",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "لائحة اتهام، قرار الإحالة",
+"d": "a formal written accusation that a person committed a crime",
+"ex": "The indictment listed twelve charges against the director.",
+"x": "indictment",
+"c": [
+"issue an indictment"
+],
+"f": [
+"indict"
+]
+},
+{
+"w": "indict",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يوجّه الاتهام رسميًا",
+"d": "to formally accuse someone of a serious crime",
+"ex": "Prosecutors indicted the director on twelve charges.",
+"x": "indicted",
+"c": [
+"be indicted for"
+],
+"f": [
+"indictment"
+]
+},
+{
+"w": "perjury",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "شهادة زور",
+"d": "the crime of lying after swearing to tell the truth in court",
+"ex": "He was punished for perjury after lying in court.",
+"x": "perjury",
+"c": [
+"commit perjury"
+],
+"f": [
+"perjure"
+]
+},
+{
+"w": "subpoena",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "أمر بالحضور، استدعاء إلزامي",
+"d": "a court order that forces a person to appear or provide documents",
+"ex": "The court issued a subpoena for the bank's records.",
+"x": "subpoena",
+"c": [
+"issue a subpoena",
+"serve a subpoena"
+],
+"f": [
+"subpoena"
+]
+},
+{
+"w": "litigation",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تقاضٍ، نزاع قضائي",
+"d": "the process of taking a dispute to court",
+"ex": "The litigation between the two firms lasted six years.",
+"x": "litigation",
+"c": [
+"be involved in litigation",
+"costly litigation"
+],
+"f": [
+"litigant",
+"litigate"
+]
+},
+{
+"w": "litigant",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "متقاضٍ",
+"d": "a person who is involved in a court case",
+"ex": "Every litigant has the right to be heard.",
+"x": "litigant",
+"c": [
+"a litigant in person"
+],
+"f": [
+"litigation"
+]
+},
+{
+"w": "jurisdiction",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "اختصاص قضائي، ولاية قضائية",
+"d": "the legal power of a court over certain people, places or cases",
+"ex": "The local court has no jurisdiction over this foreign company.",
+"x": "jurisdiction",
+"c": [
+"fall within the jurisdiction",
+"lack jurisdiction"
+]
+},
+{
+"w": "injunction",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "أمر زجري، أمر قضائي بالمنع",
+"d": "a court order that forbids a person from doing something",
+"ex": "The court issued an injunction to stop the demolition.",
+"x": "injunction",
+"c": [
+"grant an injunction",
+"seek an injunction"
+]
+},
+{
+"w": "acquittal",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تبرئة، حكم بالبراءة",
+"d": "a court decision that a person is not guilty",
+"ex": "The acquittal surprised many people who followed the trial.",
+"x": "acquittal",
+"c": [
+"secure an acquittal"
+],
+"f": [
+"acquit"
+]
+},
+{
+"w": "acquit",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يبرّئ",
+"d": "to decide in court that a person is not guilty",
+"ex": "The jury acquitted the accountant of all charges.",
+"x": "acquitted",
+"c": [
+"be acquitted of"
+],
+"f": [
+"acquittal"
+]
+},
+{
+"w": "exonerate",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يبرّئ ساحة، يخلي مسؤولية",
+"d": "to show officially that a person is not to blame",
+"ex": "The new video exonerated the driver completely.",
+"x": "exonerated",
+"c": [
+"be exonerated"
+],
+"f": [
+"exoneration"
+]
+},
+{
+"w": "culpable",
+"p": "adj",
+"l": "C1",
+"t": "law",
+"ar": "مسؤول جنائيًا، مستحق للّوم",
+"d": "deserving blame for a crime or wrongdoing",
+"ex": "The report found the manager culpable for the delay.",
+"x": "culpable",
+"c": [
+"culpable of"
+],
+"f": [
+"culpability"
+]
+},
+{
+"w": "plea bargain",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "مساومة قضائية، اتفاق على الإقرار بالذنب",
+"d": "an agreement to plead guilty in return for a lighter sentence",
+"ex": "The accused accepted a plea bargain to avoid a long trial.",
+"x": "plea bargain",
+"c": [
+"accept a plea bargain"
+]
+},
+{
+"w": "due process",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "الإجراءات القانونية الواجبة",
+"d": "fair legal steps that the state must follow before punishing someone",
+"ex": "Everyone is entitled to due process before losing their property.",
+"x": "due process",
+"c": [
+"deny due process",
+"follow due process"
+]
+},
+{
+"w": "statute of limitations",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "التقادم، مدة التقادم",
+"d": "a law that sets a time limit for bringing a case",
+"ex": "The statute of limitations had expired, so the case could not go ahead.",
+"x": "statute of limitations",
+"c": [
+"the statute of limitations expires"
+]
+},
+{
+"w": "presumption of innocence",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "قرينة البراءة، أصل البراءة",
+"d": "the principle that a person is innocent until proved guilty",
+"ex": "The presumption of innocence protects every accused person.",
+"x": "presumption of innocence",
+"c": [
+"respect the presumption of innocence"
+]
+},
+{
+"w": "mitigating circumstances",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "ظروف مخفِّفة",
+"d": "facts that make a crime seem less serious",
+"ex": "The judge reduced the sentence because of mitigating circumstances.",
+"x": "mitigating circumstances",
+"c": [
+"take into account mitigating circumstances"
+],
+"f": [
+"mitigate"
+]
+},
+{
+"w": "aggravating circumstances",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "ظروف مشدِّدة",
+"d": "facts that make a crime seem more serious",
+"ex": "The use of a weapon was an aggravating circumstance.",
+"x": "aggravating circumstance",
+"f": [
+"aggravate"
+]
+},
+{
+"w": "miscarriage of justice",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "خطأ قضائي، إجهاض العدالة",
+"d": "a wrong court decision that punishes an innocent person",
+"ex": "The man's release after twenty years was a clear miscarriage of justice.",
+"x": "miscarriage of justice",
+"c": [
+"a serious miscarriage of justice"
+]
+},
+{
+"w": "wrongful conviction",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "إدانة خاطئة",
+"d": "a court decision that wrongly finds an innocent person guilty",
+"ex": "New tests proved that the wrongful conviction had ruined his life.",
+"x": "wrongful conviction",
+"c": [
+"overturn a wrongful conviction"
+],
+"f": [
+"wrongful"
+]
+},
+{
+"w": "arbitration",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تحكيم",
+"d": "settling a dispute by an independent person instead of a court",
+"ex": "The contract says disputes must go to arbitration.",
+"x": "arbitration",
+"c": [
+"go to arbitration",
+"arbitration clause"
+],
+"f": [
+"arbitrate",
+"arbitrator"
+]
+},
+{
+"w": "arbitrator",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "محكِّم",
+"d": "a neutral person chosen to settle a dispute",
+"ex": "Both sides accepted the arbitrator's decision.",
+"x": "arbitrator",
+"c": [
+"appoint an arbitrator"
+],
+"f": [
+"arbitration"
+]
+},
+{
+"w": "adjudicate",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يفصل في (نزاع)",
+"d": "to decide officially who is right in a dispute",
+"ex": "A special court adjudicates disputes between the state and companies.",
+"x": "adjudicates",
+"c": [
+"adjudicate a dispute"
+],
+"f": [
+"adjudication"
+]
+},
+{
+"w": "tort",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "فعل ضار، مسؤولية تقصيرية",
+"d": "a wrongful act, not a crime, that causes harm to another person",
+"ex": "The neighbour sued under the law of tort for the damage.",
+"x": "tort",
+"c": [
+"law of tort"
+]
+},
+{
+"w": "defamation",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تشهير، قذف",
+"d": "saying false things that harm a person's good name",
+"ex": "The journalist was sued for defamation after the article.",
+"x": "defamation",
+"c": [
+"sue for defamation"
+],
+"f": [
+"defame"
+]
+},
+{
+"w": "libel",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "قذف كتابي",
+"d": "a false statement written or printed that harms someone's reputation",
+"ex": "The newspaper paid damages for libel.",
+"x": "libel",
+"c": [
+"libel case"
+]
+},
+{
+"w": "slander",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "قذف شفهي، سبّ",
+"d": "a false spoken statement that harms someone's reputation",
+"ex": "He sued his neighbour for slander after the false rumour.",
+"x": "slander"
+},
+{
+"w": "indemnity",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تعويض، ضمان من الضرر",
+"d": "protection against loss or a payment for loss",
+"ex": "The contract gives the supplier indemnity against any claim.",
+"x": "indemnity",
+"c": [
+"indemnity clause"
+],
+"f": [
+"indemnify"
+]
+},
+{
+"w": "restitution",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "ردّ الحقوق، إعادة المال",
+"d": "returning stolen money or goods to the owner",
+"ex": "The court ordered restitution of the stolen funds.",
+"x": "restitution",
+"c": [
+"make restitution"
+]
+},
+{
+"w": "extradition",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تسليم المجرمين",
+"d": "sending a suspect to another country to face trial",
+"ex": "Extradition of the suspect took six months to arrange.",
+"x": "extradition",
+"c": [
+"extradition treaty"
+],
+"f": [
+"extradite"
+]
+},
+{
+"w": "amnesty",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "عفو عام",
+"d": "an official order that forgives a group of offenders",
+"ex": "The government announced an amnesty for minor offences.",
+"x": "amnesty",
+"c": [
+"grant an amnesty"
+]
+},
+{
+"w": "clemency",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "رأفة، عفو",
+"d": "mercy shown by an official to an offender",
+"ex": "The prisoner asked the president for clemency.",
+"x": "clemency",
+"c": [
+"plead for clemency"
+]
+},
+{
+"w": "commute",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يخفّف (العقوبة)",
+"d": "to change a punishment into a lighter one",
+"ex": "The president commuted the sentence to ten years.",
+"x": "commuted",
+"c": [
+"commute a sentence"
+]
+},
+{
+"w": "remand",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "حبس احتياطي",
+"d": "the state of being kept in prison before a trial",
+"ex": "He spent four months on remand before the trial began.",
+"x": "remand",
+"c": [
+"on remand",
+"remand prisoner"
+],
+"f": [
+"remand"
+]
+},
+{
+"w": "recidivism",
+"p": "n",
+"l": "C1",
+"t": "crime",
+"ar": "العود إلى الجريمة",
+"d": "the tendency of a convicted person to commit crime again",
+"ex": "Education programmes in prison help reduce recidivism.",
+"x": "recidivism",
+"c": [
+"reduce recidivism",
+"recidivism rate"
+],
+"f": [
+"recidivist"
+]
+},
+{
+"w": "contempt of court",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "إهانة المحكمة، ازدراء القضاء",
+"d": "the crime of disobeying or insulting a court",
+"ex": "He was fined for contempt of court after shouting at the judge.",
+"x": "contempt of court",
+"c": [
+"be in contempt of court"
+]
+},
+{
+"w": "self-incrimination",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تجريم الذات",
+"d": "saying something that shows you are guilty of a crime",
+"ex": "No one can be forced into self-incrimination.",
+"x": "self-incrimination",
+"c": [
+"protection against self-incrimination"
+],
+"f": [
+"incriminate"
+]
+},
+{
+"w": "double jeopardy",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "عدم جواز المحاكمة مرتين عن الفعل نفسه",
+"d": "being tried twice for the same crime",
+"ex": "The rule against double jeopardy stopped a second trial.",
+"x": "double jeopardy",
+"c": [
+"the rule of double jeopardy"
+]
+},
+{
+"w": "cassation",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "نقض (الطعن بالنقض)",
+"d": "a final appeal to the highest court on points of law",
+"ex": "The lawyer filed an appeal in cassation against the ruling.",
+"x": "cassation",
+"c": [
+"appeal in cassation"
+]
+},
+{
+"w": "annulment",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "إبطال، إلغاء",
+"d": "an official decision that something is no longer valid",
+"ex": "The court ordered the annulment of the contract.",
+"x": "annulment",
+"c": [
+"seek annulment"
+],
+"f": [
+"annul"
+]
+},
+{
+"w": "constitutional",
+"p": "adj",
+"l": "C1",
+"t": "law",
+"ar": "دستوري",
+"d": "connected with the basic law of a country",
+"ex": "The court checks whether a new law is constitutional.",
+"x": "constitutional",
+"c": [
+"constitutional court",
+"constitutional right"
+],
+"f": [
+"constitution"
+]
+},
+{
+"w": "unconstitutional",
+"p": "adj",
+"l": "C1",
+"t": "law",
+"ar": "غير دستوري",
+"d": "against the basic law of a country",
+"ex": "The court declared the law unconstitutional.",
+"x": "unconstitutional",
+"c": [
+"declare unconstitutional"
+],
+"f": [
+"constitutional"
+]
+},
+{
+"w": "rule of law",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "سيادة القانون",
+"d": "the principle that everyone, including the state, must obey the law",
+"ex": "The rule of law means that no official is above the law.",
+"x": "rule of law",
+"c": [
+"respect the rule of law",
+"uphold the rule of law"
+]
+},
+{
+"w": "natural justice",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "مبادئ العدالة الطبيعية",
+"d": "basic fairness in legal decisions, such as the right to be heard",
+"ex": "Dismissing him without a hearing broke the rules of natural justice.",
+"x": "natural justice",
+"c": [
+"rules of natural justice"
+]
+},
+{
+"w": "equity",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "الإنصاف",
+"d": "fairness in law when strict rules would give an unfair result",
+"ex": "The judge used equity to protect the buyer.",
+"x": "equity",
+"c": [
+"principles of equity"
+],
+"f": [
+"equitable"
+]
+},
+{
+"w": "obstruction of justice",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "عرقلة سير العدالة",
+"d": "the crime of stopping a legal investigation or trial",
+"ex": "Hiding the documents was an obstruction of justice.",
+"x": "obstruction of justice",
+"c": [
+"charged with obstruction of justice"
+]
+},
+{
+"w": "tamper with",
+"p": "phr",
+"l": "C1",
+"t": "crime",
+"ar": "يعبث بـ، يتلاعب بـ",
+"d": "to change something secretly and illegally",
+"ex": "Someone tampered with the evidence before the trial.",
+"x": "tampered with",
+"c": [
+"tamper with evidence",
+"tamper with a witness"
+]
+},
+{
+"w": "chain of custody",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "سلسلة حيازة الدليل",
+"d": "the record of who held a piece of evidence and when",
+"ex": "The defence attacked the chain of custody of the hard drive.",
+"x": "chain of custody",
+"c": [
+"break the chain of custody"
+]
+},
+{
+"w": "strict liability",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "مسؤولية مطلقة",
+"d": "responsibility for harm even without proof of fault",
+"ex": "Factories face strict liability for harm caused by dangerous waste.",
+"x": "strict liability",
+"c": [
+"impose strict liability"
+]
+},
+{
+"w": "prima facie",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "من أول وهلة، ظاهر الدعوى",
+"d": "at first sight, based on the first evidence",
+"ex": "The documents were prima facie proof of the payment.",
+"x": "prima facie",
+"c": [
+"a prima facie case"
+]
+},
+{
+"w": "pro bono",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "مجانًا (خدمة قانونية تطوعية)",
+"d": "done free of charge for the public good",
+"ex": "The lawyer took the case pro bono for the poor family.",
+"x": "pro bono",
+"c": [
+"pro bono work"
+]
+},
+{
+"w": "in absentia",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "غيابيًا",
+"d": "in the absence of the accused person",
+"ex": "The court sentenced him in absentia.",
+"x": "in absentia",
+"c": [
+"tried in absentia"
+]
+},
+{
+"w": "inquest",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "تحقيق قضائي في سبب الوفاة",
+"d": "an official inquiry to find the cause of a death",
+"ex": "An inquest was opened to find out how he died.",
+"x": "inquest",
+"c": [
+"hold an inquest"
+]
+},
+{
+"w": "fiduciary duty",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "واجب الأمانة",
+"d": "the legal duty to act honestly for another person's benefit",
+"ex": "A board member has a fiduciary duty to the company.",
+"x": "fiduciary duty",
+"c": [
+"breach of fiduciary duty"
+]
+},
+{
+"w": "statutory",
+"p": "adj",
+"l": "C1",
+"t": "law",
+"ar": "قانوني، منصوص عليه في التشريع",
+"d": "required or set by a written law",
+"ex": "Employers have a statutory duty to provide safe equipment.",
+"x": "statutory",
+"c": [
+"statutory right",
+"statutory duty"
+],
+"f": [
+"statute"
+]
+},
+{
+"w": "vindicate",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يبرّئ، يثبت صحة",
+"d": "to prove that someone was right or not to blame",
+"ex": "The audit report vindicated the head of the department.",
+"x": "vindicated",
+"c": [
+"feel vindicated"
+],
+"f": [
+"vindication"
+]
+},
+{
+"w": "impartial",
+"p": "adj",
+"l": "B2",
+"t": "law",
+"ar": "نزيه، محايد",
+"d": "not supporting one side more than the other",
+"ex": "A judge must be impartial and listen to both sides.",
+"x": "impartial",
+"c": [
+"an impartial judge"
+],
+"f": [
+"impartiality",
+"partial"
+]
+},
+{
+"w": "recuse",
+"p": "v",
+"l": "C1",
+"t": "law",
+"ar": "يتنحى (عن النظر في قضية)",
+"d": "to step aside from a case because of a conflict",
+"ex": "The judge recused himself because he knew the defendant.",
+"x": "recused",
+"f": [
+"recusal"
+]
+},
+{
+"w": "habeas corpus",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "مثول الموقوف أمام القاضي (الحماية من الحبس التعسفي)",
+"d": "a legal order that forces the state to bring a detained person to court",
+"ex": "A habeas corpus request forced the police to explain his detention.",
+"x": "habeas corpus",
+"c": [
+"file for habeas corpus"
+]
+},
+{
+"w": "writ",
+"p": "n",
+"l": "C1",
+"t": "law",
+"ar": "أمر قضائي مكتوب",
+"d": "a formal written order issued by a court",
+"ex": "The court issued a writ ordering the company to hand over its files.",
+"x": "writ",
+"c": [
+"issue a writ"
+]
+},
+{
+"w": "good faith",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "حسن النية",
+"d": "an honest intention to act fairly",
+"ex": "The buyer acted in good faith and had no idea the car was stolen.",
+"x": "good faith",
+"c": [
+"act in good faith"
+],
+"f": [
+"bad faith"
+]
+},
+{
+"w": "bar association",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "نقابة المحامين",
+"d": "the professional organisation that represents and regulates lawyers",
+"ex": "The bar association punished the lawyer for hiding evidence.",
+"x": "bar association",
+"c": [
+"join the bar association"
+]
+},
+{
+"w": "legal privilege",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "السر المهني للمحامي",
+"d": "the right to keep talks between a lawyer and client secret",
+"ex": "Legal privilege protects what a client tells his lawyer.",
+"x": "legal privilege",
+"c": [
+"claim legal privilege"
+]
+},
+{
+"w": "judicial independence",
+"p": "phr",
+"l": "C1",
+"t": "law",
+"ar": "استقلال القضاء",
+"d": "the freedom of judges to decide cases without pressure",
+"ex": "Judicial independence is essential for a fair trial.",
+"x": "judicial independence",
+"c": [
+"protect judicial independence"
+]
+}
+]

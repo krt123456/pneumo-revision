@@ -1,0 +1,250 @@
+[
+ {
+  "id": "w2-31",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "technology",
+  "prompt": "Some people believe that artificial intelligence will soon replace teachers in schools and universities.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "AI can mark work and give extra practice at any hour",
+   "teachers notice emotions and confusion that software misses",
+   "children learn values by watching adults",
+   "AI frees teachers for discussion and personal support",
+   "someone human must be accountable for what pupils learn"
+  ],
+  "vocab": [
+   "to replace",
+   "routine tasks",
+   "personalised feedback",
+   "individual support",
+   "to be accountable for",
+   "a powerful tool",
+   "classroom management"
+  ],
+  "model": "Artificial intelligence is already marking essays and answering students' questions, so it is tempting to think that human teachers will soon become unnecessary. I disagree with this view, although I accept that AI will change the way teachers work.\n\nThe main reason is that teaching involves much more than delivering information. A good teacher notices when a student is anxious, bored or quietly confused, and adjusts the lesson at once. For example, a maths teacher may see a pupil staring at the board and realise that the explanation went too fast, even though the pupil says nothing. A program can only react to the answers it receives, so it often misses these signals. In addition, children learn habits such as patience and respect by watching adults, and a screen cannot demonstrate them in the same way.\n\nOn the other hand, AI will certainly take over some routine tasks. It can mark hundreds of grammar exercises in seconds and give every learner extra practice at midnight, when no teacher is available. A student preparing for an exam, for instance, could ask a chatbot to explain a difficult formula five times without feeling embarrassed. However, this does not make teachers redundant. It frees them to spend their time on discussion, feedback and individual support, which are the most valuable parts of education. Parents and governments also want a real person to be responsible for what pupils are taught, and a company's software cannot fill that role.\n\nIn conclusion, AI is likely to become a powerful assistant in the classroom, but it is unlikely to replace the teacher. Schools should therefore train teachers to use these tools wisely instead of trying to do without them.",
+  "notesAr": "1) موقف واضح من أول جملة: \"I disagree ... although I accept\" تجمع الرأي والاعتراف بالرأي الآخر.\n2) كل فقرة رئيسية فيها سبب ثم مثال محدد يسهل تخيّله (المعلم الذي يرى التلميذ يحدّق في السبورة، الطالب الذي يسأل الروبوت عند منتصف الليل).\n3) الروابط طبيعية (In addition, On the other hand, However, therefore) والخاتمة تعيد الموقف دون أفكار جديدة."
+ },
+ {
+  "id": "w2-32",
+  "l": "B2",
+  "type": "discuss",
+  "topic": "globalisation",
+  "prompt": "Some people think that the spread of international brands and foreign films is damaging local traditions. Others believe it brings people closer together and enriches daily life.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "foreign brands can push out small local shops and crafts",
+   "young people may copy foreign habits and forget traditional customs",
+   "shared films, music and food create curiosity about other cultures",
+   "traditions can survive when communities are proud of them",
+   "tourism and the internet can promote local culture abroad"
+  ],
+  "vocab": [
+   "local traditions",
+   "cultural identity",
+   "to be exposed to",
+   "international brands",
+   "mutual understanding",
+   "to preserve",
+   "homogeneous"
+  ]
+ },
+ {
+  "id": "w2-33",
+  "l": "B2",
+  "type": "problem",
+  "topic": "urbanisation",
+  "prompt": "In many countries, young people are leaving villages to live in large cities, and the villages are becoming almost empty.\n\nWhat are the causes of this problem, and what measures could be taken to solve it?",
+  "planAr": "المقدمة: اذكر المشكلة بإيجاز وأنك ستشرح أسبابها وحلولها. الفقرة الأولى: سببان للمشكلة مع مثال لكل سبب. الفقرة الثانية: حلان واقعيان مع بيان كيف يعالج كل منهما سبباً مذكوراً. الخاتمة: لخّص الأسباب والحلول.",
+  "ideas": [
+   "few jobs and low wages in rural areas",
+   "poorer schools, hospitals and internet access in villages",
+   "cities seem to offer excitement and better careers",
+   "provide grants or tax relief for rural businesses",
+   "improve transport and broadband so people can work remotely"
+  ],
+  "vocab": [
+   "rural areas",
+   "to migrate",
+   "job opportunities",
+   "basic services",
+   "a rural exodus",
+   "incentives",
+   "broadband"
+  ]
+ },
+ {
+  "id": "w2-34",
+  "l": "B2",
+  "type": "advdis",
+  "topic": "tourism",
+  "prompt": "In many countries, tourism has become the main source of income for coastal towns and historic cities.\n\nDo the advantages of this development outweigh the disadvantages?",
+  "planAr": "المقدمة: أعد صياغة السؤال واذكر هل المزايا أكبر من العيوب. الفقرة الأولى: أهم الميزات مع مثال. الفقرة الثانية: أهم العيوب مع مثال، ثم بيّن لماذا تبقى أقل وزناً (أو أكبر). الخاتمة: كرّر حكمك النهائي بعبارات جديدة.",
+  "ideas": [
+   "tourism creates jobs for young people with little training",
+   "visitor spending produces tax revenue for roads and museums",
+   "housing becomes more expensive for local residents",
+   "litter, noise and pressure on water supplies",
+   "limits on tourist flats and entry fees can reduce the harm"
+  ],
+  "vocab": [
+   "a source of income",
+   "to create employment",
+   "tax revenue",
+   "overcrowding",
+   "to afford housing",
+   "visitor numbers",
+   "sustainable tourism"
+  ],
+  "model": "Tourism now supports many towns that once depended on fishing or farming. In my view, the benefits are greater than the drawbacks, provided that local authorities manage visitor numbers carefully.\n\nThe most important advantage is employment. Hotels, restaurants, taxi firms and souvenir shops all need staff, and many of these jobs are open to young people with little formal training. In a small coastal town, for example, a teenager can start as a waiter in the summer, learn some English and later open a café of his own. Tourist spending also reaches ordinary families directly, which is rarely true of income from heavy industry, and it gives governments the tax revenue to repair roads, museums and harbours.\n\nHowever, the disadvantages are real. Crowds raise the cost of housing, because owners find it more profitable to rent flats to visitors than to local residents. In some historic cities, shopkeepers complain that the old market has been replaced by cheap souvenir stalls and that families can no longer afford to live in the centre. Visitors also cause litter, noise and pressure on water supplies, especially in dry regions. Nevertheless, these problems can be reduced by sensible rules. Cities can limit the number of tourist flats, charge a small entry fee for the busiest sites and spend the income on cleaning and public transport. Where such measures exist, residents benefit from visitors instead of suffering because of them.\n\nIn conclusion, tourism brings jobs and public money that few other industries can match, and its negative effects can largely be controlled. For this reason, I believe that the advantages outweigh the disadvantages.",
+  "notesAr": "1) يحدد المقال حكمه فوراً (\"the benefits are greater ... provided that\") ويضع شرطاً واقعياً.\n2) فقرة الميزات وفقرة العيوب كل منهما بسبب ومثال ملموس (مراهق يبدأ نادلاً ثم يفتح مقهى؛ أصحاب المحلات والسوق القديم).\n3) فقرة العيوب تنتهي بحلول (Nevertheless ...) فيبقى الحكم النهائي مقنعاً، وتستعمل عبارات متنوعة مثل tax revenue و visitor numbers."
+ },
+ {
+  "id": "w2-35",
+  "l": "B2",
+  "type": "twopart",
+  "topic": "language",
+  "prompt": "Many languages around the world are disappearing because younger generations prefer to speak English or another major language.\n\nWhy is this happening? Is it a problem if a small language disappears?",
+  "planAr": "المقدمة: أعد صياغة الموضوع وأشر إلى أنك ستجيب عن السؤالين. الفقرة الأولى: أجب عن السؤال الأول بسبب ومثال. الفقرة الثانية: أجب عن السؤال الثاني بموقف واضح مع سبب ومثال. الخاتمة: لخّص الإجابتين. تأكد أن كل سؤال أخذ جواباً مباشراً.",
+  "ideas": [
+   "jobs, universities and the internet reward major languages",
+   "parents want children to have better career chances",
+   "small languages carry stories, songs and local knowledge",
+   "once the last speakers die, the knowledge is lost",
+   "schools and media can keep minority languages alive"
+  ],
+  "vocab": [
+   "minority language",
+   "to die out",
+   "native speaker",
+   "cultural heritage",
+   "career prospects",
+   "bilingual",
+   "to revitalise"
+  ]
+ },
+ {
+  "id": "w2-36",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "law",
+  "prompt": "Some people argue that computer programs, not human judges, should decide simple legal cases such as traffic fines and unpaid bills.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "programs apply the same rule to everyone and never get tired",
+   "faster decisions reduce the huge backlog in courts",
+   "people want to explain their situation to a human",
+   "software can contain hidden errors or bias",
+   "a right of appeal to a human judge is essential"
+  ],
+  "vocab": [
+   "a backlog of cases",
+   "to reach a verdict",
+   "impartial",
+   "an appeal",
+   "legal reasoning",
+   "bias",
+   "due process"
+  ]
+ },
+ {
+  "id": "w2-37",
+  "l": "B2",
+  "type": "discuss",
+  "topic": "law",
+  "prompt": "Some people think that judges should always follow strict sentencing rules set by the law. Others believe that judges should be free to decide each sentence according to the circumstances of the case.\n\nDiscuss both views and give your own opinion.",
+  "planAr": "المقدمة: عرّف الموضوع وبيّن أنك ستناقش الرأيين. الفقرة الأولى: الرأي الأول مع سبب ومثال. الفقرة الثانية: الرأي الثاني مع سبب ومثال. الخاتمة: اذكر رأيك الشخصي بوضوح مع سبب مختصر (يمكن ذكره أيضاً في المقدمة).",
+  "ideas": [
+   "fixed rules give equal and predictable punishments",
+   "guidelines make it harder to hide favouritism or bribery",
+   "no rule can foresee every situation",
+   "a judge can hear the defendant and judge his character",
+   "published written reasons can combine both approaches"
+  ],
+  "vocab": [
+   "to hand down a sentence",
+   "sentencing guidelines",
+   "discretion",
+   "fair trial",
+   "defendant",
+   "leniency",
+   "to review a decision"
+  ],
+  "model": "Sentencing is one of the most visible decisions in any legal system, so it is not surprising that people disagree about how much freedom judges should have. I will discuss both positions before explaining why I favour a balanced approach.\n\nSupporters of strict rules argue that they make justice equal and predictable. If two people commit the same theft, they should receive similar punishments, whatever the judge's mood or background. Fixed guidelines also make it harder for corruption to go unnoticed, because any unusual sentence would be easy to spot. A judge who gave a very light penalty to a friend, for example, would have to explain why he ignored the official table of penalties, and a public explanation of that kind discourages favouritism and bribery.\n\nOn the other hand, no rule can anticipate every situation. A man who steals bread to feed his hungry children is not the same as a gang member who steals for profit, yet a rigid system might treat them identically. Judges can listen to witnesses, read reports about the defendant's character and see whether he truly regrets his actions. When they are allowed to use this knowledge, sentences are fairer and more likely to help offenders return to normal life. For instance, a young first-time offender who agrees to repay the victim and attend a training course may be better served by a community sentence than by a spell in prison.\n\nIn my opinion, the best solution is to give judges a range of penalties for each offence and to require written reasons whenever they go outside it. This keeps the equality that strict rules provide while leaving room for human judgement, and it allows higher courts to review decisions.",
+  "notesAr": "1) المقدمة تعرض الرأيين وتعلن أن الموقف وسطي، فيعرف القارئ مسار المقال.\n2) كل رأي يُعرض بإنصاف مع سبب ومثال واضح (القاضي والصديق، سارق الخبز مقابل العصابة، المخالف الشاب والخدمة المجتمعية).\n3) الرأي الشخصي في الخاتمة عملي ومحدد (نطاق من العقوبات + تسبيب مكتوب) وليس عبارة عامة، مع مفردات قانونية دقيقة."
+ },
+ {
+  "id": "w2-38",
+  "l": "B2",
+  "type": "opinion",
+  "topic": "government",
+  "prompt": "Some people think that all government contracts, including the names of the companies and the amounts paid, should be published online for everyone to see.\n\nTo what extent do you agree or disagree?",
+  "planAr": "المقدمة: أعد صياغة الموضوع بكلماتك واذكر موقفك بوضوح (أوافق / لا أوافق / أوافق جزئياً). الفقرة الأولى: سبب رئيسي مع مثال محدد. الفقرة الثانية: سبب ثانٍ مع مثال، أو اعتراف بالرأي المخالف ثم الرد عليه. الخاتمة: لخّص موقفك بجملتين دون أفكار جديدة.",
+  "ideas": [
+   "public money belongs to citizens, so they should see how it is spent",
+   "publication discourages bribery and favouritism",
+   "journalists and students can spot waste",
+   "some security or business details may need protection",
+   "simple, searchable websites matter more than huge files"
+  ],
+  "vocab": [
+   "transparency",
+   "public contract",
+   "to scrutinise",
+   "taxpayers' money",
+   "to deter corruption",
+   "accountability",
+   "searchable database"
+  ]
+ },
+ {
+  "id": "w2-39",
+  "l": "B2",
+  "type": "problem",
+  "topic": "corruption",
+  "prompt": "In some countries, ordinary people believe that they must pay small bribes to officials in order to receive basic public services.\n\nWhat are the causes of this problem, and what can be done to reduce it?",
+  "planAr": "المقدمة: اذكر المشكلة بإيجاز وأنك ستشرح أسبابها وحلولها. الفقرة الأولى: سببان للمشكلة مع مثال لكل سبب. الفقرة الثانية: حلان واقعيان مع بيان كيف يعالج كل منهما سبباً مذكوراً. الخاتمة: لخّص الأسباب والحلول.",
+  "ideas": [
+   "low salaries and weak supervision of officials",
+   "complicated procedures and long queues create temptation",
+   "fear of punishment is low because cases are rarely investigated",
+   "online services reduce personal contact with officials",
+   "protection for people who report corruption and clear public information"
+  ],
+  "vocab": [
+   "to offer a bribe",
+   "public servant",
+   "red tape",
+   "to turn a blind eye",
+   "a whistleblower",
+   "oversight",
+   "to prosecute"
+  ]
+ },
+ {
+  "id": "w2-40",
+  "l": "B2",
+  "type": "twopart",
+  "topic": "privacy",
+  "prompt": "Many apps and websites collect personal information such as users' locations and shopping habits.\n\nWhy do companies collect so much data? Is this a positive or negative development?",
+  "planAr": "المقدمة: أعد صياغة الموضوع وأشر إلى أنك ستجيب عن السؤالين. الفقرة الأولى: أجب عن السؤال الأول بسبب ومثال. الفقرة الثانية: أجب عن السؤال الثاني بموقف واضح مع سبب ومثال. الخاتمة: لخّص الإجابتين. تأكد أن كل سؤال أخذ جواباً مباشراً.",
+  "ideas": [
+   "data makes advertising more profitable",
+   "data itself can be sold to other firms",
+   "personalised services are convenient",
+   "hacked databases lead to fraud",
+   "users rarely understand long terms and conditions"
+  ],
+  "vocab": [
+   "personal data",
+   "to track",
+   "consent",
+   "terms and conditions",
+   "data breach",
+   "targeted advertising",
+   "to invade privacy"
+  ],
+  "model": "Almost every free app now asks permission to track where we go and what we buy. This essay will explain why companies gather such information and argue that, in its present form, the development is more negative than positive.\n\nCompanies collect data mainly because it is profitable. Advertisers pay more for messages that reach the right person, and a business that knows a customer's habits can predict what he will want next. For example, a food-delivery app that notices someone orders pizza every Friday can send a discount code on Friday afternoon. Data can also be sold to other firms, so it has become a product in its own right, which gives companies a strong reason to collect as much as they can.\n\nAlthough personalised services can be convenient, I believe that the risks are greater. First, large databases attract criminals. When a company's system is hacked, millions of addresses and passwords may be stolen and used for fraud. Second, users rarely understand what they have agreed to, since the terms are long and written in complicated language. A person who allows a weather app to track his location may not realise that the information is passed to dozens of unknown companies. Over time, this loss of control can make people feel watched and less willing to search for sensitive information, such as health advice, or to express their opinions freely.\n\nIn conclusion, firms collect data because it earns money, but the practice currently harms privacy and security. Stricter laws that require clear consent and the deletion of unused data would make the development far more acceptable.",
+  "notesAr": "1) المقدمة تجيب عن السؤالين صراحة (لماذا؟ ثم الحكم: سلبي أكثر منه إيجابي)، وهذا ما يطلبه نوع twopart.\n2) كل جواب في فقرة مستقلة بسبب ومثال قريب من الحياة (تطبيق التوصيل وبيتزا يوم الجمعة، تطبيق الطقس والموقع).\n3) يعترف المقال بفائدة الخدمات الشخصية (Although ...) ثم يرجّح الأخطار، وتنتهي الخاتمة بحل عملي مختصر."
+ }
+]

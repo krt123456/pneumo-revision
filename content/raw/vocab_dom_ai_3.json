@@ -1,0 +1,944 @@
+[
+{
+"w": "start-up",
+"p": "n",
+"l": "B1",
+"t": "startup",
+"ar": "شركة ناشئة",
+"ex": "A start-up needs a clear idea and a brave team.",
+"x": "start-up",
+"exar": "تحتاج الشركة الناشئة إلى فكرة واضحة وفريق شجاع.",
+"c": [
+"launch a start-up"
+]
+},
+{
+"w": "founder",
+"p": "n",
+"l": "B1",
+"t": "startup",
+"ar": "مؤسِّس",
+"ex": "The founder explained the idea in two minutes.",
+"x": "founder",
+"exar": "شرح المؤسِّس الفكرة في دقيقتين.",
+"c": [
+"company founder"
+],
+"f": [
+"found",
+"foundation"
+]
+},
+{
+"w": "idea",
+"p": "n",
+"l": "B1",
+"t": "startup",
+"ar": "فكرة",
+"ex": "Her idea is a tool that whispers advice to lawyers.",
+"x": "idea",
+"exar": "فكرتها أداة تهمس بالنصائح للمحامين.",
+"c": [
+"good idea",
+"have an idea"
+]
+},
+{
+"w": "company",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "شركة",
+"ex": "He registered a small company with two partners.",
+"x": "company",
+"exar": "سجّل شركة صغيرة مع شريكين.",
+"c": [
+"set up a company"
+]
+},
+{
+"w": "product",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "منتج",
+"ex": "Our first product is a mock court simulator.",
+"x": "product",
+"exar": "منتجنا الأول جهاز محاكاة لمحكمة تجريبية.",
+"c": [
+"new product"
+],
+"f": [
+"produce",
+"production"
+]
+},
+{
+"w": "customer",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "زبون، عميل",
+"ex": "Every customer receives a free trial for seven days.",
+"x": "customer",
+"exar": "يحصل كل زبون على تجربة مجانية لمدة سبعة أيام.",
+"c": [
+"loyal customer"
+]
+},
+{
+"w": "client",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "موكّل، عميل",
+"ex": "The lawyer asked the client for the missing contract.",
+"x": "client",
+"exar": "طلب المحامي من الموكّل العقد المفقود.",
+"c": [
+"new client"
+]
+},
+{
+"w": "service",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "خدمة",
+"ex": "The service is available day and night.",
+"x": "service",
+"exar": "الخدمة متاحة ليلًا ونهارًا.",
+"c": [
+"customer service"
+]
+},
+{
+"w": "market",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "سوق",
+"ex": "There is a large market for legal software.",
+"x": "market",
+"exar": "يوجد سوق كبيرة للبرمجيات القانونية.",
+"c": [
+"local market",
+"market size"
+]
+},
+{
+"w": "price",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "سعر، ثمن",
+"ex": "The price of the subscription is low for small firms.",
+"x": "price",
+"exar": "سعر الاشتراك منخفض للمكاتب الصغيرة.",
+"c": [
+"fair price"
+]
+},
+{
+"w": "cost",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "تكلفة",
+"ex": "The main cost is paying the engineers.",
+"x": "cost",
+"exar": "التكلفة الرئيسية هي أجور المهندسين.",
+"c": [
+"high cost"
+],
+"f": [
+"costly"
+]
+},
+{
+"w": "profit",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "ربح",
+"ex": "The company made no profit in its first year.",
+"x": "profit",
+"exar": "لم تحقق الشركة أي ربح في سنتها الأولى.",
+"c": [
+"make a profit"
+],
+"f": [
+"profitable"
+]
+},
+{
+"w": "budget",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "ميزانية",
+"ex": "We have a small budget for advertising.",
+"x": "budget",
+"exar": "لدينا ميزانية صغيرة للإعلان.",
+"c": [
+"tight budget"
+]
+},
+{
+"w": "plan",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "خطة",
+"ex": "The team wrote a plan for the next six months.",
+"x": "plan",
+"exar": "كتب الفريق خطة للأشهر الستة القادمة.",
+"c": [
+"make a plan"
+]
+},
+{
+"w": "team",
+"p": "n",
+"l": "B1",
+"t": "work",
+"ar": "فريق",
+"ex": "A strong team can solve difficult problems.",
+"x": "team",
+"exar": "يستطيع الفريق القوي حل المشكلات الصعبة.",
+"c": [
+"team member"
+]
+},
+{
+"w": "partner",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "شريك",
+"ex": "His business partner will manage the finances.",
+"x": "partner",
+"exar": "سيدير شريكه في العمل الشؤون المالية.",
+"c": [
+"business partner"
+],
+"f": [
+"partnership"
+]
+},
+{
+"w": "brand",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "علامة تجارية",
+"ex": "A trusted brand attracts more law firms.",
+"x": "brand",
+"exar": "تجذب العلامة الموثوقة مكاتب محاماة أكثر.",
+"c": [
+"brand name"
+]
+},
+{
+"w": "demand",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "طلب",
+"ex": "Demand for legal AI is growing every year.",
+"x": "demand",
+"exar": "يزداد الطلب على الذكاء الاصطناعي القانوني كل سنة.",
+"c": [
+"high demand"
+]
+},
+{
+"w": "growth",
+"p": "n",
+"l": "B1",
+"t": "business",
+"ar": "نمو",
+"ex": "The company expects fast growth next year.",
+"x": "growth",
+"exar": "تتوقع الشركة نموًا سريعًا العام المقبل.",
+"c": [
+"rapid growth"
+],
+"f": [
+"grow"
+]
+},
+{
+"w": "launch",
+"p": "v",
+"l": "B1",
+"t": "business",
+"ar": "يطلق (منتجًا)",
+"ex": "They will launch the app in September.",
+"x": "launch",
+"exar": "سيطلقون التطبيق في سبتمبر.",
+"c": [
+"launch a product"
+]
+},
+{
+"w": "investor",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "مستثمر",
+"d": "a person who puts money into a business to make more money",
+"ex": "One investor liked the idea and asked for a meeting.",
+"x": "investor",
+"c": [
+"private investor"
+],
+"f": [
+"invest",
+"investment"
+]
+},
+{
+"w": "funding",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "تمويل",
+"d": "money given to support a project or a business",
+"ex": "The start-up is looking for funding to hire more engineers.",
+"x": "funding",
+"c": [
+"raise funding"
+],
+"f": [
+"fund"
+]
+},
+{
+"w": "prototype",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "نموذج أولي",
+"d": "the first working version of a product used for testing",
+"ex": "The prototype can already listen to a hearing.",
+"x": "prototype",
+"c": [
+"build a prototype"
+]
+},
+{
+"w": "pitch",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "عرض تقديمي (لإقناع المستثمرين)",
+"d": "a short talk that presents a business idea to win support",
+"ex": "Her pitch lasted five minutes and ended with a live demo.",
+"x": "pitch",
+"c": [
+"pitch deck"
+],
+"f": [
+"pitch"
+]
+},
+{
+"w": "business plan",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "خطة عمل",
+"d": "a written document describing the aims and methods of a company",
+"ex": "The bank asked to read our business plan first.",
+"x": "business plan",
+"c": [
+"write a business plan"
+]
+},
+{
+"w": "business model",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "نموذج العمل",
+"d": "the way a company plans to earn money",
+"ex": "Our business model is a monthly fee paid by law firms.",
+"x": "business model",
+"c": [
+"clear business model"
+]
+},
+{
+"w": "revenue",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "إيرادات",
+"d": "the total money a company receives from its sales",
+"ex": "Revenue doubled after the product reached ten law firms.",
+"x": "Revenue",
+"c": [
+"annual revenue"
+]
+},
+{
+"w": "subscription",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "اشتراك",
+"d": "a regular payment that gives access to a service",
+"ex": "A monthly subscription gives lawyers full access to the tool.",
+"x": "subscription",
+"c": [
+"monthly subscription"
+],
+"f": [
+"subscribe",
+"subscriber"
+]
+},
+{
+"w": "market research",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "دراسة السوق، أبحاث السوق",
+"d": "the study of what customers want and what competitors offer",
+"ex": "Market research showed that small firms need a cheaper tool.",
+"x": "Market research",
+"c": [
+"carry out market research"
+]
+},
+{
+"w": "competitor",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "منافس",
+"d": "a company that sells similar products in the same market",
+"ex": "Our main competitor is a large foreign company.",
+"x": "competitor",
+"c": [
+"main competitor"
+],
+"f": [
+"compete",
+"competition"
+]
+},
+{
+"w": "target audience",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "الجمهور المستهدف",
+"d": "the group of people a product is made for",
+"ex": "Our target audience is young criminal defence lawyers.",
+"x": "target audience"
+},
+{
+"w": "co-founder",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "شريك مؤسِّس",
+"d": "a person who starts a company together with others",
+"ex": "Her co-founder wrote most of the code.",
+"x": "co-founder"
+},
+{
+"w": "partnership",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "شراكة",
+"d": "a formal agreement to work together",
+"ex": "A partnership with a university gave us access to research.",
+"x": "partnership",
+"c": [
+"form a partnership"
+],
+"f": [
+"partner"
+]
+},
+{
+"w": "pilot",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "تجربة تجريبية، مشروع رائد",
+"d": "a small first test of a new product or service",
+"ex": "The pilot in one court lasted three months.",
+"x": "pilot",
+"c": [
+"pilot project"
+]
+},
+{
+"w": "demo",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "عرض توضيحي",
+"d": "a short live show of how a product works",
+"ex": "The demo impressed the jury more than the slides.",
+"x": "demo",
+"c": [
+"live demo"
+]
+},
+{
+"w": "competitive advantage",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "ميزة تنافسية",
+"d": "something that puts a company in a stronger position than others",
+"ex": "Our speed is a real competitive advantage.",
+"x": "competitive advantage",
+"c": [
+"gain a competitive advantage"
+]
+},
+{
+"w": "shareholder",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "مساهم",
+"d": "a person who owns part of a company",
+"ex": "Each shareholder voted on the new strategy.",
+"x": "shareholder",
+"f": [
+"share"
+]
+},
+{
+"w": "pivot",
+"p": "v",
+"l": "B2",
+"t": "startup",
+"ar": "يغيّر الاتجاه الاستراتيجي",
+"d": "to change the main direction of a business plan",
+"ex": "The team decided to pivot from students to law firms.",
+"x": "pivot",
+"c": [
+"pivot to"
+]
+},
+{
+"w": "scalable",
+"p": "adj",
+"l": "B2",
+"t": "startup",
+"ar": "قابل للتوسّع",
+"d": "able to grow and handle more work without big new costs",
+"ex": "A scalable product can serve a thousand clients with the same code.",
+"x": "scalable",
+"c": [
+"scalable model"
+],
+"f": [
+"scale",
+"scalability"
+]
+},
+{
+"w": "incubator",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "حاضنة أعمال",
+"d": "an organisation that helps new companies with space, advice and contacts",
+"ex": "The incubator offered us an office and a mentor.",
+"x": "incubator",
+"c": [
+"join an incubator"
+],
+"f": [
+"incubate"
+]
+},
+{
+"w": "stakeholder",
+"p": "n",
+"l": "B2",
+"t": "business",
+"ar": "صاحب مصلحة، طرف معني",
+"d": "a person or group that is affected by or has an interest in a project",
+"ex": "Every stakeholder, from judges to clerks, must trust the tool.",
+"x": "stakeholder",
+"c": [
+"key stakeholder"
+]
+},
+{
+"w": "feasibility study",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "دراسة جدوى",
+"d": "an investigation to see whether a project is possible and worth doing",
+"ex": "The feasibility study proved that the idea is technically realistic.",
+"x": "feasibility study",
+"c": [
+"carry out a feasibility study"
+],
+"f": [
+"feasible"
+]
+},
+{
+"w": "minimum viable product",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "الحد الأدنى من المنتج القابل للتطبيق",
+"d": "the simplest version of a product that can be tested with real users",
+"ex": "Our minimum viable product only gives advice on witness questions.",
+"x": "minimum viable product",
+"c": [
+"build a minimum viable product"
+]
+},
+{
+"w": "value proposition",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "عرض القيمة",
+"d": "a clear statement of the benefit a product offers to customers",
+"ex": "Our value proposition is simple: fewer mistakes in court.",
+"x": "value proposition"
+},
+{
+"w": "pain point",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "نقطة ألم، مشكلة ملحّة",
+"d": "a specific problem that causes real difficulty for customers",
+"ex": "Reading huge case files is the main pain point for lawyers.",
+"x": "pain point"
+},
+{
+"w": "market share",
+"p": "phr",
+"l": "B2",
+"t": "business",
+"ar": "الحصة السوقية",
+"d": "the percentage of total sales in a market that one company has",
+"ex": "They hope to win ten per cent of the market share.",
+"x": "market share",
+"c": [
+"gain market share"
+]
+},
+{
+"w": "cash flow",
+"p": "phr",
+"l": "B2",
+"t": "money",
+"ar": "التدفق النقدي",
+"d": "the movement of money coming into and going out of a business",
+"ex": "Poor cash flow can end a start-up even when sales are good.",
+"x": "cash flow",
+"c": [
+"positive cash flow"
+]
+},
+{
+"w": "break even",
+"p": "phr",
+"l": "B2",
+"t": "money",
+"ar": "يصل إلى نقطة التعادل",
+"d": "to earn exactly as much money as the business spends",
+"ex": "We expect to break even in the third year.",
+"x": "break even"
+},
+{
+"w": "intellectual property",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "الملكية الفكرية",
+"d": "legal rights over ideas, inventions, designs and software",
+"ex": "Intellectual property protects the code that we wrote.",
+"x": "Intellectual property",
+"c": [
+"protect intellectual property"
+]
+},
+{
+"w": "patent",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "براءة اختراع",
+"d": "an official right that stops others from copying an invention",
+"ex": "The founders applied for a patent on their voice analysis method.",
+"x": "patent",
+"c": [
+"apply for a patent"
+]
+},
+{
+"w": "trademark",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "علامة تجارية مسجّلة",
+"d": "a registered name or symbol that only the owner may use",
+"ex": "They registered the trademark before the public launch.",
+"x": "trademark",
+"c": [
+"register a trademark"
+]
+},
+{
+"w": "licence",
+"p": "n",
+"l": "B2",
+"t": "law",
+"ar": "ترخيص، رخصة",
+"d": "official permission to use, make or sell something",
+"ex": "The university gave us a licence to use its legal dataset.",
+"x": "licence",
+"c": [
+"software licence"
+],
+"f": [
+"license"
+]
+},
+{
+"w": "terms of service",
+"p": "phr",
+"l": "B2",
+"t": "law",
+"ar": "شروط الخدمة",
+"d": "the legal rules a user must accept to use a product",
+"ex": "Users must accept the terms of service before they log in.",
+"x": "terms of service"
+},
+{
+"w": "accelerator",
+"p": "n",
+"l": "B2",
+"t": "startup",
+"ar": "مسرّعة أعمال",
+"d": "a programme that helps young companies grow very quickly",
+"ex": "The accelerator gave us three months of intensive training.",
+"x": "accelerator",
+"c": [
+"join an accelerator"
+],
+"f": [
+"accelerate"
+]
+},
+{
+"w": "seed funding",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "التمويل التأسيسي",
+"d": "the first money invested in a new company",
+"ex": "Seed funding allowed us to build the prototype.",
+"x": "Seed funding",
+"c": [
+"raise seed funding"
+]
+},
+{
+"w": "venture capital",
+"p": "phr",
+"l": "B2",
+"t": "startup",
+"ar": "رأس المال المخاطر",
+"d": "money invested in young companies that may grow very large",
+"ex": "Venture capital firms look for fast growing start-ups.",
+"x": "venture capital",
+"c": [
+"venture capital fund"
+]
+},
+{
+"w": "equity",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "حصة ملكية، أسهم",
+"d": "the share of a company that someone owns",
+"ex": "The investor asked for ten per cent equity in return.",
+"x": "equity",
+"c": [
+"give equity"
+]
+},
+{
+"w": "valuation",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "تقييم الشركة",
+"d": "an estimate of how much a company is worth",
+"ex": "The start-up's valuation rose after the successful pilot.",
+"x": "valuation",
+"c": [
+"company valuation"
+],
+"f": [
+"value"
+]
+},
+{
+"w": "traction",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "زخم (إثبات الإقبال)",
+"d": "clear signs that a product is attracting real users or customers",
+"ex": "Investors want traction, not just a good idea.",
+"x": "traction",
+"c": [
+"gain traction"
+]
+},
+{
+"w": "milestone",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "محطّة إنجاز، مرحلة رئيسية",
+"d": "an important stage in the development of a project",
+"ex": "Winning the first contract was a major milestone.",
+"x": "milestone",
+"c": [
+"reach a milestone"
+]
+},
+{
+"w": "key performance indicator",
+"p": "phr",
+"l": "C1",
+"t": "business",
+"ar": "مؤشّر الأداء الرئيسي",
+"d": "a number that shows how well a company reaches its goals",
+"ex": "Monthly active users is our main key performance indicator.",
+"x": "key performance indicator",
+"c": [
+"set key performance indicators"
+]
+},
+{
+"w": "churn",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "معدل فقدان العملاء",
+"d": "the rate at which customers stop using a service",
+"ex": "High churn means clients try the tool and then leave.",
+"x": "churn",
+"c": [
+"reduce churn"
+]
+},
+{
+"w": "conversion rate",
+"p": "phr",
+"l": "C1",
+"t": "startup",
+"ar": "معدل التحويل",
+"d": "the share of visitors who become paying customers",
+"ex": "Our conversion rate rose after we added a free trial.",
+"x": "conversion rate",
+"c": [
+"improve the conversion rate"
+],
+"f": [
+"convert"
+]
+},
+{
+"w": "onboarding",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "استقبال المستخدمين الجدد وتأهيلهم",
+"d": "the process of helping new users start using a product",
+"ex": "Good onboarding teaches a new lawyer the tool in ten minutes.",
+"x": "onboarding"
+},
+{
+"w": "roadmap",
+"p": "n",
+"l": "C1",
+"t": "startup",
+"ar": "خارطة طريق",
+"d": "a plan that shows the steps and timing for developing a product",
+"ex": "The roadmap includes Arabic speech support by next spring.",
+"x": "roadmap",
+"c": [
+"product roadmap"
+]
+},
+{
+"w": "go-to-market strategy",
+"p": "phr",
+"l": "C1",
+"t": "startup",
+"ar": "استراتيجية دخول السوق",
+"d": "a plan for how a company will reach customers with a new product",
+"ex": "Our go-to-market strategy starts with bar associations.",
+"x": "go-to-market strategy"
+},
+{
+"w": "return on investment",
+"p": "phr",
+"l": "C1",
+"t": "business",
+"ar": "العائد على الاستثمار",
+"d": "the profit gained compared with the money invested",
+"ex": "Investors calculate the return on investment before they decide.",
+"x": "return on investment"
+},
+{
+"w": "due diligence",
+"p": "phr",
+"l": "C1",
+"t": "business",
+"ar": "العناية الواجبة، التحرّي النافي للجهالة",
+"d": "a careful check of a company's facts and risks before a deal",
+"ex": "The investor completed due diligence on our accounts and contracts.",
+"x": "due diligence",
+"c": [
+"carry out due diligence"
+]
+},
+{
+"w": "software as a service",
+"p": "phr",
+"l": "C1",
+"t": "startup",
+"ar": "البرمجيات كخدمة",
+"d": "software that customers use online by paying a regular fee",
+"ex": "Our product is software as a service, so there is nothing to install.",
+"x": "software as a service"
+},
+{
+"w": "elevator pitch",
+"p": "phr",
+"l": "C1",
+"t": "startup",
+"ar": "عرض مختصر (في دقيقة)",
+"d": "a very short presentation of an idea that can be given in one minute",
+"ex": "Practise your elevator pitch until it takes only sixty seconds.",
+"x": "elevator pitch"
+}
+]

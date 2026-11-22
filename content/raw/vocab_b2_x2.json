@@ -1,0 +1,986 @@
+[
+{
+"w": "decent",
+"p": "adj",
+"l": "B2",
+"t": "people",
+"ar": "لائق، محترم",
+"d": "good enough, fair, or kind and respectful to other people",
+"ex": "He is a decent man who always keeps his promises.",
+"x": "decent",
+"f": [
+"decently"
+]
+},
+{
+"w": "dedicate",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يكرّس، يخصّص",
+"d": "to give your time, energy or effort to a particular purpose",
+"ex": "She dedicated her whole life to helping children learn to read.",
+"x": "dedicated",
+"c": [
+"dedicate time to"
+],
+"f": [
+"dedicated",
+"dedication"
+]
+},
+{
+"w": "demolish",
+"p": "v",
+"l": "B2",
+"t": "city",
+"ar": "يهدم، يزيل",
+"d": "to pull down or destroy a building completely",
+"ex": "The council decided to demolish the old factory next spring.",
+"x": "demolish",
+"f": [
+"demolition"
+]
+},
+{
+"w": "derive",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يستمد، يشتق",
+"d": "to get something from a source, or to come from something",
+"ex": "Many English words derive from Latin and from French.",
+"x": "derive",
+"f": [
+"derivative"
+]
+},
+{
+"w": "devote",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يكرّس، يخصّص",
+"d": "to use time, money or energy for one particular purpose",
+"ex": "The teacher devoted every evening to preparing lessons for her students.",
+"x": "devoted",
+"c": [
+"devote time to"
+],
+"f": [
+"devoted",
+"devotion"
+]
+},
+{
+"w": "emphasise",
+"p": "v",
+"l": "B2",
+"t": "communication",
+"ar": "يؤكّد على، يشدّد على",
+"d": "to give special importance to something when you speak or write",
+"ex": "The manager emphasised the need for accurate reports and clear records.",
+"x": "emphasised",
+"f": [
+"emphasis",
+"emphatic"
+]
+},
+{
+"w": "etiquette",
+"p": "n",
+"l": "B2",
+"t": "society",
+"ar": "آداب السلوك، أعراف اللياقة",
+"d": "the rules of polite behaviour that people follow in a formal situation",
+"ex": "Good etiquette requires you to greet the host before sitting down.",
+"x": "etiquette"
+},
+{
+"w": "erode",
+"p": "v",
+"l": "B2",
+"t": "environment",
+"ar": "يتآكل، يُنهك",
+"d": "to gradually destroy or wear away something over a long time",
+"ex": "Heavy waves slowly eroded the cliff over many winters.",
+"x": "eroded",
+"f": [
+"erosion"
+]
+},
+{
+"w": "expel",
+"p": "v",
+"l": "B2",
+"t": "education",
+"ar": "يطرد، يفصل",
+"d": "to force someone to leave a school, country or organisation",
+"ex": "The school expelled two students for stealing exam papers.",
+"x": "expelled",
+"f": [
+"expulsion"
+]
+},
+{
+"w": "daunting",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مخيف، مُحبِط",
+"d": "making you feel nervous about how difficult something will be",
+"ex": "Writing a thesis in a foreign language can seem daunting at first.",
+"x": "daunting"
+},
+{
+"w": "dazzle",
+"p": "v",
+"l": "B2",
+"t": "arts",
+"ar": "يبهر، يخطف البصر",
+"d": "to impress someone very much, or make it hard to see clearly",
+"ex": "The bright lights of the stage dazzled the audience for a moment.",
+"x": "dazzled",
+"f": [
+"dazzling"
+]
+},
+{
+"w": "deed",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "عمل، فعل",
+"d": "an action, especially one that is brave or good",
+"ex": "The firefighter's brave deeds were praised by the mayor in a public ceremony.",
+"x": "deeds"
+},
+{
+"w": "dense",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "كثيف، مزدحم",
+"d": "packed closely together, so there is little space between things",
+"ex": "The forest was so dense that we could barely see the sky.",
+"x": "dense",
+"f": [
+"density",
+"densely"
+]
+},
+{
+"w": "despise",
+"p": "v",
+"l": "B2",
+"t": "feelings",
+"ar": "يحتقر، يمقت",
+"d": "to feel strong dislike or disrespect for someone or something",
+"ex": "Many citizens despise corruption, because it steals money from schools and hospitals.",
+"x": "despise",
+"f": [
+"despicable"
+]
+},
+{
+"w": "devour",
+"p": "v",
+"l": "B2",
+"t": "food",
+"ar": "يلتهم، يبتلع بنهم",
+"d": "to eat something quickly and hungrily, or to read eagerly",
+"ex": "The hungry children devoured the sandwiches in less than five minutes.",
+"x": "devoured"
+},
+{
+"w": "digest",
+"p": "v",
+"l": "B2",
+"t": "health",
+"ar": "يهضم، يستوعب",
+"d": "to break down food in the stomach, or to understand information",
+"ex": "It takes several hours for the stomach to digest a heavy meal.",
+"x": "digest",
+"f": [
+"digestion",
+"digestive"
+]
+},
+{
+"w": "discard",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يتخلّص من، يرمي",
+"d": "to throw away something that you no longer want or need",
+"ex": "The inspector discarded the old reports and started the investigation again.",
+"x": "discarded"
+},
+{
+"w": "disgust",
+"p": "n",
+"l": "B2",
+"t": "feelings",
+"ar": "اشمئزاز، قرف",
+"d": "a strong feeling of dislike caused by something unpleasant or wrong",
+"ex": "The smell of rotten fish filled him with disgust.",
+"x": "disgust",
+"f": [
+"disgusting",
+"disgusted"
+]
+},
+{
+"w": "dismal",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "كئيب، بائس",
+"d": "very bad, gloomy, or without any hope or pleasure",
+"ex": "The weather was dismal all week, with cold rain every single day.",
+"x": "dismal",
+"f": [
+"dismally"
+]
+},
+{
+"w": "distress",
+"p": "n",
+"l": "B2",
+"t": "feelings",
+"ar": "ضيق شديد، كرب",
+"d": "a state of great worry, pain or unhappiness",
+"ex": "The mother's distress was clear when she could not find her son.",
+"x": "distress",
+"f": [
+"distressed",
+"distressing"
+]
+},
+{
+"w": "diverge",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يتباعد، يختلف",
+"d": "to separate and go in different directions, or to disagree",
+"ex": "The two roads diverge after the bridge, so choose carefully.",
+"x": "diverge",
+"f": [
+"divergence",
+"divergent"
+]
+},
+{
+"w": "dizzy",
+"p": "adj",
+"l": "B2",
+"t": "body",
+"ar": "دائخ، يشعر بالدوار",
+"d": "feeling as if everything is spinning and you might fall",
+"ex": "I felt dizzy after spinning around on the chair for too long.",
+"x": "dizzy",
+"f": [
+"dizziness"
+]
+},
+{
+"w": "dormant",
+"p": "adj",
+"l": "B2",
+"t": "nature",
+"ar": "خامد، ساكن",
+"d": "not active at the moment, but could become active later",
+"ex": "The volcano had been dormant for two hundred years before it erupted.",
+"x": "dormant",
+"f": [
+"dormancy"
+]
+},
+{
+"w": "doubtful",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مشكوك فيه، متشكّك",
+"d": "not certain, or unlikely to happen or be true",
+"ex": "It is doubtful that the project will finish before the summer.",
+"x": "doubtful",
+"f": [
+"doubt",
+"doubtfully"
+]
+},
+{
+"w": "drain",
+"p": "v",
+"l": "B2",
+"t": "misc",
+"ar": "يُفرغ، يستنزف",
+"d": "to make something empty by letting liquid flow out, or to use up energy",
+"ex": "The long journey drained all my energy, so I went straight to bed.",
+"x": "drained",
+"f": [
+"drainage"
+]
+},
+{
+"w": "dread",
+"p": "n",
+"l": "B2",
+"t": "feelings",
+"ar": "رعب، خوف مسبق",
+"d": "a feeling of great fear about something that is going to happen",
+"ex": "I felt a sense of dread as I waited for the exam results.",
+"x": "dread",
+"f": [
+"dreadful"
+]
+},
+{
+"w": "drift",
+"p": "v",
+"l": "B2",
+"t": "movement",
+"ar": "ينجرف، يتحرك ببطء",
+"d": "to move slowly, carried by wind or water, without a clear direction",
+"ex": "The small boat drifted away from the shore during the night.",
+"x": "drifted"
+},
+{
+"w": "drowsy",
+"p": "adj",
+"l": "B2",
+"t": "body",
+"ar": "ناعس، نعسان",
+"d": "feeling sleepy or tired and not fully awake",
+"ex": "After a heavy lunch, many workers feel drowsy in the afternoon.",
+"x": "drowsy",
+"f": [
+"drowsiness"
+]
+},
+{
+"w": "fabulous",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "رائع، أسطوري",
+"d": "extremely good, wonderful, or very impressive to see or hear",
+"ex": "We had a fabulous time at the seaside, with sunshine every day.",
+"x": "fabulous"
+},
+{
+"w": "earnest",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "جادّ، صادق",
+"d": "serious and honest in your intentions or feelings",
+"ex": "The young student gave an earnest answer and worked hard all year.",
+"x": "earnest",
+"f": [
+"earnestly",
+"earnestness"
+]
+},
+{
+"w": "eccentric",
+"p": "adj",
+"l": "B2",
+"t": "people",
+"ar": "غريب الأطوار، غير تقليدي",
+"d": "behaving in an unusual way that is different from most people",
+"ex": "The eccentric professor wore odd hats and rode his bike to class.",
+"x": "eccentric",
+"f": [
+"eccentricity"
+]
+},
+{
+"w": "eerie",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "موحش، غريب ومخيف",
+"d": "strange and frightening in a quiet, unnatural way",
+"ex": "An eerie silence fell over the empty village after the lights went out.",
+"x": "eerie"
+},
+{
+"w": "elegant",
+"p": "adj",
+"l": "B2",
+"t": "arts",
+"ar": "أنيق، راقٍ",
+"d": "graceful, stylish, and pleasing to look at",
+"ex": "She wore an elegant blue dress to the wedding dinner.",
+"x": "elegant",
+"f": [
+"elegance",
+"elegantly"
+]
+},
+{
+"w": "embarrass",
+"p": "v",
+"l": "B2",
+"t": "feelings",
+"ar": "يُحرج",
+"d": "to make someone feel shy, foolish or uncomfortable in front of others",
+"ex": "The teacher did not want to embarrass the student in front of the class.",
+"x": "embarrass",
+"f": [
+"embarrassment",
+"embarrassing"
+]
+},
+{
+"w": "endless",
+"p": "adj",
+"l": "B2",
+"t": "quantity",
+"ar": "لا نهائي، لا ينتهي",
+"d": "without any end, or lasting for a very long time",
+"ex": "The road seemed endless as we drove through the desert at night.",
+"x": "endless",
+"f": [
+"endlessly"
+]
+},
+{
+"w": "enrol",
+"p": "v",
+"l": "B2",
+"t": "education",
+"ar": "يسجّل، يلتحق",
+"d": "to officially join a course, school or university",
+"ex": "Over two hundred students enrolled in the new engineering course this year.",
+"x": "enrolled",
+"f": [
+"enrolment"
+]
+},
+{
+"w": "enthusiastic",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "متحمّس",
+"d": "showing great interest and energy about something you like",
+"ex": "The enthusiastic volunteers painted the school walls in just one day.",
+"x": "enthusiastic",
+"f": [
+"enthusiasm",
+"enthusiastically"
+]
+},
+{
+"w": "era",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "عصر، حقبة",
+"d": "a long period of time in history with its own special features",
+"ex": "The early years of the internet marked a new era for communication.",
+"x": "era"
+},
+{
+"w": "essence",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "جوهر، ماهية",
+"d": "the most important quality or basic nature of something",
+"ex": "The essence of good teaching is listening carefully to each student.",
+"x": "essence",
+"c": [
+"in essence"
+],
+"f": [
+"essential"
+]
+},
+{
+"w": "eternal",
+"p": "adj",
+"l": "B2",
+"t": "misc",
+"ar": "أبدي، دائم",
+"d": "lasting forever, or continuing without any end",
+"ex": "Many poets write about eternal love and the beauty of nature.",
+"x": "eternal",
+"f": [
+"eternity",
+"eternally"
+]
+},
+{
+"w": "evaporate",
+"p": "v",
+"l": "B2",
+"t": "science",
+"ar": "يتبخّر",
+"d": "to change from a liquid into a gas, usually because of heat",
+"ex": "The morning dew evaporated quickly once the sun came up.",
+"x": "evaporated",
+"f": [
+"evaporation"
+]
+},
+{
+"w": "exceptional",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "استثنائي، ممتاز",
+"d": "much better than usual, or unusual in a very special way",
+"ex": "The student showed exceptional skill in mathematics and physics.",
+"x": "exceptional",
+"f": [
+"exception",
+"exceptionally"
+]
+},
+{
+"w": "excessive",
+"p": "adj",
+"l": "B2",
+"t": "quantity",
+"ar": "مفرط، زائد عن الحد",
+"d": "more than is necessary, reasonable or wanted",
+"ex": "The company was fined for its excessive use of plastic packaging.",
+"x": "excessive",
+"f": [
+"excess",
+"excessively"
+]
+},
+{
+"w": "exotic",
+"p": "adj",
+"l": "B2",
+"t": "travel",
+"ar": "غريب، أجنبي وجذّاب",
+"d": "unusual and interesting, often because it comes from a foreign country",
+"ex": "The market sold exotic fruits that I had never seen before.",
+"x": "exotic"
+},
+{
+"w": "expedition",
+"p": "n",
+"l": "B2",
+"t": "travel",
+"ar": "رحلة استكشافية، بعثة",
+"d": "a long organised journey, usually to explore or to achieve a goal",
+"ex": "The expedition reached the top of the mountain after three weeks.",
+"x": "expedition"
+},
+{
+"w": "fascinate",
+"p": "v",
+"l": "B2",
+"t": "feelings",
+"ar": "يسحر، يثير الإعجاب",
+"d": "to interest someone so much that they cannot stop thinking about it",
+"ex": "The history of ancient Egypt has always fascinated my younger brother.",
+"x": "fascinated",
+"f": [
+"fascinating",
+"fascination"
+]
+},
+{
+"w": "feeble",
+"p": "adj",
+"l": "B2",
+"t": "body",
+"ar": "ضعيف، واهن",
+"d": "very weak, or not strong, loud or effective",
+"ex": "After the long illness, his voice was feeble, but he still smiled.",
+"x": "feeble",
+"f": [
+"feebly"
+]
+},
+{
+"w": "fond",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "مولع بـ، محبّ",
+"d": "liking someone or something very much, and feeling affection for them",
+"ex": "I am fond of old black and white films and wooden furniture.",
+"x": "fond",
+"c": [
+"fond of"
+],
+"f": [
+"fondness"
+]
+},
+{
+"w": "frantic",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "هائج، مضطرب جدا",
+"d": "very anxious and rushed, because you are worried or in a hurry",
+"ex": "She made frantic phone calls when she realised her passport was missing.",
+"x": "frantic",
+"f": [
+"frantically"
+]
+},
+{
+"w": "furious",
+"p": "adj",
+"l": "B2",
+"t": "feelings",
+"ar": "غاضب جدا، ثائر",
+"d": "extremely angry, and often showing it strongly",
+"ex": "The customer was furious when the shop refused to give a refund.",
+"x": "furious",
+"f": [
+"fury"
+]
+},
+{
+"w": "descend",
+"p": "v",
+"l": "B2",
+"t": "movement",
+"ar": "ينزل، يهبط",
+"d": "to move down or go from a higher place to a lower one",
+"ex": "The hikers slowly descended the mountain path before the sun set.",
+"x": "descended",
+"f": [
+"descent",
+"descendant"
+]
+},
+{
+"w": "desolate",
+"p": "adj",
+"l": "B2",
+"t": "nature",
+"ar": "مقفر، موحش",
+"d": "empty, lonely and without people, or very sad and miserable",
+"ex": "The desolate island had no roads, no shops and no electricity.",
+"x": "desolate",
+"f": [
+"desolation"
+]
+},
+{
+"w": "diagnose",
+"p": "v",
+"l": "B2",
+"t": "health",
+"ar": "يشخّص",
+"d": "to identify the cause of an illness or problem after examining it",
+"ex": "The doctor diagnosed the infection after running several tests.",
+"x": "diagnosed",
+"f": [
+"diagnosis"
+]
+},
+{
+"w": "discreet",
+"p": "adj",
+"l": "B2",
+"t": "communication",
+"ar": "كتوم، حذر في التصرف",
+"d": "careful not to attract attention, or not to share private information",
+"ex": "The lawyer was discreet and never shared the client's private details.",
+"x": "discreet",
+"f": [
+"discreetly",
+"discretion"
+]
+},
+{
+"w": "dispose",
+"p": "v",
+"l": "B2",
+"t": "environment",
+"ar": "يتخلّص من، يصرف",
+"d": "to get rid of something, especially by throwing it away safely",
+"ex": "Please dispose of old batteries at the recycling centre, not in the bin.",
+"x": "dispose",
+"c": [
+"dispose of"
+],
+"f": [
+"disposal",
+"disposable"
+]
+},
+{
+"w": "distract",
+"p": "v",
+"l": "B2",
+"t": "mind",
+"ar": "يشتّت الانتباه، يُلهي",
+"d": "to take someone's attention away from what they are doing",
+"ex": "The loud music in the next room distracted me from my reading.",
+"x": "distracted",
+"f": [
+"distraction",
+"distracting"
+]
+},
+{
+"w": "dramatic",
+"p": "adj",
+"l": "B2",
+"t": "arts",
+"ar": "درامي، مفاجئ ومثير",
+"d": "sudden, striking, or very noticeable in a way that impresses people",
+"ex": "The city experienced a dramatic rise in temperature last summer.",
+"x": "dramatic",
+"f": [
+"dramatically",
+"drama"
+]
+},
+{
+"w": "earthquake",
+"p": "n",
+"l": "B2",
+"t": "nature",
+"ar": "زلزال",
+"d": "a sudden shaking of the ground caused by movements under the Earth",
+"ex": "The earthquake damaged several old houses in the mountain village.",
+"x": "earthquake"
+},
+{
+"w": "enormous",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "هائل، ضخم جدا",
+"d": "extremely large in size, amount or importance",
+"ex": "The company spent an enormous amount of money on advertising.",
+"x": "enormous",
+"f": [
+"enormously"
+]
+},
+{
+"w": "envy",
+"p": "n",
+"l": "B2",
+"t": "feelings",
+"ar": "حسد، غيرة",
+"d": "a painful feeling that you want something another person has",
+"ex": "She looked at her friend's new car with envy, wishing it were hers.",
+"x": "envy",
+"c": [
+"green with envy"
+],
+"f": [
+"envious"
+]
+},
+{
+"w": "erupt",
+"p": "v",
+"l": "B2",
+"t": "nature",
+"ar": "ينفجر، يثور",
+"d": "to suddenly burst out, for example a volcano or sudden anger",
+"ex": "The volcano erupted in the night, sending ash high into the sky.",
+"x": "erupted",
+"f": [
+"eruption"
+]
+},
+{
+"w": "espionage",
+"p": "n",
+"l": "B2",
+"t": "crime",
+"ar": "تجسّس",
+"d": "the activity of secretly collecting information about another country or company",
+"ex": "The company was accused of industrial espionage after stealing secret designs.",
+"x": "espionage",
+"f": [
+"spy",
+"spying"
+]
+},
+{
+"w": "evacuate",
+"p": "v",
+"l": "B2",
+"t": "society",
+"ar": "يخلي، يُجلي",
+"d": "to leave a dangerous place quickly and move people to a safe place",
+"ex": "Firefighters evacuated the families from the building after the gas leak.",
+"x": "evacuated",
+"f": [
+"evacuation"
+]
+},
+{
+"w": "exaggerated",
+"p": "adj",
+"l": "B2",
+"t": "communication",
+"ar": "مبالغ فيه",
+"d": "made to seem bigger, better or worse than it really is",
+"ex": "His description of the storm was exaggerated, as usual, to make a good story.",
+"x": "exaggerated",
+"f": [
+"exaggerate",
+"exaggeration"
+]
+},
+{
+"w": "execute",
+"p": "v",
+"l": "B2",
+"t": "work",
+"ar": "ينفّذ، يُنجز",
+"d": "to carry out a plan, task or order completely",
+"ex": "The team executed the plan exactly as the manager had described it.",
+"x": "executed",
+"f": [
+"execution",
+"executive"
+]
+},
+{
+"w": "exhaust",
+"p": "v",
+"l": "B2",
+"t": "body",
+"ar": "يُنهك، يستنزف",
+"d": "to make someone very tired, or to use up all of something",
+"ex": "The long hike through the hills completely exhausted the young walkers.",
+"x": "exhausted",
+"f": [
+"exhaustion",
+"exhausting"
+]
+},
+{
+"w": "facade",
+"p": "n",
+"l": "B2",
+"t": "city",
+"ar": "واجهة، مظهر خادع",
+"d": "the front of a building, or a false appearance that hides the truth",
+"ex": "The white facade of the old bank has been cleaned and repainted.",
+"x": "facade"
+},
+{
+"w": "faculty",
+"p": "n",
+"l": "B2",
+"t": "education",
+"ar": "كلية، قدرة ذهنية",
+"d": "a department of a university, or a natural ability of the mind",
+"ex": "She joined the faculty of law at the university last September.",
+"x": "faculty"
+},
+{
+"w": "fantasy",
+"p": "n",
+"l": "B2",
+"t": "arts",
+"ar": "خيال، تخيّل",
+"d": "an imagined situation or wish, especially one that is unlikely to happen",
+"ex": "Many children enjoy stories about fantasy worlds full of dragons and magic.",
+"x": "fantasy",
+"f": [
+"fantasise"
+]
+},
+{
+"w": "flatter",
+"p": "v",
+"l": "B2",
+"t": "communication",
+"ar": "يتملّق، يُطري",
+"d": "to praise someone too much, usually to please them or get something",
+"ex": "The salesman flattered the customer, but she did not buy the car.",
+"x": "flattered",
+"f": [
+"flattery",
+"flattering"
+]
+},
+{
+"w": "flawless",
+"p": "adj",
+"l": "B2",
+"t": "description",
+"ar": "خالٍ من العيوب، متقن",
+"d": "perfect and without any mistakes or faults",
+"ex": "Her flawless performance on the stage impressed the audience and the judges.",
+"x": "flawless",
+"f": [
+"flaw",
+"flawlessly"
+]
+},
+{
+"w": "flee",
+"p": "v",
+"l": "B2",
+"t": "movement",
+"ar": "يفرّ، يهرب",
+"d": "to run away quickly from danger or from a place",
+"ex": "The birds fled from the field when the loud tractor started.",
+"x": "fled",
+"f": [
+"fleeing"
+]
+},
+{
+"w": "flock",
+"p": "n",
+"l": "B2",
+"t": "animals",
+"ar": "قطيع، سرب",
+"d": "a group of birds or sheep that move or feed together",
+"ex": "A large flock of geese flew over the lake at sunset.",
+"x": "flock",
+"c": [
+"a flock of birds"
+]
+},
+{
+"w": "folly",
+"p": "n",
+"l": "B2",
+"t": "misc",
+"ar": "حماقة، غباء",
+"d": "foolish behaviour, or an action that shows a lack of good judgement",
+"ex": "It was folly to invest all of his savings in a single business.",
+"x": "folly",
+"f": [
+"foolish",
+"foolishly"
+]
+},
+{
+"w": "freight",
+"p": "n",
+"l": "B2",
+"t": "transport",
+"ar": "شحن البضائع، حمولة",
+"d": "goods carried by a ship, train, lorry or aircraft, or the cost of carrying them",
+"ex": "The company sends freight by train because it is cheaper than lorries.",
+"x": "freight",
+"c": [
+"air freight",
+"freight charges"
+],
+"f": [
+"freighter"
+]
+}
+]
