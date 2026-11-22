@@ -272,7 +272,7 @@ async function play(page, label, limit = 1500) {
         if (i === 0) fs.writeFileSync(`${OUT}/ui-camera-1.xml`, x);
         if (shot1 && !fs.existsSync(`${OUT}/ui-camera-2.xml`)) fs.writeFileSync(`${OUT}/ui-camera-2.xml`, x);
         if (tapNode(x, new RegExp('text="(NEXT|Next|ALLOW|Allow|While using the app|WHILE USING THE APP|OK)"[^>]*' + B))) { await sleep(1500); continue; }
-        if (shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/done_button"|content-desc="Done")[^>]*' + B))) { done1 = true; break; }
+        if (shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/done_button"|content-desc="Done")[^>]*' + B))) { done1 = true; fs.writeFileSync(`${OUT}/ui-camera-3.xml`, x); break; }
         if (!shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/shutter_button"|content-desc="Shutter")[^>]*' + B))) { shot1 = true; await sleep(5000); shot('camera-taken'); continue; }
         if (shot1 && i === 4) { sh(`adb shell input tap ${size[0] >> 1} ${Math.round(size[1] * 0.866)}`); note('shutter tapped again at its place on screen'); await sleep(5000); shot('camera-taken-2'); continue; }
         await sleep(1500);
@@ -280,7 +280,8 @@ async function play(page, label, limit = 1500) {
       note('camera automation: shutter ' + shot1 + ', done ' + done1);
       fs.writeFileSync(`${OUT}/camera-log.txt`, sh('adb logcat -d').split('\n').filter(l => /Fasih|fasih|AndroidRuntime|FileProvider|Force finishing|has died/i.test(l)).slice(-120).join('\n'));
       if (!done1) { sh('adb shell input keyevent 4'); await sleep(1500); }
-      const cam = await Promise.race([wait, sleep(40000).then(() => 'no answer')]); note('camera request result: ' + cam + ' | ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
+      let cam = await Promise.race([wait, sleep(12000).then(() => 'no answer')]);
+      if (cam === 'no answer' && done1) { sh(`adb shell input tap ${size[0] >> 1} ${Math.round(size[1] * 0.866)}`); note('confirm tapped again at its place on screen'); cam = await Promise.race([wait, sleep(25000).then(() => 'no answer')]); } note('camera request result: ' + cam + ' | ' + sh('adb logcat -d -s FasihAI:V').split('\n').filter(l => /photo/.test(l)).map(l => l.replace(/^.*FasihAI *: /, '')).join(' ; '));
       await backToApp();
       if (!page) throw new Error('page lost after the camera request');
       if (/^ok |cancel/.test(cam)) ok(true, 'camera request returns to the app (' + cam + ')'); else note('the emulator camera did not hand a result back (' + cam + '): capture must be checked on a real phone');
