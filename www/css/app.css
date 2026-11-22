@@ -29,7 +29,7 @@ button{font:inherit;color:inherit;border:0;background:none;cursor:pointer;paddin
 .tasks{margin-top:12px;border-top:1px solid var(--line)}
 .task,.li{display:flex;align-items:center;gap:10px;width:100%;padding:11px 2px;border-bottom:1px solid var(--line);text-align:start}
 .task:last-child{border-bottom:0}.tic{font-size:1.35rem;width:34px;text-align:center;flex:none}.tb{flex:1;min-width:0}.tb b{display:block;font-size:.97rem}.tb small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tr{color:var(--mut);font-size:.82rem;flex:none}.task.done .tb b{text-decoration:line-through;color:var(--mut)}.task.done .tr{color:var(--ok);font-weight:800;font-size:1.1rem}.task.opt{opacity:.85}
+.tr{color:var(--mut);font-size:.82rem;flex:none}.task.done .tb b{text-decoration:line-through;color:var(--mut)}.task.done .tr{color:var(--ok);font-weight:800;font-size:1.1rem}.task.optl{opacity:.85}
 .tabs{position:fixed;bottom:0;left:0;right:0;background:var(--card);display:flex;border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:5}
 .tabs button{flex:1;font-size:.72rem;color:var(--mut);display:flex;flex-direction:column;align-items:center;gap:1px;padding:4px}.tabs button span{font-size:1.3rem;filter:grayscale(.9);opacity:.75}.tabs .on{color:var(--pri);font-weight:700}.tabs .on span{filter:none;opacity:1}
 body.running .tabs{display:none}

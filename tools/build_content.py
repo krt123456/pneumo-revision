@@ -110,7 +110,10 @@ shadow, pron, sp1, sp2, sp3 = kind('shadow_'), kind('pron_'), kind('sp1_'), kind
 wsent, wlesson, w2, w1 = kind('wsent_'), kind('wlesson_'), kind('w2_'), kind('w1_')
 guide, phrases = kind('guide_'), kind('phrases_')
 motiv = kind('motiv_', key=None)
-DROP_TIPS = ['اختر ثلاث كلمات جديدة فقط', 'استعمل تطبيقاً للبطاقات', 'توقف عند كل كلمة تصعب عليك', 'اكتب بطاقة تعليمية تحمل']
+DROP_TIPS = ['اختر ثلاث كلمات جديدة فقط', 'استعمل تطبيقاً للبطاقات', 'توقف عند كل كلمة تصعب عليك', 'اكتب بطاقة تعليمية تحمل',
+             # reminders that promise something specific the app may not be showing at that moment
+             'كتاب المفردات', 'خمس كلمات جديدة', 'بعد الظهر', 'يومك بدأ', 'التدريب على المحادثة', 'أقل من عشر دقائق تفصلك', 'جلسة الاستماع الآن',
+             'تدريب الكتابة ينتظرك', 'ضع الهاتف جانباً لدقائق', 'عن الزمن الماضي', 'فاستمع الآن', 'تبدأ يومك بكلمة', 'رغم ضيق الوقت', 'الاستماع والقراءة والمفردات اكتملت']
 motiv = [m for m in motiv if not any(d in m['ar'] for d in DROP_TIPS)]
 for m in motiv:
     m['ar'] = re.sub(r'([A-Za-z])و([A-Za-z])', r'\1 و \2', m['ar']).replace('وwatch', 'و watch')
