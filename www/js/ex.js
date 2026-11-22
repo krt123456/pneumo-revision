@@ -156,7 +156,10 @@
   /* ---------- vocabulary ---------- */
   const POS = F.POS;
   const hl = (ex, x) => { const i = ex.toLowerCase().indexOf(String(x || '').toLowerCase()); return i < 0 ? esc(ex) : esc(ex.slice(0, i)) + '<b>' + esc(ex.slice(i, i + x.length)) + '</b>' + esc(ex.slice(i + x.length)); };
-  const clozeText = v => { const x = v.x || v.w, i = v.ex.toLowerCase().indexOf(x.toLowerCase()); return i < 0 ? null : v.ex.slice(0, i) + '_____' + v.ex.slice(i + x.length); };
+  const clozeText = v => { // blank the word only when it stands alone in the example (not inside a longer word)
+    const x = v.x || v.w, m = new RegExp('(^|[^A-Za-z])' + x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![A-Za-z])', 'i').exec(v.ex);
+    if (!m) return null; const i = m.index + m[1].length; return v.ex.slice(0, i) + '_____' + v.ex.slice(i + x.length);
+  };
   F.distract = (v, n, key) => {
     const pool = (F.DB.pos[v.p] || []).length > 12 ? F.DB.pos[v.p] : F.DB.vocab, out = [], seen = new Set([norm(v[key]) || v[key]]), li = F.LV[v.l] || 0;
     let guard = 0;
