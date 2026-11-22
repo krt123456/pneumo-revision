@@ -238,11 +238,15 @@ async function play(page, label, limit = 1500) {
       await sleep(5000); shot('camera-app');
       note('after camera request: top=' + sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"').trim().replace(/\s+/g, ' ').slice(0, 160) + ' | app pid=' + pidOf());
       let shot1 = false, done1 = false;
-      for (let i = 0; i < 7 && !done1; i++) {
+      const size = (sh('adb shell wm size').match(/(\d+)x(\d+)/) || [0, 1080, 2280]).slice(1).map(Number);
+      for (let i = 0; i < 9 && !done1; i++) {
         const x = uiXml();
+        if (i === 0) fs.writeFileSync(`${OUT}/ui-camera-1.xml`, x);
+        if (shot1 && !fs.existsSync(`${OUT}/ui-camera-2.xml`)) fs.writeFileSync(`${OUT}/ui-camera-2.xml`, x);
         if (tapNode(x, new RegExp('text="(NEXT|Next|ALLOW|Allow|While using the app|WHILE USING THE APP|OK)"[^>]*' + B))) { await sleep(1500); continue; }
         if (shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/done_button"|content-desc="Done")[^>]*' + B))) { done1 = true; break; }
-        if (!shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/shutter_button"|content-desc="Shutter")[^>]*' + B))) { shot1 = true; await sleep(4000); shot('camera-taken'); continue; }
+        if (!shot1 && tapNode(x, new RegExp('(resource-id="com\\.android\\.camera2:id/shutter_button"|content-desc="Shutter")[^>]*' + B))) { shot1 = true; await sleep(5000); shot('camera-taken'); continue; }
+        if (shot1 && i === 4) { sh(`adb shell input tap ${size[0] >> 1} ${Math.round(size[1] * 0.866)}`); note('shutter tapped again at its place on screen'); await sleep(5000); shot('camera-taken-2'); continue; }
         await sleep(1500);
       }
       note('camera automation: shutter ' + shot1 + ', done ' + done1);
@@ -269,12 +273,13 @@ async function play(page, label, limit = 1500) {
       for (let i = 0; i < 8 && !tapped; i++) {
         await sleep(2500); const x = uiXml();
         const tap = re => { const m = x.match(re); if (!m) return false; sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); return true; };
-        if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; break; }
-        if (i === 0) shot('picker');
+        if (i === 0) { shot('picker'); fs.writeFileSync(`${OUT}/ui-picker-1.xml`, x); }
+        if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="[^"]*fasihtest[^"]*"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)
+          || tap(/resource-id="[^"]*id\/(icon_thumbnail|icon_thumb|item_root|thumbnail)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; fs.writeFileSync(`${OUT}/ui-picker-2.xml`, x); await sleep(2500); const y = uiXml(); const m2 = y.match(/text="(Add|ADD|Done|DONE|Select|SELECT|Open|OPEN)[^"]*"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/); if (m2 && !/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh(`adb shell input tap ${(+m2[2] + +m2[4]) >> 1} ${(+m2[3] + +m2[5]) >> 1}`); } break; }
         // open the drawer / the Downloads root when the file is not on the first screen
         if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
       }
-      if (!tapped) { shot('picker-not-automated'); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } }
+      if (!tapped) { shot('picker-not-automated'); fs.writeFileSync(`${OUT}/ui-picker-3.xml`, uiXml()); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } }
       const gal = await Promise.race([wait2, sleep(45000).then(() => 'no answer')]);
       await backToApp(); note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
       if (/^ok /.test(gal) && page) {
@@ -292,6 +297,10 @@ async function play(page, label, limit = 1500) {
       ok(c.status === 401, 'a request carrying the photo is sent (refused only because the key is a dummy, HTTP ' + c.status + ')');
       const gone = await globalThis.__call('claude', '/v1/messages', body.replace('@@IMG:' + id + '@@', '@@IMG:nosuchphoto@@'));
       ok(gone.status === 0 && /photo no longer available/.test(gone.body || ''), 'a request whose photo is missing is stopped before it is sent');
+      const how = await page.evaluate(i => window.FasihNative.aiSend('claude', 'Fasih test request with a photo', i), id); await sleep(3000); shot('share-with-photo');
+      const top = sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"').trim().replace(/\s+/g, ' ').slice(0, 160);
+      ok(how === 'chooser' && /Chooser|chooser|ResolverActivity|intentresolver/.test(top), 'sharing the photo with the request opens the Android share sheet (' + how + ' | ' + top + ')');
+      sh('adb shell input keyevent 4'); await sleep(1200); await backToApp();
     });
     await step('restart', async () => {
       if (!page || page.isClosed()) { start(); await sleep(2500); page = await connect(60000); }
