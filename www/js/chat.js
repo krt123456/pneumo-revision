@@ -5,7 +5,7 @@
   const PATHRE = /^\/v1(beta)?\/[A-Za-z0-9_.:/-]+(\?[A-Za-z0-9_=&.-]*)?$/;
   const NAMES = { claude: 'Claude', chatgpt: 'ChatGPT', gemini: 'Gemini', grok: 'Grok' };
   const CONSOLES = {
-    claude: 'https://console.anthropic.com/settings/keys',
+    claude: 'https://platform.claude.com/settings/keys',
     chatgpt: 'https://platform.openai.com/api-keys',
     gemini: 'https://aistudio.google.com/apikey',
     grok: 'https://console.x.ai/',
