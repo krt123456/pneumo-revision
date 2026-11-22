@@ -147,8 +147,12 @@ async function play(page, label, limit = 1500) {
       page = await connect(60000);
       ok(!!page && await page.evaluate(() => window.Fasih.S.onboard === true && Object.keys(window.Fasih.S.cards).length) === cards, 'progress kept after force stop');
       shot('after-restart');
-      sh(`adb shell pm clear --cache-only ${PKG}`);
-      if (page) { await page.evaluate(() => { localStorage.clear(); }); sh(`adb shell am force-stop ${PKG}`); await sleep(2000); start(); await sleep(3000); page = await connect(60000); ok(!!page && await page.evaluate(() => window.Fasih.S.onboard === true && Object.keys(window.Fasih.S.cards).length) === cards, 'progress restored from the native file when web storage is empty'); }
+      if (page) {
+        await page.evaluate(() => { window.Fasih.flush(); localStorage.clear(); }); await sleep(500);
+        sh(`adb shell am force-stop ${PKG}`); await sleep(2500); start(); await sleep(3000); dismissAnr();
+        page = await connect(60000);
+        ok(!!page && await page.evaluate(() => window.Fasih.S.onboard === true && Object.keys(window.Fasih.S.cards).length) === cards, 'progress restored from the native file when web storage is empty');
+      }
     });
     await step('dark and back', async () => {
       sh('adb shell cmd uimode night yes'); await sleep(1500); sh(`adb shell am force-stop ${PKG}`); await sleep(1500); start(); await sleep(5000); shot('dark-mode'); sh('adb shell cmd uimode night no');
