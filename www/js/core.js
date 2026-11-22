@@ -101,6 +101,21 @@ window.Fasih = window.Fasih || {};
   };
   F.on('rec', d => { const h = F.rec.h; if (h && h[d.ev]) h[d.ev](d); });
   F.on('perm', d => { if (F.onPerm) F.onPerm(d); });
+  /* AI apps the learner may use as a tutor (see tutor.js and chat.js) */
+  F.AIS = [
+    { k: 'claude', n: 'Claude', url: 'https://claude.ai/new' },
+    { k: 'chatgpt', n: 'ChatGPT', url: 'https://chatgpt.com/' },
+    { k: 'gemini', n: 'Gemini', url: 'https://gemini.google.com/app' },
+    { k: 'grok', n: 'Grok', url: 'https://grok.com/' },
+  ];
+  /* photos (app only): F.img.pick('camera' | 'gallery', cb) calls cb({ id, w, h }) or cb(null); F.img.url(id) shows it in an <img> */
+  F.img = {
+    cb: null,
+    ok() { return !!(NB && typeof NB.pickImage === 'function'); },
+    pick(src, cb) { if (!this.ok()) return cb(null); this.cb = cb; nat('pickImage', src === 'gallery' ? 'gallery' : 'camera'); },
+    url(id) { return '/shots/' + encodeURIComponent(id) + '.jpg'; },
+  };
+  F.on('img', d => { const cb = F.img.cb; F.img.cb = null; if (cb) cb(d.ev === 'ok' ? { id: String(d.id), w: d.w, h: d.h } : null, d); });
   F.vibrate = ms => { if (F.isApp) nat('vibrate', ms); else if (navigator.vibrate) navigator.vibrate(ms); };
 
   /* ---------- small sounds ---------- */
@@ -128,6 +143,8 @@ window.Fasih = window.Fasih || {};
     cards: {}, notes: {}, custom: [], ptr: { g: 0, d: 0, c: 0 }, gram: {}, gptr: 0,
     done: {}, texts: {}, day: null, daysDone: 0, hist: {}, streak: { cur: 0, best: 0, last: 0, shields: 0, gotShield: 0 },
     xp: 0, badges: {}, tests: [], mocks: [], rv: { n: 0, ok: 0 }, mod: 1, target: 0, start: 0, lastOpen: 0, place: null, tipNo: 0,
+    tutor: { ai: 'claude', mode: 'bridge', n: 0, sent: 0, last: null, packs: [], lessons: [], readings: [], quizzes: [], mistakes: [], prio: [], focus: null },
+    chat: { model: {}, cur: null, convs: [] },
   });
   const merge = (d, s) => { for (const k in s) { if (s[k] && typeof s[k] === 'object' && !Array.isArray(s[k]) && d[k] && typeof d[k] === 'object' && !Array.isArray(d[k])) merge(d[k], s[k]); else d[k] = s[k]; } return d; };
   F.load = () => {
@@ -159,16 +176,19 @@ window.Fasih = window.Fasih || {};
   const LV = { A2: 0, B1: 1, B2: 2, C1: 3 };
   F.LV = LV; F.LVN = ['A2', 'B1', 'B2', 'C1'];
   F.buildDB = () => {
-    const D = F.DB = { byId: {}, tracks: { g: [], d: [], c: [] }, vocab: [] };
+    const D = F.DB = { byId: {}, tracks: { g: [], d: [], c: [], t: [] }, vocab: [] };
     const addV = v => { v.id = v.id || (v.w + '|' + v.p); if (D.byId[v.id]) return; D.byId[v.id] = v; D.vocab.push(v); if (D.tracks[v.tr || 'g']) D.tracks[v.tr || 'g'].push(v); };
     (RAW.vocab || []).forEach(addV);
-    (F.S.custom || []).forEach(v => { v.tr = 'x'; addV(v); });
+    (F.S.custom || []).forEach(v => { v.tr = v.tr === 't' ? 't' : 'x'; addV(v); });
     ['g', 'd', 'c'].forEach(k => D.tracks[k].sort((a, b) => (a.o || 0) - (b.o || 0)));
     ['grammar', 'reading', 'listening', 'shadow', 'pron', 'sp1', 'sp2', 'sp3', 'wsent', 'wlesson', 'w2', 'w1', 'guide', 'phrases', 'motiv', 'mission'].forEach(k => {
       D[k] = RAW[k] || [];
       D[k].forEach(o => { if (o.id) D.byId[o.id] = o; });
     });
     D.grammar.sort((a, b) => (LV[a.l] - LV[b.l]) || (a.id < b.id ? -1 : 1));
+    /* tutor material lives beside the built-in content: byId only, never in D.grammar / D.reading (they drive the 540-day plan) */
+    const TT = F.S.tutor || {};
+    [['tlesson', 'lessons'], ['treading', 'readings'], ['tquiz', 'quizzes']].forEach(([k, s]) => { D[k] = Array.isArray(TT[s]) ? TT[s] : []; D[k].forEach(o => { if (o && o.id) D.byId[o.id] = o; }); });
     D.pos = {}; D.vocab.forEach(v => (D.pos[v.p] = D.pos[v.p] || []).push(v));
     D.lemma = {}; D.vocab.forEach(v => { if (!/ /.test(v.w)) D.lemma[v.w.toLowerCase()] = v; });
   };
