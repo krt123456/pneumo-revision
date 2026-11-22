@@ -36,6 +36,7 @@ STUB = r"""
     aiSend(k, t, i) { state.log.push({ m: 'aiSend', n: arguments.length, k, t, i }); state.clip = t; return state.sendResult || (i ? 'sendimg' : 'send'); },
     copyText(t) { state.clip = String(t); return true; }, pasteText() { return state.clip; },
     takeShared() { const s = state.shared; state.shared = ''; return s; },
+    takeSharedImage() { const s = state.sharedImg || ''; state.sharedImg = ''; return s; },
     pickImage(src) { state.log.push({ m: 'pickImage', src }); setTimeout(() => emit('img', { ev: 'ok', id: 'ph7', w: 800, h: 600 }), 30); },
     aiKeys() { return JSON.stringify(state.keys); }, askAiKey(p) { state.log.push({ m: 'askAiKey', p }); state.keys[p] = true; setTimeout(() => emit('aikey', { p, has: true }), 20); },
     aiHttpCancel(id) { state.log.push({ m: 'cancel', id }); },
@@ -105,6 +106,13 @@ with sync_playwright() as p:
     q('__stub.shared = "whistleblower"; Fasih.onNative("shared", { n: 1 })'); page.wait_for_timeout(300)
     ok('a shared word opens the add-word sheet', q('!!document.querySelector(".sheetw input") && [...document.querySelectorAll(".sheetw input")].some(i => i.value === "whistleblower")'))
     q('Fasih.closeSheet()')
+
+    # ---- a photo shared into the app
+    q('__stub.sharedImg = "ph9"; Fasih.onNative("shared", { img: 1 })'); page.wait_for_timeout(300)
+    ok('a shared photo opens the photo request with it attached', q('(() => { const i = document.querySelector(".sheetw .tu-ph img"); return !!i && i.getAttribute("src") === "/shots/ph9.jpg" && /اشرح صورة/.test(document.querySelector(".sheetw").innerText); })()'), q('(document.querySelector(".sheetw") || {}).innerText || ""')[:200])
+    page.locator('.sheetw .tu-send').click(); page.wait_for_timeout(300)
+    last = q('__stub.log.filter(x => x.m === "aiSend").pop()')
+    ok('... and sending hands that photo to the AI app', last['i'] == 'ph9' and 'I am attaching a photo' in last['t'], [last['i'], last['t'][:120]])
 
     # ---- API mode over the native transport
     q('Fasih.S.tutor.mode = "api"; Fasih.S.chat.model = {}; Fasih.save()')

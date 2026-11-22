@@ -475,7 +475,14 @@
     const s = F.sheet(`<h3>نص من تطبيق آخر</h3><div class="tu-quote" dir="auto">${esc(t.slice(0, 300))}${t.length > 300 ? '…' : ''}</div><div class="row"><button class="btn ghost no">إغلاق</button><button class="btn ex">🎓 اطلب شرحه من المعلّم</button></div>`);
     s.querySelector('.no').onclick = F.closeSheet; s.querySelector('.ex').onclick = () => reqSheet('explain', { text: t });
   };
-  const takeShared = () => { const t = F.nat('takeShared'); if (typeof t === 'string' && t) onShared(t); };
+  /* a photo shared into Fasih from another app: the photo request opens with it attached */
+  let sharedImg = null;
+  const onSharedImg = id => {
+    const S = F.S; if (!S || !S.onboard || !id) return;
+    if (F.runner) { sharedImg = String(id); F.toast('وصلت صورة: تجدها في تبويب المعلّم بعد الجلسة'); return; }
+    sharedImg = null; F.closeSheet(); if (F.go) F.go('tutor'); reqSheet('photo', { img: String(id) });
+  };
+  const takeShared = () => { const t = F.nat('takeShared'); if (typeof t === 'string' && t) onShared(t); const im = F.nat('takeSharedImage'); if (typeof im === 'string' && im) onSharedImg(im); };
   F.on('shared', takeShared);
   { const boot = () => setTimeout(takeShared, 0); if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot(); }
 
@@ -483,7 +490,7 @@
   const reqSheet = (id, preset) => {
     const R = REQ[id]; if (!R) return;
     const T = T0(), S = F.S; preset = preset || {};
-    const st = { text: preset.text || '', task: preset.task || '', kind: preset.kind || '', topic: '', mode: 'free', n: 10, img: '' };
+    const st = { text: preset.text || '', task: preset.task || '', kind: preset.kind || '', topic: '', mode: 'free', n: 10, img: preset.img ? String(preset.img) : '' };
     const api = T.mode === 'api' && !!F.chat;
     let body = '';
     if (id === 'fix') {
@@ -526,7 +533,7 @@
       if (id === 'ask' && !st.text.trim()) return F.toast('اكتب سؤالك أولاً');
       Tu.send(id, input(), st.img);
     };
-    upd();
+    upd(); draw();
   };
   Tu.requestSheet = reqSheet;
 
@@ -619,5 +626,5 @@
   };
   F.act.tu = el => { try { const f = act[el.dataset.k]; if (f) f(el); } catch (e) { console.error(e); } };
   if (F.routes) F.routes.tutor = p => { T0(); return p && p[0] === 'errs' ? errsPage() : mainPage(); };
-  if (F.after) F.after.tutor = () => { if (sharedText && !F.runner) { const t = sharedText; setTimeout(() => { if (sharedText === t) handleShared(t); }, 150); } };
+  if (F.after) F.after.tutor = () => { if (sharedText && !F.runner) { const t = sharedText; setTimeout(() => { if (sharedText === t) handleShared(t); }, 150); } else if (sharedImg && !F.runner) { const im = sharedImg; setTimeout(() => { if (sharedImg === im) { sharedImg = null; reqSheet('photo', { img: im }); } }, 150); } };
 })(window.Fasih);

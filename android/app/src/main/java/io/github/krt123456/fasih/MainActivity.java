@@ -946,6 +946,11 @@ public class MainActivity extends Activity {
         }
 
         @JavascriptInterface
+        public String takeSharedImage() {
+            return ai.takeSharedImage();
+        }
+
+        @JavascriptInterface
         public void pickImage(String src) {
             runOnUiThread(() -> ai.pickImage(src));
         }

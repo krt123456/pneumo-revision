@@ -97,6 +97,7 @@ final class AiBridge {
     private final Map<String, HttpURLConnection> live = new ConcurrentHashMap<>();
     private final Set<String> cancelled = ConcurrentHashMap.newKeySet();
     private volatile String pendingShare = "";
+    private volatile String sharedImage = "";
 
     AiBridge(MainActivity activity) {
         act = activity;
@@ -138,10 +139,31 @@ final class AiBridge {
         } catch (Exception e) {
             Log.w(TAG, "shared text", e);
         }
+        // a photo or screenshot shared into Fasih: scaled copy first, then the page is told
+        String type = it.getType();
+        if (Intent.ACTION_SEND.equals(a) && type != null && type.startsWith("image/")) {
+            Uri u = null;
+            try {
+                u = it.getParcelableExtra(Intent.EXTRA_STREAM);
+            } catch (Exception e) {
+                Log.w(TAG, "shared image", e);
+            }
+            if (u != null && ("content".equals(u.getScheme()) || "android.resource".equals(u.getScheme()))) {
+                final Uri src = u;
+                new Thread(() -> processImage(src, null, true), "fasih-img").start();
+            }
+        }
         if (t == null || t.length() == 0) return false;
         String s = t.toString();
         pendingShare = s.length() > TEXT_MAX ? s.substring(0, TEXT_MAX) : s;
         return true;
+    }
+
+    /** Id of a photo that another app shared into Fasih (consumed once), or "". */
+    String takeSharedImage() {
+        String s = sharedImage;
+        sharedImage = "";
+        return s == null ? "" : s;
     }
 
     String takeShared() {
@@ -355,7 +377,7 @@ final class AiBridge {
             emitImg("error", "no photo");
             return true;
         }
-        new Thread(() -> processImage(src, cap), "fasih-img").start();
+        new Thread(() -> processImage(src, cap, false), "fasih-img").start();
         return true;
     }
 
@@ -365,8 +387,8 @@ final class AiBridge {
         return in;
     }
 
-    /** Scaled, upright JPEG copy in cache/shots/<id>.jpg. */
-    private void processImage(Uri src, File cap) {
+    /** Scaled, upright JPEG copy in cache/shots/<id>.jpg. shared = the photo came from another app, not from a request of the page. */
+    private void processImage(Uri src, File cap, boolean shared) {
         long t0 = System.currentTimeMillis();
         try {
             BitmapFactory.Options bounds = new BitmapFactory.Options();
@@ -411,10 +433,16 @@ final class AiBridge {
             bm.recycle();
             if (cap != null) cap.delete();
             Log.i(TAG, "photo ready: " + bounds.outWidth + "x" + bounds.outHeight + " -> " + w + "x" + h + ", " + (out.length() / 1024) + " KB, " + (System.currentTimeMillis() - t0) + " ms");
-            act.emit("img", MainActivity.obj("ev", "ok", "id", id, "w", w, "h", h));
+            if (shared) {
+                sharedImage = id;
+                act.emit("shared", MainActivity.obj("img", 1));
+            } else {
+                act.emit("img", MainActivity.obj("ev", "ok", "id", id, "w", w, "h", h));
+            }
         } catch (Throwable e) {
             Log.w(TAG, "processImage", e);
-            emitImg("error", String.valueOf(e.getMessage()));
+            if (shared) toast("تعذّر فتح هذه الصورة");
+            else emitImg("error", String.valueOf(e.getMessage()));
         }
     }
 
