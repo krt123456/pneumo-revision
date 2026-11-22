@@ -20,9 +20,11 @@ import android.security.keystore.KeyProperties;
 import android.text.InputType;
 import android.util.Base64;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.Toast;
@@ -492,6 +494,7 @@ final class AiBridge {
         in.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
         in.setHint("API key");
         in.setSingleLine(true);
+        in.setImeOptions(EditorInfo.IME_ACTION_DONE);
         in.setTextDirection(View.TEXT_DIRECTION_LTR);
         FrameLayout box = new FrameLayout(act);
         int pad = (int) (20 * act.getResources().getDisplayMetrics().density);
@@ -519,10 +522,21 @@ final class AiBridge {
                 emitKey(provider);
             });
         }
-        AlertDialog dlg = b.create();
+        final AlertDialog dlg = b.create();
+        // "Done" on the keyboard saves, like the button
+        in.setOnEditorActionListener((v, actionId, ev) -> {
+            boolean enter = ev != null && ev.getKeyCode() == KeyEvent.KEYCODE_ENTER && ev.getAction() == KeyEvent.ACTION_DOWN;
+            if (actionId != EditorInfo.IME_ACTION_DONE && !enter) return false;
+            dlg.getButton(AlertDialog.BUTTON_POSITIVE).performClick();
+            return true;
+        });
         Window win = dlg.getWindow();
-        if (win != null) win.addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+        if (win != null) {
+            win.addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+            win.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
+        }
         dlg.show();
+        in.requestFocus();
     }
 
     /* ---------- HTTPS transport for API mode ---------- */
