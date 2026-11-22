@@ -1,0 +1,40 @@
+12:20:14.126 I/ActivityManager(  522): Start proc 8247:com.google.android.providers.media.module:PhotoPicker/u0a172 for next-top-activity {com.google.android.providers.media.module/com.android.providers.media.photopicker.PhotoPickerActivity}
+12:20:14.168 I/ule:PhotoPicker( 8247): Using CollectorTypeCC GC.
+12:20:14.169 W/ule:PhotoPicker( 8247): Unexpected CPU variant for x86: x86_64.
+12:20:14.169 W/ule:PhotoPicker( 8247): Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, tremont, kabylake, default
+12:20:14.171 E/ule:PhotoPicker( 8247): Not starting debugger since process cannot load the jdwp agent.
+12:20:14.296 D/CoreBackPreview(  522): Window{81d667 u0 com.google.android.providers.media.module/com.android.providers.media.photopicker.PhotoPickerActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvo
+12:20:14.325 D/PickerSyncController( 1643): syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+12:20:14.325 D/PickerSyncController( 1643): getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+12:20:14.326 I/PickerSyncController( 1643): Executing SyncAdd. isLocal: true. authority: com.android.providers.media.photopicker
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.insertMedia(PickerDbFacade.java:476)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.upsertMedia(PickerDbFacade.java:490)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.data.PickerDbFacade$AddMediaOperation.executeInternal(PickerDbFacade.java:450)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.data.PickerDbFacade$DbWriteOperation.execute(PickerDbFacade.java:335)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerSyncController.executePagedSync(PickerSyncController.java:987)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerSyncController.executeSyncAdd(PickerSyncController.java:719)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromProvider(PickerSyncController.java:643)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerSyncController.syncAllMediaFromLocalProvider(PickerSyncController.java:213)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerDataLayer.syncAllMedia(PickerDataLayer.java:165)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerDataLayer.fetchMediaInternal(PickerDataLayer.java:117)
+12:20:14.327 V/PickerDbFacade( 1643): 	at com.android.providers.media.photopicker.PickerDataLayer.fetchLocalMedia(PickerDataLayer.java:82)
+12:20:14.327 I/PickerSyncController( 1643): Executing SyncRemove. isLocal: true. authority: com.android.providers.media.photopicker
+12:20:14.357 D/PhotoPicker( 8247): Loaded 1 items in Category: {mId: null, mAuthority: null, mDisplayName: null, mCoverUri: null, mItemCount: 0, mIsLocal: false for user 0
+12:20:14.782 V/WindowManagerShell(  833): onTransitionReady android.os.BinderProxy@b2d8818: {id=17 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.pro
+12:20:14.782 V/WindowManagerShell(  833): Transition doesn't have explicit remote, search filters for match for {id=17 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 co
+12:20:14.782 V/WindowManagerShell(  833): start default transition animation, info = {id=17 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.providers.
+12:20:14.785 I/ActivityTaskManager(  522): Displayed com.google.android.providers.media.module/com.android.providers.media.photopicker.PhotoPickerActivity for user 0: +666ms
+12:20:14.786 V/WindowManager(  522): Sent Transition #17 createdAt=11-22 12:20:14.116 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=8 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=io
+12:20:14.786 V/WindowManager(  522):     info={id=17 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.providers.media.module/com.android.providers.medi
+12:20:17.600 D/PickerSyncController( 1643): syncAllMediaFromProvider() LOCAL, auth=com.android.providers.media.photopicker, retry=true
+12:20:17.601 D/PickerSyncController( 1643): getSyncRequestParams() LOCAL, auth=com.android.providers.media.photopicker
+12:20:17.602 I/PickerSyncController( 1643): Executing SyncAlbumReset. isLocal: true. authority: com.android.providers.media.photopicker. albumId: null
+12:20:17.602 I/PickerSyncController( 1643): Successfully executed SyncResetAlbum. authority: com.android.providers.media.photopicker. albumId: null. Result count: 0
+12:20:18.959 I/FasihAI ( 3121): photo result: gallery ok
+12:20:18.961 V/WindowManager(  522):     info={id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.providers.media.module/com.android.providers.me
+12:20:18.961 V/WindowManagerShell(  833): onTransitionReady android.os.BinderProxy@ed11c2e: {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.p
+12:20:18.962 V/WindowManagerShell(  833): Transition doesn't have explicit remote, search filters for match for {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 
+12:20:18.962 V/WindowManagerShell(  833): start default transition animation, info = {id=18 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{null m=CLOSE f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{898854c u0 com.google.android.provider
+12:20:19.148 D/CoreBackPreview(  522): Window{81d667 u0 com.google.android.providers.media.module/com.android.providers.media.photopicker.PhotoPickerActivity}: Setting back callback null
+12:20:19.150 W/InputManager-JNI(  522): Input channel object '81d667 com.google.android.providers.media.module/com.android.providers.media.photopicker.PhotoPickerActivity (client)' was disposed without first being removed with the input manager
+12:20:19.260 I/FasihAI ( 3121): photo ready: 2400x1800 -> 1568x1176, 58 KB, 274 ms

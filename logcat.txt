@@ -1,0 +1,11 @@
+--------- beginning of main
+11-22 12:20:18.959  3121  3121 I FasihAI : photo result: gallery ok
+11-22 12:20:19.260  3121  8328 I FasihAI : photo ready: 2400x1800 -> 1568x1176, 58 KB, 274 ms
+11-22 12:20:42.500  8611  8646 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.fasih/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-22 12:20:42.500  8611  8646 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-22 12:20:42.501  8611  8646 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.fasih/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+11-22 12:20:42.501  8611  8646 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-22 12:21:01.323  9036  9064 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.fasih/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+11-22 12:21:01.324  9036  9064 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
+11-22 12:21:01.324  9036  9064 E chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/io.github.krt123456.fasih/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+11-22 12:21:01.324  9036  9064 E chromium: [ERROR:simple_index_file.cc(614)] Could not reconstruct index from disk
