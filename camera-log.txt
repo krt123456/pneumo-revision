@@ -1,0 +1,46 @@
+11-22 12:18:44.614   501  2956 W NotificationService: Toast already killed. pkg=io.github.krt123456.fasih token=android.os.BinderProxy@29eb8ee
+11-22 12:18:54.188  8090  8090 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:18:54.216  8090  8090 I AndroidRuntime: Using default boot image
+11-22 12:18:54.216  8090  8090 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:18:54.346  8090  8090 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:18:55.516  8090  8090 D AndroidRuntime: Shutting down VM
+11-22 12:18:56.336  8112  8112 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:18:56.361  8112  8112 I AndroidRuntime: Using default boot image
+11-22 12:18:56.362  8112  8112 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:18:56.547  8112  8112 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-22 12:18:56.584  8112  8112 D AndroidRuntime: Shutting down VM
+11-22 12:19:03.187  8172  8172 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:03.215  8172  8172 I AndroidRuntime: Using default boot image
+11-22 12:19:03.215  8172  8172 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:03.417  8172  8172 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:19:04.616  8172  8172 D AndroidRuntime: Shutting down VM
+11-22 12:19:07.079  8199  8199 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:07.091  8199  8199 I AndroidRuntime: Using default boot image
+11-22 12:19:07.091  8199  8199 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:07.318  8199  8199 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:19:08.467  8199  8199 D AndroidRuntime: Shutting down VM
+11-22 12:19:10.904  8232  8232 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:10.909  8232  8232 I AndroidRuntime: Using default boot image
+11-22 12:19:10.909  8232  8232 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:11.485  8232  8232 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:19:12.643  8232  8232 D AndroidRuntime: Shutting down VM
+11-22 12:19:15.199  8263  8263 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:15.241  8263  8263 I AndroidRuntime: Using default boot image
+11-22 12:19:15.241  8263  8263 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:15.449  8263  8263 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:19:16.633  8263  8263 D AndroidRuntime: Shutting down VM
+11-22 12:19:17.785  8280  8280 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:17.829  8280  8280 I AndroidRuntime: Using default boot image
+11-22 12:19:17.829  8280  8280 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:18.106  8280  8280 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-22 12:19:18.155  8280  8280 D AndroidRuntime: Shutting down VM
+11-22 12:19:25.054  8352  8352 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:25.076  8352  8352 I AndroidRuntime: Using default boot image
+11-22 12:19:25.076  8352  8352 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:25.304  8352  8352 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+11-22 12:19:26.496  8352  8352 D AndroidRuntime: Shutting down VM
+11-22 12:19:27.247  8369  8369 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-22 12:19:27.333  8369  8369 I AndroidRuntime: Using default boot image
+11-22 12:19:27.333  8369  8369 I AndroidRuntime: Leaving lock profiling enabled
+11-22 12:19:27.546  8369  8369 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-22 12:19:27.582  8369  8369 D AndroidRuntime: Shutting down VM

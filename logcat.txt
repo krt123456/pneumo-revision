@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+11-22 12:20:54.750  3955  3955 I FasihAI : photo result: gallery cancelled
