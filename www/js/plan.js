@@ -77,6 +77,20 @@
     if (m >= 120) { const x = skill(k % 2 ? 'reading' : 'listening'); if (x) res.push(Object.assign({ core: true }, x)); }
     return res;
   };
+  /* the tutor's focus: ONE extra core task of that skill for a few days (marked fx) */
+  F.focusTask = (list, n) => {
+    const T = F.S.tutor, f = T && T.focus; if (!f) return list;
+    if (dayNum() > f.until) { T.focus = null; return list; }
+    const taken = list.filter(x => x.ref).map(x => x.ref); let t = null;
+    if (f.skill === 'grammar') {
+      if (!list.some(x => x.t === 'grammar')) { const u = F.DB.grammar.find((g, i) => i >= F.S.gptr && !F.S.gram[g.id]) || F.DB.grammar.find(g => !F.S.gram[g.id]); if (u) t = { t: 'grammar', ref: u.id }; }
+      else if (F.gramDue().length && !list.some(x => x.t === 'grev')) t = { t: 'grev' };
+    } else {
+      t = pickSeq(f.skill, taken);
+      for (let i = 0; i < 6 && !t; i++) { const m = missionFor({ reading: 'read', listening: 'listen', writing: 'write', speaking: 'speak' }[f.skill], n + i); if (m && !taken.includes(m.ref)) t = m; }
+    }
+    return t ? list.concat([Object.assign({ core: true, fx: 1 }, t)]) : list;
+  };
   F.gramDue = () => { const S = F.S, t = dayNum(); return Object.keys(S.gram).filter(id => S.gram[id].due <= t && F.DB.byId[id]); };
 
   /* ---------- the day ---------- */
@@ -92,7 +106,7 @@
     const day = { date: today, n, tasks: [], done: false, light: false, backlog: due, catchup: due > cap };
     day.tasks.push({ t: 'review', core: true, done: due === 0 });
     if (nw > 0) day.tasks.push({ t: 'learn', n: nw, got: 0, core: true });
-    const skills = carry ? carry.tasks.filter(x => !['review', 'learn', 'recap'].includes(x.t)).map(x => { const y = Object.assign({}, x); if (y.was != null) { y.core = y.was; delete y.was; } return y; }) : F.planSkills(n);
+    const skills = carry ? carry.tasks.filter(x => !['review', 'learn', 'recap'].includes(x.t)).map(x => { const y = Object.assign({}, x); if (y.was != null) { y.core = y.was; delete y.was; } return y; }) : F.focusTask(F.planSkills(n), n);
     skills.forEach(x => day.tasks.push(x));
     day.tasks.push({ t: 'recap', core: false });
     if (old && old.date !== today) { const gap = dayNum() - (S.streak.last || dayNum()); if (gap > 1) day.back = gap - 1; }

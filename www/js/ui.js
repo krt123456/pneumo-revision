@@ -17,7 +17,7 @@
   };
   F.closeSheet = () => { if (F._sheet) { F._sheet.remove(); F._sheet = null; return true; } return false; };
   F.confirm = (msg, yes, yesT, noT) => { const s = F.sheet(`<p class="cmsg">${esc(msg)}</p><div class="row"><button class="btn ghost no">${noT || 'إلغاء'}</button><button class="btn yes">${yesT || 'نعم'}</button></div>`, 'small'); s.querySelector('.no').onclick = F.closeSheet; s.querySelector('.yes').onclick = () => { F.closeSheet(); yes(); }; };
-  F.share = (title, text) => { if (F.isApp) return F.nat('shareText', title, text); if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => F.toast('نُسخ النص: الصقه في محادثة Claude'), () => F.toast('تعذّر النسخ')); };
+  F.share = (title, text) => { if (F.isApp) return F.nat('shareText', title, text); if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => F.toast('نُسخ النص ✓'), () => F.toast('تعذّر النسخ')); };
   F.openUrl = u => { if (F.isApp) F.nat('openExternal', u); else window.open(u, '_blank'); };
   F.celebrate = (title, msg) => {
     F.beep('win'); F.vibrate(120);
@@ -46,14 +46,16 @@
     if (after[name]) after[name](h.slice(1));
   };
   const after = {};
-  const nav = cur => `<nav class="tabs">${[['home', '🏠', 'اليوم'], ['lib', '📚', 'المكتبة'], ['journey', '🧭', 'الرحلة'], ['me', '⚙️', 'أنا']].map(t => `<button class="${cur === t[0] || (t[0] === 'lib' && ['list', 'words', 'ielts', 'phrases'].includes(cur)) ? 'on' : ''}" data-go="${t[0]}"><span>${t[1]}</span>${t[2]}</button>`).join('')}</nav>`;
+  F.routes = routes; F.after = after;
+  const nav = cur => `<nav class="tabs">${[['home', '🏠', 'اليوم'], ['lib', '📚', 'المكتبة'], ['tutor', '🎓', 'المعلّم'], ['journey', '🧭', 'الرحلة'], ['me', '⚙️', 'أنا']].map(t => `<button class="${cur === t[0] || (t[0] === 'lib' && ['list', 'words', 'ielts', 'phrases'].includes(cur)) ? 'on' : ''}" data-go="${t[0]}"><span>${t[1]}</span>${t[2]}</button>`).join('')}</nav>`;
   window.addEventListener('hashchange', () => { if (!F.runner) F.render(); });
 
   /* ---------- home ---------- */
+  const tutorCard = () => { try { return F.tutor && F.tutor.homeCard ? F.tutor.homeCard() : ''; } catch (e) { console.error(e); return ''; } };
   routes.home = () => {
     const S = F.S, d = S.day, pr = F.dayProgress(), pc = F.pace(), ph = F.phase(d.n), left = F.dayLeftMin(), st = F.streakAlive();
     const nextI = d.tasks.findIndex(t => t.core && !t.done), allDone = nextI < 0;
-    const rows = d.tasks.map((t, i) => { const k = F.taskInfo(t); if (t.t === 'recap' && !Object.keys(S.cards).some(id => S.cards[id].born === dayNum())) return ''; return `<button class="task ${t.done ? 'done' : ''} ${t.core ? '' : 'optl'}" data-a="task" data-i="${i}"><span class="tic">${k.ic}</span><span class="tb"><b>${esc(k.name)}${k.lvl ? ` <em class="tag l${k.lvl}">${k.lvl}</em>` : ''}${t.core ? '' : ' <em class="tag">اختياري</em>'}</b><small>${esc(k.sub)}</small></span><span class="tr">${t.done ? '✓' : k.min + ' د'}</span></button>`; }).join('');
+    const rows = d.tasks.map((t, i) => { const k = F.taskInfo(t); if (t.t === 'recap' && !Object.keys(S.cards).some(id => S.cards[id].born === dayNum())) return ''; return `<button class="task ${t.done ? 'done' : ''} ${t.core ? '' : 'optl'}" data-a="task" data-i="${i}"><span class="tic">${k.ic}</span><span class="tb"><b>${esc(k.name)}${k.lvl ? ` <em class="tag l${k.lvl}">${k.lvl}</em>` : ''}${t.core ? '' : ' <em class="tag">اختياري</em>'}${t.fx ? ' <em class="tag dom">من المعلّم</em>' : ''}</b><small>${esc(k.sub)}</small></span><span class="tr">${t.done ? '✓' : k.min + ' د'}</span></button>`; }).join('');
     const tip = F.DB.motiv.filter(m => m.k === 'tip'); const tp = tip.length ? tip[(dayNum() + S.tipNo) % tip.length].ar : '';
     const lvl = F.lvlOf(S.xp), x0 = F.lvlXp(lvl), x1 = F.lvlXp(lvl + 1);
     return `<header class="top"><div><h1>مرحباً${S.name ? ' ' + esc(S.name) : ''} 👋</h1><small>اليوم الدراسي ${d.n} من ${F.PLAN_DAYS} · مرحلة «${ph.name}»</small></div><button class="streak ${st ? 'on' : ''}" data-a="streak">🔥 <b>${st}</b>${S.streak.shields ? `<i>🛡️${S.streak.shields}</i>` : ''}</button></header>
@@ -63,6 +65,7 @@
         ${allDone ? (d.done ? '<button class="btn ghost" data-a="extra">➕ يوم إضافي (لتتقدم على الخطة)</button>' : '') : `<button class="btn big" data-a="task" data-i="${nextI}">${pr.done ? 'تابع' : 'ابدأ'} ›</button>`}</div></div>
         <div class="tasks">${rows}</div>
         ${d.done ? '' : `<button class="link" data-a="light">${d.light ? '↩︎ العودة إلى الخطة الكاملة' : '⏱ يوم مزدحم؟ خطة مخففة من 10 دقائق تحفظ سلسلتك'}</button>`}</section>
+      ${tutorCard()}
       <section class="card"><div class="crow"><b>مسارك نحو <span dir="ltr">C1</span></b><span>${pc.pct}%</span></div>${bar(pc.pct)}<small>${pc.diff >= 1 ? `متقدم على الخطة بـ ${pc.diff} يوم 👏` : pc.diff <= -2 ? `متأخر ${-pc.diff} يوماً عن وتيرة 18 شهراً. يوم إضافي واحد في الأسبوع يعيدك إلى المسار.` : 'على المسار تماماً'} · بقي ${Math.max(0, pc.left)} يوماً على الموعد المستهدف${pc.proj ? ` · بوتيرتك الحالية تنتهي في ${dfmt(pc.proj)}` : ''}</small></section>
       ${tp ? `<section class="card tip">💡 ${esc(tp)}</section>` : ''}
       ${S.set.calm ? '' : `<section class="card"><div class="crow"><b>المستوى ${lvl} · ${F.rank(lvl)}</b><span>${S.xp} XP</span></div>${bar(100 * (S.xp - x0) / (x1 - x0), 'xp')}</section>`}`;
@@ -114,7 +117,7 @@
   document.addEventListener('change', e => { const a = e.target.closest('[data-set]'); if (a) setValue(a); if (e.target.id === 'impf' && e.target.files[0]) { const r = new FileReader(); r.onload = () => { try { F.importState(r.result); F.buildDB(); F.buildSeq(); F.toast('تمت استعادة النسخة ✓'); F.render(); } catch (x) { F.toast('هذا الملف ليس نسخة احتياطية صالحة'); } }; r.readAsText(e.target.files[0]); } });
 
   /* ---------- library ---------- */
-  const cnt = (kinds) => { let n = 0, d = 0; kinds.forEach(k => { n += F.DB[k].length; d += k === 'grammar' ? Object.keys(F.S.gram).length : Object.keys(F.S.done[k] || {}).length; }); return { n, d }; };
+  const cnt = (kinds) => { let n = 0, d = 0; kinds.forEach(k => { n += F.DB[k].length; d += (k === 'grammar' ? Object.keys(F.S.gram) : Object.keys(F.S.done[k] || {})).filter(id => id.slice(0, 2) !== 't:').length; }); return { n, d }; };
   routes.lib = () => {
     const st = F.stats();
     const tile = (go, ic, name, sub) => `<button class="tile" data-go="${go}"><span class="tic">${ic}</span><b>${name}</b><small>${sub}</small></button>`;
@@ -168,11 +171,12 @@
   after.words = () => { $('#wq').oninput = e => { wq = e.target.value; $('#wl').innerHTML = wordRows(); }; $$('[data-wf]').forEach(b => b.onclick = () => { wf = b.dataset.wf; F.render(); }); };
   F.wordSheet = id => {
     const S = F.S, v = F.DB.byId[id], c = S.cards[id], today = dayNum(); if (!v) return;
-    const s = F.sheet(F.vcard(v, { leech: c && SRS.isLeech(c) }) + (c ? `<div class="hint">المراجعة القادمة: ${c.due <= today ? 'اليوم' : 'بعد ' + (c.due - today) + ' يوماً'} · مرات المراجعة ${c.reps} · مرات النسيان ${c.laps}</div><div class="row"><button class="btn ghost off">${c.off ? 'أعدها إلى المراجعة' : 'أوقف مراجعتها'}</button><button class="btn ok">حفظ</button></div>` : `<div class="row"><button class="btn add">➕ أضفها إلى مراجعتي</button></div>`));
+    const s = F.sheet(F.vcard(v, { leech: c && SRS.isLeech(c) }) + (c ? `<div class="hint">المراجعة القادمة: ${c.due <= today ? 'اليوم' : 'بعد ' + (c.due - today) + ' يوماً'} · مرات المراجعة ${c.reps} · مرات النسيان ${c.laps}</div><div class="row"><button class="btn ghost off">${c.off ? 'أعدها إلى المراجعة' : 'أوقف مراجعتها'}</button><button class="btn ok">حفظ</button></div>` : `<div class="row"><button class="btn add">➕ أضفها إلى مراجعتي</button></div>`) + (F.tutor && F.tutor.requestSheet ? '<div class="row"><button class="btn ghost ask">🎓 اسأل المعلّم عن هذه الكلمة</button></div>' : ''));
     const sv = () => { const t = s.querySelector('.note'); if (t) { const x = t.value.trim(); if (x) S.notes[id] = x; else delete S.notes[id]; F.save(); } };
     const o = s.querySelector('.off'); if (o) o.onclick = () => { c.off = !c.off; if (!c.off) delete c.off; sv(); F.save(); F.closeSheet(); F.render(); };
     const k = s.querySelector('.ok'); if (k) k.onclick = () => { sv(); F.closeSheet(); };
     const a = s.querySelector('.add'); if (a) a.onclick = () => { sv(); SRS.create(id, 1); F.toast('أُضيفت إلى مراجعة الغد ✓'); F.closeSheet(); };
+    const ak = s.querySelector('.ask'); if (ak) ak.onclick = () => { sv(); F.tutor.requestSheet('word', { id }); };
     if (F.S.set.auto) F.say(v.w);
   };
   F.wordPop = raw => { const v = F.lookup(raw); if (v) return F.wordSheet(v.id); const w = raw.replace(/[^A-Za-z'’-]/g, ''); const s = F.sheet(`<div class="vcard"><div class="vword"><span class="en" dir="ltr">${esc(w)}</span>${spk(w)}</div><div class="hint">هذه الكلمة ليست في قاموس التطبيق. إن كانت مهمة لك فأضفها مع معناها.</div></div><div class="row"><button class="btn add">➕ أضفها إلى كلماتي</button></div>`, 'small'); s.querySelector('.add').onclick = () => F.addWordSheet(w); F.say(w); };
@@ -227,8 +231,9 @@
         ${link('شكل الاختبار', 'https://takeielts.britishcouncil.org/take-ielts/ielts-test-format', 'British Council')}</div>`;
   };
   /* ---------- settings ---------- */
-  const setValue = el => {
-    const S = F.S, k = el.dataset.set, raw = el.type === 'checkbox' ? el.checked : el.value, num = ['dailyMin', 'newPerDay', 'domain', 'rate', 'retention', 'nagEvery'].includes(k) ? +raw : raw;
+  /* one place that changes a setting (settings page and tutor packs). quiet: do not re-render */
+  F.applySetting = (k, raw, quiet) => {
+    const S = F.S, num = ['dailyMin', 'newPerDay', 'domain', 'rate', 'retention', 'nagEvery'].includes(k) ? +raw : raw;
     if (k === 'name') S.name = String(raw).trim().slice(0, 30);
     else if (k === 'target') { const d = new Date(raw + 'T12:00:00'); if (!isNaN(d)) S.target = dayNum(d.getTime()); }
     else if (k.startsWith('time')) S.set.rem.times[+k.slice(4)] = raw;
@@ -237,8 +242,9 @@
     if (k === 'dailyMin') { S.set.newPerDay = { 30: 5, 45: 7, 60: 8, 75: 10, 90: 12, 120: 14 }[num] || 10; const lt = S.day && S.day.tasks.find(t => t.t === 'learn'); if (lt && !lt.done && !S.day.light) lt.n = Math.max(lt.got || 0, S.set.newPerDay); }
     if (k === 'newPerDay') { const lt = S.day && S.day.tasks.find(t => t.t === 'learn'); if (lt && !lt.done && !S.day.light) lt.n = Math.max(lt.got || 1, num); }
     F.save(); if (k === 'theme') applyTheme(); F.syncRem();
-    if (['dailyMin', 'theme', 'calm', 'on'].includes(k)) F.render();
+    if (!quiet && ['dailyMin', 'theme', 'calm', 'on'].includes(k)) F.render();
   };
+  const setValue = el => F.applySetting(el.dataset.set, el.type === 'checkbox' ? el.checked : el.value);
   const sel = (k, cur, opts) => `<select class="inp" data-set="${k}">${opts.map(o => `<option value="${o[0]}" ${String(o[0]) === String(cur) ? 'selected' : ''}>${o[1]}</option>`).join('')}</select>`;
   const tog = (k, cur) => `<label class="sw"><input type="checkbox" data-set="${k}" ${cur ? 'checked' : ''}><i></i></label>`;
   routes.me = () => {
@@ -272,7 +278,7 @@
   const onboard = () => {
     const S = F.S, opt = (k, v, t, sub) => `<button class="pick ${obd[k] === v ? 'on' : ''}" data-ob="${k}" data-v="${v}"><b>${t}</b>${sub ? `<small>${sub}</small>` : ''}</button>`;
     const pages = [
-      `<div class="obl">F<span>C1</span></div><h1>فصيح</h1><p>برنامجك اليومي من <b dir="ltr">A2</b> إلى <b dir="ltr">C1</b> ثم <b dir="ltr">IELTS 7.0+</b> في 18 شهراً، مع لغة القانون ومكافحة الفساد والذكاء الاصطناعي التي تحتاجها لمشروعك ودكتوراهك.</p><div class="obp">🧠 مراجعة متباعدة تختار لك ما تراجعه في اللحظة المناسبة</div><div class="obp">📅 خطة مرنة: إن فاتك يوم تكمل من حيث توقفت</div><div class="obp">🔔 تنبيهات تتكرر حتى تُنهي مهمة اليوم</div><div class="obp">📴 يعمل كله بلا إنترنت</div>`,
+      `<div class="obl">F<span>C1</span></div><h1>فصيح</h1><p>برنامجك اليومي من <b dir="ltr">A2</b> إلى <b dir="ltr">C1</b> ثم <b dir="ltr">IELTS 7.0+</b> في 18 شهراً، مع لغة القانون ومكافحة الفساد والذكاء الاصطناعي التي تحتاجها لمشروعك ودكتوراهك.</p><div class="obp">🧠 مراجعة متباعدة تختار لك ما تراجعه في اللحظة المناسبة</div><div class="obp">📅 خطة مرنة: إن فاتك يوم تكمل من حيث توقفت</div><div class="obp">🔔 تنبيهات تتكرر حتى تُنهي مهمة اليوم</div><div class="obp">🎓 معلّم ذكي عند الطلب: Claude أو ChatGPT أو Gemini أو Grok</div><div class="obp">📴 الدروس والمراجعة تعمل بلا إنترنت</div>`,
       `<h2>لنتعارف</h2><label class="obf">اسمك<input class="inp" id="obn" value="${esc(S.name)}" placeholder="الاسم"></label><h3>كم دقيقة تستطيع يومياً؟</h3><div class="picks">${opt('min', 30, '30 د', 'الحد الأدنى')}${opt('min', 45, '45 د')}${opt('min', 60, '60 د')}${opt('min', 75, '75 د', 'موصى به')}${opt('min', 90, '90 د', 'أسرع')}${opt('min', 120, 'ساعتان')}</div><p class="hint">بصراحة: الانتقال من A2 إلى C1 يحتاج نحو 500 إلى 600 ساعة دراسة، أي 70 إلى 80 دقيقة يومياً على 18 شهراً. بأقل من ذلك ستصل أيضاً، لكن في مدة أطول.</p>`,
       `<h2>كيف تصف حفظك للكلمات؟</h2><div class="picks col">${opt('ret', 0.93, 'أنسى بسرعة وأحتاج تكراراً أكثر', 'مراجعات أكثر بفواصل أقصر')}${opt('ret', 0.9, 'عادي', 'الإعداد المتوازن')}${opt('ret', 0.85, 'أحفظ بسهولة', 'مراجعات أقل')}</div><p class="hint">لا يوجد «رأس ثقيل»: الفرق تصنعه الطريقة. ستُختبر في كل كلمة بدل إعادة قراءتها، وتعود إليك قبيل أن تنساها. ثم يضبط التطبيق الفواصل وحده حسب نتائجك الفعلية.</p>`,
       `<h2>متى ستدرس؟</h2><p>الخطة المحددة مسبقاً «إذا حدث كذا فسأدرس» تضاعف فرص الالتزام.</p><label class="obf">جلسة الصباح (مراجعة سريعة)<input class="inp" type="time" id="obt1" value="${obd.t1}"></label><label class="obf">جلسة المساء (الكلمات الجديدة وبقية المهام)<input class="inp" type="time" id="obt2" value="${obd.t2}"></label><label class="obf">أكمل الجملة: «إذا … فسأفتح فصيح»<input class="inp" id="obc" value="${esc(obd.cue)}" placeholder="مثال: إذا أنهيت قهوة الصباح"></label><p class="hint">الأفضل للذاكرة: الكلمات الجديدة مساءً، ثم مراجعتها في الصباح بعد النوم.</p>`,
@@ -304,7 +310,8 @@
     if (F.closeSheet()) return true;
     if (F.runner) { F.runner.askClose(); return true; }
     if (!F.S.onboard) { if (ob > 0) { ob--; onboard(); return true; } return false; }
-    const h = (location.hash || '#/home').slice(2).split('/')[0];
+    const hs = (location.hash || '#/home').slice(2).split('/'), h = hs[0];
+    if (h === 'tutor' && hs[1]) { F.go('tutor'); return true; }
     if (h && h !== 'home') { F.go(['list', 'words', 'ielts', 'phrases'].includes(h) ? 'lib' : 'home'); return true; }
     return false;
   };

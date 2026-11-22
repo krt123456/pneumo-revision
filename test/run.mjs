@@ -1,6 +1,6 @@
 // Emulator tests for the Fasih Android app (run by .github/workflows/fasih-test.yml).
 // 1) adb checks: install, launch, crash log, screenshots; 2) WebView checks through Chrome DevTools: native bridge, state, speech, reminders, a real learning session, restart.
-import { execSync } from 'node:child_process';
+import { execSync, execFileSync } from 'node:child_process';
 import fs from 'node:fs';
 
 const API = process.argv[2] || 'x', APK = process.argv[3] || 'fasih.apk', PKG = 'io.github.krt123456.fasih', OUT = `results-${API}`;
@@ -10,11 +10,16 @@ const ok = (c, m) => { (c ? rep.pass : rep.fail).push(m); console.log((c ? 'PASS
 const note = m => { rep.notes.push(String(m)); console.log('NOTE ' + m); };
 const sh = (c, ms = 120000) => { try { return execSync(c, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20, timeout: ms }); } catch (e) { return String(e.stdout || '') + String(e.stderr || ''); } };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+// one command line for the device shell, without the host shell touching its quotes
+const dsh = (c, ms = 60000) => { try { return execFileSync('adb', ['shell', c], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 64 << 20, timeout: ms }); } catch (e) { return String(e.stdout || '') + String(e.stderr || ''); } };
 let shotN = 0;
 const shot = name => { const f = `${OUT}/${String(++shotN).padStart(2, '0')}-${name}.png`; try { execSync(`adb exec-out screencap -p > "${f}"`); } catch (e) { note('no screenshot ' + name); } };
 const start = () => sh(`adb shell am start -W -n ${PKG}/.MainActivity --ez devtools true`, 60000);
 const pidOf = () => sh(`adb shell pidof ${PKG}`).trim().split(/\s+/)[0] || '';
 const save = () => { fs.writeFileSync(`${OUT}/report.json`, JSON.stringify(rep, null, 1)); };
+process.on('unhandledRejection', e => { note('unhandled rejection: ' + String((e && e.message) || e).split('\n')[0]); save(); });
+let crashSeen = false;
+const crashCheck = where => { const c = sh('adb logcat -d -b crash'); if (!crashSeen && /FATAL EXCEPTION/.test(c)) { crashSeen = true; note('CRASH during ' + where + ': ' + c.split('\n').filter(l => /FATAL|Exception|Error|at io\.github|Caused by/.test(l)).slice(0, 12).join(' | ').slice(0, 900)); fs.writeFileSync(`${OUT}/crash.txt`, c.split('\n').slice(-120).join('\n')); } };
 
 let pw = null, device = null, browser = null;
 const uiXml = () => { sh('adb shell rm -f /sdcard/ui.xml'); sh('adb shell uiautomator dump /sdcard/ui.xml'); return sh('adb shell cat /sdcard/ui.xml'); };
@@ -44,7 +49,7 @@ async function connect(timeout = 90000) {
   note('WebView connection failed: ' + last + ' | sockets: ' + [...new Set(sh('adb shell cat /proc/net/unix').match(/webview_devtools_remote_\d+/g) || [])].join(','));
   return null;
 }
-const step = async (name, fn) => { try { await fn(); } catch (e) { ok(false, name + ': ' + String(e.message || e).split('\n')[0]); } save(); };
+const step = async (name, fn) => { try { await fn(); } catch (e) { ok(false, name + ': ' + String(e.message || e).split('\n')[0]); } crashCheck(name); save(); };
 const AUTO = fs.readFileSync(new URL('./auto.js', import.meta.url), 'utf8');
 async function play(page, label, limit = 1500) {
   let idle = 0, n = 0;
@@ -64,7 +69,7 @@ async function play(page, label, limit = 1500) {
   note((dump.match(/versionName=\S+/) || ['versionName=?'])[0] + ' ' + (dump.match(/versionCode=\d+/) || [''])[0] + ' targetSdk=' + ((dump.match(/targetSdk=(\d+)/) || [])[1] || '?'));
   note('WebView: ' + ((sh('adb shell dumpsys webviewupdate').match(/Current WebView package \(name, version\): \(([^)]*)\)/) || [])[1] || '?'));
   note('Android ' + sh('adb shell getprop ro.build.version.release').trim() + ' (API ' + sh('adb shell getprop ro.build.version.sdk').trim() + ')');
-  ok(!/android\.permission\.INTERNET/.test(dump), 'app does not request the INTERNET permission');
+  note('INTERNET permission requested: ' + /android\.permission\.INTERNET/.test(dump) + ' (used only by the optional API mode of the tutor)');
   if (+API >= 33) sh(`adb shell pm grant ${PKG} android.permission.POST_NOTIFICATIONS`);
   sh(`adb shell pm grant ${PKG} android.permission.RECORD_AUDIO`);
   sh('adb logcat -G 16M'); sh('adb logcat -c');
@@ -140,7 +145,118 @@ async function play(page, label, limit = 1500) {
       for (const r of ['journey', 'me', 'lib', 'ielts']) { await page.evaluate(x => window.Fasih.go(x), r); await sleep(500); shot('screen-' + r); }
       await page.evaluate(() => window.Fasih.flush());
     });
+    await step('tutor bridge', async () => {
+      const apps = JSON.parse(await page.evaluate(() => window.FasihNative.aiApps()));
+      ok(['claude', 'chatgpt', 'gemini', 'grok'].every(k => apps[k] && typeof apps[k].inst === 'boolean'), 'AI app detection answers ' + JSON.stringify(apps));
+      const cp = await page.evaluate(() => window.FasihNative.copyText('fasih clip 123') && window.FasihNative.pasteText());
+      ok(cp === 'fasih clip 123', 'clipboard copy and paste (' + cp + ')');
+      const fx = await page.evaluate(() => fetch('https://example.com/').then(r => 'reached, status ' + r.status, () => 'blocked'));
+      ok(fx === 'blocked', 'the web page itself cannot reach the internet (' + fx + ')');
+      await page.evaluate(() => window.Fasih.go('tutor')); await sleep(700); shot('tutor-page');
+      ok(await page.evaluate(() => !!(window.Fasih.tutor && document.querySelector('.page') && /المعلّم/.test(document.querySelector('.page').innerText))), 'tutor page renders');
+      // a pack shared into Fasih from another app
+      const pack = '{"fasih":1,"title":"Emulator pack","note":"Test note","words":[{"w":"zzprocurement","p":"n","l":"B2","ar":"test meaning","ex":"Public zzprocurement must be open and fair.","x":"zzprocurement"}],"mistakes":[{"q":"I am agree with you.","bad":"am agree","good":["agree"],"why":"test"}]}';
+      dsh(`am start -a android.intent.action.SEND -t text/plain -n ${PKG}/.MainActivity --es android.intent.extra.TEXT '${pack}'`); await sleep(2500);
+      const sheet = await page.evaluate(() => (document.querySelector('.sheetw') || {}).innerText || '');
+      ok(/Emulator pack/.test(sheet) && /zzprocurement/.test(sheet), 'a pack shared from another app opens the approval sheet'); shot('pack-preview');
+      await page.evaluate(() => window.Fasih.closeSheet());
+      // a single word selected in another app
+      dsh(`am start -a android.intent.action.PROCESS_TEXT -t text/plain -n ${PKG}/.MainActivity --es android.intent.extra.PROCESS_TEXT 'whistleblower'`); await sleep(2000);
+      const sheet2 = await page.evaluate(() => { const s = document.querySelector('.sheetw'); return s ? s.innerText + ' ' + [...s.querySelectorAll('input')].map(i => i.value).join(' ') : ''; });
+      ok(/whistleblower/.test(sheet2), 'a word selected in another app opens the add-word sheet'); shot('word-from-other-app');
+      await page.evaluate(() => window.Fasih.closeSheet());
+      // hand-off: no AI app on the emulator, so the website route is expected
+      const how = await page.evaluate(() => window.FasihNative.aiSend('claude', 'Fasih test request', '')); await sleep(2500); shot('handoff');
+      ok(how === 'web' || how === 'send' || how === 'copy', 'hand-off to the AI app answers (' + how + ')');
+      start(); await sleep(1500); sh('adb shell am force-stop com.android.chrome'); await sleep(1000); dismissAnr();
+      ok(await page.evaluate(() => window.FasihNative.aiKeys()).then(() => true, () => false), 'app still answers after the hand-off');
+    });
+    await step('api keys and transport', async () => {
+      const keys0 = JSON.parse(await page.evaluate(() => window.FasihNative.aiKeys()));
+      ok(Object.values(keys0).every(v => v === false), 'no API key saved at first');
+      const call = (p, path, body) => page.evaluate(([p, path, body]) => new Promise(res => {
+        const out = { ev: [], text: '' }, id = 't' + Math.random().toString(36).slice(2), t = setTimeout(() => res(Object.assign(out, { timeout: true })), 40000);
+        window.Fasih.on('http', d => { if (d.id !== id) return; out.ev.push(d.ev); if (d.ev === 'data') out.text += d.text; if (d.ev === 'error') { out.status = d.status; out.body = d.body; } if (d.ev === 'error' || d.ev === 'done') { clearTimeout(t); out.text = out.text.slice(0, 300); res(out); } });
+        window.FasihNative.aiHttp(JSON.stringify(body ? { id, p, method: 'POST', path, body, stream: true } : { id, p, method: 'GET', path, stream: false }));
+      }), [p, path, body || '']);
+      globalThis.__call = call;
+      const r0 = await call('claude', '/v1/models');
+      ok(r0.status === 401 && /no usable key/.test(r0.body || ''), 'without a key the transport refuses locally (' + JSON.stringify(r0).slice(0, 120) + ')');
+      const bad = await call('claude', '/v1/../x');
+      ok(bad.status === 0 && /bad request/.test(bad.body || ''), 'the transport rejects paths outside the API');
+      // type a DUMMY key in the native dialog, then check that each provider is reached and refuses it
+      const typeKey = async (prov) => {
+        await page.evaluate(p => window.FasihNative.askAiKey(p), prov); await sleep(1800);
+        let x = uiXml(); let m = x.match(/class="android\.widget\.EditText"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/);
+        if (m) { sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); await sleep(600); }
+        sh('adb shell input text dummy-key-0123456789abcdef'); await sleep(800);
+        x = uiXml(); m = x.match(/text="حفظ"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/);
+        if (!m) { note('key dialog: save button not found for ' + prov); sh('adb shell input keyevent 4'); await sleep(500); sh('adb shell input keyevent 4'); return false; }
+        sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); await sleep(1200);
+        return true;
+      };
+      for (const [prov, path] of [['claude', '/v1/models?limit=5'], ['chatgpt', '/v1/models'], ['gemini', '/v1beta/models?pageSize=5'], ['grok', '/v1/models']]) {
+        if (!(await typeKey(prov))) continue;
+        const has = JSON.parse(await page.evaluate(() => window.FasihNative.aiKeys()))[prov];
+        ok(has === true, prov + ': key saved (encrypted) through the native dialog');
+        const r = await call(prov, path);
+        note(prov + ' with a dummy key → ' + JSON.stringify({ ev: r.ev, status: r.status, body: String(r.body || r.text || '').slice(0, 220), timeout: r.timeout }));
+        ok(r.status >= 400 && r.status < 500, prov + ': its API is reached over HTTPS and refuses the dummy key (HTTP ' + r.status + ')');
+        // the chat request exactly as the app builds it: the endpoint must exist (an authentication refusal, not "not found")
+        const req = await page.evaluate(p => { try { const a = window.Fasih.chat.providers[p].chat.build(p === 'gemini' ? 'gemini-2.5-flash' : 'test-model', 'You are a tutor.', [{ role: 'user', text: 'Hello' }]); return a; } catch (e) { return { err: String(e) }; } }, prov);
+        if (req && req.path) {
+          const c = await call(prov, req.path, req.body);
+          note(prov + ' chat endpoint ' + req.path + ' → ' + JSON.stringify({ ev: c.ev, status: c.status, body: String(c.body || c.text || '').slice(0, 200), timeout: c.timeout }));
+          ok([400, 401, 403].includes(c.status), prov + ': chat endpoint exists and refuses the dummy key (HTTP ' + c.status + ')');
+        } else note(prov + ': chat request not built: ' + JSON.stringify(req));
+      }
+      shot('after-keys');
+      await page.evaluate(() => { setTimeout(() => location.reload(), 50); }).catch(() => null); await sleep(3000);
+      page = await connect(60000);
+      ok(!!page, 'app page reloads after the transport checks');
+    });
+    await step('camera and gallery', async () => {
+      if (!page) throw new Error('no page');
+      sh('adb logcat -c');
+      const wait = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 25000); window.Fasih.img.pick('camera', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      await sleep(4000); shot('camera-app');
+      note('after camera request: top=' + sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"').trim().replace(/\s+/g, ' ').slice(0, 200) + ' | app pid=' + pidOf());
+      fs.writeFileSync(`${OUT}/camera-log.txt`, sh('adb logcat -d').split('\n').filter(l => /Fasih|fasih|AndroidRuntime|FileProvider|ActivityTaskManager|chromium|WebView|lowmemory|lmkd|am_kill|Process .* has died/i.test(l)).slice(-160).join('\n'));
+      sh('adb shell input keyevent 4'); await sleep(1500);
+      if (!/fasih/.test(sh('adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity"'))) { sh('adb shell input keyevent 4'); await sleep(1200); }
+      const cam = await wait; note('camera request result: ' + cam);
+      ok(/cancel|ok|error no app/.test(cam), 'camera request returns to the app without a crash (' + cam + ')');
+      start(); await sleep(1500);
+      if (/evaluate failed/.test(cam)) { page = await connect(60000); if (!page) throw new Error('page lost after the camera request'); }
+      // gallery: push a picture and choose it in the system picker (best effort: the picker differs between Android versions)
+      sh('adb push test/sample.jpg /sdcard/Download/fasihtest.jpg'); sh('adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/Download/fasihtest.jpg'); await sleep(1500);
+      const wait2 = page.evaluate(() => new Promise(res => { const t = setTimeout(() => res('timeout'), 40000); window.Fasih.img.pick('gallery', (r, d) => { clearTimeout(t); res(r ? 'ok ' + r.id + ' ' + r.w + 'x' + r.h : ((d && d.ev) || 'null') + ' ' + ((d && d.msg) || '')); }); })).catch(e => 'evaluate failed: ' + String(e.message || e).split('\n')[0]);
+      let tapped = false;
+      for (let i = 0; i < 8 && !tapped; i++) {
+        await sleep(2500); const x = uiXml();
+        const tap = re => { const m = x.match(re); if (!m) return false; sh(`adb shell input tap ${(+m[1] + +m[3]) >> 1} ${(+m[2] + +m[4]) >> 1}`); return true; };
+        if (tap(/text="fasihtest\.jpg"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/)) { tapped = true; break; }
+        if (i === 0) shot('picker');
+        // open the drawer / the Downloads root when the file is not on the first screen
+        if (!(tap(/text="Downloads?"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/content-desc="Show roots"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/) || tap(/text="(Files|Documents)"[^>]*bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"/))) { /* wait for the next dump */ }
+      }
+      if (!tapped) { shot('picker-not-automated'); for (let i = 0; i < 3; i++) { sh('adb shell input keyevent 4'); await sleep(700); } start(); await sleep(1500); }
+      const gal = await wait2; note('gallery request result: ' + gal + (tapped ? '' : ' (the picker could not be driven automatically)'));
+      if (/^ok /.test(gal)) {
+        const id = gal.split(' ')[1];
+        const img = await page.evaluate(i => fetch(window.Fasih.img.url(i)).then(r => r.status + ' ' + r.headers.get('content-type'), e => 'fail ' + e), id);
+        ok(/^200 image\/jpeg/.test(img), 'the picked photo is scaled and shown inside the app (' + gal + ' → ' + img + ')');
+        if (globalThis.__call) {
+          const body = JSON.stringify({ model: 'test-model', max_tokens: 16, messages: [{ role: 'user', content: [{ type: 'text', text: 'What is in this photo?' }, { type: 'image', source: { type: 'base64', media_type: 'image/jpeg', data: '@@IMG:' + id + '@@' } }] }] });
+          const c = await globalThis.__call('claude', '/v1/messages', body);
+          note('request with the photo attached → ' + JSON.stringify({ ev: c.ev, status: c.status, body: String(c.body || '').slice(0, 160) }));
+          ok(c.status === 401, 'a request carrying the photo is sent (refused only because the key is a dummy, HTTP ' + c.status + ')');
+        }
+      } else note('photo pipeline not verified on this emulator');
+      if (/evaluate failed/.test(gal)) page = await connect(60000);
+    });
     await step('restart', async () => {
+      if (!page) page = await connect(60000);
       const native = await page.evaluate(() => { try { const o = JSON.parse(window.FasihNative.restore()); return o.onboard === true && Object.keys(o.cards).length; } catch (e) { return -1; } });
       ok(native === cards, 'progress stored in the native file (' + native + ' cards)');
       sh(`adb shell am force-stop ${PKG}`); await sleep(2500); start(); await sleep(3000); dismissAnr();

@@ -355,9 +355,6 @@
     return `<svg class="chart" viewBox="0 0 ${W} ${H}" width="100%" direction="ltr">${g}<text x="4" y="9" font-size="9" fill="currentColor">${esc(o.unit || '')}</text></svg>${legend(S.map(s => s.name))}`;
   };
   const wcount = t => (t.trim().match(/[A-Za-z0-9'’-]+/g) || []).length;
-  const claudePrompt = (kind, task, text) => (kind === 'w2' ? 'Please assess this IELTS Writing Task 2 essay' : kind === 'w1' ? 'Please assess this IELTS Academic Writing Task 1 report' : 'Please correct this short English writing exercise') +
-    '. I am an Arabic speaker working towards IELTS band 7.\n1) ' + (kind === 'wsent' ? 'Tell me my approximate CEFR level for this text.' : 'Estimate a band for each of the four criteria and overall.') +
-    '\n2) List my mistakes with the correction and a short explanation in Arabic.\n3) Rewrite my two weakest sentences at a higher level.\n4) Give me three things to practise next.\n\nTASK:\n' + task + '\n\nMY TEXT:\n' + text;
   const writeFlow = kind => (task, end) => {
     const S = F.S, o = F.DB.byId[task.ref], prompt = o.prompt || o.task, min = kind === 'w2' ? 250 : kind === 'w1' ? 150 : 0;
     const saved = S.texts[o.id];
@@ -384,8 +381,8 @@
         const checks = kind === 'wsent' ? (o.check || []) : ['أجبتُ عن كل أجزاء السؤال', 'لكل فقرة فكرة رئيسية واضحة', 'استعملت أدوات ربط متنوعة دون مبالغة', 'راجعت الأزمنة وأدوات التعريف (a / the)'].concat(kind === 'w1' ? ['كتبت نظرة عامة (overview) دون رأي شخصي'] : ['موقفي واضح من المقدمة إلى الخاتمة']);
         el.querySelector('.after').innerHTML = (o.model ? `<h3>نموذج إجابة</h3><div class="mbox lk en" dir="ltr">${F.words(o.model).replace(/\n/g, '<br>')}</div>` : '<div class="hint">هذا السؤال بلا نموذج جاهز: استعمل زر التصحيح أدناه.</div>') + (o.notesAr ? `<div class="tipbox">${md(o.notesAr)}</div>` : '') +
           `<h3>راجع نصك بنفسك</h3>${checks.map(c => `<label class="ck"><input type="checkbox"> ${esc(c)}</label>`).join('')}
-          <button class="btn ghost share">📤 أرسل نصي إلى Claude للتصحيح</button><div class="hint">سيُنسخ نصك مع طلب تصحيح جاهز. الصقه في محادثة جديدة مع Claude حين تريد تقييماً مفصلاً.</div><button class="btn big nx">حفظ ومتابعة</button>`;
-        el.querySelector('.share').onclick = () => F.share('Fasih writing', claudePrompt(kind, prompt, ta.value));
+          ${F.tutor && F.tutor.send ? `<button class="btn ghost share">📤 أرسل نصي إلى المعلّم (${esc(F.tutor.aiName())}) للتصحيح</button><div class="hint">يفتح ${esc(F.tutor.aiName())} ومعه نصك وطلب تصحيح جاهز. بعد الرد انسخ «حزمة فصيح» والصقها في تبويب المعلّم، فتدخل أخطاؤك وكلماتك الجديدة في مراجعتك.</div>` : ''}<button class="btn big nx">حفظ ومتابعة</button>`;
+        const sh = el.querySelector('.share'); if (sh) sh.onclick = () => F.tutor.send('fix', { text: ta.value, task: prompt, kind }, '');
         el.querySelector('.nx').onclick = () => done({ ok: true });
       };
     });

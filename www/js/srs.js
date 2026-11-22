@@ -69,6 +69,10 @@
     const cnt = { g: 0, d: 0, c: 0 };
     let n = 0;
     for (;;) {
+      if (n % 2 === 0 || n === 1) { // words from the tutor first: the first two, then every second word
+        const tv = F.tutorQueue().find(x => !S.cards[x.id] && !x._q);
+        if (tv) { tv._q = 1; used.push(tv.w.slice(0, 4).toLowerCase()); n++; yield tv; continue; }
+      }
       const chunk = S.daysDone >= 14 ? 0.1 : 0, dom = Math.min(0.6, S.set.domain / 100);
       const tgt = { c: chunk, d: dom, g: Math.max(0.1, 1 - chunk - dom) };
       const order = ['g', 'd', 'c'].sort((a, b) => (tgt[b] * (n + 1) - cnt[b]) - (tgt[a] * (n + 1) - cnt[a]));
@@ -85,12 +89,27 @@
         if (v) break;
       }
       if (!v) return;
-      v._q = 1; used.push(v.w.slice(0, 4).toLowerCase()); cnt[k]++; n++;
+      v._q = 1; used.push(v.w.slice(0, 4).toLowerCase()); if (cnt[k] != null) cnt[k]++; n++;
       yield v;
     }
   };
-  SRS.clearQueued = () => { ['g', 'd', 'c'].forEach(k => F.DB.tracks[k].forEach(v => { if (v._q) delete v._q; })); };
-  SRS.remaining = () => { const T = F.DB.tracks, S = F.S; let n = 0; ['g', 'd', 'c'].forEach(k => T[k].forEach(v => { if (!S.cards[v.id]) n++; })); return n; };
+  /* words the tutor wants taught first: its priority ids (built-in words without a card), then the words it added */
+  F.tutorQueue = () => {
+    const S = F.S, T = S.tutor, out = [], seen = {};
+    if (!T) return out;
+    if (Array.isArray(T.prio) && T.prio.length) {
+      const keep = T.prio.filter(id => F.DB.byId[id] && !S.cards[id]); // prune lazily
+      if (keep.length !== T.prio.length) { T.prio = keep; F.save(); }
+      keep.forEach(id => { seen[id] = 1; out.push(F.DB.byId[id]); });
+    }
+    (F.DB.tracks.t || []).forEach(v => { if (!S.cards[v.id] && !seen[v.id]) out.push(v); });
+    return out;
+  };
+  SRS.clearQueued = () => {
+    ['g', 'd', 'c', 't'].forEach(k => (F.DB.tracks[k] || []).forEach(v => { if (v._q) delete v._q; }));
+    ((F.S.tutor && F.S.tutor.prio) || []).forEach(id => { const v = F.DB.byId[id]; if (v && v._q) delete v._q; });
+  };
+  SRS.remaining = () => { const T = F.DB.tracks, S = F.S; let n = 0; ['g', 'd', 'c', 't'].forEach(k => (T[k] || []).forEach(v => { if (!S.cards[v.id]) n++; })); return n; };
 
   /* current level of the learner = level of the next general word to learn */
   F.level = () => { const S = F.S, a = F.DB.tracks.g; let p = S.ptr.g; while (p < a.length && S.cards[a[p].id]) p++; return p < a.length ? a[p].l : 'C1'; };

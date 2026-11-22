@@ -104,3 +104,27 @@ body.running .tabs{display:none}
 .chartbox{direction:ltr}.chartbox .ct{text-align:left}
 /* older WebView engines without flex gap */
 @supports not (aspect-ratio:1){.row>*{margin:4px}.opts>.opt{margin-bottom:9px}.fqo>.opt{margin-bottom:7px}.pool>*,.line>*,.chipsrow>*,.vchips>*,.vmeta>*{margin:3px}.task>*,.li>*{margin-inline-end:8px}.tiles>*{margin-bottom:10px}.heat i{height:12px}.player>*{margin:4px}.pair>*{margin:3px}.fb>*{margin:0 6px}.rh>*{margin:0 5px}.today .trow>*{margin:0 7px}}
+/* tutor */
+.tabs button{min-width:0}
+.tu-web{display:block;font-style:normal;font-size:.62rem;font-weight:600;color:var(--mut);line-height:1.1}
+.chipsrow .chip{min-height:40px;padding:6px 12px}
+.tu-seg{display:flex;background:var(--bg);border-radius:12px;padding:3px;margin:8px 0 4px}.tu-seg button{flex:1;padding:9px 6px;border-radius:10px;font-weight:700;font-size:.9rem;color:var(--mut)}.tu-seg .on{background:var(--card);color:var(--pri);box-shadow:var(--sh)}
+.tu-api{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}.tu-api small{flex:1;min-width:90px;text-align:center}
+.tu-home .tu-sum{font-size:.92rem;margin:4px 0 8px;color:var(--mut)}
+.tu-h{margin:14px 0 4px;font-size:.92rem;color:var(--mut)}
+.tu-row{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-bottom:1px solid var(--line);font-size:.95rem}.tu-row:last-child{border-bottom:0}
+.tu-row input{width:20px;height:20px;margin-top:3px;flex:none}.tu-row .bad,.tu-row .good{display:inline-block}
+.tu-cnt{margin-top:10px}.tu-err{color:var(--no)}
+.tu-ta{min-height:120px;resize:vertical;line-height:1.6;font-size:.95rem}
+.tu-l{display:block;font-weight:600;margin:10px 0}.tu-l .inp{margin-top:4px;max-width:none;width:100%}
+.tu-picks{display:flex;flex-direction:column;gap:6px;margin-bottom:6px}.tu-picks .chip{text-align:start;min-height:38px;padding:6px 10px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.tu-pre{white-space:pre-wrap;word-break:break-word;font-size:.74rem;line-height:1.5;max-height:42vh;overflow:auto;background:var(--bg);border-radius:10px;padding:8px;margin:8px 0 0;font-family:ui-monospace,Menlo,Consolas,monospace;text-align:left}
+.tu-photo{margin:8px 0}.tu-th{margin-top:6px}.tu-ph{position:relative;display:inline-block}.tu-ph img{width:84px;height:84px;object-fit:cover;border-radius:12px;display:block;border:1px solid var(--line)}.tu-x{position:absolute;top:-6px;left:-6px;inset-inline-end:-6px;width:24px;height:24px;border-radius:50%;background:var(--no);color:#fff;font-size:.7rem}
+.tu-quote{background:var(--card);border-radius:12px;padding:10px 12px;margin:8px 0;white-space:pre-wrap;word-break:break-word;font-size:.95rem}
+.tu-dots{display:inline-flex;gap:4px;direction:ltr}.tu-dots i{width:10px;height:10px;border-radius:50%;background:var(--line)}.tu-dots i.on{background:var(--ok)}
+.tu-err1{padding:12px 14px}.tu-err1 .crow{margin-top:8px}
+.tu-det{margin:12px 0 0}
+.sheet.tu-prev,.sheet.tu-req{max-height:90vh}
+.tu-errs{margin-top:12px}.tu-prev>.row{position:sticky;bottom:calc(-18px - env(safe-area-inset-bottom));background:var(--bg);padding:10px 0 6px;margin-top:6px;z-index:1}
+/* old WebViews without flex gap */
+@supports not (aspect-ratio:1){.tu-api>*,.tu-row>*{margin-inline-end:8px}.tu-picks>*{margin-bottom:6px}.tu-dots i{margin:0 2px}}
